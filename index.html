@@ -229,7 +229,13 @@
         return createElement("tbody", t);
       }
 
-      function fillWithMasses(masses, tbody) {
+      function fillWithMasses(masses, tbody) {        
+        const link_names = {
+          "missalette" : "missalette-a4",
+          "missalette-booklet":  "missalette-booklet",
+          "pew-sheet": "pew-sheet",
+          "pew-sheet-booklet": "pew-sheet-booklet",
+        }
         for (const mass of masses) {
           const mass_r = createElement("tr", tbody);
           createElement("td", mass_r, mass, { class: "mass" });
@@ -237,17 +243,13 @@
             for (i = 0; i < 4; i++) createElement("td", mass_r, symbols.todo);
             continue;
           }
-          for (const p_type of [
-            "missalette",
-            "missalette-booklet",
-            "pew-sheet",
-            "pew-sheet-booklet",
-          ]) {
+          for (const p_type in link_names) {
             fn = to_kebab_case(mass) + "_" + p_type;
-            if (fn in links) {
+            link = to_kebab_case(mass) + "_" + link_names[p_type];
+            if (link in links) {
               const f_r = createElement("td", mass_r);
               createElement("a", f_r, symbols.found, {
-                href: links[fn],
+                href: links[link],
                 id: fn,
               });
             } else {
