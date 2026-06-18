@@ -1,0 +1,765 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "Dominica XIV Post Pentecosten",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PRo(f)té(fffd)ctor(ef) no(ghhg)ster(g.) *(,) á(gjj)spi(h)ce,(g) De(h_f/h_g/hffef)us,(fe..) (;) et(ef) ré(gh)spi(g)ce(g.) (,) in(gh~) fá(hhg)ci(f)em(fg'h) Chri(jj)sti(kjjh) tu(h.g!hwihi)i :(ih..) (:) qui(ixh.g!hwih)a(h) mé(ixh.g!hwi)li(hg)or(ghG'F) est(f.) (,) di(f)es(h) u(h!iw!jvI'HG'h)na(hg..) (,) in(h) á(h)tri(ge)is(f_g) tu(efED'e)is(ed..) (;) su(de!f'g)per(gh) míl(h/jjvGF'fd//fhg___/hfg)li(egff)a.(fe..) (::) <i>Ps.</i> Quam(hg~) di(gh)lé(h)cta(h) ta(h)ber(h)ná(h)cu(h)la(h) tu(h)a,(h) Dó(h)mi(hg)ne(gi) vir(i)tú(hi)tum!(h.) *(:) con(hg~)cu(gh)pís(h)cit,(h) et(h) dé(h)fi(h)cit(h) á(h)ni(h)ma(h) me(h)a(h.) (,) in(h) á(h)tri(h)a(gf) Dó(gh)mi(g)ni.(e.) (::) Gló(hg)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(gf) u(gh) a(g) e.</eu>(e.) (::)",
+      "availableTranslations": {
+        "English": "Behold, O God, our Protector, and look upon the face of Your Anointed. Better is one day in Your courts than a thousand elsewhere. How lovely is Your dwelling place, O Lord of Hosts! My soul yearns and pines for the courts of the Lord.",
+        "Espanol": "¡Oh Dios! escudo nuestro, levanta los ojos y mira el rostro de tu Ungido; porque mejor es un día en tus atrios que mil fuera de ellos. ¡Cuán amables son tus moradas, Señor de los ejércitos! Mi alma suspira y desfallece por los atrios del Señor.",
+        "Francais": "Ô Dieu, notre protecteur, jetez les yeux et regardez la face de votre Christ. Car mieux vaut un seul jour dans vos parvis que mille ailleurs. Que vos demeures sont aimables, Seigneur des armées ! Mon âme se consume du désir de revoir les parvis du Seigneur.",
+        "Italiano": "Sei il nostro scudo, o Dio, guarda e rimira il tuo Consacrato: poiché un giorno passato nel tuo luogo santo vale piú di mille altri. O Dio degli eserciti, quanto amabili sono le tue dimore! l’ànima mia anela e spàsima verso gli atrii del Signore.",
+        "Nederlands": "God, onze Beschermer, zie op ons neer en sla uw ogen op het aanschijn van uw gezalfde, want één dag in uw voorhoven is beter dan duizend daarbuiten. Hoe lieflijk zijn uw woontenten, o Heer der heerscharen. Mijn ziel kwijnt van verlangen naar de voorhoven des Heren.",
+        "Polski": "Obrońco nasz, spojrzyj, Boże, i wejrzyj na oblicze Pomazańca swego. Zaiste, lepszy dzień jeden w przedsionkach Twoich, niźli gdzie indziej tysiące. Jakże miłe są przybytki Twoje, Panie Zastępów! Wzdycha i tęskni dusza moja do przedsionków Twoich.",
+        "Portugues": "Ó Deus, nosso protector, olhai para nós e fitai a face do vosso Cristo: É melhor passar um só dia nos vossos átrios do que mil em outros lugares. Como são amáveis os vossos tabernáculos, Senhor dos exércitos! Minha alma suspira pelos átrios do Senhor e desfalece de saudade ao pensar neles.",
+        "Ukrainian": "Заcтупнику наш, Боже, побач і поглянь на лице помазаника твого. Бо один день у дворах твоїх краще тиcячі. Які любі оcелі твої, Гоcподи cил. Прагне й тужить душа моя за дворами Гоcподніми."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Custódi, Dómine, quǽsumus, Ecclésiam tuam propitiatióne perpétua: et quia sine te lábitur humána mortálitas; tuis semper auxíliis et abstrahátur a nóxiis et ad salutária dirigátur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Protect Your Church by Your abiding mercy, we beseech You, O Lord, and since all mortals fall without You, may Your help keep them from danger and guide them to salvation.",
+        "Bohemice": "Střež, Pane, prosíme, svou Církev věčným slitováním; a protože bez tebe selhává lidská smrtelnost, svou neustávající pomocí ji vytahuješ z toho, co jí škodí, a vedeš ke spáse.",
+        "Espanol": "Te rogamos, Señor, guardes siempre misericordiosamente a tu Iglesia; y pues sin ti no puede sostenerse la humana naturaleza mortal, haz que tus auxilios la preserven siempre de lo nocivo y la dirijan a lo saludable.",
+        "Francais": "Veillez sur votre Église, Seigneur, avec une constante sollicitude, et puisque sans vous notre nature, sujette à la mort, ne peut que succomber, qu'elle soit toujours arrachée par vos secours à ce qui lui est nuisible et guidée vers ce qui doit la sauver.",
+        "Italiano": "O Signore, Te ne preghiamo, custodisci propizio costantemente la tua Chiesa, e poiché senza di Te viene meno l’umana debolezza, dal tuo continuo aiuto sia liberata da quanto le nuoce, e guidata verso quanto le giova a salvezza.",
+        "Nederlands": "Wij vragen U, Heer, bescherm uw Kerk door uw blijvende gunst en laat uw hulp al wat schadelijk is van haar afweren, en haar richten op wat haar zalig is, omdat de sterfelijke mens zonder U geen stand kan houden.",
+        "Polski": "Strzeż Twój Kościół, prosimy Cię Panie, w nieustannym miłosierdziu swoim, a że bez Twej pomocy nie ostoi się człowiek śmiertelny, niechaj go stale Twa łaska od rzeczy zgubnych odciąga i prowadzi do zbawienia.",
+        "Portugues": "Senhor, guardai misericordiosamente a vossa Igreja para sempre; e, visto que sem Vós a natureza humana, sujeita à morte, não pode subsistir, dignai-Vos com vosso perpétuo auxílio preservá-la de tudo o que lhe pode produzir algum mal e conduzi-la a tudo o que seja salutar à sua salvação.",
+        "Ukrainian": "Бережи, Господи, просимо, Церкву Твою вічною милістю, і, оскільки без Тебе падає смертна людина, нехай вона завжди з Твоєю допомогою утримується від злого, і направляється до спасительного."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Fratres: Spíritu ambuláte, et desidéria carnis non perficiétis. Caro enim concupíscit advérsus spíritum, spíritus autem advérsus carnem: hæc enim sibi ínvicem adversántur, ut non quæcúmque vultis, illa faciátis. Quod si spíritu ducímini, non estis sub lege. Manifésta sunt autem ópera carnis, quæ sunt fornicátio, immundítia, impudicítia, luxúria, idolórum sérvitus, venefícia, inimicítiæ, contentiónes, æmulatiónes, iræ, rixæ, dissensiónes, sectæ, invídiæ, homicídia, ebrietátes, comessatiónes, et his simília: quæ prædíco vobis, sicut prædíxi: quóniam, qui talia agunt, regnum Dei non consequántur. Fructus autem Spíritus est: cáritas, gáudium, pax, patiéntia, benígnitas, bónitas, longanímitas, mansuetúdo, fides, modéstia, continéntia, cástitas. Advérsus hujúsmodi non est lex. Qui autem sunt Christi, carnem suam crucifixérunt cum vítiis et concupiscéntiis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Brethren: Walk in the Spirit, and you will not fulfill the lusts of the flesh. For the flesh lusts against the spirit, and the spirit against the flesh; for these are opposed to each other, so that you do not do what you would. But if you are led by the Spirit, you are not under the Law. Now the works of the flesh are manifest, which are immorality, uncleanness, licentiousness, idolatry, witchcrafts, enmities, contentions, jealousies, anger, quarrels, factions, parties, envies, murders, drunkenness, carousings, and suchlike. And concerning these I warn you, as I have warned you, that they who do such things will not attain the kingdom of God. But of the fruit of the Spirit is: charity, joy, peace, patience, kindness, goodness, long-suffering, mildness, faith, modesty, continency, chastity. Against such things there is no law. And they who belong to Christ have crucified their flesh with its passions and desires.",
+        "Espanol": "Hermanos: Vivid según el espíritu y no satisfaréis los apetitos de la carne. Porque la carne tiene deseos contrarios a los del espíritu, y el espíritu, contrarios a los de la carne; son entre sí opuestos, por lo cual no hacéis lo que queréis. Mas si os conduce el Espíritu, no estáis bajo la Ley. Manifiestas son las obras de la carne: fornicación, deshonestidad, lujuria, idolatría, magia, enemistades, pleitos, enojos, celos, riñas, disensiones, herejías, envidias, homicidios, embriagueces, orgías, y cosas parecidas. Os prevengo, como ya tengo dicho, que los que tales cosas hacen no alcanzarán el reino de Dios. Al contrario, los frutos del Espíritu son: caridad, gozo, paz, paciencia, benignidad, bondad, longanimidad, mansedumbre, fe, modestia, continencia, castidad. Contra tales cosas no hay Ley. Pero los que son de Cristo, han crucificado su carne con sus pasiones y concupiscencias.",
+        "Francais": "Frères, marchez selon l'esprit, et vous n'accomplirez pas les convoitises de la chair. Car la chair a des désirs contraires à ceux de l'esprit, et l'esprit en a de contraires à ceux de la chair ; ils sont opposés l'un à l'autre, de telle sorte que vous ne faites pas ce que vous voulez. Mais si vous êtes conduits par l'Esprit, vous n'êtes plus sous la Loi. Or les œuvres de la chair sont manifestes : ce sont l'impudicité, l'impureté, le libertinage, l'idolâtrie, les maléfices, les inimitiés, les contentions, les jalousies, les emportements, les disputes, les dissensions, les sectes, l'envie, les meurtres, l'ivrognerie, les excès de table, et autres choses semblables. Je vous préviens, comme je l'ai déjà fait, que ceux qui commettent de telles choses n'hériteront pas du royaume de Dieu. Le fruit de l'Esprit, au contraire, c'est la charité, la joie, la paix, la patience, la mansuétude, la bonté, la fidélité, la douceur, la tempérance. Contre de pareils fruits, il n'y a pas de loi. Ceux qui sont à Jésus-Christ ont crucifié la chair avec ses passions et ses convoitises.",
+        "Italiano": "Fratelli: Camminate secondo lo spirito e non accondiscendete ai desiderii della carne. Poiché la carne ha desiderii contrarii allo spirito, e lo spirito contrarii alla carne: essi lottano tra loro, dimodoché voi non fate ciò che vorreste fare. Poiché se siete condotti dallo spirito, non siete sotto la legge. Ora, le opere della carne sono manifeste: esse sono la fornicazione, gli atti impuri, l’impudicizia, la lussuria, l’idolatria, la magia, le inimicizie, i litigi, le gelosie, l’ira, le lotte, le discordie, le sètte, l’invidia, gli omicidi, l’ubbriachezza, l’intemperanza e altre cose simili; a riguardo di queste cose io vi avverto, come già vi avvertii, che coloro che le commettono non conseguiranno il Regno di Dio. Invece, frutto dello Spirito è la carità, la gioia, la pace, la pazienza, la benignità, la bontà, la longanimità, la mansuetudine, la fede, la modestia, la continenza, la castità: contro queste cose non c’è legge. Quelli che appartengono al Cristo hanno crocifisso la loro carne con le sue passioni e con le sue concupiscenze.",
+        "Magyar": "Kérlek tehát benneteket, hogy lélek szerint éljetek, s akkor majd nem teljesítitek a test kívánságait.  A test ugyanis a lélek ellen tusakodik, a lélek meg a test ellen. Ellentétben állnak egymással, s így nem azt teszitek, amit szeretnétek.  Vezessen benneteket a lélek, akkor nem vagytok alávetve a törvénynek.  A test cselekedetei nyilvánvalók: kicsapongás, tisztátalanság, fajtalanság,  bálványimádás, babonaság, ellenségeskedés, viszálykodás, vetélkedés, harag, veszekedés, szakadás, pártoskodás, irigykedés,  gyilkosság, részegeskedés, tobzódás és ezekhez hasonlók. Mint már előbb mondtam, most ismét kijelentem: Akik ilyeneket művelnek, nem öröklik Isten országát.  A Lélek gyümölcse viszont: szeretet, öröm, békesség, türelem, kedvesség,  jóság, hűség, szelídség, önmegtartóztatás. Ezek ellen nincs törvény.  Akik Krisztus Jézushoz tartoznak, keresztre feszítették testüket szenvedélyeikkel és kívánságaikkal együtt.",
+        "Nederlands": "Broeders, gij moet leven naar de geest; dan zult gij de begeerten van het vlees niet inwilligen. Het vlees immers begeert tegen de geest, en de geest tegen het vlees; want de een strijdt tegen de ander, om u af te trekken van hetgeen gij zoudt willen doen. Maar als gij u laat leiden door de geest, is er geen wet, die u treft. De werken nu van het vlees zijn welbekend; het zijn immers: ontucht, onreinheid, oneerbaarheid en zedeloosheid; afgodendienst, toverij en vijandschap; twist, afgunst en toorn; onenigheid, tweedracht en verdeeldheid; jaloersheid, doodslag, dronkenschap en onmatigheid; en meer dergelijke dingen. Maar ik zeg u van tevoren, zoals ik vroeger ook reeds gedaan heb, dat zij, die zulke dingen doen, het rijk van God niet zullen verwerven. Daarentegen zijn de vruchten van de geest: liefde en vreugde, vrede en geduld; welwillendheid en goedheid, lankmoedigheid en zachtmoedigheid; getrouwheid en bescheidenheid, zelfbeheersing en reinheid. Tegen zulke mensen richt zich geen enkele wet. Degenen nu, die Christus toebehoren, hebben hun vlees aan het kruis geslagen met al zijn ondeugden en begeerten.",
+        "Polski": "Bracia: Według ducha postępujcie, a pożądliwościom ciała nie ulegniecie. Ciało bowiem pożąda przeciw duchowi, a duch przeciw ciału, bo sprzeciwiają się one sobie nawzajem, abyście nie czynili cokolwiek chcecie. Jeśli duch wami kieruje, nie jesteście pod Zakonem. A jawne są uczynki ciała, takie, jak nierząd, nieczystość, bezwstyd, rozpusta, bałwochwalstwo, gusła, nieprzyjaźnie, swary, zawiści, gniewy, zwady, niesnaski, odstępstwa, zazdrości, zabójstwa, pijaństwa, obżarstwa i tym podobne; o których mówię wam, jak i przedtem mówiłem, że ci, którzy takich rzeczy się dopuszczają, Królestwa Boże nie dostąpią. A owocem ducha jest miłość, wesele, pokój, cierpliwość, uprzejmość, dobroć, wspaniałomyślność, łagodność, wierność, skromność, wstrzemięźliwość, czystość. Przeciw takim nie ma Zakonu. A ci, którzy są Chrystusowi, ciało swe ukrzyżowali wraz z namiętnościami i pożądliwościami.",
+        "Portugues": "Meus irmãos: Andai guiados pelo espírito, e não tereis os desejos da carne; Pois a carne tem desejos contrários aos do espírito, e o espírito tem desejos contrários aos da carne. São opostos entre si. Deste modo não podeis fazer tudo quanto desejais. Se obedecerdes ao espírito, não estareis sob a lei. Ora as obras da carne são bem manifestas, quais são: a cópula, a imundícia, a impudicícia, a luxúria, a idolatria, os envenenamentos, as inimizades, as contendas, as emulações, as iras, as discórdias, as discussões, as heresias, as invejas, os homicídios, a embriaguez, as comezanas e ainda outras cousas semelhantes. Eu vos declaro (como já vo-lo disse) que aqueles que cometem tais cousas não entrarão no reino de Deus. Porém, os frutos do espírito são os seguintes: a caridade, a alegria, a paz, a paciência, a mansidão, a bondade, a longanimidade, a doçura, a fé, a modéstia, a continência e a castidade. Contra estes frutos não há lei a opor. Aqueles que são de Cristo crucificaram a sua carne, as suas paixões e os seus desejos.",
+        "Ukrainian": "Брати: Духом ходіте, і тіла пожадливостей не будете чинити; бо тіло пожадає проти духа, і дух пожадає проти тіла. Вони суперечать одне одному, так що ви не можете робити того, що хотіли б. А коли дух вас водить, то ви не під законом. Учинки ж тіла явні: розпуста, нечистота, розгнузданість, ідолослужба, чари, ворогування, свари, заздрість, гнів, суперечки, незгоди, єресі, зависті, пияцтво, гульня і таке інше, про що я вас попереджаю, - як я вже й раніше казав, що ті, що таке чинять, царства Божого не успадкують. А плід Духа: любов, радість, мир, довготерпіння, лагідність, доброта, вірність, тихість, здержливість. На тих то нема закону. Ті ж, що є Ісус-Христові, розп’яли тіло з його пристрастями та пожадливостями."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale & Alleluia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BO(ff)num(fg) est(fef.) (,) *() con(f)fí(ixg!hwi)de(gf)re(fgFD.1) (,) in(d) Dó(dgf/gh)mi(g)no,(ixg./hiGF'fd/f_g_f._) (;) quam(ixhih) con(hg~)fí(gj)de(jjh)re(ixhv.fhg___/hiH'GF'fhvGFgf..) (,) in(fg) hó(g)mi(gff)ne.(dec.) (,) (fhg___/jkijh.fhg/hggf.0) (z0::c3) <sp>V/</sp>. Bo(d)num(f) est(gxfh/ih/i_h//ivFD'//fh.ivFD'f!hfg.) (,) (fh/ih/i_h//ivFD'e_d.0ddd/f_h/ijh.1) (;) spe(hi)rá(h)re(hg) in(ij) Dó(i_h)mi(h)no,(hg/i_h//jvIH'Ghf..) (:) quam(hh) spe(h)rá(ih/ij_h ih/ij_ij//hi/jij)re(jh/jkihh/fgf.) (;) *() in(de'f) prin(f)cí(fhGF')pi(i)bus.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff/dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "It is better to take refuge in the Lord than to trust in man. It is better to take refuge in the Lord than to trust in princes.",
+        "Espanol": "Mejor es confiar en el Señor que confiar en el hombre. Mejor es esperar en el Señor que esperar en los príncipes. Aleluya, aleluya. Venid, cantemos alegres al Señor; aclamemos a Dios nuestro Salvador. Aleluya.",
+        "Francais": "Il vaut mieux se confier dans le Seigneur que se confier en l'homme. Il vaut mieux espérer dans le Seigneur que d'espérer dans la puissance des princes. Alléluia, alléluia. Venez, exultons pour le Seigneur, jubilons pour Dieu, notre salut. Alléluia.",
+        "Italiano": "È meglio confidare nel Signore che confidare nell’uomo. È meglio sperare nel Signore che sperare nei príncipi. Allelúia, allelúia. Venite, esultiamo nel Signore, rallegriamoci in Dio nostra salvezza. Allelúia.",
+        "Nederlands": "Beter is het te vertrouwen op de Heer dan zich op mensen te verlaten.  Beter is het te hopen op de Heer dan te vertrouwen op vorsten. Alleluia, alleluia.",
+        "Polski": "Lepiej zawierzyć Panu, niż zawierzyć człowiekowi. Lepiej zaufać Bogu, niż zaufać możnym świata. Alleluja, alleluja. Pójdźcie, śpiewajmy Panu, wysławiajmy Boga, Zbawiciela swego. Alleluja.",
+        "Portugues": "É melhor confiar no Senhor do que nos homens. É melhor esperar em Deus do que nos príncipes. Aleluia, aleluia. Vinde, cantemos com alegria ao Senhor, exultemos jubilosamente em Deus, nosso Salvador. Aleluia.",
+        "Ukrainian": "Краще надіятиcь на Гоcпода, ніж покладати надію на чоловіка. Краще надіятиcь на Гоcпода, ніж надіятиcя на князів. Aлілуя, aлілуя. Прийдіте, радіcно заcпіваймо Гоcподеві, воcкликуймо Богові, Cпаcителеві нашому. Aлілуя."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c2) AL(c)le(c)lú(f_eg){ia}.(ghGF'fd.) <clear>*(;) <i>ij.</i>(fgf___ff'g//fff/ghffc.) (,) (fdf./efD'Cd_eddc.) (::) <sp>V/</sp>. Ve(c)ní(cfe/gh)te,(g.) (;) ex(g)sul(gf~)té(g/iig)mus(ghfgvFEfe..) (,) Dó(f_g_e_)mi(fgF'E)no :(f.g!hwihhg.) (:) <nlba>ju(g)bi(g_e)lé(f!gwhgh)mus</nlba>(g.) (,) De(g!iig//f_hGF'fhGF'fvE'DC)o(ddc.) (;) sa(cd)lu(c)tá(c.d!ewfef)ri(e.) (,) *() no(f_g_f_fe/!f!gwhgh)stro.(g/iig/he/f_g) (;) (d!ewf'!gv//iig/he/f_g) (,) (g/iii_g//jkI'GiivG'Fiig.) (,) (g/iifhvGF'fc.) (;) (dffe/fhGF'Dgf/gffc.) (,) (fffvD'Cd_eddc.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. Come, let us sing joyfully to the Lord; let us acclaim the God of our salvation. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Komt, laten wij jubelen voor de Heer. Laten wij juichen voor God, ons heil. Alleluia."
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus discípulis suis: Nemo potest duóbus dóminis servíre: aut enim unum ódio habébit, et álterum díliget: aut unum sustinébit, et álterum contémnet. Non potéstis Deo servíre et mammónæ. Ideo dico vobis, ne sollíciti sitis ánimæ vestræ, quid manducétis, neque córpori vestro, quid induámini. Nonne ánima plus est quam esca: et corpus plus quam vestiméntum? Respícite volatília cœli, quóniam non serunt neque metunt neque cóngregant in hórrea: et Pater vester cœléstis pascit illa. Nonne vos magis pluris estis illis? Quis autem vestrum cógitans potest adjícere ad statúram suam cúbitum unum? Et de vestiménto quid sollíciti estis? Consideráte lília agri, quómodo crescunt: non labórant neque nent. Dico autem vobis, quóniam nec Sálomon in omni glória sua coopértus est sicut unum ex istis. Si autem fænum agri, quod hódie est et cras in clíbanum míttitur, Deus sic vestit: quanto magis vos módicæ fídei? Nolíte ergo sollíciti esse, dicéntes: Quid manducábimus aut quid bibémus aut quo operiémur? Hæc enim ómnia gentes inquírunt. Scit enim Pater vester, quia his ómnibus indigétis. Quǽrite ergo primum regnum Dei et justítiam ejus: et hæc ómnia adjiciéntur vobis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus said to His disciples: No man serve two masters; for either he will hate the one and love the other, or else he will stand by the one and despise the other. You cannot serve God and mammon. Therefore I say to you, do not be anxious for your life, what you shall eat; nor yet for your body, what you shall put on. Is not the life a greater thing than the food, and the body than the clothing? Look at the birds of the air: they do not sow, or reap, or gather into barns; yet your heavenly Father feeds them. Are not you of much more value than they? But which of you by being anxious about it can add to his stature a single cubit? And as for clothing, why are you anxious? Consider how the lilies of the field grow; they neither toil nor spin, yet I say to you that not even Solomon in all his glory was arrayed like one of those. But if God so clothes the grass of the field, which flourishes today but tomorrow is thrown into the oven, how much more you, O you of little faith! Therefore do not be anxious, saying, ‘What shall we eat?’ or, ‘What shall we drink?’ or, ‘What are we to put on?’ - for after all these things the Gentiles seek; - for your Father knows that you need all these things. But seek first the Kingdom of God and His justice, and all these things shall be given you besides.",
+        "Espanol": "En aquel tiempo: Dijo Jesús a sus discípulos: Nadie puede servir a dos señores, porque o aborrecerá al uno y amará al otro, o al uno sufrirá y al otro despreciará. No podéis servir a Dios y a las riquezas. Por tanto os digo: No os inquietéis por vuestra vida, qué comeréis, ni por vuestro cuerpo, con qué os vestiréis. ¿No es más el alma que la comida, y el cuerpo más que el vestido? Mirad las aves del cielo cómo no siembran, ni siegan, ni tienen graneros; y vuestro Padre celestial las alimenta. Pues ¿no valéis vosotros mucho más que ellas? ¿Quién de vosotros, a fuerza de discurrir, puede añadir un codo a su estatura? y ¿por qué inquietaros por el vestido? Observad cómo crecen los lirios del campo; no trabajan, ni hilan. Y, sin embargo, yo os digo que ni Salomón en toda su gloria llegó a vestirse como uno de estos lirios. Pues si al heno del campo, que hoy es y mañana se echa al horno, Dios así viste, ¿cuánto más a vosotros, hombres de poca fe? No os preocupéis, pues, diciendo: ¿Qué comeremos, o qué beberemos, o con qué nos cubriremos? Por estas cosas se afanan los paganos. Mas sabe vuestro Padre celestial que las necesitáis. Buscad, pues, primero el reino de Dios y su justicia; y todo lo demás se os dará por añadidura.",
+        "Francais": "En ce temps-là, Jésus dit à ses disciples : « Nul ne peut servir deux maîtres : car ou il haïra l'un et aimera l'autre, ou il s'attachera à l'un et méprisera l'autre. Vous ne pouvez servir Dieu et Mammon. C'est pourquoi je vous dis : Ne vous inquiétez pas pour votre âme de ce que vous mangerez ou de ce que vous boirez, ni pour votre corps de quoi vous le vêtirez. L'âme n'est-elle pas plus que la nourriture, et le corps plus que le vêtement ? Regardez les oiseaux du ciel, qui ne sèment ni ne moissonnent et n'amassent rien dans des greniers, et votre Père céleste les nourrit. Ne valez-vous pas beaucoup plus qu'eux ? Qui de vous, à force de soucis, pourrait ajouter une seule coudée à la longueur de sa vie ? Et pourquoi vous inquiétez-vous pour le vêtement ? Observez les lis des champs, comment ils croissent : ils ne peinent ni ne filent. Or je vous dis que Salomon même, dans toute sa gloire, n'était pas vêtu comme l'un d'eux. Si donc Dieu revêt ainsi l'herbe des champs, qui est aujourd'hui et demain sera jetée au four, ne le fera-t-il pas bien plus pour vous, gens de peu de foi ? Ne vous mettez donc point en peine, disant : Que mangerons-nous ou que boirons-nous, ou de quoi nous vêtirons-nous ? — c'est de tout cela en effet que les païens sont en quête, — car votre Père céleste sait que vous avez besoin de tout cela. Cherchez premièrement le royaume de Dieu et sa justice, et tout cela vous sera donné en plus.",
+        "Italiano": "In quel tempo: Gesú disse ai suoi discepoli: Nessuno può servire due padroni: infatti, o avrà in odio l’uno e amerà l’altro, o si affezionerà all’uno e non farà caso all’altro. Non potete servire Dio e mammona. Perciò vi dico: non preoccupatevi di quello che mangerete, né di che vi vestirete: l’ànima non vale piú del cibo e il corpo piú del vestito? Guardate gli uccelli del cielo, che non séminano né mietono, né accúmulano nei granai, e il Padre vostro celeste li nutre. Non siete piú di quelli? Chi di voi, angustiandosi, può allungare di un palmo la sua vita? E perché mai siete preoccupati per i vostri vestiti? Guardate come crescono i gigli del campo: eppure non lavorano né filano. Tuttavia vi dico che neppure Salomone, nello splendore della sua gloria, fu mai vestito come uno di essi. Ora, se Dio veste cosí l’erba del prato, che oggi esiste e domani sarà gettata nel fuoco, quanto maggiormente voi, o uomini di poca fede? Non siate dunque preoccupati dicendo: che mangeremo o che berremo o di che ci vestiremo? Sono i gentili che cercano queste cose. Mentre il Padre vostro sa che voi avete bisogno di tutto ciò. Cercate prima, quindi, il regno di Dio e la sua giustizia, e ogni altra cosa vi verrà data in piú.",
+        "Magyar": "Senki sem szolgálhat két úrnak: vagy gyűlöli az egyiket, a másikat pedig szereti, vagy ragaszkodik az egyikhez, a másikat pedig megveti. Nem szolgálhattok az Istennek is, a Mammonnak is.  Azt mondom ezért nektek: Ne aggódjatok életetek miatt, hogy mit esztek vagy mit isztok, sem testetek miatt, hogy mibe öltöztök! Nem több az élet az eledelnél s a test a ruhánál?  Nézzétek az ég madarait! Nem vetnek, nem aratnak, csűrbe sem gyűjtenek - mennyei Atyátok táplálja őket. Nem többet értek ti náluk?  Ugyan ki toldhatja meg életét csak egy könyöknyivel is, ha aggodalmaskodik?  Hát a ruházat miatt miért nyugtalankodtok? Nézzétek a mezők liliomait, hogyan nőnek: nem fáradoznak, nem szőnek-fonnak,  mégis, mondom nektek, még Salamon sem volt dicsősége teljében úgy felöltözve, mint egy ezek közül.  Ha a mezei virágot, amely ma virít, holnap pedig a kemencébe kerül, így öltözteti az Isten, akkor benneteket, kishitűek, nem sokkal inkább?  Ne aggodalmaskodjatok hát, és ne kérdezgessétek: Mit eszünk, mit iszunk?  Ezeket a pogányok keresik. Mennyei Atyátok tudja, hogy ezekre szükségetek van.  Ezért ti elsősorban az Isten országát és annak igazságát keressétek, s ezeket mind megkapjátok hozzá!",
+        "Nederlands": "In die tijd sprak Jezus tot zijn leerlingen: Niemand kan twee heren dienen; want hij zal of de een haten en de ander beminnen, of de een op de handen dragen en de ander verwaarlozen. Gij kunt niet tegelijk God dienen en de mammon! Daarom zeg Ik u: weest niet angstig bezorgd voor uw leven, wat gij zult eten, of voor uw lichaam, waarmede gij u zult kleden. Is het leven niet meer dan het voedsel, en het lichaam niet meer dan de kleding? Ziet naar de vogelen des hemels; zij zaaien niet, en zij maaien niet en verzamelen niet in schuren; en toch, uw hemelse Vader voedt ze. Zijt gij niet veel meer waard dan zij? En wie uwer kan met al zijn denken aan zijn lengte één el toevoegen? En wat maakt gij u angstig bezorgd over kleding? Ziet de lelies op het veld, hoe ze groeien; zij werken niet en spinnen niet; en tóch zeg Ik u, dat Salomon in al zijn heerlijkheid niet gekleed was als één van deze. Als God nu het gewas op het veld, dat heden is en morgen in de oven geworpen wordt, zo kleedt, hoeveel te meer dan u, kleingelovigen? Wilt dus niet angstig bezorgd zijn en zeggen: Wat zullen wij eten, of wat zullen wij drinken, of waarmee zullen wij ons kleden? Want dat zijn dingen, waar de heidenen naar vragen. Immers uw Vader weet, dat gij dit alles nodig hebt. Zoekt derhalve eerst het rijk Gods en zijn gerechtigheid, en al dat andere zal u geschonken worden als toegift.",
+        "Polski": "Onego czasu: Rzekł Jezus uczniom swoim: «Nikt nie może dwom panom służyć, bo albo jednego będzie nienawidził, a drugiego będzie miłował: albo przy jednym stać będzie, a drugim wzgardzi. Nie możecie Bogu służyć i mamonie. A przeto powiadam wam, nie troszczcie się o życie wasze, co byście jedli, ani o ciało wasze, w co byście je przyoblec mieli. Czyż życie nie jest ważniejsze niż pokarm, a ciało niż odzienie? Wejrzyjcie na ptaki niebieskie, że nie sieją, ani żną, ani zbierają do gumien, a Ojciec wasz niebieski żywi je. Czyście wy nie daleko ważniejsi niźli one? I kto z was przemyśliwaniem może dodać do wzrostu swego łokieć jeden? A o odzienie, czemu się troszczycie? Przypatrzcie się liliom polnym, jako rosną: nie pracują ani przędą. A powiadam wam, że nawet Salomon we wszystkiej chwale swojej nie był tak przybrany jak jedna z nich. Jeśli więc tę trawę polną, która dziś jest, a jutro będzie w piec wrzucona, Bóg tak przyodziewa, jakoż daleko więcej was, małej wiary. Nie troszczcież się tedy, mówiąc: co będziemy jeść, albo co będziemy pić, albo czym się będziemy przyodziewać? Bo o to wszystko poganie się pilnie starają. Albowiem wie Ojciec wasz niebieski, że tego wszystkiego potrzebujecie. Szukajcież tedy naprzód Królestwa Bożego i sprawiedliwości jego, a to wszystko będzie wam przydane».",
+        "Portugues": "Naquele tempo, disse Jesus aos seus discípulos: «Ninguém pode servir a dois senhores, pois ou há-de odiar um e amar o outro, ou respeitar este e desprezar aquele. Não podeis servir a Deus e às riquezas. Eis porque digo: não vos inquieteis pelas cousas da vossa vida, se tereis o que comer; nem do vosso corpo, se tereis o que vestir. Porventura não é a vida mais do que o alimento e o corpo mais do que o vestido? Reparai nas aves do céu: nem semeiam, nem ceifam, nem arrecadam nos celeiros; contudo o Pai celestial sustenta-as. Acaso não valeis mais do que elas? Qual de vós será capaz, ainda que empregue todas as diligências, de acrescentar um côvado à sua altura? E, quanto ao vestir, porque vos inquietais? Reparai como os lírios dos campos crescem! Eles não trabalham, nem fiam; contudo nem Salomão, apesar de toda sua magnificência, teve um vestido como eles. Ora, se Deus veste assim as ervas dos campos, que hoje existem e amanhã serão lançadas no fogo, quanto mais terá cuidado de vós, homens de pouca fé! Não vos inquieteis, pois, dizendo: «Que havemos de comer e de beber; e como nos vestiremos?». Os pagãos é que têm cuidados com estas cousas. Vosso Pai celestial sabe bem aquilo de que careceis. Procurai primeiramente o reino de Deus e a sua justiça, e todas estas cousas vos serão dadas».",
+        "Ukrainian": "Tого часу, сказав Ісус Своїм учням: Ніхто не може двом панам служити: бо або одного зненавидить, а другого буде любити, або триматиметься одного, а того знехтує. Не можете Богові служити – і мамоні. Ось чому кажу вам: Не турбуйтеся вашим життям, що вам їсти та що пити; ні тілом вашим, у що одягнутись. Хіба життя не більш – їжі, тіло – не більш одежі Гляньте на птиць небесних: не сіють і не жнуть, ані не збирають у засіки, а Отець ваш небесний їх годує! Хіба ви від них не вартісніші? Хто з вас, журячись, спроможен добавити до свого віку хоч один лікоть? І про одежу чого ж вам клопотатись? Гляньте на польові лілеї, як ростуть вони: не працюють і не прядуть. Та я кажу вам, що й Соломон у всій своїй славі не вдягався так, як одна з них. І коли зілля польове, яке сьогодні є, а завтра вкидають його до печі, Бог так одягає, то чи не багато більше вас, маловірні? Отож не турбуйтеся, промовлявши: Що будемо їсти, що пити й у що зодягнемося? Про все те побиваються погани. Отець же ваш небесний знає, що вам усе це потрібне. Шукайте перше Царство Боже та його справедливість, а все те вам докладеться."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) IM(gh~)mít(hv.fhg)tet(g.) *(,) An(g!jj//jjj)ge(h)lus(ghg.) Dó(h!iwjjvIG)mi(h!iwjjvIG)ni(h!iwj/kjji.) (;) in(j) cir(hg~)cú(j'/ki'/jh')i(h)tu(f_g_f._) (,) ti(hg)mén(hg/jj//jjj)ti(hg)um(ixgv.fh!ivHG) e(ghg___)um,(g.) (:) et(g) e(gh/ji)rí(jjvIG)pi(h!iwji)et(j.) e(jjh/jkjkvJI)os :(j.) (:) gu(ji)stá(jv.jjj/kjk)te(h_g) (,) et(g) vi(hji)dé(jkj'/ki'jvH'GjjvIH'iwj)te,(g.) (;) quó(gh)ni(gf)am(g) su(h)á(h/jjj)vis(g) est(h_g/h!iwj/kjji.) (;) Dó(j'/kj'/ki'jvH'Fg.)(,)(fgh!jvvIH'iw!jvIH)mi(gh!ivHG'h)nus.(hg..) (::)",
+      "availableTranslations": {
+        "English": "The Angel of the Lord encamps around those who fear Him, and delivers them. Taste and see how good the Lord is.",
+        "Espanol": "Acampará el ángel del Señor alrededor de los que le temen, y los librará; gustad y ved cuán bueno es el Señor.",
+        "Francais": "L'ange du Seigneur campe autour de ceux qui le craignent, et il les délivre ; goûtez et voyez comme le Seigneur est bon.",
+        "Italiano": "L’Angelo del Signore scenderà su quelli che Lo temono e li libererà: gustate e vedete quanto soave è il Signore.",
+        "Nederlands": "De engel des Heren zal zijn legerplaats opslaan rondom hen, die Hem vrezen, en Hij zal hen bevrijden. Smaakt en ziet, hoe goed de Heer is.",
+        "Polski": "Anioł Pański czuwa nad bogobojnymi i chroni ich od złego. Skosztujcie i zobaczcie, jak dobry jest Pan!",
+        "Portugues": "O Anjo do Senhor circundará aqueles que temem o Senhor e livrá-los-á. Provai e vede como o Senhor é bom!",
+        "Ukrainian": "Cтане ангел Гоcподній округ тих, що боятьcя його, і визволить їх. Вкуcіте, і побачте, що благий Гоcподь."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Concéde nobis, Dómine, quǽsumus, ut hæc hóstia salutáris et nostrórum fiat purgátio delictórum, et tuæ propitiátio potestátis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant us, Lord, we beseech You, that this salutary sacrifice may be not only a cleansing from our sins but also a propitiation of Your divine power.",
+        "Espanol": "Te rogamos, Señor, nos concedas que esta hostia saludable nos purifique de nuestros pecados y atraiga sobre nosotros el favor de tu potestad.",
+        "Francais": "FAites, Seigneur, que ce sacrifice, porteur du salut, nous délivre de nos fautes et nous rende votre faveur.",
+        "Italiano": "Concédici, o Signore, Te ne preghiamo, che quest’ostia salutare ci purifichi dai nostri peccati e ci renda propizia la tua maestà.",
+        "Nederlands": "Wij vragen U, Heer, laat deze heilzame offerande voor ons betekenen zuivering van onze zonden en verzoening met uw macht.",
+        "Polski": "Spraw, prosimy Cię Panie, aby ta Hostia zbawienna z grzechów nas oczyściła i wyjednała nam przychylność Twej potęgi. ",
+        "Portugues": "Concedei-nos, Senhor, Vos suplicamos, que esta salutar hóstia nos purifique das nossas faltas e nos torne propício o vosso poder.",
+        "Ukrainian": "Подай, Господи, просимо, аби ця спасительна жертва була нам і на очищення наших гріхів, і на умилостивлення Твоєї могутності."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PRi(ggh)mum(g) quaé(g)ri(fef)te(d.) (,) *() re(fe~)gnum(fg~) De(giH'G)i,(g.) (:) et(j) ó(jij)mni(hg)a(g.) ad(h)ji(i)ci(j)én(h)tur(gi~) vo(hhgh)bis,(g.) (;) di(geed/geg)cit(g) Dó(g)mi(ghg___)nus.(g.) (::)",
+      "availableTranslations": {
+        "English": "Seek first the Kingdom of God; and all things shall be given you besides, says the Lord.",
+        "Espanol": "Buscad primero el reino de Dios, y todo lo demás se os dará por añadidura; dice el Señor.",
+        "Francais": "Chercher d'abord le Royaume de Dieu et sa justice, et tout le reste vous sera ajouté, dit le Seigneur.",
+        "Italiano": "Cercate prima il regno di Dio, e ogni cosa vi sarà data in piú, dice il Signore.",
+        "Nederlands": "Zoekt eerst het rijk Gods en al het andere zal u geschonken worden als toegift, zegt de Heer.",
+        "Polski": "Szukajcie naprzód Królestwa Bożego, a wszystko będzie wam przydane, tak Pan powiada.",
+        "Portugues": "Procurai primeiramente o reino de Deus, e tudo vos será dado por acréscimo, diz o Senhor.",
+        "Ukrainian": "Шукайте перше Царство Боже, і все вам докладеться, говорить Господь."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Puríficent semper et múniant tua sacraménta nos, Deus: et ad perpétuæ ducant salvatiónis efféctum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May Your sacrament, O God, ever cleanse and strengthen us, and bring us to everlasting salvation.",
+        "Espanol": "¡Oh Dios!, que tus sacramentos nos purifiquen y defiendan siempre; y produzcan en nosotros como efecto la salvación eterna.",
+        "Francais": "Que vos sacrements, Seigneur, nous purifient sans cese et nous protègent, et qu'ils nous conduisent à la possession du salut éternel.",
+        "Italiano": "Ci purífichino sempre e ci difendano i tuoi sacramenti, o Dio, e ci conducano al porto dell’eterna salvezza.",
+        "Nederlands": "Mogen, o God, uw Sacramenten ons altijd zuiveren en beschermen en in het bezit stellen van de eeuwige zaligheid.",
+        "Polski": "Boże, niechaj Twój Sakrament nas oczyści, wzmocni i doprowadzi do wiecznego zbawienia. ",
+        "Portugues": "Permiti, ó Deus, que os vossos sacramentos nos purifiquem e fortifiquem sempre, e nos façam gozar a salvação eterna.",
+        "Ukrainian": "Нехай Твої Тайни завжди очищають та охороняють нас, Боже, та приведуть до повноти вічного спасіння."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

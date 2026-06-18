@@ -1,0 +1,801 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "S. Joseph Sponsi B.M.V. Confessoris",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) JU(d!ffd/fff)stus(e_d_) (,) *() ut(cd) pal(cd'f)ma(fvvED') flo(d)ré(d!ew!fvED)bit :(dff'1f//fff) (;) sic(c)ut(d) ce(f)drus(g) Lí(f)ba(gh)ni(h.) (,) mul(h)ti(h)pli(h)cá(hjhhg)bi(hggfg)tur :(fg..) (:) plan(df)tá(fff/g_f)tus(f) in(f) do(fg)mo(gffd) Dó(d)mi(dff'1f/g_f)ni,(f.) (;) in(f) á(f_g_f_)tri(f)is(f) do(fg)mus(gff) De(d)i(c!fff) no(d_c/fff/ced)stri.(d.) (::) <i>T. P.</i> Al(cd'f~)le(f_e)lú(fgf){ia},(fffddc.) (,) al(df~)le(fefd)lú(d_e_d_){ia}.(d.) (::) <i>Ps.</i> Bo(f)num(gh) est(h) con(h)fi(h)té(hj)ri(h) Dó(h)mi(hg)no(gh..) *(:) et(gf) psál(gh)le(h)re(h) nó(h)mi(h)ni(h) tu(h)o,(hjh) Al(g')tís(f)si(fff)me.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
+      "availableTranslations": {
+        "Francais": "Le juste fleurira comme le palmier et il se multipliera comme le cèdre du Liban, planté dans la maison du Seigneur, dans les parvis de la maison de notre Dieu. (Alléluia, alléluia.) Il est bon de louer le Seigneur et de chanter votre nom, ô Très-Haut.",
+        "Italiano": "Il giusto fiorisce come palma, cresce come cedro del Libano: piantato nella casa del Signore: negli atrii della casa del nostro Dio. (Allelúia, allelúia.) É bello lodarTi, o Signore: e inneggiare al tuo nome, o Altissimo.",
+        "Polski": "Sprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie, zasadzony w domu Pańskim, w przedsionkach Boga naszego. ((O. W. Alleluja, alleluja.)) Dobrze jest wysławiać Pana i śpiewać imieniu Twemu, o Najwyższy.",
+        "Portugues": "O justo florescerá, como a palmeira, e multiplicar-se-á, como o cedro do Líbano: Ele está plantado na casa do Senhor, nos átrios da casa do nosso Deus. ((T. P. Aleluia, aleluia.)) É bom louvar o Senhor: e cantar hinos em honra do vosso nome, ó Altíssimo."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Sanctíssimæ Genetrícis tuæ Sponsi, quǽsumus, Dómine, méritis adjuvémur: ut, quod possibílitas nostra non óbtinet, ejus nobis intercessióne donétur:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May the merits of Your most holy Mother’s spouse help us, we beseech You, O Lord, that through his intercession we may receive what we cannot obtain by our own efforts.",
+        "Bohemice": "Prosíme tě, Pane, ať nám zásluhy Snoubence tvé přesvaté Rodičky pomohou, aby, čeho naše síly dosáhnouti nemohou, jeho přímluvou nám bylo uděleno.",
+        "Espanol": "Rogámoste, oh Señor, que nos ayuden los méritos del Esposo de tu Madre Santísima: para que, por su intercesión, se nos conceda lo que no alcanzamos por nuestros méritos. ",
+        "Francais": "Faites Seigneur, que les mérites de l’Époux de votre Mère très sainte nous viennent en aide ; afin que les grâces que nous ne pouvons obtenir par nous-mêmes nous soient accordées par son intercession.",
+        "Italiano": "Ti preghiamo, o Signore, fa che, aiutati dai meriti dello Sposo della Tua Santissima Madre, ciò che da noi non possiamo ottenere ci sia concesso per la sua intercessione:",
+        "Nederlands": "Wij vragen U, Heer, dat wij door de verdiensten van de bruidegom van uw allerheiligste Moeder geholpen mogen worden, opdat ons door zijn voorspraak wordt gegeven, wat buiten het bereik ligt van onze krachten.",
+        "Polski": "Prosimy Cię, Panie, niech nas wspomagają zasługi Oblubieńca Twojej Najświętszej Rodzicielki, abyśmy za jego wstawiennictwem otrzymali to, czego nie możemy sami uzyskać:",
+        "Portugues": "Senhor, Vos suplicamos, permiti que sejamos auxiliados pelos méritos do Esposo da vossa Santíssima Mãe, a fim de que aquelas graças que não temos possibilidade de obter por causa da nossa fraqueza as alcancemos pela sua intercessão."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Diléctus Deo et homínibus, cujus memória in benedictióne est. Símilem illum fecit in glória sanctórum, et magnificávit eum in timóre inimicórum, et in verbis suis monstra placávit. Glorificávit illum in conspéctu regum, et jussit illi coram pópulo suo, et osténdit illi glóriam suam. In fide et lenitáte ipsíus sanctum fecit illum, et elégit eum ex omni carne. Audívit enim eum et vocem ipsíus, et indúxit illum in nubem. Et dedit illi coram præcépta, et legem vitæ et disciplínæ.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Italiano": "Fu caro a Dio e agli uomini, la sua memoria è in benedizione. Il Signore lo fece simile ai Santi nella gloria e lo rese grande e terribile ai nemici: e con la sua parola fece cessare le piaghe. Lo glorificò al cospetto del re e gli diede i comandamenti per il suo popolo, e gli fece vedere la sua gloria. Per la sua fede e la sua mansuetudine lo consacrò e lo elesse tra tutti i mortali. Dio infatti ascoltò la sua voce e lo fece entrare nella nuvola. Faccia a faccia gli diede i precetti e la legge della vita e della scienza.",
+        "Magyar": "Kedves volt Istennél és embereknél Mózes; kinek emlékezete áldásban vagyon.  Hasonlóvá tette öt dicsöségben a szentekhez, és fölmagasztalta öt félelemöl az ellenségeknek, és igéjével megszöntette a csodajeleket.  Megdicsöitette öt a királyok szine elött, és parancsot adott neki népéhez, és megmutatta neki dicsöségét.  Az ö hösége és szelídsége miatt megszentelé öt, és kiválasztotta öt minden test közöl.  Hallatá vele magát és szavát, és bevezette öt a felhöbe.  És szemtöl szembe parancsokat adott neki, az élet és fegyelem törvényét, hogy megtanitsa Jákobot szövetségére, és Izraelt itéleteire."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DO(fe)mi(fg)ne,(gv.ff/ded.) (,) *() prae(fe)ve(fg)ní(g)sti(df) e(egF'E)um(e.) (;) in(ed~) be(g)ne(hj)di(j)cti(i!jw!kvJI')ó(h)ni(fhf/gh)bus(g.) dul(d)cé(feg)di(gefd)nis :(d.) (:) po(f)su(gh)í(ixh.0/ivHG'h)sti(ef'g) (,) in(g) cá(gfh)pi(h)te(gf) e(g_d~)jus(d.) co(feg)ró(gefd)nam(d.) (;) de(dc) lá(f)pi(gh)de(ixh.0/ivHG'ef'g) pre(g)ti(df)ó(efED.)(,)(ixf.0/hiHG'/!ge./ghGF'Ef_gF'E)so.(e.) (::) <sp>V/</sp>. Vi(h)tam(ixjhhgh/ef'g eg!ivHGhvFDe.) (,) (ghF'Eghfff'1dfED'fg'h) pé(gf/gh)ti(g)it,(g.) (:) et(f) tri(ghgh)bu(h)í(hgh'1f)sti(ed) e(f_g//ef!hvGE'fd)i(d.) (;) lon(c)gi(d)tú(dffd/ffdd'd/gffd)di(fdec)nem(c.) (,) di(f)é(ghgh)rum(hgh'1f) (;) in(ed~) saé(f_g//ef!hvGE'fd)cu(cd)lum(d.) (,) *() saé(c.d!ewf/g_f)cu(f!hgh)li.(hhf.) (,) (h_ghvFDgff'fvEC//ddc/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
+      "availableTranslations": {
+        "English": "O Lord, You welcomed him with goodly blessings, You placed on his head a crown of pure gold. He asked life of You: You gave him length of days forever and ever. Happy the man who fears the Lord, who greatly delights in His commands. His posterity shall be mighty upon the earth; the upright generation shall be blessed. Wealth and riches shall be in his house; his generosity shall endure forever.",
+        "Bohemice": "O Lord, You welcomed him with goodly blessings, You placed on his head a crown of pure gold. He asked life of You: You gave him length of days forever and ever. Happy the man who fears the Lord, who greatly delights in His commands. His posterity shall be mighty upon the earth; the upright generation shall be blessed. Wealth and riches shall be in his house; his generosity shall endure forever.",
+        "Espanol": "Oh Señor, le has prevenido con dulces bendiciones; pusiste sobre su cabeza una corona de piedras preciosas. Te pidió vida, y Tú le has concedido alargar sus días por los siglos de los siglos. Bienaventurado el hombre que teme al Señor, y que pone sus delicias en cumplir sus Mandamientos. Poderosa será sobre la tierra su descendencia; bendecida será la generación de los justos. Habrá en su casa gloria y riquezas, y su justicia durará eternamente.",
+        "Francais": "Seigneur, vous l’avez prévenu des plus douces bénédictions ; vous avez mis sur sa tête une couronne de pierres précieuses.  Il vous a demandé la vie, et vous lui avez accordé des jours qui dureront dans les siècles des siècles. Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements. Sa race sera puissante sur la terre ; la postérité des justes sera bénie. La gloire et les richesses sont dans sa maison, et sa justice demeure dans tous les siècles.",
+        "Italiano": "O Signore, lo hai prevenuto con fauste benedizioni: gli ponesti sul capo una corona di pietre preziose. Ti chiese vita e Tu gli concedesti la estensione dei giorni per i secoli dei secoli. Beato l’uomo che teme il Signore: e mette ogni delizia nei suoi comandamenti. La sua progenie sarà potente in terra: sarà benedetta la generazione dei giusti. Gloria e ricchezza sono nella sua casa: e la sua giustizia dura in eterno.",
+        "Nederlands": "Heer, van milde zegen hebt Gij hem voorzien. Een kroon van edelgesteenten hebt Gij hem op het hoofd gedrukt.  Leven vroeg hij U. Gij hebt hem gegeven lengte van dagen voor immer.",
+        "Polski": "Panie, dobrodziejstwami obsypałeś go szczodrze, włożyłeś mu na głowę koronę z drogich kamieni. Błagał Cię o życie, a Tyś go nim obdarzył, dni jego przedłużyłeś na wieki wieków. Błogosławiony mąż, który boi się Pana i wielką radość znajduje w jego nakazach. Potomstwo jego będzie potężne na ziemi, dozna błogosławieństwa pokolenie prawych. Zasoby i bogactwa będą w jego domu, a hojność jego będzie trwała zawsze.",
+        "Portugues": "Senhor, concedestes-lhe bênçãos escolhidas as mais suaves; e impusestes na sua cabeça uma coroa de pedras preciosas. Concedestes-lhe a vida, que ele Vos suplicara, e prolongastes-lhe a duração dos seus dias pelos séculos dos séculos. Bem-aventuradourado o varão que teme o Senhor e que emprega todo o zelo em obedecer-Lhe. Sua descendência será poderosa na terra; pois a geração dos justos será abençoada. Na sua casa haverá glória e riqueza: e a sua justiça subsistirá em todos os séculos dos séculos."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(c)le(d!fde./fge/fddc)lú(de~){ia}.(e.) *(;) <i>ij.</i>(cd/fde./fge/fd/!dc/ege.) (,) (cd/fde./fge/fd/!dc/ege.) (,) (ghGF'Dee) (,) (fgF'Ededdc//fff/ghGFgvFE.) (::) <sp>V/</sp>. A(c)má(dfd/ef)vit(f.) e(ffe)um(ed~) Dó(deD'C)mi(de)nus,(e.) (;) et(c) or(eg~)ná(ggf/gefvED)vit(ce) e(effe)um :(e.) (:) sto(c)lam(e) gló(ixgh!ivHG//fhGE.)(,)(ixce/ghivHG//fhGE.)(,)(gvFED'evD'C)ri(de)ae(e.) (;) ín(c)du(dfd/ef)it(e.) *() e(cd/fde./fge/fd/!dc/ege.)(,)(cd/fde./fge/fd/!dc/ege.)(,)(ghGF'Dee)(,)(fgF'Ededdc//fff/ghGFgvFE)um.(e.) (::)",
+      "availableTranslations": null,
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(d)le(ff)lú(g.f!gwhgh){ia}.(hhf.) <clear>*(,) (hjvHGhvGFhv.//defhvGE'fd.) (;) (dh!jvHGhvGFhv.) (,) (h!j'kJH'iw!jvIG.f/ghF'EC.) (,) (egF'ED'ewfd.1) (::) <sp>V/</sp>. Ju(h_fhhvGE'fd)stus(d.) ger(dfd___dc~)mi(d)ná(d_e_d_hvhg/!gfixg!igh)bit(h.) (;) sic(d)ut(efg~) lí(g)li(gfhvFEgvFD)um :(d.) (:) et(f) flo(ghg)ré(h/jhhg//hvGFgvFDfvECd./ffdfvECd.)(,)(fghjhhg//hvGFhv.//defhvGE'fd)bit(d.) (;) in(fvEC) ae(egf)tér(ed/ffd)num(d.) (:) *() an(d)te(ff) Dó(g_f)mi(f!gwhgh)num.(hhf.) (,) (hjvHGhvGFhv.//defhvGE'fd.) (;) (dh!jvHGhvGFhv.) (,) (h/j'kJH'iw!jvIG.f/ghF'EC.) (,) (egF'ED'ewfd.1) (::)",
+      "availableTranslations": null,
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DO(fe)mi(fg)ne,(gv.ff/ded.) (,) *() prae(fe)ve(fg)ní(g)sti(df) e(egF'E)um(e.) (;) in(ed~) be(g)ne(hj)di(j)cti(i!jw!kvJI')ó(h)ni(fhf/gh)bus(g.) dul(d)cé(feg)di(gefd)nis :(d.) (:) po(f)su(gh)í(ixh.0/ivHG'h)sti(ef'g) (,) in(g) cá(gfh)pi(h)te(gf) e(g_d~)jus(d.) co(feg)ró(gefd)nam(d.) (;) de(dc) lá(f)pi(gh)de(ixh.0/ivHG'ef'g) pre(g)ti(df)ó(efED.)(,)(ixf.0/hiHG'/!ge./ghGF'Ef_gF'E)so.(e.) (::) <sp>V/</sp>. Vi(h)tam(ixjhhgh/ef'g eg!ivHGhvFDe.) (,) (ghF'Eghfff'1dfED'fg'h) pé(gf/gh)ti(g)it,(g.) (:) et(f) tri(ghgh)bu(h)í(hgh'1f)sti(ed) e(f_g//ef!hvGE'fd)i(d.) (;) lon(c)gi(d)tú(dffd/ffdd'd/gffd)di(fdec)nem(c.) (,) di(f)é(ghgh)rum(hgh'1f) (;) in(ed~) saé(f_g//ef!hvGE'fd)cu(cd)lum(d.) (,) *() saé(c.d!ewf/g_f)cu(f!hgh)li.(hhf.) (,) (h_ghvFDgff'fvEC//ddc/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
+      "availableTranslations": {
+        "English": "O Lord, You welcomed him with goodly blessings, You placed on his head a crown of pure gold. He asked life of You: You gave him length of days forever and ever. Happy the man who fears the Lord, who greatly delights in His commands. His posterity shall be mighty upon the earth; the upright generation shall be blessed. Wealth and riches shall be in his house; his generosity shall endure forever.",
+        "Bohemice": "O Lord, You welcomed him with goodly blessings, You placed on his head a crown of pure gold. He asked life of You: You gave him length of days forever and ever. Happy the man who fears the Lord, who greatly delights in His commands. His posterity shall be mighty upon the earth; the upright generation shall be blessed. Wealth and riches shall be in his house; his generosity shall endure forever.",
+        "Espanol": "Oh Señor, le has prevenido con dulces bendiciones; pusiste sobre su cabeza una corona de piedras preciosas. Te pidió vida, y Tú le has concedido alargar sus días por los siglos de los siglos. Bienaventurado el hombre que teme al Señor, y que pone sus delicias en cumplir sus Mandamientos. Poderosa será sobre la tierra su descendencia; bendecida será la generación de los justos. Habrá en su casa gloria y riquezas, y su justicia durará eternamente.",
+        "Francais": "Seigneur, vous l’avez prévenu des plus douces bénédictions ; vous avez mis sur sa tête une couronne de pierres précieuses.  Il vous a demandé la vie, et vous lui avez accordé des jours qui dureront dans les siècles des siècles. Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements. Sa race sera puissante sur la terre ; la postérité des justes sera bénie. La gloire et les richesses sont dans sa maison, et sa justice demeure dans tous les siècles.",
+        "Italiano": "O Signore, lo hai prevenuto con fauste benedizioni: gli ponesti sul capo una corona di pietre preziose. Ti chiese vita e Tu gli concedesti la estensione dei giorni per i secoli dei secoli. Beato l’uomo che teme il Signore: e mette ogni delizia nei suoi comandamenti. La sua progenie sarà potente in terra: sarà benedetta la generazione dei giusti. Gloria e ricchezza sono nella sua casa: e la sua giustizia dura in eterno.",
+        "Nederlands": "Heer, van milde zegen hebt Gij hem voorzien. Een kroon van edelgesteenten hebt Gij hem op het hoofd gedrukt.  Leven vroeg hij U. Gij hebt hem gegeven lengte van dagen voor immer.",
+        "Polski": "Panie, dobrodziejstwami obsypałeś go szczodrze, włożyłeś mu na głowę koronę z drogich kamieni. Błagał Cię o życie, a Tyś go nim obdarzył, dni jego przedłużyłeś na wieki wieków. Błogosławiony mąż, który boi się Pana i wielką radość znajduje w jego nakazach. Potomstwo jego będzie potężne na ziemi, dozna błogosławieństwa pokolenie prawych. Zasoby i bogactwa będą w jego domu, a hojność jego będzie trwała zawsze.",
+        "Portugues": "Senhor, concedestes-lhe bênçãos escolhidas as mais suaves; e impusestes na sua cabeça uma coroa de pedras preciosas. Concedestes-lhe a vida, que ele Vos suplicara, e prolongastes-lhe a duração dos seus dias pelos séculos dos séculos. Bem-aventuradourado o varão que teme o Senhor e que emprega todo o zelo em obedecer-Lhe. Sua descendência será poderosa na terra; pois a geração dos justos será abençoada. Na sua casa haverá glória e riqueza: e a sua justiça subsistirá em todos os séculos dos séculos."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(g)á(g/hih)tus(g/hhg) vir,(g.) *(,) qui(gjj) ti(j_k)met(hvGF'ghhg.) (,) Dó(h!jij)mi(hj)num :(jjjkhhg/hg/jjh/jggf.0) (:) in(f!h'j) man(igh)dá(gfg)tis(gh/jij) (`) e(j.h!iwj)jus(jjjvIHivHGhg..) (;) cu(ixfh/ih/ig)pit(j.) ni(iyjv.ijg.ixjjvH'GhiGF.)(,)(iyh./jh/ig)mis.(g/hhg.) (::) \r\n<sp>V/</sp>. Pot(g!hwi'!jv)ens(j) in(j) ter(j)ra(j) e(ij)rit(j.) (,) se(j)men(j) e(j_kJ'//Gh_g/h!iw!jvIHijh)jus :(hg..) (:) ge(f!h'j)ne(igh)rá(gf/gh)ti(g)o(g.) (`) re(gh/jij)ctó(j.h!iwj)rum(jjjvIHivHGhg..) (;) be(h_g/h!iwj)ne(ghG'F)di(f!h'j)cé(j)tur.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Gló(g!hwi'!jv)ri(j)a(j) et(j) di(j)ví(ij)ti(j)ae(j.) (,) in(j) do(j)mo(j) e(j_kJ'//Gh_g/h!iw!jvIHijh)jus :(hg..) (:) et(f!h'j) ju(igh)stí(gf/gh)ti(g)a(gh/jij) (`) e(j.h!iwj)jus(jjjvIHivHGhg..) (;) ma(h_g/h!iwj)net(g_h) *(,) in(f) saé(f.0h!iw!jk)cu(j)lum(j) saé(j)cu(j)li.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
+      "availableTranslations": {
+        "Nederlands": "Gelukkig de man, die de Heer vreest, zich in zijn geboden ten zeerste verheugt. Zijn nakomelingschap zal machtig zijn op aarde. Het geslacht der rechtvaardigen wordt gezegend. Roem en rijkdom zijn in zijn huis en zijn gerechtigheid duurt eeuwig voort."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Cum esset desponsáta Mater Jesu María Joseph, ántequam convenírent, invénta est in útero habens de Spíritu Sancto. Joseph autem, vir ejus, cum esset justus et nollet eam tradúcere, vóluit occúlte dimíttere eam. Hæc autem eo cogitánte, ecce, Angelus Dómini appáruit in somnis ei, dicens: Joseph, fili David, noli timére accípere Maríam cónjugem tuam: quod enim in ea natum est, de Spíritu Sancto est. Páriet autem fílium, et vocábis nomen ejus Jesum: ipse enim salvum fáciet pópulum suum a peccátis eórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "When Mary the Mother of Jesus had been betrothed to Joseph, before they came together, she was found to be with child by the Holy Spirit. But Joseph her husband, being a just man, and not wishing to expose her to reproach, was minded to put her away privately. But while he thought on these things, behold, an angel of the Lord appeared to him in a dream, saying, Do not be afraid, Joseph, son of David, to take to you Mary your wife, for that which is begotten in her is of the Holy Spirit. And she shall bring forth a Son, and you shall call His name Jesus; for He shall save His people from their sins.",
+        "Bohemice": "Když byla byla zasnoubena Matka Ježíšova Maria s Josefem, dříve než spolu začali bydlet, ukázalo se, že počala z Ducha svatého. Protože její muž Josef byl spravedlivý a nechtěl ji vydat pohaně, rozhodl se tajně se s ní rozejít. Když už to chtěl udělat, zjevil se mu ve snu anděl Páně a řekl: „Josefe, synu Davidův, neboj se k sobě vzít svou manželku Marii. Vždyť dítě, které počala, je z Ducha svatého. Porodí syna a dáš mu jméno Ježíš; on totiž spasí svůj lid od hříchů.“",
+        "Espanol": "Estando desposada la madre de Jesús, María, con José, antes de cohabitar, se halló que había concebido en su seno por obra del Espíritu Santo. Mas José, su esposo, como era justo, y no quería delatarla, deliberó dejarla secretamente. Estando él en este pensamiento, he aquí que un ángel del Señor le apareció en sueños diciéndole: José, hijo de David, no temas recibir a María tu esposa: porque lo que en ella se ha engendrado es obra del Espíritu Santo. Y dará a luz un hijo y le pondrás por nombre Jesús, porque El salvará a su pueblo de los pecados de ellos.",
+        "Francais": "Marie, la mère de Jésus, ayant été fiancée à Joseph, il se trouva, avant qu’ils eussent habité ensemble, qu’elle avait conçu par la vertu du Saint-Esprit. Joseph, son mari, qui était juste et ne voulait pas la diffamer, se proposa de la répudier secrètement. Comme il était dans cette pensée, voici qu’un ange du Seigneur lui apparut en songe, et lui dit : « Joseph, fils de David, ne craint point de prendre chez toi Marie ton épouse, car ce qui est conçu en elle est du Saint-Esprit. Et elle enfantera un fils, et tu lui donneras pour nom Jésus, car il sauvera son peuple de ses péchés.»",
+        "Italiano": "Essendo Maria, la Madre di Gesù, sposata a Giuseppe, prima di abitare con lui fu trovata incinta, per virtù dello Spirito Santo. Ora, Giuseppe, suo marito, essendo giusto e non volendo esporla all’infamia, pensò di rimandarla segretamente. Mentre pensava questo, ecco apparirgli in sogno un Angelo del Signore, che gli disse: Giuseppe, figlio di Davide, non temere di prendere Maria come tua sposa: poiché quel che è nato in lei è opera dello Spirito Santo. Ella partorirà un figlio, cui porrai nome Gesù: perché egli libererà il suo popolo dai suoi peccati.",
+        "Magyar": "Jézus Krisztus születésének ez a története: Anyja, Mária, Józsefnek a jegyese, még mielőtt egybekeltek volna, úgy találtatott, hogy gyermeket fogant a Szentlélektől.  Férje, József igaz ember volt, nem akarta a nyilvánosság előtt megszégyeníteni, ezért úgy határozott, hogy titokban bocsátja el.  Míg ezen töprengett, megjelent neki álmában az Úr angyala, és így szólt hozzá: „József, Dávid fia, ne félj magadhoz venni feleségedet Máriát, hiszen a benne fogant élet a Szentlélektől van!  Fiút szül, akit Jézusnak nevezel el, mert ő szabadítja meg népét bűneitől.”",
+        "Nederlands": "Toen Maria, de Moeder van Jezus, aan Jozef ten huwelijk was gegeven, bemerkte men, voordat zij gingen samenwonen, dat Zij ontvangen had van de Heilige Geest. Jozef echter, haar man, was rechtschapen, en wilde haar niet in opspraak brengen; daarom dacht hij er over om in stilte van haar te scheiden. Maar, terwijl hij met die gedachte omging, verscheen hem opeens in een droom een engel des Heren, die hem zeide: Jozef, zoon van David, vrees niet Maria, uw vrouw, tot u te nemen; want wat in Haar geboren is, is het werk van de Heilige Geest. En zij zal een zoon ter wereld brengen, en gij zult Hem de Naam Jezus geven; want Hij is het, die zijn volk verlossen zal van hun zonden.",
+        "Polski": "Gdy poślubiona była Matka Jezusa Maryja Józefowi, pierwej niźli się zeszli, okazało się, że poczęła z Ducha Świętego. A Józef, mąż Jej, będąc sprawiedliwym i nie chcąc Jej zniesławiać, zamierzał Ją potajemnie opuścić. A gdy nad tym przemyśliwał, oto Anioł Pański ukazał mu się we śnie, mówiąc: «Józefie, synu Dawidów, nie bój się przyjąć Maryi, małżonki swojej, albowiem, co się z Niej poczęło, z Ducha Świętego jest. A porodzi syna i nazwiesz imię Jego Jezus, albowiem On wybawi lud swój od grzechów jego».",
+        "Portugues": "Naquele tempo, estando Maria, Mãe de Jesus, desposada com José, achou este que, sem que os dois houvessem coabitado, havia ela concebido por obra do Espírito Santo. Então José, seu marido, que era justo e não queria difamá-la, resolveu abandoná-la secretamente. E, pensando nisto, apareceu-lhe um Anjo do Senhor em sonhos, dizendo-lhe: «José, filho de David, não temas receber Maria como tua esposa porque Aquele que ela gerou vem do Espírito Santo. Ela dará à luz um filho, e tu Lhe darás o nome de Jesus, O qual salvará o seu povo, livrando-o dos seus pecados»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_i_h_){ia}.(h.) (::)",
+      "availableTranslations": {
+        "Francais": "Ma vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance. (Alléluia.)",
+        "Italiano": "La mia fedeltà e la mia misericordia sono con lui: e nel mio nome sarà esaltata la sua potenza. (Allelúia.)",
+        "Polski": "Z nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluja.))",
+        "Portugues": "A minha verdade e a minha misericórdia estarão com ele; e o seu poder será exaltado em meu nome. (Aleluia.)"
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Débitum tibi, Dómine, nostræ réddimus servitútis, supplíciter exorántes: ut, suffrágiis beáti Joseph, Sponsi Genetrícis Fílii tui Jesu Christi, Dómini nostri, in nobis tua múnera tueáris, ob cujus venerándam festivitátem laudis tibi hóstias immolámus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O Lord, we dutifully worship You, humbly entreating You by the prayers of blessed Joseph, Spouse of the Mother of Jesus Christ, our Lord, in whose honor we offer these sacrifices of praise, that You protect Your gifts within us.",
+        "Bohemice": "O Lord, we dutifully worship You, humbly entreating You by the prayers of blessed Joseph, Spouse of the Mother of Jesus Christ, our Lord, in whose honor we offer these sacrifices of praise, that You protect Your gifts within us.",
+        "Espanol": "Te presentamos, oh Señor, el tributo de nuestra servidumbre, rogándote suplicantes que por los méritos de San José, Esposo de la Madre de tu Hijo, Nuestro Señor Jesucristo, en cuya veneranda festividad te ofrecemos esta hostia de alabanza, conserves en nosotros tus dones.",
+        "Francais": "Seigneur, nous vous rendons l’hommage de soumission qui vous est dû, en vous priant et en vous suppliant : par les suffrages du bienheureux Joseph, l’Époux de la Mère de votre Fils Jésus-Christ Notre-Seigneur, protégez en nous vos propres dons, car nous vous immolons des hosties de louanges en sa fête vénérable.",
+        "Italiano": "Ti rendiamo, o Signore, il doveroso omaggio della nostra sudditanza, prengandoTi supplichevolmente, di custodire in noi i tuoi doni per intercessione del beato Giuseppe, Sposo della Madre del Figlio Tuo Gesù Cristo, nostro Signore, nella cui veneranda solennità Ti presentiamo appunto queste ostie di lode.",
+        "Nederlands": "Wij bieden U, Heer, onze verschuldigde eredienst en smeken U nederig uw gaven in ons te beschermen door de hulp van de heilige Jozef, de bruidegom van de Moeder van uw Zoon Jezus Christus, op wiens plechtig feest wij U ons offer van lof opdragen.",
+        "Polski": "Oddajemy Ci, Panie, hołd naszego poddaństwa, pokornie błagając, byś strzegł w nas swoich darów za wstawiennictwem św. Józefa, Oblubieńca Rodzicielki Syna Twojego, a Pana naszego Jezusa Chrystusa, w którego chwalebną uroczystość składamy Ci ofiarę uwielbienia.",
+        "Portugues": "Vos oferecemos, Senhor, o justo tributo da nossa servidão, e instantemente Vos suplicamos queirais conservar em nós os vossos dons pela intercessão do B. José, Esposo da Mãe de Jesus Cristo, vosso Filho e Nosso Senhor, em cuja festa, que celebramos, imolamos nossas hóstias em vossa honra."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) JO(eh)SEPH(ggh.) *(,) fi(h)li(hf) Da(hih)vid,(i.) (;) no(g)li(e) ti(gh)mé(fe)re(e.) (,) ac(f)cí(ed)pe(e)re(f) Ma(i)rí(hji)am(i.) (,) cón(hf/hi)ju(h)gem(h_g) tu(ef!gvFE'f)am :(fe..) (:) quod(e) e(ei)nim(i) in(i) e(ij)a(i) na(hg)tum(f) est,(hhi!jw!kvJIji..) (;) de(h) Spí(jij)ri(h)tu(fg) San(e)cto(fh) est.(hv.gh!ivHF'fd//fh'hhe.) (::) <i>T. P.</i> Al(eg~)le(gv.fhg)lú(efe___){ia}.(e.) (::)",
+      "availableTranslations": {
+        "English": "Do not be afraid, Joseph, son of David, to take to you Mary your wife, for that which is begotten in her is of the Holy Spirit. (Alleluia.)",
+        "Bohemice": "Do not be afraid, Joseph, son of David, to take to you Mary your wife, for that which is begotten in her is of the Holy Spirit. (Alleluia.)",
+        "Espanol": "José, hijo de David, no temas recibir a María tu esposa: porque lo que en ella se ha engendrado es obra del Espíritu Santo.",
+        "Francais": "Joseph, fils de David, ne craint point de prendre chez toi Marie ton épouse, car ce qui est conçu en elle est du Saint-Esprit. (T.P. Allelúia.)",
+        "Italiano": "Giuseppe, figlio di Davide, non temere di prendere Maria come tua sposa: poiché quel che è nato in lei è opera dello Spirito Santo. (Allelúia.)",
+        "Nederlands": "Jozef, zoon van David, vrees niet Maria, uw vrouw, tot u te nemen, want wat in Haar is geboren, is van de Heilige Geest.",
+        "Polski": "Józefie, Synu Dawidów, nie bój się przyjąć Maryi, małżonki swojej, albowiem co się w Niej poczęło z Ducha Świętego jest. ((O. W. Alleluja))",
+        "Portugues": "José, filho de David, não temas receber Maria como tua esposa, porque Aquele que ela gerou vem do Espírito Santo. (T. P. Aleluia.)"
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Adésto nobis, quǽsumus, miséricors Deus: et, intercedénte pro nobis beáto Joseph Confessóre, tua circa nos propitiátus dona custódi.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Be with us, we beseech You, O merciful God, and by the intercession of blessed Joseph, Your Confessor, graciously keep safe the gifts You have given us.",
+        "Bohemice": "Be with us, we beseech You, O merciful God, and by the intercession of blessed Joseph, Your Confessor, graciously keep safe the gifts You have given us.",
+        "Espanol": "Asístenos, por favor oh Dios misericordioso: e intercediendo por nosotros San José, Confesor, guarda bondadosamente tus dones en nosotros.",
+        "Francais": "Soyez-nous présent, nous vous en prions, Dieu de miséricorde : et le bienheureux Confesseur Joseph intercédant pour nous, conservez en nous les dons de votre faveur.",
+        "Italiano": "Assistici, Te ne preghiamo, O Dio misericordioso: e, intercedendo per noi il beato Giuseppe Confessore, propizio custodisci in noi i tuoi doni.",
+        "Nederlands": "Wij vragen U, barmhartige God, sta ons bij en bewaar goedgunstig in ons uw gaven door de voorspraak van uw heilige belijder Jozef.",
+        "Polski": "Przyjdź nam z pomocą, miłosierny Boże, a za wstawiennictwem św. Józefa, Wyznawcy, strzeż w nas łaskawie Swoich darów.",
+        "Portugues": "Assisti-nos, ó Deus de misericórdia, Vos suplicamos; e pela intercessão do B. José, Confessor, dignai-Vos propício conservar em nós os vossos dons."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

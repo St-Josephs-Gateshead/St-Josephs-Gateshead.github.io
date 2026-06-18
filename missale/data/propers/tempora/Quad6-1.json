@@ -1,0 +1,835 @@
+{
+  "rule": [],
+  "feast": "Feria Secunda Majoris Hebdomadæ",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) JU(dfe)di(f)ca(f) *() Dó(f)mi(f)ne(fff) (,) no(fd)cén(fg)tes(ghGE'f) me,(eef.) (;) ex(d)pú(dg)gna(g) im(g)pu(gf~)gnán(f!hgh)tes(e!gfg) me :(eef.) (:) ap(d)pre(dg)hén(g)de(g) ar(gf~)ma(f) et(f) scu(f!hgh)tum,(e.) (;) et(f) ex(f)súr(fhg)ge(f.) (,) in(f) ad(f)ju(f)tó(fhg)ri(f)um(fff) me(c!ew!fvED'e)um,(ed..) (;) Dó(ef'g)mi(g.e!fwg)ne,(ghF'EfvE'DCdc..) (,) vir(eef)tus(d!ewf) sa(c)lú(fffd)tis(ef'g) me(g_fhvGFgvFE)æ.(e.) (::) <i>Ps.</i> Ef(hg)fún(gh)de(h) frá(h)me(h)am,(h.) (,) et(h) con(h)clú(h)de(h) ad(h)vér(h)sus(h) e(h)os(h) qui(hg) per(gi)se(i)quún(hi)tur(h) me :(h.) (:) *() dic(hg) á(gh)ni(h)mæ(h) me(h)æ :(h.) (,) Sa(h)lus(h) tu(h)a(gf) e(gh)go(g) sum.(egff) (::) Jú(dfe)di(f)ca.(f) (::)",
+      "availableTranslations": {
+        "English": "Judge thou, O Lord, them that wrong me : overthrow them that fight against me. Take hold of arms and shield : and rise up to help me. O Lord, my salvation.  Bring out the sword, and shut up the way against them that persecute me : say to my soul : I am thy salvation.",
+        "Espanol": "Señor, juzga a los que me dañan: bate a los que pelean contra mi: ármate y embraza el escudo y sal a defenderme, Señor, fortaleza de mi salud. Desenvaina la espada y cierra con los que me persiguen; dile a mi alma: Yo soy tu Salvador.",
+        "Francais": "Seigneur, jugez ceux qui me font du mal, humiliez ceux qui me combattent. Prenez vos armes et votre bouclier et levez-vous pour me secourir, ô Seigneur, ma force et mon salut. Tirez votre glaive et arrêtez ceux qui me poursuivent ; donnez-moi l’assurance que vous me sauverez.",
+        "Italiano": "Giudica, o Signore, i miei avversari, debella quelli che mi combattono; prendi le armi e lo scudo, e sorgi in mio aiuto, o Signore, sostegno della mia salvezza. Sfodera la spada e affronta quelli che mi perseguitano: dì all'anima mia: La tua salvezza sono io. Giudica, o Signore.",
+        "Nederlands": "Oordeel, Heer, die mij kwaad doen. Bestrijd, die mij bekampen. Grijp wapentuig en beukelaar. Rijs op om mij te helpen, Heer, mijn krachtige hulp. Trek het zwaard en versper mijn vervolgers de weg. Zeg tot mijn ziel: Ik ben uw redding.",
+        "Polski": "Rozpraw się, Panie, z tymi, co mnie krzywdzą, uderz na tych, co na mnie natarli, chwyć broń i tarczę, a powstań mi na pomoc, Panie, potężny mój Zbawco. Dobądź miecza i poskrom moich prześladowców, powiedz mej duszy: «Jam twoim zbawieniem».",
+        "Portugues": "Julgai, Senhor, aqueles que me perseguem; exterminai aqueles que me combatem! Empunhai as armas e o escudo e erguei-Vos em meu auxílio, ó Senhor, que sois o meu sustentáculo e a minha salvação.  Desembainhai a vossa espada e enfrentai aqueles que me perseguem. Direi à minha alma: «Eu sou a tua salvação»."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Da, quǽsumus, omnípotens Deus: ut, qui in tot advérsis ex nostra infirmitáte defícimus; intercedénte unigéniti Fílii tui passióne respirémus:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, we beseech thee, almighty God, that we who fail through our weakness in so many difficulties, may be relieved through the pleading of the Passion of thy only-begotten Son.",
+        "Espanol": "Te suplicamos, oh Dios todopoderoso, nos concedas que los que desfallecemos bajo el peso de nuestras miserias nos reanimemos por los merito de la pasión de tu Unigénito Hijo.",
+        "Francais": "Dieu tout-puissant qui voyez que notre faiblesse succombe au milieu de tant d’épreuves, accordez-nous quelque soulagement par les mérites de la passion de votre Fils unique.",
+        "Italiano": "O Dio onnipotente, concedi a noi, te ne preghiamo, che per la debolezza ci sentiamo venire meno in tante afflizioni, di essere rinfrancati in virtù della Passione del tuo Unigenito Figlio.",
+        "Nederlands": "Wij vragen U, almachtige God, laat ons, die onder de last van zoveel tegenspoed in onze zwakheid bijna bezwijken, in de verdiensten van het lijden van uw eengeboren Zoon nieuwe kracht vinden.",
+        "Polski": "Wszechmogący Boże, wśród tak licznych przeciwności upadamy wskutek własnej niemocy; prosimy Cię, spraw, abyśmy otrzymali nowe siły przez zasługi męki Jednorodzonego Syna Twego:",
+        "Portugues": "Ó Deus omnipotente, que bem sabeis não poder a nossa fraqueza subsistir no meio de tantos perigos que a cercam, concedei-nos, Vos suplicamos, a graça de conseguirmos algum alívio pelos méritos da Paixão de vosso Filho Unigénito:"
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Dixit Isaías: Dóminus Deus apéruit mihi aurem, ego autem non contradíco: retrórsum non ábii. Corpus meum dedi percutiéntibus et genas meas velléntibus: fáciem meam non avérti ab increpántibus et conspuéntibus in me. Dóminus Deus auxiliátor meus, ídeo non sum confúsus: ídeo posui fáciem meam ut petram duríssimam, et scio, quóniam non confúndar. Juxta est, qui justíficat me, quis contradícet mihi? Stemus simul, quis est adversárius meus? Accédat ad me. Ecce, Dóminus Deus auxiliátor meus: quis est, qui condémnet me? Ecce, omnes quasi vestiméntum conteréntur, tinea cómedet eos. Quis ex vobis timens Dóminum, áudiens vocem servi sui? Qui ambulávit in ténebris, et non est lumen ei, speret in nómine Dómini, et innitátur super Deum suum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": " The Lord God hath opened my ear, and I do not resist: I have not gone back. I have given my body to the strikers, and my cheeks to them that plucked them: I have not turned away my face from them that rebuked me, and spit upon me. The Lord God is my helper, therefore am I not confounded: therefore have I set my face as a most hard rock, and I know that I shall not be confounded. He is near that justifieth me, who will contend with me? let us stand together, who is my adversary? let him come near to me. Behold the Lord God is my helper: who is he that shall condemn me? Lo, they shall all be destroyed as a garment, the moth shall eat them up. Who is there among you that feareth the Lord, that heareth the voice of his servant, that hath walked in darkness, and hath no light? let him hope in the name of the Lord, and lean upon his God.",
+        "Espanol": "En aquellos días: el Señor Dios me abrió los oídos, y yo no me resistí, no me volví atrás. Entregué mis espaldas a quienes me azotaban, y mis mejillas a los que mesaban mi barba; no retiré mi rostro de los que me encarnecían y escupían. El Señor Dios es mi protector; por eso no he quedado yo confundido; por eso presenté mi cara a los golpes, firme como una piedra durísima, y sé que no quedaré avergonzado. A mi lado está el Dios, que me justifica; ¿quién se me opondrá? Presentémonos juntos en juicio: ¿quién es mi adversario?; lléguese a mí. Sabed que el Señor Dios es mi auxiliador. ¿Quién es el que me condenará? Ciertamente que todos mis contrarios serán consumidos como un vestido muy gastado; la polilla se los comerá. ¿Quién hay entre vosotros temeroso del Señor, y que escuche la voz de su siervo? Quien anduvo entre tinieblas y no tiene luz, espere en el nombre del Señor, y apóyese en su Dios.",
+        "Francais": "En ces jours-là, Isaïe dit : Le Seigneur Dieu m’a ouvert l’oreille ! et moi, je n’ai pas résisté, je ne me suis pas retiré en arrière. J’ai livré mon dos à ceux qui me frappaient, et mes joues à ceux qui m’arrachaient la barbe ; je n’ai pas dérobé mon visage aux outrages et aux crachats. Le Seigneur Dieu m’est venu en aide ; c’est pourquoi l’outrage ne m’a point abattu ; c’est pourquoi j’ai rendu ma face semblable à un caillou ; et je savais que je ne serais pas confondu. Il est proche, celui qui me justifie : qui plaidera contre moi ? Comparaissons ensemble ! Qui est mon adversaire : qu’il s’approche de moi ! Le Seigneur Dieu m’est venu en aide : qui est-ce qui me condamnerait ? Ah ! ils tomberont tous en lambeaux comme un vêtement ; la teigne les dévorera. Qui d’entre vous craint le Seigneur, et écoute la voix de son Serviteur ? Quiconque marche dans les ténèbres, privé de lumière, qu’il se confie dans le nom du Seigneur, et qu’il s’appuie sur son Dieu !",
+        "Italiano": "In quei giorni Isaia disse: Il Signore Iddio mi ha aperto l'orecchio, ed io non contraddico; non mi tiro indietro. Ho dato il mio corpo a quelli che mi percuotevano e le mie guance a quei che mi strappavano la barba; non ho sottratto la mia faccia agli scherni e agli sputi. Il Signore mi venne in aiuto, per questo io non sono restato confuso; per questo io ho reso la mia fronte come una selce durissima sapendo che non sarei rimasto confuso. Mi è vicino Colui che mi difende: Chi mi contraddirà? Misuriamoci insieme! Chi è il mio avversario? Si faccia avanti. Si, è il Signore, è Iddio il mio aiuto: chi mi condannerà? Sì, tutti, come cencio, cadranno a brandelli, e la tignola li roderà. Chi è tra voi che teme il Signore e ascolta la voce del suo servo? Chi cammina nelle tenebre, ed è privo di luce, confidi nel nome del Signore, e s'appoggi al suo Dio.",
+        "Magyar": "Isten, az Úr nyitotta meg a fülemet. S én nem álltam ellen, és nem hátráltam meg.  Hátamat odaadtam azoknak, akik vertek, arcomat meg, akik tépáztak. Nem rejtettem el arcomat azok elől, akik gyaláztak és leköpdöstek.  Isten, az Úr megsegít, ezért nem vallok szégyent. Arcomat megkeményítem, mint a kőszikla, s tudom, hogy nem kell szégyenkeznem.  Közel van, aki igazságot szolgáltat nekem. Ki szállhat velem perbe? Álljunk ki együtt! Ki az ellenfelem? Jöjjön ide hozzám!  Isten, az Úr siet segítségemre. Ki ítélhet el? Lám, mindnyájan elenyésznek, mint a ruha, amelyet a moly emésztett meg.  Mind, aki közületek féli az Urat, az ő szolgája szavára hallgasson. Ha meg sötétségben jár és nincs világossága, bízzék az Úr nevében, és támaszkodjék Istenére!",
+        "Nederlands": "In die dagen sprak Isaias: God de Heer heeft mij de oren geopend, en ik sprak niet tegen; ik week niet terug. Mijn lichaam bood ik aan hen, die mij sloegen, en mijn wangen aan hen, die mij de baard uitrukten; ik keerde mijn gelaat niet af van hen, die mij scholden en spuwden. God de Heer is mijn Helper; daarom werd ik niet te schande. Daarom maakte ik mijn gelaat hard als steen; want ik weet, dat ik niet word beschaamd; Hij, die mij recht doet, staat naast mij. Wie wil er strijden met mij? Laten wij tegenover elkander gaan staan. Wie wil er mijn tegenstander zijn? laat hij tegen mij optreden. Zie, God de Heer is mijn Helper; wie zal mij veroordelen? Zie, allen zullen zij verslijten als een kleed; de mot zal hen verteren. Wie uwer vreest er de Heer, luistert er naar de stem van zijn dienstknecht? Wie wandelt in de duisternis, en het licht moet missen, laat hij vertrouwen op de Heer, en steun zoeken bij zijn God.",
+        "Polski": "W one dni: Rzekł Izajasz: Pan Bóg otworzył mi ucho, a ja się nie sprzeciwiam, wstecz nie odszedłem. Wydałem ciało moje bijącym, a szczypiącym policzki moje; nie odwróciłem twarzy mojej od krzyczących i plwających na mnie. Pan Bóg wspomożycielem moim, przetom nie został zawstydzony: dlatego twarz moją uczyniłem jakby skałą najtwardszą i wiem, że zawstydzony nie będę. Obok mnie jest Ten, który mnie usprawiedliwia; któż mi się sprzeciwi? Razem stańmy: któż jest moim przeciwnikiem? Niechaj zbliży się do mnie! Oto Pan Bóg wspomożycielem moim, któż może mnie potępić? Oto wszyscy niby szata będą starci: zniszczy ich mól. Któż z was boi się Boga i słucha głosu sługi Jego? Kto szedł wśród ciemności i brak mu światła, niech w imieniu Pańskim pokłada nadzieję, a polega na Bogu swoim.",
+        "Portugues": "Naqueles dias, disse Isaías: «O Senhor e Deus abriu-me os ouvidos, e lhe não resisti, nem voltei para trás. Entreguei o meu corpo aos que me maltratavam e as minhas faces aos que me arrancavam as barbas. Não voltei o rosto àqueles que me ultrajavam e cuspiam sobre mim. O Senhor e Deus é o meu protector; assim, pois, não serei confundido! Meu rosto ficou impassível, como pedra duríssima; sei que não ficarei envergonhado. Aquele que me julgará está comigo; quem ousará, pois, contradizer-me? Compareceremos ambos. Quem será, pois, contra mim?! Aproxime-se de mim quem o ousar. O Senhor e Deus é o meu protector; quem se atreverá a condenar-me? Meus inimigos serão destruídos, como vestidos velhos, devorados pela traça. Qual de vós teme o Senhor e escuta a voz do seu servo? Aquele que andou em trevas, privado da luz, confie no nome do Senhor, pois Deus será o seu sustentáculo»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) EX(c)súr(dfe)ge(e.) *(,) Dó(e.f!gwh)mi(g)ne,(ghgfgFD.1) (,) (ixfhg___//hiHG'hf/gffe.) (:) et(f) in(f)tén(e.f!gwh)de(gh) ju(f)dí(ef'h)ci(hjg)um(g_fg) me(gffe)um,(fd) (,) (ff/ge'/fgd'/eddc.) (:) De(cd)us(dg!hv) me(g.d!ewf!gvFE)us,(f.) (;) et(f) Dó(ef'h)mi(hjg)nus(g_fg) me(gffe)us,(fd) (,) (ff/ge'/fgd'/eddc.) (:) in(cd) cau(dg!hv)sam(g) <nlba>me(g.d!ewf!gv.fg!hvF0/{ix}E0fh/ig)am.</nlba>(ghg___//hiHG'hf/gffe.) (::) <sp>V/</sp>. Ef(eef)fún(dg)de(g) frá(hj)me(j)am,(jjj_h) (,) (h!jj/ki'/jkh'/ihhg.) (;) et(g) con(hi~)clú(iki/jk_j/ki/jk_jk//ij/kjkkijvHG'h)de(hv.) (,) (gh/jjjvHGhh//gjh/ihhg.) (:) ad(ijg~)vér(h_j)sus(j) e(jj//jjjh/ijHG.)(,)(jj//jjjh/ijHG.)(,)(jj/kh/jjk/jk/ljjj'1h/ijHG.)(,)(jgjv)os(jh//jvIH//jhjvIHjh/ihhg.) (:) qui(g) me(gf//gh!jjjh/kljjvIH'jggf.0) <clear>*(,) per(f)se(f)quún(f!h'j)tur.(i_givHGhhf/hh) (,) (g/jj//jj//jjjvH'GF'/{ix}E0f_h//ivGFghg/hgge.) (::)",
+      "availableTranslations": {
+        "English": " Arise, and be attentive to my judgment : to my cause, my God, and my Lord.  Bring out the sword, and shut up the way against them that persecute me  ",
+        "Espanol": "Levántate, y hazme justicia; ocúpate de mi causa, oh mi Dios y Señor.  Desenvaina la espada y cierra con los que me persiguen.  Señor, no nos trates según merecen nuestros pecados, ni según nuestras culpas nos castigues. Señor, no te acuerdes de nuestras antiguas maldades: anticípense a favor nuestro cuanto antes tus misericordias; pues nos hallamos reducidos a extrema miseria. (Aquí se arrodilla.)  Ayúdanos, oh Dios salvador nuestro: y por la gloria de tu nombre, líbranos, Señor, y perdona nuestros pecados, por amor a tu nombre.",
+        "Francais": "Levez-vous, Seigneur, et faites triompher mon droit. Mon Seigneur et mon Dieu, prenez en main ma cause. Tirez votre glaive et barrez le passage à ceux qui me poursuivent.",
+        "Italiano": "Signore, sorgi a difendere il mio diritto; mio Dio e Signore sostieni la mia causa. Tira fuori la lancia ed affronta i miei persecutori.",
+        "Nederlands": "Rijs op, o Heer, en geef acht op mijn geding, op mijn rechtszaak, mijn God en mijn Heer. Trek het zwaard en versper mijn vervolgers de weg.",
+        "Polski": "Przebudź się, o Panie, powstań ku mojej obronie, wglądnij w mą sprawę, Boże mój i Panie. Dobądź miecza i poskrom moich prześladowców.",
+        "Portugues": " Erguei-Vos, Senhor, e procedei ao meu julgamento. Ó meu Deus e meu Senhor, tomai a minha causa nas vossas mãos. Desembainhai a vossa espada e enfrentai aqueles que me perseguem."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) EX(c)súr(dfe)ge(e.) *(,) Dó(e.f!gwh)mi(g)ne,(ghgfgFD.1) (,) (ixfhg___//hiHG'hf/gffe.) (:) et(f) in(f)tén(e.f!gwh)de(gh) ju(f)dí(ef'h)ci(hjg)um(g_fg) me(gffe)um,(fd) (,) (ff/ge'/fgd'/eddc.) (:) De(cd)us(dg!hv) me(g.d!ewf!gvFE)us,(f.) (;) et(f) Dó(ef'h)mi(hjg)nus(g_fg) me(gffe)us,(fd) (,) (ff/ge'/fgd'/eddc.) (:) in(cd) cau(dg!hv)sam(g) <nlba>me(g.d!ewf!gv.fg!hvF0/{ix}E0fh/ig)am.</nlba>(ghg___//hiHG'hf/gffe.) (::) <sp>V/</sp>. Ef(eef)fún(dg)de(g) frá(hj)me(j)am,(jjj_h) (,) (h!jj/ki'/jkh'/ihhg.) (;) et(g) con(hi~)clú(iki/jk_j/ki/jk_jk//ij/kjkkijvHG'h)de(hv.) (,) (gh/jjjvHGhh//gjh/ihhg.) (:) ad(ijg~)vér(h_j)sus(j) e(jj//jjjh/ijHG.)(,)(jj//jjjh/ijHG.)(,)(jj/kh/jjk/jk/ljjj'1h/ijHG.)(,)(jgjv)os(jh//jvIH//jhjvIHjh/ihhg.) (:) qui(g) me(gf//gh!jjjh/kljjvIH'jggf.0) <clear>*(,) per(f)se(f)quún(f!h'j)tur.(i_givHGhhf/hh) (,) (g/jj//jj//jjjvH'GF'/{ix}E0f_h//ivGFghg/hgge.) (::)",
+      "availableTranslations": {
+        "English": " Arise, and be attentive to my judgment : to my cause, my God, and my Lord.  Bring out the sword, and shut up the way against them that persecute me  ",
+        "Espanol": "Levántate, y hazme justicia; ocúpate de mi causa, oh mi Dios y Señor.  Desenvaina la espada y cierra con los que me persiguen.  Señor, no nos trates según merecen nuestros pecados, ni según nuestras culpas nos castigues. Señor, no te acuerdes de nuestras antiguas maldades: anticípense a favor nuestro cuanto antes tus misericordias; pues nos hallamos reducidos a extrema miseria. (Aquí se arrodilla.)  Ayúdanos, oh Dios salvador nuestro: y por la gloria de tu nombre, líbranos, Señor, y perdona nuestros pecados, por amor a tu nombre.",
+        "Francais": "Levez-vous, Seigneur, et faites triompher mon droit. Mon Seigneur et mon Dieu, prenez en main ma cause. Tirez votre glaive et barrez le passage à ceux qui me poursuivent.",
+        "Italiano": "Signore, sorgi a difendere il mio diritto; mio Dio e Signore sostieni la mia causa. Tira fuori la lancia ed affronta i miei persecutori.",
+        "Nederlands": "Rijs op, o Heer, en geef acht op mijn geding, op mijn rechtszaak, mijn God en mijn Heer. Trek het zwaard en versper mijn vervolgers de weg.",
+        "Polski": "Przebudź się, o Panie, powstań ku mojej obronie, wglądnij w mą sprawę, Boże mój i Panie. Dobądź miecza i poskrom moich prześladowców.",
+        "Portugues": " Erguei-Vos, Senhor, e procedei ao meu julgamento. Ó meu Deus e meu Senhor, tomai a minha causa nas vossas mãos. Desembainhai a vossa espada e enfrentai aqueles que me perseguem."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) DO(f)mi(efE'C)ne,(efeffe//f!gwhghhg/h_f//ghghf.) (;) *() non(f) se(f)cún(f)dum(efE'C) pec(e.f!gwh)cá(h)ta(gf) no(g)stra,(f/gh/iffe.) (;) quæ(e) fé(gh)ci(f)mus(f_e/f!gwh'!iv) nos :(hg/hiih.0) (:) ne(e)que(gh) se(f)cún(fg~)dum(f) in(f)i(f)qui(f)tá(fg)tes(f) no(f_e/f!gwh'!iv)stras(hg/hiih.0) (;) re(ehg)trí(hihhe)bu(fgf)as(hg~) no(hvGF)bis.(fefEC//fefggf.0) (::) \r\n<sp>V/</sp>. Dó(fhg)mi(hi)ne,(ijIH'ihh'hhvGEf_e/f!gw!hvGFgf..) (;) ne(fe) me(h)mí(hi'j)ne(jvIH'GhvGF'g)ris(gf..) (;) in(f)i(f)qui(hg)tá(h)tum(f) no(f)strá(fg)rum(f.) (,) an(fg~)ti(f)quá(f!hh//hhh)rum :(fe/ggf/gh/iffe.) (:) ci(e)to(e) an(gh)tí(f)ci(f)pent(fg~) nos(f.) (,) mi(f)se(f)ri(f)cór(fg~)di(f)æ(f) tu(f_e/f!gwh'!iv)æ,(hg/hiih.0) (;) qui(h)a(h) páu(hihhg)pe(fe)res(fhg) fa(h)cti(h) su(h)mus(gh/ihi) ni(f)mis.(f/ggf.0) (::) \r\n<nlba><sp>V/</sp>. <alt> Hic genuflectitur.</alt>Ad(kxh!iwj'!kv)ju(j)va(j) nos,(j) De(ji)us</nlba>(ij..) (,) sa(h)lu(hf)tá(h)ris(hi'j) no(jvIH'GhvGF'g)ster :(gf..) (;) et(f) pro(f)pter(hg) gló(h)ri(f)am(f) nó(fg)mi(f)nis(f) tu(f)i,(fe) Dó(fg)mi(f)ne,(f.) (,) lí(f)be(f!hh//hhh)ra(fg) nos :(fe/ggf/gh/iffe.) (:) et(e) pro(e)pí(gh)ti(f)us(f) e(fg)sto(f.) (,) pec(f)cá(fg)tis(f) no(f_e/f!gwh'!iv)stris,(kxhgi.jkiih.0) (;) pro(hihhg)pter(fe~) no(fgf)men(g.) *() tu(i_hivHFg.)(,)(h!jijH'GF)um.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
+      "availableTranslations": {
+        "English": " He hath not dealt with us according to our sins: nor rewarded us according to our iniquities.  Remember not our former iniquities: let thy mercies speedily prevent us, for we are become exceeding poor. (here genuflects)  Help us, O God, our saviour: and for the glory of thy name, O Lord, deliver us: and forgive us our sins for thy name's sake:",
+        "Francais": "Seigneur, ne nous traitez pas selon nos péchés, et ne nous punissez pas selon nos iniquités. Seigneur, ne vous souvenez plus de nos anciennes iniquités ; que vos miséricordes viennent en hâte au-devant de nous, car nous sommes réduits à la dernière misère. (Ici on se met à genoux.) Aidez-nous, ô Dieu notre Sauveur, et pour la gloire de votre nom, Seigneur, délivrez-nous et pardonnez-nous nos péchés, à cause de votre nom.",
+        "Italiano": "Signore, non rendere a noi secondo i peccati commessi; né secondo le nostre opere inique. Signore non ricordare le nostre passate colpe; ci prevenga presto la tua misericordia perché siamo diventati oltre misura miserabili.  (Genuflettendo:) Soccorrici, o Dio nostra salvezza; liberaci a gloria del tuo nome; in grazia del tuo nome perdonaci i nostri peccati.",
+        "Nederlands": "Heer, behandel ons niet naar onze zonden, die wij bedreven. Vergeld ons niet naar onze schuld. Ach, Heer, denk toch niet meer aan onze vroegere zonden. Moge uw barmhartigheid ons spoedig tegemoet treden, want wij zijn ellendig bovenmate. (Hier maakt men een kniebuiging.) Help ons, o God, onze Redder. Verlos ons, Heer, om de eer van uw naam. Om wille van uw Naam, vergeef ons onze zonden.",
+        "Portugues": "Senhor, nos não castigueis, consoante merecemos, pelos pecados que praticámos: nem nos julgueis, segundo as nossas iniquidades. Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas misericórdias, pois grande é a nossa miséria. (genuflectir) Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Ante sex dies Paschæ venit Jesus Bethániam, ubi Lázarus fúerat mórtuus, quem suscitávit Jesus. Fecérunt autem ei cenam ibi: et Martha ministrábat, Lázarus vero unus erat ex discumbéntibus cum eo. María ergo accépit libram unguénti nardi pístici pretiósi, et unxit pedes Jesu, et extérsit pedes ejus capíllis suis: et domus impléta est ex odóre unguénti. Dixit ergo unus ex discípulis ejus, Judas Iscariótes, qui erat eum traditúrus: Quare hoc unguéntum non véniit trecéntis denáriis, et datum est egénis? Dixit autem hoc, non quia de egénis pertinébat ad eum, sed quia fur erat, et lóculos habens, ea, quæ mittebántur, portábat. Dixit ergo Jesus: Sínite illam, ut in diem sepultúræ meæ servet illud. Páuperes enim semper habétis vobíscum: me autem non semper habétis. Cognóvit ergo turba multa ex Judǽis, quia illic est: et venérunt, non propter Jesum tantum, sed ut Lázarum vidérent, quem suscitávit a mórtuis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Jesus therefore, six days before the pasch, came to Bethania, where Lazarus had been dead, whom Jesus raised to life. And they made him a supper there: and Martha served: but Lazarus was one of them that were at table with him. Mary therefore took a pound of ointment of right spikenard, of great price, and anointed the feet of Jesus, and wiped his feet with her hair; and the house was filled with the odour of the ointment. Then one of his disciples, Judas Iscariot, he that was about to betray him, said: Why was not this ointment sold for three hundred pence, and given to the poor? Now he said this, not because he cared for the poor; but because he was a thief, and having the purse, carried the things that were put therein. Jesus therefore said: Let her alone, that she may keep it against the day of my burial. For the poor you have always with you; but me you have not always. A great multitude therefore of the Jews knew that he was there; and they came, not for Jesus' sake only, but that they might see Lazarus, whom he had raised from the dead.",
+        "Espanol": "Seis días antes de la Pascua volvió Jesús a Betania, donde vivía Lázaro a quien Jesús resucitó. Aquí le dispusieron una cena, Marta servía, y Lázaro era uno de los que estaban a la mesa con él. Y María tomó una libra de ungüento de nardo puro, y de gran precio, y lo derramó sobre los pies de Jesús, y los enjugó con sus cabellos; y se llenó la casa de la fragancia del perfume. Por lo cual Judas Iscariote, uno de sus discípulos, aquel que le había de entregar, dijo: ¿Por qué no se ha vendido este perfume por trescientos denarios, para limosna de los pobres? Esto dijo, no porque él pasase algún cuidado por los pobres, sino porque era ladrón y teniendo la bolsa, llevaba o defraudaba el dinero que se echaba en ella. Pero Jesús respondió: Dejadla que lo emplee para honrar de antemano el día de mi sepultura. Pues en cuanto a los pobres, los tenéis siempre con vosotros; pero a mí no me tenéis siempre. Entretanto una gran multitud de judíos, luego que supieron que Jesús estaba allí, vinieron, no sólo por Jesús, sino también por ver a Lázaro, a quien había resucitado de entre los muertos.",
+        "Francais": "Six jours avant la Pâque, Jésus vint à Béthanie, où était Lazare, le mort qu’il avait ressuscité. Là, on lui fit un souper, et Marthe servait. Or, Lazare était de ceux qui se trouvaient à table avec lui. Marie, ayant pris une livre d’un parfum de nard très pur, très précieux, en oignit les pieds de Jésus, et les essuya avec ses cheveux. Et la maison fut remplie de l’odeur du parfum. Alors, un de ses disciples, Judas Iscariote, celui qui devait le trahir, dit : « Pourquoi n’a-t-on pas vendu ce parfum trois cents deniers, pour les donner aux pauvres ?» Il dit cela, non qu’il se souciât des pauvres, mais parce qu’il était voleur, et qu’ayant la bourse, il dérobait ce qu’on y mettait. Jésus lui dit donc : « Laisse-la ; elle a gardé ce parfum pour le jour de ma sépulture. Car vous aurez toujours des pauvres avec vous ; mais moi, vous ne m’aurez pas toujours !» Un grand nombre de Juifs surent que Jésus était à Béthanie, et ils vinrent, non seulement à cause de Jésus, mais aussi pour voir Lazare qu’il avait ressuscité des morts.",
+        "Italiano": "Vangelo. (Gv. 12,1-9): L'unguento ai piedi di Gesù. Passo del santo Vangelo secondo san Giovanni. Sei giorni prima di Pasqua. Gesù andò a Betania dov'era Làzzaro, il morto che Gesù aveva risuscitato. E quivi gli fecero una cena. Marta serviva, e Lazzaro era uno dei' suoi commensali. Or Maria prese una libbra di profumo di nardo puro molto prezioso, ne unse i piedi di Gesù, e glieli asciugò coi' suoi capelli; e la casa fu riempita dall'odore dell'unguento. Allora uno dei suoi discepoli, Giuda Iscariota, che stava per tradirlo, disse: Perché non si è venduto questo profumo per trecento denari da dare ai poveri? Diceva così, non perché gli importasse dei poveri, ma perché era ladro e, siccome teneva la borsa, rubava quel che ci si metteva dentro. Gesù dunque disse: «Lasciatela stare; che l'ha fatto ",
+        "Magyar": "Hat nappal húsvét előtt Jézus Betániába ment, ahol Lázár lakott, akit feltámasztott a halálból.  Ott vacsorát rendeztek neki. Márta felszolgált és Lázár is a vendégek közt volt.  Mária vett egy font valódi nárduszból készült, drága olajat, megkente vele Jézus lábát és megtörölte a hajával, a ház betelt az olaj illatával.  Az egyik tanítvány, az áruló Júdás, aki elárulta, méltatlankodott miatta:  „Miért nem adták el inkább az olajat 300 dénárért, s miért nem osztották szét a szegények közt?”  De nem azért beszélt így, mintha a szegényekre lett volna gondja, hanem mert tolvaj volt: ő kezelte a pénzt és eltulajdonította, amit rábíztak.  Jézus így szólt: „Hagyd békén! Hadd tegye, hiszen temetésem napjára teszi.  Szegények mindig vannak veletek, de én nem leszek mindig veletek.”  Amikor megtudták, hogy ott tartózkodik, a zsidók közül sokan elmentek, nemcsak Jézus kedvéért, hanem hogy Lázárt is lássák, akit feltámasztott a halálból.",
+        "Nederlands": "Zes dagen voor Pasen kwam Jezus the Bethanië, waar Lazarus was gestorven en door Jezus weer was opgewekt. En men bereidde Hem daar een maaltijd, waarbij Martha bediende en Lazarus een der disgenoten was. En Maria nam een pond kostbare, echte nardusbalsem, zalfde Jezus' voeten en droogde ze met haar haren af; en het huis werd van de geur van de balsem vervuld. Toen zeide een van zijn leerlingen, Judas Iscariot, die Hem zou verraden: Waarom is die balsem niet verkocht voor driehonderd tienlingen en aan de armen gegeven? Doch hij zeide dit niet, omdat hij bezorgd was voor de armen, maar omdat hij een dief was en als drager van de beurs de giften te bewaren had. Toen sprak Jezus: Laat toe, dat zij die besteedt voor de dag van mijn begrafenis. Want armen hebt gij altijd bij u; maar Mij hebt gij niet altijd. Een grote menigte nu van Joden vernam, dat Hij zich daar bevond; en zij kwamen er heen, niet alleen om wille van Jezus, maar ook om Lazarus te zien, die Hij uit de doden had opgewekt.",
+        "Polski": "Na sześć dni przed Paschą przyszedł Jezus do Betanii, gdzie umarł był Łazarz, którego Jezus wskrzesił. I przygotowano Mu tam wieczerzę, na której Marta usługiwała, a Łazarz był jednym z siedzących z Nim u stołu. Maria zaś wzięła funt drogiego olejku spikanardowego, namaściła stopy Jezusa i otarła włosami swoimi nogi Jego. I napełnił się dom wonią olejku. Rzekł tedy jeden z uczniów Jego, Judasz Iszkariota, który Go miał wydać: «Czemu to nie sprzedano tego olejku za trzysta denarów i nie rozdano ubogim?» A mówił to nie dlatego, żeby się troszczył o ubogich, ale że był złodziejem i mając trzos, nosił to, co wkładano. Rzekł tedy Jezus: «Dozwólcie jej, aby to na dzień pogrzebu mego uczyniła. Ubogich bowiem macie zawsze pośród siebie, a mnie nie zawsze macie». A liczna rzesza spośród żydów dowiedziała się, że jest tam, i przyszli nie tylko dla Jezusa, ale żeby ujrzeć Łazarza, którego wzbudził z martwych.",
+        "Portugues": "Seis dias antes da Páscoa, voltou Jesus a Betânia, onde morrera Lázaro, que Ele ressuscitara, Prepararam-Lhe a ceia, que Marta servia, sendo Lázaro um dos convivas. Então Maria pegou em uma libra de nardo puro e precioso, perfumando com ele os pés de Jesus e enxugando-lhos, depois, com seus cabelos. A casa estava cheia do odor daquele perfume. Vendo isto, disse um dos discípulos, Judas Iscariotes, que havia de traí-l’O: «Porque se não venderia, antes, este perfume por trezentos dinheiros, para se darem de esmola aos pobres?». Ele disse isto, não porque tivesse compaixão dos pobres, mas porque era ladrão; e, como guardava a bolsa, tirava o que lhe entregavam. Jesus disse: «Deixai-a; ela guardou este perfume para o dia da minha sepultura. Vós tereis sempre pobres convosco, mas a mim nem sempre me tereis». Então os judeus em grande multidão, sabendo que Jesus estava ali, acorreram lá, não tanto por causa d’Ele, como para verem Lázaro, que Jesus havia ressuscitado dos mortos."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) E(ef'g)ri(hgh)pe(gfg) me(efd.1) <clear>*(,) de(gj) in(jjj)i(jh)mí(ik)cis(jkJ'H) me(j_h)is,(jhjvIG.) (,) Dó(giHG'hffe)mi(egF'E)ne :(e.) (:) ad(ff//ff) te(ff//ff) con(fd~)fú(fh)gi,(ixgih'/iggf.0) (;) do(g)ce(hj) me(jv.jjjh) fá(h!iwj!kvJI)ce(ji)re(i.) (,) vo(ij)lun(j)tá(j)tem(jjjhk) tu(k_jlvKJkvJI)am :(i.) (:) qui(ij)a(j) De(j_i)us(jv.ijhi) me(hv.gh!jlk)us(k.) (,) es(k_jlvKJkvJI) tu.(i.) (::)",
+      "availableTranslations": {
+        "English": " Deliver me from my enemies, O Lord, to thee have I fled: teach me to do thy will, for thou art my God.",
+        "Espanol": "Líbrame. Oh Señor, de mis enemigos: a ti me acojo. Enséñame a cumplir tu voluntad pues tú eres mi Dios.",
+        "Francais": "Arrachez-moi à mes ennemis, Seigneur ; je me réfugie auprès de vous ; apprenez-moi à faire votre volonté, car vous êtes mon Dieu.",
+        "Italiano": "Salvami dagli avversari, o Signore; in te mi rifugio; insegnami a fare la tua volontà, che Tu sei il mio Dio.",
+        "Nederlands": "Bevrijd mij van mijn vijanden, o Heer. Tot U neem ik mijn toevlucht. Leer mij uw wil volbrengen, want Gij zijt mijn God.",
+        "Polski": "Ocal mnie od nieprzyjaciół moich, Panie, do Ciebie się uciekam. Naucz mnie pełnić wolę Twoją, albowiem jesteś Bogiem moim.",
+        "Portugues": " Salvai-me dos meus inimigos, Senhor. Em Vós procurei refúgio; ensinai-me a obedecer à vossa vontade, porquanto sois o meu Deus."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hæc sacrifícia nos, omnípotens Deus, poténti virtúte mundátos, ad suum fáciant purióres veníre princípium.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May these sacrifices, almighty God, make us, whom thou cleansest by thy mighty power, to approach their source with greater purity. ",
+        "Espanol": "Oh Dios omnipotente, haz que purificados por la poderosa virtud de los sacrificios, lleguemos con mayor pureza a ti, que eres su principio. ",
+        "Francais": "Que ces sacrifices, ô Dieu tout-puissant, par leur vertu infime, nous fassent approcher, entièrement purs, de celui qui en est le principe.",
+        "Italiano": "Questo sacrificio, o Dio onnipotente, purificandoci colla sua potente virtù, ci faccia giungere più puri a Colui che ne è l'Autore. ",
+        "Nederlands": "Moge dit offer, almachtige God, ons zuiveren door zijn diepe kracht, en reiner tot zijn oorsprong doen geraken.",
+        "Polski": "Panie, niech te święte tajemnice oczyszczą nas swoją potężną mocą i pozwolą w większej czystości dojść do ich Stwórcy.",
+        "Portugues": "Ó Deus omnipotente, havendo sido purificados com a eficaz virtude destes sacrifícios, fazei que nos aproximemos cada vez mais puros d’Aquele que é o seu princípio."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) E(hg)ru(h)bé(i!jwk_j)scant(j_i) *(,) et(i) re(h)ve(hg)re(f)án(h)tur(e) si(hg/hih)mul,(hg..) (;) qui(e) gra(f)tu(ed)lán(ef~)tur(f) ma(i)lis(hhg) me(ef!gvFE'f)is :(fe..) (:) in(hg~)du(h)án(ij)tur(i) pu(h)dó(hg)re(f) (,) et(g) re(e)ve(f)rén(hi)ti(h)a,(h.i!jw!kvJIji..) (;) qui(g) ma(h)lí(j)gna(i) lo(g)quún(h)tur(f!gw!hvGE.) (,) ad(g)vér(e)sum(fh~) me.(hv.g!hi'HF'fd//fh'hhe.) (::)",
+      "availableTranslations": {
+        "English": " Let them blush: and be ashamed together, who rejoice at my evils. Let them be clothed with confusion and shame, who speak great things against me.",
+        "Espanol": "Queden todos ellos llenos de confusión y vergüenza, los que se congratulan por mis males. Cubiertos sean de ignominia y sonrojados los que se jactan contra mi.",
+        "Francais": "Qu’ils rougissent et soient confondus ceux qui se réjouissent de mes maux ; qu’ils soient couverts de honte et de confusion ceux qui m’accablent d’injures.",
+        "Italiano": "Siano svergognati e confusi tutti insieme, quelli che si compiacciono dei miei mali: si coprano di confusione e di vergogna quelli che gridano contro di me.",
+        "Nederlands": "Dat ze te schande worden en zich schamen, allen tezamen, die zich verheugen over mijn ongeluk; met schaamte en schande worden bedekt, die kwaad over mij spreken.",
+        "Polski": "Niech się zmieszają i zawstydzą wszyscy, którzy się cieszą z mego nieszczęścia, niech się okryją wstydem i wzgardą, którzy miotają przeciw mnie obelgi.",
+        "Portugues": "Sejam envergonhados e confundidos aqueles que se alegram com a minha desgraça; que a infâmia e o temor revistam aqueles que falam mal de mim."
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Prǽbeant nobis, Dómine, divínum tua sancta fervórem: quo eórum páriter et actu delectémur et fructu.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let thy holy mysteries, O Lord, inspire us with divine fervor, that we may delight both in their celebration and in their fruit.",
+        "Espanol": "Inspírennos, oh Señor, estos tus santos misterios un fervor divino, con el que podamos gozar de sus delicias y de sus frutos.",
+        "Francais": "Que vos saints sacrements, Seigneur, nous inspirent une ferveur divine, afin que leur réception et leurs effets fassent toutes nos délices.",
+        "Italiano": "I tuoi santi misteri, o Signore, ci infondano divino fervore, affinché possiamo godere parimenti della loro celebrazione e dei loro frutti. ",
+        "Nederlands": "Mogen uw heilige gaven in ons, o Heer, een goddelijk vuur ontsteken, opdat wij daardoor gelijkelijk van dit moment genieten en van zijn uitwerking.",
+        "Polski": "Panie, niech Twoje święte tajemnice obudzą w nas Boży zapał, abyśmy czerpali radość zarówno z ich sprawowania, jak z owoców.",
+        "Portugues": "Que os vossos mystérios, Senhor, inspirem às nossas almas um fervor divino, a fim de que encontremos as nossas delícias tanto durante a sua celebração, como nos seus frutos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Oratio super Populum",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus. Humiliáte cápita vestra Deo. Adjuva nos, Deus, salutáris noster: et ad benefícia recolénda, quibus nos instauráre dignátus es, tríbue veníre gaudéntes.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray. Bow your heads to God.  Help us, O God, our Saviour, and grant that we may draw nigh with joy, to keep the memory of those mercies, whereby thou didst deign to restore us to life.",
+        "Espanol": "Oremos. Humillad ante Dios vuestras cabezas.  Ayúdanos, oh Dios Salvador nuestro: y concédenos que vengamos gozosos a celebrar la memoria de los beneficios con que te has dignado renovarnos.",
+        "Francais": "Prions. Humiliez vos têtes devant Dieu. Aidez-nous, ô Dieu notre Sauveur, et donnez-nous de célébrer avec joie le souvenir des bienfaits par lesquels vous avez daigné nous régénérer.",
+        "Italiano": "Preghiamo. Umiliate il vostro capo a Dio. Aiutaci, o Dio, nostro Salvatore, e concedici di venire a celebrare con gioia i benefici (della Redenzione), coi quali ti sei degnato dì rinnovarci. Per il Signore.",
+        "Nederlands": "Laat ons bidden. Buigt nederig uw hoofd voor God. Help ons, God, onze Redder, en laat ons vol vreugde komen tot de gedachtenis van uw weldaden, waardoor Gij ons nieuw leven hebt willen geven.",
+        "Polski": "Módlmy się. Pochylcie głowy wasze przed Bogiem. Wspomóż nas, Boże, Zbawicielu nasz, i daj, abyśmy z radością doczekali obchodu Twych dobrodziejstw, przez które raczyłeś nas odrodzić.",
+        "Portugues": "Oremos.  Inclinai as vossas cabeças diante de Deus.  Ó Deus, nosso Salvador, vinde em nosso auxílio e concedei-nos a graça de celebrarmos com alegria o aniversário dos benefícios com que Vos dignastes regenerar-nos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

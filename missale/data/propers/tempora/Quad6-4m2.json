@@ -1,0 +1,704 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "Feria Quinta in Cœna Domini",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) NOS(dfe) au(ef!gvFDfe)tem(fff) (,) *() glo(fd)ri(f)á(ef'g)ri(g_d) o(fh)pór(gv.fhg)tet(eef.) (;) in(d) cru(g')ce(g) Dó(ixhg/hi)mi(h)ni(h) no(jj)stri(hhg) (,) Je(hhg)su(f) Chri(ixef!hig)sti :(g.) (:) in(ge~) quo(g) est(h) sa(ixhi)lus,(h.) (,) vi(jj)ta(hhg) (,) et(gh~) re(hhg)sur(f)ré(ef'g)cti(g)o(ixgih) no(g_f/gfg)stra :(d.) (:) per(d!fff) quem(f) sal(fd~)vá(fh)ti(g.) (,) et(h) li(f)be(gf)rá(ef'g)ti(ixgiH'G) su(g_fhvGFgvFE)mus.(e.) (::) <i>T. P.</i> Al(fd)le(f)lú(ef'g){ia},(g_d) (,) al(fh)le(gv.fhGF'g)lú(egff){ia}.(fe..) (::) <i>Ps.</i> De(hg)us(gh) mi(h)se(h)re(h)á(h)tur(h) no(h)stri,(h.) (,) et(h) be(h)ne(hg)dí(gi)cat(i) no(hi)bis :(h.) *(:) il(hg~)lú(gh)mi(h)net(h) vul(h)tum(h) su(h)um(h) su(h)per(h) nos,(h.) (,) et(h) mi(h)se(h)re(h)á(gf)tur(gh) no(g)stri.(e.) (::) Gló(hg)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(gf) u(gh) a(g) e.</eu>(egff) (::)",
+      "availableTranslations": {
+        "English": "But it behooves us to glory in the cross of Our Lord Jesus Christ: in Whom is our salvation, life, and resurrection; by whom we are saved and delivered. May God have mercy on us, and bless us: may He cause the light of His countenance to shine upon us; and may He have mercy on us.",
+        "Francais": "Il faut que nous nous glorifions dans la croix de Notre-Seigneur Jésus-Christ ; en qui est notre salut, notre vie et notre résurrection, et par qui nous avons été sauvés et délivrés. Que Dieu ait pitié de nous, et nous bénisse; qu'Il fasse briller Son visage sur nous, et qu'Il ait pitié de nous.",
+        "Italiano": "Quanto a noi non sia mai che ci gloriamo d'altro se non della croce del Signor nostro Gesù Cristo; in Lui è la salvezza, la vita e la resurrezione nostra; per mezzo suo siamo stati salvati e liberati. Dio abbia pietà di noi e ci benedica; faccia splendere su di noi il suo sguardo e ci usi pietà."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, a quo et Judas reátus sui pœnam, et confessiónis suæ latro prǽmium sumpsit, concéde nobis tuæ propitiatiónis efféctum: ut, sicut in passióne sua Jesus Christus, Dóminus noster, divérsa utrísque íntulit stipéndia meritórum; ita nobis, abláto vetustátis erróre, resurrectiónis suæ grátiam largiátur:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": " O God, from whom Judas received the punishment of his guilt, and the thief the reward of his confession: grant unto us the full fruit of Thy clemency; that even as in His Passion, our Lord Jesus Christ gave to each a retribution according to his merits, so having taken away our old sins, He may bestow upon us the grace of His Resurrection. Who with Thee liveth and reigneth in the unity of the Holy Ghost, God, world without end.",
+        "Francais": "Ô Dieu, qui avez puni la perfidie de Judas et récompensé la confession du larron, faites-nous ressentir l’effet de votre miséricorde, afin que Notre Seigneur Jésus-Christ, qui, dans sa Passion, les a traités tous deux selon leur mérite, détruise en nous les traces du vieil homme et nous accorde la grâce de sa résurrection.",
+        "Italiano": "Dio, da cui Giuda ricevette il castigo del suo delitto e il ladrone il premio del suo pentimento, fa a noi sentire l'effetto della tua pietà, affinché, come nella sua Passione Gesù Cristo Signor nostro diede all'uno e all'altro il dovuto trattamento, così tolte da noi le aberrazioni dell'uomo vecchio, ci dia la grazia della sua risurrezione."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Fratres: Conveniéntibus vobis in unum, jam non est Domínicam cœnam manducáre. Unusquísque enim suam cœnam præsúmit ad manducándum. Et alius quidem ésurit: álius autem ébrius est. Numquid domos non habétis ad manducándum et bibéndum? aut ecclésiam Dei contémnitis, et confúnditis eos, qui non habent? Quid dicam vobis? Laudo vos? In hoc non laudo. Ego enim accépi a Dómino quod et trádidi vobis, quóniam Dóminus Jesus, in qua nocte tradebátur, accépit panem, et grátias agens fregit, et dixit: Accípite, et manducáte: hoc est corpus meum, quod pro vobis tradétur: hoc fácite in meam commemoratiónem. Simíliter et cálicem, postquam cœnávit, dicens: Hic calix novum Testaméntum est in meo sánguine: hoc fácite, quotiescúmque bibétis, in meam commemoratiónem. Quotiescúmque enim manducábitis panem hunc et cálicem bibétis: mortem Dómini annuntiábitis, donec véniat. Itaque quicúmque manducáverit panem hunc vel bíberit cálicem Dómini indígne, reus erit córporis et sánguinis Dómini. Probet autem seípsum homo: et sic de pane illo edat et de cálice bibat. Qui enim mandúcat et bibit indígne, judícium sibi mandúcat et bibit: non dijúdicans corpus Dómini. Ideo inter vos multi infírmi et imbecílles, et dórmiunt multi. Quod si nosmetípsos dijudicarémus, non útique judicarémur. Dum judicámur autem, a Dómino corrípimur, ut non cum hoc mundo damnémur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Brethren, When you come therefore into one place, it is not now to eat the Lord's supper. For every one taketh before his own supper to eat. And one indeed is hungry and another is drunk. What, have you not houses to eat and to drink in? Or despise ye the church of God and put them to shame that have not? What shall I say to you? Do I praise you? In this I praise you not. For I have received of the Lord that which I also delivered unto you, that the Lord Jesus, the same night in which He was betrayed, took bread, and giving thanks, broke and said: Take ye and eat: This is My Body, which shall be delivered for you. This do for the commemoration of Me. In like manner also the chalice, after He had supped, saying: This chalice is the new testament in My Blood. This do ye, as often as you shall drink, for the commemoration of Me. For as often as you shall eat this bread and drink the chalice, you shall show the death of the Lord, until He come. Therefore, whosoever shall eat this bread, or drink the chalice of the Lord unworthily, shall be guilty of the Body and the Blood of the Lord. But let a man prove himself; and so let him eat of that bread and drink of the chalice. For he that eateth and drinketh unworthily eateth and drinketh judgment to himself, not discerning the Body of the Lord. Therefore are there many infirm and weak among you: and many sleep. But if we would judge ourselves, we should not be judged. But whilst we are judged, we are chastised by the Lord, that we be not condemned with this world.",
+        "Francais": "Mes frères, lorsque vous vous assemblez comme vous faites, ce n’est plus manger le souper du Seigneur. Car chacun se hâte de prendre son repas à part. Et ainsi l’un n’a rien à manger tandis que l’autre fait des excès. N’avez-vous donc pas vos maisons pour y boire et pour y manger ? ou méprisez-vous l’Église de Dieu et voulez-vous faire honte à ceux qui n’ont rien ? Que vous dirai-je à ce sujet ? Faut-il vous louer ? Non, je ne vous en loue point. C’est du Seigneur même que j’ai appris ce que je vous ai enseigné à mon tour : à savoir, que le Seigneur Jésus, dans la nuit même où il fut livré, prit du pain et, ayant rendu grâces, le rompit et dit : Prenez et mangez, ceci est mon corps, qui sera livré pour vous ; faites ceci en mémoire de moi. Il prit de même le calice, après avoir soupe, et il dit : Ce calice est la nouvelle alliance en mon sang ; faites ceci en mémoire de moi, toutes les fois que vous le boirez. En effet, toutes les fois que vous mangerez de ce pain et que vous boirez de ce calice, vous annoncerez la mort du Seigneur jusqu’à ce qu’il vienne. Or, quiconque mangera de ce pain ou boira le calice du Seigneur indignement sera coupable du corps et du sang du Seigneur. Que l’homme donc s’éprouve soi-même et qu’ainsi il mange de ce pain et boive de ce calice. Car celui qui le mange et le boit indignement, mange et boit sa propre condamnation, ne faisant pas le discernement qu’il doit du corps du Seigneur. C’est pour cela que parmi vous beaucoup sont débiles et languissants et que plusieurs sont morts. Si nous nous examinions nous-mêmes, nous ne serions pas jugés de Dieu. Mais le Seigneur nous juge et nous châtie, afin que nous ne soyons pas condamnés avec ce monde.",
+        "Italiano": "Fratelli; quando vi adunate in sacra adunanza, non vi comportate come chi deve prepararsi a mangiare la Cena del Signore, poiché  ciascuno  pensa  a consumare la propria cena tanto che uno patisce la fame e l'altro si ubriaca. Ma non avete le vostre case per mangiare e bere? O avete in disprezzo l'assemblea di Dio e desiderate far arrossire coloro che non hanno nulla? Che devo dirvi? forse lodarvi? In questo certamente no, Quello infatti che io vi ho insegnato me l'ha comunicato il Signore, e cioè: Il Signore Gesù la notte in cui fu tradito, prese il pane e, dopo aver reso le grazie a Dio "
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) CHri(ffg)stus(f.) *(,) fa(fg)ctus(f) est(f') pro(f) no(ghF'ED.g_e/fg)bis(f.) (;) ob(f)é(hf/gh!jj/kjk)di(jij)ens(h_g) (,) us(h!jjh)que(f.) ad(ixfiH'Gh) mor(f_g_f_)tem,(f.) (:) mor(ixf!hhi)tem(g) au(ixgjj)tem(j.h!iw!jvIG'hw!ivHG) cru(fv.ff)cis.(f_c) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Pro(d)pter(d) quod(d) et(fe~) De(eh)us(h.) (,) ex(h)al(h)tá(h)vit(h) il(h)lum,(ihhe./h_i_h_/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) et(f) de(f!h'i)dit(i) il(i)li(ih/jkihhf.) (,) no(hf/hhh)men,(h.f!gwh!iv.hi/jhh/iih.0) (;) quod(d) est(d) su(d)per(d) o(dfE'D)mne(ef) *() no(fhG'Fhhh)men.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "Christ became obedient for us unto death, even to the death of the cross.  For which cause God also exalted Him and hath given Him a Name which is above all names.",
+        "Francais": "Le Christ, pour nous, s’est fait obéissant jusqu’à la mort, même jusqu’à la mort de la croix. C’est pourquoi Dieu l’a exalté et lui a donné un nom qui est au-dessus de tout nom.",
+        "Italiano": "Il Cristo si è fatto per noi obbediente fino alla morte e morte di croce. Perciò Dio lo ha esaltato e gli ha dato un nome, che è sopra ogni altro nome."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Ante diem festum Paschæ, sciens Jesus, quia venit hora ejus, ut tránseat ex hoc mundo ad Patrem: cum dilexísset suos, qui erant in mundo, in finem diléxit eos. Et cœna facta, cum diábolus jam misísset in cor, ut tráderet eum Judas Simónis Iscariótæ: sciens, quia ómnia dedit ei Pater in manus, et quia a Deo exívit, et ad Deum vadit: surgit a cœna et ponit vestiménta sua: et cum accepísset línteum, præcínxit se. Deínde mittit aquam in pelvim, et cœpit laváre pedes discipulórum, et extérgere línteo, quo erat præcínctus. Venit ergo ad Simónem Petrum. Et dicit ei Petrus: Dómine, tu mihi lavas pedes? Respóndit Jesus et dixit ei: Quod ego fácio, tu nescis modo, scies autem póstea. Dicit ei Petrus: Non lavábis mihi pedes in ætérnum. Respóndit ei Jesus: Si non lávero te, non habébis partem mecum. Dicit ei Simon Petrus: Dómine, non tantum pedes meos, sed et manus et caput. Dicit ei Jesus: Qui lotus est, non índiget nisi ut pedes lavet, sed est mundus totus. Et vos mundi estis, sed non omnes. Sciébat enim, quisnam esset, qui tráderet eum: proptérea dixit: Non estis mundi omnes. Postquam ergo lavit pedes eórum et accépit vestiménta sua: cum recubuísset íterum, dixit eis: Scitis, quid fécerim vobis? Vos vocátis me Magíster et Dómine: et bene dícitis: sum étenim. Si ergo ego lavi pedes vestros, Dóminus et Magíster: et vos debétis alter altérius laváre pedes. Exémplum enim dedi vobis, ut, quemádmodum ego feci vobis, ita et vos faciátis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": " Before the festival-day of the Pasch, Jesus knowing that His hour was come, that He should pass out of this world to the Father, having loved His own who were in the world. He loved them unto the end. And when supper was done the devil having now put into the heart of Judas, the son of Simon the Iscariot, to betray Him, knowing that the Father had given Him all things into His hands and that He came from God and goeth to God: He riseth from supper and layeth aside His garments and, having taken a towel, girded Himself. After that, He putteth water into a basin and began to wash the feet of the disciples and to wipe them with the towel wherewith He was girded. He cometh therefore to Simon Peter. And Peter saith to Him: Lord, dost Thou wash my feet? Jesus answered and said to him: What I do, thou knowest not now: but thou shalt know hereafter. Peter saith to Him: Thou shalt never wash my feet. Jesus answered him: If I wash thee not, thou shalt have no part with Me. Simon Peter saith to Him: Lord, not only my feet, but also my hands and my head. Jesus saith to him: He that is washed needeth not but to wash his feet, but is clean wholly. And you are clean, but not all. For He knew who he was that would betray Him; therefore He said: You are not all clean. Then after He had washed their feet and taken His garments, being set down again, He said to them: Know you what I have done to you? You call Me Master and Lord. And you say well; for so I am. If then I being your Lord and Master, have washed your feet, you also ought to wash one another's feet. For I have given you an example, that as I have done to you, so you do also.",
+        "Francais": "Avant la fête de Pâque, Jésus sachant que son heure était venue de passer de ce monde à son Père, comme il avait aimé les siens qui étaient dans le monde, il les aima jusqu’à l’excès. Et après le souper, le démon ayant déjà mis dans le cœur de Judas Iscariote, fils de Simon, le dessein de le trahir, Jésus, qui savait que son Père lui avait donné tout pouvoir, qu’il était sorti de Dieu et qu’il retournait à Dieu, se leva de table, ôta son manteau et, ayant pris un linge, il s’en ceignit. Puis il versa de l’eau dans un bassin, il se mit à laver les pieds de ses disciples et à les essuyer avec le linge qu’il avait attaché autour de lui. Il vint donc à Simon-Pierre. Mais Pierre lui dit : « Quoi, Seigneur, vous me laveriez les pieds ! » Jésus lui répondit : « Vous ne comprenez pas maintenant ce que je fais, mais vous le saurez bientôt. » Pierre lui dit : « Jamais vous ne me laverez les pieds. » Jésus lui répondit : « Si je ne te lave, tu n’auras point de part avec moi. » Simon Pierre lui dit : « Seigneur, non seulement les pieds, mais aussi les mains et la tête. » Jésus lui dit : « Celui que le bain a déjà purifié n’a besoin que de se laver les pieds ; il est pur dans tout son corps ; pour vous, vous êtes purs, mais non pas tous. » Il connaissait celui qui le devait trahir, c’est pourquoi il dit : Vous n’êtes pas tous purs. Après donc qu’il leur eut lavé les pieds et qu’il eut repris son manteau, il se remit à table et leur dit : « Savez-vous ce que je viens de faire ? Vous m’appelez Maître et Seigneur, et vous dites bien, car je le suis. Si donc je vous ai lavé les pieds, moi, le Seigneur et le Maître, vous devez, vous aussi vous laver les pieds les uns aux autres. Car je vous ai donné l’exemple, afin que, comme je vous ai fait, vous fassiez aussi.",
+        "Italiano": "Prima della festa di Pasqua, Gesù sapendo che per lui era venuta l'ora di passare da questo mondo al Padre, dopo aver amato i suoi che erano nel mondo, li amò sino alla fine: e fatta la cena, quando il diavolo aveva già messo in cuore a Giuda, figliuolo di Simone Iscariota, il disegno di tradirlo: sapendo che il Padre gli aveva dato tutto nelle mani, e ch'era venuto da Dio e a Dio se ne tornava: si leva da tavola, depone il mantello e, preso un asciugatoio, se Io cinge. Poi versa dell'acqua nel bacino, e si mette a lavare i piedi ai discepoli e a rasciugarli con l'asciugatoio. Viene dunque a Simon Pietro; e Pietro gli dice: Signore, tu lavare i piedi a me? Gesù gli rispose: «Quel che io faccio, tu adesso non lo sai; ma lo capirai dopo». Pietro gli dice: Tu non mi laverai i piedi, mai! E Gesù gli risponde: «Se io non ti laverò, non avrai parte con me». E Simon Pietro gli dice: Signore, non soltanto i piedi, ma anche le mani e il capo! E Gesù gli dice : «Chi è stato lavato, non ha bisogno di lavarsi, se non i piedi, ma è interamente mondo. E voi siete mondi, ma non tutti». Siccome sapeva chi era colui che l'avrebbe tradito, per questo disse: «Non tutti siete mondi». Come dunque ebbe loro lavato i piedi, ed ebbe ripreso il mantello, rimessosi a tavola, disse loro: « Lo capite quel che vi ho fatto? Voi mi chiamate Maestro e Signore; e dite bene, perché lo sono. Orbene, se io, che sono il Signore e il Maestro , vi ho lavato i piedi, anche voi dovete lavarvi i piedi l'uno all'altro. Poiché vi ho dato un esempio, affinché così come ho fatto io, facciate anche voi»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DEx(e!g'h)te(hiH'G)ra(g.ggg/hihi) Dó(gh)mi(efED'e)ni(ed..) <clear>*(;) fe(de/ghg___)cit(h.) vir(hi!kki/j_k)tú(hv.gih)tem,(h.) (:) déx(jj)te(j_i)ra(jjj_h) Dó(hjjh)mi(h)ni(h.) (,) ex(g)al(h)tá(hjj'1jjh/kjjh)vit(hiH'~G~) me :(hg..) (:) non(h!iwj') mó(j)ri(jvIH)ar,(h.) (,) sed(g!jjj) vi(hig)vam,(e!geg.) (;) et(d) nar(e)rá(g)bo(e) ó(ghg___)pe(h)ra(h./jkj'kvJ'IH) Dó(h)mi(h)ni.(h!iwjjvIHiih.0) (::)",
+      "availableTranslations": {
+        "English": "The right hand of the Lord hath wrought strength: the right hand of the Lord hath exalted me. I shall not die, but live, and shall declare the works of the Lord.",
+        "Francais": "La droite du Seigneur a fait éclater Sa puissance, la droite du Seigneur m'a exalté; Je ne mourrai point, mais je vivrai, et je raconterai les œuvres du Seigneur.",
+        "Italiano": "La destra del Signore ha mostrato la sua potenza; la destra del Signore mi ha esaltato: non morrò, ma vivrò e narrerò le opere del Signore."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Ipse tibi, quǽsumus, Dómine sancte, Pater omnípotens, ætérne Deus, sacrifícium nostrum reddat accéptum, qui discípulis suis in sui commemoratiónem hoc fíeri hodiérna traditióne monstrávit, Jesus Christus, Fílius tuus, Dóminus noster:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "We beseech Thee, O holy Lord, Father almighty, everlasting God, that He Himself may render our Sacrifice acceptable to Thee, Who, by the tradition of today, taught His disciples to do this in remembrance of Him, Jesus Christ, Thy Son, our Lord,",
+        "Francais": "Seigneur saint, Père tout-puissant, Dieu éternel, nous vous demandons que notre sacrifice vous soit rendu agréable par Jésus-Christ, votre Fils, Notre Seigneur, qui l’instituant aujourd’hui, a commandé à ses disciples de le célébrer en mémoire de Lui.",
+        "Italiano": "O Signore santo, Padre onnipotente, eterno Dio, ti renda accetto questo nostro sacrificio quegli stesso, che con l'odierna istituzione insegnò ai suoi discepoli di offrirlo in sua memoria, Gesù Cristo, Figlio tuo, Signore nostro; il quale con te vive e regna."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) DO(h)mi(hvGF)nus(f!gwh) Je(ef)sus,(hh) (,) *() post(e')quam(f) ce(h)ná(hih)vit(hgh.) (,) cum(e) di(fh)scí(h)pu(hg)lis(f) su(g)is,(f.) (;) la(e)vit(fh~) pe(h)des(hg) e(f)ó(g)rum,(f.) (,) et(e) a(f)it(hg) il(f_g_f~_)lis :(f.) (:) Sci(f'!gh'!ijjij)tis(g.) (,) quid(gh) fé(i)ce(hg)rim(f) vo(e!gwh/i_h)bis,(h.) (;) e(h)go(hg) Dó(h)mi(hvGF)nus(f!gwh.) et(e) Ma(fh)gí(h)ster?(f!gwh.) (:) Ex(h)ém(i)plum(g) de(hg)di(f) vo(gvFEfg)bis,(f.) (;) ut(e) et(fh~) vos(h) i(hg)ta(fe) fa(f)ci(hg)á(f.)tis.(f.) (::)",
+      "availableTranslations": {
+        "English": " The Lord Jesus, after He had supped with His disciples, washed their feet, and said to them: Know you what I, your Lord and Master, have done to you? I gave you an example, that you also may do likewise.",
+        "Francais": "Le Seigneur Jésus, après la cène avec ses disciples, leur lava les pieds et leur dit : Savez-vous ce que je viens de faire, moi qui suis votre Seigneur et votre Maître ? Je vous ai donné l’exemple, afin que vous fassiez de même.",
+        "Italiano": "Il Signore Gesù, come ebbe cenato con i suoi discepoli, lavò loro i piedi, e disse: comprendete quel che io, Signore e maestro ho fatto a voi? Io vi ho dato l'esempio, perché così facciate anche voi."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Refécti vitálibus aliméntis, quǽsumus, Dómine, Deus noster: ut, quod témpore nostræ mortalitátis exséquimur, immortalitátis tuæ múnere consequámur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": " Strengthened with life-giving Food, we beseech Thee, O Lord, our God, that what we do in our mortal life may bring us to the reward of life immortal with Thee. ",
+        "Francais": "Rassasiés, Seigneur, de cette nourriture de vie, faites, ô notre Dieu, que nous obtenions par votre grâce, dans l’immortalité, ce que nous célébrons pendant le cours de notre vie ici-bas.",
+        "Italiano": "O Signore Dio nostro, ristorati da questi vitali alimenti, concedici di conseguire, col dono della tua immortalità, ciò che celebriamo durante la nostra vita mortale."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

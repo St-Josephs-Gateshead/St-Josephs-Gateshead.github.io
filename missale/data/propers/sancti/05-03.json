@@ -1,0 +1,750 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "Inventione Sanctæ Crucis",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) NOS(dfe) au(ef!gvFDfe)tem(fff) (,) *() glo(fd)ri(f)á(ef'g)ri(g_d) o(fh)pór(gv.fhg)tet(eef.) (;) in(d) cru(g')ce(g) Dó(ixhg/hi)mi(h)ni(h) no(jj)stri(hhg) (,) Je(hhg)su(f) Chri(ixef!hig)sti :(g.) (:) in(ge~) quo(g) est(h) sa(ixhi)lus,(h.) (,) vi(jj)ta(hhg) (,) et(gh~) re(hhg)sur(f)ré(ef'g)cti(g)o(ixgih) no(g_f/gfg)stra :(d.) (:) per(d!fff) quem(f) sal(fd~)vá(fh)ti(g.) (,) et(h) li(f)be(gf)rá(ef'g)ti(ixgiH'G) su(g_fhvGFgvFE)mus.(e.) (::) <i>T. P.</i> Al(fd)le(f)lú(ef'g){ia},(g_d) (,) al(fh)le(gv.fhGF'g)lú(egff){ia}.(fe..) (::) <i>Ps.</i> De(hg)us(gh) mi(h)se(h)re(h)á(h)tur(h) no(h)stri,(h.) (,) et(h) be(h)ne(hg)dí(gi)cat(i) no(hi)bis :(h.) *(:) il(hg~)lú(gh)mi(h)net(h) vul(h)tum(h) su(h)um(h) su(h)per(h) nos,(h.) (,) et(h) mi(h)se(h)re(h)á(gf)tur(gh) no(g)stri.(e.) (::) Gló(hg)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(gf) u(gh) a(g) e.</eu>(egff) (::)",
+      "availableTranslations": {
+        "English": " But God forbid that I should glory, save in the cross of our Lord Jesus Christ; by whom the world is crucified to me, and I to the world, allelúja, allelúja.  May God have mercy on us, and bless us: may he cause the light of his countenance to shine upon us, and may he have mercy on us.",
+        "Bohemice": "Nám však se sluší chlubit pouze v Kříži našeho Pána Ježíše Krista; v němž je naše spása, život i vzkříšení; skrze nějž jsme byli spaseni a osvobozeni, alleluja, alleluja. Ať se nad námi Bůh smiluje a požehná nám; rozjasní nad námi svou tvář, a smiluje se nad námi.",
+        "Francais": "Pour nous, il faut nous glorifier dans la Croix de Notre-Seigneur Jésus-Christ : en lui, nous avons le salut, la vie et la résurrection : par lui nous sommes sauvés et libérés, alléluia, alléluia.",
+        "Italiano": "Di null'altro mai ci glorieremo se non della Croce del Signore nostro Gesù Cristo: Egli è la nostra salvezza, vita e risurrezione. Per mezzo di Lui siamo stati salvati e liberati, allelúia, allelúia.",
+        "Nederlands": "Wij echter moeten roemen op het Kruis van onze Heer, Jezus Christus. In Hem toch ligt ons heil, ons leven en onze verrijzenis; door Hem zijn wij verlost en bevrijd. God zij ons genadig en zegene ons. Hij doe zijn aanschijn over ons stralen en zij ons genadig.",
+        "Portugues": "Convém que nos gloriemos na Cruz de Nosso Senhor Jesus Cristo, pois Ele é a nossa salvação, vida e ressurreição: e por Ele fomos salvos e livres, aleluia, aleluia. Que o Senhor tenha misericórdia de nós e nos abençoe; que o Senhor nos ilumine com o brilho que resplandece da sua face e se compadeça de nós."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui in præclára salutíferæ Crucis Inventióne passiónis tuæ mirácula suscitásti: concéde; ut, vitális ligni prétio, ætérnæ vitæ suffrágia consequámur:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Who didst cause that the Cross of our salvation should in most honourable wise be found again, and Who didst manifest thereby the marvellous efficacy of thy sufferings, mercifully grant that by the Ransom which Thou didst pay upon that tree of life we may finally attain unto life eternal .",
+        "Bohemice": "Bože, jenž jsi v přeslavném Nalezení spásonosného Kříže povzbudil zázraky svého utrpení; uděl, abychom cenou tohoto životodárného dřeva, dosáhli udělení věčného života.",
+        "Deutsch": "O Gott, der du bei der ruhmvollen Auffindung des Kreuzes die bei deinem Leiden gewirkten Wunder neu hast aufleben lassen, verleihe uns die Gnade, daß wir um den am lebenspendenden Baume gezahlten Preis die Hilfsmittel zum ewigen Leben erlangen.",
+        "Espanol": "Oh Dios, que en la esclarecida Invención del saludable madero de la Cruz renovaste los milagros de tu pasión: concédenos que, por el precio de este árbol de la vida obtengamos la gracia de la vida eterna.",
+        "Francais": "Ô Dieu, qui lors de la glorieuse Découverte de la Croix, instrument de notre salut, avez renouvelé les miracles de votre passion : faites qu’au prix de cet arbre de vie, nous méritions d’obtenir la vie éternelle.",
+        "Italiano": "Dio, che nel celebre Ritrovamento della Croce portatrice di salvezza hai fatto scaturire miracoli: concedici che, con il prezzo del legno vitale, raggiungiamo i suffragi della vita eterna.",
+        "Nederlands": "God, Gij hebt bij de roemrijke vinding van het Kruis van onze Verlossing de wonderen van uw lijden vernieuwd. Doe ons door de waarde van dit levenwekkend hout steun voor het eeuwig leven verwerven.",
+        "Portugues": "Ó Deus, que na memorável ocasião da Invenção da Cruz, donde nos veio a salvação, repetistes as maravilhas da vossa Paixão, concedei-nos, pela virtude deste Lenho de vida, que alcancemos a graça da vida eterna."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Fratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rapínam arbitrátus est esse se æquálem Deo: sed semetípsum exinanívit formam servi accípiens, in similitúdinem hóminum factus, et hábitu invéntus ut homo. Humiliávit semetípsum, factus obédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum: et donávit illi nomen, quod est super omne nomen: (hic genuflectitur) ut in nómine Jesu omne genu flectátur cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": " Brothers: For let this mind be in you, which was also in Christ Jesus: Who being in the form of God, thought it not robbery to be equal with God: But emptied himself, taking the form of a servant, being made in the likeness of men, and in habit found as a man. He humbled himself, becoming obedient unto death, even to the death of the cross. For which cause God also hath exalted him, and hath given him a name which is above all names: That in the name of Jesus every knee should bow, of those that are in heaven, on earth, and under the earth: And that every tongue should confess that the Lord Jesus Christ is in the glory of God the Father.",
+        "Bohemice": "Bratři, Mějte v sobě to smýšlení, jaké měl Kristus Ježíš: ačkoli má božskou přirozenost, nic nelpěl na tom, že je rovný Bohu, ale sám sebe se zřekl, vzal na sebe přirozenost služebníka a stal se jedním z lidí. Byl jako každý jiný člověk, ponížil se a byl poslušný až k smrti, a to k smrti na kříži. Proto ho také Bůh povýšil a dal mu Jméno nad každé jiné jméno, zde se poklekne takže při Ježíšově jménu musí pokleknout každé koleno na nebi, na zemi i v podsvětí a každý jazyk musí k slávě Boha Otce vyznat: Ježíš Kristus je Pán.",
+        "Francais": "Mes frères : Ayez en vous les mêmes sentiments dont était animé le Christ Jésus : bien qu’il fût Dieu par nature, il n’a pas retenu avidement son égalité avec Dieu, mais il s’est anéanti lui-même en prenant la condition d’esclave, en devenant semblable aux hommes, à l’extérieur absolument comme un homme. Il s’est abaissé lui-même, se faisant obéissant jusqu’à la mort, et la mort sur la croix. C’est pourquoi Dieu l’a souverainement élevé et lui a donné le nom qui est au-dessus de tout nom (ici on fléchit le genou), afin qu’au nom de Jésus tout genou fléchisse, au ciel, sur la terre et dans les enfers, et que toute langue proclame, à la gloire de Dieu le Père, que Jésus-Christ est Dieu.",
+        "Italiano": "Fratelli, abbiate in voi i sentimenti che furono in Gesù Cristo. Egli, pur essendo di natura divina, non considerò come geloso privilegio il suo essere alla pari con Dio: ma annientò se stesso, assumendo una natura di schiavo. facendosi simile agli uomini. E, riconosciuto al suo aspetto come uomo, umiliò se stesso, facendosi obbediente fino alla morte, e alla morte di croce. Per questo Dio lo ha esaltato e gli ha dato il Nome che è al di sopra di ogni nome: perché nel nome di Gesù ogni ginocchio si pieghi, in cielo, sulla terra e negli inferi; e ogni lingua proclami che Gesù Cristo è Signore, a gloria di Dio Padre.",
+        "Magyar": "Ugyanazt a lelkületet ápoljátok magatokban, amely Krisztus Jézusban volt.  Ő Isten formájában volt, és az Istennel való egyenlőséget nem tartotta olyan dolognak, amelyhez föltétlenül ragaszkodnia kell,  hanem kiüresítette magát, szolgai alakot öltött, és hasonló lett az emberekhez. Külsejét tekintve olyan lett, mint egy ember.  Megalázta magát és engedelmeskedett mindhalálig, mégpedig a kereszthalálig.  Ezért Isten felmagasztalta, és olyan nevet adott neki, amely fölötte van minden névnek,  hogy Jézus nevére hajoljon meg minden térd a mennyben, a földön és az alvilágban,  s minden nyelv hirdesse az Atyaisten dicsőségére, hogy Jézus Krisztus az Úr.",
+        "Nederlands": "Fratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rapínam arbitrátus est esse se æquálem Deo: sed semetípsum exinanívit, formam servi accípiens, in similitúdinem hóminum factus, et hábitu invéntus ut homo. Humiliávit semetípsum, factus obédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum: et donávit illi nomen, quod est super omne nomen: (hic genuflectitur) ut in nómine Jesu omne genu flectátur cœléstium, terréstrium et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.",
+        "Portugues": "Meus irmãos: Tende os mesmos sentimentos que animaram Jesus Cristo, o qual, embora fosse Deus por natureza (e não era usurpação o julgar-se igual a Deus), contudo humilhou-se a si próprio, reduzindo-se à condição de servo, tornando-se semelhante aos homens e reconhecido como homem pelas aparências. Humilhou-se a si próprio, obedecendo até à morte, e morte na cruz. Por isso Deus O exaltou e deu-Lhe um nome que é superior a todo o nome (devemos genuflectir) para que ao ser proferido o nome de Jesus todos os joelhos se dobrem nos céus, na terra e até nos infernos; e todas as línguas confessem que Nosso Senhor Jesus Cristo está na glória de Deus Pai!"
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale & Alleluia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)AL-(e)le-(gg higg'g h_g)lú-(gg hig)ia.(ggh gjh ihhg.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja",
+        "Bohemice": "Alleluja, alleluja Řekněte Národům, že Pán vládnul ze dřeva <i>Kříže</i>. Alleluja.",
+        "Francais": "Alléluia, alléluia Dites aux Nations : Dieu a régné par le bois. Alléluia. Ô doux bois, ô doux clous, vous portez un fardeau encore plus doux : ô Croix, toi seule as été digne de soutenir le Seigneur et Roi des Cieux. Alléluia.",
+        "Italiano": "Allelúia, allelúia Dite a tutte le genti che il Signore regnò dalla Croce.",
+        "Nederlands": "Alleluia, alleluia.",
+        "Portugues": "Aleluia, aleluia. Anunciai aos povos que o Senhor reinou pela Cruz. Aleluia. Ó doce Lenho, ó doces cravos que suportais o peso dum fardo tão doce! Só vós, ó Cruz, fostes digna de ter suspenso o Senhor, Rei dos céus. Aleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(e)le(gg)lú(ghgjvIH'h){ia}.(g.) (;) *() (jv.hji//ghG'Fhg/jihhg.) (;) (jv.hji//ghG'Fhg/jihhg//h_ihhg.) (::) <sp>V/</sp>. Dul(e)ce(gg) li(ghgjvIH'h)gnum,(g.) (;) dul(g)ces(hi) cla(i)vos,(ig/hihhg.) (;) dúl(g)ci(g)a(hih) fe(ge/fgeed.0)(,)(gh'i)rens(ih~) pón(ivHGh'/ijgg)de(fg)ra :(g.) (:) quae(gji) so(jk)la(k) fu(i)í(k)sti(j) di(ih/jh/ij)gna(i.) (,) sus(i)ti(ih)né(jkjhji//ghG'Fhg/jihhg)re(g.) (;) re(fg~)gem(g) cae(fh)ló(hv.gjIH'ig)rum(g.) (,) *() et(e) Dó(gg)mi(ghgjvIH'h)num.(g.) (;) (jv.hji//ghG'Fhg/jihhg.) (;) (jv.hji//ghG'Fhg/jihhg//h_ihhg.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. Sweet woods, sweet nails, bearing a sweet weigth, which alone wast worthy to bear the King of heaven and the Lord. Allelúja.",
+        "Bohemice": "Allelúja, allelúja. Sladké dřevo, sladké hřeby, sladké nesly břemeno; neboť ty jediné jsi bylo hodno nést Krále nebes a Pána. Alleluja.",
+        "Italiano": "Allelúja, allelúja. I chiodi, sul legno prezioso sostengono un peso soave. O croce, tu sola fosti degna di accogliere il Signore, Re dei cieli. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Zoete takken, zoete spijkers, wat een zoete last draagt gij. Gij alleen mocht waardig heten Hem te dragen, die zich noemt Heer en Koning van de hemel. Alleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Erat homo ex pharisǽis, Nicodémus nómine, princeps Judæórum. Hic venit ad Jesum nocte et dixit ei: Rabbi, scimus, quia a Deo venísti magíster; nemo enim potest hæc signa fácere, quæ tu facis, nisi fúerit Deus cum eo. Respóndit Jesus et dixit ei: Amen, amen, dico tibi, nisi quis renátus fúerit dénuo, non potest vidére regnum Dei. Dicit ad eum Nicodémus: Quómodo potest homo nasci, cum sit senex? Numquid potest in ventrem matris suæ iteráto introíre et renásci? Respóndit Jesus: Amen, amen, dico tibi, nisi quis renátus fúerit ex aqua et Spíritu Sancto, non potest introíre in regnum Dei. Quod natum est ex carne, caro est: et quod natum est ex spíritu, spíritus est. Non miréris, quia dixi tibi: opórtet vos nasci dénuo. Spíritus, ubi vult, spirat, et vocem ejus audis, sed nescis, unde véniat aut quo vadat: sic est omnis, qui natus est ex spíritu. Respóndit Nicodémus et dixit ei: Quómodo possunt hæc fíeri? Respóndit Jesus et dixit ei: Tu es magíster in Israël, et hæc ignóras? Amen, amen, dico tibi, quia, quod scimus, lóquimur, et quod vídimus, testámur, et testimónium nostrum non accípitis. Si terréna dixi vobis et non créditis: quómodo, si díxero vobis cœléstia, credétis? Et nemo ascéndit in cœlum, nisi qui descéndit de cœlo, Fílius hóminis, qui est in cœlo. Et sicut Móyses exaltávit serpéntem in desérto: ita exaltári opórtet Fílium hóminis, ut omnis, qui credit in ipsum, non péreat, sed hábeat vitam ætérnam.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In that time: there was a man of the Pharisees, named Nicodemus, a ruler of the Jews. This man came to Jesus by night, and said to him: Rabbi, we know that thou art come a teacher from God; for no man can do these signs which thou dost, unless God be with him. Jesus answered, and said to him: Amen, amen I say to thee, unless a man be born again, he cannot see the kingdom of God. Nicodemus saith to him: How can a man be born when he is old? can he enter a second time into his mother's womb, and be born again? Jesus answered: Amen, amen I say to thee, unless a man be born again of water and the Holy Ghost, he cannot enter into the kingdom of God. That which is born of the flesh, is flesh; and that which is born of the Spirit, is spirit. Wonder not, that I said to thee, you must be born again. The Spirit breatheth where he will; and thou hearest his voice, but thou knowest not whence he cometh, and whither he goeth: so is every one that is born of the Spirit. Nicodemus answered, and said to him: How can these things be done? Jesus answered, and said to him: Art thou a master in Israel, and knowest not these things? Amen, amen I say to thee, that we speak what we know, and we testify what we have seen, and you receive not our testimony. If I have spoken to you earthly things, and you believe not; how will you believe, if I shall speak to you heavenly things? And no man hath ascended into heaven, but he that descended from heaven, the Son of man who is in heaven. And as Moses lifted up the serpent in the desert, so must the Son of man be lifted up: That whosoever believeth in him, may not perish; but may have life everlasting.",
+        "Bohemice": "Za onoho času, byl mezi Farizeji jeden člověk, jmenoval se Nikodém, člen židovské velerady. Ten přišel k Ježíšovi v noci a řekl mu: „Mistře, víme, že jsi učitel, který přišel od Boha, protože nikdo nemůže konat ta znamení, která konáš ty, není-li s ním Bůh.“ Ježíš mu odpověděl: „Amen, amen, pravím ti: Jestliže se nenarodí někdo znova, nemůže spatřit Boží království.“ Nikodém mu namítl: „Jak se může člověk narodit, když je starý? Přece nemůže podruhé vejít do mateřského lůna a narodit se.“ Ježíš odpověděl: „Amen, amen, pravím ti: Jestliže se nenarodí někdo z vody a z Ducha, nemůže vejít do Božího království. Co se narodilo z těla, je tělo, co se narodilo z Ducha, je duch. Nediv se, že jsem ti řekl: Musíte se narodit znova. Vítr vane, kam chce; slyšíš, jak hučí, ale nevíš, odkud přichází a kam jde. Tak je to s každým, kdo se narodil z Ducha.“ Nikodém se zeptal: „Jak se to může stát?“ Ježíš mu odpověděl: „Ty jsi v izraelském národě učitel a to nevíš? Amen, amen, pravím ti: Mluvíme o tom, co známe, svědčíme o tom, co jsme viděli, ale vy naše svědectví nepřijímáte. Nevěříte-li, když jsem k vám mluvil o věcech pozemských, jak teprve uvěříte, až k vám budu mluvit o nebeských? Nikdo nevystoupil do nebe kromě toho, který sestoupil z nebe, totiž Syn člověka. Jako Mojžíš vyvýšil na poušti hada, tak musí být vyvýšen Syn člověka, aby každý, kdo věří, měl skrze něho život věčný.",
+        "Francais": "En ce temps-là : Il y avait parmi les pharisiens un homme appelé Nicodème, un des premiers des Juifs. Il vint la nuit auprès de Jésus, et Lui dit : Maître, nous savons que Vous êtes venu de la part de Dieu comme docteur ; car personne ne peut faire les miracles que Vous faites, si Dieu n’est avec lui. Jésus lui répondit : En vérité, en vérité, Je te le dis, aucun homme, s’il ne naît de nouveau, ne peut voir le royaume de Dieu. Nicodème Lui dit : Comment un homme peut-il naître, lorsqu’il est vieux ? Peut-il rentrer dans le sein de sa mère, et naître de nouveau ? Jésus répondit : En vérité, en vérité, Je te le dis, aucun homme, s’il ne renaît de l’eau et de l’Esprit-Saint, ne peut entrer dans le royaume de Dieu. Ce qui est né de la chair est chair, et ce qui est né de l’Esprit est esprit. Ne t’étonne pas de ce que Je t’ai dit : Il faut que vous naissiez de nouveau. Le vent souffle où il veut ; et tu entends sa voix, mais tu ne sais ni d’où il vient, ni où il va : il en est ainsi de tout homme qui est né de l’Esprit. Nicodème Lui répondit : Comment cela peut-il se faire ? Jésus lui dit : Tu es maître en Israël, et tu ignores ces choses ? En vérité, en vérité, Je te le dis, ce que Nous savons, Nous le disons, et ce que Nous avons vu, Nous l’attestons ; et vous ne recevez pas Notre témoignage. Si Je vous ai parlé des choses de la terre sans que vous ayez cru, comment croirez-vous quand Je vous parlerai des choses du Ciel ? Personne n’est monté au Ciel, sinon Celui qui est descendu du Ciel, le Fils de l’homme, qui est dans le Ciel. Et comme Moïse a élevé le serpent dans le désert, de même il faut que le Fils de l’homme soit élevé, afin que quiconque croit en Lui ne périsse point, mais qu’il ait la vie éternelle.",
+        "Italiano": "Tra i farisei c’era un uomo chiamato Nicodemo, uno dei capi dei Giudei. Egli venne di notte a trovare Gesù e gli disse: «Maestro, noi sappiamo che sei venuto da parte di Dio, come un dottore, poiché nessuno può fare i miracoli che tu fai, se Dio non è con lui». Gesù gli rispose: «In verità, in verità ti dico che se uno non nasce di nuovo, non può vedere il regno di Dio». Nicodemo gli domandò: «Come mai un uomo può nascere, quando è già vecchio? Può forse entrare una seconda volta nel seno di sua madre e nascere di nuovo?» Gesù rispose: «In verità, in verità ti dico che se uno non rinasce dall’acqua e dallo Spirito Santo, non può entrare nel regno di Dio. Ciò che è generato dalla carne è carne, e ciò che nasce dallo Spirito è spirito. Non meravigliarti se io ti ho detto: “Bisogna che voi nasciate di nuovo”. Il vento soffia dove vuole e tu ne odi la voce, ma non sai donde venga né dove vada: così capita a ogni cosa nata dallo Spirito». Nicodemo gli domandò: «Com’è possibile che questo avvenga?» Gesù gli rispose: «Tu sei maestro in Israele e non lo sai? In verità, in verità vi dico: Noi parliamo di quesl che sappiamo e attestiamo quel che abbiamo visto; e voi non accettate la nostra testimonianza. Se non credete quando vi parlo delle cose terrene, come potete credere quando verrò a parlarevi delle celesti? Nessuno è salito a cielo, all’infuori di Colui che è disceso dal cielo, il Figliuol dell’uomo che è in cielo. Come Mosè ha innalzato il serpente nel deserto, così è necessario che il Figliuol dell’uomo sia innalzato, affinché chiunque crede in lui non perisca, ma abbia la vita eterna».",
+        "Magyar": "Volt a farizeusok között egy Nikodémus nevű ember, egy zsidó tanácsos.  Ez éjnek idején fölkereste Jézust, s így szólt hozzá: „Rabbi, tudjuk, hogy Istentől jött tanító vagy, hisz senki sem vihet végbe olyan jeleket, amilyeneket te végbeviszel, ha nincs vele az Isten.”  Jézus azt felelte neki: „Bizony, bizony, mondom neked: aki nem születik újjá, az nem láthatja meg az Isten országát.”  Nikodémus megkérdezte: „Hogy születhet valaki, amikor már öreg? Csak nem térhet vissza anyja méhébe azért, hogy újra szülessék?”  Erre Jézus azt mondta: „Bizony, bizony, mondom neked: Aki nem vízből és Szentlélekből születik, az nem megy be az Isten országába.  Ami a testből születik, az test, ami a Lélekből születik, az lélek.  Ne csodálkozz azon, hogy azt mondtam: újjá kell születnetek.  A szél ott fúj, ahol akar, hallod a zúgását, de nem tudod, honnan jön és hova megy. Így van vele mindenki, aki a Lélekből született.”  „Hogyan lehetséges ez?” - kérdezte Nikodémus.  Jézus így válaszolt: „Izrael tanítója vagy, és nem érted?  Bizony, bizony, mondom neked: arról beszélünk, amit tudunk, s arról tanúskodunk, amit láttunk, mégsem fogadjátok el tanúságtételünket.  Ha földi dolgokról beszélek, s azt sem hiszitek, hogy fogjátok hinni, ha majd a mennyei dolgokról beszélek?  Senki sem ment föl a mennybe, csak aki alászállt a mennyből: az Emberfia aki a mennyben van.  Amint Mózes fölemelte a kígyót a pusztában, úgy fogják fölemelni az Emberfiát is,  hogy aki hisz benne, az el ne vesszen, hanem örökké éljen.",
+        "Nederlands": "In die tijd was er onder de farizeën een zekere Nicodemus, een raadslid van de Joden. Deze kwam in de nacht tot Jezus en zeide tot Hem: Meester, wij weten, dat Gij van Godswege gekomen zijt als leraar; want niemand kan zulke tekenen doen als Gij doet, indien God niet met hem is. Jezus gaf hem ten antwoord: Voorwaar, voorwaar, Ik zeg u: als iemand niet opnieuw geboren wordt, kan hij het rijk van God niet aanschouwen. Nicodemus vroeg Hem: Hoe kan nu een mens weer geboren worden, als hij reeds op hoge leeftijd is? Kan hij soms terugkeren in de schoot van zijn moeder om opnieuw geboren te worden? Jezus antwoordde: Voorwaar, voorwaar, Ik zeg u: als iemand niet opnieuw geboren wordt uit water en Heilige Geest, kan hij het rijk van God niet binnengaan. Wat uit het vlees geboren is, is vlees; en wat uit de geest geboren is, is geest. Verwondert u niet, dat Ik u gezegd heb: Gij moet opnieuw geboren worden. De wind waait, waar hij wil, en gij hoort zijn gesuis, maar gij weet niet, waar hij vandaan komt of waar hij heengaat; zo is het ook met een ieder, die uit de geest geboren is. Nicodemus hernam en vroeg Hem: Hoe kan dit dan geschieden? Jezus gaf hem ten antwoord: Zijt gij leraar in Israël, en gij weet dat niet? Voorwaar, voorwaar, Ik zeg u: wat Wij weten, spreken Wij uit, en wat Wij gezien hebben, getuigen Wij; maar gij aanvaardt ons getuigenis niet. Als gij niet gelooft, wanneer Ik u spreek over aardse dingen, hoe zult gij dan geloven, als Ik u over hemelse dingen spreek? En niemand is opgestegen ten hemel, dan Hij, die uit de hemel is neergedaald, de Mensenzoon, die in de hemel is. En zoals Mozes in de woestijn de slang ophief, zo moet ook de Mensenzoon worden opgeheven; opdat ieder, die in Hem gelooft, niet verloren ga, maar eeuwig leven hebbe.",
+        "Portugues": "Naquele tempo, havia entre os judeus um homem, chamado Nicodemos, que era um dos príncipes dos judeus. Em uma noite veio ele encontrar Jesus, dizendo-Lhe: «Mestre, sabemos que viestes da parte de Deus, como um Doutor, pois ninguém pode fazer os milagres, que fazeis, se Deus não estiver com ele». Jesus disse-lhe: «Em verdade, em verdade vos digo: Ninguém poderá ver o reino dos céus, se não nascer novamente». Nicodemos perguntou a Jesus: «Como pode um homem nascer, sendo já velho? Pode ele, porventura, entrar segunda vez no seio de sua mãe e renascer?». Jesus respondeu: «Em verdade, em verdade vos digo: Se alguém não renascer na água e no Espírito Santo, não pode entrar no reino de Deus. O que nasceu da carne, é carne; e o que nasceu do espírito, é espírito. Não vos admireis, pois, de que vos houvesse dito: é necessário que nasçais outra vez. O vento sopra onde lhe parece, e ouvis o seu som; mas não sabeis donde vem, nem para onde vai. O mesmo acontece com qualquer que nasce do Espírito». E Nicodemos respondeu: «Como poderá isso acontecer?». Jesus retorquiu: «Sois doutor em Israel e ignorais estas coisas? Em verdade, em verdade vos digo: Dizemos aquilo que sabemos e damos testemunho daquilo que vimos; mas não aceitais o nosso testemunho. Se me não acreditais, quando falo das coisas terrenas, como me acreditareis, falando-vos das coisas do céu? Ninguém subiu ao céu, senão O que desceu do céu: o Filho do homem, que está no céu. Assim como Moisés levantou a serpente no deserto, assim também é necessário que o Filho do homem seja levantado, a fim de que quem acreditar n’Ele não pereça, mas alcance a vida eterna»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DEx(e!g'h)te(hiH'G)ra(g.ggg/hihi) Dó(gh)mi(efED'e)ni(ed..) <clear>*(;) fe(de/ghg___)cit(h.) vir(hi!kki/j_k)tú(hv.gih)tem,(h.) (:) déx(jj)te(j_i)ra(jjj_h) Dó(hjjh)mi(h)ni(h.) (,) ex(g)al(h)tá(hjj'1jjh/kjjh)vit(hiH~'G~) me :(hg..) (:) non(h!iwj') mó(j)ri(jvIH)ar,(h.) (,) sed(g!jjj) vi(hig)vam,(e!geg.) (;) et(d) nar(e)rá(g)bo(e) ó(ghg___)pe(h)ra(h./jkj'kvJ'IH) Dó(h)mi(h)ni,(h!iwjjvIHiih.0) (:) al(hi)le(g/jjjjkJ//G'//h/jjj_h/jkjk)lú(h_i_h_){ia}.(h.) (::)",
+      "availableTranslations": {
+        "English": " The right hand of the Lord hath wrought strength: the right hand of the Lord hath exalted me: I shall not die, but live: and shall declare the works of the Lord, allelúja.",
+        "Bohemice": "Hospodinova pravice mocně zasáhla, Hospodinova pravice mě pozvedla. Nezemřu, ale budu žít, a vyprávět o Hospodinových činech, alleluja.",
+        "Francais": "La droite du Seigneur a fait éclater sa puissance, la droite du Seigneur m’a exalté : je ne mourrai point, mais je vivrai, et je raconterai les œuvres du Seigneur, alléluia.",
+        "Italiano": "La destra del Signore ha manifestato la sua potenza; la destra del Signore mi ha esaltato: io non posso morire, perché vivo per narrare le azioni di Dio, allelúia.",
+        "Nederlands": "Déxtera Dómini fecit virtutem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.",
+        "Portugues": "A dextra do Senhor mostrou o seu poder: a dextra do Senhor exaltou-me. Não morrerei, mas viverei e publicarei as obras do Senhor. Aleluia."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Sacrifícium, Dómine, quod tibi immolámus, placátus inténde: ut ab omni nos éruat bellórum nequítia, et per vexíllum sanctæ Crucis Fílii tui, ad conteréndas potestátis advérsæ insídias, nos in tuæ protectiónis securitáte constítuat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Sacrifícium, Dómine, quod tibi immolámus, placátus inténde: ut ab omni nos éruat bellórum nequítia, et per vexíllum sanctæ Crucis Fílii tui, ad conteréndas potestátis advérsa? insídias, nos in tuæ protectiónis securitáte constítuat.",
+        "Bohemice": "Na oběť, Hospodine, kterou tobě přinášíme, milostivě shlédni; aby nás vysvobodila od veškeré nepravosti válek, a korouhví svatého Kříže tvého Syna nás vede k potření lstí nepřátelské moci, a ustanoví nás v bezpečí tvé ochrany.",
+        "Francais": "Regardez favorablement, Seigneur, le sacrifice que nous vous immolons : afin qu’il nous arrache au fléau des guerres et par l’étendard de la sainte Croix de votre Fils, mettez-nous en sécurité sous votre protection, afin que nous puissions fouler aux pieds les pièges des puissances adverses.",
+        "Italiano": "Rivolgiti placato, o Signore, al sacrificio che ti immoliamo: affinché ci sottragga da ogni ingiustizia delle guerre, e per il vessillo della santa Croce del tuo Figlio, ci rafforzi nella sicurezza della tua protezione per debellare le insidie della potenza nemica.",
+        "Nederlands": "Sla genadig acht, o Heer, op het offer, dat wij U opdragen, opdat het alle oorlogsrampen van ons moge afweren, en ons door de heilige kruisbanier van uw Zoon onder uw veilige bescherming stellen, om de hinderlagen van vijandige machten te kunnen verijdelen.",
+        "Portugues": "Aplacai-Vos, Senhor, e dignai-Vos olhar para esta vítima, que imolamos em vossa honra, a fim de que por ela sejamos preservados de todos os males das guerras e pelo estandarte da Santa Cruz do vosso Filho vençamos as insídias dos nossos poderosos inimigos, ficando em segurança sob a vossa protecção."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(e) si(gih)gnum(g) Cru(ef)cis(efED.) (,) ~*() de(fh) in(h)i(hf)mí(h)cis(hi!jvji) no(gihh)stris(hg..) (:) lí(f)be(ji)ra(j/ljji/jkjjij) nos,(ijHG.) (;) De(gh'i)us(h) no(gvFEf./e!hghhg//hji/jh/iivHG)ster.(g.) (::) <i>T. P.</i> Al(hi)le(h)lú(hhhjvIHivHG){ia}.(g.) (::)",
+      "availableTranslations": {
+        "English": "By the sign of cross deliver us from our enemies, O thou our God, allelúja.",
+        "Bohemice": "Znamením Kříže nás vysvoboď od našich nepřátel, náš Bože, alleluja.",
+        "Francais": "Par le signe de la Croix, libérez-nous de nos ennemis, ô notre Dieu, alléluia.",
+        "Italiano": "Con il segno della tua croce, liberaci, Dio, dai nostri nemici, allelúia.",
+        "Nederlands": "Door het teken van het Kruis, bevrijd ons van onze vijanden, o God, alleluia.",
+        "Portugues": "Pelo sinal da Santa Cruz, livrai-nos, ó nosso Deus, de nossos inimigos. Aleluia."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Repléti alimónia cœlésti et spiritáli póculo recreáti, quǽsumus, omnípotens Deus: ut ab hoste malígno deféndas, quos per lignum sanctæ Crucis Fílii tui, arma justítiæ pro salúte mundi, triumpháre jussísti.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Repléti alimónia coelésti et spiritáli poculo recreáti, quaesumus, omnípotens Deus: ut ab hoste malígno deféndas, quos per lignum sanctæ Crucis Fílii tui, arma justítiæ pro salúte mundi, triumpháre jussísti.",
+        "Bohemice": "Naplněni nebeskou stravou a duchovním nápojem občerstveni, prosíme, všemohoucí Bože; abys od zlého nepřítele bránil ty, jež jsi dřevem svatého Kříže tvého Syna, touto zbraní spravedlnosti pro spásu světa přikázal zvítěziti.",
+        "Francais": "Fortifiés par la nourriture céleste et réconfortés par le calice spirituel, nous vous demandons, ô Dieu tout-puissant : défendez de l’ennemi malin ceux dont vous avez voulu assurer le triomphe par le bois de la sainte Croix de votre Fils, arme de justice pour le salut du monde.",
+        "Italiano": "Rifocillati con l’alimento celeste e rafforzati con la bevanda spirituale, ti preghiamo, o Dio onnipotente, affinché tu difenda dal nemico maligno noi che hai ordinato di trionfare tramite il legno della santa Croce del tuo Figlio, arma di giustizia per la salvezza del mondo. ",
+        "Nederlands": "Verzadigd door de hemelse spijs en verkwikt door de geestelijke drank, vragen wij U, almachtige God, ons te verdedigen tegen de boze vijand, die Gij ons laat overwinnen door het heilig Kruishout van uw Zoon, het wapen van gerechtigheid tot redding van de wereld.",
+        "Portugues": "Saciados com o alimento celestial e confortados com a bebida espiritual, Vos suplicamos, ó Deus omnipotente, defendei da malícia do inimigo aqueles que quisestes que triunfassem pelo sagrado Lenho da Cruz de vosso Filho, que é a arma de justiça que salvou o mundo."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

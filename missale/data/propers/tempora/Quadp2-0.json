@@ -1,0 +1,796 @@
+{
+  "rule": [
+    "Credo"
+  ],
+  "feast": "Dominica in Sexagesima",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) EX(d)súr(dfe)ge,(dcd.) (,) *() qua(ffg)re(f) ob(f)dór(fg~)mis(fe) Dó(gh)mi(h)ne?(h.) (;) ex(h)súr(hhggh~)ge,(f.) (,) et(fg~) ne(f) re(f)pél(fg~)las(f) in(gvF'Ef) fi(d_e_d_)nem :(d.) (:) qua(df!gh)re(g) fá(gh)ci(f)em(df~) tu(f)am(fef) a(d)vér(cf~)tis,(f.) (;) ob(f)li(g)ví(hjh)sce(gh)ris(h.) (,) tri(h)bu(gf)la(gh)ti(gh)ó(fg'h)nem(gh) no(f_g_f_)stram?(f.) (;) Ad(g)haé(ghg)sit(e) in(f) ter(fgf)ra(c.) ven(df)ter(ef~) no(d_e_d_)ster :(d.) (:) ex(f)súr(gh~)ge,(h) Dó(h)mi(g)ne,(f.) (,) ád(h)ju(g)va(gh) nos,(f.) (;) et(df) lí(e!g'h)be(fe)ra(de!fvED'e) nos.(ed..) (::) <i>Ps.</i> De(f)us,(gh) áu(h)ri(h)bus(h) no(hj)stris(h) au(h)dí(h)vi(hg)mus :(gh..) *(:) pa(gf)tres(gh) no(h)stri(h) an(h)nun(h)ti(h)a(hjh)vé(g')runt(f) no(fff)bis.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
+      "availableTranslations": {
+        "English": "Awake! Why are You asleep, O Lord? Arise! Cast us not off forever! Why do You hide Your face, forgetting our oppression? Our bodies are pressed to the earth. Arise, O Lord, help us, and deliver us. O God, our ears have heard, our fathers have declared to us.",
+        "Espanol": "¡Despierta, Señor! ¿Por qué aparentas dormir? Despierta y no nos rechaces para siempre. ¿Por qué escondes tu rostro y olvidas nuestra tribulación? Pegado está nuestro cuerpo a la tierra; despierta, Señor, ayúdanos y líbranos. Nuestros oídos, Señor, lo oyeron; nuestros padres nos lo contaron.",
+        "Francais": "Levez-vous ; pourquoi dormez-vous, Seigneur ? Levez-vous, et ne nous repoussez pas à jamais. Pourquoi détournez-vous votre visage et oubliez-vous notre tribulation ? Notre corps est attaché à la terre. Levez-vous, Seigneur, secourez-nous et délivrez-nous. Ô Dieu, nous avons entendu de nos oreilles ; nos pères nous ont annoncé votre œuvre.",
+        "Italiano": "Risvégliati, perché dormi, o Signore? Déstati, e non rigettarci per sempre. Perché nascondi il tuo volto diméntico della nostra tribolazione? Giace a terra il nostro corpo: sorgi in nostro aiuto, o Signore, e líberaci. O Dio, lo udimmo coi nostri orecchi: ce lo hanno raccontato i nostri padri.",
+        "Magyar": "Ébredj fel, miért alszol, Uram? Ébredj fel, ne taszíts el végképen: miért fordítod el arcodat: s felejted el szorongatásunkat? Testünk a földhöz tapadott: kelj fel, Uram, nyújts segítséget és ment meg minket! Isten, tulajdon fülünkkel hallottuk, atyáink beszélték el nekünk.",
+        "Nederlands": "Rijs op, o Heer, wat slaapt Gij? Rijs op en blijf ons niet immer verstoten. Waarom wendt Gij uw aanschijn af, vergeet Gij onze kwelling? Ons lichaam kleeft vast aan de grond. Rijs op, o Heer, kom ons te hulp en verlos ons. Met eigen oren, o God, hebben wij het gehoord, onze vaderen hebben het ons verhaald.",
+        "Polski": "Ocknij się: dlaczego śpisz, Panie? Przebudź się! Nie odrzucaj na zawsze. Dlaczego Twe oblicze ukrywasz? Zapominasz o nędzy i ucisku naszym? Przylgnęliśmy łonem do ziemi. Na pomoc nam powstań o Panie i wyzwól nas. Boże, słyszeliśmy na własne uszy, ojcowie nasi nam opowiedzieli.",
+        "Portugues": "Levantai-Vos, Senhor, porque dormis? Levantai-Vos, e nos não desampareis para sempre. Porque afastais de nós a vossa face e esqueceis a nossa tribulação? O nosso peito está oprimido pela terra. Levantai-Vos, Senhor, socorrei-nos, salvai-nos. Ó Deus, nós ouvimos com os nossos ouvidos; os nossos antepassados contaram-nos as vossas maravilhas.",
+        "Ukrainian": "Пробудиcя! Чому cпиш, Гоcподи? Вcтань! І не відкинь до кінця. Чому відвертаєш лице твоє, забуваєш горе наше? Прилипла до землі утроба наша: вcтань, Гоcподи, поможи нам і визволь наc! Боже, вухами нашими чули ми, батьки наші оповіли нам."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui cónspicis, quia ex nulla nostra actióne confídimus: concéde propítius; ut, contra advérsa ómnia, Doctóris géntium protectióne muniámur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, You Who see that we put no trust in anything we do, mercifully grant that by the protection of the Doctor of the Gentiles we may be defended against all adversity.",
+        "Espanol": "Oh Dios, que ves cómo no confiamos en ninguna de nuestras acciones, concédenos propicio que seamos fortalecidos por la protección del Doctor de las gentes contra toda adversidad.",
+        "Francais": "Ô Dieu, qui voyez que nous ne nous confions en aucune de nos œuvres, accordez-nous, dans votre bonté, d’être fortifiés contre tous les maux, grâce à la protection du Docteur des Gentils.",
+        "Italiano": "O Dio, che vedi come noi non confidiamo in alcuna òpera nostra, concédici propizio d’esser difesi da ogni avversità, per intercessione del Dottore delle genti.",
+        "Magyar": "Isten, ki látod, hogy semmi tettünkben nem bízhatunk: engedd meg kegyelmesen, hogy minden bajjal szemben a népek apostolának közbenjárása védelmezzen meg minket.",
+        "Nederlands": "God, Gij ziet hoe wij ons vertrouwen niet stellen op enige daad van ons zelf. Zorg in uw goedheid, dat wij tegen alle moeilijkheden door de bescherming van de Leraar der heidenen beveiligd worden.",
+        "Polski": "Boże, Ty widzisz, że nie polegamy na własnych uczynkach; spraw miłościwie, aby opieka Nauczyciela Narodów broniła nas od wszelkich przeciwności.",
+        "Portugues": "Ó Deus, que conheceis não podermos confiar nas nossas obras, dignai-Vos proteger-nos com a assistência do «Doutor das gentes» contra todas as adversidades.",
+        "Ukrainian": "Боже, Ти бачиш, що ми не покладаємо надію на жодне з діянь наших; милостиво подай, щоб ми були захищені від усякої напасті заступництвом "
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Fratres: Libénter suffértis insipiéntes: cum sitis ipsi sapiéntes. Sustinétis enim, si quis vos in servitútem rédigit, si quis dévorat, si quis áccipit, si quis extóllitur, si quis in fáciem vos cædit. Secúndum ignobilitátem dico, quasi nos infírmi fuérimus in hac parte. In quo quis audet, - in insipiéntia dico - áudeo et ego: Hebræi sunt, et ego: Israëlítæ sunt, et ego: Semen Abrahæ sunt, et ego: Minístri Christi sunt, - ut minus sápiens dico - plus ego: in labóribus plúrimis, in carcéribus abundántius, in plagis supra modum, in mórtibus frequénter. A Judæis quínquies quadragénas, una minus, accépi. Ter virgis cæsus sum, semel lapidátus sum, ter naufrágium feci, nocte et die in profúndo maris fui: in itinéribus sæpe, perículis flúminum, perículis latrónum, perículis ex génere, perículis ex géntibus, perículis in civitáte, perículis in solitúdine, perículis in mari, perículis in falsis frátribus: in labóre et ærúmna, in vigíliis multis, in fame et siti, in jejúniis multis, in frigóre et nuditáte: præter illa, quæ extrínsecus sunt, instántia mea cotidiána, sollicitúdo ómnium Ecclesiárum. Quis infirmátur, et ego non infírmor? quis scandalizátur, et ego non uror? Si gloriári opórtet: quæ infirmitátis meæ sunt, gloriábor. Deus et Pater Dómini nostri Jesu Christi, qui est benedíctus in sǽcula, scit quod non méntior. Damásci præpósitus gentis Arétæ regis, custodiébat civitátem Damascenórum, ut me comprehénderet: et per fenéstram in sporta dimíssus sum per murum, et sic effúgi manus ejus. Si gloriári opórtet - non éxpedit quidem, - véniam autem ad visiónes et revelatiónes Dómini. Scio hóminem in Christo ante annos quatuórdecim, - sive in córpore néscio, sive extra corpus néscio, Deus scit - raptum hujúsmodi usque ad tértium cælum. Et scio hujúsmodi hóminem, - sive in córpore, sive extra corpus néscio, Deus scit:- quóniam raptus est in paradisum: et audivit arcána verba, quæ non licet homini loqui. Pro hujúsmodi gloriábor: pro me autem nihil gloriábor nisi in infirmitátibus meis. Nam, et si volúero gloriári, non ero insípiens: veritátem enim dicam: parco autem, ne quis me exístimet supra id, quod videt in me, aut áliquid audit ex me. Et ne magnitúdo revelatiónem extóllat me, datus est mihi stímulus carnis meæ ángelus sátanæ, qui me colaphízet. Propter quod ter Dóminum rogávi, ut discéderet a me: et dixit mihi: Súfficit tibi grátia mea: nam virtus in infirmitáte perfícitur. Libénter ígitur gloriábor in infirmitátibus meis, ut inhábitet in me virtus Christi.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Brethren: You gladly put up with fools, because you are wise yourselves! For you suffer it if a man enslaves you, if a man devours you, if a man takes from you, if a man is arrogant, if a man slaps your face! I speak to my own shame, as though we had been weak. But wherein any man is bold - I am speaking foolishly - I also am bold. Are they Hebrews? So am I! Are they Israelites? So am I! Are they offspring of Abraham? So am I! Are they ministers of Christ? I - to speak as a fool - am more: in many more labors, in prisons more frequently, in lashes above measure, often exposed to death. From the Jews five times I received forty lashes less one. Thrice I was scourged, once I was stoned, thrice I suffered shipwreck, a night and a day I was adrift on the sea; in journeyings often, in perils from floods, in perils from robbers, in perils from my own nation, in perils from the Gentiles, in perils in the city, in perils in the wilderness, in perils in the sea, in perils from false brethren; in labor and hardships, in many sleepless nights, in hunger and thirst, in fastings often, in cold and nakedness. Besides those outer things, there is my daily pressing anxiety, the care of all the churches! Who is weak, and I am not weak? Who is made to stumble, and I am not inflamed? If I must boast, I will boast of the things that concern my weakness. The God and Father of the Lord Jesus, Who is blessed forevermore, knows that I do not lie. In Damascus the governor under King Aretas was guarding the city of the Damascenes in order to arrest me, but I was lowered in a basket through a window in the wall, and escaped his hands. If I must boast - it is not indeed expedient to do so - but I will come to visions and revelations of the Lord. I know a man in Christ who fourteen years ago - whether in the body I do not know, or out of the body I do not know, God knows - such a one was caught up to the third heaven. And I know such a man - whether in the body or out of the body I do not know, God knows that he was caught up into paradise and heard secret words that man may not repeat. Of such a man I will boast; but of myself I will glory in nothing save in my infirmities. For if I do wish to boast, I shall not be foolish; for I shall be speaking the truth. But I forbear, lest any man should reckon me beyond what he sees in me or hears from me. And lest the greatness of the revelations should puff me up, there was given me a thorn for the flesh, a messenger of Satan, to buffet me. Concerning this I thrice besought the Lord that it might leave me. And He has said to me, My grace is sufficient for you, for strength is made perfect in weakness. Gladly therefore I will glory in my infirmities, that the strength of Christ may dwell in me.",
+        "Espanol": "Hermanos: Vosotros, que sois sensatos, soportáis con gusto a los insensatos: si uno os esclaviza, si os explota, si os roba, si es arrogante, si os insulta, lo soportáis. Lo digo para vergüenza vuestra: ¡Cómo hemos sido nosotros tan débiles! Pero a lo que alguien se atreva —lo digo disparatando—, también me atrevo yo. ¿Que son hebreos? También yo. ¿Que son israelitas? También yo. ¿Que son descendientes de Abrahán? También yo. ¿Que son siervos de Cristo? Voy a decir un disparate: mucho más yo. Más en fatigas, más en cárceles; muchísimo más en palizas y, frecuentemente, en peligros de muerte. De los judíos he recibido cinco veces los cuarenta azotes menos uno; tres veces he sido azotado con varas, una vez he sido lapidado, tres veces he naufragado y pasé una noche y un día en alta mar. Cuántos viajes a pie, con peligros de ríos, peligros de bandoleros, peligros de los de mi nación, peligros de los gentiles, peligros en la ciudad, peligros en despoblado, peligros en el mar, peligros entre falsos hermanos, trabajo y agobio, sin dormir muchas veces, con hambre y sed, a menudo sin comer, con frío y sin ropa. Y aparte todo lo demás, la carga de cada día: la preocupación por todas las iglesias. ¿Quién enferma sin que yo enferme? ¿Quién tropieza sin que yo me encienda? Si hay que gloriarse, me gloriaré de lo que muestra mi debilidad. El Dios y Padre del Señor Jesús —bendito sea por siempre— sabe que no miento. En Damasco, el gobernador del rey Aretas montó una guardia en la ciudad para prenderme; metido en un costal, me descolgaron muralla abajo por una ventana, y así escapé de sus manos. ¿Hay que gloriarse?: sé que no está bien, pero paso a las visiones y revelaciones del Señor. Yo sé de un hombre en Cristo que hace catorce años —si en el cuerpo o fuera del cuerpo, no lo sé; Dios lo sabe— fue arrebatado hasta el tercer cielo. Y sé que ese hombre —si en el cuerpo o sin el cuerpo, no lo sé; Dios lo sabe— fue arrebatado al paraíso y oyó palabras inefables, que un hombre no es capaz de repetir. De alguien así podría gloriarme; pero, por lo que a mí respecta, solo me gloriaré de mis debilidades. Aunque, si quisiera gloriarme, no me comportaría como un necio, diría la pura verdad; pero lo dejo, para que nadie me considere superior a lo que ve u oye de mí. Por la grandeza de las revelaciones, y para que no me engría, se me ha dado una espina en la carne: un emisario de Satanás que me abofetea, para que no me engría. Por ello, tres veces le he pedido al Señor que lo apartase de mí y me ha respondido: «Te basta mi gracia: la fuerza se realiza en la debilidad». Así que muy a gusto me glorío de mis debilidades, para que resida en mí la fuerza de Cristo.",
+        "Francais": "Mes Frères : vous qui êtes sensés, vous supportez volontiers les insensés. Vous supportez bien qu’on vous asservisse, qu’on vous dévore, qu’on vous pille, qu’on vous traite avec arrogance, qu’on vous frappe au visage. Je le dis à ma honte, nous avons été bien faibles ! Cependant, de quoi que ce soit qu’on ose se vanter, — je parle en insensé, moi aussi je l’ose. Sont-ils Hébreux ? Moi aussi, je le suis. Sont-ils Israélites ? Moi aussi. Sont-ils de la postérité d’Abraham ? Moi aussi. Sont-ils ministres du Christ ? — Ah ! je vais parler en homme hors de sens : — je le suis plus qu’eux : bien plus qu’eux par les travaux, biens plus par les coups, infiniment plus par les emprisonnements ; souvent j’ai vu de près la mort ; cinq fois j’ai reçu des Juifs quarante coups de fouet moins un ; trois fois, j’ai été battu de verges ; une fois j’ai été lapidé ; trois fois j’ai fait naufrage ; j’ai passé un jour et une nuit dans l’abîme. Et mes voyages sans nombre, les périls sur les fleuves, les périls de la part des brigands, les périls de la part de ceux de ma nation, les périls de la part des Gentils, les périls dans les villes, les périls dans les déserts, les périls sur la mer, les périls de la part des faux frères, les labeurs et les peines, les nombreuses veilles, la faim, la soif, les jeûnes multipliés, le froid, la nudité ! Et sans parler de tant d’autres choses, rappellerai-je mes soucis de chaque jour, la sollicitude de toutes les Eglises ? Qui est faible que je ne sois faible aussi ? Qui vient à tomber sans qu’un feu me dévore ? S’il faut se glorifier, c’est de ma faiblesse que je me glorifierai. Dieu, qui est le Père de notre Seigneur Jésus-Christ, et qui est béni éternellement, sait que je ne mens point. A Damas, l’ethnarque du roi Arétas faisait garder la ville pour se saisir de moi ; mais on me descendit par une fenêtre, dans une corbeille, le long de la muraille, et j’échappai ainsi de ses mains. Faut-il se glorifier ? Cela n’est pas utile ; j’en viendrai néanmoins à des visions et à des révélations du Seigneur. Je connais un homme dans le Christ qui, il y a quatorze ans, fut ravi jusqu’au troisième ciel (si ce fut dans son corps, je ne sais ; si ce fut hors de son corps, je ne sais : Dieu le sait). Et je sais que cet homme (si ce fut dans son corps ou sans son corps, je ne sais, Dieu le sait) fut enlevé dans le paradis, et qu’il a entendu des paroles ineffables qu’il n’est pas permis à un homme de révéler. C’est pour cet homme-là que je me glorifierai ; mais pour ce qui est de ma personne, je ne me ferai gloire que de mes faiblesses. Certes, si je voulais me glorifier, je ne serais pas un insensé, car je dirais la vérité ; mais je m’en abstiens afin que personne ne se fasse de moi une idée supérieure à ce qu’il voit en moi ou à ce qu’il entend de moi. Et de crainte que l’excellence de ces révélations ne vînt à m’enfler d’orgueil, il m’a été mis une écharde dans ma chair, un ange de Satan pour me souffleter. A son sujet, trois fois j’ai prié le Seigneur de l’écarter de moi, et il m’a dit : « Ma grâce te suffit, car c’est dans la faiblesse que ma puissance se montre tout entière.» Je préfère donc bien volontiers me glorifier de mes faiblesses, afin que la puissance du Christ habite en moi.",
+        "Italiano": "Fratelli: Tollerate volentieri gli stolti, essendo saggi. Infatti sopportate chi vi fa schiavi, chi vi divora, chi vi ruba, chi si insuperbisce, chi vi schiaffeggia. Dico ciò con rossore: noi siamo stati troppo deboli da questo lato. Ma di checché si voglia menar vanto (parlo da insensato) anch’io me ne vanterò: Sono Ebrei? Lo sono anch’io. Sono Israeliti? Anch’io. Sono figli di Abramo? Anch’io. Sono ministri di Cristo? (Parlo da stolto) Io lo sono più di essi. Più nei travagli, più nelle prigionie, oltre modo nelle battiture, frequentemente in pericolo di morte. Dai Giudei cinque volte ricevetti trentanove colpi. Tre volte fui battuto con le verghe, una volta lapidato, tre volte naufragai, una notte e un giorno stetti in alto mare, spesso in viaggi, tra i perícoli dei fiumi, perícoli degli assassini, perícoli dai miei nazionali, perícoli dai gentili, perícoli nelle città, perícoli nei deserti, perícoli nel mare, perícoli dai falsi fratelli: nel lavoro e nella fatica, nelle molte vigilie, nella fame e nella sete, nei molti digiuni, nel freddo e nella nudità. E, senza parlare di tante altre cose, le quotidiane cure che pesano sopra di me, la sollecitúdine di tutte le Chiese. Chi è infermo che non sia io infermo? Chi è scandalizzato che io non arda? Se fa mestieri di gloriarsi, mi glorierò di quelle cose che riguardano la mia debolezza. Iddio, Padre del Signore nostro Gesù Cristo, che è benedetto nei secoli, sa che io non mentisco. In Damasco, colui che governava la nazione a nome del re Areta, aveva poste guardie intorno alla città di Damasco per catturarmi: e per una finestra fui calato in una sporta dalle mura, e così gli sfuggii di mano. Fa duopo gloriarsi? Veramente ciò non è utile; nondimeno verrò pure alle visioni e rivelazioni del Signore. Conosco un uomo in Cristo, il quale quattordici anni fa (non so se col corpo, oppure fuori dal corpo, Dio lo sa) fu rapito fino al terzo cielo. E so che quest’uomo (se nel corpo o fuori del corpo, io non lo so, lo sa Dio) fu rapito in Paradiso: e udì arcane parole, che non è lecito a uomo di proferire. Riguardo a quest’uomo mi glorierò: ma riguardo a me, di nulla mi glorierò, se non delle mie debolezze. Però, se volessi gloriarmi non sarei stolto, perché direi la verità: ma io me ne astengo, affinché nessuno mi stimi più di quello che vede in me o di quello che ode da me. E affinché la grandezza delle rivelazioni non mi levi in orgoglio, mi è stato dato lo stímolo nella mia carne, un angelo di sàtana che mi schiaffeggi. Al riguardo di che, tre volte pregai il Signore che da me fosse tolto: e mi disse: Basta a te la mia grazia: poiché la mia potenza arriva al suo fine per mezzo della debolezza. Volentieri adunque mi glorierò nelle mie debolezze, affinché àbiti in me la potenza di Cristo.",
+        "Magyar": "Hiszen ti, okos emberek, engeditek, hogy a balgák megnyerjenek benneteket. Eltűritek, ha valaki szolgává alacsonyít benneteket, ha kifoszt, ha kihasznál, ha fölétek kerekedik, ha arcul üt. Szégyenkezve vallom meg, hogy ilyesmire mi nem vállalkoztunk. De ha valaki dicsekedni mer - balgaként mondom -, merek én is. Zsidók ők? Én is. Izrael fiai? Én is. Ábrahám leszármazottai? Én is. Krisztus szolgái? Balgaság mondani, de mondom: én még inkább. Hiszen többet fáradtam, többször voltam börtönben. Módfelett sok verésben volt részem, sokszor forogtam halálveszélyben. A zsidóktól öt ízben kaptam egy híján negyvenet, háromszor megbotoztak, egyszer megköveztek. Háromszor szenvedtem hajótörést, egy nap és egy éjjel a nyílt tengeren hányódtam. Sokszor voltam vándorúton. Veszélyben forogtam folyóvizeken, veszélyben rablók miatt; veszélyben népem körében, veszélyben a pogányok között; veszélyben a városokban, veszélyben a pusztaságban veszélyben a tengeren, veszélyben az áltestvérek közt. Fáradtam és gyötrődtem, sokat virrasztottam, éheztem és szomjaztam, sőt koplaltam, fagyoskodtam és nem volt mit fölvennem. Nem tekintve az egyebeket, naponként a zaklatásokat, az összes egyház rám nehezedő gondját. Ki gyönge, hogy én ne volnék gyönge? Ki botránkozik meg, hogy én ne égnék? Ha dicsekednem kell, gyöngeségeimmel dicsekszem.Isten, Urunk Jézus Atyja, aki mindenkor áldott, tudja, hogy nem hazudom. Damaszkuszban Aretász király helytartója őriztette a damaszkusziak városát, hogy elfogjon, s egy ablakból kosárban bocsátottak le a falon, így menekültem ki a kezéből. Ha dicsekednem kell, bár az mit sem ér, rátérek a látomásokra és az Úr kinyilatkoztatásaira. Tudok egy emberről Krisztusban, aki tizennégy évvel ezelőtt - testben-e, nem tudom, testetlenül-e, nem tudom, csak az Isten tudja - elragadtatott a harmadik égig. És tudom, hogy ez az ember - testben-e vagy testetlenül, nem tudom, csak az Isten tudja - elragadtatott a mennybe, és titokzatos szavakat hallott, amelyeket embernek nem szabad kimondania. Ilyen dolgokkal dicsekszem, de magammal nem dicsekszem, hacsak gyöngeségeimmel nem. Pedig ha (valóban) dicsekedni akarnék, nem volnék balga kérkedő, hiszen igazat mondanék. De óvakodom tőle, nehogy valaki többre értékeljen engem annál, amit bennem lát vagy tőlem hall. De hogy a nagyszerű kinyilatkoztatás elbizakodottá ne tegyen, tövist kaptam testembe, a sátán angyalát, hogy arcul csapkodjon, és el ne bízzam magam. Háromszor kértem ezért az Urat, hogy szabadítson meg tőle, de azt felelte: „Elég neked az én kegyelmem. Mert az erő a gyöngeségben nyilvánul meg a maga teljességében.” Ezért a legszívesebben a gyöngeségeimmel dicsekszem, hogy Krisztus ereje költözzön belém.",
+        "Nederlands": "Broeders, gij zijt zo welwillend in het verdragen van onverstandige mensen, omdat gij zelf zo wijs zijt! Gij verdraagt het immers, als men u de wet stelt, - als men u uitbuit, als men u beetneemt, - als men verwaand tegen u optreedt, als men u een slag in het gezicht geeft. Ik moet tot mijn schande bekennen: in dit opzicht zijn wij - om zo te zeggen - zwakkelingen geweest. Maar wat een ander aandurft - al is het onverstandig zo te spreken - dat durf ik ook. Zijn zij Hebreën? - ik ook. Zijn zij Israëlieten? - ik ook. Zijn zij afstammelingen van Abraham? - ik ook. Zijn zij dienstknechten van Christus? - ik spreek als een dwaze - ik nog meer; door veelvuldig zwoegen, door veel gevangenschap, door geselslagen zonder tal, door herhaaldelijk doodsgevaar. Vijfmaal heb ik van de Joden de veertig min één gekregen; driemaal ben ik met roeden gegeseld; éénmaal ben ik gestenigd; driemaal heb ik schipbreuk geleden, en eens heb ik een dag en een nacht doorgemaakt op de holle zee. Door vele voetreizen, door gevaren van rivieren, door gevaren van rovers, door gevaren van de kant van mijn eigen volk, door gevaren van de heidenen, door gevaren in de stad, door gevaren in de woestijn, door gevaren op zee, door gevaren onder valse broeders. Met werken en zwoegen, dikwijls zonder nachtrust, in honger en dorst, in veelvuldig vasten, in koude en naaktheid. En behalve al dat uitwendige, ook nog mijn dringend werk van iedere dag: de zorg voor alle kerken. Wie is er zwak, zonder dat ik het meevoel? Wie lijdt er ergernis, zonder dat ik vurig word? Als er geroemd moet worden, dan zal ik op mijn zwakheid roemen; God, die de Vader is van onze Heer Jezus Christus en gezegend is in eeuwigheid, weet dat ik niet lieg. Te Damascus liet de stadhouder van koning Aretas eens de stad van de Damascenen bewaken om mij in handen te krijgen en ... door een venster werd ik in een mand langs de muur neergelaten; en zó ontkwam ik aan zijn handen. Als er geroemd moet worden - al heeft het dan geen nut - dan zal ik overgaan tot visioenen en openbaringen des Heren. Ik ken een christenmens, die veertien jaar geleden - met het lichaam: ik weet het niet; of zonder lichaam: ik weet het niet; God weet het; - opgevoerd werd naar de derde hemel. En ik weet, dat die mens - met of zonder lichaam: dat weet ik niet; God weet het; - opgevoerd is naar het paradijs; daar vernam hij toen geheime dingen, waarover een mens niet spreken mag. Op zó iemand zal ik roemen; wat echter mij zelf betreft, zal ik alleen maar roemen op mijn zwakheden. Doch ook al wilde ik roemen, het zou niet onzinnig van mij zijn; want ik zou waarheid spreken. Maar ik wil het niet doen, opdat niemand mij hoger zou achten, dan hij van mij ziet of hoort. En opdat de grote openbaringen mij niet ijdel zouden maken, werd mij een prikkel gegeven in het vlees, een engel van de satan, die mij moet kwellen. Daarom heb ik driemaal tot de Heer gebeden, dat deze van mij zou weggaan. Maar Hij gaf mij ten antwoord: Mijn genade is voor u voldoende; want kracht komt juist bij zwakheid tot volle ontplooiing. Daarom wil ik gaarne roemen op mijn zwakheden, opdat de kracht van Christus in mij moge wonen.",
+        "Polski": "Bracia: Radzi znosicie szalonych, będąc sami rozumnymi. Bo znosicie, gdy ktoś was w niewolę podbija, gdy kto was objada, gdy wyzyskuje, gdy się wynosi, gdy was kto po twarzy bije. Na moją niekorzyść to mówię, jakbyśmy w tym słabi byli. Z czego jednak kto śmie się chlubić ((mówię jak szalony)), odważam się i ja. Hebrajczykami są, i ja. Potomstwem Abrahama są, i ja. Sługami Chrystusowymi są ((jako niespełna rozumu mówię)), daleko więcej ja. W trudach bez liczby, w więzieniach zbyt często, w chłostach ponad miarę, w niebezpieczeństwach śmierci częstokroć. Od żydów otrzymałem pięć razy po czterdzieści plag bez jednej. Trzykrotnie byłem smagany rózgami, raz byłem kamienowany, trzy razy przeżyłem rozbicie się okrętu, dniem i nocą byłem na głębi morskiej. W podróżach częstych, w niebezpieczeństwach na rzekach, w niebezpieczeństwach od rozbójników, w niebezpieczeństwach od własnego narodu, niebezpieczeństwach od pogan, w niebezpieczeństwach w mieście, w niebezpieczeństwach na pustyni, w niebezpieczeństwach na morzu, w niebezpieczeństwach wśród fałszywych braci. W pracy i mozole, w częstym niespaniu, w głodzie i pragnieniu, w postach częstych, w zimnie i nagości. Oprócz tego, co jest ponadto, jak codzienne naleganie na mnie i staranie o wszystkie kościoły. Któż niedomaga, żebym ja nie czuł się słabym? Któż się gorszy, żebym ja nie płonął? Jeśli można się chlubić, to ze słabości mojej chlubić się będę. Bóg i ojciec Pana naszego Jezusa Chrystusa, który błogosławiony jest na wieki, wie, że nie kłamię. W Damaszku namiestnik króla Aretasa strzegł miasta Damasceńczyków, aby mię pojmać. Ale przez okno w murze w koszu zostałem spuszczony i tak uszedłem z rąk jego. Jeśli chełpić się wypada ((choć nie jest to rzecz pożyteczna)), przejdę do widzeń i objawień Pańskich. Znam człowieka w Chrystusie, który przed czternastu laty ((czy w ciele nie wiem, czy poza ciałem, nie wiem: Bogu to wiadome)) zachwycony był aż do trzeciego nieba. I wiem, że ten człowiek ((czy w ciele, czy poza ciałem, nie wiem: Bóg to wie)) zachwycony był do raju i posłyszał tajemnicze słowa, których człowiekowi mówić się nie godzi. Z takiego chlubić się będę, z siebie natomiast chlubić się nie będę, chyba tylko ze słabości moich. Gdybym nawet zechciał się chlubić, nie byłbym bezrozumnym, bo mówiłbym prawdę. Ale wstrzymuję się, aby snadź nie rozumiał kto o mnie więcej ponad to, co we mnie widzi albo co ode mnie słyszy. Abym się zaś dla wielkości objawień nie wynosił, dany mi jest bodziec ciała mego, anioł szatana, żeby mnie policzkował. Dlatego trzykrotnie prosiłem Pana, aby ode mnie odstąpił, ale mi rzekł: Dosyć masz łaski mojej, bo moc w słabości się doskonali. Rad tedy chlubić się będę ze słabości moich, aby moc Chrystusowa zamieszkała we mnie.",
+        "Portugues": "Meus irmãos: Como homens sensatos que sois, generosamente suportais os insensatos. E suportais, também, se vos sujeitam à escravidão, se vos devoram, se vos roubam, se vos tratam com arrogância, ou se vos esbofeteiam. Digo-o com vergonha, como se neste ponto houvéssemos sido fracos! Contudo, quem quer que ouse vangloriar-se (falo como se fora insensato), também eu me vanglorio. Eles são hebreus? Também eu. São israelitas? Também eu. São descendentes de Abraão? Também eu. São ministros de Cristo? Muito mais (falo insensatamente) sou eu do que eles: pelos meus muitos trabalhos, mais do que os deles; pelas minhas frequentes prisões, mais do que as deles; pelas pancadas sem conta que sofri, mais do que as deles; e até, frequentemente, tendo quase visto a morte. Dos judeus recebi chicotadas, em cinco quarenta vezes menos uma; três vezes fui açoitado com varas; uma vez fui apedrejado; três vezes naufraguei: passei um dia e uma noite no fundo do mar! Em minhas contínuas viagens encontrei sempre perigos: perigos nas águas, perigos nos ladrões, perigos nos meus compatriotas, perigos nos pagãos, perigos nas cidades, perigos nos desertos, perigos no mar, perigos nos irmãos falsos, nos trabalhos, nas fadigas, nas numerosas vigílias, na fome, na sede, nos muitos jejuns, no frio e na nudez! E, além destes males, que são exteriores, preocupa-me também quotidianamente a solicitude de todas as cristandades. Quem adoece, e me não vê doente? Quem é fraco, sem que eu o seja também? Quem cai no escândalo, sem que o fogo do tormento me queime? Se convém que alguém se glorie, gloriar-me-ei eu, então, pelas coisas que fez a minha fraqueza! Deus Pai de Cristo e para sempre bendito sabe que não minto, Em Damasco, o governador da província, por ordem do rei Aretas, mandou guardar a cidade para me prender; mas desceram-me pela muralha para fora em um cesto; e escapei, assim, das suas mãos. É preciso ainda (decerto não é útil) que me glorie? Recordarei, então, as visões e revelações do Senhor. Conheço um homem que há catorze anos foi arrebatado ao terceiro céu (se foi só no corpo, o não sei, Deus o sabe). Sei que este homem (se foi só no corpo, o não sei, Deus o sabe) foi levado ao paraíso, onde ouviu palavras inefáveis, que não é permitido revelar. Por este motivo poderei gloriar-me; mas, pelo que me diz respeito, só posso gloriar-me das minhas enfermidades. Se eu quisesse gloriar-me, não seria insensato, pois dizia a verdade; mas abstenho-me disso para que ninguém faça de mim uma ideia superior ao que vê em mim, ou ao que de mim ouve dizer. Para que a grandeza destas revelações me não encha de orgulho, foi-me dado um castigo na minha carne: um anjo de Satanás foi encarregado de me esbofetear. E por causa dele roguei três vezes ao Senhor que o afastasse de mim; mas o Senhor disse-me: «Basta-te a minha graça, pois a virtude aperfeiçoa-se nas tribulações». Glorio-me, pois, voluntariamente, com as minhas fraquezas, para que a virtude de Cristo resida em mim.",
+        "Ukrainian": "Брати: ви радо терпите безумних, самі такі розумні! Ви терпите, коли вас хтось неволить, коли хтось об’їдає, коли хтось обдирає, коли хтось ставиться до вас ізгорда, коли хтось б’є вас в обличчя! На сором кажу це, які то слабкі ми виявилися. Та в чому б там хто не виявляв сміливости, – говорю мов безумний! – я також можу її виявити. Вони євреї? Я теж! Вони ізраїльтяни? Я теж! Потомки Авраама? Я теж! Слуги Христові? Говорю неначе нерозумний: Я більш від них. Куди більше в працях, куди більше в тюрмах, під ударами надмірно, у смертельних небезпеках часто. Від юдеїв я прийняв п’ять раз по сорок "
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) SCi(dfd)ant(d/ffd/fffhvGF) gen(gff'f)tes(d/ffdev'1//fgddc.) (;) *() quó(d)ni(fdf)am(gfg) no(ixg_f/g/igh)men(h) ti(ixh.g!hwi)bi(h.) (;) De(ixg_f/g/igh)us :(hgi//hihiggf.0) (:) tu(f) so(hf/gh!jjh)lus(hghvGFg.) (,) Al(h!jij)tís(h_f)si(gf~)mus(f_g//d!f'g//fh!jvGF'fd/ff/ge'/fgd'/eddc.) (:) su(c)per(d) o(fg/hg)mnem(h!jj/hjg) ter(fv.dge//f!gwh)ram.(ghffgFE.) (,) (h_jHG'hvF'D//ff/gffd.) (::) <sp>V/</sp>. De(hg)us(g) me(gh/jh/jggf)us,(f.) (;) po(hj)ne(j_i) il(jjj)los(hg__) (,) ut(gf~) ro(ixgv.fhg/hiGF.hf/gh!jj/k!mmmvKJ'jvH'G)(,)(jkjjh)tam,(hjh/jjjh..) (:) et(f) sic(f)ut(ghg~) stí(h_f/ghGF.)(,)(hV!ghfg./d!ewf//e!gwhg/h!jj)pu(hfg)lam(ghgff/ded.) (:) an(d!fffd~)te(ef) fá(ghghhghv.ixfh!ivGF'E//f!gwh!ivHG)ci(hg)em(g.) <clear>*(,) ven(ixhiGF'h!jjvH'G)ti.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
+      "availableTranslations": {
+        "English": "Let the nations know that God is Your name; You alone are the Most High over all the earth. O my God, make them like leaves in a whirlwind, like chaff before the wind. You have rocked the country, O Lord, and split it open. Repair the cracks in it, for it is tottering. That they may flee out of bowshot; that Your loved ones may escape.",
+        "Espanol": "Reconozcan los gentiles que tú, Señor, eres el único excelso en toda la tierra. Dios mío, hazlos hojarasca, vilanos frente al vendaval. Señor, has sacudido la tierra, y la has hendido: Sana sus quebraduras, porque se ha movido. Para que huyan a la vista del arco: para que sean librados tus elegidos.",
+        "Francais": "Que les nations sachent que votre nom est Dieu ; que vous êtes le seul Très-Haut dans toute la terre. Mon Dieu, rendez-les semblables à une roue et à la paille emportée par le vent. Vous avez ébranlé la terre, Seigneur, et vous l’avez troublée. Guérissez ses brisures, car elle est ébranlée. Afin que vous élus fuient devant l’arc : qu’ils soient délivrés.",
+        "Italiano": "Riconòscano le genti, o Dio, che tu solo sei l’Altissimo, sovrano di tutta la terra. Dio mio, ridúcili come grumolo rotante e paglia travolta dal vento. Hai scosso la terra, o Signore, l’hai sconquassata. Risana le sue ferite, perché minaccia rovina. Affinché sfuggano al tiro dell’arco e siano liberati i tuoi eletti.",
+        "Magyar": "Tudják meg a népek, hogy Isten a te neved: az egész földön egyedül te vagy Fölséges. Istenem, tedd olyanokká őket, mint a forgatag, s amilyen a polyva a szél előtt.",
+        "Nederlands": "Laten de volkeren erkennen, dat uw Naam is: “God”; dat Gij de Allerhoogste zijt over heel de aarde, Gij alleen!  Mijn God, maak hen gelijk aan een wentelrad, aan een strohalm in de wind.",
+        "Polski": "Niech poznają Ciebie poganie i wiedzą, Pan Twoje imię, żeś sam jeden wzniesiony nad całą ziemię. O Boże mój, uczyń ich podobnymi do liści przez wicher porwanych, do plew gnanych wiatrem. Wstrząsnąłeś ziemię, o Panie, i rozwarłeś ją. Ulecz jej rozdarcie, bo się chwieje. By uciekali przed łukiem, aby wyszli na wolność, których Ty miłujesz.",
+        "Portugues": "Saibam as nações que o vosso nome é Deus; que só Vós sois o Altíssimo em todo o mundo. Ó meu Deus, tornai os meus inimigos semelhantes à roda, que gira sem cessar, ou à palha, que o vento agita e arrebata. Senhor, abalastes e arruinastes a terra. Reparai as suas ruínas, porque ela está abalada. Que os vossos escolhidos possam fugir diante do arco armado contra eles, e que sejam livres.",
+        "Ukrainian": "Нехай пізнають народи, що ім’я тобі – Бог: ти один Вcевишній на вcій землі. Боже мій, поклади їх, як колеcо, і як троcтину перед вітром."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) SCi(dfd)ant(d/ffd/fffhvGF) gen(gff'f)tes(d/ffdev'1//fgddc.) (;) *() quó(d)ni(fdf)am(gfg) no(ixg_f/g/igh)men(h) ti(ixh.g!hwi)bi(h.) (;) De(ixg_f/g/igh)us :(hgi//hihiggf.0) (:) tu(f) so(hf/gh!jjh)lus(hghvGFg.) (,) Al(h!jij)tís(h_f)si(gf~)mus(f_g//d!f'g//fh!jvGF'fd/ff/ge'/fgd'/eddc.) (:) su(c)per(d) o(fg/hg)mnem(h!jj/hjg) ter(fv.dge//f!gwh)ram.(ghffgFE.) (,) (h_jHG'hvF'D//ff/gffd.) (::) <sp>V/</sp>. De(hg)us(g) me(gh/jh/jggf)us,(f.) (;) po(hj)ne(j_i) il(jjj)los(hg__) (,) ut(gf~) ro(ixgv.fhg/hiGF.hf/gh!jj/k!mmmvKJ'jvH'G)(,)(jkjjh)tam,(hjh/jjjh..) (:) et(f) sic(f)ut(ghg~) stí(h_f/ghGF.)(,)(hV!ghfg./d!ewf//e!gwhg/h!jj)pu(hfg)lam(ghgff/ded.) (:) an(d!fffd~)te(ef) fá(ghghhghv.ixfh!ivGF'E//f!gwh!ivHG)ci(hg)em(g.) <clear>*(,) ven(ixhiGF'h!jjvH'G)ti.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
+      "availableTranslations": {
+        "English": "Let the nations know that God is Your name; You alone are the Most High over all the earth. O my God, make them like leaves in a whirlwind, like chaff before the wind. You have rocked the country, O Lord, and split it open. Repair the cracks in it, for it is tottering. That they may flee out of bowshot; that Your loved ones may escape.",
+        "Espanol": "Reconozcan los gentiles que tú, Señor, eres el único excelso en toda la tierra. Dios mío, hazlos hojarasca, vilanos frente al vendaval. Señor, has sacudido la tierra, y la has hendido: Sana sus quebraduras, porque se ha movido. Para que huyan a la vista del arco: para que sean librados tus elegidos.",
+        "Francais": "Que les nations sachent que votre nom est Dieu ; que vous êtes le seul Très-Haut dans toute la terre. Mon Dieu, rendez-les semblables à une roue et à la paille emportée par le vent. Vous avez ébranlé la terre, Seigneur, et vous l’avez troublée. Guérissez ses brisures, car elle est ébranlée. Afin que vous élus fuient devant l’arc : qu’ils soient délivrés.",
+        "Italiano": "Riconòscano le genti, o Dio, che tu solo sei l’Altissimo, sovrano di tutta la terra. Dio mio, ridúcili come grumolo rotante e paglia travolta dal vento. Hai scosso la terra, o Signore, l’hai sconquassata. Risana le sue ferite, perché minaccia rovina. Affinché sfuggano al tiro dell’arco e siano liberati i tuoi eletti.",
+        "Magyar": "Tudják meg a népek, hogy Isten a te neved: az egész földön egyedül te vagy Fölséges. Istenem, tedd olyanokká őket, mint a forgatag, s amilyen a polyva a szél előtt.",
+        "Nederlands": "Laten de volkeren erkennen, dat uw Naam is: “God”; dat Gij de Allerhoogste zijt over heel de aarde, Gij alleen!  Mijn God, maak hen gelijk aan een wentelrad, aan een strohalm in de wind.",
+        "Polski": "Niech poznają Ciebie poganie i wiedzą, Pan Twoje imię, żeś sam jeden wzniesiony nad całą ziemię. O Boże mój, uczyń ich podobnymi do liści przez wicher porwanych, do plew gnanych wiatrem. Wstrząsnąłeś ziemię, o Panie, i rozwarłeś ją. Ulecz jej rozdarcie, bo się chwieje. By uciekali przed łukiem, aby wyszli na wolność, których Ty miłujesz.",
+        "Portugues": "Saibam as nações que o vosso nome é Deus; que só Vós sois o Altíssimo em todo o mundo. Ó meu Deus, tornai os meus inimigos semelhantes à roda, que gira sem cessar, ou à palha, que o vento agita e arrebata. Senhor, abalastes e arruinastes a terra. Reparai as suas ruínas, porque ela está abalada. Que os vossos escolhidos possam fugir diante do arco armado contra eles, e que sejam livres.",
+        "Ukrainian": "Нехай пізнають народи, що ім’я тобі – Бог: ти один Вcевишній на вcій землі. Боже мій, поклади їх, як колеcо, і як троcтину перед вітром."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) COm(e)mo(e)ví(gh/j.h!iwj)sti(k_j//j'jjvH'GF.) (,) (gh!jjjvIGh_g/h!iw!jvIHivHGhg..) (;) *() Dó(gjjk)mi(h)ne(hg/hf//h!jhj) ter(jvIH'iw!jvI'HG'h)ram,(hg..) (:) et(g) con(h_g/h!iwj)tur(g_f~)bá(g)sti(h) e(j./kjjg//j./kj/!j'jj/kjjh)(,)(ji/jjvI'G//hjhjvHF.1)(,)(gh!jvvI'G//hjHF'g)am.(g/hhg.) (::) \r\n<sp>V/</sp>. Sa(g!jj/kljj'jg)(,)(jj/kljj'jh//ijH'GF.g.h!iwjjk)na(j.) (;) con(ij'k~)tri(k_i)ti(kj)ó(j_kJ'//G)nes(g_h) (,) e(fh/ji/jkhhg/hg!jjhjvG~F~)jus,(gf..) (:) qui(ixfh/ih/ig)a(j.) mo(jjjvHG'h)ta(g) est.(dg'//jvHG.dg'//hjhhg.) (,) (jjjg/hhfgv.dg/hg/hg/hhg.) (::) \r\n<sp>V/</sp>. Ut(fg) fú(g!jj)gi(j)ant(jj/kljj'jg) (,) (jj/kljj'jh//ijH'GF.g.h!iwjjv) (;) a(jj) fá(jk'l)ci(j_h)e(h_g) ar(h!jj//jjj'jk~)cus,(gv.fh/ji/jkhhg/hg/jjh/jggf.0) (:) ut(fg!hj~) li(igh)be(gfgh!jij)rén(j.h!iwj)tur(jjjvIHivHGhg..) (;) e(g)lé(hg/jjghvG'F)cti(f!h'j) *() tu(j)i.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
+      "availableTranslations": {
+        "Magyar": "Megmozgattad és megrendítetted a földet, URam. Gyógyítsd meg sebeit, mert ingadozik már. Hogy az íjak elől megmeneküljenek: hogy szeretteid megszabaduljanak.",
+        "Nederlands": "Gij hebt het land doen sidderen, Heer, en met ontzetting geslagen. Herstel zijn kloven, want het wankelt. Dat zij vluchten voor de boog, opdat uw geliefden worden bevrijd.",
+        "Ukrainian": "Ти потряc землею, Господи, і розcадив її. Зціли щілини її, бо вона захиталаcя. Щоб утікали перед лицем лука, щоб визволилиcь вибрані твої."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Cum turba plúrima convenírent, et de civitátibus properárent ad Jesum, dixit per similitúdinem: Exiit, qui séminat, semináre semen suum: et dum séminat, áliud cécidit secus viam, et conculcátum est, et vólucres cæli comedérunt illud. Et áliud cécidit supra petram: et natum áruit, quia non habébat humórem. Et áliud cécidit inter spinas, et simul exórtæ spinæ suffocavérunt illud. Et áliud cécidit in terram bonam: et ortum fecit fructum céntuplum. Hæc dicens, clamábat: Qui habet aures audiéndi, áudiat. Interrogábant autem eum discípuli ejus, quæ esset hæc parábola. Quibus ipse dixit: Vobis datum est nosse mystérium regni Dei, céteris autem in parábolis: ut vidéntes non vídeant, et audiéntes non intéllegant. Est autem hæc parábola: Semen est verbum Dei. Qui autem secus viam, hi sunt qui áudiunt: déinde venit diábolus, et tollit verbum de corde eórum, ne credéntes salvi fiant. Nam qui supra petram: qui cum audíerint, cum gáudio suscípiunt verbum: et hi radíces non habent: qui ad tempus credunt, et in témpore tentatiónis recédunt. Quod autem in spinas cécidit: hi sunt, qui audiérunt, et a sollicitudínibus et divítiis et voluptátibus vitæ eúntes, suffocántur, et non réferunt fructum. Quod autem in bonam terram: hi sunt, qui in corde bono et óptimo audiéntes verbum rétinent, et fructum áfferunt in patiéntia.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, when a very great crowd was gathering together and men from every town were resorting to Jesus. He said in a parable: The sower went out to sow his seed. And as he sowed, some seed fell by the wayside and was trodden under foot, and the birds of the air ate it up. And other seed fell upon the rock, and as soon as it had sprung up it withered away, because it had no moisture. And other seed fell among thorns, and the thorns sprang up with it and choked it. And other seed fell upon good ground, and sprang up and yielded fruit a hundredfold. As He said these things He cried out, He who has ears to hear, let him hear! But His disciples then began to ask Him what this parable meant, He said to them, To you it is given to know the mystery of the kingdom of God, but to the rest in parables, that ‘Seeing they may not see, and hearing they may not understand.’ Now the parable is this: the seed is the word of God. And those by the wayside are they who have heard; then the devil comes and takes away the word from their heart, that they may not believe and be saved. Now those upon the rock are they who, when they have heard, receive the word with joy; and these have no root, but believe for a while, and in time of temptation fall away. And that which fell among the thorns, these are they who have heard, and as they go their way are choked by the cares and riches and pleasures of life, and their fruit does not ripen. But that upon good ground, these are they who, with a right and good heart, having heard the word, hold it fast, and bear fruit in patience.",
+        "Bohemice": "Za onoho času, když se k Ježíšovi sešel velký zástup a z mnoha měst k němu přicházeli, promluvil v podobenství: „Jeden rozsévač vyšel rozsévat. A jak rozséval, padlo některé zrno na okraj cesty; bylo pošlapáno a ptáci ho sezobali. Jiné padlo na skálu; vzrostlo sice, ale pak uschlo, protože nemělo vláhu. Jiné zrno padlo do trní; trní vzrostlo zároveň s ním a udusilo ho. Jiné padlo na dobrou půdu; vzrostlo a přineslo stonásobný užitek.“ A důrazně prohlásil: „Kdo má uši k slyšení, slyš!“ Jeho učedníci se ho ptali, co to podobenství znamená. Odpověděl jim: „Vám je dáno znát tajemství Božího království, ale ostatním jen v podobenstvích, 'aby se dívali, ale neviděli, slyšeli, ale nerozuměli.' Toto podobenství znamená: Semeno je slovo Boží. Na okraji cesty, to jsou ti, kdo ho vyslechnou, potom však přichází ďábel a bere jim to slovo ze srdce, aby neuvěřili a nebyli zachráněni. Na skále, to jsou ti, kdo s radostí slovo přijmou, když ho slyší, nemají však kořen; na chvilku uvěří, ale v době pokušení odpadají. Co padlo do trní, to jsou ti, kdo ho vyslechnou, ale pak jdou a dusí ho starostmi, bohatstvím a požitky, takže nedozrají k užitku. Co je pak v dobré půdě, to jsou ti, kdo to slovo vyslechli a uchovávají ho v dobrém a upřímném srdci a s trpělivostí přinášejí užitek.",
+        "Espanol": "En aquel tiempo: Habiéndose reunido una gran muchedumbre y gente que salía de toda la ciudad, Jesús dijo en parábola: «Salió el sembrador a sembrar su semilla. Al sembrarla, algo cayó al borde del camino, lo pisaron, y los pájaros del cielo se lo comieron. Otra parte cayó en terreno pedregoso, y, después de brotar, se secó por falta de humedad. Otra parte cayó entre abrojos, y los abrojos, creciendo al mismo tiempo, la ahogaron. Y otra parte cayó en tierra buena, y, después de brotar, dio fruto al ciento por uno». Dicho esto, exclamó: «El que tenga oídos para oír, que oiga». Entonces le preguntaron los discípulos qué significaba esa parábola. Él dijo: «A vosotros se os ha otorgado conocer los misterios del reino de Dios; pero a los demás, en parábolas, para que viendo no vean y oyendo no entiendan. El sentido de la parábola es este: la semilla es la palabra de Dios. Los del borde del camino son los que escuchan, pero luego viene el diablo y se lleva la palabra de sus corazones, para que no crean y se salven. Los del terreno pedregoso son los que, al oír, reciben la palabra con alegría, pero no tienen raíz; son los que por algún tiempo creen, pero en el momento de la prueba fallan. Lo que cayó entre abrojos son los que han oído, pero, dejándose llevar por los afanes, riquezas y placeres de la vida, se quedan sofocados y no llegan a dar fruto maduro. Lo de la tierra buena son los que escuchan la palabra con un corazón noble y generoso, la guardan y dan fruto con perseverancia».",
+        "Francais": "En ce temps là : Comme une foule nombreuse s’amassait et que de toutes les villes on venait vers lui, il dit par parabole : « Le semeur sortit pour semer sa semence ; et, pendant qu’il semait, du (grain) tomba le long du chemin ; il fut foulé aux pieds, et les oiseaux du ciel le mangèrent. D’autre tomba sur de la pierre, et, après avoir poussé, se dessécha, parce qu’il n’avait pas d’humidité. D’autre tomba dans les épines, et les épines poussant avec, l’étouffèrent. D’autre tomba dans la bonne terre, et, après avoir poussé, donna du fruit au centuple.» Parlant ainsi, il clamait : « Qui a des oreilles pour entendre, entende !» Ses disciples lui demandèrent ce que signifiait cette parabole : « A vous, leur dit-il, il a été donné de connaître les mystères du royaume de Dieu ; mais pour les autres, (c’est) en paraboles, pour que regardant ils ne voient point, et qu’écoutant ils ne comprennent point. Voici ce que signifie la parabole : La semence, c’est la parole de Dieu. Ceux qui sont le long du chemin sont creux qui ont entendu ; ensuite le diable vient, et il enlève la parole de leur cœur, de peur qu’ils ne croient et ne se sauvent. Ceux qui sont sur de la pierre sont ceux qui, en entendant la parole, l’accueillent avec joie ; mais ils n’ont point de racine : ils croient pour un temps, et ils se retirent à l’heure de l’épreuve. Ce qui est tombé dans les épines, ce sont ceux qui ont entendu, mais vont et se laissent étouffer par les sollicitudes, les richesses et les plaisirs de la vie, et ils n’arrivent point à maturité. Ce qui est tombé dans la bonne terre, ce sont ceux qui, après avoir entendu la parole avec un cœur noble et bon, la gardent et portent du fruit grâce à la constance.",
+        "Italiano": "In quel tempo: radunandosi grandissima turba di popolo, e accorrendo gente a Gesù da tutte le città. Egli disse questa parabola: Andò il seminatore a seminare la sua semenza: e nel seminarla parte cadde lungo la strada e fu calpestata, e gli uccelli dell’aria la divorarono; parte cadde sopra le pietre, e, nata che fu, seccò, perché non aveva umore; parte cadde fra le spine, e le spine che nacquero insieme la soffocarono; parte cadde in terra buona, e, nata, fruttò cento per uno. Detto questo esclamò: Chi ha orecchie per intendere, intenda. E i suoi discepoli gli domandavano che significasse questa parabola. Egli disse: A voi è concesso di intendere il mistero del regno di Dio, ma a tutti gli altri solo per via di parabola: onde, pur vedendo non vedano, e udendo non intendano. La parabola dunque significa questo: La semenza è la parola di Dio. Ora, quelli che sono lungo la strada, sono coloro che ascoltano: e poi viene il diavolo e porta via la parola dal loro cuore, perché non si salvino col credere. Quelli caduti sopra la pietra, sono quelli che udita la parola l’accolgono con allegrezza, ma questi non hanno radice: essi credono per un tempo, ma nell’ora della tentazione si tirano indietro. Semenza caduta tra le spine sono coloro che hanno ascoltato, ma a lungo andare restano soffocati dalle sollecitudini, dalle ricchezze e dai piaceri della vita, e non portano il frutto a maturità. La semenza caduta in buona terra indica coloro che in un cuore buono e perfetto ritengono la parola ascoltata, e portano frutto mediante la pazienza.",
+        "Magyar": "Amikor egyszer nagy tömeg vette körül és a városokból tömérdek nép zarándokolt hozzá, mondott egy példabeszédet:  „Kiment a magvető, hogy elvesse a magot. Vetés közben néhány szem az út szélére esett. Eltaposták, és az ég madarai felcsipegették.  Más szemek köves talajra hullottak. Kikeltek, de aztán elszáradtak, mert nem kaptak elég nedvességet.  Ismét más szemek szúrós bogáncs közé hulltak. A szúrós bogáncsok velük együtt nőttek, és elfojtották őket.  A többi mag jó földbe hullott, kikelt és százszoros termést hozott.” Amikor befejezte, fölemelte a hangját: „Akinek van füle a hallásra, az hallja meg!”  Tanítványai megkérdezték, hogy mi a példabeszéd értelme.  Így válaszolt: „Nektek megadatott, hogy megismerjétek az Isten országának titkait, de a többieknek csak a példabeszédek szólnak, hogy nézzenek, de ne lássanak, halljanak, de ne értsenek.  Ez a példabeszéd értelme: A mag az Isten szava.  Az útszélre hulló szemek azok, akik meghallgatják a tanítást, de aztán jön a gonosz lélek, kitépi szívükből, nehogy higgyenek és üdvözüljenek.  A köves talajba hulló szemek azok, akik meghallgatják s örömmel fogadják a tanítást, de nem ver bennük gyökeret, így aztán a kísértés idején hűtlenné válnak.  A szúrós bogáncs közé hulló szemek azok, akik meghallgatják, de később az élet gondjai, javai és élvezetei meggátolják őket fejlődésükben, ezért termést már nem hoznak.  A jó földbe hulló szemek azok, akik tiszta és jó szívvel hallgatják a tanítást, meg is tartják és kitartásukkal gyümölcsöt teremnek.",
+        "Nederlands": "In die tijd kwam er een talrijke menigte bijeen, die vanuit de steden naar Jezus toestroomde. Dan sprak Hij in een gelijkenis: Een zaaier ging uit, om zijn zaad te zaaien. En bij het zaaien viel er een gedeelte op de weg; het werd vertrapt en de vogels des hemels aten het op. En een ander gedeelte viel op rotsige bodem; het schoot wel op, maar verdorde er bij gebrek aan vochtigheid. Weer een ander gedeelte viel midden tussen de doornen; en de doornen schoten tegelijk mede op en verstikten het. Een ander gedeelte ten slotte viel op goede bodem; het schoot op en droeg honderdvoudige vrucht. Bij deze woorden riep Hij uit: Wie oren heeft om te horen, dat hij hore! Zijn leerlingen nu vroegen Hem, wat deze gelijkenis betekende. En Hij gaf hun ten antwoord: U is het gegeven de geheimen van het rijk Gods volledig te kennen; de overigen echter slechts in gelijkenissen, opdat zij wel zien maar niet inzien, wel horen maar niet begrijpen. Dit nu is de zin van de gelijkenis: Het zaad is het Woord Gods. Waar het op de weg valt, - dat zijn zij, die wel toeluisteren, maar dan komt de duivel, en neemt het Woord weg uit hun hart, opdat zij niet geloven en zalig worden. Waar het evenwel op rotsige bodem valt, - dat zijn zij, die het Woord aanhoren, en met vreugde opnemen; doch zij laten het geen wortel schieten; zij geloven een tijdlang, maar als de beproeving komt, vallen zij af. Wat echter tussen de doornen valt, - dat zijn zij, die wel geluisterd hebben; doch door de zorgen, de rijkdom en de genietingen des levens wordt het bij hen gaandeweg verstikt, zonder dat het vrucht oplevert. Maar wat op goede bodem valt, - dat zijn zij, die het Woord met een goed en edel hart aanhoren, het bewaren, en vrucht voortbrengen door te volharden.",
+        "Polski": "Onego czasu: Gdy zgromadziła się rzesza wielka i z miast zdążali do Niego, mówił w przypowieści: «Wyszedł siewca rozsiewać ziarna swoje. A gdy siał, jedno padło przy drodze. I zdeptane jest, a ptaki niebieskie wydziobały je. A drugie padło na grunt skalisty, a wzszedłszy uschło, gdyż nie miało wilgoci. A inne padło między ciernie, a ciernie wzrosły wespół z nim i przygłuszyły je. A inne jeszcze padło na ziemię, na rodzajną i gdy wzrosło, wydało plon stokrotny». To mówiąc wołał: «Kto ma uszy ku słuchaniu, niechaj słucha». Pytali go tedy uczniowie Jego, co by to była za przypowieść. A On im rzekł: «Wam dane jest poznać tajemnicę Królestwa Bożego, innym zaś przez przypowieści, aby „patrzyli, a nie ujrzeli i usłyszeli, a nie zrozumieli”. Taką jest przypowieść: Ziarnem jest słowo Boże. Przy drodze są ci słuchacze, do których potem przychodzi szatan i porywa słowo z serca ich, aby uwierzywszy nie byli snadź zbawieni. A na gruncie skalistym są ci, którzy posłyszawszy z radością przyjmują słowo. Ale ci korzenia nie mają, wierzą do czasu, a w chwili próby ustępują. To znowu, które padło między ciernie, oznacza tych, którzy posłyszeli, ale odchodząc, przez troski, bogactwa i rozkosze życia są przygłuszeni i nie przynoszą owocu. Które jednak upadło na ziemię dobrą, oznacza tych, którzy w dobrym i szczerym sercu zachowują słowo i owoc przynoszą w wytrwałości».",
+        "Portugues": "Naquele tempo, como concorresse grande multidão de diversas cidades e viessem ter com Jesus, disse-lhes Ele esta parábola: «Saiu um semeador a semear a sua semente; e, enquanto ele semeava, caiu uma porção de semente junto ao caminho, a qual foi pisada, e, depois, comida pelos pássaros. Outra porção caiu entre as pedras e, embora tivesse nascido, secou logo, porque não tinha humidade. Ainda outra porção caiu entre espinhos, os quais cresceram com ela, afogando-a depois. Finalmente, outra porção caiu em terra boa, e, nascendo, deu fruto a cem por um». Depois de Jesus ter falado assim, acrescentou em voz alta: «Quem tem ouvidos para ouvir, ouça!». Então os seus discípulos perguntaram-Lhe a significação desta parábola. «Avós respondeu Ele, é dado conhecer o reino de Deus, porém, os outros só o conhecerão pelas parábolas; de sorte que, vendo, não vejam, e ouvindo, não compreendam. Eis o que significa esta parábola: A semente é a palavra de Deus. A semente que caiu junto ao caminho significa os que ouvem a palavra, mas logo vem o demónio, a arrebata do seu coração, com medo de que acreditem e sejam A semente que caiu em cima das pedras significa os que ouvem a palavra, e a recebem com alegria, mas não possuem a raiz: acreditam durante algum tempo, mas, quando vem a tentação, sucumbem. A semente que caiu nos espinhos designa aqueles que ouvem a palavra, mas deixam-na pouco a pouco abafar, ou pelos cuidados e inquietações do mundo, ou pelas riquezas e prazeres desta vida, e, portanto, não produzem fruto algum. Enfim, a semente que caiu na terra boa representa aqueles que ouvem a palavra com o coração recto e bom e a guardam, produzindo depois fruto pela paciência».",
+        "Ukrainian": "Того часу, коли зібралася сила народу, і з усіх міст приходили до нього, Ісус сказав їм у притчі: “Вийшов сіяч сіяти своє зерно. І як він сіяв, одне впало край дороги й було потоптане, і птиці небесні його видзьобали. Друге упало на камінь і, зійшовши, висхло, бо вогкости не мало. Інше впало між тернину, і тернина, вигнавшися з ним вкупі, його заглушила. Врешті, інше впало на добру землю і, зійшовши, сторицею вродило.” Кажучи це, Ісус голосно мовив: “Хто має вуха слухати, нехай слухає.” Учні його спитали, що б вона могла значити, оця притча. Він сказав їм: “Вам дано знати тайни Божого Царства; іншим же в притчах, щоб вони, дивлячись, не бачили, і слухаючи, не розуміли. Ось що значить оця притча: зерно це слово Боже. Тії, що край дороги, це ті, що слухають, та потім приходить диявол і вириває геть з їх серця слово, щоб вони не увірували та й не спаслися. Ті ж, що на камені, це тії, що, почувши, з радістю приймають слово, але не маючи коріння, вірують дочасу й під час спокуси відпадають. А те, що впало між тернину, це ті, що вислухавши, ідуть, та клопоти, багатства і життєві розкоші їх душать, і вони не дають плоду. Нарешті, те, що на землі добрій, це ті, що чувши слово серцем щирим, добрим, його держать і дають плід у терпінні."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PEr(c)fi(dfe)ce(f.) *() gres(ff//fff_d)sus(cd'f) me(f_e)os(egff) (,) in(dg~) sé(gv.f!h'j)mi(g_e)tis(gh) tu(fdgvFE)is,(e.) (;) ut(dg) non(gfg) mo(fe)ve(d!ff)án(fff)tur(d!ff) (,) ve(d)stí(fv.ffd)gi(f)a(fhG'Fghg) me(egff)a :(fe..) (:) in(f)clí(ixef/hig)na(ghffe) au(fffd~)rem(f) tu(gf)am,(f.) (;) et(fffd) ex(f)áu(gf~)di(fg) ver(g)ba(fgff) me(d!ffd)a :(d!ewf.) (:) mi(c)rí(cd/fef)fi(f)ca(f) mi(fgf)se(f)ri(ef)cór(gh)di(g)as(ef) tu(g.f!gwhgh)as,(hg..) (;) qui(f) sal(e.f!gwh)vos(ghF'E) fa(g)cis(fff_g) (,) spe(dc)rán(df~)tes(fffddc) in(df) te,(ef'g) Dó(e)mi(egff)ne.(fe..) (::)",
+      "availableTranslations": {
+        "English": "Make my steps steadfast in Your paths, that my feet may not falter. Incline Your ear to me; hear my word. Show Your wondrous kindness, O Lord, Saviour of those who trust in You.",
+        "Espanol": "Dirige mis pasos por tus caminos, para que no vacilen mis pies: inclina tu oído, y escucha mis palabras: glorifica tus misericordias, tú que salvas a los que esperan en ti, Señor.",
+        "Francais": "Affermissez mes pas dans vos sentiers, afin que mes pieds ne soient pas ébranlés. Inclinez vers moi votre oreille et exaucez mes paroles. Faites éclater vos miséricordes, vous qui sauvez ceux qui espèrent en vous, Seigneur.",
+        "Italiano": "Rendi fermi i miei passi nei tuoi sentieri, affinché i miei piedi non vacillino. Inclina l’orecchio verso di me, e ascolta le mie parole. Fa risplendere la tua misericordia, tu che salvi chi spera in Te, o Signore.",
+        "Nederlands": "Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia mea: inclína aurem tuam, et exáudi verba mea: mirífica misericórdias tuas, qui salvos facis sperántes in te, Dómine.",
+        "Polski": "Umocnij moje kroki na Twych ścieżkach, aby nie zachwiały się wcale me stopy; nakłoń ku mnie Twe ucho, usłysz słowa moje; okaż przedziwne miłosierdzie Twoje, Ty, co wybawiasz ufających Tobie, o Panie.",
+        "Portugues": "Firmai os meus passos nas vossas veredas, para que meus pés não tropecem: Inclinai para mim os vossos ouvidos e escutai as minhas palavras: manifestai as vossas admiráveis misericórdias, Senhor, pois salvais os que em Vós confiam!",
+        "Ukrainian": "Направ cтопи мої на cтежках твоїх, щоб не хиталиcя ноги мої. Нахили вухо твоє і почуй cлова мої. Покажи дивну лаcку твою, – ти, який cпаcаєш тих, що уповають на тебе, Господи."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Oblátum tibi, Dómine, sacrifícium, vivíficet nos semper et múniat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May this sacrifice which we offer You, O Lord, ever give us new life and protection.",
+        "Espanol": "Haz, Señor, que este Sacrificio a ti ofrecido nos vivifique siempre y nos defienda.",
+        "Francais": "Que le sacrifice qui vous est offert, Seigneur, augmente en nous la vie surnaturelle et nous fortifie.",
+        "Italiano": "Il sacrificio a Te offerto, o Signore, sempre ci vivifichi e custodisca.",
+        "Magyar": "A neked hozott adomány, Urunk, éltessen mindenkor és erősítsen minket.",
+        "Nederlands": "Heer, moge het offer, dat wij U opdragen, ons voortdurend nieuw leven instorten en sterken.",
+        "Polski": "Panie, niech ofiara Tobie złożona zawsze darzy nas życiem i umacnia.",
+        "Portugues": "Senhor, que o sacrifício que Vos oferecemos nos vivifique sempre.",
+        "Ukrainian": "Oblátum tibi, Dómine, sacrifícium vivíficet nos semper et múniat."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) IN(gj)tro(j)í(jhjvIG)bo(g.) <clear>*(,) ad(gh/ji) al(i)tá(ij'k)re(k_h) De(h_k_j_)i,(ikjj/ghg.) (:) ad(g) De(g.h!iwj)um(j) qui(hi) lae(h_g)tí(h!iwj)fi(ghGF'g)cat(gf..) (;) ju(g)ven(hgh)tú(gh/i.h!iwj)tem(hih) me(gh!ivHG'h)am.(hg..) (::)",
+      "availableTranslations": {
+        "English": "I will go in to the altar of God, the God of my gladness and joy.",
+        "Espanol": "Me llegaré al altar de Dios, que llena de alegría mi juventud.",
+        "Francais": "Je m’avancerai à l’autel de Dieu, du Dieu qui réjouis ma jeunesse.",
+        "Italiano": "Mi accosterò all’altare di Dio, a Dio che allieta la mia giovinezza.",
+        "Magyar": "Bemegyek az Isten oltárához, az Istenhez, ki ifjúi örömmel tölt el engem.",
+        "Nederlands": "Ik zal opgaan naar het altaar van God, naar God, die de blijdschap is van mijn jeugd.",
+        "Polski": "Przystąpię do ołtarza Bożego, do Boga, który radością napełnia młodość moją.",
+        "Portugues": "Subirei ao altar de Deus: de Deus, que é a alegria da minha juventude.",
+        "Ukrainian": "Ввійду до жертівника Божого, до Бога, що веcелить молодіcть мою."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis sacraméntis, tibi étiam plácitis móribus dignánter deservíre concédas.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O almighty God, grant, we humbly beseech You, that those whom You refresh with Your sacrament may also worthily serve You in a way that is well pleasing to You.",
+        "Espanol": "Te rogamos humildemente, oh Dios omnipotente, hagas que, los que tú alimentas con tus Sacramentos, te sirvan alegremente con sus buenas costumbres.",
+        "Francais": "Nous vous adressons nos supplications, ô Dieu tout puissant, afin quà ceux que nous nourrissez de votre sacrement, vous accordiez aussi la grâce de vous servir dignement par une conduite qui vous soit agréable.",
+        "Italiano": "Ti supplichiamo, o Dio onnipotente, affinché quelli che nutri coi tuoi sacramenti, Ti servano degnamente con una condotta a Te gradita.",
+        "Magyar": "Alázatosan kérünk, mindenható Isten, engedd meg azoknak, akiket szentségeiddel táplálsz, azt is, hogy neked tetsző életmódjukkal méltóképpen szolgáljanak neked.",
+        "Nederlands": "Wij vragen U ootmoedig, almachtige God, laat hen, die Gij door uw Sacramenten verkwikt, U ook naar behoren en waardig dienen.",
+        "Polski": "Pokornie prosimy Cię, wszechmogący Boże, spraw, aby ci, których posilasz Twoim Sakramentem, godnie Tobie służyli według Twego upodobania.",
+        "Portugues": "Deus omnipotente, humildemente Vos rogamos, concedei àqueles que alimentais com vossos sacramentos a graça de Vos servirem com uma conduta que Vos seja agradável.",
+        "Ukrainian": " Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis sacraméntis, tibi étiam plácitis móribus dignánter deservíre concédas."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

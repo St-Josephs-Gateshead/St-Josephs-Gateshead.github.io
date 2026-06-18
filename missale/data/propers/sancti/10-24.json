@@ -1,0 +1,822 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "S. Raphaëlis Archangeli",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(g)NE(g)DÍ(hj)CI(j)TE(j) Dó(ij)mi(j)num(j.) *(,) o(j)mnes(j) An(j)ge(jjj_h)li(hk) e(kj~)jus :(jkjji.) (;) pot(g)én(gh~)tes(h) vir(h)tú(jj)te,(i_h) (;) qui(gfg) fá(hg/ji)ci(j)tis(j) ver(hj~)bum(jj) e(gh~)jus,(h_i_h._) (:) ad(g) au(h)di(hkj)én(i)dam(jj//jj) vo(h_g)cem(g_f) (,) ser(fh~)mó(h_g/jjvH'G)num(g_e) e(fgF~'E~)jus.(e.) (::) <nlba><i>T. P.</i> Al(gj~)le(jjj_g)lú(ikj){ia},</nlba>(j_i) (,) al(j)le(jjghvGE)lú(fgF~'E~){ia}.(e.) (::) <i>Ps.</i> Bé(g)ne(hj)dic(j) á(j)ni(j)ma(j) me(k)a(j) Dó(j)mi(ih)no :(jjj) *(:) et(ig) ó(hj)mni(j)a(j) quæ(j) in(j)tra(j) me(j) sunt,(j.) (,) nó(j)mi(j)ni(jji) san(hg)cto(h') e(i)jus.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
+      "availableTranslations": {
+        "English": "Bless the Lord, all you His Angels, you mighty in strength, who do His bidding, obeying His spoken word.  Bless the Lord, O my soul; and, all my being, bless His holy name. ",
+        "Francais": "Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole, pour obéir à la voix de ses ordres. Mon âme, bénis le Seigneur, et que tout ce qui est au dedans de moi bénisse son saint Nom.",
+        "Italiano": "I tuoi sacerdoti, Signore, si rivestano di giustizia ed esultino di gioia i tuoi fedeli; per amor di David, tuo servo, non respingere chi hai consacrato. Ricòrdati, Signore, di David e di tutta la pietà sua:",
+        "Nederlands": "Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus. (Allelúja, allelúja.) Bénedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.",
+        "Polski": "Błogosławcie Pana, wszyscy jego Aniołowie, potężni mocą, pełniący Jego rozkazy, abyście posłuszni byli Jego słowu. Błogosław, duszo moja, Pana, a wszystko, co jest we mnie, święte imię Jego.",
+        "Portugues": "Bendizei o Senhor, ó vós, todos os Anjos do Senhor: Sois cheios de poder e virtude: e fazeis o que Ele vos manda, obedecendo às suas palavras e ordens. Bendiz o Senhor, ó minha alma: Que tudo quanto houver em mim bendiga o santo Nome do Senhor."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui beátum Raphaélem Archángelum Tobíæ fámulo tuo cómitem dedísti in via: concéde nobis fámulis tuis; ut ejúsdem semper protegámur custódia et muniámur auxílio.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Who gave blessed Raphael the Archangel as a traveling companion to Your servant Tobias, grant us, Your servants, ever to be protected by his guardianship and by his help. ",
+        "Espanol": "¡Oh Dios, que hiciste que el arcángel San Rafael fuese compañero de camino de tu siervo Tobías!; concédenos a tus siervos ser siempre protegidos por él y defendidos con su auxilio.",
+        "Francais": "Ô Dieu, qui avez donné le bienheureux Archange Raphaël comme compagnon de route à votre serviteur Tobie, accordez-nous, à nous vos serviteurs, la grâce d’être toujours protégés et secourus par ce même Archange.",
+        "Italiano": "O Dio, ti degnasti di far grande per apostoliche virtù, il beato Antonio Maria, tuo confessore e vescovo, e per mezzo di lui volesti raccogliere nella Chiesa nuove famiglie di sacerdoti e di vergini: in grazia dei suoi meriti ed insegnamenti, concedi che sempre ci sforziamo nel cercare la salvezza delle anime.",
+        "Nederlands": "God, Gij hebt uw dienaar Tobias de heilige aartsengel Rafaël tot gezel gegeven op zijn tocht. Laat zijn bescherming ook ons, uw dienaren, altijd behoeden en zijn hulp ons verdedigen.",
+        "Polski": "Boże, który dałeś słudze Swemu Tobiaszowi za towarzysza W podróży św. Archanioła Rafała, daj nam sługom Swoim, aby nas zawsze otaczała jego opieka i wspierała jego pomoc.",
+        "Portugues": "Ó Deus, que designastes o Arcanjo Rafael para guia do vosso servo Tobias, concedei-nos a nós, que somos vossos servos, a graça de sermos sempre protegidos por ele e fortalecidos com seu auxílio."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Dixit Angelus Ráphaël ad Tobíam: Sacraméntum regis abscóndere bonum est: ópera autem Dei reveláre et confitéri honoríficum est. Bona est orátio cum jejúnio, et eleemósyna magis quam thesáuros auri recóndere: quóniam eleemósyna a morte liberat, et ipsa est, quæ purgat peccáta et facit invenire misericórdiam et vitam ætérnam. Qui autem faciunt peccátum et iniquitátem, hostes sunt ánimæ suæ. Manifésto ergo vobis veritátem, et non abscóndam a vobis occúltum sermónem. Quando orábas cum lácrimis, et sepeliébas mórtuos, et derelinquébas prándium tuum, et mórtuos abscondébas per diem in domo tua, et nocte sepeliébas eos, ego óbtuli oratiónem tuam Dómino. Et quia accéptus eras Deo, necésse fuit, ut tentátio probáret te. Et nunc misit me Dóminus, ut curárem te, et Saram uxórem fílii tui a dæmónio liberárem. Ego enim sum Raphaël Angelus, unus ex septem, qui astámus ante Dóminum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, the Angel Raphael said to Tobias: It is good to hide the secret of a king: but honorable to reveal and confess the works of God. Prayer is good with fasting and alms, more than to lay up treasures of gold: for alms delivers from death, and the same is that which purges away sins, and makes to find mercy and life everlasting. But they who commit sin and iniquity are enemies to their own soul. I discover then the truth to you, and I will not hide the secret from you. When you prayed with tears, and buried the dead, and left your dinner, and hid the dead by day in your house, and buried them by night, I offered your prayer to the Lord. And because you were acceptable to God, it was necessary that temptation should prove you. And now the Lord has sent me to heal you, and to deliver Sara your son’s wife from the devil.  For I am the angel Raphael, one of the seven who stand before the Lord.",
+        "Francais": "En ces jours-là : L’ange Raphaël dit à Tobie : Il est bon de cacher le secret du roi, mais il est honorable de révéler et de publier les oeuvres de Dieu. La prière accompagnée du jeûne est bonne, et l’aumône vaut mieux que d’amasser des monceaux d’or. Car l’aumône délivre de la mort, et c’est elle qui efface les péchés, et qui fait trouver la miséricorde et la vie éternelle. Mais ceux qui commettent le péché et l’iniquité sont les ennemis de leur âme. Je vais donc vous découvrir la vérité, et je ne vous cacherai point une chose qui est secrète. Lorsque vous priiez avec larmes, et que vous ensevelissiez les morts, que vous quittiez votre repas, et que vous cachiez les morts dans votre maison durant le jour pour les ensevelir pendant la nuit, j’ai présenté votre prière au Seigneur. Et parce que vous étiez agréable à Dieu, il a été nécessaire que la tentation vous éprouvât.Et maintenant le Seigneur m’a envoyé pour vous guérir, et pour délivrer du démon Sara, la femme de votre fils. Car je suis l’Ange Raphaël, l’un des sept qui nous tenons en la présence du Seigneur.",
+        "Italiano": "Fratelli: I Sacerdoti levitici erano in molti, perché la morte non permetteva che durassero; ma il Cristo invece possiede il sacerdozio che non finisce mai, perché Egli dura in eterno; e perciò può anche in perpetuo salvare coloro che per mezzo suo si accostano a Dio. Egli infatti vive sempre ad intercedere per noi. E certo era conveniente che noi avessimo un tal Pontefice, santo, innocente, immacolato, segregato dai peccatori, elevato al di sopra dei cieli; da non aver bisogno, come gli altri sacerdoti, di offrire ogni giorno sacrifici, prima per i suoi peccati e poi per quelli del popolo. Perché ciò l'ha fatto una volta per sempre, offrendo se stesso, il Cristo Gesù Signore nostro.",
+        "Magyar": "A király titkait meg kell őrizni. Isten tetteit azonban föl kell fedni és hirdetni kell. Tegyetek jót, és akkor nem árthat nektek a gonosz.  Többet ér a böjt imádsággal meg az alamizsna igazságossággal párosulva, mint a nagy vagyon, ha jogtalansággal jár együtt. Jobb alamizsnát adni, mint aranyat gyűjteni.  Mert az alamizsna megment a haláltól, és megtisztít minden bűntől. Akik jótékonykodnak, azok sokáig élnek.  De akik vétkeznek és rosszat tesznek, azok ellenségei saját életüknek.  Megmondom nektek a színtiszta igazságot és nem titkolok el semmit sem előttetek. Mondtam már nektek, hogy jó elhallgatni a király titkát, Isten tetteit azonban ki kell nyilvánítani.  Tudjátok meg hát, hogy amikor imádkoztatok, te meg Sára, kéréseteket az Úr fölséges színe elé vittem és felolvastam. Éppen úgy azt is, hogy eltemetted a halottakat.  Amikor nem restellted, hogy fölkelj és abbahagyd az evést, hanem elmentél és eltemetted a halottat, megbízást kaptam, hogy próbára tegyem a hitedet.  Ugyanakkor elküldött Isten, hogy meggyógyítsalak, és a menyedet is, Sárát.  Ráfael vagyok, egy a hét angyal közül, aki mindig készen áll arra, hogy az Úr fölséges színe elé lépjen.”",
+        "Nederlands": "In die dagen sprak de engel Rafaël tot Tobias: Wel is het goed het geheim van een koning verborgen te houden; maar eervol is het Gods werken te openbaren en te verheerlijken. Bidden, gepaard met vasten is goed. En aalmoezen geven is beter dan schatten gouds te verzamelen; want de aalmoes bevrijdt van de dood, en zij is het, die de zonden uitwist en die barmhartigheid en eeuwig leven doet vinden. Zij echter, die zonde en ongerechtigheid bedrijven, zijn vijand van hun eigen ziel. Ik maak u dan de waarheid bekend en zal hetgeen verborgen is, niet voor u verborgen houden. Toen gij onder tranen uw gebeden stortte, toen gij de doden begroeft en uw maaltijd er voor liet staan, toen gij overdag de doden in uw huis verborgen hield om ze 's nachts te begraven, toen heb ik uw gebed opgedragen aan de Heer. Maar omdat God welgevallen in u vond, was het nodig, dat gij door het lijden op de proef werd gesteld. Thans echter heeft de Heer mij gezonden om u te genezen en om Sara, de vrouw van uw zoon, te bevrijden van de duivel. Want ik ben de engel Rafaël, een van de zeven, die staan voor de Heer.",
+        "Polski": "W one dni: Rzekł Rafał do Tobiasza: «Dobrze jest ukrywać tajemnicę królewską, rzeczą natomiast zaszczytną jest jest ujawniać dzieła Pańskie i wysławiać. Dobra jest modlitwa połączona z postem, a jałmużna lepsza od zbierania skarbowy złota, bo jałmużna uwalnia od śmierci i ona to oczyszcza z grzechów i sprawia, iż dostępuje się miłosierdzia i życia wiecznego. Ci zaś, co grzeszą i nieprawość czynią, są wrogami swej duszy. Objawiam więc wam prawdę, a nie będę zakrywać przed wami tajemniczej mowy. Gdy modliłeś się ze łzami i grzebałeś umarłych, i zostawiałeś posiłek twój, a ukrywałeś w domu twym w ciągu dnia zmarłych i nocą ich grzebałeś, ja modlitwę twoją ofiarowałem Panu. A że miłym byłeś Bogu, potrzeba było, by próba cię doświadczyła. I teraz Pan posłał mnie, bym cię uzdrowił, a Sarę, żonę syna twego, uwolnił od złego ducha. Ja bowiem jestem Anioł Rafał, jeden z siedmiu, którzy stoimy przed obliczem Pana».",
+        "Portugues": "Naqueles dias, disse o Anjo Rafael a Tobias: «É bom ocultar o segredo de um rei, mas é honroso descobrir e publicar as obras de Deus. A oração, acompanhada com o jejum e com a esmola, vale mais do que os tesouros que se podem juntar; pois a esmola livra da morte, apaga os pecados e faz alcançar a misericórdia e a vida eterna. Aqueles, porém, que cometem o pecado e a iniquidade são inimigos de suas almas. Quero, pois, descobrir-vos a verdade e não vos ocultar uma só cousa secreta: Quando oráveis com lágrimas; sepultáveis os mortos; deixáveis o vosso descanso; guardáveis os mortos em vossa casa de dia e os sepultáveis de noite: então ofereci ao Senhor as vossas orações. E porque éreis agradável a Deus, foi necessário que a tentação vos experimentasse. Mas logo o Senhor me mandou para vos curar e para do demónio livrar Sara, mulher do vosso filho. Pois sou o Anjo Rafael, um dos sete que estão sempre presentes, diante do Senhor»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AN(ffg)ge(f)lus(f.) *() Dó(ghgh)mi(gf)ni(f/ghg.) (,) Rá(h)pha(fg)el(ixg_d//f_eg.higgf.0) (;) ap(h)pre(jj)hén(ji)dit(hgj.klkkj.0) (;) et(h!j'k) li(ji)gá(h!jjgh)vit(fg) (`) daé(ff/hhg/hh)(,)(ixgh!ivGFhh//f!h'j)mo(j)nem.(iyjkijh.) (,) (fg/h!jj/klijh.0ixgiHF.1) (z0::c3) <sp>V/</sp>. Ma(hv.hihhfh./df!hvv//hihhfh./gh/ihi)gnus(hh) (;) Dó(f!h'i)mi(i)nus(ih/jkihhf.) no(hf/hhh)ster,(h.f!gwh!iv.hi/jhh/iih.0) (:) et(hh) ma(f_e)gna(gxegf'gvE'D) vir(fe~)tus(h.) *(,) e(hiH~'F~)jus.(f.//de/f!hh/ijghf.0gxegFD.1) (::)",
+      "availableTranslations": {
+        "English": "The Angel of the Lord, Raphael, took and bound the devil.  Great is our Lord and mighty in power.",
+        "Francais": "L’Ange Raphaël saisit et lia le démon. Notre Seigneur est grand, et sa puissance est grande. Alléluia, alléluia. Sous le regard des Anges, je vous chanterai : j’adorerai dans votre saint temple, et je louerai votre nom. Alléluia.",
+        "Italiano": "Rivestirò di grazia i miei sacerdoti, ed i fedeli esulteranno di gioia. Farò fiorire la potenza di David: appresterò una luce per il mio consacrato.",
+        "Nederlands": "Rafaël, de engel Gods, greep de duivel en boeide hem. Groot is onze Heer en geweldig zijn macht. Alleluia, alleluia.",
+        "Polski": "Anioł Pański Rafał pojmał i związał złego ducha. Wielki jest Pan i wielka moc Jego. Alleluja, alleluja. Wobec Aniołów będę Ci śpiewał; upadnę na twarz w świętym przybytku Twoim i będę sławił Twe imię, Panie. Alleluja.",
+        "Portugues": "Rafael, o Anjo do Senhor, dominou o demónio e amarrou-o. Grande é o Senhor, nosso Deus; grande é o seu poder. Aleluia, aleluia. Cantarei Salmos na presença dos Anjos; adorar-Vos-ei no vosso santo templo e glorificarei o vosso santo nome, ó Senhor. Aleluia."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(cd~)le(d!fde)lú(e_cd){ia}.(d.) <clear>*(,) <i>ij.</i>(ge/fde.//e!g'h/ghGFgvFDeee//dgFD'dc) (,) (ef/gfhvGFgvFE.) (::) <sp>V/</sp>. In(c) con(cd~)spé(d!fde./cd'f/ef!hvGE'fd)ctu(d.) (,) An(d)ge(dh)ló(ixh/!j/!jh/!ig/!gfh./dfED'Cd.)(;)(ixd!f'h/jjh/ig/!gfh./dfED'Cd.)(,)(cfe/ffd/ecf/!f'1fd/ecd)rum(d.) (,) psal(cd~)lam(d/efEC.egFE'Defe) ti(d.)bi :(d.) (:) ad(d)o(dh)rá(hvGFg_h)bo(h.) (,) ad(hg~) tem(h)plum(gf) san(g)ctum(f) tu(ixg!igh.ixfg/igh)um,(h.) (:) et(dh) con(ixhi)fi(h)té(hvGF'ED.)(,)(df!hvGE'Cd.)(,)(cfe/ffd/ecf/!f'1fd/ecd)bor(d.) (;) nó(d)mi(c)ni(fvEDed) tu(cd/fde)o,(dc..) <clear>*(,) Dó(d)mi(d!fde)ne.(e./ge/fde.) (,) (e!g'h/ghGFgvFDeee//dgFD'dc) (,) (ef/gfhvGFgvFE.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. In the presence of the Angels I will sing Your praise; I will worship at Your holy temple and give thanks to Your name, O Lord. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Il Signore ha giurato e non si ricrederà: Tu sei sacerdote per sempre, secondo l'ordine di Melchisedech. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Voor het aanschijn van uw engelen zal ik U loven met snarenspel, mij neerwerpen, naar uw heilige tempel gericht, en prijzen uw Naam, o Heer. Alleluia."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(fd~)le(ef'g)lú(hgh){ia}.(ixhiHG'gf.0) <clear>*(,) <i>ij.</i>(ixhiHG'ge./ghGF'Ef_gffe.) (::) <sp>V/</sp>. Bé(h)ne(h)dic(ixg'ivHG'hffe.) (,) á(fd/ef!ghhg)ni(fg)ma(gh) me(hggf/ghg)a(g_d) Dó(e!gfg)mi(fe)num,(e.) (:) et(f) ó(gh)mni(gf)a(g) in(g)te(gh)ri(f)ó(df)ra(f) me(fv.fffdgvFE.)(,)(df/h_f/g_efv.df!gvFE'f)a(fe..) (;) no(fd)men(f) san(ef'g)ctum(gdgvFE) ()*() e(fd/ef!g'h)jus.(ixhiHG'gf.0) (,) (ixhiHG'ge./ghGF'Ef_gffe.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. In the presence of the Angels I will sing Your praise; I will worship at Your holy temple and give thanks to Your name, O Lord. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Il Signore ha giurato e non si ricrederà: Tu sei sacerdote per sempre, secondo l'ordine di Melchisedech. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Voor het aanschijn van uw engelen zal ik U loven met snarenspel, mij neerwerpen, naar uw heilige tempel gericht, en prijzen uw Naam, o Heer. Alleluia."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(hj~)le(jjvIHjjjvIH'ig)lú(hjihigefeed~){ia}.(d.) *(;) (hjihigefeed.0) (,) (hhvGFggvFEfdefggv//fhG'FgvFE.) (::) <sp>V/</sp>. Mis(ef)sus(ed) est(dg) An(gh)ge(gf)lus(f) Dó(g)mi(gf)ni(h.) (,) san(j)ctus(i/jkj) Rá(jvIH)pha(ij)el(hvGF'ghhe.) (;) a(fvED) De(ef!gh)o(g) ad(h) To(hi)bí(hg)am,(g.) (:) et(h) sa(g)lu(hj)tá(jjk//jlk)vit(jvIH'G) e(ij)um,(hvGF'ghhg.) (;) et(gh~) di(hjihig//hvGFgvFD)xit :(e.) (:) Gáu(fvEDef!gh)di(g)um(g.) sit(hji/kj) ti(jvIH'Ghf/ghhg)bi(g.) *(,) sem(hjihigefeed~)per.(d.) (;) (hjihigefeed.0) (,) (hhvGFggvFEfdefggv//fhG'FgvFE.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. In the presence of the Angels I will sing Your praise; I will worship at Your holy temple and give thanks to Your name, O Lord. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Il Signore ha giurato e non si ricrederà: Tu sei sacerdote per sempre, secondo l'ordine di Melchisedech. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Voor het aanschijn van uw engelen zal ik U loven met snarenspel, mij neerwerpen, naar uw heilige tempel gericht, en prijzen uw Naam, o Heer. Alleluia."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AN(ffg)ge(f)lus(f.) *() Dó(ghgh)mi(gf)ni(f/ghg.) (,) Rá(h)pha(fg)el(ixg_d//f_eg.higgf.0) (;) ap(h)pre(jj)hén(ji)dit(hgj.klkkj.0) (;) et(h!j'k) li(ji)gá(h!jjgh)vit(fg) (`) daé(ff/hhg/hh)(,)(ixgh!ivGFhh//f!h'j)mo(j)nem.(iyjkijh.) (,) (fg/h!jj/klijh.0ixgiHF.1) (z0::c3) <sp>V/</sp>. Ma(hv.hihhfh./df!hvv//hihhfh./gh/ihi)gnus(hh) (;) Dó(f!h'i)mi(i)nus(ih/jkihhf.) no(hf/hhh)ster,(h.f!gwh!iv.hi/jhh/iih.0) (:) et(hh) ma(f_e)gna(gxegf'gvE'D) vir(fe~)tus(h.) *(,) e(hiH~'F~)jus.(f.//de/f!hh/ijghf.0gxegFD.1) (::)",
+      "availableTranslations": {
+        "English": "The Angel of the Lord, Raphael, took and bound the devil.  Great is our Lord and mighty in power.",
+        "Francais": "L’Ange Raphaël saisit et lia le démon. Notre Seigneur est grand, et sa puissance est grande. Alléluia, alléluia. Sous le regard des Anges, je vous chanterai : j’adorerai dans votre saint temple, et je louerai votre nom. Alléluia.",
+        "Italiano": "Rivestirò di grazia i miei sacerdoti, ed i fedeli esulteranno di gioia. Farò fiorire la potenza di David: appresterò una luce per il mio consacrato.",
+        "Nederlands": "Rafaël, de engel Gods, greep de duivel en boeide hem. Groot is onze Heer en geweldig zijn macht. Alleluia, alleluia.",
+        "Polski": "Anioł Pański Rafał pojmał i związał złego ducha. Wielki jest Pan i wielka moc Jego. Alleluja, alleluja. Wobec Aniołów będę Ci śpiewał; upadnę na twarz w świętym przybytku Twoim i będę sławił Twe imię, Panie. Alleluja.",
+        "Portugues": "Rafael, o Anjo do Senhor, dominou o demónio e amarrou-o. Grande é o Senhor, nosso Deus; grande é o seu poder. Aleluia, aleluia. Cantarei Salmos na presença dos Anjos; adorar-Vos-ei no vosso santo templo e glorificarei o vosso santo nome, ó Senhor. Aleluia."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) LAu(g)dá(g/hih)te(g/hhg.) <clear>*(,) Dó(gjjk)mi(h)num(gf/ghhg.) (;) o(gj)mnes(j) An(j)ge(j)li(j) e(ik/ljjh)jus :(jhhg/hg/jjh/jggf.0) (:) lau(f)dá(hj)te(igh) e(gf/gh)um(g.) (,) o(gh)mnes(g) Vir(g)tú(g)tes(gh/jij) e(j.h!iwj)jus.(jjjvIHivHGhg..) (::) \r\n<sp>V/</sp>. Be(g)ne(g)dí(g!hwi'!jv)ci(j)te(j) Dó(ij)mi(j)num(j.) (,) o(j)mnes(j) Vir(j)tú(jji)tes(g) e(h_g/h!iw!jvIHijh)jus :(hg..) (:) mi(g)ní(gj)stri(j) e(ik/ljjh)jus,(jhhg/hg/jjh/jggf.0) (;) qui(g) fá(gh)ci(g)tis(g) vo(g)lun(g)tá(hg/jjghvG'F)tem(f!h'j) *() e(j)jus.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
+      "availableTranslations": {
+        "English": "Praise the Lord, all you His Angels, praise Him, all you His hosts.   Bless the Lord, all you His hosts, His ministers, who do His will.",
+        "Francais": "Louez le Seigneur, tous, vous ses Anges : louez-le, toutes ses puissances. Bénissez le Seigneur, vous toutes, ses armées ; vous, ses serviteurs, qui faites sa volonté.",
+        "Nederlands": "Laudáte Dóminum, omnes Angeli ejus: laudáte eum, omnes virtútes ejus. Benedícite Dóminum, omnes virtútes ejus: minístri ejus, qui fácitis voluntátem ejus.",
+        "Polski": "Chwalcie Pana, wszyscy Aniołowie Jego; chwalcie Go, wszystkie zastępy Jego. Błogosławcie Pana, wszystkie zastępy Jego, słudzy Jego, którzy pełnicie wolę Jego."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Erat dies festus Judæórum, et ascéndit Jesus Jerosólymam. Est autem Jerosólymis Probática piscína, quæ cognominátur hebráice Bethsaida, quinque pórticus habens. In his jacébat multitúdo magna languéntium, cæcórum, claudórum, aridórum exspectántium aquæ motum. Angelus autem Dómini descendébat secúndum tempus in piscínam, et movebátur aqua. Et, qui prior descendísset in piscínam post motiónem aquæ, sanus fiebat, a quacúmque detinebátur infirmitáte.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, there was a feast of the Jews, and Jesus went up to Jerusalem. Now there is at Jerusalem, by the Sheepgate, a pool called in Hebrew Bethsaida, having five porticoes. In these were lying a great multitude of the sick, blind, lame, and those with shriveled limbs, waiting for the moving of the water. For an Angel of the Lord used to come down at certain times into the pool, and the water was troubled. And the first to go down into the pool after the troubling of the water was cured of whatever infirmity he had.",
+        "Francais": "En ce temps-là, il y eut une fête des Juifs, et Jésus monta à Jérusalem. Or, à Jérusalem, près de la porte des Brebis, il y a une piscine qui s’appelle en hébreu Béthesda, et qui a cinq portiques. Sous ces portiques étaient couchés un grand nombre de malades, d’aveugles, de boiteux et de paralytiques. Ils attendaient le bouillonnement de l’eau. Car un ange du Seigneur descendait à certains temps dans la piscine, et agitait l’eau. Et celui qui y descendait le premier après l’agitation de l’eau, était guéri de son infirmité quelle qu’elle fut.",
+        "Italiano": "In quel tempo Gesù disse ai suoi discepoli: «Vegliate adunque perché non sapete a che ora verrà il vostro Signore. Abbiate però presente questo: che se il capo di famiglia sapesse a che ora il ladro ha da venire, veglierebbe certamente e non lascerebbe spogliare la sua casa. Quindi anche voi state preparati, perché nell'ora che non pensate il Figlio dell'uomo verrà. Chi è dunque quel servo fedele e prudente, preposto dal padrone ai suoi domestici per dar loro il cibo a suo tempo? Beato quel servo che il suo padrone quando viene, troverà a fare cosi. In verità vi dico che lo metterà a capo di tutte le sue sostanze».",
+        "Magyar": "Nem sokkal ezután ünnepük volt a zsidóknak, s Jézus fölment Jeruzsálembe.  Jeruzsálemben a Juh-kapunál van egy fürdő, amelynek héberül Beteszda volt a neve. Öt oszlopcsarnoka volt,  nagyon sok beteg feküdt bennük: vakok, sánták, bénák ",
+        "Nederlands": "In die tijd was er een feest bij de Joden, en Jezus ging op naar Jeruzalem. Nu is er te Jeruzalem het Schaapsbad, in het hebreeuws Bethsaïda geheten, met vijf zuilengangen. Daar lag een grote menigte zieken: blinden, kreupelen en lammen, die er wachtten op de beweging van het water. Want een engel des Heren daalde bij tijden in het bad neer, en dan kwam het water in beweging. En degene, die na de beweging van het water het eerst in het bad kwam, werd genezen, welke kwaal hij ook had.",
+        "Polski": "Onego czasu. Było święto żydowskie i przyszedł Jezus do Jerozolimy. A jest w Jerozolimie sadzawka owcza, po hebrajsku zwana Betsajda, mająca pięć krużganków. W nich to leżało wielkie mnóstwo chorych, ślepych, chromych, paralityków, czekających poruszenia wody. A Anioł Pański zstępował od czasu do czasu do sadzawki i poruszała się woda. I kto pierwszy wszedł do sadzawki po poruszeniu wody, stawał się zdrowym, jakąkolwiek byłby zdjęty niemocą.",
+        "Portugues": "Naquele tempo, sendo o dia da festa dos judeus, Jesus subiu até Jerusalém. Ora há perto de Jerusalém uma piscina que se chama em hebreu Betsaida, e tem cinco alpendres, debaixo dos quais costumava estar deitada grande multidão de enfermos: cegos, coxos e paralíticos, à espera de que a água se movesse; pois um Anjo do Senhor descia de tempos a tempos à piscina, revolvia a água e o primeiro que descia à piscina, depois do movimento da água, ficava curado de qualquer enfermidade."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) STe(fffvDC'dff/hgh)tit(fgf.) <clear>*(,) An(fg'h)ge(h)lus(ixhf/higff/ded.) (;) jux(d)ta(d!gfg) a(dgfefd/ed)ram(dV!cd~) tem(dv.cd'f/ef!hvGE'fd)pli,(d.) (:) ha(ixdf'!hv//j_hivGEf_g)bens(f.) (,) thu(de)rí(gh)bu(hggvE'DC'd)lum(d.) (,) áu(cd'f/ef'!gvE'Dfv.efd/ed)re(cd)um(dfddc.) (,) in(da~) ma(cd)nu(d) su(dfd___)a :(d.) (:) et(cd~) da(d)ta(fde) sunt(dec) e(cd'f/efd)i(d.) (,) in(da~)cén(cd~)sa(d) mul(dfd___)ta :(d.) (:) et(c) a(d)scén(ixdh./jjh//gih/ig.fg'hjjg)(,)(f!h_gh//fh!jvGF'fdf.//eg/hjh/jhhV!gh~)dit(f.) (;) fu(ef'!gvE'Dfv.efd)mus(dfddc.) a(cd'f/ef'g)ró(ed/fe)ma(d_e_d_)tum(d.) (,) in(da~) con(cd~)spé(d)ctu(d) De(d_e_d_)i,(d.) (:) al(cd)le(f_g_f_hv.ghFD.1//cd/fefg_e)(,)(h_gefd//fvEDed)lú(cd~){ia}.(d.) (::)",
+      "availableTranslations": {
+        "English": "An Angel stood near the altar of the temple, having a golden censer in his hand, and there was given to him much incense; and the smoke of the perfumes ascended before God. Alleluia.",
+        "Francais": "L’Ange se plaça devant l’autel du temple, ayant un encensoir d’or dans sa main ; et il lui fut donné beaucoup de parfums : et la fumée des parfums monta devant Dieu.",
+        "Italiano": "Con lui staranno la mia fedeltà e il mio amore, e s'innalzerà nel mio Nome la sua forza.",
+        "Nederlands": "Stetit Angelus juxta aram templi, habens thuríbulum áureum in manu sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in conspéctu Dei. (Allelúja.)",
+        "Polski": "Anioł stanął przy ołtarzu świątyni, mając w ręku złotą kadzielnicę; i dano mu wiele kadzideł, i wzniósł się wonny dym przed Bogiem.",
+        "Portugues": "Junto ao altar, no templo, estava de pé um Anjo, tendo na mão um turíbulo de ouro: e deitaram-lhe muito incenso, subindo o fumo dos perfumes à presença de Deus."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes: ut eásdem, angélico pro nobis interveniénte suffrágio, et placátus accípias, et ad salútem nostram proveníre concédas.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "We offer You sacrifices of praise, O Lord, humbly praying You to accept them graciously, and to grant that they may be helpful for our salvation through the intercession of the Angels who intercede for us.  ",
+        "Francais": "Nous vous offrons, Seigneur, des hosties de louange, en vous suppliant humblement : par l’intercession du suffrage des Anges, recevez-les avec bienveillance et accordez qu’elles servent à notre salut.",
+        "Italiano": "Ti preghiamo, o Signore, perché l'annuale solennità del beato Antonio Maria tuo Confessore tuo e Pontefice, ci renda a te graditi; affinché per questo pio rito di propiziazione la stessa festività sia di gloria al santo e a noi concili la tua grazia.",
+        "Nederlands": "Wij dragen U, Heer, het offer van lof op en vragen nederig het in genade te aanvaarden om wille van de bemiddelende voorspraak van uw engelen en het ons tot heil te doen strekken.",
+        "Polski": "Składamy Ci, Panie, ofiarę uwielbienia i pokornie prosimy, abyś za wstawiennictwem anielskim łaskawie ją przyjął i obrócił ku naszemu zbawieniu.",
+        "Portugues": "Senhor, Vos oferecemos estas hóstias de louvor, suplicando-Vos humildemente que, por intercessão do santo Anjo, as aceiteis propício e nos concedais que sejam úteis à nossa salvação."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(eef)ne(de)dí(gh)ci(g_f)te(fff/d_e_d._) (,) *() o(g)mnes(g) An(iij)ge(h)li(g) Dó(h)mi(g)ni(f) <nlba>Dó(hih)mi(ghg___)num :</nlba>(g.) (:) hy(g)mnum(g) dí(i_j)ci(h)te,(g.h!iwjiih.0) (;) et(h) su(iji)per(g)ex(h)al(g)tá(fg'h)te(g) e(efED'e)um(ed..) (,) in(fv.fffdeg_h) sǽ(gv.fg/hhg)cu(egff)la.(fe..) (::) <i>T. P.</i> Al(ff)le(d!ewf!gvFE)lú(egff){ia}.(fe..) (::)",
+      "availableTranslations": {
+        "English": "All you Angels of the Lord, bless the Lord: sing a hymn, and exalt Him above all forever.",
+        "Francais": "Tous les anges du Seigneur, bénissez le Seigneur ; dites-lui des hymnes et exaltez-le dans tous les siècles.",
+        "Italiano": "Beato è quel servo se il padrone, quando ritorna, lo troverà al lavoro.",
+        "Nederlands": "Benedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et superexaltáte eum in sǽcula. (Allelúja.)",
+        "Polski": "Błogosławcie Pana, wszyscy Aniołowie Pańscy, wysławiajcie Go hymnem i wywyższajcie na wieki.",
+        "Portugues": "Anjos do Senhor, bendizei todos o Senhor: cantai hinos em seu louvor e exaltai-O em todos os séculos."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Dirigere dignáre, Dómine Deus, in adjutórium nostrum sanctum Raphaélem Archángelum: et, quem tuæ majestáti semper assístere crédimus, tibi nostras exíguas preces benedicéndas assígnet.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O Lord, graciously send Your holy Archangel Raphael to help us, that he who we know stands ever in the presence of Your Majesty, may present our humble prayers for Your blessing.  ",
+        "Francais": "Daignez, Seigneur Dieu, envoyer à notre aide le saint Archange Raphaël, et que celui que nous croyons demeurer toujours en présence de votre majesté vous offre à benir nos humbles prières.",
+        "Italiano": "Fa', o Signore, remuneratore delle anime fedeli, che conseguiamo il perdono per le preghiere del beato Antonio Maria tuo Confessore tuo e Pontefice, di cui celebriamo la gloriosa festa",
+        "Nederlands": "Heer God, gewaardig U ons de heilige aartsengel Rafaël te hulp te sturen, en moge hij, van wie wij geloven, dat hij altijd voor uw Majesteit staat, onze geringe gebeden U ter zegening aanbieden.",
+        "Polski": "Panie Boże, racz zesłać nam na pomoc świętego Rafała Archanioła; wierzymy, że przebywa on zawsze W obecności Twojego majestatu, niechaj przedstawia Tobie nasze skromne prośby, abyś nam błogosławił.",
+        "Portugues": "Ó Senhor, nosso Deus, dignai-Vos mandar para nosso guarda o santo Arcanjo Rafael; e que as nossas humildes preces Vos sejam apresentadas para serem abençoadas por aquele que sabemos estar sempre na presença de vossa majestade."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

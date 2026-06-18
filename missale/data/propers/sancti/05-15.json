@@ -1,0 +1,609 @@
+{
+  "rule": [
+    "Gloria"
+  ],
+  "feast": "S. Joannis Baptistæ de la Salle Confessoris",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) OS(ff) ju(fgff)sti(c.) (,) *() me(c)di(dcd)tá(fd/fffg)bi(f)tur(ffe) sa(g)pi(hghf)én(f)ti(f_g_f_)am,(f.) (:) et(f) lin(gh~)gua(h) e(ixhiH~'G~)jus(h_g) (,) lo(fg)qué(f)tur(fe) ju(df)dí(fe/f_g)ci(d!ew!fvE'DC'd)um :(cd/ed..) (:) lex(c) De(df)i(f) e(e/gh~)jus(h.) (,) in(g) cor(f)de(ghghg) i(f)psí(f_g_f_)us.(f.) (::) <i>T. P.</i> Al(d)le(f_e)lú(fgf){ia},(fffddc.) (,) al(d)le(ff)lú(fhG~'F~){ia}.(f.) (::) <i>Ps.</i> No(fg)li(gf) ae(gh)mu(h)lá(h)ri(h) in(g) ma(ixi)li(h)gnán(g)ti(f)bus :(f.) *(:) ne(f)que(gh) ze(h)lá(hj)ve(g)ris(f.) fa(f)ci(f)én(f)tes(f') in(g)i(fd)qui(f')tá(g)tem.(f.) (::) Gló(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f.) (::)",
+      "availableTranslations": {
+        "Francais": "La bouche du juste méditera la sagesse et sa langue proférera l’équité ; la loi de son Dieu est dans son cœur, alléluia, alléluia. Ne porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.&Gloria",
+        "Italiano": "L a bocca del giusto esprime sapienza e la sua lingua parla giudizio.: Ha nel cuore la legge del suo Dio, allel?ia, allel?ia. Non invidiare i malvagi e non essere geloso degli operatori di iniquit?.",
+        "Nederlands": "Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.) Noli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.",
+        "Polski": "Usta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu. Nie unoś się z powodu złoczyńców, ani nie zazdrość czyniącym nieprawość.",
+        "Portugues": "Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.) Noli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem."
+      },
+      "mode": "6",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui, ad christiánam páuperum eruditiónem et ad juvéntam in via veritátis firmándam, sanctum Joánnem Baptístam Confessórem excitásti, et novam per eum in Ecclésia famíliam collegísti: concéde propítius; ut ejus intercessióne et exémplo, stúdio glóriæ tuæ in animárum salúte fervéntes, ejus in cœlis corónæ partícipes fíeri valeámus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Who raised up the holy Confessor John Baptist for the Christian education of the poor and to strengthen youth in the way of truth, and through him formed a new family in the Church, graciously grant by his intercession and example that we, striving to save souls out of zeal for Your glory, may be found worthy to share his heavenly crown.",
+        "Espanol": "¡Oh Dios!, que par formar cristianamente a los pobres, y afianzar a la juventud en el camino de la verdad, has suscitado al santo confesor Juan Bautista, estableciendo por él en la Iglesia una nueva familia religiosa; concédenos propicio que, por su intercesión y ejemplo, ardiendo en el celo de tu gloria para la salvación de las almas, podamos en el cielo participar de su corona.",
+        "Francais": "Ô Dieu, qui pour l’instruction chrétienne des pauvres et pour la confirmation de la jeunesse dans la voie de la vérité, avez suscité votre confesseur Jean-Baptiste, et avez par lui rassemblé dans l’Église une nouvelle famille ; accordez-nous dans votre bonté, qu’à son exemple et par son intercession, brûlants de zèle pour procurer votre gloire au moyen du salut des âmes, nous puissions dans les cieux partager sa récompense.",
+        "Italiano": "O Dio, che per la cristiana educazione dei poveri e per rafforzare i giovani nella via della verit? hai suscitato il beato Giovanni e per mezzo di lui hai raccolto nella Chiesa una nuova famiglia religiosa; concedici benigno che per l'esempio e l'intercessione di lui, pieni dello zelo della tua gloria per la salvezza delle anime, possiamo diventare partecipi della sua gloria in cielo.",
+        "Nederlands": "God, Gij hebt de heilige belijder Joannes Baptista verwekt om de armen de christelijke leer te onderwijzen en de jeugd op de weg van de waarheid te bevestigen, en tevens door hem een nieuwe kloosterfamilie in de Kerk gesticht. Doe ons in uw goedheid en naar zijn voorbeeld branden van ijver voor uw eer bij de redding van de zielen, en in de hemel zijn kroon delen.",
+        "Polski": "Boże, Tyś powołał świętego Wyznawcę Jana Chrzciciela do chrześcijańskiego wychowania ubogich i umacniania młodzieży na drodze prawdy i utworzyłeś przezeń nową rodzinę zakonną w Kościele; spraw łaskawie, abyśmy za jego wstawiennictwem i przykładem, płonąc gorliwością o Twoją chwałę w dziele zbawienia dusz, mogli się stać uczestnikami jego nagrody niebieskiej.",
+        "Portugues": "Ó Deus, que para o ensino dos pobres e para a firmeza dos jovens no caminho da verdade fizestes aparecer o Santo Confessor João Baptista, pelo qual fundastes uma nova família na Igreja, concedei-nos propício que, pela sua intercessão e seguindo o seu exemplo, sejamos devorados pelo zelo da glória de Deus para a salvação das almas, a fim de que possamos tornar-nos seus companheiros de glória no céu."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Beátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Francais": "Heureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, et qui n’a pas mis son espérance dans l’argent et dans les trésors. Qui est-il ? Et nous le louerons, car il a fait des choses merveilleuses durant sa vie. Il a été éprouvé par l’or et trouvé parfait, il aura une gloire éternelle ; il a pu violer la loi, et il ne l’a point violée ; il a pu faire le mal, et il ne l’a pas fait. C’est pourquoi ses biens ont été affermis dans le Seigneur, et toute l’assemblée des saints publiera ses aumônes.",
+        "Italiano": "Beato l'uomo che ? trovato senza macchia, che non ? andato dietro all'oro, e non ha sperato nel danaro e nei tesori. Chi ? costui e gli daremo lode? Poich? certo ha fatto meraviglie nella sua vita. Costui, che fu provato con l'oro e rimase incorrotto, sicch? ridonda a sua gloria? Costui, che poteva peccare e non pecc?, fare del male e non lo fece? Per questo i suoi beni sono resi stabili nel Signore, e le sue lodi celebrate in pubblica riunione.",
+        "Magyar": "Boldog a gazdag, ki hiba nélkül találtatott, és ki az arany után nem járt, és nem bízott a pénzben és kincsekben.  Kicsoda ez, és dicsérni fogjuk öt mert csodadolgokat cselekedett életében.  Ki megpróbáltatott abban, és tökéletes maradt, örök dicsösége leszen; ki vétkezhetett, és nem vétkezett; gonoszat cselekedhetett, és nem cselekedett;  azért biztosítvák javai az Úrban, és alamizsnáit beszéli a szentek egész gyülekezete.",
+        "Nederlands": "Beátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+        "Polski": "Błogosławiony mąż, który okazał się bez zmazy i który nie ubiegał się za złotem, i nadziei nie pokładał w pieniądzach i skarbach. Któż to jest? – a chwalić go będziemy. Bo w życiu swym dziwów dokonał. Kto w tej sprawie jest doświadczony i doskonały, będzie miał wieczną chwałę: który mógł przestąpić, a nie przestąpił, źle czynić, a nie uczynił; przeto pewne są skarby jego u Pana, a jałmużny jego wysławiać będzie zgromadzenie świętych.",
+        "Portugues": "Beátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale & Alleluia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(df)le(e/ghfgvFE'D)lú(gh){ia}.(gh..) *(;) <i>ij.</i>(gihgiHG'gd//efED'/!dc/e/ggh.) (,) (gihgiHG'gd//efED'/!dc/de/feed.0) (::) <sp>V/</sp>. Be(c!e'g)á(ghGE'fvED.cd/fde)tus(efvfe) vir,(e.) (;) qui(e_c) suf(eg/fhggvFE)fert(e.) (,) ten(g.h!iwjjvIH)ta(g!igh)ti(ghe)ó(fv.efd)nem :(ed..) (:) quó(e_g!hi)ni(h)am(h) cum(h) pro(h)bá(h)tus(hg) fú(hj)e(ghggvFE'f)rit,(fe..) (;) ac(ec)cí(eg)pi(fhggvFE)et(e.) (,) co(cd'e)ró(e_0fvE'Cd_e)nam(e.) *() vi(e/ghfgvFE'Dgh)tae.(gh..) (;) (gihgiHG'gd//efED'/!dcevggh.) (,) (gihgiHG'gd//efED'/!dc/de/feed.0) (::)",
+      "availableTranslations": {
+        "English": "Alleluia, alleluia. Blessed is the man who endures temptation; for when he has been tried, he will receive the crown of life. Alleluia. ",
+        "Espanol": "Aleluya, aleluya. Dichoso el varón que soporta la prueba. Una vez probado, recibirá la corona de vida. Aleluya. El Señor lo ha amado y lo ha ataviado de honor; lo ha vestido con vestidura de gloria. Aleluya.",
+        "Francais": "Alléluia, alléluia Heureux l’homme qui souffre patiemment l’épreuve, car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia. Le Seigneur l’a aimé et l’a orné. Il l’a revêtu d’une robe de gloire. Alléluia.",
+        "Italiano": "Allel?ia, allel?ia Beato l'uomo che supera la prova; perch? dopo essere stato provato, avr? la corona di vita. Alleluia.",
+        "Nederlands": "Alleluia, alleluia. Gelukkig de man, die de beproeving doorstaat, want als hij de proef heeft doorstaan, zal hij de kroon des levens ontvangen. Alleluia. ",
+        "Polski": "Alleluja, alleluja. Błogosławiony człowiek, który zniesie pokusę, bo utwierdziwszy się otrzyma wieniec żywota. Alleluja. Umiłował go Pan i przyozdobił, przyodział go szatą chwały. Alleluja.",
+        "Portugues": "Aleluia, aleluia Bem-aventurado o varão que sabe sofrer a tentação, porque, quando acabar a tentação, receberá a coroa da vida. Aleluia. O Senhor amou-o, ornou-o e revestiu-o com a túnica da glória. Aleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(c)le(d!fde./fge/fddc)lú(de~){ia}.(e.) *(;) <i>ij.</i>(cd/fde./fge/fd/!dc/ege.) (,) (cd/fde./fge/fd/!dc/ege.) (,) (ghGF'Dee) (,) (fgF'Ededdc//fff/ghGFgvFE.) (::) <sp>V/</sp>. A(c)má(dfd/ef)vit(f.) e(ffe)um(ed~) Dó(deD'C)mi(de)nus,(e.) (;) et(c) or(eg~)ná(ggf/gefvED)vit(ce) e(effe)um :(e.) (:) sto(c)lam(e) gló(ixgh!ivHG//fhGE.)(,)(ixce/ghivHG//fhGE.)(,)(gvFED'evD'C)ri(de)ae(e.) (;) ín(c)du(dfd/ef)it(e.) *() e(cd/fde./fge/fd/!dc/ege.)(,)(cd/fde./fge/fd/!dc/ege.)(,)(ghGF'Dee)(,)(fgF'Ededdc//fff/ghGFgvFE)um.(e.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. The Lord loved him and adorned him; He clothed him with a robe of glory. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Il Signore lo ha amato e lo ha colmato d'onore: lo ha rivestito di una veste di gloria. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. De Heer had hem lief en tooide hem. Met een eregewaad heeft Hij hem bekleed. Alleluia."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrábitis in regnum cœlórum. Quicumque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time the disciples came to Jesus, saying, Who then is the greatest in the kingdom of heaven? And Jesus called a little child to him, set him their midst, and said, Amen I say to you, unless you turn and become like little children, you will not enter into the kingdom of heaven. Whoever, therefore, humbles himself as this little child, he is the greatest in the kingdom of heaven. And whoever receives one such little child for My sake, receives Me.",
+        "Espanol": "En aquel tiempo, acercáronse los discipulos a Jesús y le dijeron: ¿Quién, pues, es el mayor en el reino de los cielos? Y llamando a sí a un niño, lo puso en medio de ellos, y dijo: En verdad os digo que, si no cambiáis y os hacéis semejantes a los niños, no entraréis en el reino de los cielos. Cualquiera, pues, que se haga pequeño como este niño, ése es el mayor en el reino de los cielos. Y el que reciba a uno de esos niños en mi nombre, a mi me recibe.",
+        "Francais": "En ce temps-là, les disciples vinrent un jour poser à Jésus cette question : « Selon vous, qui est le plus grand dans le royaume des cieux ? » Alors Jésus appela un petit enfant et le fit venir au milieu du groupe : « En vérité, je vous l’affirme si vous ne vous transformez pas pour devenir semblables aux petits enfants, vous n’entrerez pas dans le royaume des cieux. Celui qui se fait petit comme cet enfant, c’est le plus grand dans le royaume des cieux. Et lorsqu’on reçoit en mon nom un enfant comme celui-ci, c’est moi-même que l’on reçoit. »",
+        "Italiano": "In quel tempo, i discepoli si avvicinarono a Ges? e gli chiesero: «Chi ? dunque il pi? grande nel regno dei cieli?». E Ges?, chiamato a s? un fanciullo, lo pose in mezzo a loro e disse: «In verit? vi dico: se non vi convertirete e non diventerete come fanciulli, non entrerete nel regno dei cieli. Chi dunque si far? piccolo come questo fanciullo, costui ? il pi? grande nel regno dei cieli. E chi accoglie nel mio nome un fanciullo come questo, accoglie me»",
+        "Magyar": "Abban az időben történt, hogy odamentek Jézushoz a tanítványok és megkérdezték tőle: „Ki a legnagyobb a mennyek országában?”  Odahívott egy gyereket, közéjük állította,  s azt mondta: „Bizony mondom nektek, ha nem változtok meg, s nem lesztek olyanok, mint a gyerekek, nem mentek be a mennyek országába.  Aki tehát megalázza magát, mint ez a gyerek, az a legnagyobb a mennyek országában.  Aki befogad egy ilyen gyereket a nevemben, engem fogad be.",
+        "Nederlands": "In illo témpore: Accessérunt discípuli ad Jesum dicéntes: Quis, putas, major est in regno cælórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum, et dixit: Amen dico vobis, nisi convérsi fueritis, et efficiámini sicut párvuli, non intrábitis in regnum cœlórum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit.",
+        "Polski": "In illo témpore: Accessérunt discípuli ad Jesum dicéntes: Quis, putas, major est in regno cælórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum, et dixit: Amen dico vobis, nisi convérsi fueritis, et efficiámini sicut párvuli, non intrábitis in regnum cœlórum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit.",
+        "Portugues": "In illo témpore: Accessérunt discípuli ad Jesum dicéntes: Quis, putas, major est in regno cælórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum, et dixit: Amen dico vobis, nisi convérsi fueritis, et efficiámini sicut párvuli, non intrábitis in regnum cœlórum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_i_h_){ia}.(h.) (::)",
+      "availableTranslations": {
+        "Francais": "Ma vérité et ma miséricorde seront avec lui et par mon nom s’élèvera sa puissance, alléluia.",
+        "Italiano": "Con lui staranno la mia fedelt? e il mio amore, e s'innalzer? nel mio Nome la sua forza. Alleluia.",
+        "Nederlands": "Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+        "Polski": "Z nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "Portugues": "Véritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)"
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c2) BE(exdde)á(cf)tus(f) ser(g_f/g!hwihi)vus,(ih..) *(,) quem,(hj) cum(h) vé(jkj)ne(i)rit(hvGF) Dó(h_i)mi(h)nus,(h.) (,) in(fh~)vé(h)ne(ghg)rit(ef) vi(g)gi(fe)lán(df)tem :(c.) (:) a(cd)men(f) di(fe)co(d) vo(fvEC)bis,(c.) (,) su(f)per(g) ó(i)mni(h)a(g) bo(g)na(f) su(g)a(f_g) (,) con(gf~)stí(g!hwi)tu(f)et(exfgF'Efgf) e(exdfee)um.(ed..) (::) <i>T. P.</i> Al(exe)le(c./fgF'Efgf)lú(dfee){ia}.(ed..) (::)",
+      "availableTranslations": {
+        "Francais": "Heureux le serviteur que le maître, à son arrivée, trouvera veillant ; en vérité, je vous le dis, il l’établira sur tous ses biens, alléluia.",
+        "Italiano": "Beato ? quel servo se il padrone, quando ritorna, lo trover? al lavoro: in verit?, vi dico, lo preporr? a tutti i suoi beni. Alleluia.",
+        "Nederlands": "Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)",
+        "Polski": "Błogosławiony sługa, którego Pan przyszedłszy znajdzie czuwającego. Zaprawdę, powiadam wam, że postawi go nad wszystkimi dobrami swymi.",
+        "Portugues": "Beátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)"
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

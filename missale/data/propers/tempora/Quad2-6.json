@@ -1,0 +1,797 @@
+{
+  "rule": [],
+  "feast": "Sabbato infra Hebdomadam II in Quadragesima",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) LEX(h_g) Dó(ixgiHG')mi(hggfg)ni(gf..) *(,) ir(g)re(g)pre(f)hen(h)sí(jjk)bi(j)lis,(j.) (,) con(j)vér(jk~)tens(j) á(j)ni(kvJH)mas :(jj) (:) te(h)sti(hfg)mó(hgjvIH)ni(h)um(h) De(h)i(h!iwj) fi(h')dé(ixfh'!ivHF'g)le,(f.) (;) sa(f)pi(hg)én(h)ti(gf)am(f) prae(fh)stans(h) pár(ghGE')vu(feede)lis.(ed..) (::) <i>Ps.</i> Cae(f)li(gh) e(h)nár(h)rant(h) gló(hj)ri(h)am(h) De(hg)i :(gh..) *(:) et(gf) ó(gh)pe(h)ra(h) má(h)nu(h)um(h) e(h)jus(h.) (,) an(h)nún(h)ti(h)at(hjh) fir(g')ma(f)mén(fg)tum.(h.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fg) e.</eu>(h.) (::)",
+      "availableTranslations": {
+        "English": "The law of the Lord is perfect, refreshing the soul; the decree of the Lord is trustworthy, giving wisdom to the simple. The heavens declare the glory of God, and the firmament proclaims His handiwork.",
+        "Espanol": "La ley del Señor es pura, restaura las almas; el testimonio del Señor es fiel, da ciencia a los humildes. Los cielos publican la gloria de Dios, el firmamento anuncia la grandeza de las obras de sus manos.",
+        "Francais": "La loi du Seigneur est parfaite, elle restaure les âmes ; le témoignage du Seigneur est fidèle, il donne la sagesse aux petits. Les cieux racontent la gloire de Dieu, et le firmament publie les œuvres de ses mains.",
+        "Italiano": "La legge del Signore è perfetta, essa converte le anime; la testimonianza del Signore è fedele: essa dà sapienza ai pargoli. I cieli narrano la gloria di Dio; e il firmamento narra l'opera delle sue mani.",
+        "Nederlands": "De Wet des Heren is onbevlekt, zij keert de zielen af van het kwaad. Het getuigenis des Heren is betrouwbaar, het schenkt wijsheid aan de eenvoudigen. De hemelen verhalen de glorie van God en het uitspansel roemt het werk zijner handen.",
+        "Polski": "Prawo Pańskie doskonałe i krzepiące ducha; przykazanie Pańskie niezmienne, poucza prostaczków. Niebiosa głoszą chwałę Boga, dzieła rąk Jego obwieszcza nieboskłon.",
+        "Portugues": "A lei do Senhor é perfeita e converte as almas; o testemunho do Senhor é digno de fé e ensina os ignorantes. Os céus publicam a glória do Senhor e o firmamento anuncia as obras das suas mãos."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Da, quǽsumus, Dómine, nostris efféctum jejúniis salutárem: ut castigátio carnis assúmpta, ad nostrárum vegetatiónem tránseat animárum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant that our fasting may be beneficial to us, we beseech You, O Lord, so that by chastising our flesh we may obtain strength for our souls.",
+        "Espanol": "Te suplicamos, Señor, que des a nuestros ayunos un efecto saludable; a fin de que la maceración de nuestro cuerpo fortalezca nuestras almas.",
+        "Francais": "Nous vous en prions, Seigneur, donnez à nos jeûnes un effet salutaire, afin qu’ayant entrepris de châtier notre chair, cette mortification corporelle serve à développer la vigueur de nos âmes.",
+        "Italiano": "Concedi, o Signore, un salutare effetto ai nostri digiuni; affinché l'intrapresa mortificazione del corpo, si cambi in vigoria dell'anima.",
+        "Magyar": "Add meg, kérünk, Urunk, böjtölésünknek az üdvös hatást, hogy a test fényesítése, amelyet magunkra vettünk, lelkünk éltetőjévé váljék.",
+        "Nederlands": "Wij vragen U, Heer, laat ons vasten een heilzame uitwerking hebben, opdat de op ons genomen tuchtiging van het vlees moge strekken tot welzijn van de ziel.",
+        "Polski": "Prosimy Cię, Panie, daj zbawienną skuteczność naszym postom, aby podjęte przez nas umartwienie ciała dodało żywotnych sił naszym duszom.",
+        "Portugues": "Dai, Senhor, Vos suplicamos, aos nossos jejuns efeitos salutares, para que a mortificação que fazemos na carne seja proveitosa à saúde das nossas almas."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Dixit Rebécca fílio suo Jacob: Audívi patrem tuum loquéntem cum Esau fratre tuo, et dicéntem ei: Affer mihi de venatióne tua, et fac cibos, ut cómedam et benedícam tibi coram Dómino, ántequam móriar. Nunc ergo, fili mi, acquiésce consíliis meis: et pergens ad gregem, affer mihi duos hædos óptimos, ut fáciam ex eis escas patri tuo, quibus libénter véscitur: quas cum intúleris et coméderit, benedícat tibi, priúsquam moriátur. Cui ille respóndit: Nosti, quod Esau, frater meus, homo pilósus sit, et ego lenis: si attrectáverit me pater meus et sénserit, tímeo, ne putet me sibi voluísse illúdere, et indúcam super me maledictiónem pro benedictióne. Ad quem mater: In me sit, ait, ista maledíctio, fili mi: tantum audi vocem meam, et pergens affer quæ dixi. Abiit, et áttulit, dedítque matri. Parávit illa cibos, sicut velle nóverat patrem illíus. Et véstibus Esau valde bonis, quas apud se habébat domi, índuit eum: pelliculásque hædórum circúmdedit mánibus, et colli nuda protéxit. Dedítque pulméntum, et panes, quos cóxerat, trádidit. Quibus illátis, dixit: Pater mi! At ille respóndit: Audio. Quis es tu, fili mi? Dixítque Jacob: Ego sum primogénitus tuus Esau: feci, sicut præcepísti mihi: surge, sede, et cómede de venatióne mea, ut benedícat mihi ánima tua. Rursúmque Isaac ad fílium suum: Quómodo, inquit, tam cito inveníre potuísti, fili mi? Qui respóndit: Volúntas Dei fuit, ut cito occúrreret mihi quod volébam. Dixítque Isaac: Accéde huc, ut tangam te, fili mi, et probem, utrum tu sis fílius meus Esau, an non. Accéssit ille ad patrem, et palpáto eo, dixit Isaac: Vox quidem vox Jacob est, sed manus manus sunt Esau. Et non cognóvit eum, quia pilósæ manus similitúdinem majóris exprésserant. Benedícens ergo illi, ait: Tu es fílius meus Esau? Respóndit: Ego sum. At ille: Affer mihi, inquit, cibos de venatióne tua, fili mi, ut benedícat tibi ánima mea. Quos cum oblátos comedísset, óbtulit ei étiam vinum. Quo hausto, dixit ad eum: Accéde ad me, et da mihi ósculum, fili mi. Accéssit, et osculátus est eum. Statímque ut sensit vestimentórum illíus fragrántiam, benedícens illi, ait: Ecce, odor fílii mei sicut odor agri pleni, cui benedíxit Dóminus. Det tibi Deus de rore cœli, et de pinguédine terræ abundántiam fruménti et vini. Et sérviant tibi pópuli, et adorent te tribus: esto dóminus fratrum tuórum, et incurvéntur ante te fílii matris tuæ. Qui male díxerit tibi, sit ille maledíctus: et qui benedíxerit tibi, benedictiónibus repleátur. Vix Isaac sermónem impléverat, et egrésso Jacob foras, venit Esau, coctósque de venatióne cibos íntulit patri, dicens: Surge, pater mi, et cómede de venatióne fílii tui, ut benedícat mihi ánima tua. Dixítque illi Isaac: Quis enim es tu? Qui respóndit: Ego sum fílius tuus primogénitus Esau. Expávit Isaac stupóre veheménti, et ultra quam credi potest, admírans, ait: Quis ígitur ille est, qui dudum captam venatiónem áttulit mihi, et comédi ex ómnibus, priúsquam tu veníres? Benedixíque ei, et erit benedíctus. Audítis Esau sermónibus patris, irrúgiit clamóre magno, et consternátus, ait: Bénedic étiam et mihi, pater mi. Qui ait: Venit germánus tuus fraudulénter, et accépit benedictiónem tuam. At ille subjunxit: Juste vocátum est nomen ejus Jacob: supplantávit enim me en áltera vice: primogénita mea ante tulit, et nunc secúndo surrípuit benedictiónem meam. Rursúmque ad patrem: Numquid non reservásti, ait, et mihi benedictiónem? Respóndit Isaac: Dóminum tuum illum constítui, et omnes fratres ejus servitúti illíus subjugávi: fruménto et vino stabilívi eum, et tibi post hæc, fili mi, ultra quid fáciam? Cui Esau: Num unam, inquit, tantum benedictiónem habes, pater? mihi quoque óbsecro ut benedícas. Cumque ejulátu magno fleret, motus Isaac, dixit ad eum: In pinguédine terræ, et in rore cœli désuper erit benedíctio tua.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, Rebecca said to her son Jacob, I heard your father tell your brother Esau, ‘Bring me some game; prepare some savory food for me to eat, and then I will bless you in the sight of the Lord before I die.’ Now, my son, do what I tell you. Go to the flock and bring me two choice kids that I may make of them savory food for your father, such as he likes. Then bring it to your father to eat, that he may bless you before he dies. Jacob said to his mother Rebecca, But Esau my brother is a hairy man, while I am smooth. If my father touches me, it will seem to him that I am mocking him. Thus I shall bring a curse on myself instead of a blessing. His mother replied, Let the curse fall on me, my son! Do but listen to me; go, get them for me. He went, selected them, and brought them to his mother, who prepared savory food such as his father liked. Then Rebecca took the best clothes of her elder son Esau, which she had in the house, and put them on her younger son Jacob. She put the skins of the kids on his hands and over the smooth parts of his neck. Then she gave her son Jacob the savory food and bread she had prepared. He went to his father and said, Father! He answered, Here I am. Who are you, my son? And Jacob said to his father, I am Esau, your first-born. I have done as you told me; sit up, please! Eat again of my game, that you may bless me. Isaac replied, How did you find it so quickly, my son? He answered, The Lord your God let me come upon it. Then Isaac said to Jacob, Come close that I may touch you, my son, to know whether you are really my son Esau or not. Jacob went close to his father; Isaac touched him and said, The voice is the voice of Jacob, but the hands are the hands of Esau. - He did not recognize him because his hands were hairy like those of his brother Esau; so he blessed him. - Isaac said, Are you really my son Esau? Jacob answered, Yes, I am. Isaac continued, Set your game near me, my son, that I may eat it, and bless you. He set it before him and he ate of it, and he brought him some wine, which he drank. Then his father Isaac said to him, Come close and kiss me, my son. He came close and kissed him. When he smelled the fragrance of his garments, he blessed him and said, The fragrance of my son is like the fragrance of a field which the Lord has blessed! God give you dew from heaven, and fruitfulness of the earth, abundance of grain and wine. Let nations serve you, peoples bow down to you. Be master of your brothers; may your mother’s sons bow down to you. Cursed be those who curse you, blessed be those who bless you. Isaac had pronounced the blessing and Jacob had just left his father’s presence, when his brother Esau returned from hunting. He also prepared savory food and brought it to his father, saying, Sit up, father, and eat of your son’s game, that you may bless me. His father Isaac said to him, Who are you? He answered, I am Esau, your first-born son. Isaac was greatly disturbed, and asked, Who was it, then, that hunted game and brought it to me? Before you came I ate heartily and then blessed him; and he shall be blessed. On hearing his father’s words, Esau uttered a very loud and bitter cry, and said to him, Father, bless me too. But he answered, Your brother came deceitfully and received your blessing. Then he said, Must he, true to his name Jacob, supplant me now a second time? He took my birthright and now he has taken my blessing. He added, Have you not reserved a blessing for me? Isaac answered Esau, I have appointed him your lord, and have given him all his brothers as servants. I have enriched him with grain and wine; what then can I do for you, my son? But Esau said to his father, Have you only one blessing, father? Bless me also, my father. And Esau wept aloud. His father Isaac answered him, With the fruitfulness of the earth shall your dwelling be; with the dew of the heavens above.",
+        "Espanol": "En aquellos días: Dijo Rebeca a su hijo Jacob: Acabo de oír a tu padre, que hablando con tu hermano Esaú, le decía: Tráeme de tu caza, y guísame un plato que le comeré, y te echaré mi bendición en presencia del Señor antes que me muera. Ahora bien, hijo mío, toma mi consejo, y yendo al ganado, tráeme dos de los mejores cabritos, para que yo guise de ellos a tu padre aquellos platos de que come con gusto: Y sirviéndoselos tú, después que hubiere comido, te dé la bendición antes de morir. A lo cual respondió Jacob : Tú sabes que mi hermano Esaú es hombre velloso, y yo lampiño; si mi padre me palpa con sus manos, y llega a conocerme, temo que piense que yo he querido burlarle, y acarrearé sobre mí su maldición en lugar de la bendición. Al cual la madre: Sobre mí, dijo, caiga esa maldición, hijo mío; tú haz solamente lo que yo te aconsejo, y date prisa en traer lo que te tengo dicho. Fue Jacob y lo trajo, y lo dio a la madre, la cual le guisó los manjares, según que sabía ser del gusto de su padre. Y vistió después a Jacob con los más ricos vestidos de Esaú, que tenía guardados en casa. Y le envolvió las manos con las delicadas pieles de los cabritos, cubriendo también con ellas la parte desnuda del cuello. Le dio después el guisado, y los panes que había cocido. Todo lo cual llevándolo él adentro, dijo: ¡Padre mío! A lo que respondió él: Oigo. ¡Quién eres tú, hijo mío? Dijo Jacob: Yo soy tu primogénito Esaú; he hecho lo que me mandaste; levántate, incorpórate, y come de mi caza, para que me des la bendición. Le replicó Isaac a su hijo: ¿Cómo, dijo, has podido encontrarla tan presto, hijo mío? El cual respondió: Dios dispuso que luego se me pusiese delante lo que deseaba. Dijo todavía Isaac: Acércate, hijo mío, para que yo te toque, y reconozca si tú eres o no el hijo mío Esaú. Se acercó al padre, y habiéndole palpado, dijo Isaac: Cierto que la voz es voz de Jacob; pero las manos son manos de Esaú. Y no le conoció, porque las manos vellosas representaban al vivo la semejanza del mayor. Queriendo, pues, bendecirle, dijo ¿Eres tú el hijo mío Esaú? Respondió: Yo soy. Pues tráeme acá, hijo mío, el plato de tu caza, para que te bendiga mi alma. Y habiéndoselo presentado, después que comió de él le sirvió también vino; bebido el cual, dijo: Llégate a mí, y dame un beso, hijo mío. Llegó, y le besó. Y al instante que sintió la fragancia de sus vestidos, bendiciéndole, le dijo: Bien se ve que el olor que sale de mi hijo es como el olor de un campo florido, al cual bendijo el Señor. Te dé Dios, por medio del rocío del cielo, y de la fertilidad de la tierra, abundancia de trigo y vino. Te sirvan los pueblos, y adórente las tribus: sé señor de tus hermanos, e inclínense profundamente delante de ti los hijos de tu madre. Quien te maldijere, sea él maldito, y el que te bendijere, de bendiciones sea colmado. Apenas Isaac había acabado de decir estas palabras, y salido Jacob afuera, cuando llegó Esaú. Y presentando a su padre las viandas de la caza, que había guisado, le dijo: Levántate, padre mío, y come de la caza de tu hijo, para que me bendiga tu alma. Le dijo Isaac: Pues, ¿quién eres tú? El cual respondió: Yo soy tu hijo primogénito Esaú. Quedó atónito Isaac, y como estático; y sobre toda ponderación pasmado, dijo: ¿Quién es, pues, aquél que hace poco me ha traído de la caza que cogió, y he comido de todo antes que tú vinieses? El caso es que yo le bendije, y bendito será. Oídas las palabras del padre, arrojó Esaú un grito furioso; y consternado, dijo: Dame también a mí tu bendición, ¡oh padre mío! El cual le respondió: Vino tu hermano astutamente, y se ha llevado tu bendición. A lo que replicó Esaú: Con razón se le puso el nombre de Jacob: porque ya es ésta la segunda vez que me ha suplantado; antes ya se alzó con mi primogenitura, y ahora de nuevo me ha robado la bendición mía. Y vuelto a su padre: ¿Pues qué, le dijo, no has reservado bendición para mí? Le respondió Isaac: Yo le he constituido señor tuyo, y he sometido todos sus hermanos a su servicio: le aseguré las cosechas de granos y de vino: después de esto, ¿qué puedo yo ahora hacer por ti, hijo mío? Al cual replicó Esaú: ¿Por ventura no tienes, padre mío, sino una sola bendición? Te ruego que también me bendigas a mí. Y como llorase con grandes alaridos, Isaac conmovido, le dijo estas palabras: En la grosura de la tierra, y en el rocío que cae del cielo, será tu bendición. Vivirás de tu espada, y servirás a tu hermano; pero llegará tiempo en que sacudirás su yugo, y librarás de él tu cerviz.",
+        "Francais": "En ces jours-là, Rébecca dit à Jacob son fils : J’ai entendu votre père qui parlait à votre frère Ésaü, et qui lui disait : Apportez-moi quelque chose de votre chasse et préparez-moi de quoi manger, afin que je vous bénisse devant le Seigneur avant de mourir. Suivez donc maintenant, mon fils, le conseil que je vais vous donner. Allez-vous-en au troupeau, et apportez-moi deux des meilleurs chevreaux, afin que j’en prépare à votre père une sorte de mets que je sais qu’il aime ; et qu’après que vous le lui aurez présenté et qu’il en aura mangé, il vous bénisse avant de mourir. Jacob lui répondit : Vous savez que mon frère Ésaü a le corps velu, et que moi je n’ai point de poil. Si mon père vient donc à me toucher et qu’il s’en aperçoive, j’ai peur qu’il ne croie que je l’ai voulu tromper, et qu’ainsi je n’attire sur moi sa malédiction au lieu de sa bénédiction. Sa mère lui répondit : Mon fils, je me charge moi-même de cette malédiction : faites seulement ce que je vous conseille, et allez me chercher ce que je vous dis. Il y alla, il l’apporta, et il le donna à sa mère, qui en prépara à manger à son père comme elle savait qu’il l’aimait. Elle fit prendre ensuite à Jacob de très beaux habits d’Ésaü qu’elle gardait elle-même à la maison. Et elle lui mit autour des mains la peau des chevreaux, et lui en couvrit le cou partout où il était découvert. Puis elle lui donna ce qu’elle avait préparé à manger, et les pains qu’elle avait cuits. Jacob porta le tout devant Isaac, et lui dit : Mon père. Je vous entends, dit Isaac. Qui êtes-vous, mon fils ? Jacob lui répondit ; Je suis Ésaü, votre fils aîné. J’ai fait ce que vous m’avez commandé : levez-vous, mettez-vous sur votre séant, et mangez de ma chasse afin que vous me donniez votre bénédiction. Isaac dit encore à son fils : Mais comment avez-vous pu, mon fils, en trouver si tôt ? Il lui répondit : Dieu a voulu que ce que je désirais se présentât tout d’un coup à moi. Isaac dit encore : Approchez-vous ; d’ici, mon fils, afin que je vous : touche, et que je reconnaisse si vous êtes mon fils Ésaü ou non. Jacob s’approcha de son père ; et Isaac l’ayant tâté, dit : Pour la voix, c’est la voix de Jacob ; mais les mains sont les mains d’Ésaü. Et il ne le reconnut point, parce que ses mains, étant couvertes de poil, parurent toutes semblables à celles de son aîné. Isaac, le bénissant donc, lui dit : Êtes-vous mon fils Ésaü ? Je le suis, répondit Jacob. Mon fils, ajouta Isaac, apportez-moi à manger de votre chasse, afin que je vous bénisse. Jacob lui en présenta ; et après qu’il en eut mangé, il lui présenta aussi du vin qu’il but. Isaac lui dit ensuite : Approchez-vous de moi, mon fils, et venez me baiser. Il s’approcha donc de lui, et le baisa. Et Isaac, aussitôt qu’il eut senti la bonne odeur qui sortait de ses habits, lui dit en le bénissant : L’odeur qui sort de mon fils est semblable à celle d’un champ plein de fleurs que le Seigneur a comblé de ses bénédictions. Que Dieu vous donne une abondance de blé et de vin, de la rosée du ciel et de la graisse de la terre. Que les peuples vous soient assujettis, et que les tribus vous adorent. Soyez le seigneur de vos frères, et que les enfants de votre mère se courbent devant vous. Que celui qui vous maudira, soit maudit lui-même ; et que celui qui vous bénira, soit comblé de bénédictions. Isaac ne faisait que d’achever ces paroles, et Jacob était à peine sorti dehors, lorsqu’Ésaü entra, et que, présentant à son père ce qu’il avait apprêté de sa chasse, il lui dit : Levez-vous, mon père, et mangez de la chasse de votre fils, afin que vous me donniez votre bénédiction. Isaac lui dit : Qui êtes-vous donc ? Ésaü lui répondit : Je sais Ésaü, votre fils aîné. Isaac fut frappé d’un profond étonnement ; et, admirant au delà de tout ce qu’on peut croire ce qui était arrivé, il lui dit : Qui est donc celui qui m’a déjà apporté de ce qu’il avait pris à la chasse, et qui m’a fait manger de tout avant que vous vinssiez ? et je lui ai donné ma bénédiction, et il sera béni. Ésaü, à ces paroles de son père, jeta un cri furieux ; et, étant dans une extrême consternation, il lui dit : Donnez-moi aussi votre bénédiction, mon père. Isaac lui répondit : Votre frère m’est venu surprendre, et il a reçu la bénédiction qui vous était due. C’est avec raison, dit Ésaü, qu’il a été appelé Jacob ; car voici la seconde fois qu’il m’a supplanté. Il m’a enlevé auparavant mon droit d’aînesse ; et présentement II vient encore de me dérober la bénédiction qui m’était due. Mais, mon père, ajouta Ésaü, ne m’avez-vous point réservé aussi une bénédiction ? Isaac lui répondit : Je l’ai établi votre seigneur et j’ai assujetti à sa domination tous ses frères. Je l’ai affermi dans la possession du blé et du vin ; et après cela, mon fils, que me reste-t-il que je puisse faire pour vous ? Ésaü lui répartit : N’avez-vous donc, mon père, qu’une seule bénédiction ? Je vous conjure de me bénir aussi. Il jeta ensuite de grands cris mêlés de larmes. Et Isaac, en étant touché, lui dit : Votre bénédiction sera dans la graisse de la terre et dans la rosée du ciel qui vient d’en haut.",
+        "Italiano": "Cosi Rebecca disse al suo figlio Giacobbe: «Ho sentito tuo padre parlare con Esaù tuo fratello e dirgli: “Portami della cacciagione, e fammi una pietanza, affinché io ne mangi, e ti benedica dinanzi a Dio prima di morire”. Or dunque, figlio mio, attienti ai miei consigli: Va' alla greggia e portomi due buoni capretti, affinché io ne faccia pel tuo padre pietanze di suo gusto e poi, quando tu gliele avrai portate ed egli ne avrà mangiato, ti benedica prima di morire». Giacobbe rispose: «Tu sai che Esaù mio fratello è peloso, ed io liscio; se per caso mio padre mi palpa e mi riconosce, temo che pensi che io abbia voluto burlarlo, e così mi tiri addosso maledizione, invece di benedizione». E la madre a lui: «Ricada pure su di me tale maledizione, figlio mio; tu però -ascoltami: va' e porta quanto t'ho detto». Egli dunque li andò a prendere, li portò alla madre, la quale ne preparò le pietanze che sapeva gradite al padre di lui. Poi fece indossare a Giacobbe il miglior vestito di Esaù, che teneva riposto, e colle pelli dei capretti gli rivestì le mani e il liscio collo di lui; finalmente gli diede pietanze e pani da lei preparati. Giacobbe, portata ogni cosa ad Isacco, gli disse: «Padre mio». Ed egli: «Ascolto. Chi sei tu, figlio mio?». E Giacobbe: «Io sono il tuo primogenito Esaù: ho fatto quanto mi hai comandato: alzati, siedi e mangia della mia caccia, affinché l'anima tua mi benedica». E 'Isacco replicò al figlio: «Come, figliol mio, hai potuto trovarne così presto?». L'altro rispose: «Fu volere di Dio che m'imbattessi subito in ciò che bramavo». E Isacco: «Accostati, che ti tasti, o figlio mio, e riconosca se tu sei o no il mio figlio Esaù». Allora egli s'accostò al padre, il quale, tastato che l'ebbe, disse: «La voce è di Giacobbe, ma le mani son d'Esaù». Così non lo riconobbe, perché le mani di lui eran pelose come quelle del fratello maggiore. Benedicendolo disse: «Sei tu proprio il mio figlio Esaù?». L'altro rispose «Si». E il padre: «Dammi le pietanze della tua caccia, o figlio mio, affinché l'anima mia ti benedica». Giacobbe lo servì, e, quando il padre ebbe mangiato, gli portò anche il vino. Bevuto che ebbe il vino, Isacco gli disse: «Accostati a me e dammi un bacio, figlio mio. Giacobbe s'accostò e lo baciò. E Isacco, odorò la fragranza del vestito di lui, e lo benedisse dicendo: «Ecco l'odore del mio figlio è come l'odore d'un fiorito campo benedetto da Dio! Dio ti doni la rugiada del cielo e l'ubertosità della terra, abbondanza di frumento e di vino. A te servano i popoli, a te s'inchinino le genti. Sii superiore ai tuoi fratelli. E si inchinino davanti a te i figli di tua madre. Maledetto chi ti maledice e benedetto chi ti benedice». Appena Isacco aveva finite queste parole, e Giacobbe se n'era andato, tornò Esaù, e preparate le pietanze della sua caccia, le portò al padre, dicendo: «Alzati, padre mio, e mangia della caccia del tuo figlio affinché l'anima tua mi benedica». E Isacco: «Ma chi sei tu?». Egli rispose: «Son Esaù, il tuo figlio primogenito». Isacco inorridì, oppresso da grande stupore, e, fuori di sé dalla meraviglia, disse: «E allora chi è colui che mi ha già portato la caccia fatta? Io ho mangiato di tutto prima che tu venissi: e l'ho benedetto, e resterà benedetto». Udite le parole del padre, Esaù diede in un grido spaventoso, e costernato disse: «Benedici anche me, padre mio!». Isacco rispose: «Il tuo fratello è venuto con inganno e si è presa la tua benedizione»; ed Esaù: «Con ragione gli fu posto il nome di Giacobbe, infatti mi ha soppiantato per la seconda volta; mi tolse già la mia primogenitura ed ora mi ha tolta la mia benedizione». Poi disse: «Non hai serbato una benedizione anche per me? ». Isacco rispose: «Io l'ho fatto superiore a te, ed ho assoggettati al suo servizio tutti i suoi fratelli, l'ho provvisto di frumento e di vino; ed ora che potrei fare per te, o mio figlio?». Esaù gli disse: «Non hai che una benedizione sola, o padre? Benedici anche me, te ne scongiuro!». E siccome Esaù piangeva ad alte grida, Isacco, mosso a compassione, gli disse: «Ecco, nella fecondità della terra e nella rugiada del cielo sarà la tua benedizione».",
+        "Magyar": "Rebekka akkor így szólt fiához, Jákobhoz. „Éppen most hallottam, hogy atyád mondta bátyádnak, Ézsaunak:  Szerezz vadat és készítsd el ízletesen, majd eszem belőle és megáldalak az Úr színe előtt, mielőtt meghalok.  Most tehát, fiam, hallgass rám, arra, amit mondok neked.  Menj ki gyorsan a nyájhoz és hozz onnan két szép kecskegidát! Én elkészítem atyádnak ízletesen, ahogy szereti.  Te beviszed atyádnak, hogy megegye és megáldjon, mielőtt meghal.”  Jákob ezt válaszolta anyjának, Rebekkának: „De bátyám, Ézsau, szőrös férfi, én pedig sima vagyok.  Hátha megtapogat atyám. Akkor olyan leszek a szemében, mint aki tréfát űz vele, s átka ér áldása helyett.”  De anyja megnyugtatta: „Az átok, ami neked szól, érjen engem! Hallgass csak rám, menj és hozd ide nekem!”  Elment hát, elhozta és odaadta anyjának. Anyja pedig elkészítette ízletesen, ahogy atyja szereti.  Rebekka ezután elővette idősebb fiának, Ézsaunak legjobb ruháját, ami nála volt a házban, s ráadta fiatalabb fiára, Jákobra.  A kecskegidák bőrével pedig befödte karját és sima nyakát.  Azután kezébe adta fiának, Jákobnak az ízletes ételt és a kenyeret, amit készített.  Ez így ment be atyjához és megszólította: „Atyám!” „Itt vagyok” - válaszolta. „Ki vagy te, fiam?”  Jákob ezt mondta atyjának: „Ézsau vagyok, elsőszülötted. Megtettem, amit parancsoltál. Ülj fel tehát és egyél a vadból, hogy megáldjon a lelked.”  Izsák megkérdezte fiát: „Hogyan találtál valamit ilyen gyorsan, fiam?” „Az Úr, a te Istened hozta utamba” - válaszolta.  Izsák így szólt Jákobhoz: „Lépj közelebb, hogy megtapogassalak fiam, valóban a fiam, Ézsau vagy-e vagy sem.”  Jákob odalépett atyjához, Izsákhoz, az megtapogatta, és mondta: „A hang Jákob hangja, de a kar Ézsau karja.”  Nem ismerte fel, mivel a karja szőrös volt, mint bátyjának, Ézsaunak a karja. Ezért ráadta áldását.  Megkérdezte: „Valóban te vagy hát a fiam, Ézsau?””Az vagyok” - válaszolta.  „Tedd akkor elém - mondta -, hadd egyem fiamnak zsákmányából, hogy lelkem megáldjon.” Eléje tette és evett. Aztán bort hozott neki, és ő ivott.  Majd atyja, Izsák így szólt hozzá: „Gyere közelebb, és csókolj meg, fiam!”  Odalépett hozzá és megcsókolta. Amikor megérezte ruhája illatát, e szavakkal áldotta meg: „Lám, fiam illata olyan, mint a termékeny föld illata, amit az Úr megáldott. -  Isten adjon neked az ég harmatából és a föld kövérségéből búzát és bort bőségben. -  Népek szolgáljanak neked és nemzetek hódoljanak előtted. Légy ura testvéreidnek, s hajoljanak meg előtted anyád fiai. - Legyen átkozott, aki átkoz, és áldott, aki áld téged.”  Amikor Izsák épp befejezte Jákob megáldását és Jákob kijött atyjától, bátyja, Ézsau hazaérkezett a vadászatból.  Ő is ízletes ételt készített, bevitte apjának és azt mondta: „Ülj fel atyám, és egyél fiad vadászatából, hogy megáldjon a lelked.”  Atyja, Izsák így szólt: „Ki vagy te?” „Elsőszülötted, Ézsau vagyok” - felelte.  Erre Izsák szerfölött megijedt és azt kérdezte: „Ki volt akkor az, aki elejtett egy vadat és behozta nekem? Én jóhiszeműen ettem belőle, mielőtt jöttél volna és megáldottam. Áldott is marad.”  Amikor Ézsau apja szavát hallotta, hangosan, elkeseredve felkiáltott és ezt mondta apjának: „Áldj meg engem is, atyám!”  Az így válaszolt: „Öcséd csellel jött és elvitte áldásodat.”  Erre így szólt: „Joggal nevezték Jákobnak. Már kétszer becsapott. Elvette elsőszülöttségi jogomat és most az áldást is elvitte tőlem.” Majd megkérdezte: „Számomra nem tartogattál áldást, atyám?”  Izsák e szavakkal felelt: „Nézd, úrrá tettem fölötted és minden testvérét szolgául adtam neki. Elláttam búzával és borral. Mit tehetek még érted, fiam?”  Ézsau így szólt apjához: „Csak egy áldásod van-e atyám? Áldj meg, atyám!” Izsák hallgatott, mire Ézsau elkezdett hangosan sírni.  Apja felelt Ézsaunak és így szólt: „Nézd, lakóhelyed messze lesz a termékeny földtől és messze az ég harmatától.  Kardodból kell élned és testvérednek kell szolgálnod. De ha rugdalódzol, lerázod igáját magadról.",
+        "Nederlands": "In die dagen sprak Rebecca tot haar zoon Jacob: Ik heb uw vader met uw broeder Esau horen spreken en zeggen: Breng mij iets van uw jacht en maak het voor mij klaar om te eten; dan zal ik u voor de Heer zegenen, voordat ik sterf. Daarom dan, mijn zoon, luister naar mijn raad; ga vlug naar de kudde en breng mij twee van de beste geitebokjes; dan maak ik er een gerecht van klaar, dat uw vader graag eet; als gij dat dan binnenbrengt en hij ervan eet, moge hij u zijn zegen schenken, voordat hij sterft. Maar hij gaf haar ten antwoord: Gij weet, dat mijn broeder Esau sterk behaard is, terwijl ik een gladde huid heb; als mijn vader mij soms betast en dat bemerkt, dan vrees ik, dat hij zal denken, dat ik de spot met hem wil drijven; dan zou ik vervloeking over mij brengen in plaats van zegen. Doch zijn moeder zeide hem: Die vervloeking kome dan over mij, mijn zoon; luister gij slechts naar mijn woord en ga spoedig halen, wat ik gezegd heb. Hij deed dat en gaf het aan zijn moeder. Deze maakte er een gerecht van klaar, zoals zij wist, dat zijn vader het gaarne had. Dan deed ze hem Esau's beste kleren aan, die zij thuis had, en zij deed de geitevelletjes om zijn handen en bedekte er zijn blote hals mee. Dan gaf zij hem het eten en het brood, dat zij gebakken had. Toen ging hij er mee naar binnen en zeide: Vader! En deze antwoordde: Ja. Wie zijt gij, mijn zoon? En Jacob zeide: Ik ben Esau, uw eerstgeborene; ik heb gedaan, wat gij mij hebt opgedragen; ga nu overeind zitten en eet van mijn jacht, opdat uw ziel mij zegene. En Isaäc hernam en zeide tot zijn zoon: Maar hoe hebt gij toch zo spoedig iets kunnen vinden, mijn zoon? En deze antwoordde: God wilde, dat ik spoedig vond, wat ik zocht. En Isaäc zeide: Kom eens dichterbij; ik wil u eens betasten, mijn zoon, en onderzoeken, of gij mijn zoon Esau zijt of niet. Hij ging naar zijn vader toe en Isaäc betastte hem en zeide: De stem is wel de stem van Jacob, maar de handen zijn de handen van Esau. En hij herkende hem niet, omdat zijn handen even behaard waren als bij de oudste. Dan sprak hij een zegewens over hem uit en vroeg: Gij zijt dus mijn zoon Esau? En deze antwoordde: Ja, dat ben ik. Toen hernam hij: Geef mij dan de spijzen van uw jacht, mijn zoon, opdat mijn ziel u zegene. En hij bood ze hem aan; en toen hij ervan gegeten had, reikte hij hem ook de wijn. Nadat hij die had gedronken, zeide hij tot hem: Kom eens dichter bij mij, mijn zoon, en geef mij een kus. En hij trad nader en kuste hem. En zodra hij de geur van zijn kleren waarnam, zegende hij hem en sprak: Zie de geur van mijn zoon is als de geur van een volle akker, waaraan de Heer zijn zegen schonk. De Heer geve u van de dauw des hemels en van het vette der aarde, overvloed van koren en wijn. Mogen volkeren u dienstbaar zijn en stammen zich voor u nederwerpen. Wees heer over uw broeders, en dat de zonen van uw moeder zich voor u neerbuigen. Wie u vervloekt, zij zelf vervloekt, en wie u zegent, worde met zegeningen overladen. Nauwelijks was Isaäc uitgesproken, en Jacob naar buiten gegaan, of Esau kwam terug; en nadat hij van de jacht een gerecht had klaar gemaakt, bracht hij het bij zijn vader binnen en sprak: Kom, vader, en eet van de jacht van uw zoon, opdat uw ziel mij zegene. Doch Isaäc zeide tot hem: Maar wie zijt gij dan? En hij antwoordde: Ik ben Esau, uw eerstgeboren zoon. Isaäc verschrok en ontstelde hevig, en met ongelofelijke verbazing zeide hij: Wie is het dan, die mij al van de buit van de jacht gebracht heeft, zodat ik van alles reeds heb gegeten, voordat gij kwaamt? Hem heb ik gezegend, en gezegend zal hij blijven. Toen Esau die woorden van zijn vader hoorde, barstte hij in jammerklachten los en geheel ontsteld zeide hij: Vader, zegen ook mij! Maar deze antwoordde: Uw broeder is listig gekomen en heeft uw zegen gekregen. Toen sprak hij: Met recht draagt hij de naam van Jacob; want dit is reeds de tweede keer, dat hij mij onderkruipt; eerst heeft hij mij het eerstgeboorterecht ontnomen, en nu deze tweede keer ontsteelt hij mij de zegen. Dan richtte hij zich opnieuw tot zijn vader: Hebt gij dan ook niet voor mij een zegen overgehouden? Isaäc antwoordde: Ik heb hem gemaakt tot heer over u; en al zijn broeders heb ik aan hem dienstbaar gemaakt; hem heb ik voorzien van koren en wijn; mijn zoon, wat kan ik dan hierna nog verder voor u doen? Maar Esau zeide hem: Hebt gij dan maar één zegen, vader? Ik bid u, zegen ook mij! En toen hij met luid gejammer begon te wenen werd Isaäc ontroerd en sprak tot hem: In het vette der aarde en in de hemeldauw van boven zal uw zegening bestaan.",
+        "Polski": "W one dni rzekła Rebeka do Jakuba, ((umiłowanego)) swego syna: «Słyszałam, jak ojciec rozmawiał z twym bratem Ezawem i dał mu takie polecenie: Przynieś dla mnie coś z polowania i przyrządź smaczną potrawę, abym zjadł i pobłogosławił cię w imieniu Pana przed śmiercią; teraz Więc, synu mój, posłuchaj mego polecenia, które ci dam. Idź, weź z trzody dwa dorodne koźlątka, ((przynieś)) mi, ja zaś przyrządzę z nich wyborną potrawę dla twego ojca, taką jaką lubi. Potem mu zaniesiesz, on zje i w zamian za to udzieli ci przed śmiercią błogosławieństwa». Ale Jakub rzekł do matki swojej: «Przecież mój brat, Ezaw, jest owłosiony, ja zaś nie; jeśli się mnie dotknie mój ojciec, będzie wyglądało tak, jak gdybym z niego żartował, i wtedy mogę ściągnąć na siebie przekleństwo zamiast błogosławieństwa». Rzekła mu matka: «Na mnie ((spadnie to)) przekleństwo, mój synu! Tylko posłuchaj mnie, idź i przynieś mi». Poszedł więc Jakub i przyniósł ((koźlęta)) swej matce; ona zaś przyrządziła z nich smaczną potrawę, taką jaką lubił jego ojciec. A potem wzięła szaty Ezawa, swego starszego syna, najlepsze jakie miała u siebie, ubrała ((w nie)) Jakuba, młodszego swego syna, i skórkami koźląt owinęła mu ręce i nieowłosioną szyję. Po czym dała Jakubowi ową smaczną potrawę, którą przygotowała, i chleb. Jakub, wszedłszy do swego ojca, rzekł: «Ojcze mój». A ((Izaak)): «Słyszę; któryś ty ((jest)), synu mój?» Odpowiedział Jakub ojcu: «Jestem Ezaw, twój syn pierworodny. Uczyniłem, jak mi poleciłeś. Podnieś się, siądź i zjedz potrawę z upolowanej przeze mnie zwierzyny i pobłogosław mi». Izaak rzekł do syna: «Jakże tak szybko mogłeś ((coś)) upolować, synu mój?» A ((Jakub)) na to: «Jahwe, Bóg twój, sprawił, że tak mi się właśnie zdarzyło». Wtedy Izaak rzekł do Jakuba: «Zbliż się, abym dotknąwszy ciebie ((mógł się upewnić)), czy to mój syn Ezaw, czy nie». Jakub przybliżył się do Izaaka i ten, dotykając go, rzekł: «Głos jest głosem Jakuba, ale ręce — rękami Ezawa!» Nie rozpoznał jednak ((Jakuba)), gdyż ręce były owłosione jak ręce Ezawa. A mając udzielić mu błogosławieństwa, zapytał go ((jeszcze)): «Ty jesteś syn mój Ezaw?» ((Jakub)) odpowiedział: «Ja jestem». Rzekł więc: «Podaj mi, abym zjadł to, co upolowałeś, synu mój, i abym ci potem pobłogosławił». ((Jakub)) podał mu i on jadł; przyniósł mu też i wina i pił. A potem Izaak rzekł do niego: «Zbliż się i pocałuj mnie, synu mój». ((Jakub)) zbliżył się i pocałował go. Gdy ((Izaak)) poczuł woń jego szat, dając mu błogosławieństwo, mówił: «Oto woń mego syna jako woń pola, które pobłogosławił Jahwe! Niechaj i tobie Bóg użyczy rosy z niebios i żyzności ziemi, obfitości zboża i moszczu winnego. Niechaj ci służą ludy i niech ci pokłon oddają narody; bądź panem braci twoich i niech ci się kłaniają synowie twej matki! Każdy, kto będzie ci złorzeczył, niech będzie przeklęty; każdy, kto będzie cię błogosławił, niech będzie błogosławiony!» Gdy Izaak wypowiedział swe błogosławieństwo nad Jakubem i gdy ((Jakub)) tylko co odszedł od niego, wrócił z łowów brat Jakuba, Ezaw. I on także przyrządził ulubioną potrawę ojca, zaniósł mu ją i rzekł do niego: «Podnieś się, ojcze mój, i jedz to, co upolował syn twój, abyś mi udzielił błogosławieństwa!» Izaak go zapytał: «Kto ty jesteś?» A on odpowiedział: «Jam syn twój pierworodny, Ezaw!» Izaak bardzo się zatrwożył i rzekł: «Kim więc był ten, który upolował zwierzynę i przyniósł mi, a ja jadłem z niej ((potrawę)), zanim ty wróciłeś, i pobłogosławiłem mu? Przecież to on otrzymał błogosławieństwo!» Gdy Ezaw usłyszał te słowa swego ojca, podniósł głośny, pełen Goryczy lament i rzekł do ojca: «Daj i mnie błogosławieństwo, ojcze mój!» ((Izaak)) powiedział: «Przyszedł podstępnie brat twój i zabrał twe błogosławieństwo!» A wtedy ((Ezaw)): «Nie na darmo dano mu imię Jakub! Dwukrotnie mnie już podszedł: pozbawił mnie mego przywileju pierworodztwa, a teraz odebrał za mnie błogosławieństwo!» Potem zaś zapytał: «Czy nie masz już dla mnie błogosławieństwa?» Izaak na te słowa odrzekł Ezawowi: «Skoro uczyniłem go twoim panem, wszystkich zaś jego krewnych — jego sługami i zapewniłem mu ((obfitość)) zboża oraz moszczu, to cóż mogę dla ciebie uczynić, mój synu?» Lecz Ezaw rzekł do ojca: «Czyż miałbyś tylko jedno błogosławieństwo, mój ojcze? Pobłogosław także i mnie, ojcze mój!» I Ezaw rozpłakał się w głos. Na to Izaak taką dał mu odpowiedź: «Nie będzie żyzny kraj, w którym zamieszkasz, bo nie będzie ((padać tam)) rosa z nieba. Z miecza żyć będziesz, i będziesz sługą brata twego!»",
+        "Portugues": "Naqueles dias, disse Rebeca a seu filho Jacob: «Ouvi teu pai, que falava com teu irmão Esaú e lhe dizia: «Dá-me alguma coisa da tua caça e prepara-a, para que eu a coma. Depois abençoar-te-ei, diante do Senhor, antes da minha morte». Agora, pois, meu filho, segue os meus conselhos: vai ao rebanho e traze-me dois cabritos gordos, para que eu faça com eles os manjares de que teu pai gosta mais. E tu lhos apresentarás, ele comerá e te dará a bênção antes de morrer». Jacob respondeu-lhe: «Bem sabeis que meu irmão Esaú é um homem cabeludo e eu não tenho pêlo. Se, pois, meu pai me apalpar e conhecer, receio que julgue querer iludi-lo; então me dará a maldição, em vez da bênção». Ao que a mãe respondeu: «Chamarei para mim essa maldição, meu filho. Ouve somente a minha voz e vai buscar o que te disse». Então, ele foi buscar os cabritos, trouxe-os e deu-os a sua mãe, que preparou manjares como o pai gostava. Depois, vestiu Jacob com os melhores vestidos de Esaú, que tinha guardados em casa, cobriu-lhe as mãos e o pescoço, até onde estava descoberto, com as peles dos cabritos, e deu-lhe os manjares e os pães que cozera. Levando Jacob isto a Isaque, disse-lhe: «Meu pai», Ele respondeu: «Bem ouço. Quem és tu, meu filho? ». Jacob disse: «Sou o teu filho primogénito Esaú. Fiz como me mandaste. Ergue-te, senta-te e come da minha caça, para que a tua alma me abençoe». Disse ainda Isaque a seu filho: «Como pudeste encontrá-la tão depressa, meu filho?». Este respondeu: «Foi vontade de Deus que depressa encontrasse o que queria». Disse Isaque: «Chega-te cá, meu filho, para que te apalpe e conheça se és ou não o meu filho Esaú». Chegou-se ele a seu pai. Isaque, tendo-o apalpado, disse: «Na verdade, a voz é de Jacob, mas as mãos são de Esaú». E o não conheceu, porque as mãos estavam cobertas de pêlo, à semelhança das do filho primogénito. Isaque, abençoando-o, disse: «És tu o meu filho Esaú?». «Sou eu» , respondeu. E Isaque continuou: «Traze-me os manjares da tua caça, meu filho, para que minha alma te abençoe». Jacob apresentou-lhos. E depois que Isaque comeu, levou-lhe também vinho. Então Isaque, havendo-o bebido, disse: «Aproxima-te de mim e beija-me, meu filho». Ele aproximou-se e beijou-o. Logo que Isaque sentiu a fragrância dos vestidos que Jacob levava, disse, abençoando-o: «Eis que o cheiro de meu filho é como o cheiro dum campo fértil que o Senhor abençoou! Deus te conceda abundância de trigo e de vinho, pelo orvalho do céu e gordura da terra. Sirvam-te os povos; e que as tribos se inclinem diante de ti, Sê senhor dos teus irmãos; e que os filhos da tua mãe se prostrem diante de ti. Maldito seja quem te amaldiçoar; e abençoado seja quem te abençoar». Apenas Isaque acabara de falar e havendo já saído Jacob, veio Esaú e levou a seu pai manjares da sua caça, dizendo-lhe: «Levanta-te, meu pai, e come da caça de teu filho, para que a tua alma me abençoe». Isaque disse-lhe: «Pois quem és tu?». Ele respondeu: «Sou Esaú, teu filho primogénito». Isaque ficou profundamente surpreendido (até mais do que se pode acreditar) e, admirado, disse: «Quem foi, pois, aquele que há pouco me trouxe caça, e da qual comi, antes que viesses? Eu o abençoei, e abençoado será». Ouvindo Esaú estas palavras do pai, bradou com grande clamor e cheio de consternação: «Abençoa-me também a mim, meu pai». Isaque respondeu: «O teu irmão veio fraudulentamente e recebeu a tua bênção». Então Esaú acrescentou: «É, pois, com razão que ele foi chamado Jacob, pois já me suplantou duas vezes: primeiramente, tirou-me o direito de primogenitura; e agora, também com nova fraude, arrebatou-me a bênção!». E acrescentou, dirigindo-se a seu pai: «Porventura não reservaste uma bênção para mim?». Respondeu Isaque: «Eu instituí-o teu senhor e sujeitei ao seu poder todos teus irmãos; dei-lhe a posse do trigo e do vinho. Depois disto, meu filho, que resta para ti?». Esaú disse: «Acaso tens só uma bênção, meu pai? Suplico-te que me abençoes também». E Esaú chorou com fortes soluços e gritos! Então Isaque, comovido, disse-lhe: «A tua bênção estará na gordura da terra e no orvalho do céu»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BO(ff)num(fg) est(ff//d!ff/ge'/fgd'/eddc.) (;) *() con(f)fi(h)té(jh/jjj)ri(j_ik) Dó(k_j)mi(j_i)no :(jjh) (,) (jjh//jkjj/hih.) (:) et(hj) psál(h!j'k)le(jk)re(jj) (,) nó(hj/kjk)mi(j)ni(ij) tu(hg/h!jjkvJI)o,(j.) (;) Al(jj)tís(jkJ'Hjkjk)si(j_i)me.(jjjh/jjjh/jjh.) (,) (fg/h!jj/klijh.0ixgiHF.1) (z0::c3) <sp>V/</sp>. Ad(d_) an(f)nun(d)ti(f)án(h.0/ijh)dum(h.) (,) ma(h)ne(ihhe./h_i_h_/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___//jvIH'jvIH'//hvGF.) (:) mi(hh)se(h)ri(h)cór(ih/ij_h ih/ij_ij//hi/jij)di(j)am(jh/jkihhf.) (,) tu(hf/hhh)am,(h.f!gwh!iv.hi/jhh/iih.0) (:) et(hh) ve(h)ri(h)tá(h)tem(hi~) tu(ivH'GE//fhGEfh..)(,)(gi!jvHF)am(fhF'Efhhf//hvvGF'heed.0) <clear>*(:) per(hh) no(hiH'Fhihi)ctem.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
+      "availableTranslations": {
+        "English": "It is good to give thanks to the Lord, to sing praise to Your name, Most High. To proclaim Your kindness at dawn and Your faithfulness throughout the night.",
+        "Espanol": "Bueno es tributar alabanzas al Señor y cantar salmos a su nombre, oh Altísimo. Celebrando por la mañana tu misericordia y por la noche tu verdad.",
+        "Francais": "Il est bon de louer le Seigneur et de chanter votre nom, ô Très-Haut. Pour annoncer le matin votre miséricorde et votre vérité durant la nuit.",
+        "Italiano": "E’ bene rendere grazie al Signore, inneggiare al tuo nome, o Altissimo. Annunciare nel mattino il tuo amore, la tua verità nella notte.",
+        "Nederlands": "Heerlijk is het de Heer te loven, uw Naam te bezingen, o Allerhoogste. Om vroeg in de morgen uw barmhartigheid te verkondigen, en uw trouw gedurende de nacht.",
+        "Polski": "Dobrze jest wysławiać Pana i śpiewać imieniu Twemu, o Najwyższy. Głosić z rana miłosierdzie Twoje, a wierność Twoją nocami.",
+        "Portugues": "É bom louvar o Senhor e cantar o vosso nome, ó Altíssimo. Para anunciar de manhã a vossa misericórdia e de noite a vossa verdade."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus pharisǽis et scribis parábolam istam: Homo quidam hábuit duos fílios, et dixit adolescéntior ex illis patri: Pater, da mihi portiónem substántiæ, quæ me contíngit. Et divísit illis substántiam. Et non post multos dies, congregátis ómnibus, adolescéntior fílius péregre proféctus est in regiónem longínquam, et ibi dissipávit substántiam suam vivéndo luxurióse. Et postquam ómnia consummásset, facta est fames válida in regióne illa, et ipse cœpit egére. Et ábiit, et adhǽsit uni cívium regiónis illíus. Et misit illum in villam suam, ut pásceret porcos. Et cupiébat implére ventrem suum de síliquis, quas porci manducábant: et nemo illi dabat. In se autem revérsus, dixit: Quanti mercenárii in domo patris mei abúndant pánibus, ego autem hic fame péreo? Surgam, et ibo ad patrem meum, et dicam ei: Pater, peccávi in cœlum et coram te: jam non sum dignus vocári fílius tuus: fac me sicut unum de mercenáriis tuis. Et surgens venit ad patrem suum. Cum autem adhuc longe esset, vidit illum pater ipsíus, et misericórdia motus est, et accúrrens cécidit super collum ejus, et osculátus est eum. Dixítque ei fílius: Pater, peccávi in cœlum et coram te, jam non sum dignus vocári fílius tuus. Dixit autem pater ad servos suos: Cito proférte stolam primam, et indúite illum, et date ánnulum in manum ejus, et calceaménta in pedes ejus: et addúcite vítulum saginátum et occídite, et manducémus et epulémur, quia hic fílius meus mórtuus erat, et revíxit: períerat, et invéntus est. Et cœpérunt epulári. Erat autem fílius ejus sénior in agro: et cum veníret, et appropinquáret dómui, audívit symphóniam et chorum: et vocávit unum de servis, et interrogávit, quid hæc essent. Isque dixit illi: Frater tuus venit, et occídit pater tuus vítulum saginátum, quia salvum illum recépit. Indignátus est autem, et nolébat introíre. Pater ergo illíus egréssus, cœpit rogáre illum. At ille respóndens, dixit patri suo: Ecce, tot annis sérvio tibi, et numquam mandátum tuum præterívi, et numquam dedísti mihi hædum, ut cum amícis meis epulárer: sed postquam fílius tuus hic, qui devorávit substántiam suam cum meretrícibus, venit, occidísti illi vítulum saginátum. At ipse dixit illi: Fili, tu semper mecum es, et ómnia mea tua sunt: epulári autem et gaudére oportébat, quia frater tuus hic mórtuus erat, et revíxit: períerat, et invéntus est.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus spoke to the Pharisees and Scribes this parable: A certain man had two sons. And the younger of them said to his father, ‘Father, give me the share of the property that falls to me.’ And he divided his means between them. And not many days later, the younger son gathered up all his wealth, and took his journey into a far country; and there he squandered his fortune in loose living. And after he had spent all, there came a grievous famine over that country, and he began himself to suffer want. And he went and joined one of the citizens of that country, who sent him to his farm to feed swine. And he longed to fill himself with the pods that the swine were eating, but no one offered to give them to him. But when he came to himself, he said, ‘How many hired men in my father’s house have bread in abundance, while I am perishing here with hunger! I will get up and go to my father, and will say to him, Father, I have sinned against heaven and before you. I am no longer worthy to be called your son; make me as one of your hired men.’ And he arose and went to his father. But while he was yet a long way off, his father saw him and was moved with compassion, and ran and fell upon his neck and kissed him. And the son said to him, ‘Father, I have sinned against heaven and before you. I am no longer worthy to be called your son.’ But the father said to his servants, ‘Fetch quickly the best robe and put it on him, and give him a ring for his finger and sandals for his feet; and bring out the fattened calf and kill it, and let us eat and make merry; because this my son was dead, and has come to life again; he was lost, and is found. And they began to make merry. Now his elder son was in the field; and as he came and drew near to the house, he heard music and dancing. And calling one of the servants he inquired what this meant. And he said to him, ‘Your brother has come, and your father has killed the fattened calf, because he has got him back safe.’ But he was angered and would not go in. His father, therefore, came out and began to entreat him. But he answered and said to his father, ‘Behold, these many years I have been serving you, and have never transgressed one of your commands; and yet you have never given me a kid that I might make merry with my friends. But when this your son comes, who has devoured his means with harlots, you have killed for him the fattened calf.’ But he said to him, ‘Son, you are always with me, and all that is mine is yours; but we were bound to make merry and rejoice, for this your brother was dead, and has come to life; he was lost, and is found.’",
+        "Espanol": "En aquel tiempo: Dijo Jesús a los fariseos y a los escribas esta parábola: «Un hombre tenía dos hijos; el menor de ellos dijo a su padre: “Padre, dame la parte que me toca de la fortuna”. El padre les repartió los bienes. No muchos días después, el hijo menor, juntando todo lo suyo, se marchó a un país lejano, y allí derrochó su fortuna viviendo perdidamente. Cuando lo había gastado todo, vino por aquella tierra un hambre terrible, y empezó él a pasar necesidad. Fue entonces y se contrató con uno de los ciudadanos de aquel país que lo mandó a sus campos a apacentar cerdos. Deseaba saciarse de las algarrobas que comían los cerdos, pero nadie le daba nada. Recapacitando entonces, se dijo: “Cuántos jornaleros de mi padre tienen abundancia de pan, mientras yo aquí me muero de hambre. Me levantaré, me pondré en camino adonde está mi padre, y le diré: Padre, he pecado contra el cielo y contra ti; ya no merezco llamarme hijo tuyo: trátame como a uno de tus jornaleros”. Se levantó y vino adonde estaba su padre; cuando todavía estaba lejos, su padre lo vio y se le conmovieron las entrañas; y, echando a correr, se le echó al cuello y lo cubrió de besos. Su hijo le dijo: “Padre, he pecado contra el cielo y contra ti; ya no merezco llamarme hijo tuyo”. Pero el padre dijo a sus criados: “Sacad enseguida la mejor túnica y vestídsela; ponedle un anillo en la mano y sandalias en los pies; traed el ternero cebado y sacrificadlo; comamos y celebremos un banquete, porque este hijo mío estaba muerto y ha revivido; estaba perdido y lo hemos encontrado”. Y empezaron a celebrar el banquete. Su hijo mayor estaba en el campo. Cuando al volver se acercaba a la casa, oyó la música y la danza, y llamando a uno de los criados, le preguntó qué era aquello. Este le contestó: “Ha vuelto tu hermano; y tu padre ha sacrificado el ternero cebado, porque lo ha recobrado con salud”. Él se indignó y no quería entrar, pero su padre salió e intentaba persuadirlo. Entonces él respondió a su padre: “Mira: en tantos años como te sirvo, sin desobedecer nunca una orden tuya, a mí nunca me has dado un cabrito para tener un banquete con mis amigos; en cambio, cuando ha venido ese hijo tuyo que se ha comido tus bienes con malas mujeres, le matas el ternero cebado”. Él le dijo: “Hijo, tú estás siempre conmigo, y todo lo mío es tuyo; pero era preciso celebrar un banquete y alegrarse, porque este hermano tuyo estaba muerto y ha revivido; estaba perdido y lo hemos encontrado”».",
+        "Francais": "En ce temps-là, Jésus dit aux Pharisiens et aux Scribes cette parabole : Un homme avait deux fils ; et le plus jeune des deux dit à son père : Mon père, donne-moi la part de bien qui doit me revenir. Et le père leur partagea son bien. Et peu de jours après, le plus jeune fils, ayant rassemblé tout ce qu’il avait, partit pour un pays étranger et lointain, et là il dissipa son bien, en vivant dans la débauche. Et après qu’il eut tout dépensé, il survint une grande famine dans ce pays-là, et il commença à être dans le besoin. Il alla donc, et s’attacha au service d’un des habitants du pays, qui l’envoya dans sa maison des champs pour garder es pourceaux. Et il désirait remplir son ventre des gousses que les pourceaux mangeaient ; mais personne ne lui en donnait. Et étant rentré en lui-même, il dit : Combien de mercenaires, dans la maison de mon père, ont du pain en abondance, et moi je meurs ici de faim ! Je me lèverai, et j’irai vers mon père, et je lui dirai : Mon père, j’ai péché contre le ciel et contre toi ; je ne suis plus digne désormais d’être appelé ton fils, traite-moi comme l’un de tes mercenaires. Et se levant, il vint vers son père. Comme il était encore loin, son père le vit, et fut ému de compassion ; et, accourant, il se jeta à son cou, et le baisa. Et le fils lui dit : Mon père, fat péché contre le ciel et contre toi ; je ne suis plus digne d’être appelé ton fils. Alors le père dit à ses serviteurs : Vite, apportez la plus belle robe, et revêtez-l’en ; et mettez un anneau à sa main, et des chaussures à ses pieds ; puis amenez le veau gras et tuez-le ; et mangeons, et faisons bonne chère ; car mon fils que voici était mort, et il est revenu à la vie ; il était perdu, et il est retrouvé. Et ils commencèrent à faire grande chère. Cependant son fils aîné était dans les champs ; et comme il revenait et s’approchait de la maison, il entendit la musique et les danses. Et il appela un des serviteurs, et demanda ce que c’était. Celui-ci lui dit : Ton frère est revenu, et ton père a tué le veau gras, parce qu’il l’a recouvré sain et sauf. Il s’indigna, et ne voulait pas entrer. Son père sortit donc, et se mit à le prier. Mais, répondant à son père, il dit : Voilà tant d’années que je te sers, et je n’ai jamais transgressé tes ordres, et jamais tu ne m’as donné un chevreau pour faire bonne chère avec mes amis ; mais dès que cet autre fils, qui a dévoré son bien avec des femmes perdues, est revenu, tu as tué pour lui le veau gras. Alors le père lui dit : Mon fils, tu es toujours avec moi, et tout ce que j’ai est à toi : mais II fallait faire bonne chère et se réjouir, parce que ton frère que voici était mort, et qu’il est revenu à la vie parce qu’il était perdu, et qu’il est retrouvé.",
+        "Italiano": "In quel tempo Gesù disse ai Farisei e agli Scribi questa parabola: «Un uomo aveva due figliuoli, e il più giovane di essi disse al padre: “Padre, dammi la parte dei beni che mi spetta”. E divise tra loro il patrimonio. Dopo alcuni giorni, messa insieme ogni cosa, il figlio minore emigrò in lontano paese, e là scialacquò il suo, vivendo dissolutamente. E come ebbe dato fondo ad ogni cosa, venne in quel paese una grande carestia ed egli cominciò a mancare del necessario. Andò allora a servizio di uno degli abitanti del paese, che lo mandò nei suoi campi a badare ai porci. E bramava d'empire il ventre colle ghiande che mangiavano i porci, ma nessuno gliene dava. Allora rientrato in sé disse: “Quanti garzoni in casa di mio padre han pane in abbondanza, mentre io qui muoio di fame! M'alzerò, e andrò da mio padre, e gli dirò: Padre, ho peccato contro il cielo e contro di te, non son più degno d'esser chiamato tuo figlio; trattami come uno dei tuoi garzoni”. E, alzatosi, andò da suo padre. Era ancor lontano quando suo padre lo vide, e ne restò commosso, gli corse incontro e gli si gettò al collo e lo baciò. E il figlio gli disse: “Padre, ho peccato contro il cielo e contro di te; non son più degno di essere chiamato tuo figlio”. Ma il padre ordinò ai suoi servi: “Presto, portate qua la veste più bella, rivestitelo e mettetegli al dito l'anello ed ai piedi i calzari: prendete il vitello più grasso e ammazzatelo; e si mangi e si banchetti, perché questo mio figlio era morto ed è risuscitato; era perduto ed è stato ritrovato”. Così cominciarono a far grande festa. Ora il figlio maggiore era in campagna, e quando di ritorno fu vicino a casa, sentì sonare e danzare; chiamò perciò uno dei servi e gli domandò che volessero dire quelle cose. Ed egli rispose: “È tornato tuo fratello; e tuo padre ha ammazzato il vitello grasso perché lo ha riavuto sano”. Allora costui montò in collera e non voleva entrare, e suo padre dovette uscire a pregarnelo. Ma rispose al padre suo: “Ecco, da tanti anni io ti servo, e non ho mai trasgredito un tuo comando, eppure non mi hai dato neppure un capretto da godermelo cogli amici, ma appena è arrivato questo tuo figlio che ha divorato tutta la sua parte con le meretrici, hai per lui ammazzato il vitello grasso». E il padre a lui: “Figlio, tu stai sempre con me e tutto il mio è tuo; ma era giusto banchettare e far festa, perché questo tuo fratello era morto e tornò in vita, era perduto ed è stato ritrovato»».",
+        "Magyar": "Majd így folytatta: „Egy embernek volt két fia.  A fiatalabbik egyszer így szólt apjához: Apám, add ki nekem az örökség rám eső részét! Erre szétosztotta köztük vagyonát.  Nem sokkal ezután a fiatalabbik összeszedte mindenét és elment egy távoli országba. Ott léha életet élve eltékozolta vagyonát.  Amikor már mindenét elpazarolta, az országban nagy éhínség támadt, s nélkülözni kezdett.  Erre elment és elszegődött egy ottani gazdához. Az kiküldte a tanyájára a sertéseket őrizni.  Örült volna, ha éhségét azzal az eledellel csillapíthatta volna, amit a sertések ettek, de még abból sem adtak neki.  Ekkor magába szállt: Apám házában a sok napszámos bővelkedik kenyérben - mondta -, én meg éhen halok itt.  Útra kelek, hazamegyek apámhoz és megvallom: Apám, vétkeztem az ég ellen és teellened.  Arra, hogy fiadnak nevezz, már nem vagyok méltó, csak béreseid közé fogadj be.  Csakugyan útra kelt és visszatért apjához. Apja már messziről meglátta és megesett rajta a szíve. Eléje sietett, a nyakába borult és megcsókolta.  Erre a fiú megszólalt: Apám, vétkeztem az ég ellen és teellened. Már nem vagyok méltó arra, hogy fiadnak nevezz.  Az apa odaszólt a szolgáknak: Hozzátok hamar a legdrágább ruhát és adjátok rá. Az ujjára húzzatok gyűrűt, és a lábára sarut.  Vezessétek elő a hizlalt borjút, és vágjátok le. Együnk és vigadjunk,  hisz fiam halott volt és életre kelt, elveszett és megkerült. Erre vigadozni kezdtek.  Az idősebbik fiú kint volt a mezőn. Amikor hazatérőben közeledett a házhoz, meghallotta a zeneszót és a táncot.  Szólt az egyik szolgának és megkérdezte, mi történt.  Megjött az öcséd, és apád levágta a hizlalt borjút, hogy egészségben előkerült - felelte.  Erre ő megharagudott, és nem akart bemenni. Ezért az apja kijött és kérlelte.  De ő szemére vetette apjának: Látod, én annyi éve szolgálok neked és egyszer sem szegtem meg parancsodat. És nekem még egy gödölyét sem adtál soha, hogy egyet mulathassak a barátaimmal.  Most meg, hogy ez a fiad megjött, aki vagyonodat rossz nőkre pazarolta, hizlalt borjút vágattál le neki. -  Az mondta neki: Fiam, te mindig itt vagy velem, és mindenem a tied.  S illett vigadnunk és örülnünk, mert ez az öcséd halott volt és életre kelt, elveszett és megkerült.”",
+        "Nederlands": "In die tijd hield Jezus de farizeën en de schriftgeleerden deze gelijkenis voor: Een zeker iemand had twee zonen; en de jongste van hen zeide tot zijn vader: Vader, geef mij het deel van het vermogen, dat mij toekomt. En hij verdeelde onder hen zijn bezit. En enige dagen later pakte de jongste zoon alles bijeen en vertrok naar een veraf gelegen land; en daar bracht hij zijn bezit erdoor in een losbandig leven. Maar toen hij alles had opgemaakt, ontstond er in die streek een geweldige hongersnood, zodat hij gebrek begon te lijden. Daarom trad hij in dienst bij een van de burgers in die streek. En deze zond hem naar zijn landgoed om er de varkens te hoeden. En hij wilde zich gaarne te goed doen aan het voeder, dat de varkens aten; maar niemand gaf het hem. Toen keerde hij in zich zelf en dacht: Hoeveel knechten in het huis van mijn vader hebben er overvloed van brood; en ik verga hier van de honger? Ik wil opstaan en naar mijn vader gaan en hem zeggen: Vader, ik heb gezondigd tegen de hemel en tegen u; ik ben niet meer waardig uw zoon te heten; behandel mij als een van uw knechten. En hij stond op en ging naar zijn vader. En toen hij nog heel ver weg was, zag zijn vader hem reeds aankomen, en door medelijden gedreven liep hij hem tegemoet, viel hem om de hals en kuste hem. En de zoon zeide hem: Vader, ik heb gezondigd tegen de hemel en tegen u; ik ben niet meer waardig uw zoon te heten. Maar zijn vader zeide tot de bedienden: Haalt vlug het beste kleed voor de dag en trekt hem dat aan; geeft hem een ring aan de hand en schoenen aan de voeten; en haalt het gemeste kalf en slacht het; dan gaan wij eten en een feestmaal vieren; want mijn zoon hier was dood en is weer levend geworden; hij was verloren en is teruggevonden. En het feestmaal begon. Zijn oudste zoon nu was op het land; en toen hij terugkeerde en dicht bij huis kwam, hoorde hij de muziek en de reidans; en hij riep een van de bedienden en vroeg, wat er te doen was. En deze antwoordde hem: Uw broeder is teruggekomen, en uw vader heeft het gemeste kalf laten slachten, omdat hij hem behouden heeft teruggekregen. Toen werd hij verontwaardigd, en hij wilde niet binnenkomen. Daarom ging zijn vader naar buiten en begon bij hem aan te dringen. Maar hij antwoordde aan zijn vader: Zie, zoveel jaren reeds dien ik u en nooit heb ik uw bevelen overtreden; maar nog nooit hebt gij mij ook maar een bokje gegeven, om eens feest te vieren met mijn vrienden; maar nu deze zoon van u thuiskomt, die zijn bezit er doorgebracht heeft met eerloze vrouwen, nu hebt gij het gemeste kalf voor hem geslacht. Maar hij sprak tot hem: Mijn zoon, gij zijt altijd bij mij, en al het mijne is het uwe; maar er moest feest gevierd en gejubeld worden; want deze uw broeder was dood en is weer levend geworden; hij was verloren en is teruggevonden.",
+        "Polski": "Onego czasu powiedział Jezus do faryzeuszów i uczonych tę przypowieść: Pewien człowiek miał dwóch synów. I rzekł młodszy z nich ojcu: «Ojcze, daj mi część majętności, która na mnie przypada». I rozdzielił im majętność. A niedługo potem młodszy syn, zabrawszy wszystko, odjechał w daleką krainę i roztrwonił tam majętność swoją żyjąc rozpustnie. A gdy stracił wszystko, stał się głód wielki w owej krainie i sam zaczął cierpieć niedostatek. Poszedł więc i przyjął służbę u jednego z obywateli onej krainy. I posłał go do wsi swojej, aby pasł wieprze. A rad by był napełnić żołądek swój omłotem, który jadały wieprze, ale nikt mu nie dawał. Zastanowiwszy się tedy rzekł: «Iluż to najemników w domu ojca mego ma dosyć chleba, gdy ja tu głodem przymieram. Wstanę i pójdę do ojca mego, a powiem mu: Ojcze, zgrzeszyłem przeciw niebu i przeciw tobie. Już nie jestem godzien zwać się synem twoim, uczyń mię jakby jednym z najemników twoich». I powstawszy poszedł do ojca swego. A gdy był jeszcze daleko, ujrzał go ojciec jego i użalił się. I przybiegł, i rzucił się mu na szyję, a ucałował go. I rzekł mu syn: «Ojcze, zgrzeszyłem przeciw niebu i przeciw tobie, już nie jestem godzien zwać się synem twoim». Ojciec wszakże rzekł do sług swoich: «Rychło przynieście najlepszą szatę, a przyodziejcie go, dajcie też pierścień na rękę jego, a sandały na jego nogi. I przywiedźcie cielca tuczonego, i zabijcie, a jedzmy i weselmy się: albowiem ten syn mój umarł był, a ożył, zaginął był, a odnalazł się». I poczęli się weselić. A starszy syn jego był na polu. I gdy wracał, i zbliżył się do domu, posłyszał muzykę i taniec. Przywołał tedy jednego ze sług i spytał, co by to było. A ten mu rzekł: «Brat twój przybył, a ojciec twój zabił cielca tuczonego, że go zdrowym odzyskał». Oburzył się tedy i nie chciał wejść. Ale ojciec jego wyszedłszy począł go prosić. Lecz on odpowiadając rzekł ojcu swemu: «Oto przez tyle lat służę tobie i nigdym nie przestąpił rozkazu twego, a nigdyś mi nie dał koźlęcia, abym ucztował z przyjaciółmi mymi. Skoro jednak przyszedł ten syn twój, który roztrwonił z nierządnicami majętność swoją, zabiłeś mu tuczonego cielca». Ale on mu rzekł: «Synu, tyś zawsze ze mną i wszystko, to moje, twoje jest. Należało wszakże weselić się i ucztować, gdyż to jest brat twój, który umarł był, a ożył, zaginął był, a odnalazł się».",
+        "Portugues": "Naquele tempo, disse Jesus esta parábola aos fariseus e escribas: «Um homem tinha dois filhos, dos quais o mais novo disse ao pai: «Dá-me a parte da herança que me pertence». O pai dividiu, então, entre eles os seus bens. Ainda não eram passados muitos dias, o filho mais novo, tendo ajuntado tudo quanto lhe pertencia, partiu para um país estrangeiro e longínquo, onde dissipou todo seu património, vivendo dissolutamente. Depois de ter gasto tudo, houve uma grande fome naquela região, começando ele a sentir necessidades. Então, pôs-se ao serviço dum habitante daquele país, que o mandou para a sua quinta apascentar porcos. Ele bem desejava encher o estômago das landes de que comiam os porcos, mas ninguém lhas dava! Então, meditando consigo mesmo, disse: «Quantos jornaleiros em casa de meu pai têm pão com abundância, e eu aqui morro de fome! Levantar-me-ei, irei ao meu pai e dir-lhe-ei: «Pai, pequei contra o céu e contra ti; já não sou digno de ser tratado como teu filho, mas trata-me como um dos teus jornaleiros». E, levantando-se, foi para seu pai. Estando ainda longe de casa, viu-o seu pai e encheu-se de compaixão. Logo o filho correu para o pai, lançou-se-lhe ao pescoço, beijou-o e disse-lhe: «Pai, pequei contra o céu e contra ti; já não sou digno de ser chamado teu filho». Mas o pai disse a seus servos: «Trazei-me depressa o melhor vestido, e vesti-lho; colocai-lhe um anel na mão e uns sapatos nos pés; trazei também o vitelo gordo e matai-o. E comamos e alegremo-nos, porque este meu filho estava morto e reviveu; estava perdido e foi achado!». E começaram a se banquetear. Ora, o filho mais velho estava no campo; e, quando vinha e se aproximava de casa, ouviu música e danças. Chamando, pois, um dos servos, perguntou o que era aquilo. Este disse-lhe: «O teu irmão chegou; e teu pai matou o vitelo gordo, porque ele regressou são e salvo». Então, indignou-se o irmão, não querendo entrar. Mas o pai foi ao seu encontro e rogou-lhe que entrasse. Respondendo, este disse ao pai: «Eis que há tantos anos te sirvo, sem nunca ter transgredido as tuas ordens, e nunca me deste um cabrito para comer com meus amigos; porém, agora, chega este teu filho, que malbaratou a tua fazenda com as meretrizes, e mataste para ele o vitelo gordo!». O pai disse-lhe: «Filho, tu estás sempre comigo e as minhas coisas são tuas; porém, convinha fazer um banquete e alegrarmo-nos, porque este teu irmão estava morto, e reviveu; perdera-se, e foi achado»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) IL(ff)lú(fhg'/hf)mi(dgF'E)na(e.) *(,) ó(g_e)cu(ghg)los(h) me(ixhv.gih'ivG'Ff'g!hiH'Gih)os,(h.) (;) ne(jj)quán(gh)do(ff) ob(e)dór(ge/ghg)mi(gffvED)am(e_d_) (,) in(fh~) mor(h_g/jjjvG'E//g_f/ghG'FgvFE)te :(e.) (:) ne(ef!ghg)quán(gh)do(ghG'F) di(gh)cat(h/jjjvIH.) (,) in(h)i(ghg)mí(h/jjjvIH)cus(g_h) me(egF'E)us :(fff) (;) Prae(dec)vá(fv.fff)lu(dc)i(cccc_a_) (;) ad(c@f!de~)vér(eef)sus(d!ewf) e(fff/ghG'//D//fffhvGFgvFE)um.(e.) (::)",
+      "availableTranslations": {
+        "English": "Give light to my eyes that I may not sleep in death lest my enemy say, I have overcome him.",
+        "Espanol": "Alumbra mis ojos, a fin de que no duerma yo jamás el sueño de la muerte; no sea que alguna vez diga mi enemigo: He prevalecido contra él.",
+        "Francais": "Éclairez mes yeux, afin que je ne m’endorme jamais dans la mort : de peur que mon ennemi me dise : J’ai eu l’avantage contre lui.",
+        "Italiano": "Da' luce ai miei occhi, Signore, perché non mi addormenti nella morte, e così non dica il mio nemico: «Su di lui ho prevalso!».",
+        "Nederlands": "Illúmina óculos meos, ne umquam obdórmiam in morte: ne quando dicat inimícus meus: Præválui advérsus eum.",
+        "Polski": "Oświeć me oczy, bym nie zasnął w śmierci, by wróg mój nie mówił: Ja go zwyciężyłem.",
+        "Portugues": "Iluminai os meus olhos para que eu nunca adormeça na morte. Que nunca o meu inimigo diga: prevaleci contra ele."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": " His sacrifíciis, Dómine, concéde placátus: ut, qui própriis orámus absólvi delíctis, non gravémur extérnis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Appeased by these sacrificial gifts, O Lord, grant that we who pray for absolution from our own sins may not be burdened by those which are foreign to us.",
+        "Espanol": "Concédenos, Señor, aplacado con estos sacrificios, que los que te suplicamos ser absueltos de nuestros propios delitos, no carguemos con los extraños.",
+        "Francais": "Apaisés par ces sacrifices, accordez-nous, Seigneur, que priant pour obtenir le pardon de nos propres fautes, nous ne soyons pas chargés de celles qui nous sont étrangères.",
+        "Italiano": "Placato da questi doni, fa', o Signore, che pregando di essere liberati dai nostri delitti, non abbiamo ad essere onerati da quelli altrui.",
+        "Magyar": "Ez áldozati adományok által kiengesztelődve, engedd, Urunk, hogy minket, akik saját bűneink feloldozásáért könyörgünk, idegen bűn ne terheljen.",
+        "Nederlands": "Heer, laat U door dit offer verzoenen en laat ons, die tot U bidden om ontslagen te worden van onze eigen zonden, niet door die van anderen bezwaard worden. ",
+        "Polski": "Przebłagany tą ofiarą, racz sprawić, Panie, aby nie obciążały nas cudze winy, gdy prosimy o odpuszczenie własnych grzechów.",
+        "Portugues": "Deixai-Vos aplacar, Senhor, com estes sacrifícios, a fim de que nós, que Vos pedimos perdão das nossas faltas, nos não vejamos sobrecarregados com as dos outros."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) O(g)pór(j)tet(h) te(g.) *() fi(h)li(f) gau(h)dé(g.)re,(g.) (;) qui(g)a(g) fra(hj)ter(j) tu(j)us(j.) mór(j)tu(i)us(h) fú(j)e(i)rat,(g.) (,) et(h) re(f)ví(g.)xit;(g.) (;) per(h)í(j)e(i)rat,(g.) (,) et(h) in(gf~)vén(gh)tus(h) est.(g.) (::)",
+      "availableTranslations": {
+        "English": "You ought to rejoice, my son, for your brother was dead, and has come to life; he was lost, and is found.",
+        "Espanol": "Conviene, hijo, que te alegres, porque tu hermano había muerto y ha resucitado; estaba perdido y se ha hallado.",
+        "Francais": "Il faut te réjouir, mon fils, parce que ton frère était mort et qu’il est revenu à la vie ; parce qu’il était perdu, et qu’il est retrouvé.",
+        "Italiano": "Figlio, devi gioire, perché tuo fratello era morto, ed è risuscitato; s'era perduto, ed è stato ritrovato.",
+        "Nederlands": "Gij moet blij zijn, mijn zoon, want uw broeder was dood, en is weer levend geworden; hij was weg, en is weer gevonden.",
+        "Polski": "Synu, winieneś weselić się, gdyż brat twój był umarły, a ożył, zaginął był, a odnalazł się.",
+        "Portugues": "Convém que te alegres, filho, porque o teu irmão estava morto, e voltou à vida; estava perdido, e foi encontrado."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Sacraménti tui, Dómine, divína libátio, penetrália nostri cordis infúndat: et sui nos partícipes poténter effíciat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May the sacrament of which we have partaken, O Lord, penetrate the depths of our hearts and make us share in its strength.",
+        "Espanol": "Señor, que la participación de tu divino sacramento penetre lo más profundo en nuestros corazones y nos haga participar poderosamente de sus efectos saludables.",
+        "Francais": "Que la divine libation de votre sacrement pénètre, ô Seigneur, jusqu’à l’intime de notre cœur et qu’elle nous rende puissamment participants d’elle-même.",
+        "Italiano": "Questo divino sacramento, o Signore, penetri profondamente nel nostro cuore e ci faccia in abbondanza partecipi del suo frutto.",
+        "Magyar": "Szentségednek isteni lakomája árassza el, Urunk, szívünk legmélyét és tegye hathatóssá a benne való részvételünket.",
+        "Nederlands": "Laat de goddelijke voltrekking van uw geheim, o Heer, het diepste van ons hart beroeren en ons machtig in zijn kracht doen delen.",
+        "Polski": "Panie, niech sakramentalna ofiara Boskiej Krwi przeniknie do głębi nasze serca i swoją potężną mocą zjednoczy nas ze sobą.",
+        "Portugues": "Que a divina libação do vosso Sacramento, Senhor, penetre até ao íntimo do nosso coração e nos torne eficazmente participantes da sua graça."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Oratio super Populum",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus. Humiliáte cápita vestra Deo. Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut, quæ in sola spe grátiæ cœléstis innítitur, cœlésti étiam protectióne muniátur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray. Bow your heads to God. Guard Your household, we beseech You, O Lord, with lasting kindness, so that those who rely entirely upon the hope of heavenly grace may indeed be supported by heavenly protection.",
+        "Espanol": "Oremos. Humillad ante Dios vuestras cabezas. Te rogamos, Señor, nos guardes con tu piedad continua, a fin de que, como nos apoyamos en una sola esperanza de la gracia celestial, seamos también defendidos por la celestial protección.",
+        "Francais": "Prions. Humiliez vos têtes devant Dieu. Nous vous en supplions, Seigneur, gardez votre famille avec une constante bonté afin que celle qui s’appuie sur l’unique espérance de votre grâce céleste, soit toujours munie de votre protection.",
+        "Italiano": "Preghiamo. Inchinatevi davanti a Dio. Custodisci sempre, o Signore, la tua famiglia affinché essa, che si appoggia soltanto sulla speranza della tua celeste grazia, sia pure munita della tua divina protezione.",
+        "Nederlands": "Laat ons bidden. Buigt nederig uw hoofd voor God. Wij vragen U, Heer, blijf uw gezin beschermen met uw liefde, opdat het, alleen steunend op de verwachting van de hemelse genade, ook beschut mag worden door de hemelse bescherming. ",
+        "Polski": "Módlmy się. Pochylcie głowy wasze przed Bogiem. Prosimy Cię, Panie, strzeż nieustannie rodziny Twojej z ojcowską dobrocią, a ponieważ całą nadzieję pokładamy w łasce niebieskiej, niech nas chroni opieka z nieba.",
+        "Portugues": "Oremos.  Inclinai as vossas cabeças diante de Deus. Guardai, Senhor, a vossa família, Vos suplicamos, com vossa contínua bondade, a fim de que, confiando no auxílio único da graça celestial, seja sempre munida com vossa celestial protecção."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

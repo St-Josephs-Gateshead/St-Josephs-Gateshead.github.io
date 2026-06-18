@@ -1,0 +1,834 @@
+{
+  "rule": [],
+  "feast": "Feria Secunda infra Hebdomadam I in Quadragesima",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) SIc(egf)ut(f) ó(e!fwg'!hv)cu(g)li(g) *() ser(gh~)vó(h)rum(gh!ivih.0) (;) in(hg~) má(h!iwj)ni(g)bus(fgff) do(fd)mi(f)nó(e.f!gw!hvGF)rum(g) su(ghG'Fghg)ó(egff)rum :(fe..) (:) i(egf)ta(f) ó(e!fwg'!hv)cu(g)li(g) no(gh)stri(g.) (,) ad(g) Dó(gh)mi(g)num(g) De(e.f!gwh)um(h) no(g_fhvGFgvFE)strum,(e.) (;) do(e!fwg'!hv)nec(g) mi(gh)se(gh)re(g)á(g)tur(g.h!iwj) no(jvIH)bis :(h_givHGh.) (:) mi(e)se(g)ré(g)re(gh) no(h_g)bis(g_f) Dó(fg'h)mi(g)ne,(ge/ghF'EfvEDed..) (;) mi(de!f'g)se(g)ré(g)re(g) no(fhG'FgvFE)bis.(e.) (::) <i>Ps.</i> Ad(hg~) te(gh) le(h)vá(h)vi(h) ó(hg)cu(gi)los(i) me(hi)os :(h.) *(:) qui(h) há(h)bi(h)tas(gf) in(gh) cae(g)lis.(e.) (::) Gló(hg)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(gf) u(gh) a(g) e.</eu>(e.) (::)",
+      "availableTranslations": {
+        "English": "As the eyes of servants are on the hands of their masters, so are our eyes on the Lord, our God, till He have pity on us. Have pity on us, O Lord, have pity on us. To You I lift up my eyes, Who are enthroned in heaven.",
+        "Espanol": "Como los ojos de los siervos están mirando siempre las manos de sus amos, así nuestros ojos están clavados en el Señor Dios nuestro, para moverle a que se apiade de nosotros. Misericordia, Señor, ten misericordia de nosotros. A ti, Señor, que habitas en los cielos, levanté mis ojos.",
+        "Francais": "Comme les yeux des serviteurs sont fixés sur les mains de leurs maîtres, ainsi nos yeux sont tournés vers le Seigneur notre Dieu, jusqu’à ce qu’il ait pitié de nous. Ayez pitié de nous, Seigneur, ayez pitié de nous. J’ai levé les yeux vers vous, qui habitez dans les cieux.",
+        "Italiano": "Come gli occhi dei servi alle mani dei loro signori, così gli occhi nostri son rivolti al Signore, nostro Dio, finché si muova a pietà di noi; pietà di noi, Signore, pietà di noi. A te levai i miei occhi; a te che stai nei cieli.",
+        "Nederlands": "Gelijk de ogen van dienaren op de handen van hun meesters, zo zijn onze ogen gericht op de Heer, onze God, totdat Hij zich over ons ontfermt. Ontferm U over ons, o Heer, ontferm U over ons. Ik hef mijn ogen op tot U, die in de hemel woont.",
+        "Polski": "Jak oczy sług zwracają się ku rękom ich panów, tak oczy nasze ku Panu, Bogu naszemu, aż się zmiłuje nad nami. Zmiłuj się nad nami, Panie, zmiłuj się nad nami. Do Ciebie oczy me wznoszę, który mieszkasz w niebie.",
+        "Portugues": "Assim como os olhos dos escravos estão voltados para as mãos dos seus senhores, assim os nossos olhos estão voltados para o Senhor, nosso Deus, até que Ele tenha compaixão de nós. Tende compaixão de nós, Senhor, tende compaixão de nós. Levantei os olhos para Vós, que habitais nos céus."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Convérte nos, Deus, salutáris noster: et, ut nobis jejúnium quadragesimále profíciat, mentes nostras cœléstibus ínstrue disciplínis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, our Saviour, direct our minds by Your heavenly teaching, so that the Lenten fast may profit us.",
+        "Espanol": "Conviértenos, oh Dios Salvador nuestro; y para que nos aproveche el ayuno cuaresmal, ilumina nuestras almas con las instrucciones celestiales.",
+        "Francais": "Convertissez-nous, ô Dieu, notre Sauveur ; et, afin que le jeûne du Carême nous soit utile, instruisez nos âmes au moyen de célestes enseignements.",
+        "Italiano": "Convertici, o Signore Salvatore nostro; e perché il digiuno quaresimale ci torni utile, istruisci le nostre menti con le celesti Verità.",
+        "Magyar": "Változtass meg minket, üdvözítő Istenünk, és hogy a negyvennapos böjt javunkra váljék, világosítsd meg lelkünket mennyei tanításokkal.",
+        "Nederlands": "Bekeer ons, God, ons heil, en onderricht onze geest in de hemelse wijsheid, opdat de veertigdaagse vasten ons tot voordeel moge strekken.",
+        "Polski": "Nawróć nas, Boże, Zbawicielu nasz, i oświeć nasze umysły niebieską nauką, aby post czterdziestodniowy przyniósł nam pożytek.",
+        "Portugues": "Ó Deus, nosso Salvador, convertei-nos; e, para que o jejum quaresmal nos seja proveitoso, instruí as nossas almas com vossas celestiais lições."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hæc dicit Dóminus Deus: Ecce, ego ipse requíram oves meas, et visitábo eas. Sicut vísitat pastor gregem suum in die, quando fúerit in médio óvium suárum dissipatárum: sic visitábo oves meas, et liberábo eas de ómnibus locis, in quibus dispérsæ fúerant in die nubis et calíginis. Et edúcam eas de pópulis, et congregábo eas de terris, et indúcam eas in terram suam: et pascam eas in móntibus Israël, in rivis, et in cunctis sédibus terræ. In páscuis ubérrimis pascam eas, et in móntibus excélsis Israël erunt páscua eárum: ibi requiéscent in herbis viréntibus, et in páscuis pínguibus pascéntur super montes Israël. Ego pascam oves meas, et ego eas accubáre fáciam, dicit Dóminus Deus. Quod períerat, requíram; et quod abjéctum erat, redúcam; et quod confractum fúerat, alligábo; et quod infírmum fúerat, consolidábo; et quod pingue et forte, custódiam: et pascam illas in judício, dicit Dóminus omnípotens.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Thus says the Lord God: I Myself will look after and tend My sheep. As a shepherd tends his flock when he finds himself among his scattered sheep, so will I tend My sheep. I will rescue them from every place where they were scattered when it was cloudy and dark. I will lead them out from among the peoples and gather them from the foreign lands; I will bring them back to their own country and pasture them upon the mountains of Israel in the land’s ravines and all its inhabited places. In good pastures will I pasture them, and on the mountain heights of Israel shall be their grazing ground. There they shall lie down on good grazing ground, and in rich pastures shall they be pastured on the mountains of Israel. I Myself will pasture My sheep; I Myself will give them rest, says the Lord God. The lost I will seek out, the strayed I will bring back, the injured I will bind up, the sick I will heal, but the sleek and the strong I will preserve, shepherding them rightly, says the Lord almighty.",
+        "Espanol": "Así dice el Señor Dios: «Yo mismo en persona buscaré a mis ovejas, siguiendo su rastro. Como sigue el pastor el rastro de su rebaño, cuando las ovejas se le dispersan, así seguiré yo el rastro de mis ovejas y las libraré, sacándolas de todos los lugares por donde se desperdigaron un día de oscuridad y nubarrones. Las sacaré de entre los pueblos, las congregaré de los países, las traeré a su tierra, las apacentaré en los montes de Israel, en las cañadas y en los poblados del país. Las apacentaré en ricos pastizales, tendrán sus dehesas en los montes más altos de Israel; se recostarán en fértiles dehesas y pastarán pastos jugosos en los montes de Israel. Yo mismo apacentaré mis ovejas, yo mismo las haré sestear —oráculo del Señor Dios—. Buscaré las ovejas perdidas, recogeré a las descarriadas; vendaré a las heridas; curaré a las enfermas; a las gordas y fuertes las guardaré y las apacentaré como es debido».",
+        "Francais": "Ainsi parle le Seigneur Dieu : Me voici ; je veux moi-même prendre souci de mes brebis, et je les passerai en revue. Comme un pasteur passe en revue son troupeau, au jour où il se trouve au milieu de ses brebis éparses, ainsi je passerai en revue mes brebis, et je les retirerai de tous les lieux où elles ont été dispersées, en un jour de nuages et de ténèbres. Je les ferai sortir du milieu des peuples, et je les rassemblerai des divers pays ; je les ramènerai sur leur sol, et je les ferai paître sur les montagnes d’Israël, dans les vallées et dans tous les lieux habités du pays. Je les ferai paître dans de bons pâturages, et leur bercail sera sur les hautes montagnes d’Israël ; là elles reposeront dans un bon bercail, et elles paîtront dans un gras pâturage, sur les montagnes d’Israël. Moi je paîtrai mes brebis, moi, je les ferai reposer, dit le Seigneur Dieu. Je chercherai celle qui était perdue, je ramènerai celle qui était égarée, je panserai celle qui est blessée, et je fortifierai celle qui est malade ; celle qui est grasse et celle qui est forte, je la garderai ; je les paîtrai avec justice.",
+        "Italiano": "Ecco quanto dice il Signore: «Io stesso andrò in cerca delle mie pecorelle, le visiterò, come il pastore conta il suo gregge, quado si trova in mezzo alle sue pecorelle ch'eran disperse, così io conterò le mie pecorelle e le menerò via da tutti i luoghi in cui furon disperse, nel giorno dei nuvoli e della caligine. Io le porterò via di mezzo ai popoli, le unirò dalle varie regioni, le condurrò nella loro terra, le pascerò sui monti d'Israele, lungo i rivi, nei luoghi abitati del paese. Le menerò in ottimi pascoli, i loro pascoli saranno sugli alti monti d'Isràele; ivi riposeranno sulle erbette verdeggianti, si sazieranno in ubertosi pascoli, sulle montagne d'Israele. Io pascerò le mie pecorelle, io le farò riposare, dice il Signore Dio. Io andrò in cerca delle smarrite, ricondurrò le cacciate di casa, legherò le fratturate, ristorerò le deboli, terrò d'occhio quelle prosperose e robuste, e le pascerò con giustizia». Dice il Signore onnipotente.",
+        "Magyar": "Ezt mondja azért az Úr, az Isten: Nézzétek, magam gondoskodom nyájamról, és magam ügyelek rájuk.  Amint a pásztor szemlét tart nyája fölött, amikor elszéledt juhai között van, én is szemlét tartok juhaim fölött, amelyek azon a napon szétszóródtak. Visszahozom őket mindenünnen, ahová a felhő és sötétség napján szétszóródtak.  Hazahozom őket a népek közül, összegyűjtöm őket az országokból és hazavezérelem őket. Izrael hegyein legeltetem őket, a völgyekben és az ország lakott tájain.  Jó legelőre terelem majd őket, és Izrael magaslatain lesz a legelőjük. Jó legelőn pihennek majd, kövér legelőn, Izrael hegyein.  Magam terelgetem majd juhaimat és magam telepítem le őket - mondja az Úr, az Isten.  Megkeresem az elveszettet, visszaterelem az elszéledtet, bekötözöm a sérültet, ápolom a beteget, a kövér és egészséges fölött meg őrködöm. Az igazság szerint legeltetem őket.",
+        "Nederlands": "Dit zegt God, de Heer: Zie, Ik ga zelf mijn schapen zoeken en er naar omzien. Zoals een herder omziet naar zijn kudde op de dag, dat zijn schapen om hem heen zijn verstrooid, zo zal Ik omzien naar mijn schapen, en ze bevrijden uit alle plaatsen, waarheen zij op de dag van wolken en duisternis werden verstrooid. Ik zal ze wegvoeren uit de volken, en ze verzamelen uit de landen, en Ik zal ze weer terugvoeren naar haar eigen grond. Ik zal ze weiden op de bergen van Israël, in de dalen en alle bewoonbare streken van het land. Op de weligste weiden zal Ik ze laten grazen, en op de bergtoppen van Israël zal haar weide zijn. Daar zullen zij rusten in het groene gras, of op vette weiden grazen op Israëls bergen. Ik zelf zal mijn schapen weiden, en ze doen rusten, zegt God de Heer. Wat verdwaald is, zal Ik opzoeken, wat verjaagd werd, weer terugvoeren. Wat gewond is, zal Ik verbinden, en het zwakke zal Ik sterk maken. Het vette en krachtige zal Ik bewaken, en ze weiden in rechtvaardigheid. Zo spreekt de almachtige Heer.",
+        "Polski": "To mówi Pan Bóg: Oto ja sam będę szukał owiec moich i nawiedzę je. Jak nawiedza pasterz trzodę swoją w dzień, gdy bywa pośród owiec swoich rozproszonych, tak nawiedzę owce moje i wybawię je ze wszystkich miejsc, do których były rozproszone w dzień obłoku i chmury. I wywiodę je z narodów, i zgromadzę je z ziem, i przywiodę je do ziemi ich, i będę je pasł po górach izraelskich, nad strumieniami i we wszystkich osadach ziemi. Na pastwiskach najobfitszych paść je będę, a po górach wysokich izraelskich będą pastwiska ich: tam będą odpoczywać w trawach zielonych i na pastwiskach tłustych paść się będą po górach izraelskich. Ja będę pasł owce moje i ja im dam leżeć, mówi Pan Bóg. Co było zginęło, szukać będę, i co się było oderwało, przywiodę, co było połamane, zwiążę, co było chore, wzmocnię, a co tłuste i mocne, strzec będę i będę je pasł w sądzie, mówi Pan wszechmogący.",
+        "Portugues": "Assim fala o Senhor Deus: «Eis que Eu próprio procurarei as minhas ovelhas e as visitarei. Assim como um pastor, durante o dia, visita as suas ovelhas, quando está no meio delas e andam dispersas, assim visitarei as minhas ovelhas e as retirarei dos lugares por onde tinham sido dispersas, no tempo das nuvens e das tempestades. Tirá-las-ei do meio dos povos; congregá-las-ei dos diversos países; conduzi-las-ei à sua terra; e apascentá-las-ei nas montanhas de Israel, à beira dos regatos, em todos os lugares do país. Levá-las-ei a pastagens abundantíssimas; sua malhada será no cimo das montanhas de Israel, sobre a erva verdejante; e pastarão em ervas viçosas nas montanhas de Israel. Eu próprio apascentarei as minhas ovelhas e prepararei o seu repouso ao meu lado, diz o Senhor Deus. Procurarei aquela que se perdera; reconduzirei a que se desgarrara; tratarei a que se ferira; fortificarei a que enfraquecera; conservarei a que estava farta e forte; e apascentá-las-ei com justiça: diz o Senhor omnipotente»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PR{o}(d)té(ff)ctor(f) no(fgf//f'f)ster(f_d//fge'/fgd'/eddc.) <clear>*(;) á(hf/gh!jj/kjk)spi(jij)ce(h_g) De(h/jjvHF.1hvGFgf)us,(f.) (:) et(f) ré(ghghjkj)spi(ixh_i_g_!iw!jvIH'i)ce(ih..) (;) su(jk)per(j_h~) ser(ixjhi)vos(gh) tu(gf)os.(ixffh//giHF.1) (,) (fhg___jv.jjjhh//fhg/hggf.0) (z0::c3)\r\n<sp>V/</sp>. Dó(d)mi(d)ne(fe) De(eh)us(h) vir(h)tú(h)tum,(ihh'hfhv.ijh.1) (,) (hv.ijIH.ijHF.ghFD.1) (,) (fdfED//fd/ef!hh/ig/hf/hi!kkkh..) (:) ex(f)áu(hi!jvIH'/!hf/hhhi~)di(h.) (,) pre(gxfgFE.fgFD.1fvEDed)ces(d.) (;) ser(d)vó(dfE'D)rum(ef) *() tu(h)ó(hiH'Fhhh)rum.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "Behold, O God, our Protector, and look upon Your servants. O Lord God of Hosts, hear the prayers of Your servants. O Lord, deal with us not according to our sins, nor requite us according to our crimes. O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel) Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name’s sake.",
+        "Espanol": "Vuélvete a mirarnos, oh Dios protector nuestro, y pon los ojos en tus siervos. Señor Dios de las virtudes, oye las oraciones de tus siervos. Señor, no nos trates según merecen nuestros pecados, ni según nuestras culpas nos castigues. Señor, no te acuerdes de nuestras antiguas maldades: anticípense a favor nuestro cuanto antes tus misericordias; pues nos hallamos reducidos a extrema miseria. (aquí se dobla la rodilla) Ayudamos, oh Dios salvador nuestro: y por la gloria de tu nombre, líbranos, Señor, y perdona nuestros pecados, por amor a tu nombre.",
+        "Francais": "Vous qui êtes notre protecteur, regardez ô Dieu, et jetez les yeux sur vos serviteurs. Seigneur, Dieu des armées, exaucez la prière de vos serviteurs. Seigneur, ne nous traitez pas selon nos péchés, et ne nous punissez pas selon nos iniquités. Seigneur, ne vous souvenez plus de nos anciennes iniquités ; que vos miséricordes viennent en hâte au-devant de nous, car nous sommes réduits à la dernière misère. (On se met à genoux) Aidez-nous, ô Dieu notre Sauveur, et pour la gloire de votre nom, Seigneur, délivrez-nous et pardonnez-nous nos péchés, à cause de votre nom.",
+        "Italiano": "Vedi, o Dio, nostro scudo, guarda il volto dei tuoi servi. Signore, Dio degli eserciti, ascolta la preghiera dei tuoi servi. Non trattarci, Signore, secondo i nostri errori, non punirei secondo le nostre colpe. Non ricordarti con noi delle colpe antiche: presto ci venga incontro il tuo alletto, perché siamo molto deboli. (inginocchiarsi). Aiutaci, o Dio della salvezza: e per la gloria del tuo nome, liberaci, Signore: e perdona i nostri errori per amore del tuo nome.",
+        "Nederlands": "God, onze Beschermer, zie op ons neder, en sla uw ogen op uw dienaren. Heer, God der heerscharen, verhoor het gebed van uw dienaren.",
+        "Polski": "Spojrzyj, obrońco nasz, Boże, i wejrzyj na sługi Swoje. Panie, Boże Zastępów, wysłuchaj prośby sług Swoich.",
+        "Portugues": "Olhai para nós, ó Deus, nosso protector: volvei os vossos olhos para os vossos servos. Senhor, Deus dos exércitos, ouvi as súplicas dos vossos servos. O Lord, deal with us not according to our sins, nor requite us according to our crimes. Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas misericórdias, pois grande é a nossa miséria. (genuflectir) Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PR{o}(d)té(ff)ctor(f) no(fgf//f'f)ster(f_d//fge'/fgd'/eddc.) <clear>*(;) á(hf/gh!jj/kjk)spi(jij)ce(h_g) De(h/jjvHF.1hvGFgf)us,(f.) (:) et(f) ré(ghghjkj)spi(ixh_i_g_!iw!jvIH'i)ce(ih..) (;) su(jk)per(j_h~) ser(ixjhi)vos(gh) tu(gf)os.(ixffh//giHF.1) (,) (fhg___jv.jjjhh//fhg/hggf.0) (z0::c3)\r\n<sp>V/</sp>. Dó(d)mi(d)ne(fe) De(eh)us(h) vir(h)tú(h)tum,(ihh'hfhv.ijh.1) (,) (hv.ijIH.ijHF.ghFD.1) (,) (fdfED//fd/ef!hh/ig/hf/hi!kkkh..) (:) ex(f)áu(hi!jvIH'/!hf/hhhi~)di(h.) (,) pre(gxfgFE.fgFD.1fvEDed)ces(d.) (;) ser(d)vó(dfE'D)rum(ef) *() tu(h)ó(hiH'Fhhh)rum.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "Behold, O God, our Protector, and look upon Your servants. O Lord God of Hosts, hear the prayers of Your servants. O Lord, deal with us not according to our sins, nor requite us according to our crimes. O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel) Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name’s sake.",
+        "Espanol": "Vuélvete a mirarnos, oh Dios protector nuestro, y pon los ojos en tus siervos. Señor Dios de las virtudes, oye las oraciones de tus siervos. Señor, no nos trates según merecen nuestros pecados, ni según nuestras culpas nos castigues. Señor, no te acuerdes de nuestras antiguas maldades: anticípense a favor nuestro cuanto antes tus misericordias; pues nos hallamos reducidos a extrema miseria. (aquí se dobla la rodilla) Ayudamos, oh Dios salvador nuestro: y por la gloria de tu nombre, líbranos, Señor, y perdona nuestros pecados, por amor a tu nombre.",
+        "Francais": "Vous qui êtes notre protecteur, regardez ô Dieu, et jetez les yeux sur vos serviteurs. Seigneur, Dieu des armées, exaucez la prière de vos serviteurs. Seigneur, ne nous traitez pas selon nos péchés, et ne nous punissez pas selon nos iniquités. Seigneur, ne vous souvenez plus de nos anciennes iniquités ; que vos miséricordes viennent en hâte au-devant de nous, car nous sommes réduits à la dernière misère. (On se met à genoux) Aidez-nous, ô Dieu notre Sauveur, et pour la gloire de votre nom, Seigneur, délivrez-nous et pardonnez-nous nos péchés, à cause de votre nom.",
+        "Italiano": "Vedi, o Dio, nostro scudo, guarda il volto dei tuoi servi. Signore, Dio degli eserciti, ascolta la preghiera dei tuoi servi. Non trattarci, Signore, secondo i nostri errori, non punirei secondo le nostre colpe. Non ricordarti con noi delle colpe antiche: presto ci venga incontro il tuo alletto, perché siamo molto deboli. (inginocchiarsi). Aiutaci, o Dio della salvezza: e per la gloria del tuo nome, liberaci, Signore: e perdona i nostri errori per amore del tuo nome.",
+        "Nederlands": "God, onze Beschermer, zie op ons neder, en sla uw ogen op uw dienaren. Heer, God der heerscharen, verhoor het gebed van uw dienaren.",
+        "Polski": "Spojrzyj, obrońco nasz, Boże, i wejrzyj na sługi Swoje. Panie, Boże Zastępów, wysłuchaj prośby sług Swoich.",
+        "Portugues": "Olhai para nós, ó Deus, nosso protector: volvei os vossos olhos para os vossos servos. Senhor, Deus dos exércitos, ouvi as súplicas dos vossos servos. O Lord, deal with us not according to our sins, nor requite us according to our crimes. Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas misericórdias, pois grande é a nossa miséria. (genuflectir) Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) DO(f)mi(efE'C)ne,(efeffe//f!gwhghhg/h_f//ghghf.) (;) *() non(f) se(f)cún(f)dum(efE'C) pec(e.f!gwh)cá(h)ta(gf) no(g)stra,(f/gh/iffe.) (;) quæ(e) fé(gh)ci(f)mus(f_e/f!gwh'!iv) nos :(hg/hiih.0) (:) ne(e)que(gh) se(f)cún(fg~)dum(f) in(f)i(f)qui(f)tá(fg)tes(f) no(f_e/f!gwh'!iv)stras(hg/hiih.0) (;) re(ehg)trí(hihhe)bu(fgf)as(hg~) no(hvGF)bis.(fefEC//fefggf.0) (::) \r\n<sp>V/</sp>. Dó(fhg)mi(hi)ne,(ijIH'ihh'hhvGEf_e/f!gw!hvGFgf..) (;) ne(fe) me(h)mí(hi'j)ne(jvIH'GhvGF'g)ris(gf..) (;) in(f)i(f)qui(hg)tá(h)tum(f) no(f)strá(fg)rum(f.) (,) an(fg~)ti(f)quá(f!hh//hhh)rum :(fe/ggf/gh/iffe.) (:) ci(e)to(e) an(gh)tí(f)ci(f)pent(fg~) nos(f.) (,) mi(f)se(f)ri(f)cór(fg~)di(f)æ(f) tu(f_e/f!gwh'!iv)æ,(hg/hiih.0) (;) qui(h)a(h) páu(hihhg)pe(fe)res(fhg) fa(h)cti(h) su(h)mus(gh/ihi) ni(f)mis.(f/ggf.0) (::) \r\n<nlba><sp>V/</sp>. <alt> Hic genuflectitur.</alt>Ad(kxh!iwj'!kv)ju(j)va(j) nos,(j) De(ji)us</nlba>(ij..) (,) sa(h)lu(hf)tá(h)ris(hi'j) no(jvIH'GhvGF'g)ster :(gf..) (;) et(f) pro(f)pter(hg) gló(h)ri(f)am(f) nó(fg)mi(f)nis(f) tu(f)i,(fe) Dó(fg)mi(f)ne,(f.) (,) lí(f)be(f!hh//hhh)ra(fg) nos :(fe/ggf/gh/iffe.) (:) et(e) pro(e)pí(gh)ti(f)us(f) e(fg)sto(f.) (,) pec(f)cá(fg)tis(f) no(f_e/f!gwh'!iv)stris,(kxhgi.jkiih.0) (;) pro(hihhg)pter(fe~) no(fgf)men(g.) *() tu(i_hivHFg.)(,)(h!jijH'GF)um.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
+      "availableTranslations": {
+        "Nederlands": "Heer, behandel ons niet naar onze zonden, die wij bedreven, vergeld ons niet naar onze schuld. Ach, Heer, denk toch niet meer aan onze vroegere zonden. Moge uw barmhartigheid ons spoedig tegemoet treden, want wij zijn ellendig bovenmate. (Hier maakt men een kniebuiging.) Help ons, o God, onze Redder. Verlos ons, Heer, om de eer van uw Naam. Om wille van uw Naam, vergeef ons onze zonden."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus discípulis suis: Cum vénerit Fílius hóminis in majestáte sua, et omnes Angeli cum eo, tunc sedébit super sedem majestátis suæ: et congregabúntur ante eum omnes gentes, et separábit eos ab ínvicem, sicut pastor ségregat oves ab hædis: et státuet oves quidem a dextris suis, hædos autem a sinístris. Tunc dicet Rex his, qui a dextris ejus erunt: Veníte, benedícti Patris mei, possidéte parátum vobis regnum a constitutióne mundi. Esurívi enim, et dedístis mihi manducáre; sitívi, et dedístis mihi bíbere; hospes eram, et collegístis me; nudus, et cooperuístis me; infírmus, et visitástis me; in cárcere eram, et venístis ad me. Tunc respondébunt ei justi, dicéntes: Dómine, quando te vídimus esuriéntem, et pávimus te; sitiéntem, et dedimus tibi potum? quando autem te vídimus hóspitem, et collégimus te? aut nudum, et cooperúimus te? aut quando te vídimus infírmum, aut in cárcere, et vénimus ad te? Et respóndens Rex, dicet illis: Amen, dico vobis: quámdiu fecístis uni ex his frátribus meis mínimis, mihi fecístis. Tunc dicet et his, qui a sinístris erunt: Discédite a me, maledícti, in ignem ætérnum, qui parátus est diábolo et ángelis ejus. Esurívi enim, et non dedístis mihi manducáre; sitívi, et non dedístis mihi potum; hospes eram, et non collegístis me; nudus, et non cooperuístis me; infírmus et in cárcere, et non visitástis me. Tunc respondébunt ei et ipsi, dicéntes: Dómine, quando te vídimus esuriéntem, aut sitiéntem, aut hóspitem, aut nudum, aut infírmum, aut in cárcere, et non ministrávimus tibi? Tunc respondébit illis, dicens: Amen, dico vobis: Quámdiu non fecístis uni de minóribus his, nec mihi fecístis. Et ibunt hi in supplícium ætérnum: justi autem in vitam ætérnam.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus said to His disciples: When the Son of Man shall come in His majesty, and all the angels with Him, then He will sit on the throne of His glory; and before Him will be gathered all the nations, and He will separate them one from another, as the shepherd separates the sheep from the goats; and He will set the sheep on His right hand, but the goats on the left. Then the king will say to those on his right hand, ‘Come, blessed of My Father, take possession of the kingdom prepared for you from the foundation of the world; for I was hungry and you gave Me to eat; I was thirsty and you gave Me to drink; I was a stranger and you took Me in; naked and you covered Me; sick and you visited Me; I was in prison and you came to Me.’ Then the just will answer Him, saying; ‘Lord, when did we see You hungry, and feed You; or thirsty, and give you to drink? And when did we see You a stranger, and take You in; or naked, and clothe You? Or when did we see You sick, or in prison, and come to You?’ And, answering, the king will say to them, ‘Amen I say to you, as long as you did it for one of these, the least of My brethren, you did it for Me.’ Then He will say to those on His left hand, ‘Depart from Me, accursed ones, into the everlasting fire which was prepared for the devil and his angels. For I was hungry, and you did not give Me to eat; I was thirsty and you gave Me no drink; I was a stranger and you did not take Me in; naked, and you did not clothe Me; sick, and in prison, and you did not visit Me.’ Then they also will and say, ‘Lord, when did we see You hungry, or thirsty, or a stranger, or naked, or sick, or in prison, and did not minister to You?’ Then He will answer them, saying, ‘Amen I say to you, as long as you did not do it for one of these least ones, you did not do it for Me.’ And these will go into everlasting punishment, but the just into everlasting life.",
+        "Espanol": "En aquel tiempo, Jesús dijo a sus discípulos: «Cuando venga el Hijo del hombre, rodeado de su gloria, acompañado de todos sus ángeles, se sentará en su trono de gloria. Entonces serán congregadas ante él todas las naciones, y él apartará a los unos d los otros, como aparta el pastor a las ovejas de los cabritos, y pondrá a las ovejas a su derecha y a los cabritos a su izquierda. Entonces dirá el rey a los de su derecha: “Vengan, benditos de mi Padre; tomen posesión del Reino preparado para ustedes desde la creación del mundo; porque estuve hambriento y me dieron de comer, sediento y me dieron de beber, era forastero y me hospedaron, estuve desnudo y me vistieron, enfermo y me visitaron, encarcelado y fueron a verme”. Los justos le contestarán entonces: “Señor, ¿cuándo te vimos hambriento y te dimos de comer, sediento y te dimos de beber? ¿Cuándo te vimos de forastero y te hospedamos, o desnudo y te vestimos? ¿Cuándo te vimos enfermo o encarcelado y te fuimos a ver?”. Y el rey les dirá: “Yo les aseguro que, cuando lo hicieron con el más insignificante de mis hermanos, conmigo lo hicieron”. Entonces dirá también a los de su izquierda: “Apártense de mí, malditos; vayan al fuego eterno, preparado para el diablo y sus ángeles; porque estuve hambriento y no me dieron de comer, sediento y no me dieron de beber, era forastero y no me hospedaron, estuve desnudo y no me vistieron, enfermo y encarcelado y no me visitaron”. Entonces ellos le responderán: “Señor, ¿cuándo te vimos hambriento o sediento, de forastero o desnudo, enfermo o encarcelado y no te asistimos?”. Y él les replicará: “Yo les aseguro que, cuando no lo hicieron con uno de aquellos más insignificantes, tampoco lo hicieron conmigo”. Entonces irán estos al castigo eterno y los justos a la vida eterna».",
+        "Francais": "En ce temps-là, Jésus dit à ses disciples : Quand le Fils de l’homme viendra dans sa gloire, et tous les anges avec lui, il s’assiéra alors sur son trône de gloire, et toutes les nations seront rassemblées devant lui, et il séparera les uns d’avec les autres, comme le pasteur sépare les brebis d’avec les boucs, et il mettra les brebis à sa droite et les boucs à sa gauche. Alors le Roi dira à ceux qui seront à sa droite : « Venez, les bénis de mon Père : prenez possession du royaume qui vous a été préparé dès la création du monde. Car j’ai eu faim, et vous m’avez donné à manger ; j’ai eu soif, et vous m’avez donné à boire ; j’étais étranger, et vous m’avez recueilli ; nu, et vous m’avez vêtu ; j’ai été malade, et vous m’avez visité ; j’étais en prison, et vous êtes venus à moi. » Alors les justes lui répondront : « Seigneur, quand vous avons-nous vu avoir faim, et vous avons-nous donné à manger ; avoir soif, et vous avons-nous donné à boire ? Quand vous avons-nous vu étranger, et vous avons-nous recueilli ; nu, et vous avons-nous vêtu ? Quand vous avons-nous vu malade ou en prison, et sommes-nous venus à vous ? » Et le Roi leur répondra : « En vérité, je vous le dis, chaque fois que vous l’avez fait à l’un de ces plus petits de mes frères, c’est à moi que vous l’avez fait. » Alors il dira aussi à ceux qui seront à sa gauche : « Allez-vous-en loin de moi, les maudits, au feu éternel, qui a été préparé pour le diable et pour ses anges. Car j’ai eu faim, et vous ne m’avez pas donné à manger ; j’ai eu soif, et vous ne m’avez pas donné à boire ; j’étais étranger, et vous ne m’avez pas recueilli ; nu, et vous ne m’avez pas vêtu ; malade et en prison, et vous ne m’avez pas visité. » Alors eux aussi lui répondront : « Seigneur, quand vous avons-nous vu avoir faim, ou avoir soif, ou étranger, ou nu, ou malade, ou en prison, et ne vous avons-nous pas assisté ? » Alors il leur répondra : « En vérité, je vous le dis, chaque fois que vous ne l’avez pas fait à l’un de ces plus petits, c’est à moi que vous ne l’avez pas fait. » Et ceux-ci s’en iront au supplice éternel, et les justes à la vie éternelle.",
+        "Italiano": "In quel tempo Gesù disse ai suoi discepoli: «Quando verrà il Figlio dell'uomo nella sua maestà, con tutti i suoi Angeli, allora sederà sul suo trono glorioso. Saranno adunate dinanzi a lui tutte le genti, e separerà gli uni dagli altri, come il pastore separa le pecore dai capri; e metterà le pecore alla sua destra e i capretti alla sinistra. Allora il Re dirà a quelli che saranno alla sua destra: “Venite, benedetti dal Padre mio, prendete possesso del regno che vi è stato preparato sin dalla creazione del mondo. Perché ebbi fame e mi deste da mangiare; ebbi sete e mi deste da bere; fui pellegrino e mi albergaste; ignudo e mi rivestiste; infermo e mi visitaste; carcerato e veniste a trovarmi”. Allora i giusti gli risponderanno: “Signore, quando mai ti vedemmo affamato e ti abbiamo dato da mangiare, assetato e ti abbiamo dato da bere? Quando ti vedemmo pellegrino e ti abbiamo accolto, ignudo e ti abbiamo rivestito? Quando ti vedemmo infermo e carcerato, e siam venuti a visitarti?”. E il Re risponderà loro: “In verità vi dico: quando ciò faceste ad uno dei più piccoli fra questi miei fratelli, l'avete fatto a me”. Allora si volgerà anche a quelli che sono a sinistra e dirà: “Andate via da me, maledetti, nel fuoco eterno, preparato pel diavolo e per gli angeli suoi. Perché ebbi fame e non mi deste da mangiare, ebbi sete e non mi deste da bere; fui pellegrino e non mi albergaste; ignudo e non mi rivestiste; infermo e carcerato, e non mi visitaste”. E anche questi gli risponderanno: “Signore, quando mai ti abbiamo visto affamato o sitibondo, o pellegrino, o ignudo, o infermo, o carcerato, e non t'abbiamo assistito?”. Allora egli risponderà: “In verità vi dico: quando ciò non faceste ad uno dei più piccoli fra questi, non l'avete fatto a me”. E andranno costoro al supplizio eterno, e i giusti alla vita eterna».",
+        "Magyar": "Amikor eljön dicsőségében az Emberfia és vele minden angyal, helyet foglal fönséges trónján.  Elébe gyűlnek mind a nemzetek, ő pedig különválasztja őket egymástól, ahogy a pásztor különválasztja a juhokat a kosoktól.  A juhokat jobbjára állítja, a kosokat pedig baljára.  Aztán így szól a király a jobbján állókhoz: Jöjjetek, Atyám áldottai, vegyétek birtokba a világ kezdetétől nektek készített országot!  Éhes voltam, és adtatok ennem. Szomjas voltam, és adtatok innom. Idegen voltam, és befogadtatok.  Nem volt ruhám, és felruháztatok. Beteg voltam, és meglátogattatok. Börtönben voltam, és fölkerestetek.  Erre megkérdezik az igazak: Uram, mikor láttunk éhesen, hogy enned adtunk volna, vagy szomjasan, hogy innod adtunk volna?  Mikor láttunk idegenként, hogy befogadtunk volna?  Mikor láttunk betegen vagy börtönben, hogy meglátogathattunk volna?  A király így felel: Bizony mondom nektek, amit e legkisebb testvéreim közül eggyel is tettetek, velem tettétek.  Ezután a balján állókhoz is szól: Távozzatok színem elől, ti átkozottak, az örök tűzre, amely a sátánnak és angyalainak készült.  Mert éhes voltam, s nem adtatok ennem. Szomjas voltam, s nem adtatok innom.  Idegen voltam, s nem fogadtatok be. Nem volt ruhám, s nem ruháztatok fel. Beteg és fogoly voltam, s nem jöttetek el meglátogatni.  Ekkor ezek is megkérdezik: Uram, mikor láttunk éhesen vagy szomjasan, idegenként vagy ruhátlanul, betegen vagy börtönben, s nem voltunk szolgálatodra?  Erre majd ezt feleli: Bizony mondom nektek, amit a legkisebbek valamelyikével nem tettetek, velem nem tettétek.  Ezek örök büntetésre mennek, az igazak meg örök életre.”",
+        "Nederlands": "In die tijd sprak Jezus tot zijn leerlingen: Als de Mensenzoon verschijnt in zijn majesteit en al zijn engelen met Hem, dan zal Hij plaatsnemen op de troon zijner glorie, en alle volkeren zullen voor Hem verzameld worden, en Hij zal ze van elkander scheiden, zoals de herder scheiding maakt tussen de schapen en de bokken; en de schapen zal Hij plaatsen aan zijn rechterhand en de bokken aan zijn linker. Dan zal de Koning spreken tot hen, die staan aan zijn rechterhand: Komt, gezegenden mijns Vaders, neemt bezit van het rijk, dat voor u bereid is van de grondvesting der wereld af. Want Ik had honger, en gij hebt Mij te eten gegeven; Ik had dorst, en gij hebt Mij te drinken gegeven; Ik was zonder onderdak, en gij hebt Mij opgenomen; Ik was naakt, en gij hebt Mij gekleed; Ik was ziek, en gij hebt Mij bezocht; Ik was in de gevangenis, en gij zijt Mij komen bezoeken. Dan zullen de rechtvaardigen Hem antwoorden en zeggen: Heer, wanneer hebben wij U hongerig gezien, en hebben wij U te eten gegeven; of dorstig, en hebben wij U te drinken gegeven; of wanneer zagen wij U zonder onderdak, en hebben wij U opgenomen; of naakt, en hebben wij U gekleed; of wanneer hebben wij U ziek gezien of in de gevangenis, en hebben wij U bezocht? En de Koning zal hun ten antwoord geven: Voorwaar Ik zeg u: zo dikwijls gij het gedaan hebt aan één van deze mijn geringste broeders, hebt gij het gedaan aan Mij. Dan zal Hij ook spreken tot hen, die staan aan zijn linkerhand: Gaat weg van Mij, vervloekten, in het eeuwige vuur, dat bereid is voor de duivel en voor zijn engelen. Want Ik had honger, en gij hebt Mij niet te eten gegeven; Ik had dorst, en gij hebt me niet te drinken gegeven; Ik was zonder onderdak, en gij hebt Mij niet opgenomen; Ik was naakt, en gij hebt Mij niet gekleed; Ik was ziek en in de gevangenis, en gij hebt Mij niet bezocht. Dan zullen ook dezen Hem antwoorden en zeggen: Wanneer hebben wij U hongerig gezien of dorstig, of zonder onderdak of naakt, of ziek of in de gevangenis, en hebben wij U niet geholpen? Dan zal Ik hun ten antwoord geven: Voorwaar Ik zeg u: zo dikwijls gij het niet gedaan hebt aan één van deze kleinen, hebt gij het niet gedaan aan Mij. En dezen zullen heengaan naar de eeuwige straf, de rechtvaardigen echter naar het eeuwige leven.",
+        "Polski": "Onego czasu rzekł Jezus uczniom swoim: Gdy przyjdzie Syn Człowieczy w majestacie swoim i wszyscy Aniołowie z nim, wtedy zasiądzie na stolicy majestatu swego. I zgromadzą się przed Nim wszystkie narody, i odłączy jedne od drugich, jako pasterz odłącza owce od kozłów. I postawi owce po prawicy swojej, a kozły po lewicy. Wtedy rzecze król tym, którzy będą po prawicy jego: «Pójdźcie, błogosławieni Ojca mego, i posiądźcie Królestwo zgotowane wam od założenia świata. Albowiem łaknąłem, a nakarmiliście mię; pragnąłem, a daliście mi pić; gościem byłem, a przyjęliście mnie, nagim, a przyodzialiście mię, chorym, a nawiedziliście mię, więźniem, a przyszliście do mnie». Wtedy sprawiedliwi odpowiedzą mu mówiąc: «Panie, kiedyśmy cię widzieli łaknącym, a nakarmiliśmy cię; pragnącym, a daliśmy ci pić? Kiedyż to widzieliśmy cię gościem, a przyjęliśmy cię, albo nagim i przyodzialiśmy ciebie? Kiedyśmy cię widzieli chorym albo więźniem, a nawiedziliśmy ciebie?» A odpowiadając król rzecze im: «Zaprawdę powiadam wam, coście uczynili jednemu z tych moich braci najmniejszych, mnieście uczynili». Wtedy rzecze i tym, którzy będą po lewicy: «Idźcie precz ode mnie, przeklęci, w ogień wieczny, który zgotowany jest diabłu i aniołom jego. Albowiem łaknąłem, a nie nakarmiliście mię; pragnąłem, a nie daliście mi pić; byłem gościem, a nie przyjęliście mnie; nagim, a nie przyodzialiście mnie; chorym i więźniem, a nie nawiedziliście mnie».  Wtedy odpowiedzą mu oni: «Panie, kiedyśmy cię widzieli pragnącym albo łaknącym, gościem albo nagim, chorym albo więźniem, a nie usłużyliśmy tobie?» Wtedy odpowie im mówiąc: «Zaprawdę powiadam wam, czegokolwiek nie uczyniliście jednemu z tych najmniejszych, mnie nie uczyniliście». I pójdą ci na mękę wieczną, a sprawiedliwi do żywota wiecznego.",
+        "Portugues": "Naquele tempo, disse Jesus aos seus discípulos: «Quando o Filho do homem vier na sua majestade, acompanhado com os Anjos, sentar-se-á no trono da sua glória. Então, serão chamados à sua presença todos os povos e separados uns dos outros, como o pastor separa as ovelhas dos cabritos, e colocará as ovelhas à sua direita e os Cabritos à sua esquerda. E o Rei dirá aos que estão à direita: «Vinde, benditos de meu Pai, possuir o reino, que vos está preparado desde o princípio do mundo; porque tive fome, e destes-me de comer; tive sede, e destes-me de beber; estava sem asilo, e destes-me hospedagem; estava nu, e vestistes-me; enfermo, e visitastes-me; preso, e viestes ter comigo». Então, os justos lhe darão esta resposta: «Senhor, quando foi que Vos vimos com fome, e Vos demos de comer; com sede, e Vos demos de beber? Quando foi que Vos vimos sem casa, e Vos recolhemos em nossa casa; nu, e Vos vestimos? Quando Vos encontrámos doente ou na prisão, e fomos visitar-Vos?». E o Rei lhes responderá: «Na verdade vos digo: todas as vezes que fizestes isto a algum dos meus irmãos fizeste-lo a mim mesmo». Em seguida o Rei dirá aos que estão à sua esquerda: «Afastai-vos de mim, malditos, ide para o fogo do inferno, que foi preparado para o demónio e para os seus anjos; pois tive fome, e me não destes de comer; tive sede, e me não destes de beber; era hóspede, e me não recolhestes; estava nu, e me não vestistes; estava doente e preso, e me não visitastes». Então, eles responderão: «Senhor, quando foi que Vos vimos faminto ou sequioso, hóspede, nu, doente ou preso, e não Vos servimos?». Ele lhes responderá: «Em verdade vos digo: quando não fizestes isto mesmo a um dos mais pequenos, o não fizestes a mim mesmo». E estes irão para o suplício eterno, e os justos para a vida eterna»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) LE(df)vá(fg/h_g)bo(g.) *(,) ó(gh)cu(g)los(g) me(g)os,(gv.ffffg..) (;) et(d) con(fhg)si(h)de(gf)rá(fg!hvhg)bo(hggf.0) (,) mi(g)ra(h)bí(jij)li(hg)a(g) tu(ghf)a,(g./jjvIH'iw!jvIH) Dó(hg)mi(gh/jhi)ne,(hg..) (:) ut(fg) dó(g_jj'1jj/kl)ce(j.h!iwj/kj)as(jjjvH'G/{ix}F0'gwh!iv_H~G~) me(hg..) (;) ju(g)stí(hjg/hg)ti(fg)am(g/jji) tu(jkj'/ki'jvH'GF'gwhgh)am :(hjhhf.) (:) da(d!ewf'!gv) mi(gh!ivHG'h)hi(h_g) in(gih'/ig)tel(gf~)lé(fg/hgh)ctum,(h.0/jvvHG.) (;) ut(gf~) di(fv.fff//fgfg)scam(d/fge/fgD'Cd.) (,) man(cd)dá(f!gwh_ghvGF)ta(g./jjvIH'iw!jvIH) tu(gh/jhi)a.(hg..) (::)",
+      "availableTranslations": {
+        "English": "I will lift up my eyes, that I may consider Your wonders, O Lord; teach me Your statutes; give me discernment that I may learn Your commands.",
+        "Espanol": "Levantaré mis ojos, y consideraré tus obras maravillosas, Señor, para que me enseñes tus justicias; dame inteligencia, y aprenderé tus mandamientos.",
+        "Francais": "Je lèverai les yeux, et je considérerai vos merveilles, Seigneur, afin que vous m’enseigniez vos préceptes. Donnez-moi l’intelligence afin que j’apprenne vos commandements.",
+        "Italiano": "Alzerò i miei occhi a considerare le tue meraviglie, o Signore; affinché mi insegni i tuoi precetti; dammi intelletto per capire i tuoi ammaestramenti.",
+        "Nederlands": "Ik zal mijn ogen opheffen en uw wonderwerken gadeslaan, o Heer, opdat Gij mij onderricht in uw gerechtigheid. Geef mij inzicht om uw geboden te kennen.",
+        "Polski": "Podniosę oczy moje i będę rozważał, Panie, dziwy Twoje. Naucz mnie Twego prawa, daj mi rozum, abym poznał Twoje przykazania.",
+        "Portugues": "Erguerei a Vós os meus olhos, Senhor, e considerarei as vossas maravilhas, para que me ensineis as vossas leis. Dai-me inteligência, e aprenderei os vossos Mandamentos."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Múnera tibi, Dómine, obláta sanctífica: nosque a peccatórum nostrórum máculis emúnda.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Sanctify the gifts offered unto You, O Lord, and cleanse us from the stains of our sins.",
+        "Espanol": "Santifica, oh Señor, los dones ofrecidos, y purifícanos de las manchas de nuestros pecados.",
+        "Francais": "Sanctifiez ces dons qui vous sont offerts, Seigneur, et purifiez-nous des souillures de nos péchés.",
+        "Italiano": "Santifica, Signore, i doni offerti e mondaci dalle macchie delle nostre colpe.",
+        "Magyar": "Szenteld meg, Urunk, a neked hozott adományokat és bűneink szennyétől tisztíts meg minket.",
+        "Nederlands": "Heilig, Heer, de gaven, die wij U opdragen en zuiver ons van de smetten van onze zonden.",
+        "Polski": "Uświęć, Panie, złożone Ci dary i oczyść nas ze zmazy naszych grzechów.",
+        "Portugues": "Santificai, Senhor, estes dons que Vos oferecemos, e purificai-nos das manchas dos nossos pecados."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) A(d!ewfe)men(fgf) *() di(f)co(fe) vo(gffvED)bis :(d!ewf.) (;) quod(fd) u(ixf!gwh'!iv)ni(h) ex(h) mí(hj)ni(h)mis(g) me(h)is(g) fe(fe)cí(fg)stis,(g.) (,) mi(h)hi(f) fe(fe)cí(de)stis :(d.) (:) ve(f)ní(gh)te(hf) be(ixh)ne(i)dí(j)cti(h) Pa(jk)tris(j) me(ixhi)i,(h_i) (;) pos(g)si(f)dé(ixhi)te(h_i) prae(f)pa(g)rá(hj)tum(j) vo(j)bis(jh) re(ixi)gnum(g.) (;) ab(g) in(ge)í(gh)ti(gh)o(g) saé(e)cu(egff)li.(fe..) (::)",
+      "availableTranslations": {
+        "English": "Amen I say to you: What you did for one of these, the least of My brethren, you did for Me: come, blessed of My Father, take possession of the kingdom prepared for you from the foundation of the world.",
+        "Espanol": "En verdad os digo que siempre que lo hicisteis con alguno de estos mis más pequeños hermanos, conmigo lo hicisteis. Venid, benditos de mi Padre, a tomar posesión del reino que os esta preparado desde el principio del mundo.",
+        "Francais": "En vérité, je vous le dis : ce que vous avez fait au moindre d’entre mes frères, c’est à moi que vous l’avez fait. Venez les bénis de mon Père ; possédez le royaume qui vous a été préparé dès l’origine du monde.",
+        "Italiano": "In verità vi dico, ciò che faceste ad uno dei miei più piccoli, lo faceste a me stesso; venite, benedetti dal Padre mio, possedete il regno che vi è stato preparato dal principio del mondo.",
+        "Nederlands": "Voorwaar Ik zeg u: wat gij een van de minsten der mijnen hebt gedaan, hebt ge aan Mij gedaan. Komt, gezegenden van mijn Vader, neemt bezit van het rijk, dat van het begin der wereld voor u is bereid.",
+        "Polski": "Zaprawdę powiadam wam, coście uczynili jednemu z tych moich braci najmniejszych, mnieście uczynili. Pójdźcie, błogosławieni Ojca mego, i posiądźcie Królestwo przygotowane dla was od założenia świata.",
+        "Portugues": "Em verdade vos digo: todas as vezes que fizestes isto ao mais pequeno de meus irmãos, a mim mesmo o fizestes. Vinde, benditos de meu Pai, possuir o reino preparado para vós desde o princípio do mundo."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Salutáris tui, Dómine, múnere satiáti, súpplices exorámus: ut, cujus lætámur gustu, renovémur efféctu.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Refreshed by the sacramental gift of Your salvation, we humbly beseech You, O Lord, that, enjoying its savor, we may be made new by its action.",
+        "Espanol": "Alimentados, oh Señor, con tu don saludable, te suplicamos humildemente que nos renovemos por efecto del alimento que con su gusto nos deleita.",
+        "Francais": "L’âme rassasiée par votre don salutaire, nous vous demandons instamment, Seigneur, que nous soyons transformés par son action après nous être réjouis en le goûtant.",
+        "Italiano": "Nutriti di dono salutare ti preghiamo, o Signore, che siamo rinnovati dal mistero, che soavemente ci allieta.",
+        "Magyar": "Üdvöt szerző adományoddal betöltve, könyörögve kérünk, Urunk, hogy aminke megízlelésében gyönyörködünk, annak hatása által megújuljunk.",
+        "Nederlands": "Verzadigd met uw heilsgave, bidden wij U ootmoedig, o Heer, dat wij, die er vol vreugde van geproefd hebben, door de uitwerking ervan vernieuwd mogen worden.",
+        "Polski": "Nasyceni zbawiennym darem, pokornie prosimy Cię, Panie, abyśmy ciesząc się jego pożywaniem zostali odnowieni jego mocą. ",
+        "Portugues": "Agora, que fomos alimentados com vosso dom salutar, Vos suplicamos, Senhor, que, assim como tivemos a alegria de o receber, assim sejamos renovados com seus efeitos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Oratio super Populum",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus. Humiliáte cápita vestra Deo. Absólve, quǽsumus, Dómine, nostrórum víncula peccatórum: et, quidquid pro eis merémur, propitiátus avérte.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.  Bow your heads to God.  Loose the bonds of our sins, we beseech You, O Lord, and mercifully turn aside whatever punishment we deserve for them.",
+        "Espanol": "Oremos. Humillad ante Dios vuestras cabezas.  Te suplicamos, Señor, que rompas las cadenas de nuestros pecados y que apartes propicio de nosotros el castigo que por ellos merecemos.",
+        "Francais": "Prions. Humiliez vos têtes devant Dieu. Nous vous en supplions, Seigneur, brisez les liens dont nous charge nos fautes, et détournez miséricordieusement de nous ce que nous avons mérité pour elles.",
+        "Italiano": "Preghiamo. Inchinatevi davanti a Dio. Sciogli, te ne preghiamo, o Signore, i lacci di nostri peccati; e da noi tieni lontano quanto in causa di essi meritiamo.",
+        "Nederlands": "Laat ons bidden. Buigt nederig uw hoofd voor God. Wij vragen U, Heer, verbreek de boeien van onze zonden en keer in uw goedheid van ons af wat wij ervoor verdienen.",
+        "Polski": "Módlmy się. Pochylcie głowy wasze przed Bogiem. Rozwiąż, prosimy Cię, Panie, więzy naszych grzechów i odwróć łaskawie karę, na którą przez nie zasłużyliśmy.",
+        "Portugues": "Oremos.  Inclinai as vossas cabeças diante de Deus. Absolvei-nos, Senhor, Vos suplicamos, dos laços dos nossos pecados, e afastai propício os castigos que merecemos por causa deles."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

@@ -1,0 +1,794 @@
+{
+  "rule": [],
+  "feast": "Feria Tertia infra Hebdomadam IV in Quadragesima",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) EX(f)áu(f)di(e) De(f)us(e.) *(,) o(e)ra(d)ti(fh)ó(hvGF)nem(hh) me(hi!jvIH'i)am,(ih..) (;) et(hf~) ne(h) de(i)spé(j)xe(i)ris(h.) (,) de(h)pre(h)ca(h)ti(h)ó(hvGF')nem(f) me(efED'e)am :(ed..) (:) in(f)tén(fe~)de(e!gwh) in(fe~) me,(efED.) (;) et(de'f) ex(f_e)áu(f!gw!hvG'FE'gxfw!gvFE)di(de!fvED'e) me.(ed..) (::) <i>Ps.</i> Con(d)tri(f)stá(h)tus(h) sum(h) in(h) ex(h)er(h)ci(h)ta(h)ti(h)ó(h)ne(i) me(i)a :(h.) *(:) et(f) con(h)tur(h)bá(h)tus(h) sum(h) a(h) vo(h)ce(h) in(h)i(h)mí(h)ci,(h.) (,) et(h) a(h) tri(h)bu(h)la(h)ti(h)ó(h)ne(h) pec(i)ca(g)tó(h)ris.(f.) (::) Gló(d)ri(f)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(i) u(g) a(h) e.</eu>(f.) (::)",
+      "availableTranslations": {
+        "English": "Hearken, O God, to my prayer; turn not away from my pleading; give heed to me, and answer me. I rock with grief, and am troubled at the voice of the enemy and the clamor of the wicked.",
+        "Espanol": "Oye benigno, oh Dios, mi oración y no desprecies mí humilde suplica: atiende a mi ruego y escúchame. Me he entristecido en mis trabajos y la turbación se ha apoderado de mí, a la voz del enemigo y delante de la opresión del pecado.",
+        "Francais": "Exaucez, ô Dieu, ma prière, et ne méprisez pas ma supplication ; écoutez-moi et exaucez-moi. J’ai été rempli de tristesse dans mon épreuve, et le trouble m’a saisi à la voix de l’ennemi, et devant l’oppression du pécheur.",
+        "Italiano": "Esaudisci, o Signore, la mia prece; non disprezzare la mia supplica. Voltati verso di me, ed ascoltami. Me ne vado attorno gemente, per le minacce del nemico e l'oppressione dell'iniquo.",
+        "Nederlands": "Verhoor mijn gebed, o God, en wend U niet af van mijn smeken. Geef acht op mij en verhoor mij.  Ik ben droef te moede door mijn sombere gedachten. Ik sidder voor de kreten van de vijand en de kwelling van de boze.",
+        "Polski": "Boże, usłysz modlitwę moją i nie odsuwaj się od mojej prośby: zwróć się ku mnie i wysłuchaj mnie. W ucisku moim się miotam, na głos nieprzyjaciela się burzę i na wołanie grzesznika.",
+        "Portugues": "Ouvi, ó Deus, a minha oração e não desprezeis a minha súplica! Atendei-me e escutai-me. Estou amargurado, por causa do sofrimento que me aflige! Estou perturbado, porque ouço a voz do meu inimigo e sinto a perseguição do homem pecador!"
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Sacræ nobis, quǽsumus, Dómine, observatiónis jejúnia: et piæ conversatiónis augméntum, et tuæ propitiatiónis contínuum præstent auxílium.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May the sacred practice of fasting, we beseech You, O Lord, win for us increased holiness of life and the continuing help of Your mercy.",
+        "Espanol": "Te suplicamos, Señor, que los ayunos de este santo tiempo nos sirvan para aumentar nuestra piedad y para alcanzar el auxilio continuo de tu misericordia.",
+        "Francais": "Daignez faire, Seigneur, que les jeûnes que nous observons dans ce saint temps, nous aident à avancer dans la piété et nous procurent la continuelle assistance de votre miséricorde.",
+        "Italiano": "O Signore, i digiuni di questo sacro tempo ci portino aumento della pietà, e costante aiuto della tua bontà.",
+        "Nederlands": "Wij vragen U, Heer, moge het vasten in deze heilige boetetijd ons tot een heiliger leven brengen en steeds opnieuw de hulp van uw barmhartigheid verlenen.",
+        "Polski": "Prosimy Cię, Panie, niech wierne zachowanie Wielkiego Postu wyjedna nam postęp w pobożnym życiu i stałą pomoc Twojego miłosierdzia.",
+        "Portugues": "Que esta nossa santa observância dos jejuns, Senhor, Vos rogamos, nos alcance o progresso na vida piedosa e e contínuo auxílio da vossa misericórdia."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Locútus est Dóminus ad Móysen, dicens: Descénde de monte: peccávit pópulus tuus, quem eduxísti de terra Ægýpti. Recessérunt cito de via, quam ostendísti eis: fecerúntque sibi vítulum conflátilem, et adoravérunt, atque immolántes ei hóstias, dixérunt: Isti sunt dii tui, Israël, qui te eduxérunt de terra Ægýpti. Rursúmque ait Dóminus ad Móysen: Cerno, quod pópulus iste duræ cervícis sit: dimítte me, ut irascátur furor meus contra eos, et déleam eos, faciámque te in gentem magnam. Móyses autem orábat Dóminum, Deum suum, dicens: Cur, Dómine, iráscitur furor tuus contra pópulum tuum, quem eduxísti de terra Ægýpti in fortitúdine magna et in manu robústa? Ne quæro dicant Ægýptii: Cállide edúxit eos, ut interfíceret in móntibus et deléret e terra: quiéscat ira tua, et esto placábilis super nequítia pópuli tui. Recordáre Abraham, Isaac et Israël, servórum tuórum, quibus jurásti per temetípsum, dicens: Multiplicábo semen vestrum sicut stellas cœli: et univérsam terram hanc, de qua locútus sum, dabo sémini vestro, et possidébitis eam semper. Placatúsque est Dóminus, ne fáceret malum, quod locútus fúerat advérsus pópulum suum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, the Lord said to Moses, Go down from the mountain to your people, whom you brought out of the land of Egypt, for they have become depraved. They have soon turned aside from the way I pointed out to them, making for themselves a molten calf and worshipping it, sacrificing to it and crying out, ‘This is your God, O Israel, Who brought you out of the land of Egypt!’ I see how stiff-necked this people is, continued the Lord to Moses. Let Me alone, then, that My wrath may blaze up against them to consume them. Then I will make of you a great nation. But Moses implored the Lord, his God, saying, Why, O Lord, should Your wrath blaze up against Your own people, whom You brought out of the land of Egypt with such great power and with so strong a hand? Why should the Egyptians say, ‘With evil intent He brought them out, that He might kill them in the mountains and exterminate them from the face of the earth’? Let Your blazing wrath die down; relent in punishing Your people. Remember Your servants Abraham, Isaac and Israel, and how You swore to them by Your own self, saying, ‘I will make your descendants as numerous as the stars in the sky; and all this land that I promised, I will give your descendants as their perpetual heritage.’ So the Lord relented in the punishment He had threatened to inflict on His people.",
+        "Espanol": "Y el Señor habló a Moisés, diciendo: Anda, baja; pecado ha tu pueblo, que sacaste de la tierra de Egipto. Pronto se han desviado del camino que les enseñaste; se han formado un becerro de fundición y adorándole; y sacrificándole víctimas, han dicho: Estos son tus dioses, ¡oh Israel!, que te han sacado de la tierra de Egipto. Y añadió el Señor a Moisés: Veo que ese pueblo es de dura cerviz. Déjame desahogar mi indignación contra ellos, y acabarlos; que yo te haré a ti caudillo de una nación grande. Moisés rogaba al Señor Dios suyo, diciendo: ¿Por qué, oh Señor, se enardece así tu furor contra el pueblo tuyo, que tú sacaste de la tierra de Egipto con fortaleza grande y mano poderosa? ¡Ah! que no digan, te ruego, jamás los egipcios: Los saco maliciosamente fuera de Egipto para matarlos en los montes y exterminarlos de la tierra. Apláquese tu ira, y perdona la maldad de tu pueblo. Acuérdate de Abrahán, de Isaac y de Israel, tus siervos, a los cuales por ti mismo juraste, diciendo: Multiplicaré vuestra descendencia como las estrellas del cielo; y toda esta tierra de que os tengo hablado, se la daré a vuestra posteridad, y la poseeréis para siempre. Con esto se aplacó el Señor, y dejó de ejecutar contra su pueblo el castigo que había dicho.",
+        "Francais": "En ces jours-là, le Seigneur parla à Moïse et lui dit : Descendez de la montagne ; car votre peuple, que vous avez tiré de l’Egypte, a péché. Ils se sont bientôt retirés de la voie que vous leur aviez montrée ; ils se sont fait un veau en fonte, ils l’ont adoré, et lui immolant des victimes, ils ont dit : Ce sont là vos dieux, Israël, qui vous ont tiré de l’Egypte. Le Seigneur dit encore à Moïse : Je vois que ce peuple a la tête dure. Laissez-moi faire, afin que la fureur de mon indignation s’allume contre eux et que je les extermine, et je vous rendrai le chef d’un grand peuple. Mais Moïse conjurait le Seigneur son Dieu en disant : Seigneur, pourquoi votre fureur s’allume-t-elle contre votre peuple, que vous avez fait sortir de l’Egypte avec une grande force et une main puissante ? Ne permettez pas, je vous prie, que les Égyptiens disent : Il les a tirés d’Egypte avec ruse pour les tuer sur les montagnes et pour les exterminer de la terre. Que votre colère s’apaise, et laissez-vous fléchir pour pardonner à l’iniquité de votre peuple. Souvenez-vous d’Abraham, d’Isaac et d’Israël vos serviteurs, auxquels vous avez juré par vous-même en disant : Je multiplierai votre race comme les étoiles du ciel, et je donnerai à votre postérité toute cette terre dont je vous ai parlé, et vous la posséderez pour jamais. Alors le Seigneur s’apaisa, et il résolut de ne point faire à son peuple le mal qu’il lui voulait faire.",
+        "Italiano": "In quei giorni il Signore disse a Mosè: «Va', scendi dal monte: il tuo popolo, che tu hai tratto dalla terra d'Egitto, si è guastato: si sono presto allontanati dalla via che tu hai loro mostrato; si sono fatti un vitello di getto, l'hanno adorato, e immolandogli vittime han detto: “Ecco, Israele, il tuo dio che ti ha tratto dalla terra di Egitto”». E il Signore disse ancora a Mosè: «Vedo bene che questo popolo è di testa dura; or lasciami fare, che il mio furore si accenda contro di loro e li stermini, e poi farò te capo di una grande nazione!». Ma Mosè supplicava il Signore Dio suo dicendo: «Perché, o Signore, s'accende la tua ira contro il popolo tuo, che bai tratto dalla terra d'Egitto con forza grande e mano possente? Perché direbbero gli Egiziani: “Li trasse fuori dolosamente per ucciderli sulle montagne, e sterminarli dalla faccia della terra”. Si calmi, o Signore, il tuo sdegno; ritratta il male minacciato al tuo popolo. Ricordati di Abramo, di Isacco e di Israele, tuoi servi, ai quali giurasti per te stesso dicendo: «Moltiplicherò la vostra stirpe come le stelle del cielo; e tutta questa terra, di cui ho parlato, la darò alla vostra discendenza, e la possederete in perpetuo»». E il Signore si placò e non inflisse il castigo minacciato al suo popolo.",
+        "Magyar": "Az Úr így szólt Mózeshez: „Siess, menj le, mert vétkezett a nép, amelyet kihoztál Egyiptomból.  Hamar letértek az útról, amelyet előírtam nekik. Öntött borjút csináltak maguknak, azt imádták, áldozatot mutattak be előtte, és így beszéltek: Izrael, ez a te istened, aki kihozott Egyiptomból.”  Az Úr még ezt mondta Mózesnek: „Látom jól, hogy keménynyakú nép ez,  engedd, hadd gyúljon fel ellenük haragom, hadd töröljem el őket, és téged teszlek nagy néppé.”  Mózes igyekezett kiengesztelni az Urat, az Istent, s így szólt: „Uram, miért lobbannál haragra néped ellen, amelyet nagy hatalommal és erős kézzel hoztál ki Egyiptomból?  Az egyiptomiak nemde megállapítanák: csalárdul kivezette őket, hogy a hegyek között megölje és eltörölje a föld színéről? Lohadjon le tehát haragod és vond vissza a csapást, amellyel a népet sújtani akarod.  Gondolj Ábrahámra, Izsákra és Jákobra, a szolgáidra, akiknek megesküdtél magadra, és akiknek megígérted: utódaitokat úgy megsokasítom, mint az ég csillagait, s azt az egész földet, amelyről beszéltem, utódaitoknak adom, hogy az övék legyen örökre.”  Erre az Úr visszavonta a csapást, amellyel népét megfenyegette.",
+        "Nederlands": "In die dagen sprak de Heer tot Mozes: Daal af van de berg; uw volk, dat gij uit Egypte hebt weggevoerd, heeft gezondigd. Wel heel spoedig zijn zij afgeweken van de weg, die gij hun gewezen hadt; want zij hebben zich een gegoten kalf gemaakt, het aanbeden en offers er aan opgedragen, terwijl zij zeiden: Israël, dit is uw god, die u heeft weggevoerd uit het land van Egypte. En verder sprak de Heer tot Mozes: Ik zie, dat dit volk halsstarrig is; laat mijn toorn tegen hen ontbranden, zodat Ik hen vernietig; dan zal Ik u maken tot een groot volk. Maar Mozes bad tot de Heer, zijn God, en sprak: Waarom toch, Heer, zou uw toorn ontbranden tegen uw volk, dat Gij hebt weggevoerd uit het land van Egypte met grote kracht en sterke arm? Laat toch, bid ik U, de Egyptenaren niet zeggen: Het was list, dat Hij hen wegvoerde, om hen in het gebergte om te brengen en van de aarde te verdelgen. Moge uw toorn bedaren en wil de zonde van uw volk vergeven. Denk aan Abraham, Isaäc en Jacob, uw dienaren, aan wie Gij bij U zelf gezworen hebt: Ik zal uw geslacht vermenigvuldigen als de sterren des hemels, en geheel dit land, waarvan Ik gesproken heb, zal Ik geven aan uw nageslacht, zodat gij het zult bezitten voor immer. En de Heer liet Zich verzoenen, en voltrok niet de straf, die Hij tegen zijn volk had aangekondigd.",
+        "Polski": "W one dni: Rzekł Pan do Mojżesza mówiąc: «Idź, zstąp, zgrzeszył lud twój, któryś wywiódł z ziemi egipskiej. Ustąpili rychło z drogi, którąś im ukazał, i uczynili sobie cielca ulanego, i pokłonili się, i ofiarując mu ofiary rzekli: Ci są bogowie twoi, Izraelu, którzy cię wywiedli z ziemi egipskiej». I jeszcze rzekł Pan do Mojżesza: «Widzę, że ten lud jest twardego karku. Puść mię, żeby się rozgniewała zapalczywość moja na nich i bym wygładził ich, a ciebie uczynił ludem wielkim». Ale Mojżesz modlił się do Pana, Boga swego, mówiąc: «Czemuż, Panie, gniewa się zapalczywość Twoja przeciw ludowi Twemu, któryś wywiódł z ziemi egipskiej siłą wielką i ręką mocną? Niech, proszę, nie mówią Egipcjanie: Chytrze ich wywiódł, aby ich pobić na górach i wygładzić z ziemi. Niech ucichnie gniew Twój i daj się przebłagać za nieprawości ludu Twego! Wspomnij na Abrahama, Izaaka i Izraela, sługi Swoje, którym przysiągłeś na samego siebie mówiąc: Rozmnożę potomstwo wasze jak gwiazdy niebieskie; i wszystką tę ziemię, o której mówiłem, dam potomstwu waszemu i będziecie ją trzymać na zawsze». I dał się ubłagać Pan, żeby nie czynił złego, którym zagroził ludowi swemu.",
+        "Portugues": "Naqueles dias, falou o Senhor a Moisés, dizendo: «Desce do monte; pois o teu povo, que tiraste da terra do Egipto, pecou. Depressa eles se afastaram do caminho que lhes mostraste; pois fabricaram em metal a imagem dum bezerro e a adoraram, oferecendo-lhe sacrifícios e dizendo: «São estes os deuses, ó Israel, que te livraram da terra do Egipto». Ainda o Senhor disse a Moisés: «Conheço que este povo tem a cabeça dura. Deixa-me, pois, para que minha ira se inflame contra ele e o extermine; depois far-te-ei senhor dum grande povo». Porém, Moisés orava ao Senhor, seu Deus, dizendo: «Porque, Senhor, porque se inflama a vossa ira contra o vosso povo, que tirastes do Egipto com vossa mão forte e poderosa? Que assim não seja, Senhor, para que os egípcios não digam: «Fê-los sair com malícia para os matar nos montes e exterminá-los da terra». Aquiete-se, pois, a vossa ira. Aplacai-Vos contra a maldade do vosso povo. Lembrai-Vos de Abraão, de Isaque e de Israel, vossos servos, aos quais, sob juramento, dissestes: «Multiplicarei a vossa descendência, como as estrelas do céu, e darei à vossa geração toda a terra de que vos tenho falado, para que a possuam para sempre». Então o Senhor aplacou-se, não castigando aquele povo, como o ameaçara."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) EX(e)súr(fhg)ge(h.) (,) *() Dó(hh//hhh.f!gwh/i_h//j_ijvIG)mi(g)ne,(ig/hi/jh) (,) (hhh'ih/ihhg.) (;) fer(fhg) o(hihhf)pem(hig'/hiffe.) (,) no(fhg/h_fiihhg)bis :(gv.eg/ihh/fgf.) (:) et(f) lí(hf/ghg)be(ge/f!hhhvFE'ec)ra(d_e) (`) nos(ef!gvF'Ef!hh/f!hhhvGF'heed.0) (;) pro(f)pter(hf/gh!ivFE') no(feec)men(efe/f!hh) tu(gxfe/fgE'DefD'C)(,)(ef!hhvF'Eff//ef/ge)um.(c./eec//ed/ec..) (::) \r\n<sp>V/</sp>. De(fhg)us,(g.) (,) áu(hi)ri(ihhgh)bus(h_g) no(jij)stris(jihhf.) (,) au(jij)dí(jihhf/ig)vi(h_i_h_h'hhvFEhg/h_i)mus :(ih/ihhg.) (:) pa(f)tres(i) no(ihhf/ijI'HivHG)stri(g.) (;) an(h)nun(f!gwh)ti(h)a(h)vé(gh/ji/jhhg)runt(g.) (,) no(h_f//hvGEf!gwh_g)bis(gv.eg/ihh/fgf.) (:) o(fhf/hhfg)pus,(f.) (,) quod(f) o(f)pe(h)rá(ghf)tus(g) es(f.) (;) in(f) di(f)é(hf/gh!ivFE')bus(feec) (,) e(efef)ó(f)rum,(fgF'Ef!hh/f!hhhvGF'heed.0) (;) in(f) di(f)é(hf/gh!ivFE')bus(feec) <clear>*(,) an(efe/f!hh)tí(gxfe/fgE'DefD'C)(,)(ef!hhvF'Eff//ef/ge)quis.(c./eec//ed/ec..) (::)",
+      "availableTranslations": {
+        "English": "Arise, O Lord, help us! Redeem us for Your Name’s sake. O God, our ears have heard, our fathers have declared to us the deeds You did in their days, in days of old.",
+        "Espanol": "Levántate, oh Señor, socórrenos; y redímenos por amor de tu nombre.  Nosotros, oh dios, hemos oído por nuestros propios oídos, nuestros padres nos han contado las obras que tu hiciste en sus días y en los tiempos antiguos.",
+        "Francais": "Levez-vous, Seigneur, donnez-nous le secours et rachetez-nous à cause de votre nom. Ô Dieu, nous avons entendu de nos oreilles : nos pères nous ont annoncé l’œuvre que vous avez faite en leurs jours, et aux jours anciens.",
+        "Italiano": "Levati su, o Signore, aiutaci; liberaci per amore del tuo nome. O Dio, con le nostre orecchie l'abbiamo udito: i padri nostri ci tramandarono l'opera che tu facesti ai giorni loro, in antico.",
+        "Nederlands": "Rijs op, o Heer, kom ons te hulp. Verlos ons om wille van uw Naam. Met eigen oren, o God, hebben wij het gehoord; onze vaderen hebben het ons verhaald: het werk, dat Gij gewrocht hebt in hun dagen, in overoude tijden.",
+        "Polski": "Ocknij się, Panie, na pomoc nam powstań i wyzwól nas dla chwały imienia Twego. Na własne uszy słyszeliśmy, Boże, ojcowie nasi nam opowiedzieli o dziele, któregoś za ich dni dokonał, za dni starożytnych.",
+        "Portugues": "Levantai-Vos, Senhor, acudi-nos e livrai-nos por causa do vosso nome. Ó Deus, ouvimos com os nossos ouvidos; os nossos pais anunciaram-nos quantas maravilhas praticastes nos seus dias e nos tempos antigos."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Jam die festo mediánte, ascéndit Jesus in templum, et docébat. Et mirabántur Judǽi, dicéntes: Quómodo hic lítteras scit, cum non didícerit? Respóndit eis Jesus et dixit: Mea doctrína non est mea, sed ejus, qui misit me. Si quis volúerit voluntátem ejus fácere, cognóscet de doctrína, utrum ex Deo sit, an ego a meípso loquar. Qui a semetípso lóquitur, glóriam própriam quærit. Qui autem quærit glóriam ejus, qui misit eum, hic verax est, et injustítia in illo non est. Nonne Móyses dedit vobis legem: et nemo ex vobis facit legem? quid me quǽritis interfícere ? Respóndit turba, et dixit: Dæmónium habes: quis te quærit interfícere ? Respóndit Jesus et dixit eis: Unum opus feci, et omnes mirámini. Proptérea Móyses dedit vobis circumcisiónem  -non quia ex Móyse est, sed ex pátribus: - et in sábbato circumcíditis hóminem. Si circumcisiónem áccipit homo in sábbato, ut non solvátur lex Móysi: mihi indignámini, quia totum hóminem sanum feci in sábbato? Nolíte judicáre secúndum fáciem, sed justum judícium judicáte. Dicébant ergo quidam ex Jerosólymis: Nonne hic est, quem quærunt interfícere ? Et ecce, palam lóquitur, et nihil ei dicunt. Numquid vere cognovérunt príncipes, quia hic est Christus? Sed hunc scimus, unde sit: Christus autem, cum vénerit, nemo scit, unde sit. Clamábat ergo Jesus in templo docens, et dicens: Et me scitis et, unde sim, scitis, et a meípso non veni, sed est verus, qui misit me, quem vos nescítis. Ego scio eum, quia ab ipso sum, et ipse me misit. Quærébant ergo eum apprehéndere: et nemo misit in illum manus, quia nondum vénerat hora ejus. De turba autem multi credidérunt in eum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, when the feast was already half over, Jesus went up into the temple and began to teach. And the Jews marveled, saying, How does this man come by learning, since He has not studied? Jesus answered them and said, My teaching is not My own, but His Who sent Me. If anyone desires to do His will, he will know of the teaching whether it is from God, or whether I speak on My own authority. He who speaks on his own authority seeks his own glory. But he who seeks the glory of the one who sent him is truthful, and there is no injustice in him. Did not Moses give you the Law, and none of you observes the Law? Why do you seek to put Me to death? The crowd answered and said, You have a devil. Who seeks to put You to death? Jesus answered and said to them, One work I did and you all wonder. For this reason Moses gave you the circumcision -- not that it is from Moses, but from the fathers -- and on a Sabbath you circumcise a man. If a man receives circumcision on a Sabbath, that the Law of Moses may not be broken, are you indignant with me because I made a whole man well on a Sabbath? Judge not by appearances but give just judgment. Some therefore of the people of Jerusalem were saying, Is not this the man they seek to kill? And behold, He speaks openly and they say nothing to Him. Can it be that the rulers have really come to know that this is the Christ? Yet we know where this man is from; but when the Christ comes, no one will know where He is from. Jesus therefore, while teaching in the temple, cried out and said, You both know Me, and know where I am from. Yet I have not come of Myself, but He is true Who has sent Me, whom you do not know. I know Him because I am from Him, and He sent Me. They wanted therefore to seize Him, but no one laid hands on Him because His hour had not yet come. Many of the people, however, believed in Him.",
+        "Espanol": "Como quiera, hacia la mitad de la fiesta, subió Jesús al templo, y se puso a enseñar. Y se maravillaban los judíos, y decían: ¿Cómo sabe éste las letras sagradas sin haber estudiado? Les respondió Jesús: Mi palabra no es mía sino de aquel que me ha enviado. Quien quisiere hacer la voluntad de éste, conocerá si mi palabra es de Dios, o si yo hablo de mí mismo. Quien habla de su propio movimiento, busca su propia gloria; mas el que únicamente busca la gloria del que le envió, ése es veraz, y no hay en él injusticia o fraude. ¿Por ventura, no os dio Moisés la ley, y con todo eso ninguno de vosotros observa la ley? ¿Pues, por qué intentáis matarme? Respondió la gente: Estás endemoniado: ¿Quién es el que trata de matarte? Jesús prosiguió, diciéndoles: Yo hice una sola obra milagrosa en día de sábado, y todos lo habéis extrañado. Mientras que, habiéndoos dado Moisés la ley de la circuncisión (no que traiga de él su origen, sino de los patriarcas), no dejáis de circuncidar al hombre aun en día de sábado. Pues si un hombre es circuncidado en sábado, para no quebrantar la ley de Moisés, ¿os habéis de indignar contra mí, porque he curado a un hombre en todo su cuerpo en día de sábado? No queráis juzgar por las apariencias, sino juzgad por un juicio recto. Comenzaron entonces a decir algunos de Jerusalén: ¿No es éste a quien buscan para darle la muerte? Y con todo vedle que habla públicamente, y no le dicen nada. ¿Si será que nuestros príncipes de los sacerdotes y los senadores han conocido de cierto ser éste el Cristo? Pero de éste sabemos de dónde es; mas cuando venga el Cristo nadie sabrá su origen. Entretanto, prosiguiendo Jesús en instruirlos, decía en alta voz en el templo: Vosotros pensáis que me conocéis, y sabéis de dónde soy; pero yo no he venido de mí mismo, sino que quien me ha enviado es veraz, al cual vosotros no conocéis. Yo sí que le conozco, porque de él tengo el ser; y él es el que me ha enviado. Al oír esto buscaban cómo prenderle; mas nadie puso en él las manos, porque aún no era llegada su hora. Entretanto muchos del pueblo creyeron en él, y decían: Cuando venga el Cristo, ¿hará por ventura más milagros que los que hace éste?",
+        "Francais": "En ce temps-là, lorsqu’on était déjà au milieu de la fête, Jésus monta au temple, et il enseignait. Et les Juifs s’étonnaient, disant : Comment connaît-il les lettres, lui qui n’a pas étudié ? Jésus répondit : Ma doctrine n’est pas de moi, mais de celui qui m’a envoyé. Si quelqu’un veut faire la volonté de Dieu, il saura, au sujet de ma doctrine, si elle est de Dieu, ou si je parle de moi-même. Celui qui parle de lui-même cherche sa propre gloire ; mais celui qui cherche la gloire de celui qui l’a envoyé est véridique, et il n’y a pas d’injustice en lui. Moyse ne vous a-t-il pas donné la loi et aucun de vous n’accomplit la loi. Pourquoi cherchez-vous à me faire mourir ? La foule répond dit : Vous êtes possédé du démon ; qui est-ce qui cherche à vous faire mourir ? Jésus leur répliqua et dit : J’ai fait une œuvre, et vous en êtes tous étonnés. Cependant Moïse vous a donné la circoncision (quoiqu’elle ne vienne pas de Moïse, mais des patriarches), et vous pratiquez la circoncision le jour du sabbat. Si un homme reçoit la circoncision le jour du sabbat, afin que la loi de Moïse ne soit pas violée, pourquoi vous irritez-vous contre moi, parce que j’ai guéri un homme tout entier le jour du sabbat ? Ne jugez pas selon l’apparence, mais jugez selon la justice. Quelques-uns, qui étaient de Jérusalem, disaient : N’est-ce pas là celui qu’ils cherchent à faire mourir ? Et voilà qu’il parle publiquement, et ils ne lui disent rien. Est-ce que vraiment les autorités ont reconnu qu’il est le Christ ? Mais, celui-ci, nous savons d’où il est ; or, quand le Christ viendra, personne ne saura d’où il est. Jésus criait donc dans le temple, enseignant et disant : Vous me connaissez, et vous savez d’où je suis. Je ne suis pas venu de moi-même ; mais celui qui m’a envoyé est véritable, et vous ne le connaissez pas. Moi, je le connais, parce que je viens de lui et que c’est lui qui m’a envoyé. Ils cherchaient donc à l’arrêter ; et personne ne mit la main sur lui, parce que son heure n’était pas encore venue. Mais, parmi la foule, beaucoup crurent en lui.",
+        "Italiano": "In quel tempo: nel bel mezzo della festa Gesù salì al tempio e si mise a insegnare. E i Giudei dicevano meravigliati: «Come sa di lettere senza averle mai studiate?». E Gesù rispose loro: «La mia dottrina non è mia, ma di chi mi ha mandato. Chi vuol fare la volontà di Lui conoscerà se la dottrina sia da Dio o se parlo da me stesso. Chi parla di sua autorità cerca la propria gloria; ma chi cerca la gloria di chi l'ha mandato, è verace, e non c'è in lui ingiustizia. Mosè non diede a voi la legge? Eppure nessuno di voi l'osserva. Perché cercate di uccidermi?». Rispose la gente: «Tu sei indemoniato; chi cerca di ucciderti?». E Gesù replicò: «Un'opera sola ho fatto e tutti ne siete meravigliati. Inoltre Mosè vi diede la circoncisione, non che essa venga da Mosè, ma bensì dai patriarchi: e voi circoncidete un uomo anche di sabato. Se circoncidendo un uomo di sabato, la legge di Mosè non è violata, vi adirate contro di me perché di sabato ho guarito un uomo tutto intero? Non giudicate secondo l'apparenza, ma giudicate con retto giudizio». Dicevano intanto alcuni di Gerusalemme: «Non è lui che cercan d'uccidere? Ed ecco, parla pubblicamente e non gli dicon nulla. Avrebbero forse i capi riconosciuto in lui il Cristo? Noi però sappiamo di dove è costui; ma il Cristo quando verrà, nessuno saprà donde sia». Allora Gesù, che insegnava nel tempio, disse ad alta voce: «Dunque conoscete me e conoscete donde sia; eppure io non sono venuto da me; ma Uno che è la stessa verità mi ha mandato, e voi non lo conoscete. Ma io lo conosco, perché sono da Lui ed egli mi ha mandato». Cercavano pertanto di prenderlo, ma nessuno gli mise le mani addosso, perché non era ancora venuta l'ora sua. Però molti della folla credettero in lui.",
+        "Magyar": "Amikor már eltelt az ünnep fele, Jézus fölment a templomba, és tanított.  A zsidók csodálkozva mondogatták: „Hogy ismerheti így az Írásokat, amikor nem is tanulta?”  Jézus így felelt nekik: „Tanításom nem tőlem való, hanem attól, aki küldött.  Aki készen van rá, hogy teljesítse akaratát, meggyőződhet róla, vajon Istentől való-e ez a tanítás, vagy csak magamtól beszélek.  Aki magától beszél, a saját dicsőségét keresi. Aki azonban annak dicsőségén munkálkodik, aki őt küldte, az igaz, s nincs benne hamisság.  Hát nem adott nektek Mózes törvényt? Mégsem tartja meg egyiketek sem a törvényt. Miért törtök az életemre?”  „Te ördögtől megszállott - szólt közbe a nép -, ugyan ki tör az életedre?”  Jézus azonban folytatta: „Egyetlen egy tettet vittem végbe, s mindnyájan megütköztök rajta.  Mózes parancsot adott a körülmetélésre - bár nem Mózestől eredt, hanem az ősatyáktól -, és szombaton is elvégzitek a körülmetélést.  Ha tehát szombaton is körülmetélkedhet az ember, hogy Mózes törvénye csorbát ne szenvedjen, miért acsarkodtok ellenem, amiért egy embert meggyógyítottam szombaton?  Ne látszatra ítéljetek, hanem igazságosan ítéljetek!”  A jeruzsálemiek közül néhányan megjegyezték: „Ugye, ez az, akit halálra keresnek?  S mégis teljesen nyíltan beszél, s nem szólnak rá semmit. Csak nem győződtek meg róla az elöljárók, hogy ő a Messiás?  Róla tudjuk, honnét származik, a Messiásról azonban, ha eljön, senki sem fogja tudni, honnan való.”  Jézus a templomban tanítva ezt felelte rá: „Igen, ismertek, és azt is tudjátok, honnan való vagyok, noha nem magamtól jöttem, hanem az Igaz küldött, akit ti nem ismertek.  Én azonban ismerem, mert tőle vagyok és ő küldött.”  Erre el akarták fogni, de senki sem vetett rá kezet, mert még nem érkezett el az órája.  A népből sokan hittek benne. „Hát több csodajelet visz végbe, ha eljön a Messiás, mint amennyit ez végbevitt?” - kérdezgették.",
+        "Nederlands": "In die tijd, toen het feest reeds half voorbij was, ging Jezus op naar de tempel en gaf daar onderricht. En de Joden stonden verwonderd en zeiden: Hoe is Deze zo geletterd, daar Hij toch geen onderricht genoten heeft. Jezus antwoordde hun en zeide: Mijn leer is niet van Mij, maar van Hem, die Mij gezonden heeft. Indien iemand bereid is zijn wil te volbrengen, zal hij van deze leer erkennen, of ze van God afkomstig is, of dat Ik spreek uit Mij zelf. Wie uit zich zelf spreekt, zoekt zijn eigen eer. Maar wie de eer zoekt van die hem gezonden heeft, hij is waarachtig, en in hem is er geen ongerechtigheid. Heeft Mozes u niet de Wet gegeven? en toch volbrengt niemand de Wet! Waarom zoekt gij Mij te doden? De menigte antwoordde en zeide: Gij zijt van de duivel bezeten! Wie zoekt U te doden? Jezus gaf hun ten antwoord: Eén werk heb Ik verricht en allen staat gij verwonderd. Welnu. Mozes gaf u de besnijdenis ",
+        "Polski": "Onego czasu: Gdy upłynęła już połowa świąt, wszedł Jezus do świątyni i nauczał. I zdumiewali się żydzi mówiąc: «Jak on może znać Pismo, nie nauczony?» Odpowiedział im Jezus mówiąc: «Moja nauka nie jest moją, ale Tego, który mię posłał. Jeśli kto chce pełnić wolę Jego, ten z nauki pozna, czy z Boga jest, czy też ja sam od siebie mówię. Kto z samego siebie mówi, ten chwały własnej szuka, ale kto szuka chwały Tego, który go posłał, ten jest prawdomówny i nie masz w nim nieprawości. Czyż to nie Mojżesz dał wam Prawo, a nikt z was nie przestrzega Prawa? Czemu pragniecie mnie zabić?» Odpowiedziała rzesza mówiąc: «Czarta masz, kto cię chce zabić?» Odpowiedział Jezus i rzekł im: «Jednego dzieła dokonałem, a wszyscy się zdumiewacie. Wszak Mojżesz nadał wam obrzezanie ((nie żeby pochodziło ono od Mojżesza, bo jest od ojców)) i dokonujecie obrzezania w dzień szabatu. Jeśli tedy człowiek przyjmuje obrzezanie w szabat bez pogwałcenia Prawa Mojżeszowego, dlaczego się na mnie oburzacie, żem całego człowieka w szabat uzdrowił? Nie sądźcie według pozorów, ale sprawiedliwym sądem sądźcie». Mówili tedy niektórzy z mieszkańców Jerozolimy: «Czy to jest ten, którego chcą zabić? Bo oto jawnie naucza, a nic mu nie mówią. Czyżby naprawdę poznali starsi, że ten jest Chrystusem? Ale o nim wiemy, skąd pochodzi, o Chrystusie zaś, gdy się zjawi, nikt wiedzieć nie będzie, skąd przychodzi». A nauczając w świątyni wołał Jezus: «I mnie znacie, i wiecie, skąd jestem, a sam od siebie nie przyszedłem, ale wiary jest godzien Ten, który mię posłał, a którego wy nie znacie. Ja Go znam, bo od Niego jestem i On mię posłał». Zamierzali tedy Go pojmać, ale nikt nie podniósł nań bo jeszcze nie nadeszła godzina Jego. A spośród rzeszy wielu weń uwierzyło.",
+        "Portugues": "Naquele tempo, estando já em meio os dias da festa, Jesus subiu ao templo e aí ensinava. E os judeus admiravam-se, dizendo: «Como conhece Ele as Escrituras, se as não estudou?». Respondeu-lhes Jesus: «Esta doutrina não é minha, mas d’Aquele que me mandou. Se alguém quiser fazer a vontade de Deus, conhecerá se a minha doutrina é de Deus, ou se falo de mim mesmo. Quem fala de si mesmo procura a sua própria glória; mas quem procura a glória de quem o mandou é verdadeiro; nele não há impostura. Porventura Moisés vos não deu a Lei? Contudo, nenhum de vós a cumpre! Porque procurais matar-me?». A multidão respondeu e disse: «Tu estás possesso do demónio! Quem é que quer matar-te?». Respondeu Jesus, dizendo: «Uma só obra pratiquei e todos vos maravilhais! Pois Moisés ordenou a circuncisão (não que ela venha de Moisés, mas dos Patriarcas) e vós ao sábado circuncidais o homem. Se, pois, o homem recebe a circuncisão ao sábado para não violar a Lei de Moisés, porque vos indignais comigo por Eu haver curado completamente um homem ao sábado? Não julgueis segundo a aparência, mas julgai segundo a justiça». Diziam, então, alguns de Jerusalém: «Não é Este a quem intentam matar? Eis que fala publicamente e lhe não dizem nada! Porventura os príncipes do povo terão reconhecido que Este é verdadeiramente o Cristo? Este bem sabemos donde é; porém, quando vier o Cristo, ninguém saberá donde Ele é». Clamava, então, Jesus no templo, ensinando e dizendo: «Conheceis-me e sabeis donde sou; contudo, não vim de mim mesmo; mas Aquele que me enviou é verdadeiro, ainda que vós O não conheçais. Eu conheço-O, porque sou d’Ele, e foi Ele quem me mandou». Procuravam, então, prendê-l’O; mas ninguém pôs mão sobre Ele, Porque ainda não chegara a sua hora. E muitos da multidão, ouvindo-O, acreditaram."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) EX(f)spé(f!hhhi)ctans(hi) *(,) ex(h)spe(i)ctá(iki/j_k)vi(i) Dó(h)mi(hhh)num,(fh..) (;) et(e) re(f)spé(hv.hhh//h'ih)xit(hi!jv_I~H~) me :(ih..) (:) et(f) ex(f!h'i)au(iih~)dí(hiH'G)vit(hhh/f_g_f._) (,) de(f)pre(f)ca(f!hhf)ti(e)ó(fh/i_h)nem(hi~) me(ihhf//hih/i.f!gwh_f)am,(f.) (:) et(e) im(f)mí(hh)sit(ijhh/fgf.) (,) in(f) os(fhhg/hgg) me(eh/ghf/ggf)um(f.) (;) cán(hh)ti(f_e)cum(fef) no(hi)vum,(hg/hiih.0) (:) hy(h)mnum(hhhffe~) De(f_d/ef!ivH'GE)o(fef) no(f/hhvF'EDe_fE'D)stro.(d.) (::)",
+      "availableTranslations": {
+        "English": "I have waited, waited for the Lord, and He stooped toward me and heard my cry. And He put a new song into my mouth, a hymn to our God.",
+        "Espanol": "Con ansia suma estuve aguardando al Señor, y se ha inclinado hacia mí y oyó mis plegarias; y he puesto en mi boca un cantico nuevo, un himno a nuestro Dios.",
+        "Francais": "J’ai attendu et encore attendu le Seigneur, et il a fait attention à moi. Il a exaucé ma prière, et il a mis dans ma bouche un cantique nouveau, un hymne à notre Dieu.",
+        "Italiano": "Intensamente ho sperato in Dio: Egli verso di me si è rivolto ed ha ascoltato il mio grido. Egli ha posto sulle mie labbra, un nuovo canto di lode al Dio nostro.",
+        "Nederlands": "Exspéctans exspectávi Dóminum, et respéxit me: et exaudívit deprecatiónem meam: et immísit in os meum cánticum novum, hymnum Deo nostro.",
+        "Polski": "Ufałem, Panu ufałem, a schylił się nade mną i wysłuchał mego wołania, i w usta moje włożył śpiew nowy, pieśń dla naszego Boga.",
+        "Portugues": "Com toda a confiança esperei no Senhor; e Ele inclinou-se para mim, ouviu a minha voz e pôs na minha boca um cântico novo: um hino de louvor ao nosso Deus."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad sacrifícium celebrándum, subditórum tibi córpora mentésque sanctíficet.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May this offering, O Lord, we beseech You, wipe away our sins, and make holy the minds and bodies of Your servants for celebrating this Sacrifice.",
+        "Espanol": "Te rogamos, Señor, que esta hostia borre todos nuestros delitos y santifique los cuerpos y las almas de estos tus siervos, para celebrar dignamente el sacrificio.",
+        "Francais": "Que cette hostie, nous vous en supplions, Seigneur, nous purifie de nos fautes et qu’elle sanctifie les corps et les âmes de vos fidèles pour la célébration de ce sacrifice.",
+        "Italiano": "Questa offerta, Signore, ci purifichi dai nostri peccati: e consacri il corpo e l'anima di noi tuoi servi, perché possiamo celebrare questo sacrificio.",
+        "Nederlands": "Wij vragen U, Heer, moge deze offergave ons zuiveren van onze zonden en tot het vieren van het heilig offer, lichaam en ziel van uw dienaren heiligen.",
+        "Polski": "Prosimy Cię, Panie, niech ta hostia oczyści nas z grzechów i uświęci dusze i ciała sług Twoich do sprawowania ofiary.",
+        "Portugues": "Que estas hóstias, Senhor, Vos suplicamos, apaguem os nossos pecados e santifiquem os corpos e as almas dos vossos servos, para celebrarem dignamente este sacrifício."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) LAe(f)tá(fefvEDefef)bi(g)mur(f!gwh.) *(,) in(hf~) sa(hih)lu(iji)tá(jlKJ')ri(i) tu(hg/hihi)o :(f!gwh.) (;) et(f) in(h) nó(ij)mi(i)ne(i) Dó(j)mi(ih)ni(hihh/fgf.) (,) De(hhg)i(hi/jij) no(h)stri(hv.fgFE.) (,) ma(e)gni(hg)fi(hi)cá(iv.giHG'F//e_f)bi(e.d!ewfe/fg)mur.(f.) (::)",
+      "availableTranslations": {
+        "English": "May we shout for joy at Your victory and raise the standards in the Name of the Lord our God.",
+        "Espanol": "Nosotros nos alegraremos por tu salud, y nos gloriaremos en el nombre de nuestro Dios.",
+        "Francais": "Nous nous réjouirons de votre salut, et nous nous glorifierons au nom de notre Dieu.",
+        "Italiano": "Bramiamo cantare i tuoi trionfi, e nel nome del nostro Dio spiegate i vessilli.",
+        "Nederlands": "Juichen zullen wij dan over uw zegepraal en roemen op de Naam de Heren, onze God.",
+        "Polski": "Obyśmy się cieszyli z Twojego zwycięstwa i w imię Boga naszego podnieśli sztandary.",
+        "Portugues": "Regozijar-nos-emos com vossa salvação; e seremos glorificados no nome do Senhor, nosso Deus."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Hujus nos, Dómine, percéptio sacraménti mundet a crímine: et ad cæléstia regna perdúcat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May the reception of this sacrament, O Lord, cleanse us from guilt and bring us to the kingdom of heaven.",
+        "Espanol": "Haz, Señor, que la percepción de este sacramento nos purifique de todo crimen y nos conduzca al reino celestial.",
+        "Francais": "Faites, ô Seigneur, que la réception de ce sacrement nous purifie de toute faute et nous conduise au royaume céleste.",
+        "Italiano": "O Signore, il sacramento ora ricevuto ci purifichi dal peccato e ci porti al regno celeste.",
+        "Nederlands": "Heer, moge het ontvangen van dit Sacrament ons van zonde reinigen en binnenvoeren in het rijk der hemelen.",
+        "Polski": "Panie, niechaj przyjęcie tego Sakramentu oczyści nas z grzechu i doprowadzi do Królestwa Niebieskiego.",
+        "Portugues": "Senhor, que a comunhão deste sacramento nos limpe de todo o pecado e nos conduza ao reino celestial."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Oratio super Populum",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus. Humiliáte cápita vestra Deo. Miserére, Dómine, pópulo tuo: et contínuis tribulatiónibus laborántem, propítius respiráre concéde.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray. Bow your heads to God. Have mercy on Your people, O Lord, and graciously grant them relief from the unceasing tribulations which oppress them.",
+        "Espanol": "Oremos. Humillad ante Dios vuestras cabezas. Apiádate, Señor de tu pueblo; y concédele propicio se vea libre de las continuas tribulaciones que experimenta.",
+        "Francais": "Prions. Humiliez vos têtes devant Dieu. Ayez pitié de votre peuple, Seigneur, et dans votre miséricorde, donnez-lui quelque relâche, car c’est au milieu de continuelles tribulations qu’il poursuit ses efforts.",
+        "Italiano": "Preghiamo. Inchinatevi davanti a Dio. O Signore, abbi pietà del tuo popolo e benigno concedigli un sollievo dalle continue tribolazioni, che lo travagliano.",
+        "Nederlands": "Laat ons bidden. Buigt nederig uw hoofd voor God. Heer, ontferm U over uw volk en laat het genadig herademen van de plagen, die het voortdurend treffen. ",
+        "Polski": "Módlmy się. Pochylcie głowy wasze przed Bogiem. Zmiłuj się, Panie, nad ludem Twoim i pozwól mu łaskawie odetchnąć wśród utrapień, które stale go dręczą.",
+        "Portugues": "Oremos.  Inclinai as vossas cabeças diante de Deus. Tende piedade, Senhor, do vosso povo e aliviai-o propiciamente das contínuas tribulações que o afligem."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

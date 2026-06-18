@@ -1,0 +1,832 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "In Festo Domini Nostri Jesu Christi Regis",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DI(eef)GNUS(ed) est(gh) A(g/hj~)gnus,(j.) (,) *() qui(j) oc(j)cí(h)sus(h!iwj/kjj) est,(ji..) (;) ac(g)cí(gh)pe(h)re(h') vir(h)tú(h_ghvGF'g)tem,(g_f_) (,) et(g) di(hi)vi(iij)ni(h!iwj)tá(ikjj)tem,(ji..) (;) et(g) sa(gh)pi(h)én(jj//jj)ti(ih)am,(h.) (,) et(h) for(h)ti(gf)tú(fg/hg/hi)di(h)nem,(h.) (,) et(gh/ji) ho(jvvIH'iw!jvIH)nó(gh!ivHG'h)rem.(hg..) (:) I(h)psi(gh) gló(hkj)ri(kjjh)a(h.) (,) et(h) im(g)pé(gh/i.h!iwj)ri(gh_G'_FE'f)um(fe..) (;) in(ef) saé(e/f'h)cu(h)la(h!iwj) sae(g)cu(g_e)ló(fgF'E)rum.(e.) (::) <i>Ps.</i> De(g)us,(hj) ju(j)dí(j)ci(j)um(j) tu(k)um(j') Re(j)gi(ih) da :(jjj) <clear>*(:) et(ig) ju(hj)stí(j)ti(j)am(j) tu(j)am(j) Fí(jji)li(hg)o(h) Re(i)gis.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h) a(i) e.</eu>(gh..) (::)",
+      "availableTranslations": {
+        "English": "Worthy is the Lamb Who was slain to receive power, and divinity, and wisdom, and strength, and honor.  To Him belong glory and dominion forever and ever.  O God, with Your judgment endow the King and with Your justice, the King's son.",
+        "Francais": "L’Agneau qui a été égorgé, est digne de recevoir la puissance, la divinité, la sagesse, la force, l’honneur. A Lui la gloire et le pouvoir dans les siècles des siècles. Ô Dieu, donnez au Roi votre jugement : et au Fils du Roi votre justice.",
+        "Italiano": "L’Agnello che è stato ucciso è degno di ricevere la potenza, la divinità, la sapienza, la fortezza e l’onore. A Lui la glória e il potere nei sécoli dei sécoli. O Dio, dà il tuo potere al Re: e la tua giustizia al tuo Figlio regale.",
+        "Nederlands": "Waardig is het Lam, dat geslacht is, om de macht te aanvaarden, en de godheid, de wijsheid, de kracht en de eer. Hem zij heerlijkheid en macht in de eeuwen der eeuwen. Geef uw rechtsmacht, o God, aan de Koning, en uw rechtvaardigheid aan de Zoon van de Koning.",
+        "Polski": "Godzien jest Baranek, który był zabity, otrzymać moc i boskie hołdy, i siłę, i cześć. Jemu chwała i panowanie po wszystkie wieki. O Boże, daj swój sąd Królowi i Synowi Króla Twoją sprawiedliwość.",
+        "Portugues": "O Cordeiro, que foi imolado, é digno de receber o poder, a divindade, a sabedoria, a fortaleza, a honra: A Ele a glória e o império em todos os séculos dos séculos. Ó Deus, dai ao Rei o poder de julgar; e a vossa justiça ao Filho do Rei.",
+        "Ukrainian": "Достойний Агнець заколений прийняти силу і божественність, і мудрість, і кріпкість, і честь. Йому слава і влада на віки віків. Боже, cуд твій дай цареві, і правду твою cинові царя."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Omnípotens sempitérne Deus, qui in dilécto Fílio tuo, universórum Rege, ómnia instauráre voluísti: concéde propítius; ut cunctæ famíliæ géntium, peccáti vúlnere disgregátæ, ejus suavissímo subdántur império:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Almighty and eternal God, Who willed to restore all things in Your beloved Son, the King of the Universe, graciously grant that the peoples of the earth torn asunder by the wound of sin, may submit to His most gentle rule. ",
+        "Bohemice": "Všemohoucí věčný Bože, jenž ve svém milovaném Synu, Králi veškerenstva, jsi vše chtěl obnovit; uděl laskavě, aby všechny rodiny národů, ranou hříchu znesvářené, byly podmaněny jeho přesladké vládě.",
+        "Espanol": "Dios todopoderoso y eterno, que quisiste fundar todas las cosas en tu Hijo muy amado, Rey del universo; dígnate conceder a todos los pueblos, desunidos por la herida del pecado, un sometimiento total a la dulce autoridad de su reino.",
+        "Francais": "Dieu tout-puissant et éternel, qui avez voulu restaurer tout dans la personne de votre Fils bien-aimé, le Roi de l’univers : accordez dans votre bonté, que toutes les familles des nations, qui vivent en désaccord à cause de la blessure du péché, se soumettent à son très doux pouvoir. Lui qui vit.",
+        "Italiano": "O Dio onnipotente ed eterno, che nel tuo diletto Figlio, Re universale, hai voluto restaurare tutte le cose, concedi propizio che la grande famiglia umana, disgregata dal peccato, si sottometta al dolcissimo imperio di Lui.",
+        "Nederlands": "Almachtige, eeuwige God, Gij hebt in uw beminde Zoon, de Koning van het heelal, alles willen herstellen. Wil genadig alle volkerenfamilies, die door de slagen van de zonden uiteen zijn gedreven, aan zijn milde heerschappij onderwerpen. ",
+        "Polski": "Wszechmogący, wieczny Boże, Ty postanowiłeś wszystko odnowić w umiłowanym Synu Twoim jako Królu wszechrzeczy, spraw łaskawie, aby rodziny narodów rozdzielone na skutek ran grzechowych, poddały się Jego najsłodszemu panowaniu:",
+        "Portugues": "Omnipotente e eterno Deus, que tudo quisestes restaurar no vosso dilecto Filho, Rei de todas as cousas, concedei-nos propício que todas as famílias do mundo, livres da chaga do pecado, se submetam ao Seu suavíssimo império.",
+        "Ukrainian": "Всемогутній, вічний Боже, Ти вирішив усе відновити у Твоєму возлюбленому Синові – Цареві Всесвіту: милостиво вчини, щоб сім’я всіх народів, роз’єднана раною гріха, підкорилася під найсолодшу владу Того,"
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Fratres: Grátias ágimus Deo Patri, qui dignos nos fecit in partem sortis sanctórum in lúmine: qui erípuit nos de potestáte tenebrárum, et tránstulit in regnum Fílii dilectiónis suæ, in quo habémus redemptiónem per sánguinem ejus, remissiónem peccatórum: qui est imágo Dei invisíbilis, primogénitus omnis creatúra: quóniam in ipso cóndita sunt univérsa in cœlis et in terra, visibília et invisibília, sive Throni, sive Dominatiónes, sive Principátus, sive Potestátes: ómnia per ipsum, et in ipso creáta sunt: et ipse est ante omnes, et ómnia in ipso constant. Et ipse est caput córporis Ecclésiæ, qui est princípium, primogénitus ex mórtuis: ut sit in ómnibus ipse primátum tenens; quia in ipso complácuit omnem plenitúdinem inhabitáre; et per eum reconciliáre ómnia in ipsum, pacíficans per sánguinem crucis ejus, sive quæ in terris, sive quæ in cœlis sunt, in Christo Jesu Dómino nostro.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Brethren: We give thanks to God the Father Who has made us worthy to share the lot of the saints in light. He has rescued us from the power of darkness, and transferred us into the kingdom of His beloved Son, in Whom we have our redemption through His blood, the remission of sins. He is the image of the invisible God, the firstborn of every creature. For in Him were created all things in the heavens and on the earth, things visible and things invisible, whether Thrones, or Dominations, or Principalities, or Powers. All things have been created through and unto Him, and He is before all creatures, and in Him all things hold together.  Again, He is the head of the body, the Church; He, Who is the beginning, the firstborn from the dead, that in all things He may have the first place. For it has pleased God the Father that in Him all fullness should dwell and that through Him He should reconcile to Himself all things, whether on the earth or in the heavens, making peace through the blood of His Cross, in Christ Jesus our Lord.",
+        "Francais": " Mes Frères : Rendons grâces à Dieu le Père, qui nous a rendus dignes d’avoir part à l’héritage des saints dans la lumière, qui nous a arrachés à la puissance des ténèbres, et nous a fait passer dans le royaume de son Fils bien-aimé, en qui nous avons la rédemption, par son sang et la rémission des péchés ; qui est l’image du Dieu invisible, le premier-né de toute créature. Car c’est par lui que toutes choses ont été créées dans les cieux et sur la terre, les visibles et les invisibles, soit Trônes, soit Dominations, soit Principautés, soit Puissances : tout a été créé par lui, et en lui ; et lui-même est avant tous, et tout subsiste en lui. Et lui-même est le chef du corps de l’Église : if est le principe, le premier-né d’entre les morts, afin qu’en toutes choses il garde la primauté ; parce qu’il a plu au Père que toute plénitude habitât en lui ; et de se réconcilier par lui toutes choses, pacifiant par le sang de sa croix, soit ce qui est sur la terre, soit ce qui est dans les cieux, en Jésus-Christ Notre-Seigneur.",
+        "Italiano": "Fratelli: Rendiamo grazie a Dio Padre, che ci ha fatti degni di partecipare alla sorte dei santi nella luce, che ci ha strappati dalla potestà delle tenebre e ci ha trasportati nel regno del dilettissimo Figlio suo in cui abbiamo redenzione, mediante il sangue di Lui, e remissione dei peccati. Egli è l’immagine del Dio invisibile, il primogénito di ogni creatura, poiché in Lui sono state fatte tutte le cose nel cielo e nella terra, le visibili e le invisibili, sia i troni, sia le dominazioni, sia i principati, sia le potestà; tutte le cose sono state create per mezzo di Lui e per Lui. Egli è prima di tutto, e tutte le cose sussistono in Lui. Ed Egli è il capo del corpo della Chiesa: Egli è il principio, il primo a rinascere di tra i morti, onde abbia il primato in tutte le cose. Poiché fu beneplacito del Padre che in Lui abitasse ogni pienezza, e che per mezzo di Lui e per Lui fossero seco riconciliate tutte le cose, pacificando, mediante il sangue della sua croce, le cose della terra e le cose del cielo, nel Cristo Gesú nostro Signore.",
+        "Magyar": "adjatok hálát az Atyának, aki arra méltatott benneteket, hogy részetek legyen a szentek örökségében, a világosságban;  kiragadott minket a sötétség hatalmából, és áthelyezett szeretett Fia országába.  Benne nyertük el a megváltást, bűneink bocsánatát.  Ő a láthatatlan Isten képmása, minden teremtmény elsőszülötte.  Mert benne teremtett mindent a mennyben és a földön: a láthatókat és a láthatatlanokat, a trónusokat, uralmakat, fejedelemségeket és hatalmasságokat. Mindent általa és érte teremtetett.  Ő előbb van mindennél, és minden benne áll fenn.  Ő a testnek, az Egyháznak a feje. Ő a kezdet, az elsőszülött a halottak közül, hogy övé legyen az elsőség mindenben.  Úgy tetszett az Atyának, hogy benne lakjék az egész teljesség,  s hogy általa békítsen ki magával mindent a földön és a mennyben, minthogy Ő a kereszten vérével békességet szerzett.",
+        "Nederlands": "Broeders, wij brengen dank aan God de Vader, die ons waardig heeft gemaakt deel te mogen hebben aan het lot der heiligen, in het volle licht. Hij heeft ons ontrukt aan de macht der duisternis en overgebracht naar het rijk van zijn beminde Zoon, in wie wij de verlossing bezitten, de vergiffenis der zonden, door de kracht van zijn Bloed. Deze is het beeld van de onzichtbare God, geboren vóórdat alles geschapen werd; want in Hem werd alles geschapen, wat in de hemel en op aarde is, het zichtbare en het onzichtbare, tronen zowel als heerschappijen, overheden en machten; alles is door Hem en in Hem geschapen. Zo bestaat Hij vóór allen, en alles bestaat in Hem. Hij is ook het Hoofd van het lichaam, dat wil zeggen van de Kerk. Hij is het begin, de Eerstgeborene uit de doden, opdat Hij in alles de eerste plaats zou hebben. Want het was besloten, dat in Hem alle volheid zou wonen, en dat Hij vrede zou brengen door het Bloed van zijn kruis en door zijn toedoen alles weer met God zou verzoenen, wat op de aarde of wat in de hemel is: in Christus Jezus, onze Heer.",
+        "Polski": "Bracia: Dzięki czyńcie Bogu Ojcu, że nas uczynił godnymi, abyśmy się stali uczestnikami dziedzictwa świętych w światłości. ((Bóg)) wybawił nas z mocy ciemności i przeniósł do królestwa Syna umiłowania swego. W Nim mamy odkupienie przez krew Jego, odpuszczenie grzechów. On jest obrazem Boga niewidzialnego, pierworodnym wszelkiego stworzenia. Albowiem w Nim wszystkie rzeczy zostały stworzone na niebie i na ziemi, widzialne i niewidzialne, czy to Trony, czy Państwa, Księstwa, czy Władze. Wszystko przez Niego i w Nim stworzone zostało, a On jest przed wszystkim i wszystko w Nim trwa. On jest też głową ciała Kościoła, początkiem i pierworodnym z umarłych, aby sam we wszystkim zachował pierwszeństwo. Bo spodobało się ((Bogu)), aby przebywała w Nim wszelka pełność oraz aby przezeń wszystko, co jest na ziemi, czy co jest w niebiesiech, w Nim się pojednało, po nastaniu pokoju przez krew krzyża Jego: w Chrystusie Jezusie, Panu naszym.",
+        "Portugues": "Meus irmãos: Damos graças a Deus Pai, porque nos fez dignos de participar da herança dos Santos na luz, nos livrou do poder das trevas e nos conduziu para o reino do seu muito amado Filho, no qual possuímos a redenção pelo seu sangue e a remissão dos pecados. Ele é a imagem de Deus invisível e o primogénito de todas as criaturas; porquanto n’Ele foram criadas todas as cousas nos céus e na terra, visíveis e invisíveis, quer sejam os Tronos, quer as Dominações, quer os Principados, quer as Potestades. Tudo foi criado por Ele e n’Ele próprio. Ele existe antes de todas as cousas e todas as cousas subsistem por Ele. Ele é a cabeça do corpo da Igreja e o princípio e o primogénito de todos os mortais, para que assim conserve a primazia de todas as cousas, pois foi do agrado do Pai que n’Ele residisse toda a plenitude e por Ele se reconciliem em si próprio todas as cousas, pacificando pelo seu sangue na Cruz tanto o que está na terra, como o que está no céu, em Nosso Senhor Jesus Cristo.",
+        "Ukrainian": "Брати: дякуйте Отцеві, який зробив нас гідними мати участь у долі святих у світлі. Він вирвав нас із влади тьми й переніс у царство свого улюбленого Сина, в якому ми маємо відкуплення, прощення гріхів. Він - образ невидимого Бога, первородний усякого створіння, бо в ньому все було створене, що на небі і що на землі, видиме й невидиме: чи то престоли, чи господьства, чи начала, чи власті, все було ним і для нього створене. Він раніш усього, і все існує в ньому. Він також голова тіла, тобто Церкви. Він - начало, первородний з мертвих, так, щоб у всьому він мав першенство, бо сподобалося Богові, щоб уся повнота перебувала в ньому і щоб через нього примирити кров’ю його хреста з собою все: чи то земне, а чи небесне, у Христі Ісусі, Господі нашому."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) DO(d)mi(d)ná(efefhig'hvFE'e)bi(de)tur(e.) *(;) a(d) ma(efe)ri(f) us(f!hhh/ijhhvF'Egihh)que(f) ad(f) ma(f_g_f_)re,(f.) (:) et(ijIHih) a(fh) flú(h)mi(feh)ne(hig'/hf.) (;) us(fh)que(h) ad(g) tér(h)mi(f)nos(d.) (,) or(dfe___/hgh)bis(f) ter(e)rá(de)rum.(d!ewfef//highf.dfe/feed.0) (::) <sp>V/</sp>. Et(d) ad(d)o(fe)rá(eh)bunt(h) e(hi)um(ihhf/hiHG.hiFD.1) (,) (f!hhi/hhf/hiHG.hiFD.1) (,) (fdfED//fd/ef/hh/ig/hf/hi/kkkh..) (;) o(f)mnes(hg) re(hih)ges(hf) ter(ffe)rae :(gxe_f_d_2//f_e/fgF'ED'dfvEDed..) (:) o(fdfED)mnes(d.) Gen(fd/ef!hh/i!jwkI'H)tes(hiHF.1) (;) sér(gxgg//gg)vi(d)ent(efe/ffe.) *() e(fhG'F//hhh)i.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "He shall rule from sea to sea, and from the River to the ends of the earth.  All kings shall pay Him homage, all nations shall serve Him.",
+        "Francais": " Il dominera de la mer à la mer, et depuis le fleuve jusqu’aux extrémités de la terre. Et tous les rois de la terre l’adoreront, toutes les nations lui seront assujetties. Alléluia, alléluia. Sa puissance, est une puissance éternelle, qui ne sera pas emportée, et son règne est un règne qui ne sera point bouleversé. Alléluia.",
+        "Italiano": "Egli dominerà da un mare all’altro, e dal fiume fino alle estremità della terra. E lo adoreranno tutti i re della terra: e tutte le nazioni lo serviranno. Allelúia, allelúia. Eterno è il suo potere, che non gli sarà mai tolto, ed eterno il suo regno, che non andrà mai distrutto. Allelúia.",
+        "Nederlands": "Heersen zal Hij van de zee tot de zee, van de stroom tot aan de grenzen der aarde.  Alle koningen der aarde zullen Hem aanbidden, alle volkeren Hem dienen. Alleluia, alleluia.",
+        "Polski": "Panować będzie od morza do morza i od rzeki aż po krańce ziemi. I uwielbią Go wszyscy królowie, wszystkie narody będą Mu służyły. Alleluja, alleluja. Władza Jego to władza wieczna, która nie będzie odjęta, a królestwo Jego nigdy nie zaginie. Alleluja.",
+        "Portugues": "Dominará de mar a mar e desde o rio aos confins da redondeza da terra! V. Adorá-l’O-ão todos os reis da terra: e todos os povos O servirão! Aleluia, aleluia. Seu poder é eterno, nunca Lhe será tirado; seu reino é tal que nunca será corrompido. Aleluia.",
+        "Ukrainian": "Він пануватиме від моря до моря, і від ріки до кінців вcеленної. І поклонятьcя йому вcі царі землі; вcі народи будуть cлужити йому. Aлілуя, aлілуя. Влада його – влада вічна, що не минеться, і царство його не занепаде ніколи. Aлілуя."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(dc~)le(d./fgF'ED'fvED'dc)lú(ixf!gwh'!iv){ia}.(hfg.) <clear>*(,) <i>ij.</i>(ixhvGFg_i//hi!jvIHG.hvGFghhvGF'g/!/!dfddc.) (,) (cf/ghGE'Dffd.) (::) <sp>V/</sp>. Pot(c)é(cd)stas(d) e(dc~)jus,(d./fgF'ED'//fvED'dc) (,) pot(f)é(ixghhvGFgfghg/hi)stas(hgg) (,) ae(f)tér(ixgfghvGFg_i//hi!jvIG'gfghg/hi)na,(h.) (;) quae(hvGF'g//dfddc.) non(cf/ghG'F) au(ed)fe(cd)ré(d_e_d_)tur :(d.) (:) et(ixcf/giiiv'1HFgfghjh.1) (,) (ixcf/giiiv'1HFgfghjh.1) (,) (ixjvIHivHGhvGFg_h) re(hvGF)gnum(gh) e(gf~)jus,(fgffvED.) <clear>*(;) quod(d) non(dc) cor(d./fgF'ED'//fvED)rum(dc)pé(ixf!gwh'!iv)tur.(hfg.) (,) (ixhvGFg_i//hi!jvIHG.hvGF/!ghhvGF'g//dfddc.) (,) (cf/ghGE'Dffd.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. His dominion is an everlasting dominion that shall not be taken away: and His kingdom shall not be destroyed. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Zijn macht is een eeuwige macht, die niet zal worden opgeheven, en zijn rijk zal niet ten ondergaan. Alleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(dc~)le(d./fgF'ED'fvED'dc)lú(ixf!gwh'!iv){ia}.(hfg.) <clear>*(,) <i>ij.</i>(ixhvGFg_i//hi!jvIHG.hvGFghhvGF'g/!/!dfddc.) (,) (cf/ghGE'Dffd.) (::) <sp>V/</sp>. Pot(c)é(cd)stas(d) e(dc~)jus,(d./fgF'ED'//fvED'dc) (,) pot(f)é(ixghhvGFgfghg/hi)stas(hgg) (,) ae(f)tér(ixgfghvGFg_i//hi!jvIG'gfghg/hi)na,(h.) (;) quae(hvGF'g//dfddc.) non(cf/ghG'F) au(ed)fe(cd)ré(d_e_d_)tur :(d.) (:) et(ixcf/giiiv'1HFgfghjh.1) (,) (ixcf/giiiv'1HFgfghjh.1) (,) (ixjvIHivHGhvGFg_h) re(hvGF)gnum(gh) e(gf~)jus,(fgffvED.) <clear>*(;) quod(d) non(dc) cor(d./fgF'ED'//fvED)rum(dc)pé(ixf!gwh'!iv)tur.(hfg.) (,) (ixhvGFg_i//hi!jvIHG.hvGF/!ghhvGF'g//dfddc.) (,) (cf/ghGE'Dffd.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. His dominion is an everlasting dominion that shall not be taken away: and His kingdom shall not be destroyed. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Zijn macht is een eeuwige macht, die niet zal worden opgeheven, en zijn rijk zal niet ten ondergaan. Alleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(ddc~)le(egE'Cd./egED'ew!fvED)lú(dcd){ia}.(d.) *(;) (dhhvGEfvED.c!ef!gvEDffd.) (,) (c/ee//c/dd//ce!gvvFDee) (,) (dfegvEDffd.) (::) <sp>V/</sp>. Ha(dc/dfddcefg'EDffd)bet(d.) (,) in(d) ve(d)sti(dh)mén(ixhiH'GhvGEfvED)to(dfddc.) (;) et(dc) in(d) fé(f)mo(e)re(fg!hvF'ED) su(d!ewf'!gv)o(ed/ffd) scri(d!ewfd)ptum :(d.) (:) Rex(dh/jjggf/gh.) (,) (hggf/gh/jjggf/gh.) (,) (g.h!iwj!kvJ'IH'Gh.) (,) (hkkj/klJ'IH'Gh.) re(g.h!iwj/kjjvIH)gum,(h.) (;) et(hg~) Dó(hjI'Gijk)mi(ih/jjh)nus(h.) *(,) do(d)mi(ddc)nán(egE'Cd./egED'ew!fvED)ti(dcd)um.(d.) (;) (dhhvGEfvED.c!ef!gvEDffd.) (,) (c/ee//c/dd//ce!gvvFDee) (,) (dfegvEDffd.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. His dominion is an everlasting dominion that shall not be taken away: and His kingdom shall not be destroyed. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Zijn macht is een eeuwige macht, die niet zal worden opgeheven, en zijn rijk zal niet ten ondergaan. Alleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) DO(d)mi(d)ná(efefhig'hvFE'e)bi(de)tur(e.) *(;) a(d) ma(efe)ri(f) us(f!hhh/ijhhvF'Egihh)que(f) ad(f) ma(f_g_f_)re,(f.) (:) et(ijIHih) a(fh) flú(h)mi(feh)ne(hig'/hf.) (;) us(fh)que(h) ad(g) tér(h)mi(f)nos(d.) (,) or(dfe___/hgh)bis(f) ter(e)rá(de)rum.(d!ewfef//highf.dfe/feed.0) (::) <sp>V/</sp>. Et(d) ad(d)o(fe)rá(eh)bunt(h) e(hi)um(ihhf/hiHG.hiFD.1) (,) (f!hhi/hhf/hiHG.hiFD.1) (,) (fdfED//fd/ef/hh/ig/hf/hi/kkkh..) (;) o(f)mnes(hg) re(hih)ges(hf) ter(ffe)rae :(gxe_f_d_2//f_e/fgF'ED'dfvEDed..) (:) o(fdfED)mnes(d.) Gen(fd/ef!hh/i!jwkI'H)tes(hiHF.1) (;) sér(gxgg//gg)vi(d)ent(efe/ffe.) *() e(fhG'F//hhh)i.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "He shall rule from sea to sea, and from the River to the ends of the earth.  All kings shall pay Him homage, all nations shall serve Him.",
+        "Francais": " Il dominera de la mer à la mer, et depuis le fleuve jusqu’aux extrémités de la terre. Et tous les rois de la terre l’adoreront, toutes les nations lui seront assujetties. Alléluia, alléluia. Sa puissance, est une puissance éternelle, qui ne sera pas emportée, et son règne est un règne qui ne sera point bouleversé. Alléluia.",
+        "Italiano": "Egli dominerà da un mare all’altro, e dal fiume fino alle estremità della terra. E lo adoreranno tutti i re della terra: e tutte le nazioni lo serviranno. Allelúia, allelúia. Eterno è il suo potere, che non gli sarà mai tolto, ed eterno il suo regno, che non andrà mai distrutto. Allelúia.",
+        "Nederlands": "Heersen zal Hij van de zee tot de zee, van de stroom tot aan de grenzen der aarde.  Alle koningen der aarde zullen Hem aanbidden, alle volkeren Hem dienen. Alleluia, alleluia.",
+        "Polski": "Panować będzie od morza do morza i od rzeki aż po krańce ziemi. I uwielbią Go wszyscy królowie, wszystkie narody będą Mu służyły. Alleluja, alleluja. Władza Jego to władza wieczna, która nie będzie odjęta, a królestwo Jego nigdy nie zaginie. Alleluja.",
+        "Portugues": "Dominará de mar a mar e desde o rio aos confins da redondeza da terra! V. Adorá-l’O-ão todos os reis da terra: e todos os povos O servirão! Aleluia, aleluia. Seu poder é eterno, nunca Lhe será tirado; seu reino é tal que nunca será corrompido. Aleluia.",
+        "Ukrainian": "Він пануватиме від моря до моря, і від ріки до кінців вcеленної. І поклонятьcя йому вcі царі землі; вcі народи будуть cлужити йому. Aлілуя, aлілуя. Влада його – влада вічна, що не минеться, і царство його не занепаде ніколи. Aлілуя."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) I(f)pse(efE'C) in(efe)vo(fh)cá(h)bit(hhhvGF) me :(gf..) (;) *() Pa(e)ter(fe) me(eh)us(hgg) es(fe) tu :(ef/gf/ggf/gh/iffe.) (:) De(gh)us(f) me(f_e/f!gwh'!iv)us,(hg/hiih.0) (;) et(e) sus(fh)cé(gh/ijH'F)ptor(fihhg) sa(fe)lú(f)tis(hh) (,) me(h_iH'//E)ae.(e/hhhivH//E'f/ggf.0) (::) \r\n<sp>V/</sp>. Et(ef) e(hi)go(f.) pri(e)mo(f)gé(hi)ni(hghvGF'g)tum(g_f) (,) po(f)nam(i) il(jiif/hhfjvIH'hvGF)lum :(fe/ggf/gh/iffe.) (:) ex(f)cél(f_e/f!gwh'!iv)sum(hg/hiih.0) (,) prae(i) ré(e)gi(f)bus(hg) ter(hvGF)rae.(fefEC//fefggf.0) (::) \r\n<sp>V/</sp>. Et(ef) po(h/ihhf/hh/ijhhg/ihhggf!gwhgh)nam(gf..) (;) in(f) saé(hi)cu(hiH'F)lum(fi) saé(ig)cu(hiH'F)li(f!gwh.) (,) se(h)men(f) e(f/hh//hhh)jus :(fe/ggf/gh/iffe.) (:) et(e) thro(gh)num(f) e(f_e/f!gwh'!iv)jus(kxhgi.jkiih.0) (;) sic(h/ihhg)ut(fe) di(fgf)es(g.) *() cae(i_hivHFg.)(,)(h!jijH'GF)li.(fe/f/hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
+      "availableTranslations": {
+        "English": "He shall say to Me, You are My Father, My God, My Rock, My Saviour.  And I will make Him the firstborn, highest of the kings of the earth.  I will make His posterity endure forever and His throne as the days of heaven.",
+        "Francais": "Lui-même m’invoquera, disant : C’est vous qui êtes mon Père, mon Dieu et le garant de mon salut. Et moi, je l’établirai mon premier-né, et plus élevé que tous les rois de la terre. Et j’établirai sa race dans les siècles des siècles, et son trône comme les jours du ciel.",
+        "Italiano": "Ipse invocábit me; Pater meus es tu: Deus meus, et suscéptor salútis meæ. Et ego primogénitum ponam illum: excélsum præ régibus terræ. Et ponam in sǽculum sǽculi semen ejus: et thronum ejus sicut dies cœli.",
+        "Nederlands": "Hij zal tot Mij roepen: Mijn Vader zijt Gij, mijn God en de Beschermer van mijn heil.  En Ik zal hem maken tot mijn eerstgeborene, verheven boven de koningen der aarde.  En zijn geslacht zal Ik doen voortbestaan in de eeuwen der eeuwen, en zijn troon zolang de hemelen duren.",
+        "Polski": "On będzie wołał do mnie: Ojcem moim jesteś Ty, Bogiem moim i wspomożycielem zbawienia mego. A Ja uczynię Go pierworodnym, wyższym nad królów ziemi. I ustanowię na wieki wieków potomstwo Jego, a tron Jego jak dni nieba.",
+        "Ukrainian": "Він буде призивати мене: Отець мій єси, Бог мій і заcтупник cпаcення мого! І я первородним зроблю його, виcоким cеред царів землі. І покладу повік-віки сім'я його, і преcтол його, як дні неба."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Pilátus ad Jesum: Tu es Rex Judæórum? Respóndit Jesus: A temetípso hoc dicis, an álii dixérunt tibi de me? Respóndit Pilátus: Numquid ego Judǽus sum? Gens tua et pontífices tradidérunt te mihi: quid fecísti? Respóndit Jesus: Regnum meum non est de hoc mundo. Si ex hoc mundo esset regnum meum, minístri mei útique decertárent, ut non tráderer Judǽis: nunc autem regnum meum non est hinc. Dixit ítaque ei Pilátus: Ergo Rex es tu? Respóndit Jesus: Tu dicis, quia Rex sum ego. Ego in hoc natus sum et ad hoc veni in mundum, ut testimónium perhíbeam veritáti: omnis, qui est ex veritáte, audit vocem meam.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": " At that time, Pilate said to Jesus, Are You the King of the Jews? Jesus answered, Do you say this of yourself, or have others told you of Me? Pilate answered, Am I a Jew? Your own people and the chief priests have delivered You to me. What have You done? Jesus answered, My kingdom is not of this world.  If My kingdom were of this world, My followers would certainly have fought that I might not be delivered to the Hebrews. But, as it is, My kingdom is not from here. Pilate therefore said to Him, You are then a King? Jesus answered, You say it: I am a King. This is why I was born, and why I have come into the world, to bear witness to the truth. Everyone who is of the truth hears My voice.",
+        "Francais": "En ce temps-là : Pilate dit à Jésus : Es-tu le roi des Juifs ? Jésus répondit : Dis-tu cela de toi-même, ou d’autres te l’ont-ils dit de moi ? Pilate répondit : Est-ce que je suis Juif, moi ? Ta nation et les princes des prêtres t’ont livré à moi ; qu’as-tu fait ? Jésus répondit : Mon royaume n’est pas de ce monde. Si mon royaume était de ce monde, mes serviteurs auraient combattu, pour que je ne fusse pas livré aux Juifs ; mais mon royaume n’est point d’ici. Pilate lui dit alors : Tu es donc roi ? Jésus répondit : Tu le dis, je suis roi. Voici pourquoi je suis né, et pourquoi je suis venu dans le monde : pour rendre témoignage à la vérité. Quiconque est de la vérité, écoute ma voix.",
+        "Italiano": "In quel tempo: Pilato disse a Gesú: Sei tu il Re dei Giudei? Gesú gli rispose: Lo dici da te, o altri te l’hanno detto di me? Rispose Pilato: Sono forse Giudeo? La tua gente e i sommi sacerdoti ti hanno messo nelle mie mani. Che cosa hai fatto? Rispose Gesú: Il mio regno non è di questo mondo; se fosse di questo mondo, i miei ministri certo si adopererebbero perché non fossi dato in potere ai Giudei: dunque il mio regno non è di quaggiú. Allora Pilato gli disse: Dunque tu sei Re? Rispose Gesú: È come dici, io sono re. Per questo sono nato e per questo sono venuto al mondo, a rendere testimonianza alla verità. Chiunque sta per la verità, ascolta la mia voce.",
+        "Magyar": "Pilátus visszament a helytartóságra, maga elé hívatta Jézust, és megkérdezte tőle: „Te vagy a zsidók királya?”  Jézus ezt felelte: „Magadtól mondod ezt vagy mások mondták neked rólam?”  „Hát zsidó vagyok én? - tört ki Pilátus. - Saját néped és a főpapok adtak kezemre. Mit tettél?”  Jézus így válaszolt: „Az én országom nem ebből a világból való. Ha ebből a világból volna országom, harcra kelnének szolgáim, hogy ne kerüljek a zsidók kezére. De az én országom nem innen való.”  Pilátus közbeszólt: „Tehát király vagy?” „Te mondod, hogy király vagyok - mondta Jézus. - Arra születtem, s azért jöttem a világba, hogy tanúságot tegyek az igazságról. Aki az igazságból való, hallgat szavamra.”",
+        "Nederlands": "In die tijd zeide Pilatus tot Jezus: Zijt Gij de Koning van de Joden? Jezus antwoordde: Stelt gij die vraag uit u zelf of hebben anderen u dat van Mij gezegd? Pilatus hernam: Ben ik dan soms een Jood? Uw eigen volk en de opperpriesters hebben U aan mij uitgeleverd. Wat hebt Gij gedaan? Jezus gaf ten antwoord: Mijn rijk is niet van deze wereld. Als mijn rijk van deze wereld was, zouden ongetwijfeld mijn dienaren er voor strijden, dat Ik niet aan de Joden werd overgeleverd; maar mijn rijk is nu eenmaal niet van hier. Toen zei Pilatus tot Hem: Dus Kóning zijt Gij? Jezus antwoordde: Ja, gij zegt het; Kóning ben Ik. Daartoe ben Ik geboren en daartoe juist in de wereld gekomen, om te getuigen voor de waarheid. Ieder, die uit de waarheid is, luistert naar Mijn stem.",
+        "Polski": "Onego czasu: Rzekł Piłat do Jezusa: «Czy Ty jesteś Król żydowski?» Odpowiedział Jezus: «Czy sam od siebie to mówisz, czy inni ci o mnie powiedzieli?» Odpowiedział Piłat: «Czyż ja jestem Żydem? Naród Twój i najwyżsi kapłani wydali mi Ciebie. Cóżeś uczynił?» Odpowiedział Jezus: «Królestwo moje nie jest z tego świata. Gdyby z tego świata było królestwo moje, słudzy moi walczyliby niechybnie, żebym nie był wydany Żydom. Ale teraz królestwo moje nie jest stąd». Rzekł Mu tedy Piłat: «Więc Tyś jest król?» Odpowiedział Jezus: «Sam mówisz, że ja jestem królem. Jam się na to narodził i na to przyszedłem na świat, aby dać świadectwo prawdzie. Każdy, który z prawdy jest, słucha głosu mego».",
+        "Portugues": "Naquele tempo, disse Pilatos a Jesus: «Tu és o rei dos Judeus?». Respondeu Jesus: «Tu dizes isso de ti mesmo, ou foram outros que to disseram de mim?». Respondeu Pilatos: «Sou, porventura, judeu? Foram os teus compatriotas e os pontífices que te entregaram nas minhas mãos. O que fizeste?». Jesus respondeu: «Meu reino não é deste mundo. Se o meu reino fosse deste mundo, certamente os meus ministros haviam de pelejar para que Eu não fosse entregue aos judeus; porém, Eu o declaro agora, o meu reino não é daqui». Disse-Lhe, então, Pilatos: «És, portanto, rei?». Jesus respondeu: «Tu dizes que Eu sou rei. Eu para isso nasci e para isso vim a este mundo, a fim de dar testemunho da verdade. Todo aquele que é da verdade, escuta a minha voz».",
+        "Ukrainian": "Tого часу Пилат каже до Ісуса: «Ти цар юдейський?» Ісус же у відповідь: «Кажеш те від себе, а чи інші про мене так тобі оповіли?» «Хіба ж я юдей? - озвався Пилат. - Народ твій і первосвященики передали тебе мені. Що ти таке зробив?» «Царство моє не від світу цього, - відрік Ісус. - Було б моє царство від цього світу, то сторожа моя була б воювала, щоби мене не видали юдеям. Але не звідсіля моє царство.» «То ти таки цар?» - мовив до нього Пилат. І відповів Ісус: «Ти кажеш, що я цар. Я на те уродився і прийшов у світ на те, щоб свідчити істину. Кожен, хто від істини, слухає голос мій.»"
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PO(c)stu(dfe)la(f) *() a(e/fgF'EfvED) me,(fd/efe.) (,) et(fd~) da(dfe)bo(fg) ti(g)bi(g_efvEDgvFE) Gen(hvGFgvF~E~)tes(e.) (;) he(e)re(e)di(e)tá(egf/gff'fd)tem(dgF'E) tu(hgh_fhggd)am,(dgF'EfgFD.1) (:) et(d) pos(d)ses(df/gef)si(f)ó(f/{ix}f/hih/ihhg)nem(gh/igh.) tu(e.f!gwhhg)am(gf/ghhg.) (;) tér(g_d)mi(dgF'E)nos(e.) ter(eg!hvGFghg)rae.(egf/gffe.) (::)",
+      "availableTranslations": {
+        "English": "Ask of Me and I will give You the nations for an inheritance and the ends of the earth for Your possession.",
+        "Francais": "Demande-moi, et je te donnerai les nations pour ton héritage, et pour ton domaine les extrémités de la terre.",
+        "Italiano": "Chiedimi, e ti darò in possesso le genti, e in tuo dominio i confini della terra.",
+        "Nederlands": "Vraag mij, en Ik geef U de volkeren tot erfdeel, en tot bezit de grenzen der aarde.",
+        "Polski": "Żądaj ode mnie, a dam ci narody w dziedzictwo i krańce ziemi w Twoje posiadanie.",
+        "Portugues": "Pede-me: e dar-te-ei as nações como herança; e como domínio os confins da terra!",
+        "Ukrainian": "Проcи в мене, і я дам тобі народи в наcліддя твоє та кінці землі у володіння твоє."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hóstiam tibi, Dómine, humánæ reconciliatiónis offérimus: præsta, quǽsumus; ut, quem sacrifíciis præséntibus immolámus, ipse cunctis géntibus unitátis et pacis dona concédat, Jesus Christus Fílius tuus, Dóminus noster:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O Lord, we offer You this sacrificial Victim of mankind's reconciliation with You; grant, we beseech You, that our Lord Jesus Christ, your Son, Whom we offer in this sacrifice, may bestow upon all peoples the gifts of unity and peace.",
+        "Francais": "Nous vous offrons, Seigneur, le sacrifice de la réconciliation de l’homme : faites, nous vous prions, que Celui que nous immolons dans ce sacrifice, accorde Lui-même à toutes les nations les dons d’unité et de paix Jésus-Christ votre Fils, notre Seigneur :",
+        "Italiano": "Ti offriamo, o Signore, la vittima dell’umana riconciliazione; Tu fa, Te ne preghiamo, che Colui stesso che offriamo col presente sacrificio conceda a tutti i popoli i doni dell’unità e della pace: Gesú Cristo tuo Figlio e Signore nostro.",
+        "Nederlands": "Wij offeren U, Heer, het zoenoffer van de mensen en vragen U: laat Hij, die wij in dit offer slachtofferen, aan alle volkeren de weldaden van eendracht en vrede schenken, Jezus Christus, uw Zoon, onze Heer.",
+        "Polski": "Ofiarujemy Ci, Panie, żertwę jednającą ludzi z Tobą, spraw, aby Ten, którego w tej ofierze składamy, użyczył wszystkim narodom daru jedności i pokoju: Jezus Chrystus Syn Twój, Pan nasz.",
+        "Portugues": "Vos oferecemos, Senhor, a hóstia da reconciliação humana, implorando-Vos que este mesmo Jesus Cristo, vosso Filho e Senhor nosso, o qual imolamos no presente sacrifício, conceda a todos os povos os benefícios da união e da paz:",
+        "Ukrainian": "Господи, ми приносимо Тобі Жертву примирення людства і смиренно просимо Тебе, щоб Той, Кого приносимо в Жертву в цьому Таїнстві, вділив усім народам дари єдності та миру, Ісус Христос, Син Твій,"
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) SE(cd)dé(f)bit(dc) *() Dó(fg)mi(h)nus(gf) Rex(fgf) in(f_e) ae(ixg_i_g_!hwi)tér(f_g_f_)num :(f.) (;) Dó(fg)mi(f)nus(f) be(f)ne(f)dí(ixf!gwh'!iv)cet(h.) (,) pó(hj)pu(g)lo(fg) su(gf)o(fgff/ded.) (,) in(f_e/ggh) pa(f_g_f_)ce.(f.) (::)",
+      "availableTranslations": {
+        "English": "The Lord is enthroned as King forever; may the Lord bless His people with peace!",
+        "Francais": "Le Seigneur siègera comme Roi éternellement : le Seigneur bénira son peuple dans la paix.",
+        "Italiano": "Il Signore siede Re in eterno: il Signore benedice il suo popolo con la pace.",
+        "Nederlands": "De Heer troont als Koning voor eeuwig. De Heer schenkt aan zijn volk de zegen van de vrede.",
+        "Polski": "Pan zasiądzie jako król na wieki. Pan obdarzy lud swój pokojem.",
+        "Portugues": "Assentar-se-á, eternamente, o Senhor como Rei e abençoará o seu povo em paz.",
+        "Ukrainian": "Буде перебувати Гоcподь як цар по віки. Гоcподь поблагоcловить людей cвоїх миром."
+      },
+      "mode": "6",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Immortalitátis alimóniam consecúti, quǽsumus, Dómine: ut, qui sub Christi Regis vexíllis militáre gloriámur, cum ipso, in cœlésti sede, júgiter regnáre possímus:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "We have received the food of eternal life, and we beseech You, O Lord, that we who are proud to serve under the flag of Christ the King may forever reign with Him in the Kingdom of heaven.",
+        "Francais": "Ayant reçu l’aliment de l’immortalité, nous vous prions, Seigneur : puissions-nous, qui nous glorifions de combattre sous l’étendard du Christ, régner toujours avec Lui dans le céleste séjour : Lui qui vit.",
+        "Italiano": "Ricevuto questo alimento d’immortalità, Ti preghiamo, o Signore, affinché quanti ci gloriamo di combattere sotto le insegne del Cristo Re, possiamo regnare per sempre nella celeste dimora con Lui.",
+        "Nederlands": "Nu wij het voedsel der onsterfelijkheid hebben ontvangen, vragen wij U, Heer, dat wij, die er groot op gaan onder het vaandel van Koning Christus te mogen strijden, met Hem in het hemels rijk voor altijd kunnen heersen.",
+        "Polski": "Po przyjęciu pokarmu, który jest zadatkiem nieśmiertelności, prosimy Cię, Panie, abyśmy dostąpiwszy zaszczytu pełnienia służby pod sztandarami Chrystusa Króla, mogli wraz z Nim  w siedzibach niebieskich królować na wieki: ",
+        "Portugues": "Tendo nós alcançado o alimento da imortalidade, Vos suplicamos, Senhor, permiti que possamos reinar perpetuamente na celestial mansão, juntamente com Jesus Cristo, sob cujas bandeiras nos gloriamos de militar:",
+        "Ukrainian": "Насичені поживою безсмертя, просимо Тебе, Господи, щоб ми, для яких є славою воювати під знаменами Христа-Царя, могли довіку царювати з Ним на небесному престолі."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

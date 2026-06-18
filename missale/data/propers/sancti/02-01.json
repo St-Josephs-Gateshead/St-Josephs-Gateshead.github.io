@@ -1,0 +1,808 @@
+{
+  "rule": [
+    "Gloria"
+  ],
+  "feast": "S. Ignatii Episcopi et Martyris",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) MI(e)hi(f) au(f)tem(hh) *(,) ab(ihi)sit(ihi_f) glo(hj)ri(ih)á(hg)ri,(e_f) (;) ni(fi)si(i) in(i) cru(kxi!jwkj)ce(ji__) (,) Dó(ij)mi(ih)ni(hv.gih) no(fge)stri(f.) (,) Je(f)su(hhi) Chri(fgF'E)sti,(e.) (:) per(h) quem(hhh) mi(f)hi(fi) mun(i)dus(h) cru(h)ci(hi)fí(i)xus(h) est,(hji.) (;) et(hihh) e(ef!hhi)go(h) mun(hjI~'H~)do.(hhh/f_g_f._) (::) <i>Ps.</i> Me(e)mén(fe)to(eh) Dó(hg)mi(hi)ne(i) Da(hi)vid :(h.) *(:) et(hf) o(fh)mnis(h) man(h)su(h)e(h')tú(i)di(hf)nis(h) e(ge)jus.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+      "availableTranslations": {
+        "English": "God forbid that I should glory, save in the cross of our Lord Jesus Christ: by whom the world is crucified to me, and I to the world. O Lord, remember David and all his meekness.",
+        "Francais": "Je souhaite de ne jamais me glorifier, sinon dans la croix de notre Seigneur Jésus Christ ; par laquelle le monde est crucifié pour moi, et moi pour le monde. Souvenez-vous, Seigneur, de David et de toute sa douceur.",
+        "Italiano": "Di nulla mi glorio se non della Croce di Gesù Cristo nostro Signore. Per mezzo suo è crocifisso a me il mondo, come io sono crocifisso per il mondo. Ricòrdati, Signore, di David e di tutta la pietà sua.",
+        "Nederlands": "Het zij verre van mij op iets anders te roemen dan op het Kruis van onze Heer Jezus Christus. Door Hem is de wereld voor mij gekruisigd, en ik voor de wereld. Blijf David gedenken, o Heer, en al zijn moeizame zorgen.",
+        "Polski": "Nie daj Boże, bym miał się chlubić z czego innego, jeno z krzyża Pana naszego Jezusa Chrystusa, przez którego dla mnie świat jest ukrzyżowany, a ja światu. Pomnij, Panie, na Dawida i na całą jego gorliwość.",
+        "Portugues": "Longe esteja de mim gloriar-me nalguma coisa senão na Cruz de Nosso Senhor Jesus Cristo, pela qual o mundo foi crucificado para mim e eu para o mundo. Lembrai-Vos de David, Senhor, assim como da sua mansidão."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti N. Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Francais": "Dieu tout-puissant, regardez notre faiblesse ; et parce que le poids de nos péchés nous accable, fortifiez-nous par la glorieuse intercession du bienheureux Ignace, votre Martyr et Pontife."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Fratres: Quis nos separábit a caritáte Christi: tribulátio, an angustia, an fames, an núditas, an perículum, an persecútio, an gládius? sicut scriptum est: Quia propter te mortificámur tota die: æstimáti sumus sicut oves occisiónis. Sed in his ómnibus superámus propter eum, qui diléxit nos. Certus sum enim, quia neque mors, neque vita, neque ángeli, neque principátus, neque virtútes, neque instántia, neque futúra, neque fortitúdo, neque altitúdo, neque profúndum, neque creatúra alia poterit nos separáre a caritáte Dei, quæ est in Christo Jesu, Dómino nostro.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Brethren, who shall separate us from the love of Christ? shall tribulation? or distress? or famine? Or nakedness? or danger? Or persecution? or the sword? As it is written: For Thy sake we are put to death all the day long: we are accounted as sheep for the slaughter. But in all these things we overcome because of Him that hath loved us. For I am sure that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, nor might, nor height, nor depth, nor any other creature shall be able to separate us from the love of God, which is in Christ Jesus our Lord.",
+        "Francais": "Mes Frères : Qui donc nous séparera de l’amour du Christ ? Sera-ce la tribulation, ou l’angoisse, ou la faim, ou la nudité, ou le péril, ou la persécution, ou le glaive ? (Selon qu’il est écrit : À cause de vous, nous sommes mis à mort tout le jour ; on nous regarde comme des brebis destinées à la boucherie.) Mais en tout cela nous demeurons victorieux, par Celui qui nous a aimés. Car je suis certain que ni la mort, ni la vie, ni les anges, ni les principautés, ni les puissances, ni les choses présentes, ni les choses à venir, ni la violence, ni ce qu’il y a de plus élevé, ni ce qu’il y a de plus profond, ni aucune autre créature, ne pourra nous séparer de l’amour de Dieu, manifesté dans le Christ Jésus notre Seigneur.",
+        "Italiano": "Fratelli: Chi potrà separarci dall'amore di Cristo? la tribolazione forse, o l'angoscia, la fame, la nudità, il pericolo, la persecuzione, la spada? Come sta scritto: «Per te noi siamo ogni giorno messi a morte, siamo considerati come pecore da macello». Ma in queste cose noi stravinciamo in virtù di Colui che ci ha amati. Poiché mi tengo certo che né la morte, né la vita, né gli Angeli, né i Principati, né le Virtù, né le cose presenti, né le future, né la potenza, né l'altezza, né abisso, né altra cosa creata potrà separarci dalla carità di Dio, che è in Gesù Cristo Signore nostro.",
+        "Magyar": "Ki szakíthat el bennünket Krisztus szeretetétől? Nyomor vagy szükség? Üldöztetés vagy éhínség, ruhátlanság, életveszély vagy kard?  Amint meg van írva: Minket minden időben teérted irtanak, s vágójuhok módjára tartanak.  De mindezeken diadalmaskodunk őáltala, aki szeret minket.  Biztos vagyok ugyanis benne, hogy sem halál, sem élet, sem angyalok, sem fejedelemségek, sem jelenvalók, sem eljövendők, sem hatalmasságok,  sem magasság, sem mélység, sem egyéb teremtmény el nem szakíthat bennünket Isten szeretetétől, amely Krisztus Jézusban, a mi Urunkban van.",
+        "Nederlands": "Broeders, wie kan ons scheiden van de liefde van Christus: wederwaardigheid of nood, of honger of naaktheid, of gevaar of vervolging of zwaard? - zoals er geschreven staat: “Om Uwentwil ondergaan wij iedere dag de dood; wij worden beschouwd als schapen, voor de slachting bestemd.” - Integendeel, in dit alles behalen wij de overwinning door Hem, die ons zijn liefde heeft bewezen. Want ik ben er zeker van, dat geen dood of geen leven, geen engelen, heerschappijen of machten, geen heden en geen toekomst, geen kracht, geen hoogte of diepte, of welk ander schepsel ook, ons zal kunnen scheiden van de liefde Gods, die is in Christus Jezus, onze Heer.",
+        "Polski": "Bracia: Któż odłączy nas od miłości Chrystusowej? Utrapienie czy ucisk? Głód czy nagość? Niebezpieczeństwo, prześladowanie czy miecz? Jako napisane jest: Dla Ciebie to zabijają nas dzień cały, poczytują za owce skazane na rzeź. Ale w tym wszystkim zwyciężamy przez Tego, który nas umiłował. Bo jestem pewien, że ani śmierć, ani życie, ani aniołowie, ani potęgi, ani moce, ani rzeczy teraźniejsze, ani przyszłe, ani siła, ani co wysokie, ani co głębokie, ani żadne stworzenie nie zdoła nas odłączyć od miłości Bożej, która jest w Chrystusie Jezusie, Panu naszym.",
+        "Portugues": "Quem nos separará do amor de Cristo? A tribulação, a angústia, a fome, a nudez, os perigos, a perseguição, a espada? Segundo o que está escrito: «Por ti somos entregues à morte todos os dias; somos reputados como ovelhas conduzidas à morte». Mas de todas estas coisas saímos vencedores por Aquele que nos amou. Estou certo de que nem a morte, nem a vida, nem os anjos, nem os príncipes, nem as virtudes, nem as coisas presentes, nem as futuras, nem a força, nem a altura, nem a profundidade, nem nenhuma outra criatura poderá separar-nos do amor de Deus, que está em Nosso Senhor Jesus Cristo."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) EC(ffg)ce(f.) *() sa(f)cér(f)dos(gh~) ma(h_fgvFED.g_e/fg)gnus,(f.) (;) qui(f) in(f) di(f)é(hf/gh!jj/kjk)bus(jij) su(ixh_g/h!jjvHF.1ivHGhf)is(f.) (:) plá(ixf/hhi)cu(gjj)it(j.h!iw!jvIG'hw!ivHG) De(fv.ff)o.(f_c) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Non(d) est(d) in(fe~)vén(eh)tus(h.) (,) sí(h)mi(h)lis(h) il(h)li,(ihhe./h_i_h_/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) qui(hh) con(h)ser(h)vá(ih/ij_h ih/ij_ij//hi/jij)ret(jh/jkihh/fgf.) <clear>*(;) le(f)gem(d) Ex(ef)cél(fhG'Fhhh)si.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "Behold a great priest, who in his days pleased God. There was not any found the like to him, who kept the law of the Most High.",
+        "Francais": "Voici le grand Pontife qui dans les jours de sa vie a plu à Dieu. Nul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut. Allelúja, allelúja",
+        "Italiano": "Ecco il grande pontefice, che nella sua vita piacque a Dio. Non si trovò alcuno simile a lui nell'osservare la legge dell'Eccelso.",
+        "Nederlands": "Zie de hogepriester, die in zijn dagen aan God heeft behaagd. Niemand werd er gevonden, die als hij aan de wet van de Allerhoogste getrouw bleef. Alleluia, alleluia",
+        "Polski": "Oto wielki kapłan, który za dni swoich podobał się Bogu. Nie znalazł się jemu podobny, który by zachował prawo Najwyższego. Alleluja, alleluja. Z Chrystusem przybity jestem do krzyża: i żyję już nie ja, ale żyje we mnie Chrystus. Alleluja.",
+        "Portugues": "Eis o grande sacerdote que durante a vida agradou a Deus. Não houve quem, como ele, guardasse a observância da Lei do Altíssimo. Aleluia, aleluia. Estou crucificado com Cristo. Vivo, mas já não sou eu que vivo: é Cristo que vive em mim. Aleluia."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(cd~)le(d!ewf!gvFED.fvEDC')lú(fg'h~){ia}.(h.) *(,) <i>ij.</i>(ixivHGhvGF'ghhvGFgdevDC.) (,) (fg!hvGF'E/fvEDeed.0) (::) <sp>V/</sp>. Chri(cd)sto(d!ewf!gvFED.fvEDC.) (,) con(f)fí(ixfg!hvGFghg/hi)xus(h) sum(gf) cru(gh)ci :(h.) (:) vi(fe)vo(d) e(d!ewfef)go,(ed..) (;) jam(hvGFgdevDC.) non(fg!hvGF'ED) e(cd)go,(d.) (:) vi(fg'h)vit(hj) ve(jvIH'GhhvGFgvFD)ro(ed..) (;) in(cd~) me(d!ewf!gvFED.fvEDC') () *() Chri(fg'h)stus.(h.) (,) (ixivHGhvGF'ghhvGFgdevDC.) (,) (fg!hvGF'EfvEDeed.0) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. With Christ I am nailed to the cross: I live, now not I, but Christ liveth in me. Alleluia.",
+        "Francais": "Allelúja, allelúja. Avec le Christ j’ai été cloué à la croix. Et je vis, non ce n’est plus moi, mais c’est le Christ qui vit en moi. Allelúja.",
+        "Italiano": "Allelúja, allelúja. Con Cristo sono confitto in croce; e vivo, non più io, ma vive in me Cristo. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Met Christus ben ik aan het Kruis gehecht. Ik leef, neen, niet ik, maar in mij leeft Christus. Alleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(cd~)le(d!ewf!gvFED.fvEDC')lú(fg'h~){ia}.(h.) *(,) <i>ij.</i>(ixivHGhvGF'ghhvGFgdevDC.) (,) (fg!hvGF'E/fvEDeed.0) (::) <sp>V/</sp>. Chri(cd)sto(d!ewf!gvFED.fvEDC.) (,) con(f)fí(ixfg!hvGFghg/hi)xus(h) sum(gf) cru(gh)ci :(h.) (:) vi(fe)vo(d) e(d!ewfef)go,(ed..) (;) jam(hvGFgdevDC.) non(fg!hvGF'ED) e(cd)go,(d.) (:) vi(fg'h)vit(hj) ve(jvIH'GhhvGFgvFD)ro(ed..) (;) in(cd~) me(d!ewf!gvFED.fvEDC') () *() Chri(fg'h)stus.(h.) (,) (ixivHGhvGF'ghhvGFgdevDC.) (,) (fg!hvGF'EfvEDeed.0) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. With Christ I am nailed to the cross: I live, now not I, but Christ liveth in me. Alleluia.",
+        "Francais": "Allelúja, allelúja. Avec le Christ j’ai été cloué à la croix. Et je vis, non ce n’est plus moi, mais c’est le Christ qui vit en moi. Allelúja.",
+        "Italiano": "Allelúja, allelúja. Con Cristo sono confitto in croce; e vivo, non più io, ma vive in me Cristo. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Met Christus ben ik aan het Kruis gehecht. Ik leef, neen, niet ik, maar in mij leeft Christus. Alleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(cd/fg)le(edf./efd/ed)lú(cd~){ia}.(d.) *(;) (ixfg!hvhf//hv.giHF.1) (,) (ixhv.giH'GF.deddc) (,) (cf/g/hh//fhg'hvF'EDffd.) (::) <sp>V/</sp>. Po(cd/fg)su(edf./efd/ed)í(cd)sti,(d.) (,) Dó(ixfg!hvhf//hv.giHF.1)(,)(ixhv.giH'GF.deddc)(,)(cd/fg)mi(edffd)ne,(d.) (:) su(h)per(g) ca(h)put(g) e(ixf/hhg/hh//fh!ivGFhh/fhfgvF~D~)jus(d.) (;) co(dcf)ró(ixhfhivGFhv.)(,)(ixf!gwhghivGFh)nam(hgg) (,) de(ef'g) lá(edf./efd/ed)pi(cd)de(d.) *(;) pre(cd/fg)ti(edf./efd/ed)ó(cd)so.(d.) (;) (ixfg!hvhf//hv.giHF.1) (,) (ixhv.giH'GF.deddc) (,) (cf/g/hh//fhg'hvF'EDffd.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. With Christ I am nailed to the cross: I live, now not I, but Christ liveth in me. Alleluia.",
+        "Francais": "Allelúja, allelúja. Avec le Christ j’ai été cloué à la croix. Et je vis, non ce n’est plus moi, mais c’est le Christ qui vit en moi. Allelúja.",
+        "Italiano": "Allelúja, allelúja. Con Cristo sono confitto in croce; e vivo, non più io, ma vive in me Cristo. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Met Christus ben ik aan het Kruis gehecht. Ik leef, neen, niet ik, maar in mij leeft Christus. Alleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) EC(ffg)ce(f.) *() sa(f)cér(f)dos(gh~) ma(h_fgvFED.g_e/fg)gnus,(f.) (;) qui(f) in(f) di(f)é(hf/gh!jj/kjk)bus(jij) su(ixh_g/h!jjvHF.1ivHGhf)is(f.) (:) plá(ixf/hhi)cu(gjj)it(j.h!iw!jvIG'hw!ivHG) De(fv.ff)o.(f_c) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Non(d) est(d) in(fe~)vén(eh)tus(h.) (,) sí(h)mi(h)lis(h) il(h)li,(ihhe./h_i_h_/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) qui(hh) con(h)ser(h)vá(ih/ij_h ih/ij_ij//hi/jij)ret(jh/jkihh/fgf.) <clear>*(;) le(f)gem(d) Ex(ef)cél(fhG'Fhhh)si.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "Behold a great priest, who in his days pleased God. There was not any found the like to him, who kept the law of the Most High.",
+        "Francais": "Voici le grand Pontife qui dans les jours de sa vie a plu à Dieu. Nul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut. Allelúja, allelúja",
+        "Italiano": "Ecco il grande pontefice, che nella sua vita piacque a Dio. Non si trovò alcuno simile a lui nell'osservare la legge dell'Eccelso.",
+        "Nederlands": "Zie de hogepriester, die in zijn dagen aan God heeft behaagd. Niemand werd er gevonden, die als hij aan de wet van de Allerhoogste getrouw bleef. Alleluia, alleluia",
+        "Polski": "Oto wielki kapłan, który za dni swoich podobał się Bogu. Nie znalazł się jemu podobny, który by zachował prawo Najwyższego. Alleluja, alleluja. Z Chrystusem przybity jestem do krzyża: i żyję już nie ja, ale żyje we mnie Chrystus. Alleluja.",
+        "Portugues": "Eis o grande sacerdote que durante a vida agradou a Deus. Não houve quem, como ele, guardasse a observância da Lei do Altíssimo. Aleluia, aleluia. Estou crucificado com Cristo. Vivo, mas já não sou eu que vivo: é Cristo que vive em mim. Aleluia."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DE(f)si(f)dé(fg!hvhg)ri(hggf)um(fg!hvhghvGFgf..) <clear>*(;) á(gjjk)ni(h)mae(hg/hf/h!jhj) e(jvIH'iw!jvI'HG'h)jus(hg..) (;) tri(ghg)bu(fg)í(jj)sti(hji') e(j)i :(jjjkhhg/hg/jjh/jggf.0) (:) et(f) vo(f)lun(f)tá(hj)te(igh) la(gf/gh)bi(g)ó(g)rum(gh/jij) (`) e(j.h!iwj)jus(jjjvIHivHGhg..) (;) non(h_g/h!iwj) frau(g_f~)dá(g)sti(h) (`) e(j./kjjg//j./kjj'jj/kjjh)(,)(ji/jjvI'G//hjh'jvHF.1)(,)(gh!jvvI'G//hjHF'g)um.(g/hhg.) (::) \r\n<sp>V/</sp>. Quó(g)ni(g)am(g_d) prae(g)ve(hih)ní(jjji)sti(g) e(h_g/h!iw!jvIHijh)um(hg..) (:) in(g) be(ghg)ne(fg)di(jj)cti(hji')ó(j)ne(jkjj'j/kjjh) (,) (ji/jjvI'G//hjh'jvHF.g.h!iwjjv) (;) dul(jk~)cé(jv.ikjjv'1jvIG'h//jjhjvHG)di(fg)nis.(g/hhg.) (::) \r\n<sp>V/</sp>. Po(g)su(g)í(gh'j)sti(jjjvIH') su(jhhg)per(g_h) ca(h/jjh)put(gf) e(ghg~)jus(h_g) (,) (ixi_hivGF.g/hg/hg/hg/jjh/jggf.0) (:) co(gh/jij)ró(j.h!iwj)nam(jjjvIHivHGhg..) (;) de(g) lá(h_g/h!iwj)pi(ghG'F)de(f.) (,) *() pre(f!h'j)ti(j)ó(i_0/jhhg/hggfg.)(,)(jjjkvJ'IH'hg)so.(ghGF.) (,) (h!iwjijjh/ihhg.) (::)",
+      "availableTranslations": {
+        "English": "Behold a great priest, who in his days pleased God. There was not any found the like to him, who kept the law of the Most High.  Thou hast given him his heart’s desire, and hast not withheld from him the will of his lips. For Thou hast prevented him with blessings of sweetness. Thou hast set on his head a crown of precious stones.",
+        "Francais": "Voici le grand Pontife qui dans les jours de sa vie a plu à Dieu. Nul ne lui a été trouvé semblable, lui qui a conservé la loi du Très-Haut. Vous lui avez accordé le désir de son cœur, et vous ne l’avez point frustré de la demande de ses lèvres. Car vous l’avez prévenu des plus douces bénédictions. Vous avez mis sur sa tête une couronne de pierres précieuses.",
+        "Italiano": "Ecco il grande pontefice, che nella sua vita piacque a Dio. Non si trovò alcuno simile a lui nell'osservare la legge dell'Eccelso. Alleluia, alleluia. Il desiderio del suo cuore hai colmato e la preghiera delle sue labbra non gli hai negata. Poiché lo hai preceduto con le più liete benedizioni. In capo gli hai posto una corona di pietre preziose.",
+        "Nederlands": "Zie de hogepriester, die in zijn dagen aan God heeft behaagd. Niemand werd er gevonden, die als hij aan de wet van de Allerhoogste getrouw bleef. Zijn hartewens hebt Gij verhoord en de bede van zijn lippen niet afgewezen. Ja, met milde zegen hebt Gij hem voorkomen. Een kroon van edelgesteente hebt Gij hem op het hoofd gedrukt.",
+        "Polski": "Oto wielki kapłan, który za dni swoich podobał się Bogu. Nie znalazł się jemu podobny, który by zachował prawo Najwyższego. Spełniłeś pragnienie jego serca, prośbie ust jego nie odmówiłeś. Uprzedziłeś go hojnym błogosławieństwem. Włożyłeś mu na głowę koronę z drogich kamieni.",
+        "Portugues": "Eis o grande sacerdote que durante a vida agradou a Deus. Não houve quem, como ele, guardasse a observância da Lei do Altíssimo. Satisfizestes os desejos do seu coração e o não iludistes nas preces proferidas por seus lábios. Vós, Senhor, o enchestes com bênçãos faustosas. Colocastes na sua cabeça o diadema de ouro."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus discípulis suis: Amen, amen, dico vobis, nisi granum fruménti cadens in terram, mórtuum fúerit, ipsum solum manet: si autem mórtuum fúerit, multum fructum affert. Qui amat ánimam suam, perdet eam: et qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam. Si quis mihi mínistrat, me sequátur: et ubi sum ego, illic et miníster meus erit. Si quis mihi ministráverit, honorificábit eum Pater meus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus said to His Disciples, “Amen, amen, I say to you, unless the grain of wheat falls into the ground and dies, it remains alone. But if it dies, it brings forth much fruit. He who loves his life, loses it; and he who hates his life in this world, keeps it unto life everlasting. If anyone serves Me, let him follow Me; and where I am there also shall My servant be. If anyone serves Me, My Father will honor him.”",
+        "Francais": "En ce temps-là : Jésus dit à ses disciples : En vérité, en vérité, je vous le dis, si le grain de blé tombé en terre ne meurt pas, il demeure seul. Mais s’il meurt, il porte beaucoup de fruit. Celui qui aime sa vie, la perdra ; et celui qui hait sa vie en ce monde, la conservera pour la vie éternelle. Si quelqu’un veut être mon serviteur, qu’il me suive, et là où je suis, là aussi sera mon serviteur. Si quelqu’un me sert, mon Père l’honorera.",
+        "Italiano": "In quel tempo Gesù disse ai suoi discepoli: «In verità, in verità vi dico: se il chicco di frumento gettato in terra non muore, rimane infecondo; se invece muore, produce molto frutto. Chi ama la sua vita la perde e chi odia la sua vita in questo mondo, la salverà per la vita eterna. Se uno mi vuol servire mi segua; e dove sono io, ci sarà pure il mio Servo. Se uno mi serve lo onorerà il Padre mio».",
+        "Magyar": "Bizony, bizony, mondom nektek: ha a búzaszem nem hull a földbe, és nem hal el, egymaga marad, de ha elhal, sok termést hoz.  Aki szereti életét, az elveszíti, de aki gyűlöli életét ebben a világban, az megmenti az örök életre.  Aki nekem szolgál, az engem kövessen, s ahol én vagyok, ott lesz a szolgám is. Aki nekem szolgál, azt megtiszteli az Atya.",
+        "Nederlands": "In die tijd sprak Jezus tot zijn leerlingen: Voorwaar, voorwaar, Ik zeg u: als de graankorrel niet in de aarde valt en sterft, blijft zij alleen; maar als zij sterft, draagt zij rijke vrucht. Wie zijn leven liefheeft, zal het verliezen; maar wie zijn leven hier op deze wereld haat, bewaart het voor een eeuwig leven. Als iemand mijn dienaar is, moet hij Mij volgen; en waar Ik ben, daar zal ook mijn dienaar zijn. Als iemand Mij dient, zal mijn Vader hem eren.",
+        "Polski": "Onego czasu: Rzekł Jezus uczniom swoim: «Zaprawdę, zaprawdę powiadam wam, jeśli ziarno pszeniczne wrzucone w ziemię nie obumrze, samo zostanie, lecz jeśli obumrze, wiele owocu przynosi. Kto miłuje życie swoje, straci je, ale kto ma w nienawiści życie swoje na tym świecie, na żywot wieczny zachowa je. Kto by chciał mi służyć, niech mnie naśladuje, a gdzie ja jestem, tam będzie i sługa mój. Jeśli kto służyć mi będzie, uczci go Ojciec mój».",
+        "Portugues": "Naquele tempo, disse Jesus aos seus discípulos: «Se o grão de trigo, caindo na terra, não morrer, permanece estéril; mas, se morrer, dará muito fruto. Aquele que ama a sua vida perdê-la-á; mas aquele que aborrece a sua vida neste mundo conservá-la-á para a vida eterna. Se alguém me serve, siga-me; e onde eu estiver lá estará também o meu servo. Se alguém me servir, meu Pai o honrará»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) GLó(f)ri(ixf.g!hwihi)a(h.) *(,) et(h) ho(h)nó(iyh!jjjvIHjjjvIH//gih)re(hggfg.) (;) co(fg'h)ro(ghG'F)ná(ghg___hvGF)sti(jvvI'G) e(jjvIH'G)um :(ghggf.0) (:) et(h) con(jjk)sti(hhg)tu(f)í(fg!hvhg)sti(jjjvIH) e(ghf___fd)um(d.) (;) su(f)per(ff) ó(ff/gfg)pe(deDC'd)ra(d_c/f!gwhg.) (;) má(h/jjjvIH//giH'G)nu(gf)um(f.) tu(f)á(fgF'E)rum,(fg!hvhg.) (;) Dó(giHG'g//fhGF'fdfv.//fff/gf/gff)mi(d)ne.(fff_g_d.1_) (::)",
+      "availableTranslations": {
+        "English": "Thou hast crowned Him with glory and honor: and hast set Him over the works of Thy hands, O Lord.",
+        "Francais": "Vous l’avez couronné de gloire et d’honneur et vous l’avez établi sur les ouvrages de vos mains.",
+        "Italiano": "Di gloria e di onore lo coronasti; e lo costituisti sopra le opere delle tue mani, o Signore.",
+        "Nederlands": "Glória et honore coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.",
+        "Polski": "Uwieńczyłeś go chwałą i czcią, obdarzyłeś go władzą nad dziełami rąk Twoich, o Panie.",
+        "Portugues": "Vós o coroastes, Senhor, com glória e honras: Vós lhe concedestes domínio sobre as obras das vossas mãos."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Francais": "Seigneur, acceptez dans votre bonté ces hosties qui vous sont offertes en mémoire des mérites du bienheureux Ignace votre Martyr et Pontife ; et faites qu’elles nous obtiennent une continuelle assistance."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) FRu(e)mén(g)tum(gf~) Chri(h)sti(g) sum,(f.) *(;) dén(eh~)ti(h)bus(h) be(h)sti(h)á(h_f)rum(g) mo(ef!gvFE'f)lar,(fe..) (;) ut(ei~) pa(ij)nis(hg) mun(hhh)dus(f_e) in(efe)vé(c)ni(cedd)ar.(dc..) (::)",
+      "availableTranslations": {
+        "English": "I am the wheat of Christ; may I be ground by the teeth of beasts, that I may be found pure bread.",
+        "Francais": "Je suis le froment du Christ : Puisse-je être broyé sous les dents des bêtes féroces pour devenir un pain blanc.",
+        "Italiano": "Io sono frumento di Cristo: che io sia macinato dai denti delle fiere, per diventare pane puro.",
+        "Nederlands": "Ik ben een graankorrel voor Christus. Door de tanden van beesten worde ik gemalen om zuiver brood te kunnen worden.",
+        "Polski": "Jestem pszenicą Chrystusową: niech zmielą mię zęby dzikich zwierząt, bym stał się czystym chlebem.",
+        "Portugues": "Sou o trigo de Cristo, que hei-de ser moído nos dentes das feras para me tornar em pão puríssimo."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Francais": "Rassasiés par la participation à ce don sacré, nous vous supplions, Seigneur notre Dieu, par l’intercession du bienheureux Ignace, votre Martyr et Pontife, de nous faire ressentir l’effet du sacrifice que nous célébrons."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

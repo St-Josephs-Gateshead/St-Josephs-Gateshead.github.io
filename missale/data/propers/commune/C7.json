@@ -1,0 +1,557 @@
+{
+  "rule": [
+    "Gloria"
+  ],
+  "feast": "Commune non Virginis Martyris",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) ME(hf/hhh) ex(h)spe(h)cta(h)vé(hih)runt(hhh) *() pec(hih)ca(f)tó(f/hhf)res,(f.) (,) ut(fef) pér(h.f!gw!hi)de(h)rent(hiH'Gh) me :(f.) (:) te(f)sti(h)mó(hi)ni(i)a(i) tu(i)a,(i) Dó(ij)mi(ih)ne,(h.) (,) in(h)tel(h)lé(gh!ijIG'h)xi :(h.) (;) o(fi)mnis(i) con(i)sum(ih~)ma(h!jij)ti(h)ó(f!hgh)nis(f.) (,) vi(fhg)di(hi) fi(fgF'E)nem :(e.) (:) la(h)tum(gihh) man(ef)dá(hhi)tum(h) tu(h_f)um(i) ni(hiH'F)mis.(f.) (::) <i>T. P.</i> Al(ef'h~)le(h_g)lú(hih){ia},(hhhffe.) (,) al(fh~)le(hghf)lú(f_g_f_){ia}.(f.) (::) <i>Ps.</i> Be(e)á(fe)ti(eh) im(h)ma(h)cu(h)lá(hg)ti(hi) in(i) vi(hi)a :(h.) *(:) qui(hf) ám(fh)bu(h)lant(h) in(h) le(i)ge(hf) Dó(h)mi(ge)ni.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+      "availableTranslations": null,
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Confitébor tibi, Dómine, Rex, et collaudábo te Deum, Salvatórem meum. Confitébor nómini tuo: quóniam adjútor et protéctor factus es mihi, et liberásti corpus meum a perditióne, a láqueo línguæ iníquæ et a lábiis operántium mendácium, et in conspéctu astántium factus es mihi adjutor. Et liberasti me secúndum multitúdinem misericórdiæ nóminis tui a rugiéntibus, præparátis ad escam, de mánibus quæréntium ánimam meam, et de portis tribulatiónum, quæ circumdedérunt me: a pressúra flammæ, quæ circúmdedit me, et in médio ignis non sum æstuáta: de altitúdine ventris inferi, et a lingua coinquináta, et a verbo mendácii, a rege iníquo, et a lingua injústa: laudábit usque ad mortem ánima mea Dóminum: quóniam éruis sustinéntes te, et líberas eos de mánibus géntium, Dómine, Deus noster.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DI(c)le(dc)xí(cg)sti(gv.fffddc.) (,) *() ju(c)stí(c!geghjh___!iwj)ti(ghg___)am,(g.) (;) et(f) o(gh)dí(jj/kjk)sti(kjj) (,) in(gh)i(h)qui(hjh)tá(g)tem.(f/ghffd//gvgf/gjhhg.) (::) <sp>V/</sp>. Pro(gf)ptér(gf)e(hj)a(jjjvHG'hjjlvKJ'Ijg..) (;) un(gh)xit(h_g) te(g) De(g_f/ghffd)us,(d.) (,) De(gg)us(g) tu(ghg___)us,(g.) (;) ó(g)le(fg)o(gggvED'/!eg'//hvGFg.) <clear>*(,) lae(gf)tí(gf)ti(hj)ae.(jjk//iijhhg.) (,) (ijGF.h!iwjji gjh/ihhg.) (::)",
+      "availableTranslations": {
+        "English": "You love justice and hate wickedness. Therefore God, your God, has anointed you with the oil of gladness.",
+        "Espanol": "Has amado la justicia y odiado la iniquidad. Dios, el Dios tuyo, te ha ungido con óleo de alegria. Aleluya, aleluya. La gracia ha sido derramada en tus labios; por eso te ha bendecido Dios para siempre. Aleluya.",
+        "Francais": "Vous avez aimé la justice et haï l’iniquité. C’est pourquoi Dieu, votre Dieu, vous a oint d’une huile d’allégresse. Alléluia, alléluia. Avec votre gloire et votre majesté, avancez, marchez victorieusement et régnez. Alléluia.",
+        "Italiano": "Hai amato la giustizia, e odiato le cose perverse, perciò .il Signore, tuo Dio, ti ha unto con l'olio che dà gioia.",
+        "Nederlands": "Gij hebt de gerechtigheid liefgehad en de boosheid gehaat. Daarom heeft God, uw God, u gezalfd met vreugdeolie. Alleluia, alleluia.",
+        "Polski": "Miłujesz sprawiedliwość, a nienawidzisz nieprawości. Dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela. Alleluja, alleluja. W chwale i piękności swojej wystąp, walcz zwycięsko i króluj. Alleluja."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) AL(def)le(f_e/f!gwhg)lú(fhh'1h){ia}.(hiHF'fe.) <clear>*(;) <i>ij.</i>(gh//efED.f!gwhhg ehf/gffe.) (::) <sp>V/</sp>. Spé(hv.gih)ci(hg)e(g) tu(gh!ivvH'Fhf/gh)a,(g.) (;) et(g) pul(g)chri(gf)tú(hji)di(h)ne(gh) tu(f_ehvvGE.gxfgFD.1gxegF'Efe)a(e.) (:) in(e)tén(feh)de,(h.) (,) pró(hfh'GE//fhF'D//gxgvFEf.0/hhh/ijHF.1)(,)(g_i_g_ivHG'he.gxf_e/g_e//gvFEfd)spe(ed)re(d.) (;) pro(fd)cé(ef)de,(f) *() et(f) re(hg/hfh)gna.(ghFE.) (,) (df!hvF'E//d.0f!gwhghvGFg.//egf'gvE'Defe.) (,) (gxhhvF'EfgED.gyhhvF'Ef_gffe.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. In your splendor and your beauty ride on triumphant, and reign. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Nello splendore della tua grazia, trionfa, avanza con fiducia e regna! Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Met uw sieraad en luister, ruk op, trek zegerijk voorwaarts en heers! Alleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) AL(def)le(f_e/f!gwhg)lú(fhh'1h){ia}.(hiHF'fe.) <clear>*(;) <i>ij.</i>(gh//efED.f!gwhhg ehf/gffe.) (::) <sp>V/</sp>. Spé(hv.gih)ci(hg)e(g) tu(gh!ivvH'Fhf/gh)a,(g.) (;) et(g) pul(g)chri(gf)tú(hji)di(h)ne(gh) tu(f_ehvvGE.gxfgFD.1gxegF'Efe)a(e.) (:) in(e)tén(feh)de,(h.) (,) pró(hfh'GE//fhF'D//gxgvFEf.0/hhh/ijHF.1)(,)(g_i_g_ivHG'he.gxf_e/g_e//gvFEfd)spe(ed)re(d.) (;) pro(fd)cé(ef)de,(f) *() et(f) re(hg/hfh)gna.(ghFE.) (,) (df!hvF'E//d.0f!gwhghvGFg.//egf'gvE'Defe.) (,) (gxhhvF'EfgED.gyhhvF'Ef_gffe.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. In your splendor and your beauty ride on triumphant, and reign. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Nello splendore della tua grazia, trionfa, avanza con fiducia e regna! Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Met uw sieraad en luister, ruk op, trek zegerijk voorwaarts en heers! Alleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) AL(ef)le(f)lú(hhivHGh_i){ia}.(ijIH'h/fihhe/f!gwhf.1) <clear>*(,) (hhf/hghvFE//ivHGh.f!gwhf.1) (::) <sp>V/</sp>. Pro(fi!jvI~H~)pter(h) ve(f)ri(f!ihi)tá(ighf)tem,(f.) (,) et(f) man(ef~)su(f)e(feg)tú(gv.fig/hf)di(f!gwhgh)nem,(hg..) (;) et(gh~) ju(ijij)stí(h_f/hjI'Gh.)(,)(eg/ihi/ghf.1/hiH'Gh)ti(f_g_f_)am :(f.) (:) et(f) de(f!h'i)dú(ijI'Hh'h/!/!gh!ivHF.gh'i)cet(i) te(i.) (,) mi(kxji/jki)ra(h)bí(hjihhf)li(f)ter(fh//fhhegvFE.) <clear>*(;) déx(ef!hhi)te(f)ra(fhg) tu(hiihi)a.(i./jijIG.hiH'//Ef!gwhf.1) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. In your splendor and your beauty ride on triumphant, and reign. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Nello splendore della tua grazia, trionfa, avanza con fiducia e regna! Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Met uw sieraad en luister, ruk op, trek zegerijk voorwaarts en heers! Alleluia."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DI(c)le(dc)xí(cg)sti(gv.fffddc.) (,) *() ju(c)stí(c!geghjh___!iwj)ti(ghg___)am,(g.) (;) et(f) o(gh)dí(jj/kjk)sti(kjj) (,) in(gh)i(h)qui(hjh)tá(g)tem.(f/ghffd//gvgf/gjhhg.) (::) <sp>V/</sp>. Pro(gf)ptér(gf)e(hj)a(jjjvHG'hjjlvKJ'Ijg..) (;) un(gh)xit(h_g) te(g) De(g_f/ghffd)us,(d.) (,) De(gg)us(g) tu(ghg___)us,(g.) (;) ó(g)le(fg)o(gggvED'/!eg'//hvGFg.) <clear>*(,) lae(gf)tí(gf)ti(hj)ae.(jjk//iijhhg.) (,) (ijGF.h!iwjji gjh/ihhg.) (::)",
+      "availableTranslations": {
+        "English": "You love justice and hate wickedness. Therefore God, your God, has anointed you with the oil of gladness.",
+        "Espanol": "Has amado la justicia y odiado la iniquidad. Dios, el Dios tuyo, te ha ungido con óleo de alegria. Aleluya, aleluya. La gracia ha sido derramada en tus labios; por eso te ha bendecido Dios para siempre. Aleluya.",
+        "Francais": "Vous avez aimé la justice et haï l’iniquité. C’est pourquoi Dieu, votre Dieu, vous a oint d’une huile d’allégresse. Alléluia, alléluia. Avec votre gloire et votre majesté, avancez, marchez victorieusement et régnez. Alléluia.",
+        "Italiano": "Hai amato la giustizia, e odiato le cose perverse, perciò .il Signore, tuo Dio, ti ha unto con l'olio che dà gioia.",
+        "Nederlands": "Gij hebt de gerechtigheid liefgehad en de boosheid gehaat. Daarom heeft God, uw God, u gezalfd met vreugdeolie. Alleluia, alleluia.",
+        "Polski": "Miłujesz sprawiedliwość, a nienawidzisz nieprawości. Dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela. Alleluja, alleluja. W chwale i piękności swojej wystąp, walcz zwycięsko i króluj. Alleluja."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) VE(g)ni(gv.fff_d/e_c cd!fvv//g./hjhhg.) (;) *() spon(gh~)sa(f) Chri(ixg!hwii'1iivHG'h)sti,(hg..) (;) ác(gjjk)ci(h)pe(hg/hf//h!jhj) co(jvIH'iw!jvI'HG)ró(ghg___)nam,(g.) (;) quam(ghg) ti(fg)bi(gi) <nlba>Dó(h!jij)mi</nlba>(hj)nus(jjj'/kh/!hg/hg/jjh/jggf.0) (;) prae(f)pa(f)rá(hj)vit(igh) in(gfg) ae(gh/jij)tér(j.h!iwj)num :(jjjvIHivHGhg..) <clear>*(:) pro(g) cu(h_g/h!iwj)jus(g_f) a(g)mó(hjh)re(j.) (,) sán(ij)gui(h)nem(hji') tu(j)um(jkjj'j/kjjh) (,) (ji/jjvI'G//hjh'jvHF.g.h!iwjjv) (;) fu(jk)dí(jv.ikjjv'1jvIG'h//jjhjvHF'g)sti.(g/hhg.) (::)\r\n<sp>V/</sp>. Di(g_d)le(g)xí(hjh)sti(j) ju(j)stí(jk)ti(j_g)am,(h_g/h!iw!jvIHijhhg.) (;) et(g_h) o(d)dí(ff//fffd//f_!h_f_g_)sti(fg!hvhg.) (;) in(hg)i(h)qui(gf)tá(g)tem :(g_0/hfg.) (,) (ixi_hivGF.g/hg/hg/hg/jjh/jggf.0) (:) pro(gh)ptér(fg)e(g)a(ghhg/hhg//hjjhj.) (,) un(gh)xit(gf) te(f) De(hj)us,(j.) (,) De(jk)us(kij) tu(hjI'G)us,(gv.fh/ji/jkhhg/hg/jjh/jggf.0) (;) ó(gh)le(fg)o(ghg) lae(hji')tí(j)ti(h!iwj)ae(ijhhg.) (;) prae(hggf) con(f)sór(f!h'j)ti(j)bus(j) tu(j)is.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Spé(jj)ci(j)e(j) tu(kjjg)(,)(jv.kli/jki'/jhhg.ixhiGF.iyh!iwjjk)a,(j.) (;) et(j) pul(ij'k)chri(kj)tú(jl)di(kj)ne(jij) tu(h_g)a(gfg.) (,) (jv.hkJI.hjIH.giH'G//hg/hg/hg/jjh/jggf.0) (:) in(g)tén(hfg)de,(gh/ji) pró(j)spe(h!iwj)re(jjjvH'G) (,) pro(g)cé(h_g/h!iwj)de,(g_h) *() et(f!h'j) re(j)gna.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'/!hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
+      "availableTranslations": null,
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile est regnum cœlórum thesáuro abscóndito in agro: quem qui invénit homo, abscóndit, et præ gáudio illíus vadit, et vendit univérsa, quæ habet, et emit agrum illum. Íterum símile est regnum cœlórum hómini negotiatóri, quærénti bonas margarítas. Invénta autem una pretiósa margaríta, ábiit, et véndidit ómnia, quæ hábuit, et emit eam. Íterum símile est regnum cœlórum sagénæ missæ in mare et ex omni génere píscium congregánti. Quam, cum impléta esset, educéntes, et secus litus sedéntes, elegérunt bonos in vasa, malos autem foras misérunt. Sic erit in consummatióne sǽculi: exíbunt Angeli, et separábunt malos de médio justórum, et mittent eos in camínum ignis: ibi erit fletus et stridor déntium. Intellexístis hæc ómnia? Dicunt ei: Etiam. Ait illis: Ideo omnis scriba doctus in regno cœlórum símilis est hómini patrifamílias, qui profert de thesáuro suo nova et vétera.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DIf(df)fú(ef!ghhghhgh)sa(fhg) est(g.) <clear>*(,) grá(hv./jkjkvJ'I)ti(jjj_h)a(hg..) (;) in(hggf~) lá(h_g/jjjh//jkJ'I)bi(jjjhhg)is(h.) tu(gjIH'hg)is :(ghggf.0) (:) pro(hj)ptér(jjj//jkj)e(jj/kj)a(jkjjgh.) (,) be(gihhg)ne(g)dí(hv./jkj)xit(j) te(jkjj) De(ji)us(j.) (;) in(jjj_ghjkj) ae(jjj_g//hj/klj)tér(jjj_g//jvIH'hg~)num,(ghggf.0) (:) et(fh) in(hjI'H) saé(gj//j'1j//jjj)cu(jj/k_j)lum(j.) (,) saé(jkjjg//hj/kj/kjjh//jjj_h/jj//jkj//hiH'G)cu(fg)li.(g.) (,) (jjvH'Gh_ihhg.) (::) <i>T. P.</i> Al(hg~)le(gjg/hggf//g.h!iwj/k_ijvIH'iwjihiH'G)lú(gh/jhi){ia}.(hg..) (::)",
+      "availableTranslations": null,
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PRín(fg'h)ci(h)pes(ixh_i_h._) *() per(h)se(h)cú(hj)ti(h) sunt(g) me(f.) gra(ixf!gwh'!iv)tis,(hg..) (;) et(g) a(gf) ver(ixhi)bis(h_g) tu(ixhiH'G)is(hg__) (,) for(g)mi(gf)dá(ixhig)vit(fh) cor(g) me(egff)um :(fe..) (:) lae(g)tá(g)bor(f) e(g)go(f.) (,) su(fff)per(d) e(g)ló(iij)qui(hg)a(g) tu(gh!ivHG'h)a,(hg..) (:) qua(gh)si(gh) qui(g) in(h)vé(jkj)nit(ijh'//jvG'F) (,) spó(hfh)li(g)a(ef/ghffe) mul(d!ewfef)ta.(ed..) (::) <i>T. P.</i> Al(fg~)le(e_d!fh//ghgefghfgvFE)lú(d!ewfef){ia}.(ed..) (::)",
+      "availableTranslations": {
+        "English": "Princes persecute me without cause, but my heart stands in awe of Your word. I rejoice at Your promise, as one who has found rich spoil.",
+        "Magyar": "Fejedelmek üldöznek ok nélkül engem, de csak a te igéidtől fél szívem: úgy örvendek ígéreteidnek, mint aki sok zsákmányra tesz szert. (Allelúja.)",
+        "Polski": "Bez powodu mię prześladują książęta, lecz moje serce tylko Twoich słów się lęka. Z Twych wypowiedzi się cieszę, jak ten, który znalazł łup wielki."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

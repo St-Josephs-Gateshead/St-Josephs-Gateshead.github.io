@@ -1,0 +1,794 @@
+{
+  "rule": [],
+  "feast": "Feria Tertia infra Hebdomadam Passionis",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) EX(e)spé(hg)cta(h) Dó(hji)mi(i)num,(i.) *(,) vi(i)rí(j)li(i)ter(h) a(i)ge :(hihh) (;) et(fd~) con(e)for(f)té(fi)tur(h) cor(gh) tu(fih)um,(hh) (;) et(fef) sús(ede)ti(f!gwh)ne(hiH'GF'gw!hvGF') Dó(e)mi(ef!gvFE'f)num.(fe..) (::) \r\n<i>Ps.</i> Dó(ehg)mi(hi)nus(i) il(i)lu(i)mi(i)ná(ik)ti(j)o(j) me(ji)a,(ij..) *(:) et(ig~) sa(hi)lus(i) me(i)a,(i!jwk) quem(i') ti(h)mé(hhh)bo?(fe..) (::) Ex(e)spé(hg)cta(h) Dó(hji)mi(i)num.(i.) (::)",
+      "availableTranslations": {
+        "English": "Wait for the Lord with courage; be stouthearted, and wait for the Lord. The Lord is my light and my salvation; whom should I fear?",
+        "Espanol": "Espera en el Señor, y pórtate varonilmente; cobre aliento tu corazón, y espera con paciencia al Señor. El Señor es mi luz y mi salvación: ¿a quién he de temer yo? ",
+        "Francais": "Attends le Seigneur, agis avec courage ; que ton cœur soit ferme, et espère au Seigneur. Le Seigneur est ma lumière et mon salut ; qui craindrai-je ?",
+        "Italiano": "Spera nel Signore e abbi coraggio; fatti cuore e spera nel Signore. Il Signore è mia luce e mia salvezza: di chi avrò timore?",
+        "Nederlands": "Stel uw hoop op de Heer, gedraag u als man. Sterk zij uw hart, vertrouw op de Heer. De Heer is mijn licht en mijn heil. Wie zou ik vrezen?",
+        "Polski": "Wyczekuj Pana i bądź dzielny, niech się Twe serce umocni i oczekuj Pana. Pan światłością i zbawieniem moim: kogóż mam się lękać?",
+        "Portugues": "Esperai no Senhor; procedei com firmeza e o vosso coração será confortado. Esperai, pois, no Senhor. O Senhor é a minha luz e salvação. A quem hei-de temer?"
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Nostra tibi, Dómine, quǽsumus, sint accépta jejúnia: quæ nos et expiándo grátia tua dignos effíciant; et ad remédia perdúcant ætérna.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May our fasting be acceptable to You, we beseech You, O Lord; may it be atonement for our sins, make us worthy of Your grace, and lead us to the everlasting remedy of the life to come.",
+        "Espanol": "Te suplicamos, Señor, que nuestros ayunos te sean agradables y que, sirviéndonos de expiación, nos hagan dignos de tu gracia y nos alcancen el remedio eterno.",
+        "Francais": "Nous vous en supplions, Seigneur, faites que nos jeûnes vous soient agréables ; afin qu’expiant nos péchés, ils nous rendent dignes de votre grâce, et qu’ils nous servent de remèdes pour la vie éternelle.",
+        "Italiano": "O Signore, te ne preghiamo, ti siano graditi i nostri digiuni; e nell'espiazione ci facciano degni della tua grazia, e ci conducano alla vita eterna.",
+        "Nederlands": "Wij vragen U, Heer, moge ons vasten U welgevallig zijn, ons door zijn zuiverende kracht uw genade waardig maken en ons tot de eeuwige heilsbronnen brengen.",
+        "Polski": "Przyjmij, prosimy Cię, Panie, nasze posty; niech oczyszczając nas z grzechów uczynią godnymi Twojej łaski i doprowadzą do wiecznego zbawienia.",
+        "Portugues": "Vos rogamos, Senhor, permiti que os nossos jejuns Vos sejam agradáveis, a fim de que, servindo de expiação das nossas faltas, nos tornem dignos da vossa graça e nos sirvam de remédio para alcançarmos a salvação eterna."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Congregáti sunt Babylónii ad regem, et dixérunt ei: Trade nobis Daniélem, qui Bel destrúxit et dracónem interfécit, alióquin interficiémus te, et domum tuam. Vidit ergo rex, quod irrúerent in eum veheménter: et necessitáte compúlsus trádidit eis Daniélem. Qui misérunt eum in lacum leónum, et erat ibi diébus sex. Porro in lacu erant leónes septem, et dabántur eis duo córpora cotídie et duæ oves: et tunc non data sunt eis, ut devorárent Daniélem. Erat autem Hábacuc prophéta in Judǽa, et ipse cóxerat pulméntum, et intríverat panes in alvéolo: et ibat in campum, ut ferret messóribus. Dixítque Angelus Dómini ad Hábacuc: Fer prándium, quod habes, in Babylónem Daniéli, qui est in lacu leónum. Et dixit Hábacuc: Dómine, Babylónem non vidi, et lacum néscio. Et apprehéndit eum Angelus Dómini in vértice ejus, et portávit eum capíllo cápitis sui, posuítque eum in Babylóne supra lacum in ímpetu spíritus sui. Et clamávit Hábacuc, dicens: Dániel, serve Dei, tolle prándium, quod misit tibi Deus. Et ait Dániel: Recordátus es mei, Deus, et non dereliquísti diligéntes te. Surgénsque Daniel comédit. Porro Angelus Dómini restítuit Hábacuc conféstim in loco suo. Venit ergo rex die séptimo, ut lugéret Daniélem: et venit ad lacum et introspéxit, et ecce Dániel sedens in médio leónum. Et exclamávit voce magna rex, dicens: Magnus es, Dómine, Deus Daniélis. Et extráxit eum de lacu leónum. Porro illos, qui perditiónis ejus causa fúerant, intromísit in lacum, et devoráti sunt in moménto coram eo. Tunc rex ait: Páveant omnes habitántes in univérsa terra Deum Daniélis: quia ipse est salvátor, fáciens signa et mirabília in terra: qui liberávit Daniélem de lacu leónum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, the Babylonians went to the king and demanded: Hand over to us Daniel, who has destroyed Bel and killed the dragon, or we will kill you and your family. When he saw himself threatened with violence, the king was forced to hand Daniel over to them. They threw Daniel into a lions’ den, where he remained six days. In the den were seven lions, and two carcasses and two sheep had been given to them daily. But now they were given nothing, so that they would devour Daniel. In Judea there was a prophet, Habacuc; he mixed some bread in a bowl with the stew he had boiled, and was going to bring it to the reapers in the field, when an Angel of the Lord told him, Take the lunch you have to Daniel in the lions’ den at Babylon. But Habacuc answered, Babylon, sir, I have never seen, and I do not know the den! The Angel of the Lord seized him by the crown of his head and carried him by the hair; with the speed of the wind, he set him down in Babylon above the den. Daniel, servant of God, cried Habacuc, take the lunch God has sent you. You have remembered me, O God, said Daniel; You have not forsaken those who love You. While Daniel began to eat, the Angel of the Lord at once brought Habacuc back to his own place. On the seventh day the king came to mourn for Daniel. As he came to the den and looked in, there was Daniel, sitting in the midst of the lions! The king cried aloud, You are great, O Lord, the God of Daniel! Daniel he took out of the lions’ den, but those who had tried to destroy him he threw into the den, and they were devoured in a moment before his eyes. Then the king said: Let all the inhabitants of the whole earth fear the God of Daniel; for He is the Saviour, working signs and wonders in the earth, Who has delivered Daniel out of the lions’ den.",
+        "Espanol": "En aquellos días, congregados los babilonios, contra el rey, dijeron: Entréganos a Daniel; de lo contrario te matamos a ti y a tu familia. Viéndose, pues, el rey tremendamente acometido, obligado de la necesidad les entregó a Daniel. Le metieron ellos en el lago o cueva de los leones, donde estuvo seis días. Había en el lago siete leones, y les daban cada día dos cadáveres y dos ovejas; y nada les dieron entonces, a fin de que devorasen a Daniel. Estaba el profeta Habacuc en la Judea; y había cocido un potaje, y desmenuzado unos panes en una vasija, y se iba al campo a llevarlo a los segadores. Y dijo el ángel del Señor a Habacuc: Esa comida que tienes, llévala a Babilonia, a Daniel, que está en el lago de los leones. Y respondió Habacuc: Señor, yo no he visto a Babilonia, ni tengo noticia del lago. Entonces el ángel del Señor lo cogió por la coronilla de la cabeza, y asiéndolo por los cabellos lo llevó con la celeridad de su espíritu a Babilonia sobre el lago. Y Habacuc levantó la voz, y dijo: ¡Daniel, siervo de Dios!, toma la comida que Dios te envía. Daniel entonces, dijo: Tú, ¡oh Señor!, te has acordado de mí, y no has desamparado a los que te aman. Y se levantó Daniel y comió. Y el ángel del Señor volvió luego a Habacuc a su lugar. Vino, pues, el rey el día séptimo para hacer el duelo por Daniel; y llegando al lago, miró hacia adentro, y vio a Daniel sentado en medio de los leones. Entonces exclamó el rey en alta voz diciendo: ¡Grande eres, oh Señor Dios de Daniel! Y lo hizo sacar del lago de los leones.",
+        "Francais": " En ces jours-là, les Babyloniens se réunirent auprès du roi et lui dirent : Livre-nous Daniel, qui a brisé Bel et tué le dragon ; autrement nous te ferons périr avec toute ta maison. Le roi vit donc qu’ils le pressaient avec violence, et, contraint par la nécessité, il leur livra Daniel. Ils le jettent dans la fosse aux lions, et il demeura six jours. Or il y avait dans la fosse sept lions et on leur donnait chaque jour deux corps et deux brebis ; mais on ne leur en donna point alors, afin qu’ils dévorassent Daniel. Cependant le prophète Habacuc était en Judée ; il avait fait cuire des aliments, et il avait broyé du pain dans un vase, et il allait aux champs les porter aux moissonneurs. Et l’ange du Seigneur dit à Habacuc : Porte à Babylone le repas que tu as, pour Daniel, qui est dans la fosse aux lions. Habacuc dit : Seigneur, je n’ai pas vu Babylone, et je ne connais pas la fosse. Alors l’ange du Seigneur le prit par le haut de la tête et le porta par les cheveux et il le déposa à Babylone, au-dessus de la fosse, avec l’impétuosité de son esprit. Et Habacuc cria en disant : Daniel, serviteur de Dieu, prends le repas que Dieu t’a envoyé. Et Daniel dit : Vous vous êtes souvenu de moi, ô Dieu, et vous n’avez pas abandonné ceux qui vous aiment. Et, se levant, Daniel mangea. Mais l’ange du Seigneur remit aussitôt Habacuc au lieu où il l’avait pris. Le roi vint, le septième jour, pour pleurer Daniel ; il s’approcha de la fosse et regarda dedans, et voici que Daniel était assis au milieu des lions. Et le roi poussa un grand cri et dit : Vous êtes grand, Seigneur, Dieu de Daniel. Et il le fit tirer de la fosse aux lions. Puis il fit jeter dans la fosse ceux qui avaient voulu perdre Daniel, et ils furent dévorés devant lui en un moment. Alors le roi dit : Que tous les habitants de toute la terre tremblent devant le Dieu de Daniel, car c’est lui qui est le Sauveur, qui fait des prodiges et des merveilles sur la terre, et qui a délivré Daniel de la fusse aux lions.",
+        "Italiano": "In quei giorni: i Babilonesi adunatisi contro il re gli dissero: «Dacci nelle mani Daniele, che ha distrutto il dio Bel e ci ha ucciso il dragone; altrimenti uccideremo te e la tua famiglia». Quando il re vide che lo assalivano con la violenza, costretto dalla necessità abbandonò loro Daniele. Ed essi lo gettarono nella fossa dei leoni, ove stette sei giorni. Nella fossa c'eran sette leoni ai quali si davano ogni giorno in cibo due carogne e due pecore, che allora non furon date, affinché divorassero Daniele. V'era a quei tempi in Giudea il profeta Abacuc, il quale, cotto il companatico e sminuzzato del pane in una teglia, andava al campo a portarlo ai mietitori. L'Angelo del Signore disse ad Abacuc: «Porta il desinare che hai, in Babilonia, a Daniele, che è nella fossa dei leoni». Abacuc disse: «Signore, io non ho visto Babilonia, e non conosco la fossa». Allora l'Angelo del Signore lo prese alla cima del capo, pei capelli della testa, e colla celerità dello spirito lo portò e lo posò a Babilonia sopra la fossa. Abacuc alzò la voce e disse: «Daniele, servo di Dio, prendi il desinare che Dio ti ha mandato». Daniele esclamò: «O Signore, ti sei ricordato di me, e non hai abbandonato quelli che ti amano». Poi Daniele si alzò e mangiò, e l'Angelo del Signore subito riportò Abacuc al suo luogo. Il settimo giorno il re andò per piangere Daniele. Arrivato alla fossa, vi guardò dentro, e vide Daniele a sedere in mezzo ai leoni. Allora il re gridò ad alta voce ed esclamò: «Tu sei grande, o Signore Dio di Daniele!». E lo trasse fuori dalla fossa dei leoni. Poi fece gettar nella fossa tutti quelli che l'avevan voluto perdere, e questi in un momento furon divorati alla sua presenza. Allora il re disse: «Gli abitanti di tutta quanta la terra diano onore al Dio di Daniele, perché egli è colui che salva e fa segni e prodigi sulla terra, e ha liberato Daniele dalla fossa dei leoni».",
+        "Magyar": "Ekkor Dániel szurkot, hájat és szőrt vett, összefőzte őket, pogácsákat csinált belőlük és beadogatta őket a kígyó szájába. A kígyó megette és szétpukkadt. Erre azt mondta: „Nézzétek, mit imádtatok!”  Amikor a bábeliek ezt meghallották, nagy felháborodás támadt köztük. Összecsődültek a király ellen, és azzal vádolták: „A király zsidóvá lett. Bélt összetörette, a kígyót megölte, a papokat meggyilkolta.”  Elmentek a királyhoz és követelték: „Add ki nekünk Dánielt, mert különben téged ölünk meg házad népével együtt.”  A király látta, hogy hevesen támadják, kényszerhelyzetében kiadta hát nekik Dánielt.  Erre az oroszlánok barlangjába vetették hat napig ott volt.  A barlangban hét oroszlán volt. Mindennap két tetemet és két bárányt szoktak nekik adni. Most azonban éheztették őket, hogy felfalják Dánielt.  Habakuk próféta ebben az időben élt Júdeában. Éppen megfőzte az ételt, a kenyeret beleaprította a tálba és elindult a mezőre, hogy kivigye az aratóknak.  Ekkor az Úr angyala felszólította Habakukot: „Vidd el ezt az ebédet Bábelbe, Dánielnek, az oroszlánok barlangjába!”  Habakuk azt felelte: „Uram, Bábelt sose láttam, az oroszlánok barlangjáról meg sejtelmem sincs.”  Erre az Úr angyala megragadta az üstökénél, s hajánál fogva elvitte lelkének erejével Bábelbe és letette a barlang mellé.  Habakuk lekiáltott: „Dániel, Dániel, itt az ebéd, amelyet az Isten küldött neked.”  Dániel erre felfohászkodott: „Megemlékeztél rólam, Istenem, mert te nem hagyod el azokat, akik szeretnek.”  Ezután Dániel fölkelt és megebédelt. Habakukot meg az Úr angyala azon nyomban visszavitte lakóhelyére.  A hetedik napon a király elment, hogy meggyászolja Dánielt. Amikor a barlanghoz ért, benézett, s lám, Dániel ott üldögélt.  Hangosan felkiáltott: „Nagy vagy, Uram, Dániel Istene, és rajtad kívül nincsen más!”  Kihúzatta Dánielt és azokat dobatta a barlangba, akik el akarták pusztítani, és ott a szeme láttára felfalták őket az oroszlánok.",
+        "Nederlands": "In die dagen schoolden de Babyloniërs samen tegen de koning en zeiden hem: Lever ons Daniël uit, want hij heeft Bel vernield, en de draak heeft hij gedood; anders brengen wij u om het leven met uw huis. De koning zag dan in, dat zij sterke druk op hem uitoefenden, en noodgedwongen leverde hij Daniël aan hen uit. Toen wierpen zij hem in de leeuwenkuil; en hij bleef er zes dagen in. In de kuil nu waren zeven leeuwen, en elke dag kregen zij twee lichamen en twee schapen; toen echter gaf men hun deze niet, opdat zij Daniël zouden verslinden. Nu was er in Judea een profeet, Habacuc; en deze had een moes gekookt en brood in een schotel gebrokkeld en was op weg naar het veld, om dat aan de maaiers te brengen. Maar een engel des Heren sprak tot Habacuc: Breng het eten, dat gij daar hebt, naar Babylon aan Daniël, die in de leeuwenkuil zit. Maar Habacuc antwoordde: Heer, Babylon heb ik nooit gezien, en de kuil is mij onbekend. En de engel des Heren greep hem bij zijn hoofd en droeg hem aan zijn haren, en met zijn snelheid als geest zette hij hem in Babylon neer aan de rand van de kuil. En Habacuc riep: Daniël, dienaar Gods, hier hebt gij het maal, dat God u zendt. En Daniël sprak: God, Gij zijt mijner indachtig geweest, en Gij hebt hen, die U liefhebben, niet verlaten. Dan richtte Daniël zich op en at. En de engel des Heren bracht Habacuc onmiddellijk terug naar zijn plaats. De zevende dag nu kwam de koning, om over Daniël te treuren; en hij kwam bij de kuil en keek naar beneden. En daar zat Daniël midden tussen de leeuwen. Toen riep de koning met luider stem: Groot zijt Gij, Heer, God van Daniël. En hij haalde hem uit de leeuwenkuil. Maar hen, die de oorzaak van Daniëls ongeluk geweest waren, liet hij in de kuil werpen; en voor zijn ogen werden zij in een ommezien verslonden. Toen sprak de koning: Alle bewoners van geheel de aarde moeten de God van Daniël vrezen; want Hij geeft redding door de wonderen en tekenen, die Hij doet op aarde; en Hij is het, die Daniël uit de leeuwenkuil heeft bevrijd.",
+        "Polski": "W one dni: Zebrali się Babilończycy u króla i rzekli do niego: «Wydaj nam Daniela, który zniszczył Bela i zabił smoka bo inaczej zabijemy ciebie i dom twój!» Widząc tedy król, że gwałtownie nań nalegali, koniecznością zmuszony wydał im Daniela. A oni go wrzucili do lwiej jamy; był tam przez sześć dni. A w jamie było siedem lwów, i dawano im na każdy dzień dwa ciała i dwie owce, a na ten czas nie dano im, aby pożarły Daniela. A był Habakuk prorok w judzkiej ziemi. Ten uwarzył potrawę i nadrobił chleba na misę, i szedł na pole, aby zanieść żeńcom. I rzekł Anioł Pański do Habakuka: «Zanieś obiad, który masz, do Babilonu Danielowi, który jest w lwiej jamie». I rzekł Habakuk: «Babilonu nie widziałem, a o jamie nic nie wiem». I ujął go Anioł Pański za czubek głowy jego, i postawił go w Babilonie nad jamą w pędzie ducha swego. I zawołał Habakuk mówiąc: «Danielu, sługo Boży, weź obiad, który ci Bóg posłał!» I rzekł Daniel: «Wspomniałeś na mnie, Boże, a nie opuściłeś tych, którzy Cię miłują». I wstawszy Daniel, jadł. A Anioł Pański natychmiast postawił Habakuka z powrotem na miejsce jego. Przyszedł tedy król dnia siódmego, aby opłakiwać Daniela; i przyszedł do jamy, i spojrzał do niej, a oto Daniel siedział między lwami. I zawołał król głosem wielkim, mówiąc: «Wielki jesteś, Panie, Boże Daniela!» I wyciągnął go z lwiej jamy. A owych, którzy byli przyczyną zatracenia jego, wrzucił do jamy i w mgnieniu oka zostali przed nim pożarci. Wtedy król rzekł: «Wszyscy mieszkający po całej ziemi niech się boją Boga Danielowego, bo On jest Zbawicielem, czyniącym znaki i cuda na ziemi, On to wybawił Daniela z lwiej jamy».",
+        "Portugues": "Naqueles dias, reuniram-se os babilónios, foram ao rei e disseram-lhe: «Entrega-nos Daniel, que destruiu Bel e matou o dragão; senão matar-te-emos a ti e à tua família». Vendo o rei que eles instavam e o Obrigavam violentamente, entregou-lhes Daniel, levado pela necessidade. Então, lançaram-no na cova dos leões, onde esteve seis dias. Ora, havia na cova sete leões, aos quais costumavam dar de comer, todos os dias, dois cadáveres e duas oves lhas. Durante aqueles dias lhes não deram nada, para que devorassem Daniel. Ao mesmo tempo, havia na Judeia um Profeta chamado Habacuc. Estando este a preparar a sua comida, acabara de misturá-la em uma vasilha com pão e ia levá-la ao campo aos ceifeiros, quando o Anjo do Senhor lhe disse: «Leva o jantar que aí tens a Daniel, que está em Babilónia, na cova dos leões». Habacuc respondeu: «Senhor, eu nunca vi Babilónia, nem sei onde é a cova!». Então o Anjo do Senhor segurou-o pelo alto da cabeça e, levando-o pelos cabelos, conduziu-o com a rapidez do seu espírito a Babilónia, mesmo por cima da cova. E Habacuc gritou: «Daniel, servo do Senhor, toma o jantar, que Deus te enviou». Daniel disse: «Meu Deus, recordastes-Vos de mim; pois não abandonais aqueles que Vos amam». Levantando-se Daniel, comeu. Logo o Anjo do Senhor levou Habacuc para sua casa. No sétimo dia foi o rei perto da cova para prantear Daniel; e, tendo olhado para dentro, viu Daniel, sentado no meio dos leões. Logo o rei, estupefacto, exclamou em voz alta: «Grande sois Vós, Senhor, Deus de Daniel!». E tirou-o da cova dos leões. Imediatamente mandou meter na mesma cova aqueles que intentaram matar Daniel, os quais à vista de todos, num momento, foram devorados pelos leões. Então o rei disse: «Que todos os habitantes da terra temam Aquele que é o Deus de Daniel, pois Ele é o Salvador, que opera milagres e maravilhas na terra e que livrou Daniel da cova dos leões!»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DI(d)scér(ffg~)ne(f.) <clear>*(,) cau(f)sam(f) me(f)am,(gh~) Dó(h_fgvFED.g_e/fg)mi(f)ne :(f.) (;) ab(f) hó(hf/gh!jj/kjk)mi(ij)ne(h) in(g)í(h!iwj)quo(ih..) et(h) do(j)ló(j)so(ij) (,) é(hhg)ri(h)pe(hggfg) me.(fgh!jv.0klJH.1) (,) (ixjjvH'G//hiGF'gwhg/hjhh/fgf.) (z0::c3) <sp>V/</sp>. E(d)mít(d)te(fe) lu(eh)cem(h) tu(h)am,(h_i_h_2//i_hjvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'hvGF.) (:) et(f) ve(f)ri(fi)tá(i)tem(ih/jkihhf.) (,) tu(hf/hhh)am :(h.f!gwh!iv.hi/!jh/!h/iih.0) (:) i(hh)psa(ihhvG'FEfg) me(f.) de(fe)du(fg!hvG'FE'/gxfw!gvFE)xé(de!fvED'e)runt,(ed..) (:) et(d) ad(d)du(d)xé(d)runt(d.) in(d) mon(d)tem(d) san(dfE'D)ctum(ef) *() tu(fhG'Fhhh)um.(hhf.) (,) (gxg_f/!gvED./!fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "Fight my fight, O Lord; from the deceitful and impious man rescue me. Send forth Your light and Your fidelity; they shall lead me on and bring me to Your holy mountain.",
+        "Espanol": "Defiende mi causa, Señor: líbrame del hombre inicuo y engañador. Envíame tu luz y tu verdad: estas me han de guiar hasta tu monte santo y conducir hasta tu santuario.",
+        "Francais": "Ô Seigneur, séparez ma cause ; délivrez-moi de l’homme méchant et trompeur. Envoyez votre lumière et votre vérité : elles me conduiront et m’amèneront à votre montagne sainte.",
+        "Italiano": "Difendi, o Dio, la mia causa; liberami dal nemico iniquo ed ingannatore. Manda la tua luce e la tua fedeltà; esse mi guidino e mi conducano fino al tuo santo monte.",
+        "Nederlands": "Verdedig mijn zaak, o Heer. Verlos mij van de boze en de bedrieger. Zend uw licht en uw trouw. Laat deze mij leiden en voeren naar uw heilige berg.",
+        "Polski": "Wymierz mi, Boże, sprawiedliwość: wybaw mię od człowieka podstępnego i niegodziwego. Ześlij Swą światłość i wierność Swoją: niech one mię wiodą, niech mnie przywiodą na Twą górę świętą.",
+        "Portugues": "Defendei a minha causa, Senhor: livrai-me do homem iníquo e fraudulento. Que resplandeça em mim a vossa luz e a vossa verdade: e elas me conduzirão e guiarão até ao monte sagrado."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Ambulábat Jesus in Galilǽam, non enim volébat in Judǽam ambuláre, quia quærébant eum Judǽi interfícere. Erat autem in próximo dies festus Judæórum, Scenopégia. Dixérunt autem ad eum fratres ejus: Transi hinc, et vade in Judǽam, ut et discípuli tui vídeant ópera tua, quæ facis. Nemo quippe in occúlto quid facit, et quærit ipse in palam esse: si hæc facis, manifésta teipsum mundo. Neque enim fratres ejus credébant in eum. Dixit ergo eis Jesus: Tempus meum nondum advénit: tempus autem vestrum semper est parátum. Non potest mundus odísse vos: me autem odit: quia ego testimónium perhíbeo de illo, quod ópera ejus mala sunt. Vos ascéndite ad diem festum hunc, ego autem non ascéndo ad diem festum istum: quia meum tempus nondum implétum est. Hæc cum dixísset, ipse mansit in Galilǽa. Ut autem ascendérunt fratres ejus, tunc et ipse ascéndit ad diem festum non maniféste, sed quasi in occúlto. Judǽi ergo quærébant eum in die festo, et dicébant: Ubi est ille? Et murmur multum erat in turba de eo. Quidam enim dicébant: Quia bonus est. Alii autem dicébant: Non, sed sedúcit turbas. Nemo tamen palam loquebátur de illo, propter metum Judæórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus went about in Galilee, for He did not wish to go about in Judea because the Jews were seeking to put Him to death. Now the Jewish feast of Tabernacles was at hand. His brethren therefore said to Him, Leave here and go into Judea that Your disciples also may see the works that You do; for no one does a thing in secret if he wants to be publicly known. If You do these things, manifest yourself to the world. For not even His brethren believed in Him. Jesus therefore said to them, My time has not yet come, but your time is always at hand. The world cannot hate you, but it hates Me because I bear witness concerning it, that its works are evil. As for you, go up to the feast, but I do not go up to this feast, for My time is not yet fulfilled. When He had said these things He stayed on in Galilee. But as soon as His brethren had gone up to the feast, then He also went up, not publicly, but as it were privately. The Jews therefore were looking for Him at the feast, and were saying, Where is He? And there was much whispered comment among the crowd concerning Him. For some were saying, He is a good man. But others were saying, No, rather He seduces the crowd. Yet for fear of the Jews no one spoke openly of Him.",
+        "Espanol": "En aquel tiempo, andaba Jesús por Galilea, porque no quería ir a Judea, visto que los judíos procuraban su muerte. Mas estando próxima la fiesta de los judíos, llamada de los Tabernáculos, sus hermanos y parientes le dijeron: Sal de aquí y vete a Judea, para que también aquellos discípulos tuyos vean las obras maravillosas que haces. Puesto que nadie hace las cosas en secreto, si quiere ser conocido; ya que haces tales cosas, date a conocer al mundo. Porque aun muchos de sus hermanos no creían en él.  Jesús, pues, les dijo: Mi tiempo no ha llegado todavía; el vuestro siempre está a punto. A vosotros no puede el mundo aborreceros; a mí sí que me aborrece, porque yo demuestro que sus obras son malas. Vosotros id a esa fiesta, yo no voy todavía a ella; porque mi tiempo aún no se ha cumplido. Dicho esto, él se quedó en Galilea. Pero algunos días después que marcharon sus hermanos o parientes, él también se puso en camino para ir a la fiesta, no con publicidad, sino como en secreto. En efecto, los judíos en el día de la fiesta le buscaban por Jerusalén, y decían: ¿En dónde está aquel? Y era mucho lo que se susurraba de él entre el pueblo. Porque unos decían: Sin duda es hombre de bien. Otros al contrario: No, sino que trae embaucado al pueblo. Pero nadie osaba declararse públicamente a favor suyo, por temor de los judíos principales.",
+        "Francais": " En ce temps-là, Jésus parcourait la Galilée ; car il ne voulait pas aller en Judée parce que les Juifs cherchaient à le faire mourir. Or la fête des Juifs, dite des Tabernacles, était proche. Et ses frères lui dirent : Pars d’ici, et va en Judée, afin que tes disciples voient aussi les œuvres que tu fais. Car personne n’agit en secret, lorsqu’il cherche à paraître ; si tu fais ces choses, manifeste-toi au monde. Car ses frères non plus ne croyaient pas en lui. Jésus leur dit donc : Mon temps n’est pas encore venu ; mais votre temps à vous est toujours prêt. Le monde ne peut vous haïr ; mais moi, il me hait parce que je rends de lui le témoignage que ses œuvres sont mauvaises. Vous montez à cette fête ; pour moi, je ne monte pas à cette fête, parce que mon temps n’est pas encore accompli. Après avoir dit cela, il demeura en Galilée. Mais, lorsque ses frères furent partis, il monta, lui aussi, à la fête, non pas publiquement, mais comme en secret. Les Juifs le cherchaient donc pendant la fête, et disaient : Où est-il ? Et il y avait une grande rumeur dans la foule à son sujet. Car les uns disaient : C’est un homme de bien ; les autres disaient : Non, mais il séduit les foules. Cependant, personne ne parlait de lui publiquement, par crainte des Juifs ?",
+        "Italiano": "In quel tempo Gesù percorreva la Galilea, non volendo andare per la Giudea, perché i Giudei cercavano di farlo morire. Ed era imminente la festa dei Tabernacoli. Gli dissero pertanto i suoi fratelli: «Parti di qua e vattene in Giudea, affinché anche quei discepoli tuoi vedano le opere da te fatte; ché certo nessuno il quale cerchi di essere acclamato in pubblico fa di nascosto le opere sue; e se fai tanto, fatti conoscere al mondo». Or nemmeno i suoi fratelli credevano in lui. Ma Gesù disse loro: «Non è ancora venuto il mio tempo; ma per voi è sempre tempo. Il mondo non può odiarvi, ma odia me, perché faccio vedere che le opere sue sono malvage. Andate voi a questa festa, io non ci vengo, perché non è ancora il mio tempo». Ciò detto, si trattenne in Galilea. Ma partiti i suoi fratelli, andò alla festa anche lui, non pubblicamente, ma quasi di nascosto. Intanto i Giudei lo aspettavano alla festa e dicevano: «Lui dov'è?». E un gran sussurro si faceva sul conto di Lui tra la gente. Chi diceva: «È buono». Chi: «No, anzi, travia il popolo». Ma nessuno ne parlava pubblicamente per paura dei Giudei.",
+        "Magyar": "Jézus ezután bejárja Galileát, Júdeába nem akart menni, mert a zsidók az életére törtek.  Közeledett a zsidók ünnepe, a sátoros ünnep.  Ezért testvérei így szóltak hozzá: „Kelj útra, és menj el Júdeába, hogy tanítványaid is lássák tetteidet.  Hisz senki sem működik titokban, ha azt akarja, hogy tudomást szerezzenek róla. Ha képes vagy ilyenekre, akkor lépj a világ színe elé.”  Testvérei sem hittek ugyanis benne.  Jézus ezt válaszolta nekik: „Nekem még nem érkezett el az időm, de nektek mindig megfelelő az idő.  Titeket nem gyűlölhet a világ, de engem gyűlöl, mert bizonyítom, hogy gonoszak a tetteik.  Menjetek hát föl az ünnepre, én azonban nem megyek föl erre az ünnepre, mert még nem telt be az időm.”  Ezt mondta nekik, s ott maradt Galileában.  De azután, hogy testvérei fölmentek az ünnepre, őmaga is fölment, csak nem nyilvánosan, hanem titokban.  A zsidók keresték az ünnepen. „Hol van?” - kérdezgették,  s a nép körében sokat emlegették. Némelyek azt mondták, hogy jó ember, mások meg azt, hogy félrevezeti a népet.  De a zsidóktól való félelmében senki sem beszélt nyíltan róla.",
+        "Nederlands": "In die tijd doorkruiste Jezus Galilea; want Hij wilde niet in Judea rondtrekken omdat de Joden Hem zochten te doden. Nu was het feest van de Joden, het Loofhuttenfeest, nabij. En zijn broeders zeiden Hem: Vertrek van hier en ga naar Judea, opdat ook uw leerlingen de werken zien, die Gij verricht: want niemand doet iets in het geheim, als het zijn bedoeling is bekend te worden. Als Gij zulke dingen doet, laat U dan zien aan de wereld. Want ook zijn broeders geloofden niet in Hem. Jezus gaf hun ten antwoord: Mijn tijd is nog niet gekomen; uw tijd echter is er altijd. De wereld kan u niet haten; maar Mij haat ze, omdat Ik van haar getuig, dat haar werken slecht zijn. Gaat gij maar naar dat feest; Ik ga niet naar dat feest, omdat mijn tijd nog niet vervuld is. Zo sprak Hij, en bleef in Galilea. Maar toen zijn broeders vertrokken waren naar het feest, toen ging ook Hij er heen, niet openlijk, maar in het geheim. De Joden nu zochten Hem op het feest, en zeiden: Waar is Hij? En onder het volk werd er veel over Hem gemompeld. Want sommigen zeiden: Hij is goed; anderen echter meenden: Integendeel, Hij misleidt het volk. Maar niemand sprak openlijk over Hem, uit vrees voor de Joden.",
+        "Polski": "Onego czasu: Obchodził Jezus Galileję, bo nie chciał przebywać w Judei, żydzi bowiem zamierzali Go zabić. I zbliżało się żydowskie Święto Namiotów. Rzekli tedy do Niego bracia Jego: «Odejdź stąd, a idź do Judei, aby i uczniowie twoi zobaczyli dzieła twe, które czynisz. Nikt bowiem nie czyni czegokolwiek w skrytości, gdy sam pragnie pozostawać na widoku. Gdy takich rzeczy dokonywasz, daj się poznać światu». Bo i bracia Jego nie wierzyli weń. Rzecze im tedy Jezus: «Jeszcze nie nadszedł czas mój, ale czas wasz zawsze jest w pogotowiu. Świat nie może was znienawidzić, a mnie nienawidzi, bo ja daję o nim świadectwo, że złe są uczynki jego. Idźcie wy na to święto, ja zaś nie pójdę na to święto, bo czas mój jeszcze się nie wypełnił». To powiedziawszy pozostał w Galilei. Ale gdy bracia Jego wyruszyli, udał się i On na święto, nie jawnie, ale jakby tajemnie. A w czasie świąt szukali Go żydzi mówiąc: «Gdzież jest on?» I mówiono o Nim wiele wśród rzeszy. Bo jedni powiadali, że jest dobry, a drudzy mówili, że nie, lecz zwodzi tylko lud. Nikt wszakże jawnie o Nim nie mówił z bojaźni przed żydami.",
+        "Portugues": "Naquele tempo, andava Jesus pela Galileia e já não queria ir à Judeia, porque os judeus intentavam matá-lo. Estava já próximo o dia da festa dos tabernáculos. Disseram-Lhe, então, os seus irmãos: «Saí daqui e ide para a Judeia, para que os vossos discípulos vejam as obras que praticais, pois ninguém faz em segredo uma coisa, quando procura que ela seja conhecida. Se praticais estas maravilhas, mostrai-Vos ao mundo. Porquanto, nem mesmo os seus irmãos acreditavam n’Ele!». Jesus disse-lhes: «Meu tempo ainda não chegou, mas o vosso tempo está sempre presente. O mundo não pode aborrecer-se de vós, mas aborrece-se de mim, porque dou testemunho de que suas obras são más. Ide vós a essa festa; Eu não vou, porque o meu tempo ainda não chegou». Havendo dito isto, ficou na Galileia. Quando seus irmãos haviam já partido, resolveu então ir à festa, não manifesta, mas ocultamente. Ora, no dia da festa, os judeus procuravam-no e diziam: «Onde está Ele?». Havia, então, grande rumor na multidão a seu respeito; porquanto, uns afirmavam: é um homem de bem; outros diziam: não, pois seduz as turbas. Todavia, ninguém falava d’Ele abertamente» porque receavam os judeus."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) SPe(gh/jij)rent(i) in(ij~) te(i.) *(,) o(ikj)mnes,(i./jjj) qui(h) no(ghg)vé(h)runt(hi/jhhg.) (,) no(gh/jij)men(j) tu(j_h/k_j)um,(j) Dó(i)mi(ikJ'I)ne :(i.) (:) quó(g)ni(hih)am(hi) non(gh'j) de(jjjvIH)re(ghG'F)lín(gh)quis(ghggf.0) (,) quæ(g)rén(gh/jij)tes(g./h!iw!jvIHivHG'h) te :(hg..) (:) psál(gh'/ji~)li(jjj)te(h) Dó(j.h!iwj)mi(ghGF'g)no,(gf..) (;) qui(g) há(gh/i.h!iw!jvI'HG')bi(g)tat(gh/i.h!iw!jvI'HG.) (,) in(g.h!iw!jvIH) Si(f_g_f_)on :(fff) (:) quó(ed)ni(g)am(g) non(gh/ihi) est(g_h) ob(f)lí(efghgh)tus(fdf.) (,) o(c)ra(d)ti(f)ó(f_eg//hhj)nem(gh) páu(e)pe(egF'E)rum.(e.) (::)",
+      "availableTranslations": {
+        "English": "They trust in You who cherish your Name, O Lord, for You forsake not those who seek You. Sing praise to the Lord enthroned in Sion, for He has not forgotten the cry of the afflicted.",
+        "Espanol": "Confíen en ti los que conocen tu nombre: porque jamás has desamparado, Señor, a los que a ti recurren: Cantad himnos al Señor que tiene su morada en el monte de Sión: porque no ha echado en olvido el clamor de los pobres.",
+        "Francais": " Tous ceux qui connaissent votre nom, espèrent en vous, Seigneur, car vous n’abandonnez pas ceux qui vous cherchent. Chantez au Seigneur qui habite dans Sion, car il n’a pas oublié les prières des pauvres.",
+        "Italiano": "Confidi in te chi conosce il tuo Nome, Dio, poiché non abbandoni chi ti cerca. Inneggiate al Signore che abita in Sion: non ha dimenticato la preghiera degli oppressi.",
+        "Nederlands": "Sperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non derelínquis quæréntes te: psállite Dómino, qui hábitat in Sion: quóniam non est oblítus oratiónem páuperum.",
+        "Polski": "Zaufają Tobie znający Twe imię, bo nie opuszczasz, Panie, tych, co Cię szukają; psalm śpiewajcie Panu, co mieszka na Syjonie, bo nie zapomniał wołania ubogich.",
+        "Portugues": "Que todos aqueles que conhecem o vosso nome, Senhor, confiem em Vós, porque não abandonais os que Vos procuram. Cantai hinos ao Senhor que habita em Sião: pois não esquecerá as orações dos pobres."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hóstias tibi, Dómine, deférimus immolándas: quæ temporálem consolatiónem signíficent; ut promíssa non desperémus ætérna.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O Lord, we bring You the gifts for sacrifice, as tokens of consolation in this life, so that we may not despair of Your eternal promises.",
+        "Espanol": "Te ofrecemos, Señor, estas hostias que han de inmolarse: que nos sirvan de consuelo temporal y así no desconfiemos de los dones eternos prometidos.",
+        "Francais": "Nous vous présentons des hosties en sacrifice, ô Seigneur ; qu’elles nous fassent comprendre ce qui console dans le temps, en sorte que nous ne désespérions pas d’acquérir les biens éternels que vous nous avez promis.",
+        "Italiano": "Eccoti, o Signore, le offerte da immolarsi; fa' che ci siano di tale conforto in questo mondo, che non abbiamo a perdere la speranza nelle future promesse.",
+        "Nederlands": "Wij brengen U, Heer, onze gaven, die wij U willen offeren. Mogen zij voor ons een teken tot troost zijn in dit aardse leven, opdat wij niet gaan wanhopen aan de beloften voor de eeuwigheid.",
+        "Polski": "Przynosimy Ci, Panie, dary ofiarne; niech będą one dla nas znakiem pociechy w doczesności, abyśmy nie stracili nadziei osiągnięcia dóbr wiecznych.",
+        "Portugues": "Senhor, que estas hóstias, que imolamos e oferecemos em vosso louvor, nos façam sentir consolação temporal, a fim de não perdermos a esperança das promessas eternas."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) RE(h)di(gh)me(fg) me,(fe) (,) *() De(ef!gvgfg)us(ed/effe.) Is(hg)ra(h)el,(ijI'GhiH'GEf.) (;) ex(fhg) ó(hiH'GF//hg/h_i)mni(h)bus(ghF'Ef.) (,) an(e)gú(ehGF'hwihi)sti(gh)is(f) me(efe/f!hhffeed!ewf!gvFE'f)is.(fe..) (::)",
+      "availableTranslations": {
+        "English": "Redeem me, O God of Israel, from all my distress.",
+        "Espanol": "Oh Dios de Israel, líbrame de todas mis tribulaciones.",
+        "Francais": "Sauvez-moi, Dieu d’Israël, de toutes me angoisses.",
+        "Italiano": "O Dio d'Israele, salvami da tutte le mie angustie.",
+        "Nederlands": "Verlos mij, God van Israël, uit al mijn kwellingen.",
+        "Polski": "Wybaw mię, Boże Izraela, ze wszystkich ucisków moich.",
+        "Portugues": "Livrai-me, ó Deus de Israel, de todas minhas angústias."
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Da, quǽsumus, omnípotens Deus: ut, quæ divína sunt, júgiter exsequéntes, donis mereámur cœléstibus propinquáre.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant us, we beseech You, almighty God that by constantly performing these holy acts, we may be worthy to come closer to the gifts of heaven.",
+        "Espanol": "Haz, te rogamos, Dios todopoderoso, que ejecutando constantemente los preceptos divinos, merezcamos acercarnos a los dones celestiales.",
+        "Francais": "Accordez-nous, s’il vous plaît, Dieu tout-puissant, que recherchant constamment ce qui est divin, nous méritions de nous approcher des dons célestes.",
+        "Italiano": "Ti supplichiamo, o Dio onnipotente, che per l'assidua partecipazione ai divini misteri ci rendiamo degni di conseguire i doni celesti.",
+        "Nederlands": "Wij vragen U, almachtige God, laat ons, die voortdurend de goddelijke geheimen vieren, verdienen steeds dichter de hemelse gaven te benaderen.",
+        "Polski": "Wszechmogący Boże, spraw, prosimy, abyśmy pełniąc nieustannie służbę Bożą, mogli zbliżać się do niebieskich darów.",
+        "Portugues": "Ó Deus omnipotente, Vos pedimos, fazei que, recebendo nós incessantemente os divinos mystérios, mereçamos alcançar os bens celestiais."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Oratio super Populum",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus. Humiliáte cápita vestra Deo. Da nobis, quǽsumus, Dómine: perseverántem in tua voluntáte famulátum; ut in diébus nostris, et mérito et número, pópulus tibi sérviens augeátur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray. Bow your heads to God. O Lord, we beseech You, make us always obedient servants of Your will, so that in our days Your faithful people may increase both in merit and in number.",
+        "Espanol": "Oremos. Humillad ante Dios vuestras cabezas. Te suplicamos, Señor, nos concedas que te sirvamos constantemente, según tu voluntad; a fin de que en nuestros días el pueblo que te sirve aumente en méritos y en número.",
+        "Francais": "Prions. Humiliez vos têtes devant Dieu. Nous vous en supplions, Seigneur, donnez-nous la persévérance dans la soumission à votre volonté, afin que, de nos jours, le peuple qui vous sert, augmente en mérite et en nombre.",
+        "Italiano": "Preghiamo. Inchinatevi davanti a Dio. Signore, te ne preghiamo, concedici perseverante docilità alla tua volontà; affinché in questi nostri tempi il popolo a te fedele cresca di merito e di numero.",
+        "Nederlands": "Laat ons bidden. Buigt nederig uw hoofd voor God. Wij vragen U, Heer, geef ons een onwankelbare trouw in de dienst van uw wil, opdat in onze dagen het volk, dat U dient, mag toenemen in verdienste en aantal.",
+        "Polski": "Módlmy się. Pochylcie głowy wasze przed Bogiem. Prosimy Cię, Panie, daj nam wytrwale służyć Ci według Twojej woli, aby za dni naszych lud Twój wzrastał w liczbę i zasługi.",
+        "Portugues": "Oremos.  Inclinai as vossas cabeças diante de Deus. Vos suplicamos, Senhor, concedei-nos a graça da perseverança no cumprimento da vossa vontade, para que em nossos dias o povo, que Vos serve, cresça em número e em merecimentos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

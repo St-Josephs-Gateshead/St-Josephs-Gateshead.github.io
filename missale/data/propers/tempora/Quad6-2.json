@@ -1,0 +1,794 @@
+{
+  "rule": [],
+  "feast": "Feria Tertia Majoris Hebdomadæ",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) NOS(dfe) au(ef!gvFDfe)tem(fff) (,) *() glo(fd)ri(f)á(ef'g)ri(g_d) o(fh)pór(gv.fhg)tet(eef.) (;) in(d) cru(g')ce(g) Dó(ixhg/hi)mi(h)ni(h) no(jj)stri(hhg) (,) Je(hhg)su(f) Chri(ixef!hig)sti :(g.) (:) in(ge~) quo(g) est(h) sa(ixhi)lus,(h.) (,) vi(jj)ta(hhg) (,) et(gh~) re(hhg)sur(f)ré(ef'g)cti(g)o(ixgih) no(g_f/gfg)stra :(d.) (:) per(d!fff) quem(f) sal(fd~)vá(fh)ti(g.) (,) et(h) li(f)be(gf)rá(ef'g)ti(ixgiH'G) su(g_fhvGFgvFE)mus.(e.) (::) <i>T. P.</i> Al(fd)le(f)lú(ef'g){ia},(g_d) (,) al(fh)le(gv.fhGF'g)lú(egff){ia}.(fe..) (::) <i>Ps.</i> De(hg)us(gh) mi(h)se(h)re(h)á(h)tur(h) no(h)stri,(h.) (,) et(h) be(h)ne(hg)dí(gi)cat(i) no(hi)bis :(h.) *(:) il(hg~)lú(gh)mi(h)net(h) vul(h)tum(h) su(h)um(h) su(h)per(h) nos,(h.) (,) et(h) mi(h)se(h)re(h)á(gf)tur(gh) no(g)stri.(e.) (::) Gló(hg)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(gf) u(gh) a(g) e.</eu>(egff) (::)",
+      "availableTranslations": {
+        "English": " But God forbid that I should glory, save in the cross of our Lord Jesus Christ; by whom the world is crucified to me, and I to the world.  May God have mercy on us, and bless us: may he cause the light of his countenance to shine upon us, and may he have mercy on us.",
+        "Espanol": "Nosotros debemos gloriarnos en la cruz de nuestro Señor Jesucristo, en el cual esta la salud, la vida  y nuestra resurrección; por quien hemos sido salvados y libertados. Dios tenga misericordia de nosotros y nos bendiga; haga resplandecer sobre nosotros la luz de su rostro y apiádese de nosotros.",
+        "Francais": "Pour nous, il faut nous glorifier dans la croix de Notre-Seigneur Jésus-Christ ; c’est en lui qu’est notre salut, notre vie et notre résurrection ; c’est par lui que nous avons été sauvés et délivrés.  Que Dieu ait pitié de nous et nous bénisse ; qu’il fasse briller son visage sur nous et qu’il ait pitié de nous.",
+        "Italiano": "Quanto a noi non sia mai che ci gloriamo d'altro se non della croce del Signor nostro Gesù Cristo; in Lui è la salvezza, la vita e la resurrezione nostra; per mezzo suo siamo stati salvati e liberati. Dio abbia pietà di noi e ci benedica; faccia splendere su di noi il suo sguardo e ci usi pietà.",
+        "Nederlands": "Wij echter moeten roemen op het Kruis van onze Heer, Jezus Christus. In Hem toch ligt ons heil, ons leven en onze verrijzenis; door Hem zijn wij verlost en bevrijd. God zij ons genadig en zegene ons. Hij doe zijn aanschijn over ons stralen en zij ons genadig.",
+        "Polski": "A myśmy się chlubić powinni Krzyżem Pana naszego Jezusa Chrystusa; w Nim jest zbawienie, życie i zmartwychwstanie nasze: przez Niego jesteśmy zbawieni i oswobodzeni. Niech Bóg się zmiłuje nad nami i nam błogosławi: niech nam ukaże pogodne oblicze i zmiłuje się nad nami.",
+        "Portugues": "Convém que nos gloriemos com a Cruz de Nosso Senhor Jesus Cristo, pois Ele é a nossa salvação, vida e ressurreição, Por Ele fomos salvos e livres. Que o Senhor tenha misericórdia de nós e nos abençoe; que faça resplandecer sobre nós o brilho da sua face e se compadeça de nós."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Omnípotens sempitérne Deus: da nobis ita Domínicæ passiónis sacraménta perágere; ut indulgéntiam percípere mereámur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Almighty and eternal God, grant us so to celebrate the mysteries of our Lord's Passion, that we may deserve to obtain forgiveness. ",
+        "Espanol": "Concédenos, oh Dios todopoderoso y eterno que de tal modo celebremos los misterios de la Pasión del Señor, que merezcamos conseguir el perdón de los pecados. ",
+        "Francais": " Dieu tout-puissant et éternel, donnez-nous de célébrer les mystères de la passion du Seigneur de telle sorte que nous méritions de recevoir la rémission de nos péchés.",
+        "Italiano": "Dio onnipotente ed eterno, concedici di celebrare i misteri della Passione, in modo da meritare il perdono dei peccati. ",
+        "Nederlands": "Almachtige, eeuwige God, laat ons de geheimen van het lijden van de Heer zo meevieren, dat wij vergiffenis mogen verwerven.",
+        "Polski": "Wszechmogący, wieczny Boże, daj nam tak sprawować misteria Męki Pańskiej, abyśmy mogli otrzymać przebaczenie.",
+        "Portugues": "Omnipotente e sempiterno Deus, concedei-nos a graça de celebrarmos os mystérios da Paixão do Senhor de tal sorte que mereçamos receber o perdão das nossas faltas."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Dixit Jeremías: Dómine, demonstrásti mihi, et cognóvi: tunc ostendísti mihi stúdia eórum. Et ego quasi agnus mansuétus, qui portátur ad víctimam: et non cognóvi, quia cogitavérunt super me consília, dicéntes: Mittámus lignum in panem ejus, et eradámus eum de terra vivéntium, et nomen ejus non memorétur ámplius. Tu autem, Dómine Sábaoth, qui júdicas juste et probas renes et corda, vídeam ultiónem tuam ex eis: tibi enim revelávi causam meam, Dómine, Deus meus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": " But thou, O Lord, hast shewn me, and I have known: then thou shewedst me their doings. And I was as a meek lamb, that is carried to be a victim: and I knew not that they had devised counsels against me, saying: Let us put wood on his bread, and cut him off from the land of the living, and let his name be remembered no more. But thou, O Lord of Sabaoth, who judgest justly, and triest the reins and hearts, let me see thy revenge on them: for to thee I have revealed my cause.",
+        "Espanol": "En aquellos días: ¡oh Señor!, me lo hiciste ver, y lo conocí; tú me mostraste entonces sus depravados designios. Y yo era como un manso cordero, que es llevado al sacrificio, y no había advertido que ellos habían maquinado contra mí, diciendo: ¡Ea!, démosle el leño en lugar de pan, y exterminémosle de la tierra de los vivientes; y no quede ya más memoria de su nombre. Pero tú, ¡oh Señor de los ejércitos!, que juzgas con justicia, y escudriñas los corazones y los afectos, tú harás que yo te vea tomar venganza de ellos; puesto que en tus manos puse mi causa.",
+        "Francais": "En ces jours-là, Jérémie dit : Seigneur, vous m’en avez informé, et je l’ai su ; Alors vous m’avez fait connaître leurs œuvres ! Moi, j’étais comme un agneau familier qu’on mène à la boucherie, et je ne savais qu’ils formaient des desseins contre moi, disant : « Détruisons l’arbre avec son fruit ! Retranchons-le de la terre des vivants, Et qu’on ne se souvienne plus de son nom ! » Mais Vous, Dieu des armées, jugez avec justice ; vous sondez les reins et les cœurs ; Je verrai la vengeance que vous tirerez d’eux, Car c’est à vous que j’ai confié ma cause.",
+        "Italiano": "In quei giorni, disse Geremia: Tu, o Signore, me lo facesti conoscere, ed io compresi; tu mi hai scoperto i loro disegni. Io, come agnello mansueto portato ad essere sacrificato, non avevo compreso che essi congiuravano contro di me, dicendo: «Diamogli del legno invece del pane, facciamolo sparire dalla terra dei viventi, scompaia il ricordo del suo nome!». Ma tu, o Signore degli eserciti, che giudichi con giustizia, e scruti gli affetti e i cuori, fammi vedere la tua vendetta su di loro; perché è a te che affidai la mia causa, o Signore Dio mio.",
+        "Magyar": "Az Úr szólt nekem róla, s én felfigyeltem rá. Igen, Uram, feltártad előttem szándékukat. Én meg olyan voltam, mint a szelíd bárány, amelyet vágóhídra hurcolnak; nem tudtam, hogy terveket koholnak ellenem, mondván: Pusztítsuk el a fát, ereje teljében vágjuk ki az élők földjéről, úgyhogy még a nevét se emlegessék többé. De te, Seregek Ura, igazságos ítélettel ítélsz; te a vesék és a szívek vizsgálója vagy. Engedd látnom, miként állsz rajtuk bosszút, mert terád bíztam ügyemet.",
+        "Nederlands": "In die dagen sprak Jeremias: Heer, Gij hebt het mij geopenbaard, zodat ik het weet; Gij hebt mij toen hun plannen doen kennen. Want ik was als een lam, dat zich gedwee ter slachting laat leiden en ik zag niet, dat zij plannen tegen mij smeedden en zeiden: Laten wij hout in zijn brood doen, en zo hem verdelgen uit het land van de levenden, zodat zijn naam nooit meer genoemd wordt. Gij echter, Heer der heerscharen, die rechtvaardig oordeelt, en harten en nieren doorgrondt, laat mij zien, hoe Gij wraak neemt op hen; want aan U heb ik mijn zaak blootgelegd, aan U, Heer, mijn God.",
+        "Polski": "W one dni: Rzekł Jeremiasz: Panie, ukazałeś mi, a poznałem: wtedy objaśniłeś mi ich zamiary. A ja jako baranek łagodny, którego niosą na ofiarę. I nie poznałem, że co do mnie powzięli zamiary mówiąc: Wrzućmy drewno do chleba jego i zgładźmy go z ziemi żyjących, a imię jego niech już nie będzie wspomniane. Ty zaś, Panie Zastępów, który sądzisz sprawiedliwie i badasz sumienia i serca – niech ujrzę pomstę Twoją nad nimi: Tobie bowiem wyjawiłem sprawę moją, Panie, Boże mój.",
+        "Portugues": "Naqueles dias, falou assim Jeremias: «Senhor, fizestes-me conhecer os seus pensamentos e fiquei ciente; então fiquei conhecendo os seus desígnios. Eu era como um cordeiro manso, que ia conduzido para ser imolado como vítima. Ignorava que conspiravam contra mim e diziam: «Destruamos a árvore com seu fruto; arranquemo-la da terra dos vivos e apaguemos a recordação do seu nome». Mas Vós, Senhor dos exércitos, que julgais com justiça e perscrutais os rins e os corações, mostrai-me a vingança que haveis de tirar deles; pois a Vós, ó Senhor, meu Deus, entreguei a minha causa»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) E(c)go(df) au(eef)tem,(eef.) *(,) dum(ef) mi(dfe/gf)hi(f) mo(fffvDC)lé(dc/gf)sti(f.) (,) es(f_df)sent,(fffvDC'd!fffvDCdd//cfd/eddc.) (;) in(c)du(c)é(cd/fef)bam(e_f) me(f.) ci(f)lí(e.f!gwh)ci(g)o,(ghgfgFD.1) (:) et(f) hu(f)mi(e)li(fg)á(ghF'E//ghg'hvF'E)bam(efE'Ded..) (,) in(dfe~) je(f)jú(g_fh)ni(hgffd/gf)o(e.) (;) á(eg)ni(f)mam(ge'fvDC'd) me(fg)am :(ixghg___//hiHG'hf/gffe.) (:) et(f) o(f)rá(ef'g)ti(g)o(g_e/f!gwh) me(hggffe)a(fd) (,) (ff/ge'/fgd'/eddc.) (;) in(cd) si(dg!hv)nu(g) me(g.d!ewf!gvFE)o(f.) (,) con(fff)ver(fff)té(fh)tur.(ixh_g/hiHG'hf/gffe.) (::) <sp>V/</sp>. Jú(eef)di(dg)ca(g) Dó(gi)mi(i)ne(iii) (,) no(ig)cén(hj)tes(i) me,(jh'ivG'F//h.f!gwhg/hjh/jhhg.) (:) ex(e)pú(egFE'f!hh//g!jij)gna(hg__) (,) im(h!iwj)pu(h_g)gnán(ixhg/hiG'F//gf/g_h)tes(e!gfg) me :(e.) (:) ap(g)pre(g)hén(g/ih~)de(h_g) ar(hjhhg~)ma(g_h) (,) et(e) scu(egFE'f!hh//g!jij)tum,(hv.f/ggf) (,) (ffefv//ef!hvGE'fddc.) (:) et(c) ex(d)súr(d!ff//fffdfvED'ef'g)ge(ghhg//fh/jhhg.) (;) in(h) ad(h/jjh)ju(f)tó(fg/hhg)ri(g)um(ge/ghGE'fvD'C//d!ewfe.) <clear>*(,) mi(fd/ffd/ef'g//ef'h)hi.(h_g//hjHG'hf/gffe.) (::)",
+      "availableTranslations": {
+        "English": " But as for me, when they were troublesome to me, I was clothed with haircloth. I humbled my soul with fasting; and my prayer shall be turned into my bosom.  Judge thou, O Lord, them that wrong me : overthrow them that fight against me. Take hold of arms and shield : and rise up to help me.",
+        "Espanol": "Pero yo, mientras ellos me cubrían de cilicio: humillaban mi alma con el ayuno, no cesando de orar en mi corazón. Juzga, oh Señor, a los que me dañan: bate a los que pelean contra mí: ármate y embraza el escudo, y sal a defenderme.",
+        "Francais": " Mais moi, quand ils me tourmentaient, je me revêtais d’un cilice, et j’humiliais mon âme par le jeûne, et ma prière retournait dans mon sein. Jugez Seigneur, ceux qui me font du mal ; combattez ceux qui me combattent. Prenez vos armes et votre bouclier, et levez-vous pour me secourir.",
+        "Italiano": "Ed io, quand'essi mi perseguitavano, mi vestivo di cilizio, mi maceravo nel digiuno, e la mia preghiera si ripercuoteva nel mio petto. V Giudica, o Signore, i miei oppositori; disperdi quelli che mi combattono; prendi le armi e lo scudo e sorgi in mio soccorso",
+        "Nederlands": "Maar ik, als zij mij kwelden, trok ik het boetekleed aan en ik putte mij uit in vasten, en diep gebogen stortte ik mijn gebed in mijn hart. Oordeel, Heer, die mij kwaad doen, bestrijd die mij bekampen. Grijp wapentuig en beukelaar. Rijs op om mij te helpen.",
+        "Polski": "Ja zaś, gdy mi dokuczali, wdziewałem wór pokutny i duszę moją trapiłem postem, i w sercu zanosiłem modlitwy. Rozpraw się, Panie, z tymi, co mnie krzywdzą, uderz w tych, co na mnie natarli, chwyć broń i tarczę a powstań mi na pomoc.",
+        "Portugues": "Eu, porém, enquanto me molestavam, revestia-me com o cilício, humilhava a minha alma com jejuns e orava silenciosamente com a cabeça inclinada. Julgai, Senhor, os que me perseguem; expurgai aqueles que me combatem; empunhai as armas e o escudo: e vinde em meu auxílio."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "D. Jube, domne, benedícere. S. Dóminus sit in córdibus vestris et in lábiis vestris: ut digne et competénter annuntiétis Evangélium suum: In nómine Patris, et Fílii, + et Spíritus Sancti. D. Amen. (deinde dicuntur semper) Pássio Dómini nostri Jesu Christi secúndum Marcum (rubrica 1955 aut rubrica 1960 dicitur) (rubrica 1570 aut rubrica 1910 aut rubrica divino afflatu dicitur) (deinde dicuntur) In illo témpore: Erat Pascha, et ázyma post bíduum, et quærébant summi sacerdótes et scribæ, quómodo Jesum dolo tenérent et occíderent. Dicébant autem: S. Non in die festo, ne forte tumúltus fíeret in pópulo. C. Et cum esset Jesus Bethániæ in domo Simónis leprósi, et recúmberet: venit múlier habens alabástrum unguénti nardi spicáti pretiósi, et fracto alabástro, effúdit super caput ejus. Erant autem quidam indígne feréntes intra semetípsos, et dicéntes: S. Ut quid perdítio ista unguénti facta est? Póterat enim unguéntum istud venúmdari plus quam trecéntis denáriis, et dari paupéribus. C. Et fremébant in eam. Jesus autem dixit: J. Sínite eam: quid illi molésti estis? Bonum opus operáta est in me. Semper enim páuperes habétis vobíscum: et cum voluéritis, potéstis illis benefácere: me autem non semper habétis. Quod hábuit hæc, fecit: prævénit úngere corpus meum in sepultúram. Amen, dico vobis: Ubicúmque prædicátum fúerit Evangélium istud in univérso mundo, et, quod fecit hæc, narrábitur in memóriam ejus. C. Et Judas Iscariótes, unus de duódecim, ábiit ad summos sacerdótes, ut próderet eum illis. Qui audiéntes, gavísi sunt: et promisérunt ei pecúniam se datúros. Et quærébat, quómodo illum opportúne tráderet. Et primo die azymórum quando pascha immolábant, dicunt ei discípuli: S. Quo vis eámus, et parémus tibi, ut mandúces pascha? C. Et mittit duos ex discípulis suis, et dicit eis: J. Ite in civitátem: et occúrret vobis homo lagénam aquæ bájulans, sequímini eum: et quocúmque introíerit, dícite dómino domus, quia Magíster dicit: Ubi est reféctio mea, ubi pascha cum discípulis meis mandúcem? Et ipse vobis demonstrábit cenáculum grande stratum: et illic paráte nobis. C. Et abiérunt discípuli ejus, et venérunt in civitátem: et invenérunt, sicut díxerat illis, et paravérunt pascha. Véspere autem facto, venit cum duódecim. Et discumbéntibus eis et manducántibus, ait Jesus: J. Amen, dico vobis, quia unus ex vobis tradet me, qui mánducat mecum. C. At illi cœpérunt contristári et dícere ei singulátim: S. Numquid ego? C. Qui ait illis: J. Unus ex duódecim, qui intíngit mecum manum in catíno. Et Fílius quidem hóminis vadit, sicut scriptum est de eo: væ autem hómini illi, per quem Fílius hóminis tradétur. Bonum erat ei, si non esset natus homo ille. C. Et manducántibus illis, accépit Jesus panem: et benedícens fregit, et dedit eis, et ait: J. Súmite, hoc est corpus meum. C. Et accépto cálice, grátias agens dedit eis: et bibérunt ex illo omnes. Et ait illis: J. Hic est sanguis meus novi Testaménti, qui pro multis effundétur. Amen, dico vobis, quia jam non bibam de hoc genímine vitis usque in diem illum, cum illud bibam novum in regno Dei. C. Et hymno dicto, exiérunt in montem Olivárum. Et ait eis Jesus: J. Omnes scandalizabímini in me in nocte ista: quia scriptum est: Percútiam pastórem, et dispergéntur oves. Sed postquam resurréxero, præcédam vos in Galilǽam, C. Petrus autem ait illi: S. Et si omnes scandalizáti fúerint in te, sed non ego. C. Et ait illi Jesus: J. Amen, dico tibi, quia tu hódie in nocte hac, priúsquam gallus vocem bis déderit, ter me es negatúrus. C. At ille ámplius loquebátur: S. Et si oportúerit me simul cómmori tibi, non te negábo. C. Simíliter autem et omnes dicébant. (sed rubrica 1955 aut rubrica 1960 hæc versus omittuntur) Et véniunt in prǽdium, cui nomen Gethsémani. Et ait discípulis suis: J. Sedéte hic, donec orem. C. Et assúmit Petrum et Jacóbum et Joánnem secum: et cœpit pavére et tædére. Et ait illis: J. Tristis est ánima mea usque ad mortem: sustinéte hic, et vigiláte. C. Et cum processísset páululum, prócidit super terram: et orábat, ut, si fíeri posset, transíret ab eo hora: et dixit: J. Abba, Pater, ómnia tibi possibília sunt, transfer cálicem hunc a me: sed non quod ego volo, sed quod tu. C. Et venit et invénit eos dormiéntes. Et ait Petro: J. Simon, dormis? non potuísti una hora vigiláre? Vigiláte et oráte, ut non intrétis in tentatiónem. Spíritus quidem promptus est, caro vero infírma. C. Et íterum ábiens orávit, eúndem sermónem dicens. Et revérsus, dénuo invénit eos dormiéntes - erant enim óculi eórum graváti - et ignorábant, quid respondérent ei. Et venit tértio, et ait illis: J. Dormíte jam et requiéscite. Súfficit: venit hora: ecce, Fílius hóminis tradétur in manus peccatórum. Súrgite, eámus: ecce, qui me tradet, prope est. C. Et, adhuc eo loquénte, venit Judas Iscariótes, unus de duódecim, et cum eo turba multa cum gládiis et lignis, a summis sacerdótibus et scribis et senióribus. Déderat autem tráditor ejus signum eis, dicens: S. Quemcúmque osculátus fúero, ipse est, tenéte eum et dúcite caute. C. Et cum venísset, statim accédens ad eum, ait: S. Ave, Rabbi. C. Et osculátus est eum. At illi manus injecérunt in eum, et tenuérunt eum. Unus autem quidam de circumstántibus, edúcens gládium, percússit servum summi sacerdótis: et amputávit illi aurículam. Et respóndens Jesus, ait illis: J. Tamquam ad latrónem exístis cum gládiis et lignis comprehéndere me? cotídie eram apud vos in templo docens, et non me tenuístis. Sed ut impleántur Scriptúræ. C. Tunc discípuli ejus relinquéntes eum, omnes fugérunt. Adoléscens autem quidam sequebátur eum amíctus síndone super nudo: et tenuérunt eum. At ille, rejécta síndone, nudus profúgit ab eis. Et adduxérunt Jesum ad summum sacerdótem: et convenérunt omnes sacerdótes et scribæ et senióres. Petrus autem a longe secútus est eum usque intro in átrium summi sacerdótis: et sedébat cum minístris ad ignem, et calefaciébat se. Summi vero sacerdótes et omne concílium quærébant advérsus Jesum testimónium, ut eum morti tráderent, nec inveniébant. Multi enim testimónium falsum dicébant advérsus eum: et conveniéntia testimónia non erant. Et quidam surgéntes, falsum testimónium ferébant advérsus eum, dicéntes: S. Quóniam nos audívimus eum dicéntem: Ego dissólvam templum hoc manufáctum, et per tríduum áliud non manufáctum ædificábo. C. Et non erat convéniens testimónium illórum. Et exsúrgens summus sacérdos in médium, interrogávit Jesum, dicens: S. Non respóndes quidquam ad ea, quæ tibi objiciúntur ab his? C. Ille autem tacébat et nihil respóndit. Rursum summus sacérdos interrogábat eum, et dixit ei: S. Tu es Christus, Fílius Dei benedícti? C. Jesus autem dixit illi: J. Ego sum: et vidébitis Fílium hóminis sedéntem a dextris virtútis Dei, et veniéntem cum núbibus cœli. C. Summus autem sacérdos scindens vestiménta sua, ait: S. Quid adhuc desiderámus testes? Audístis blasphémiam: quid vobis videtur? C. Qui omnes condemnavérunt eum esse reum mortis. Et cœpérunt quidam conspúere eum, et veláre fáciem ejus, et cólaphis eum cǽdere, et dícere ei: S. Prophetíza. C. Et minístri álapis eum cædébant. Et cum esset Petrus in átrio deórsum, venit una ex ancíllis summi sacerdótis: et cum vidísset Petrum calefaciéntem se, aspíciens illum, ait: S. Et tu cum Jesu Nazaréno eras. C. At ille negávit, dicens: S. Neque scio neque novi, quid dicas. C. Et éxiit foras ante átrium, et gallus cantávit. Rursus autem cum vidísset illum ancílla, cœpit dícere circumstántibus: Quia hic ex illis est. At ille íterum negávit. Et post pusíllum rursus, qui astábant, dicébant Petro: S. Vere ex illis es: nam et Galilǽus es. C. Ille autem cœpit anathematizáre et juráre: Quia néscio hóminem istum, quem dícitis. Et statim gallus íterum cantávit. Et recordátus est Petrus verbi, quod díxerat ei Jesus: Priúsquam gallus cantet bis, ter me negábis. Et cœpit flere. Et conféstim mane consílium faciéntes summi sacerdótes, cum senióribus et scribis et univérso concílio, vinciéntes Jesum, duxérunt, et tradidérunt Piláto. Et interrogávit eum Pilátus: S. Tu es Rex Judæórum? C. At ille respóndens, ait illi: J. Tu dicis. C. Et accusábant eum summi sacerdótes in multis. Pilátus autem rursum interrogávit eum, dicens: S. Non respóndes quidquam? vide, in quantis te accúsant. C. Jesus autem ámplius nihil respóndit, ita ut mirarétur Pilátus. Per diem autem festum solébat dimíttere illis unum ex vinctis, quemcúmque petiíssent. Erat autem, qui dicebátur Barábbas, qui cum seditiósis erat vinctus, qui in seditióne fécerat homicídium. Et cum ascendísset turba, cœpit rogáre, sicut semper faciébat illis. Pilátus autem respóndit eis, et dixit: S. Vultis dimíttam vobis Regem Judæórum? C. Sciébat enim, quod per invídiam tradidíssent eum summi sacerdótes. Pontífices autem concitavérunt turbam, ut magis Barábbam dimítteret eis. Pilátus autem íterum respóndens, ait illis: S. Quid ergo vultis fáciam Regi Judæórum? C. At illi íterum clamavérunt: S. Crucifíge eum. C. Pilátus vero dicébat illis: S. Quid enim mali fecit? C. At illi magis clamábant: S. Crucifíge eum. C. Pilátus autem volens pópulo satisfácere, dimísit illis Barábbam, et trádidit Jesum flagéllis cæsum, ut crucifigerétur. Mílites autem duxérunt eum in átrium prætórii, et cónvocant totam cohórtem, et índuunt eum púrpura, et impónunt ei plecténtes spíneam corónam. Et cœpérunt salutáre eum: Ave, Rex Judæórum. Et percutiébant caput ejus arúndine: et conspuébant eum et, ponéntes génua, adorábant eum. Et postquam illusérunt ei, exuérunt illum púrpura, et induérunt eum vestiméntis suis: et edúcunt illum, ut crucifígerent eum. Et angariavérunt prætereúntem quémpiam, Simónem Cyrenǽum, veniéntem de villa, patrem Alexándri et Rufi, ut tólleret crucem ejus. Et perdúcunt illum in Gólgotha locum, quod est interpretátum Calváriæ locus. Et dabant ei bíbere myrrhátum vinum: et non accépit. Et crucifigéntes eum, divisérunt vestiménta ejus, mitténtes sortem super eis, quis quid tólleret. Erat autem hora tértia: et crucifixérunt eum. Et erat títulus causæ ejus inscríptus: Rex Judæórum. Et cum eo crucifígunt duos latrónes: unum a dextris et alium a sinístris ejus. Et impléta est Scriptúra, quæ dicit: Et cum iníquis reputátus est. Et prætereúntes blasphemábant eum, movéntes cápita sua et dicéntes: S. Vah, qui déstruis templum Dei, et in tribus diébus reædíficas: salvum fac temetípsum, descéndens de cruce. C. Simíliter et summi sacerdótes illudéntes, ad altérutrum cum scribis dicébant: S. Alios salvos fecit, seípsum non potest salvum fácere. Christus Rex Israël descéndat nunc de cruce, ut videámus et credámus. C. Et qui cum eo crucifíxi erant, convitiabántur ei. Et facta hora sexta, ténebræ factæ sunt per totam terram, usque in horam nonam. Et hora nona exclamávit Jesus voce magna, dicens: J. Eloi, Eloi, lamma sabactháni? C. Quod est interpretátum: J. Deus meus, Deus meus, ut quid dereliquísti me? C. Et quidam de circumstántibus audiéntes, dicébant: S. Ecce, Elíam vocat. C. Currens autem unus, et implens spóngiam acéto, circumponénsque cálamo, potum dabat ei, dicens: S. Sínite, videámus, si véniat Elías ad deponéndum eum. C. Jesus autem emíssa voce magna exspirávit. (Hic genuflectitur, et pausatur aliquantulum) Et velum templi scissum est in duo, a summo usque deórsum. Videns autem centúrio, qui ex advérso stabat, quia sic clamans exspirásset, ait: S. Vere hic homo Fílius Dei erat. C. Erant autem et mulíeres de longe aspiciéntes: inter quas erat María Magdaléne, et María Jacóbi minóris, et Joseph mater, et Salóme: et cum esset in Galilǽa, sequebántur eum, et ministrábant ei, et áliæ multæ, quæ simul cum eo ascénderant Jerosólymam.  (deinde dicuntur) Munda cor meum ac lábia mea, omnípotens Deus, qui lábia Isaíæ Prophétæ cálculo mundásti igníto: ita me tua grata miseratióne dignáre mundáre, ut sanctum Evangélium tuum digne váleam nuntiáre. Per Christum, Dóminum nostrum. Amen. D. Jube, domne, benedicere. S. Dóminus sit in corde tuo et in lábiis tuis: ut digne et competénter annúnties Evangélium suum: In nómine Patris, et Fílii, + et Spíritus Sancti. Amen. (sed rubrica 1955 aut rubrica 1960 hæc versus omittuntur) Et cum jam sero esset factum ((quia erat Parascéve, quod est ante sábbatum)) venit Joseph ab Arimathǽa, nóbilis decúrio, qui et ipse erat exspéctans regnum Dei, et audácter introívit ad Pilátum, et pétiit corpus Jesu. Pilátus autem mirabátur, si jam obiísset. Et accersíto centurióne, interrogávit eum, si jam mórtuus esset. Et cum cognovísset a centurióne, donávit corpus Joseph. Joseph autem mercátus síndonem, et depónens eum invólvit síndone, et pósuit eum in monuménto, quod erat excísum de petra, et advólvit lápidem ad óstium monuménti.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "D. Jube, domne, benedícere. S. Dóminus sit in córdibus vestris et in lábiis vestris: ut digne et competénter annuntiétis Evangélium suum: In nómine Patris, et Fílii, + et Spíritus Sancti. D. Amen. (deinde dicuntur semper) Passion of our Lord Jesus Christ, according to Mark (rubrica 1955 aut rubrica 1960 dicitur) (rubrica 1570 aut rubrica 1910 aut rubrica divino afflatu dicitur) (deinde dicuntur) Now the feast of the pasch, and of the Azymes was after two days; and the chief priests and the scribes sought how they might by some wile lay hold on him, and kill him. But they said: Not on the festival day, lest there should be a tumult among the people. And when he was in Bethania, in the house of Simon the leper, and was at meat, there came a woman having an alabaster box of ointment of precious spikenard: and breaking the alabaster box, she poured it out upon his head. Now there were some that had indignation within themselves, and said: Why was this waste of the ointment made? For this ointment might have been sold for more than three hundred pence, and given to the poor. And they murmured against her. But Jesus said: Let her alone, why do you molest her? She hath wrought a good work upon me. For the poor you have always with you: and whensoever you will, you may do them good: but me you have not always. She hath done what she could: she is come beforehand to anoint my body for burial. Amen, I say to you, wheresoever this gospel shall be preached in the whole world, that also which she hath done, shall be told for a memorial of her. And Judas Iscariot, one of the twelve, went to the chief priests, to betray him to them. Who hearing it were glad; and they promised him they would give him money. And he sought how he might conveniently betray him. Now on the first day of the unleavened bread, when they sacrificed the pasch, the disciples say to him: Whither wilt thou that we go, and prepare for thee to eat the pasch? And he sendeth two of his disciples, and saith to them: Go ye into the city; and there shall meet you a man carrying a pitcher of water, follow him; And whithersoever he shall go in, say to the master of the house, The master saith, Where is my refectory, where I may eat the pasch with my disciples? And he will shew you a large dining room furnished; and there prepare ye for us. And his disciples went their way, and came into the city; and they found as he had told them, and they prepared the pasch. And when evening was come, he cometh with the twelve. And when they were at table and eating, Jesus saith: Amen I say to you, one of you that eateth with me shall betray me. But they began to be sorrowful, and to say to him one by one: Is it I? Who saith to them: One of the twelve, who dippeth with me his hand in the dish. And the Son of man indeed goeth, as it is written of him: but woe to that man by whom the Son of man shall be betrayed. It were better for him, if that man had not been born. And whilst they were eating, Jesus took bread; and blessing, broke, and gave to them, and said: Take ye. This is my body. And having taken the chalice, giving thanks, he gave it to them. And they all drank of it. And he said to them: This is my blood of the new testament, which shall be shed for many. Amen I say to you, that I will drink no more of the fruit of the vine, until that day when I shall drink it new in the kingdom of God. And when they had said an hymn, they went forth to the mount of Olives. And Jesus saith to them: You will all be scandalized in my regard this night; for it is written, I will strike the shepherd, and the sheep shall be dispersed. But after I shall be risen again, I will go before you into Galilee. But Peter saith to him: Although all shall be scandalized in thee, yet not I. And Jesus saith to him: Amen I say to thee, to day, even in this night, before the cock crow twice, thou shall deny me thrice. But he spoke the more vehemently: Although I should die together with thee, I will not deny thee. And in like manner also said they all. (sed rubrica 1955 aut rubrica 1960 hæc versus omittuntur) And they came to a farm called Gethsemani. And he saith to his disciples: Sit you here, while I pray. And he taketh Peter and James and John with him; and he began to fear and to be heavy. And he saith to them: My soul is sorrowful even unto death; stay you here, and watch. And when he was gone forward a little, he fell flat on the ground; and he prayed, that if it might be, the hour might pass from him. And he saith: Abba, Father, all things are possible to thee: remove this chalice from me; but not what I will, but what thou wilt. And he cometh, and findeth them sleeping. And he saith to Peter: Simon, sleepest thou? couldst thou not watch one hour? Watch ye, and pray that you enter not into temptation. The spirit indeed is willing, but the flesh is weak. And going away again, he prayed, saying the same words. And when he returned, he found them again asleep, - for their eyes were heavy, - and they knew not what to answer him. And he cometh the third time, and saith to them: Sleep ye now, and take your rest. It is enough: the hour is come: behold the Son of man shall be betrayed into the hands of sinners. Rise up, let us go. Behold, he that will betray me is at hand. And while he was yet speaking, cometh Judas Iscariot, one of the twelve: and with him a great multitude with swords and staves, from the chief priests and the scribes and the ancients. And he that betrayed him, had given them a sign, saying: Whomsoever I shall kiss, that is he; lay hold on him, and lead him away carefully. And when he was come, immediately going up to him, he saith: Hail, Rabbi; and he kissed him. But they laid hands on him, and held him. An one of them that stood by, drawing a sword, struck a servant of the chief priest, and cut off his ear. And Jesus answering, said to them: Are you come out as to a robber, with swords and staves to apprehend me? I was daily with you in the temple teaching, and you did not lay hands on me. But that the scriptures may be fulfilled. Then his disciples leaving him, all fled away. And a certain young man followed him, having a linen cloth cast about his naked body; and they laid hold on him. But he, casting off the linen cloth, fled from them naked. And they brought Jesus to the high priest; and all the priests and the scribes and the ancients assembled together. And Peter followed him from afar off, even into the court of the high priest; and he sat with the servants at the fire, and warmed himself. And the chief priests and all the council sought for evidence against Jesus, that they might put him to death, and found none. For many bore false witness against him, and their evidences were not agreeing. And some rising up, bore false witness against him, saying: We heard him say, I will destroy this temple made with hands, and within three days I will build another not made with hands. And their witness did not agree. And the high priest rising up in the midst, asked Jesus, saying: Answerest thou nothing to the things that are laid to thy charge by these men? But he held his peace, and answered nothing. Again the high priest asked him, and said to him: Art thou the Christ the Son of the blessed God? And Jesus said to him: I am. And you shall see the Son of man sitting on the right hand of the power of God, and coming with the clouds of heaven. Then the high priest rending his garments, saith: What need we any further witnesses? You have heard the blasphemy. What think you? Who all condemned him to be guilty of death. And some began to spit on him, and to cover his face, and to buffet him, and to say unto him: Prophesy: and the servants struck him with the palms of their hands. Now when Peter was in the court below, there cometh one of the maidservants of the high priest. And when she had seen Peter warming himself, looking on him she saith: Thou also wast with Jesus of Nazareth. But he denied, saying: I neither know nor understand what thou sayest. And he went forth before the court; and the cock crew. And again a maidservant seeing him, began to say to the standers by: This is one of them. But he denied again. And after a while they that stood by said again to Peter: Surely thou art one of them; for thou art also a Galilean. But he began to curse and to swear, saying; I know not this man of whom you speak. And immediately the cock crew again. And Peter remembered the word that Jesus had said unto him: Before the cock crow twice, thou shalt thrice deny me. And he began to weep. And straightway in the morning, the chief priests holding a consultation with the ancients and the scribes and the whole council, binding Jesus, led him away, and delivered him to Pilate. And Pilate asked him: Art thou the king of the Jews? But he answering, saith to him: Thou sayest it. And the chief priests accused him in many things. And Pilate again asked him, saying: Answerest thou nothing? behold in how many things they accuse thee. But Jesus still answered nothing; so that Pilate wondered. Now on the festival day he was wont to release unto them one of the prisoners, whomsoever they demanded. And there was one called Barabbas, who was put in prison with some seditious men, who in the sedition had committed murder. And when the multitude was come up, they began to desire that he would do, as he had ever done unto them. And Pilate answered them, and said: Will you that I release to you the king of the Jews? For he knew that the chief priests had delivered him up out of envy. But the chief priests moved the people, that he should rather release Barabbas to them. And Pilate again answering, saith to them: What will you then that I do to the king of the Jews? But they again cried out: Crucify him. And Pilate saith to them: Why, what evil hath he done? But they cried out the more: Crucify him. And so Pilate being willing to satisfy the people, released to them Barabbas, and delivered up Jesus, when he had scourged him, to be crucified. And the soldiers led him away into the court of the palace, and they called together the whole band: And they clothe him with purple, and platting a crown of thorns, they put it upon him. And they began to salute him: Hail, king of the Jews. And they struck his head with a reed: and they did spit on him. And bowing their knees, they adored him. And after they had mocked him, they took off the purple from him, and put his own garments on him, and they led him out to crucify him. And they forced one Simon a Cyrenian who passed by, coming out of the country, the father of Alexander and of Rufus, to take up his cross. And they bring him into the place called Golgotha, which being interpreted is, The place of Calvary. And they gave him to drink wine mingled with myrrh; but he took it not. And crucifying him, they divided his garments, casting lots upon them, what every man should take. And it was the third hour, and they crucified him. And the inscription of his cause was written over: THE KING OF THE JEWS. And with him they crucify two thieves; the one on his right hand, and the other on his left. And the scripture was fulfilled, which saith: And with the wicked he was reputed. And they that passed by blasphemed him, wagging their heads, and saying: Vah, thou that destroyest the temple of God, and in three days buildest it up again; Save thyself, coming down from the cross. In like manner also the chief priests mocking, said with the scribes one to another: He saved others; himself he cannot save. Let Christ the king of Israel come down now from the cross, that we may see and believe. And they that were crucified with him reviled him. And when the sixth hour was come, there was darkness over the whole earth until the ninth hour. And at the ninth hour, Jesus cried out with a loud voice, saying: Eloi, Eloi, lamma sabacthani? Which is, being interpreted, My God, my God, why hast thou forsaken me? And some of the standers by hearing, said: Behold he calleth Elias. And one running and filling a sponge with vinegar, and putting it upon a reed, gave him to drink, saying: Stay, let us see if Elias come to take him down. And Jesus having cried out with a loud voice, gave up the ghost. (here everybody kneels) And the veil of the temple was rent in two, from the top to the bottom. And the centurion who stood over against him, seeing that crying out in this manner he had given up the ghost, said: Indeed this man was the son of God. And there were also women looking on afar off: among whom was Mary Magdalen, and Mary the mother of James the less and of Joseph, and Salome: Who also when he was in Galilee followed him, and ministered to him, and many other women that came up with him to Jerusalem.  (deinde dicuntur) Cleanse my heart and my lips, O almighty God, who didst cleanse the lips of the prophet Isaias with a burning coal, and vouchsafe, through Thy gracious mercy, so to purify me, that I may worthily announce Thy holy Gospel. Through Christ our Lord. Amen. D. Sir, give me thy blessing. S. The Lord be in thy heart and on thy lips, that thou mayst worthily and in a becoming manner, proclaim His holy Gospel. In the name of the Father, and of the Son, + and of the Holy Ghost. Amen. (sed rubrica 1955 aut rubrica 1960 hæc versus omittuntur) And when evening was now come, - because it was the Parasceve, that is, the day before the sabbath, - Joseph of Arimathea, a noble counsellor, who was also himself looking for the kingdom of God, came and went in boldly to Pilate, and begged the body of Jesus. But Pilate wondered that he should be already dead. And sending for the centurion, he asked him if he were already dead. And when he had understood it by the centurion, he gave the body to Joseph. And Joseph buying fine linen, and taking him down, wrapped him up in the fine linen, and laid him in a sepulchre which was hewed out of a rock. And he rolled a stone to the door of the sepulchre.",
+        "Espanol": "D. Jube, domne, benedícere. S. Dóminus sit in córdibus vestris et in lábiis vestris: ut digne et competénter annuntiétis Evangélium suum: In nómine Patris, et Fílii, + et Spíritus Sancti. D. Amen. (deinde dicuntur semper) Pasión de Nuestro Señor Jesucristo según San Marcos (rubrica 1955 aut rubrica 1960 dicitur) (rubrica 1570 aut rubrica 1910 aut rubrica divino afflatu dicitur) (deinde dicuntur) Dos dias después era la Pascua, cuando comienzan los ázimos: y los príncipes de los sacerdotes, y los Escribas andaban trazando cómo prender a Jesús con engaño, y quitarle la vida. Mas no ha de ser, decían, en la fiesta, porque no se amotine el pueblo. Hallándose Jesús en Bethania en casa de Simón el leproso, estando a la mesa, entró una mujer con un vaso de alabastro lleno de ungüento  hecho de la espiga del nardo, de mucho precio, y quebrando el vaso, derramó el bálsamo sobre la cabeza de Jesús. Algunos de los presentes irritados interiormente, decían: ¿A qué fin desperdiciar ese perfume, siendo así que se podía vender en mas de trescientos denarios, y dar el dinero a los pobres? Con cuyo motivo bramaban contra ella. Mas Jesús les dijo: Dejadla en paz, ¿por qué la molestáis? La obra que ha hecho conmigo es buena. Pues que a los pobres los tenéis siempre con vosotros, y podéis hacerles bien cuando quisiereis: mas a mí no me tendréis siempre. Ella ha hecho cuanto estaba en su mano: se ha anticipado a embalsamar mi cuerpo para la sepultura. En verdad os digo, que do quiera que se predicare este Evangelio por todo el mundo, se contará también en memoria o alabanza de esta mujer lo que acaba de hacer. Entonces Judas Iscariote, uno de los doce, salió a verse con los sumos sacerdotes, para entregarles a Jesús. Los cuales cuando le oyeron, se holgaron mucho: y prometieron darle dinero. Y él ya no buscaba sino ocasión oportuna para entregarle. El primer dia pues de los Ázymos en que sacrificaban el cordero pascual, dícenle los discípulos: ¿A dónde quieres que vayamos a prepararte la cena de la Pascua? Y Jesús envió a Jerusalén a dos de ellos, diciéndoles. Id a la ciudad, y encontrareis a un hombre que lleva un cántaro de agua, seguidle: Y en donde quiera que entrare, decid al amo de la casa, el Maestro os envía a decir: ¿Dónde está la sala en que he de celebrar la cena de la Pascua con mis discípulos? Y él os mostrará una pieza de comer grande, bien mueblada: preparadnos allí lo necesario. Fueron pues los discípulos, y llegando a la ciudad, hallaron todo lo que les había dicho, y dispusieron las cosas para la Pascua. Puesto ya el sol, fue Jesús allá con los doce. Y estando a la mesa, y comiendo, dijo Jesús: En verdad os digo, que uno de vosotros, que come conmigo, me hará traición. Comenzaron entonces ellos a contristarse, y a decirle uno después de otro: ¿Seré yo acaso? Él les respondió: Es uno de los doce, uno que mete conmigo la mano en un mismo plato. Verdad es que el Hijo del hombre se va a su fin, como está escrito de él: pero ¡ay de aquel hombre, por quien el Hijo del hombre será entregado! Mejor seria para el tal hombre el no haber nacido. Durante la mesa, tomó Jesús pan: y bendiciéndole, le partió, y diósele, y les dijo: Tomad, este es mi cuerpo. Y cogiendo el cáliz, dando gracias se le alargó: y bebieron todos de él. Y al dársele, díjoles: Esta es la sangre mía, el nuevo Testamento, la cual será derramada por muchos. En verdad os digo, que de hoy mas no beberé de este fruto de la vid, hasta el dia en que le beba nuevo en el reino de Dios. Y dicho el himno de acción de gracias salieron hacia el monte del Olivar. Antes de partir díjoles aun Jesús: Todos os escandalizaréis por ocasión de mí esta noche, según está escrito: Heriré al Pastor, y se descarriarán las ovejas. Pero en resucitando me pondré a vuestra frente en Galilea. Pedro le dijo entonces: Aun cuando fueres para todos los demás un objeto de escándalo, no lo serás para mi. Jesús le replicó: En verdad te digo, que tú, hoy mismo en esta noche, antes de la segunda vez que cante el gallo, tres veces me has de negar. Él no obstante se afirmaba más y más en lo dicho, añadiendo: Aunque me sea forzoso el morir contigo, yo no te negaré. Y lo mismo decian todos los demás. (sed rubrica 1955 aut rubrica 1960 hæc versus omittuntur) En aquel tiempo: Fueron a una finca, que llaman Getsemaní, y dijo a sus discípulos: Sentaos aquí mientras voy a orar. Se llevó a Pedro, a Santiago y a Juan, empezó a sentir terror y angustia, y les dijo: Me muero de tristeza: quedaos aquí velando. Y, adelantándose un poco, se postró en tierra pidiendo que, si era posible, se alejase de él aquella hora; y dijo: ¡Abba! (Padre): tú lo puedes todo, aparta de mí ese cáliz. Pero no lo que yo quiero, sino lo que tú quieres. Volvió, y al encontrarlos dormidos, dijo a Pedro: Simón, ¿duermes?, ¿no has podido velar ni una hora? Velad y orad, para no caer en la tentación; el espíritu es decidido, pero la carne es débil. De nuevo se apartó y oraba repitiendo las mismas palabras. Volvió, y los encontró otra vez dormidos, porque tenían los ojos cargados. Y no sabían qué contestarle. Volvió y les dijo: Ya podéis dormir y descansar. ¡Basta! Ha llegado la hora; mirad que el Hijo del Hombre va a ser entregado en manos de los pecadores. ¡Levantaos, vamos! Ya está cerca el que me entrega. Todavía estaba hablando, cuando se presentó Judas, uno de los doce, y con él gente con espadas y palos, mandada por los sumos sacerdotes, los letrados y los ancianos. El traidor les había dado una contraseña, diciéndoles: Al que yo bese, es él: prendedlo y conducidlo bien sujeto. Y en cuanto llegó, se acercó y le dijo: ¡Maestro! Y lo besó. Ellos le echaron mano y lo prendieron. Pero uno de los presentes, desenvainando la espada, de un golpe le cortó la oreja al criado del sumo sacerdote. Jesús tomó la palabra y les dijo: ¿Habéis salido a prenderme con espadas y palos, como a caza de un bandido? A diario os estaba enseñando en el templo, y no me detuvisteis. Pero, que se cumplan las Escrituras. Y todos lo abandonaron y huyeron. Lo iba siguiendo un muchacho envuelto sólo en una sábana; y le echaron mano; pero él, soltando la sábana, se les escapó desnudo. Condujeron a Jesús a casa del sumo sacerdote, y se reunieron todos los sumos sacerdotes y los letrados y los ancianos. Pedro lo fue siguiendo de lejos, hasta el interior del patio del sumo sacerdote; y se sentó con los criados a la lumbre para calentarse. Los sumos sacerdotes y el sanedrín en pleno buscaban un testimonio contra Jesús, para condenarlo a muerte; y no lo encontraban. Pues, aunque muchos daban falso testimonio contra él, los testimonios no concordaban. Y algunos, poniéndose de pie, daban testimonio contra él diciendo: Nosotros le hemos oído decir: «Yo destruiré este templo, edificado por hombres, y en tres días construiré otro no edificado por hombres.» Pero ni en esto concordaban los testimonios. El sumo sacerdote se puso en pie en medio e interrogó a Jesús: ¿No tienes nada que responder? ¿Qué son estos cargos que levantan contra ti? Pero él callaba, sin dar respuesta. El sumo sacerdote lo interrogó de nuevo preguntándole: ¿Eres tú el Mesías, el Hijo de Dios bendito? Jesús contestó: Sí lo soy. Y veréis que el Hijo del Hombre está sentado a la derecha del Todopoderoso y que viene entre las nubes del cielo. El sumo sacerdote se rasgó las vestiduras diciendo: ¿Qué falta hacen más testigos? Habéis oído la blasfemia. ¿Qué decís? Y todos lo declararon reo de muerte. Algunos se pusieron a escupirlo, y tapándole la cara, lo abofeteaban y le decían: Haz de profeta. Y los criados le daban bofetadas. Mientras Pedro estaba abajo en el patio, llegó una criada del sumo sacerdote y, al ver a Pedro calentándose, lo miró fijamente y dijo: También tu andabas con Jesús el Nazareno. Él lo negó diciendo: Ni sé ni entiendo lo que quieres decir. Salió fuera al zaguán, y un galló cantó. La criada, al verlo, volvió a decir a los presentes: Este es uno de ellos. Y él lo volvió a negar. Al poco rato también los presentes dijeron a Pedro: Seguro que eres uno de ellos, pues eres galileo. Pero él se puso a echar maldiciones y a jurar: No conozco a ese hombre que decís. Y en seguida, por segunda vez, cantó el gallo. Pedro se acordó de las palabras que le había dicho Jesús: «Antes de que cante el gallo dos veces, me habrás negado tres», y rompió a llorar.] Apenas se hizo de día, los sumos sacerdotes con los ancianos, los letrados y el sanedrín en pleno, prepararon la sentencia; y, atando a Jesús, lo llevaron y lo entregaron a Pilato. Pilato le preguntó: ¿Eres tú el rey de los judíos? El respondió: Tú lo dices. Y los sumos sacerdotes lo acusaban de muchas cosas. Pilato le preguntó de nuevo: ¿No contestas nada? Mira de cuántas cosas te acusan. Jesús no contestó más; de modo que Pilato estaba muy extrañado. Por la fiesta solía soltarse un preso, el que le pidieran. Estaba en la cárcel un tal Barrabás, con los revoltosos que habían cometido un homicidio en la revuelta. La gente subió y empezó a pedir el indulto de costumbre. Pilato les contestó: ¿Queréis que os suelte al rey de los judíos? Pues sabía que los sumos sacerdotes se lo habían entregado por envidia. Pero los sumos sacerdotes soliviantaron a la gente para que pidieran la libertad de Barrabás. Pilato tomó de nuevo la palabra y les preguntó: ¿Qué hago con el que llamáis rey de los judíos Ellos gritaron de nuevo: Crucifícalo. Pilato les dijo: Pues ¿qué mal ha hecho? Ellos gritaron más fuerte: Crucifícalo. Y Pilato, queriendo dar gusto a la gente, les soltó a Barrabás; y a Jesús, después de azotarlo, lo entregó para que lo crucificaran. Los soldados se lo llevaron al interior del palacio al pretorio y reunieron a toda la compañía. Lo vistieron de púrpura, le pusieron una corona de espinas, que habían trenzado, y comenzaron a hacerle el saludo: ¡Salve, rey de los judíos! Le golpearon la cabeza con una caña, le escupieron; y, doblando las rodillas, se postraban ante él. Terminada la burla, le quitaron la púrpura y le pusieron su ropa. Y lo sacaron para crucificarlo. Y a uno que pasaba, de vuelta del campo, a Simón de Cirene, el padre de Alejandro y de Rufo, lo forzaron a llevar la cruz. Y llevaron a Jesús al Gólgota (que quiere decir lugar de «La Calavera»), y le ofrecieron vino con mirra; pero él no lo aceptó. Lo crucificaron y se repartieron sus ropas, echándolas a suerte, para ver lo que se llevaba cada uno. Era media mañana cuando lo crucificaron. En el letrero de la acusación estaba escrito: EL REY DE LOS JUDIOCrucificaron con él a dos bandidos, uno a su derecha y otro a su izquierda. Así se cumplió la Escritura que dice: «Lo consideraron como un malhechor.» Los que pasaban lo injuriaban, meneando la cabeza y diciendo: S, ¡Anda!, tú que destruías el templo y lo reconstruías en tres días, sálvate a ti mismo bajando de la cruz. Los sumos sacerdotes se burlaban también de él diciendo: A otros ha salvado y a sí mismo no se puede salvar. Que el Mesías, el rey de Israel, baje ahora de la cruz, para que lo veamos y creamos. También los que estaban crucificados con él inaultaban. Al llegar el mediodía toda a región quedó en tinieblas hasta la media tarde. Y a la media tarde, Jesús clamó con voz potente: Eloí, Eloí, lamá sabaktaní. (Que significa: Dios mío, Dios mío, ¿por qué me has abandonado?) Algunos de los presentes, al oírlo, decían: Mira, está llamando a Elías. Y uno echó a correr y, empapando una esponja en vinagre, la sujetó a una caña, y le daba de beber diciendo: Dejad, a ver si viene Elías a bajarlo. Y Jesús, dando un fuerte grito expiró. (Genuflexión) El velo del templo se rasgó en dos, de arriba abajo. El centurión, que estaba enfrente, al ver cómo había expirado, dijo: Realmente este hombre era Hijo de Dios. Había también unas mujeres que miraban desde lejos; entre ellas María Magdalena, María la madre de Santiago el Menor y de José y Salomé, que cuando él estaba en Galilea, lo seguían para atenderlo; y otras muchas que habían subido con él a Jerusalén.  (deinde dicuntur) Limpia mi corazón y mis labios, oh Señor todopoderoso, tú que limpiaste los labios del profeta Isaías con un carbón encendido, y otórgame, por tu misericordia, quedar puro para ser digno de anunciar tu santo evangelio. Por Cristo nuestro Señor. Amén.Cleanse my heart and my lips, O almighty D. Dígnate, Señor, darme tu bendición. Que el Señor esté en tu corazón y tus labios, para que dignamente proclames su santo evangelio. En el nombre del Padre, del Hijo + y del Espíritu Santo. Amén. (sed rubrica 1955 aut rubrica 1960 hæc versus omittuntur) Al anochecer, como era el día de la Preparación, víspera del sábado, vino José de Arimatea, noble magistrado, que también aguardaba el Reino de Dios; se presentó decidido ante Pilato y le pidió el cuerpo de Jesús. Pilato se extrañó de que hubiera muerto ya; y, llamando al centurión, le preguntó si hacía mucho tiempo que había muerto. Informado por el centurión, concedió el cadáver a José. Este compró una sábana y, bajando a Jesús, lo envolvió en la sábana y lo puso en un sepulcro, excavado en una roca, y rodó una piedra a la entrada del sepulcro.",
+        "Francais": "D. Jube, domne, benedícere. S. Dóminus sit in córdibus vestris et in lábiis vestris: ut digne et competénter annuntiétis Evangélium suum: In nómine Patris, et Fílii, + et Spíritus Sancti. D. Amen. (deinde dicuntur semper) Pássio Dómini nostri Jesu Christi secúndum Marcum. (rubrica 1955 aut rubrica 1960 dicitur) (rubrica 1570 aut rubrica 1910 aut rubrica divino afflatu dicitur) (deinde dicuntur) En ce temps-là : c’était la Pâque et les Azymes deux jours après ; et les grands prêtres et les scribes cherchaient comment ils pourraient s’emparer de lui par ruse et le faire mourir. Ils disaient en effet : « Pas dans la fête, de peur qu’il n’y ait du tumulte parmi le peuple. » Comme Jésus était à Béthanie, dans la maison de Simon le lépreux, pendant qu’il était à table, vint une femme avec un vase d’albâtre (plein) d’un parfum de nard vrai d’un grand prix. Ayant brisé le vase d’albâtre, elle lui répandit (le parfum) sur la tête. Or il y en avait quelques-uns qui, tout indignés, (disaient) entre eux : « A quoi bon cette perte de parfum ? On pouvait en effet vendre ce parfum plus de trois cents deniers, et en donner (le prix) aux pauvres. » Et ils grondaient contre elle. Mais Jésus dit : « Laissez-la ; pourquoi lui faites-vous de la peine ? C’est une bonne action qu’elle a faite sur moi. Car toujours vous avez les pauvres avec vous, et toutes les fois que vous voulez, vous pouvez leur faire du bien ; mais moi, vous ne m’avez pas toujours. Ce qu’elle a pu, elle l’a fait : elle a par avance parfumé mon corps pour la sépulture. Je vous le dis, en vérité, partout où sera prêché cet évangile, dans le monde entier, ce qu’elle a fait sera aussi raconté, en souvenir d’elle. » Et Judas Iscarioth, l’un des Douze, s’en alla vers les grands prêtres pour le leur livrer. Après l’avoir entendu, ils furent dans la joie et promirent de lui donner de l’argent. Et il cherchait une occasion favorable pour le livrer. Le premier jour des Azymes, où l’on sacrifiait la pâque, ses disciples lui dirent : « Où voulez-vous que nous allions faire les préparatifs pour que vous mangiez la pâque ? » Et il envoya deux de ses disciples et leur dit : « Allez à la ville ; vous rencontrerez un homme portant une cruche d’eau : suivez-le, et quelque part qu’il entre, dites au maître de maison : Le Maître te fait dire : Où est ma salle, où je pourrai manger la pâque avec mes disciples ? Et il vous montrera une chambre du haut, vaste, meublée et toute prête : faites-nous là les préparatifs. » Les disciples partirent et allèrent à la ville ; et ils trouvèrent (les choses) comme il le leur avait dit, et ils firent les préparatifs de la pâque. Le soir venu, il vint avec les Douze. Pendant qu’ils étaient à table et mangeaient, Jésus dit : « Je vous le dis en vérité, un de vous me trahira, qui mange avec moi. » Et ils se mirent à s’attrister, et un chacun de lui dire : « Serait-ce moi ? » Il leur dit : « Un des Douze, qui met avec moi la main au plat. Le Fils de l’homme s’en va, selon ce qui est écrit de lui ; mais malheur à l’homme par qui le Fils de l’homme est trahi ! Mieux vaudrait pour cet homme-là qu’il ne fût pas né. » Pendant le repas, il prit du pain, et après avoir dit la bénédiction, il le rompit, et le leur donna, en disant : « Prenez, ceci est mon corps. » Il prit ensuite une coupe et, après avoir rendu grâces, il la leur donna, et ils en burent tous. Et il leur dit : « Ceci est mon sang, (le sang) de l’alliance, répandu pour beaucoup. Je vous le dis, en vérité, je ne boirai plus du produit de la vigne jusqu’à ce jour où je le boirai nouveau dans le royaume de Dieu. » Après le chant de l’hymne, ils s’en allèrent au mont des Oliviers. Et Jésus leur dit : « Je vous serai à tous une occasion de chute, parce qu’il est écrit : Je frapperai le pasteur, et les brebis seront dispersées. Mais, après que je serai ressuscité, je vous précéderai en Galilée. » Pierre lui dit : « Quand même vous seriez pour tous une occasion de chute, vous ne le serez jamais pour moi. » Jésus lui dit : « Je te le dis, en vérité, toi aujourd’hui, cette nuit-ci, avant que le coq ait chanté deux fois, trois fois tu me renieras. » Mais lui n’en disait que plus : « Quand il me faudrait mourir avec vous, je ne vous renierai pas. » Et tous aussi en disaient autant. Ils arrivent en un domaine appelé Gethsémani, et il dit à ses disciples : « Demeurez ici tandis que je prierai. » Et il prit avec lui Pierre, Jacques et Jean, et il commença à sentir de la frayeur et de l’angoisse. Et il leur dit : « Mon âme est triste jusqu’à la mort ; restez ici et veillez. » S’étant un peu avancé, il tomba sur la terre ; et il priait que cette heure, s’il était possible, s’éloignât de lui, et il disait : « Abba, Père, tout vous est possible, détournez de moi ce calice ; cependant, non ce que je veux, mais ce que vous (voulez) ! » Et il vient et il les trouve endormis, et il dit à Pierre : « Simon, tu dors ! Tu n’as pas eu la force de veiller une heure ! Veillez et priez afin que vous n’entriez point en tentation. L’esprit est ardent, mais la chair est faible. » Il s’en alla de nouveau et pria, disant la même parole. Puis, étant revenu, il les trouva endormis, car leurs yeux étaient appesantis, et ils ne savaient que lui répondre. Il revint une troisième fois et leur dit : « Dormez désormais et reposez-vous. C’est assez ! L’heure est venue ; voici que le Fils de l’homme est livré aux mains des pécheurs. Levez-vous, allons ! Voici que celui qui me trahit est proche. » Aussitôt, comme il parlait encore, survient Judas, l’un des Douze, et avec lui une foule, armée de glaives et de bâtons, envoyée par les grands prêtres et les anciens. Celui qui le trahissait leur avait donné un signe de convention : « Celui à qui je donnerai un baiser, c’est lui : arrêtez-le et emmenez-le en prenant vos sûretés. » Quand il fut arrivé, s’avançant aussitôt vers lui, il dit : « Rabbi ! » et il lui donna un baiser. Eux mirent la main sur lui et l’arrêtèrent. Un de ceux qui étaient là, tirant le glaive, frappa le serviteur du grand prêtre, et lui emporta l’oreille. Jésus, prenant la parole, leur dit : « Comme contre un brigand, vous êtes sortis avec des glaives et des bâtons pour me prendre ! Chaque jour j’étais près de vous dans le temple, où j’enseignais, et vous ne m’avez pas arrêté ; mais c’est afin que les Ecritures s’accomplissent. » Et tous l’abandonnèrent et prirent la fuite. Or un jeune homme le suivait, enveloppé d’un drap sur (son corps) nu, et on l’arrêta ; mais il lâcha le drap et s’enfuit nu de leurs mains. Ils emmenèrent Jésus chez le grand prêtre, et tous les grands prêtres, les anciens et les scribes se réunirent. Pierre l’avait suivi de loin, jusque dans l’intérieur du palais du grand prêtre, et il était assis avec les satellites et se chauffait près du feu. Les grands prêtres et tout le Sanhédrin cherchaient un témoignage contre Jésus pour le faire mourir, et ils n’en trouvaient point. Car beaucoup portaient de faux témoignages contre lui, mais les témoignages ne s’accordaient pas. Et quelques-uns, se levant, portèrent contre lui ce faux témoignage : « Nous l’avons entendu dire : Je détruirai ce sanctuaire fait de main d’homme, et en trois jours j’en rebâtirai un autre, non fait de main d’homme. » Mais même sur cela leur témoignage ne s’accordait pas. Le grand prêtre se leva, et (venant) au milieu, il interrogea Jésus, disant : « Tu ne réponds rien ? Qu’est-ce que ces hommes déposent contre toi ? » Mais il garda le silence et ne répondit rien. Le grand prêtre l’interrogea de nouveau et lui dit : « Es-tu le Christ, le Fils du Béni ? » Jésus dit : « Je le suis, et vous verrez le Fils de l’homme assis à la droite de la Puissance, et venant avec les nuées du ciel. » Et le grand prêtre déchira ses vêtements et dit : « Qu’avons-nous encore besoin de témoins ? Vous venez d’entendre le blasphème : que vous paraît-il ? » Tous le condamnèrent (comme) méritant la mort. Et quelques-uns se mirent à cracher sur lui, et, lui voilant le visage, ils le frappaient du poing, en lui disant : « Prophétise ! » ; et les satellites lui administraient des soufflets. Pendant que Pierre était en bas, dans la cour, vint une des servantes du grand prêtre ; et voyant Pierre qui se chauffait, elle le fixa du regard et lui dit : « Toi aussi, tu étais avec le Nazaréen Jésus ! » Mais il nia, en disant : « Je ne sais, ni ne comprends ce que tu veux dire. » Et il s’en alla dehors, vers le porche, et un coq chanta. La servante, l’ayant vu, se mit de nouveau à dire à ceux qui étaient présents : « Celui-là en est ! » Et il nia de nouveau. Un peu après, de nouveau, ceux qui étaient présents dirent à Pierre : « pour sûr, tu en es ; aussi bien, tu es Galiléen. » Alors il se mit à faire des imprécations et à jurer : « Je ne connais pas cet homme dont vous parlez. » Et aussitôt, pour la seconde fois, un coq chanta. Et Pierre se souvint de la parole telle que Jésus la lui avait dite : « Avant que le coq ait chanté deux fois, trois fois tu me renieras » ; et il éclata en pleurs. Dès le matin les grands prêtres tinrent conseil avec les anciens et les scribes, tout le Sanhédrin ; après avoir lié Jésus, ils l’emmenèrent et le remirent à Pilate. Pilate l’interrogea : « Es-tu le roi des Juifs ? » Jésus lui répondit : « Tu le dis. » Comme les grands prêtres portaient contre lui beaucoup d’accusations, Pilate l’interrogea de nouveau, disant : « Tu ne réponds rien ? » Vois combien d’accusations ils portent contre toi. » Mais Jésus ne répondit plus rien, en sorte que Pilate était dans l’étonnement. Or, à chaque fête, il leur relâchait un prisonnier, celui qu’ils demandaient. Il y avait dans la prison le nommé Barabbas, avec les séditieux, pour un meurtre qu’ils avaient commis dans la sédition. La foule qui venait de monter se mit à réclamer ce qu’il leur accordait toujours. Pilate leur répondit : « Voulez-vous que je vous relâche le roi des Juifs ? » Il savait, en effet, que c’était par jalousie que les grands prêtres l’avaient livré. Mais les grands prêtres excitèrent la foule pour qu’il leur relâchât plutôt Barabbas. Pilate, reprenant la parole, leur dit : « Que ferai-je donc de celui que vous appelez le roi des Juifs » Eux crièrent de nouveau : « Crucifiez-le ! » Pilate leur dit : « Qu’a-t-il donc fait de mal ? » Et ils crièrent encore plus fort : « Crucifiez-le ! » Pilate, voulant donner satisfaction à la foule, leur relâcha Barabbas ; et après avoir fait flageller Jésus, il le remit (aux soldats) pour être crucifié. Les soldats l’emmenèrent à l’intérieur du palais, c’est-à-dire au prétoire, et ils convoquèrent toute la cohorte. Ils le revêtirent de pourpre et le ceignirent d’une couronne d’épines qu’ils avaient tressée. Et ils se mirent à le saluer : « Salut, roi des Juifs ! » Et ils lui frappaient la tête avec un roseau, et ils lui crachaient dessus et, se mettant à genoux, ils se prosternaient devant lui. Après s’être moqués de lui, ils lui retirèrent la pourpre, lui remirent ses vêtements et le firent sortir pour qu’on le crucifiât. Ils réquisitionnèrent un passant, Simon le Cyrénéen, le père d’Alexandre et de Rufus, qui revenait de la campagne, pour porter sa croix, et ils le menèrent au lieu (dit) Golgotha, ce qui se traduit : lieu du Crâne. Et ils lui donnèrent du vin mêlé de myrrhe, mais il n’en prit pas ; et ils le crucifièrent et se partagèrent ses vêtements, en les tirant au sort, à qui aurait quelque chose. Il était la troisième heure lorsqu’ils le crucifièrent. L’inscription indiquant la cause (de sa condamnation) portait : « Le roi des Juifs. » Ils crucifièrent avec lui deux brigands, l’un à sa droite, l’autre à sa gauche. Ainsi fut accomplie cette parole de l’Ecriture : Et il a été compté parmi les malfaiteurs. Les passants l’injuriaient en hochant la tête et disant : « Hé ! Toi qui détruis le sanctuaire et le rebâtis en trois jours, sauve-toi toi-même, et descends de la croix ! » De même, les grands prêtres aussi, avec les scribes, se moquaient de lui entre eux et disaient : « Il en a sauvé d’autres, il ne peut se sauver lui-même. Que le Christ, le roi d’Israël, descende maintenant de la croix, afin que nous voyions et que nous croyions ! » Ceux même qui avaient été crucifiés avec lui l’insultaient. La sixième heure arrivée, il se fit des ténèbres sur la terre entière jusqu’à la neuvième heure. Et à la neuvième, heure, Jésus cria d’une voix forte : « Eloï, Eloï, lama sabacthani », ce qui se traduit : « Mon Dieu, mon Dieu, pourquoi m’avez-vous abandonné ? » Quelques-uns de ceux qui étaient là, l’ayant entendu, disaient : « Voilà qu’il appelle Elie. » Et quelqu’un courut imbiber une éponge de vinaigre, et l’ayant mise au bout d’un roseau, il lui présentait à boire, disant : « Laissez ! que nous voyions si Elie va venir le descendre. » Jésus jeta un grand cri et expira. Et le voile du sanctuaire se fendit en deux, du haut en bas. Le centurion qui se tenait en face de lui, ayant vu qu’il avait expiré ainsi, dit : « Vraiment cet homme était Fils de Dieu. » Il y avait aussi des femmes qui regardaient à distance, entre autres Marie la Magdaléenne, Marie mère de Jacques le Petit et de José, et Salomé, qui le suivaient et le servaient lorsqu’il était en Galilée, et beaucoup d’autres qui étaient montées à Jérusalem avec lui.  (deinde dicuntur) Purifiez mon cœur et mes lèvres, Dieu tout-puissant, qui avez purifié les lèvres du prophète Isaïe avec un charbon ardent. Daignez par votre miséricordieuse bonté me purifier pour que je sois capable de proclamer dignement votre saint évangile. Par le Christ notre Seigneur. Amen. D. Père, veuillez me bénir. S. Que le Seigneur soit dans votre cœur et sur vos lèvres pour que vous proclamiez son évangile d'une manière correcte et digne. Au nom du Père et du Fils + et du Saint-Esprit. Amen. (sed rubrica 1955 aut rubrica 1960 haec versus omittuntur) Et le soir étant venu, comme c’était Préparation, c’est-à-dire veille du sabbat, vint Joseph d’Arimathie, membre honoré du grand conseil, qui attendait, lui aussi, le royaume de Dieu. Il alla hardiment auprès de Pilate pour demander le corps de Jésus. Mais Pilate s’étonna qu’il fût déjà mort, fit venir le centurion, et lui demanda s’il y avait longtemps qu’il était mort. Renseigné par le centurion, il accorda le cadavre à Joseph. Ayant acheté un linceul, il le descendit, l’enveloppa dans le linceul, le déposa dans un sépulcre qui avait été taillé dans le roc, et il roula une pierre à l’entrée du sépulcre.",
+        "Italiano": "D. Jube, domne, benedícere. S. Dóminus sit in córdibus vestris et in lábiis vestris: ut digne et competénter annuntiétis Evangélium suum: In nómine Patris, et Fílii, + et Spíritus Sancti. D. Amen. (deinde dicuntur semper) La Passione di nostro Signore Gesù Cristo secondo san Marco. C. In quel tempo: Di li a due giorni era la Pasqua e alla festa degli azzimi; e i capi dei sacerdoti e gli scribi cercavano il modo di prenderlo con inganno e poi di ucciderlo. Ma dicevano: S. Nel giorno di festa, no, perché non si scateni una sommossa nel popolo. C. Trovandosi Gesù a Betania in casa di Simone, il lebbroso, mentre se ne stava a mensa, ecco che arriva una donna con un alabastro pieno di unguento di spigonardo, di molto pregio, e, rotto l'alabastro, gli sparse tutto quell'unguento sulla testa. C'erano lì alcuni, che videro ciò a malincuore e dissero: S. Ma perché uno sperpero simile d'unguento? Si poteva vendere per più di trecento denari e farne godere i poveri. C. E ne fremevano contro di lei. Ma Gesù disse: J. Lasciatela stare. E perché le date noia così? Ella ha compiuto un'opera buona verso di me. Del resto i poveri li avete sempre a vostra disposizione, e quando volete potete far loro del bene; me invece non mi avete sempre! Ella ha fatto quel che ha potuto, anticipando l'unzione del mio corpo per la sepoltura. In verità io vi dico: In qualunque luogo del mondo sarà predicato questo Vangelo, in memoria di lei sarà narrato anche ciò che ora ella ha fatto. C. E Giuda Iscariota, uno dei dodici, andò dai principi dei sacerdoti per consegnarlo nelle mani loro. Uditane la proposta, essi ne gioirono e promisero di dargli del denaro. Egli, intanto, cercava un'occasione propizia per consegnarlo loro. Il primo giorno degli azzimi, quando immolavano la Pasqua, i discepoli dissero a Gesù: S. Dove vuoi che andiamo a prepararti per mangiare la Pasqua? C. Egli mandò due dei suoi discepoli, e disse loro: J. Andate alla città e incontrerete un uomo che porta una brocca d'acqua. Tenetegli dietro. Dovunque egli entri, dite al padrone della casa: Il Maestro dice: Dov'è la stanza, dove la stanza per mangiare la Pasqua con i miei discepoli? Egli vi farà vedere un cenacolo grande e bene adorno. Lì fate per noi i preparativi. C. E i due discepoli partirono, arrivarono in città e trovarono tutto, proprio come egli aveva detto. E prepararono la Pasqua. Fattasi sera, egli arrivò con i suoi. Ma mentre stavano a mensa e mangiavano, Gesù disse: J. In verità vi dico che uno di voi che mangia con me, mi tradirà. C. Essi allora cominciarono a rattristarsi ed a dirgli un dopo l'altro: S. Sono io forse? C. Egli rispose loro: J. Uno dei dodici, il quale intinge con me la mano nel piatto. Il Figlio dell'uomo, purtroppo, se ne va, come è stato scritto di lui; ma guai a quell'individuo, per cui il Figlio dell'uomo sarà tradito! Era meglio per lui che non fosse mai nato! C. E mentre cenavano, Gesù prese il pane, e, benedettolo, lo spezzò e lo dette loro, e disse: J. Prendete: questo è il mio Corpo. C. E, preso il calice, rese le grazie, lo dette loro, è tutti ne bevvero. E disse loro: J. Questo è il Sangue mio del nuovo testamento, che sarà sparso per molti. In verità vi dico che io non berrò di questo frutto della vite fino a quel giorno, in cui ne berrò di nuovo genere nel regno di Dio. C. Cantato l'inno, uscirono, diretti al monte degli Olivi. Disse loro Gesù: J. Questa notte tutti subirete scandalo per causa mia. Sta scritto infatti: Percuoterò il pastore e saranno disperse le pecore. Ma dopo che sarò resuscitato, io vi precederò in Galilea. C. Ma Pietro gli disse: S. Anche se, per causa tua, tutti si scandalizzassero, io no! C. E Gesù gli disse: J. In verità ti dico che oggi, in questa medesima notte, prima che il gallo abbia cantato due volte, tu mi avrai rinnegato tre volte. C. Ma egli si affannava ad insistere: S. Quand'anche sia necessario che io muoia con te, non ti rinnegherò! C. E su per giù dicevano lo stesso tutti gli altri. Così arrivarono a un podere, chiamato Getsemani. Egli disse ai discepoli suoi: J. Sedete qui, finché sto in orazione. C. E prese con sé Pietro, Giacomo e Giovanni, e incominciò a tremare e a rattristarsi. E disse loro: J. L'anima mia è angosciata fino a morirne. Rimanete qui e vegliate. C. E, andato un po' più avanti, si buttò giù a terra e pregò, perché, se era possibile, passasse da lui quell'ora. E diceva: J. Abba, Padre! a te tutto è possibile; allontana perciò da me questo calice. Però non quello che voglio io, sia fatto, ma quello che vuoi tu. C. E tornò dai suoi, e li trovò che dormivano. Disse perciò a Pietro: J. Simone, tu dormi? Non hai potuto vegliare nemmeno un'ora? Vegliate e pregate per non entrare in tentazione. Lo spirito e pronto, ma la carne è inferma. C. E tornò nuovamente a pregare, ripetendo le stesse parole. Ritornò di nuovo a loro, e li ritrovò addormentati - in realtà non riuscivano a tener gli occhi aperti - , e non seppero proprio che cosa rispondergli. Ritornò anche una terza volta, e disse loro: J. Dormite oramai e riposatevi. Basta! L'ora è venuta. Ecco che oramai il Figlio dell'uomo sarà consegnato nelle mani dei peccatori. Alzatevi! Andiamo! Chi mi tradirà, ecco che già è vicino. C. E diceva ancora così, quando arrivò Giuda Iscariota, uno dei dodici e, con lui, una gran turba di gente con spade e bastoni, mandata dai capi dei sacerdoti, dagli scribi e dagli anziani. Il traditore aveva dato loro questo segnale, dicendo: S. Quello che io bacerò, è proprio lui. Pigliatelo, e portatelo via con cautela. C. Ed arrivato là, si accostò subito a Gesù e gli disse: S. Salve, o Maestro! C. E gli dette il bacio. Quelli allora gli misero le mani addosso e lo catturarono. Uno però di coloro che gli stavano attorno, levò fuori una spada e ferì un servo del sommo sacerdote in modo da staccargli un orecchio. Gesù, prendendo la parola, disse loro: J. Siete venuti ad arrestarmi, come se fossi un assassino, con spade e con bastoni. Eppure, tutti i giorni stavo in mezzo a voi, ammaestrando nel tempio, e non mi pigliaste; ma ciò avviene, perché si verifichino le Scritture. C. Allora i suoi discepoli, abbandonandolo, se ne fuggirono tutti. Un adolescente soltanto, coperto da un lenzuolo solamente, teneva dietro a loro. Essi lo fermarono, ma lui, lasciato andare quel lino, scappò nudo dalle loro mani. E condussero Gesù al sommo Sacerdote, presso il quale si radunarono tutti i sacerdoti, gli scribi e gli anziani. Pietro poi lo seguì da lontano fin nell'atrio del sommo sacerdote, e si era messo a sedere insieme coi servi presso il fuoco, e si stava scaldando. I capi dei sacerdoti e tutto il consiglio cercavano contro di Gesù una testimonianza per poterlo mettere a morte, ma non la trovavano. Molti testimoni, sì, deponevano contro Gesù; ma le loro deposizioni erano in contrasto tra di loro. Or alcuni, messisi in piedi, attestavano il falso contro di Gesù, dicendo: S. Gli abbiamo sentito dire: Io distruggerò questo tempio fatto da mano umana, e in tre giorni ne fabbricherò un altro non manufatto. C. Le loro deposizioni insomma non erano d'accordo tra loro. Alzatosi il sommo sacerdote, interrogò Gesù con queste parole: S. Non rispondi nulla a queste accuse deposte contro di te da costoro? C. Egli tacque, e non disse parola. Di nuovo il sommo sacerdote lo interrogò dicendo: S. Sei tu il Cristo, figlio di Dio benedetto? C. E Gesù allora rispose: J. Sì, io sono il Cristo; e vedrete il Figlio dell'uomo, seduto alla destra della divina Maestà, venir giù sulle nubi del cielo. C. Il sommo sacerdote si stracciò le vesti, esclamando: S. Che bisogno abbiamo di testimoni? Non sentiste la bestemmia? Quale è il vostro parere? C. E tutti gridarono che egli era reo di morte. E alcuni cominciarono a sputacchiarlo, a bendarlo, e a dargli dei pugni; e gli dicevano: S. Indovina! C. Le guardie poi lo schiaffeggiarono. Mentre Pietro stava giù nel cortile, arrivò una delle serve del sommo sacerdote. E, veduto Pietro che si scaldava, lo sbirciò ben bene e disse: S. E tu pure eri con Gesù Nazareno! C. Ma egli negò, e disse: S. Non so, e non ho mai saputo quel che tu dica. C. E così, uscì fuori, davanti al cortile; e intanto il gallo cantò. Di nuovo, avendolo veduto un'altra serva, essa cominciò a dire: S. Costui è di quelli! C. Ma egli nuovamente negò. Dopo un poco quelli che erano lì presenti, dissero a Pietro: S. Eh! sì; tu sei proprio del numero di loro, perché tu sei Galileo! C. Egli allora cominciò a imprecare e a giurare, dicendo: S. Io proprio non conosco quell'uomo, di cui mi parlate. C. E subito, per la seconda volta, il gallo cantò. Pietro allora si ricordò del discorso fattogli da Gesù: Prima che il gallo canti due volte, tu mi avrai rinnegato tre. E incominciò a piangere. E, venuta la mattina, i sommi sacerdoti, con gli anziani e gli scribi e tutto quanto il consesso, fatta senza indugio un'adunanza, condussero Gesù, ammanettato, e lo consegnarono a Pilato. Pilato lo interrogò: S. Sei tu il re dei giudei? C. E Gesù gli rispose: J. Tu lo dici! C. I capi dei sacerdoti lo accusavano di molte cose. Di nuovo Pilato lo interrogò, dicendogli: S. Non rispondi nulla? Non vedi di quante cose ti accusano? C. Allora poi Gesù rimase sempre più in silenzio, tanto che Pilato ne fece le meraviglie. Nella ricorrenza della Pasqua egli era solito di dare la libertà a uno dei carcerati, chiunque fosse stato il richiesto. Or c'era un tale, chiamato Barabba, che era stato messo nella prigione dei rivoltosi, perché in una sommossa egli aveva fatto un omicidio. Salito al pretorio, il popolo cominciò a richiedere quello che, di solito, gli veniva concesso. E Pilato rispose a quella gente: S. Volete che io vi mandi libero il re dei giudei? C. Sapeva bene che i capi dei sacerdoti glie lo avevano invece consegnato per invidia contro di lui. Ma quei ministri sacri sobillarono il popolo perché fosse rimesso in libertà Barabba. Pilato allora disse loro di nuovo: S. Che volete dunque io faccia del re dei giudei? C. E quelli gridarono: S. Crocifiggilo! C. Ma Pilato soggiunse loro: S. Che male ha egli fatto? C. E quelli invece gridavano più forte: S. Crocifiggilo! C. Pilato, allora, desiderando di accontentare il popolo, rilasciò Barabba, e consegnò loro, dopo averlo, fatto ben flagellare, Gesù, perché fosse crocifisso. I soldati poi lo condussero nell'atrio del pretorio, dove radunarono tutta la coorte. E lo vestirono di porpora e, intrecciata una corona di spine, gliela posero in capo. Cominciarono poi a salutarlo: Evviva il re dei giudei! E gli percotevano la testa con una canna, e lo sputacchiavano, e, dopo esserglisi inginocchiati davanti, lo adoravano. Dopo che l'ebbero schernito così, gli levarono d'addosso la porpora, gli rimisero le sue vesti, e lo fecero uscire per poterlo crocifiggere. Costrinsero quindi un tale che passava, venendo di campagna, certo Simone di Cirene, padre di Alessandro e di Rufo, a prendere la croce di lui. E lo trascinarono in un luogo detto Golgota che si interpreta, luogo del cranio; e gli dettero a bere un vino mescolato con mirra, che egli non prese. E mentre lo crocifiggevano, divisero le sue vesti, mettendo a sorte quello che toccava a ciascuno. Quando lo crocifissero, era l'ora terza. C'era anche il titolo della condanna di lui: «Re dei giudei». Con Gesù poi crocifissero due ladroni, uno alla sua destra ed uno alla sua sinistra. Così fu adempiuta la Scrittura che dice: «È stato annoverato tra i malfattori». E quanti gli passavano davanti, lo bestemmiavano scrollando il capo e dicendo: S. Va' va'! Tu che distruggi il tempio di Dio, e in tre giorni Io ricostruisci, salva te stesso, discendendo dalla croce! C. Parimenti anche i grandi sacerdoti, per irrisione, si dicevano a vicenda cogli scribi: S. Salvò tanti altri e dire che non può ora salvare se stesso! Cristo, re d'Israele scenda ora di croce, al fine di farci vedere e di farci credere! C. E lo svillaneggiavano anche quelli che erano crocifissi con lui. E arrivata l'ora sesta, si distesero le tenebre per tutta quanta la terra fino all'ora nona poi, con gran voce Gesù esclamò, dicendo: J. Eloi, Eloi, lamma sabacthani? C. Che fu interpretato: Dio mio, Dio mio, perché mi hai abbandonato? E alcuni che erano lì attorno, avendolo udito, dissero: S. Sentì? Chiama Elia! C. Uno poi corse, e, inzuppata una spugna nell'aceto, e messala in cima ad una canna, gliela porse a bere, dicendo: S. Attenti! Vediamo se Elia viene a liberarlo! C. Gesù intanto, emessa, una gran voce, spirò (Si genuflette per un momento). Il velo del tempio si divise in due parti dall'alto in basso. E il centurione che gli stava dì fronte, notando che era spirato esclamando sì forte, disse: S. Quest'uomo era davvero figlio di Dio! C. C'erano poi delle donne che da lontano stavano a vedere, tra cui Maria Maddalena e Maria, madre di Giacomo minore e di Giuseppe, e Salomè; le quali, quand'Egli era in Galilea, si erano date a seguirlo e gli prestavano servizi; e ce ne erano altre molte, che insieme con lui erano venute a Gerusalemme.  (deinde dicuntur) Mondami il cuore e le labbra, o Dio onnipotente, che mondasti con acceso carbone le labbra del profeta Isaia; con la tua benigna misericordia degnati di mondarmi in modo che io possa annunziare degnamente il tuo santo Vangelo. Per il Cristo nostro Signore. Amen. D. Degnati, signore, di benedirmi. S. Il Signore ti sia nel cuore e sulle labbra, affinché in modo degno e conveniente tu annunzi il suo Vangelo. Nel nome del Padre e del Figlio  + e dello Spirito Santo. Amen. (sed rubrica 1955 aut rubrica 1960 haec versus omittuntur) Calata oramai la sera (siccome era la Parasceve, cioè il giorno vigilia del sabato), arrivò Giuseppe d'Arimatea, nobile decurione, il quale aspettava egli pure il regno di Dio; e con tutto coraggio si presentò a Pilato e chiese il corpo di Gesù. Pilato si meravigliò che egli fosse già morto; e fatto chiamare il centurione, lo interrogò se fosse morto davvero. E informatone dal centurione, donò il corpo a Giuseppe. E Giuseppe, fatto acquisto di 'una sindone, dopo averlo deposto, lo avvolse nella medesima, e la mise in un sepolcro scavato nel masso e, alla bocca del sepolcro, per chiuderla, vi ribaltò un lastrone.",
+        "Magyar": "D. Jube, domne, benedícere. S. Dóminus sit in córdibus vestris et in lábiis vestris: ut digne et competénter annuntiétis Evangélium suum: In nómine Patris, et Fílii, + et Spíritus Sancti. D. Amen. (deinde dicuntur semper) The Passion of Our Lord Jesus Christ according to Mark. Két nappal húsvét és a kovásztalan kenyér ünnepe előtt a főpapok és írástudók arra törekedtek, hogyan foghatnák el Jézust csellel, hogy aztán megöljék.  Egy dologban megállapodtak: „Ne az ünnepen, nehogy zavargás támadjon a nép közt!”  Amikor Betániában a leprás Simon házában vendégül látták, odalépett hozzá egy asszony. Alabástrom edényben valódi s igen drága nárdusolajat hozott. Feltörte az alabástromot és Jézus fejére öntötte.  Némelyek bosszankodtak magukban: „Miért kell a kenetet így pazarolni?  Hisz több mint háromszáz dénárért el lehetett volna adni és szétosztani a szegények közt.” És szemrehányást tettek az asszonynak. Jézus azonban ezt mondta: „Hagyjátok! Mit akadékoskodtok, hisz jót tett velem!  Szegények mindig vannak veletek. Akkor tehettek velük jót, amikor akartok. De én nem vagyok mindig veletek.  Azt tette, ami telt tőle. Előre megkente testemet a temetésre.  Bizony mondom nektek, bárhol a világon hirdetik majd az evangéliumot, az ő tettéről is megemlékeznek.”  Iskarióti Júdás, egy a tizenkettő közül elment a főpaphoz, hogy elárulja.  Amikor ezek tudomást szereztek róla, megörültek és pénzt ígértek neki. Ezért kereste a kedvező alkalmat, hogy a kezükre adhassa.  A kovásztalan kenyér első napján, amikor a húsvéti bárányt fel szokták áldozni, tanítványai megkérdezték: „Mi a szándékod? Hová menjünk, hogy megtegyük az előkészületeket a húsvéti bárány elköltéséhez?”  Erre elküldte két tanítványát: „Menjetek a városba! - mondta. - Ott találkoztok egy vizeskorsót vivő emberrel. Szegődjetek a nyomába,  aztán ahová bemegy, ott mondjátok meg a házigazdának: A Mester kérdezteti, hol van az a terem, ahol a húsvéti bárányt tanítványaimmal elfogyaszthatom?  Ő majd mutat nektek egy vánkosokkal berendezett tágas emeleti helyiséget. Ott készítsétek el.”  A tanítványok elmentek, s a városba érve mindent úgy találtak, ahogy megmondta, s el is készítették a húsvéti vacsorát.  Amikor beesteledett, odament a tizenkettővel. Miután a vacsorához letelepedtek, Jézus így szólt: „Bizony mondom nektek, egyiktek elárul engem, egy, aki eszik velem.”  Elszomorodtak és sorra kérdezték: „Csak nem én?”  Így válaszolt: „Tizenkettőtök közül az egyik, aki velem egyszerre nyúl a tálba.  Az Emberfia elmegy ugyan, amint meg van róla írva, de jaj annak az embernek, aki elárulja az Emberfiát. Jobb lett volna neki, ha meg sem születik.”  Vacsora közben kezébe vette a kenyeret, megáldotta, megtörte és ezekkel a szavakkal adta nekik: „Vegyétek, ez az én testem.”  Majd fogta a kelyhet, hálát adott, odanyújtotta nekik. Mindnyájan ittak belőle.  Ő pedig így szólt: „Ez az én vérem, a szövetségé, amely sokakért kiontattatik.  Bizony mondom nektek, hogy nem iszom többé a szőlő terméséből addig, amíg majd az újat nem iszom az Isten országában.”  Ezután elimádkozták a hálaadó zsoltárt, és kimentek az Olajfák-hegyére.  Ott Jézus megmondta: „Mindnyájan megbotránkoztok, ahogy meg van írva: Megverem a pásztort és szétszélednek a juhok.  De feltámadásom után majd előttetek megyek Galileába.”  Péter erősködött: „Ha mindnyájan megbotránkoznak is, én akkor sem.”  Jézus csak ennyit mondott: „Bizony mondom neked, hogy még ma éjjel, mielőtt a kakas másodszor szólna, háromszor megtagadsz.”  Erre még jobban fogadkozott: „Ha meg kell is veled halnom, nem tagadlak meg!” Ugyanígy fogadkoztak a többiek is.  Odaértek a Getszemáni nevű majorba. Itt így szólt Jézus tanítványaihoz: „Üljetek itt le, amíg imádkozom.” Magával vitte Pétert, Jakabot és Jánost. Remegni kezdett és gyötrődni. Majd így szólt hozzájuk: „Halálos szomorúság fogta el lelkemet. Maradjatok itt és virrasszatok!”  Valamivel odébb ment, leborult a földre és imádkozott, hogy ha lehetséges, maradjon el ez az óra.  „Abba, Atyám! - fohászkodott -, te mindent megtehetsz. Vedd el tőlem ezt a kelyhet! De ne úgy legyen, ahogy én akarom, hanem ahogyan te!” Visszament hozzájuk, de alva találta őket. Megszólította Pétert: „Simon, alszol? Egy órát sem tudtál virrasztani velem?  Virrasszatok és imádkozzatok, hogy kísértésbe ne essetek. A lélek ugyan készséges, de a test gyönge.”  Megint elvonult és előbbi szavait ismételve imádkozott. Visszatérve újra alva találta őket, mivel szemük igen elnehezedett. Nem is tudták, mit feleljenek.  Harmadszor is visszament hozzájuk, s azt mondta nekik: „Még mindig alusztok és pihentek?  Elég volt. Itt az óra, az Emberfiát a bűnösök kezére adják. Keljetek fel, induljunk! Íme, közeledik hozzám az áruló!”  Míg beszélt, odaért Júdás, egy a tizenkettő közül, s vele karddal és doronggal felfegyverezve egy csapat, amelyet a főpapok, írástudók és vének küldtek ki.  Az áruló így adott jelt: „Akit megcsókolok, ő az. Fogjátok el és vezessétek el biztos őrizet alatt!” Odaérve rögtön Jézushoz lépett: „Mester!” - szólt és megcsókolta.  Erre rátették kezüket és elfogták.  Azok közül, akik ott ácsorogtak, valaki kirántotta a kardját, a főpap szolgájára sújtott vele, és levágta a fülét.  Jézus így szólt hozzájuk: „Kardokkal és dorongokkal jöttetek elfogni, mint egy rablót.  Naponta ott voltam köztetek a templomban s tanítottam, és nem fogtatok el. De az Írásnak be kell teljesednie.” Erre mindenki magára hagyta és elmenekült.  Egy ifjú mégis követte, meztelen testét csak egy gyolcslepel fedte. Amikor meg akarták fogni, otthagyta a gyolcsleplet és meztelenül elfutott.  Jézust a főpaphoz kísérték. Itt gyűltek össze a főpapok, vének és írástudók.  Péter messziről követte, egészen be a főpap udvarába. Ott az őrség tagjaival együtt leült és melegedett a tűznél.  A főpapok és az egész főtanács bizonyítékot kerestek Jézus ellen, hogy halálra ítélhessék, de nem találtak.  Sokan tanúskodtak ugyan hamisan ellene, de vallomásuk nem egyezett.  Ekkor néhányan felálltak, s ezt a hamis tanúságot tették ellene:  „Hallottuk, amikor kijelentette: Lebontom ezt az emberi kéz építette templomot, és három nap alatt másikat építek, amely nem emberi kéz alkotása.”  De vallomásuk így sem vágott egybe.  Erre középre állt a főpap, s ezt a kérdést intézte Jézushoz: „Semmit sem válaszolsz azokra, amit ezek felhoznak ellened?”  De ő hallgatott és nem felelt semmit. A főpap újra kérdezte, és ezt mondta: „Te vagy a Messiás, az áldott Isten Fia?”  Jézus így válaszolt: „Én vagyok. És látni fogjátok, hogy az Emberfia ott ül a hatalom jobbján, és eljön az ég felhőin.”  A főpap erre megszaggatta ruháját s felkiáltott: „Mi szükségünk van még tanúkra? Hallottátok, hogy káromkodott. Mi a véleményetek?” Mind méltónak ítélték a halálra.  Ekkor némelyek kezdték leköpdösni, aztán arcát letakarva ököllel verték, s közben kérdezgették: „Találd el, ki az!” Még az őrség tagjai is arcul verték.  Míg Péter kint ült az udvaron, kiment a főpap egyik szolgálója.  Meglátta Pétert, amint melegedett, szemügyre vette és megszólította: „Te is a názáreti Jézussal voltál.”  De ő tagadta: „Nem tudom, nem is értem, mit beszélsz.” Ezzel kiment az előcsarnokba, s akkor megszólalt a kakas.  A szolgáló észrevette, s újra mondta az ott állóknak: „Ez is közülük való.”  Ő megint tagadta. Nem sokkal ezután, akik mellette álltak, szintén állították: „Valóban közéjük tartozol, hiszen galileai vagy.”  Erre átkozódni és esküdözni kezdett: „Nem ismerem azt az embert, akiről beszéltek!”  A kakas másodszor is megszólalt. Péternek eszébe jutottak Jézus szavai: „Mielőtt a kakas másodszor megszólal, háromszor tagadsz meg.” És könnyekre fakadt. Reggel a főpapok a vénekkel, írástudókkal és az egész főtanáccsal együtt meghozták a határozatot. Jézust pedig megkötözve elvitték és átadták Pilátusnak.  Pilátus megkérdezte: „Te vagy-e a zsidók királya?” „Magad mondod” - válaszolta.  A főpapok sok vádat hoztak fel ellene.  Pilátus újra megkérdezte: „Nem felelsz semmit sem? Nézd, mi mindennel vádolnak!” Jézus azonban nem válaszolt semmit. Ez meglepte Pilátust.  Az ünnep alkalmával szabadon szokott engedni egy rabot, azt, akit kértek tőle. Volt a börtönben egy Barabás nevű rab, akit a lázadókkal együtt tartóztattak le. Ezek egy zendülés alkalmával gyilkosságot követtek el. Amikor a tömeg felvonult, kérte a szokásos kegyet.  Pilátus megkérdezte: „Akarjátok, hogy szabadon engedjem nektek a zsidók királyát?”  Mert tudta, hogy a főpapok csak irigységből adták kezére.  Ám a főpapok felizgatták a tömeget, hogy inkább Barabás szabadon bocsátását kérje. Pilátus ismét megkérdezte: „Mit csináljak hát azzal az emberrel, akit ti a zsidók királyának mondtok?”  Azok újra ezt kiáltozták: „Keresztre vele!”  Pilátus folytatta: „Mi rosszat tett?” Azok annál hangosabban kiáltották: „Keresztre vele!”  Erre Pilátus, aki eleget akart tenni a tömeg kérésének, szabadon bocsátotta nekik Barabást, Jézust pedig megostoroztatta, és átadta, hogy feszítsék keresztre.  A katonák bekísérték a palota belsejébe, a pretoriumba, és egybehívták az egész helyőrséget.  Bíborba öltöztették, tövisből font koszorút tettek a fejére,  és így köszöntötték: „Üdvözlégy, zsidók királya!”  A fejét náddal verték, leköpdösték és gúnyból térdet hajtva hódoltak előtte. Azután, hogy így kigúnyolták, levették róla a bíbort és a saját ruháját adták rá. Ezután kivezették, hogy keresztre feszítsék.  Az egyik arra menő embert, a cirenei Simont, Alexander és Rufusz apját, aki éppen a mezőről jött, kényszerítették, hogy vigye a keresztjét.  Így vezették ki egy Golgota nevű helyre, ami a Koponya hegyet jelenti.  Mirhával kevert bort adtak neki inni, de nem fogadta el.  Keresztre feszítették, majd megosztoztak ruháján, sorsot vetve, hogy kinek mi jusson.  Három óra volt, amikor keresztre feszítették.  Az elítélésének okát jelző táblára ezt írták: A zsidók királya.  Vele együtt két gonosztevőt is fölfeszítettek, az egyiket jobb, a másikat bal felől.  Így beteljesedett az Írás: „A gonoszok közé sorolták.”  Az arra menők káromolták, csóválták a fejüket s mondogatták: „Te, aki lerombolod a templomot, és három nap alatt felépíted,  mentsd meg magadat, szállj le a keresztről!” A főpapok és az írástudók szintén gúnyolódtak, egymás között ezt mondva: „Másokat megmentett, magát nem tudja megmenteni.  A Messiás, Izrael királya, szálljon le most a keresztről a szemünk láttára, s akkor hiszünk!” Gyalázták azok is, akiket vele együtt fölfeszítettek.  Hat óra tájban az egész földre sötétség borult, egészen kilenc óráig.  Kilenc órakor Jézus hangosan felkiáltott: „Eloi, Eloi, lamma szabaktáni?” Ez annyit jelent: „Istenem, Istenem, miért hagytál el?”  Az ott állók közül néhányan hallották, és megjegyezték: „Lám, Illést hívja.”  Valaki odafutott, s ecetbe mártott szivacsot nádszálra tűzve inni adott neki. „Hadd lássuk - mondta -, eljön-e Illés, hogy megszabadítsa!”  Jézus hangosan felkiáltott, és kilehelte lelkét.  A templom függönye ekkor kettéhasadt felülről egészen az aljáig.  Amikor a százados, aki ott állt, látta, hogyan lehelte ki lelkét, kijelentette: „Ez az ember valóban az Isten Fia volt.”  Asszonyok is álltak ott, és messziről nézték, mi történik. Köztük volt Mária Magdolna, Mária, az ifjabb Jakab és József anyja és Szalómé.  Ezek már Galileában is vele tartottak és a szolgálatára voltak. Rajtuk kívül még többen is jelen voltak, akik vele együtt mentek fel Jeruzsálembe.  (deinde dicuntur) Tisztíds meg szívemet és ajkamat Mindenható Isten, ki Izaiás próféta ajkát tüzes parázzsal tisztítottad meg. Irgalmas jóságod által tisztíts meg kegyesen, hogy méltón hirdethessem szent Evangéliumodat: Krisztus a mi Urunk által. Ámen. D. Uram, add rám áldásodat. P. Legyen az Úr, szívedben és ajkadon, hogy méltó és illő módon hirdethesd evangéliumát. Az Atya, a Fiú + és a Szentlélek nevében. Ámen. (sed rubrica 1955 aut rubrica 1960 haec versus omittuntur) Amikor esteledett - előkészület napja, azaz szombat előtt való nap volt -,  jött egy előkelő tanácsos, az Arimateából való József, aki maga is várta az Isten országát. Bátran bement Pilátushoz, és elkérte Jézus holttestét.  Pilátus csodálkozott, hogy már meghalt. Magához hívatta a századost, s megkérdezte, valóban meghalt-e.  Miután a századostól megbizonyosodott róla, Józsefnek ajándékozta a holttestet.  Az pedig gyolcsot vásárolt, majd levette Jézust a keresztről, begöngyölte a gyolcsba és sziklába vájt sírboltba helyezte, s a sír bejárata elé követ hengerített.",
+        "Nederlands": "D. Jube, domne, benedícere. S. Dóminus sit in córdibus vestris et in lábiis vestris: ut digne et competénter annuntiétis Evangélium suum: In nómine Patris, et Fílii, + et Spíritus Sancti. D. Amen. (deinde dicuntur semper) Lijdensverhaal van onze Heer Jezus Christus volgens Marcus (rubrica 1955 aut rubrica 1960 dicitur) (rubrica 1570 aut rubrica 1910 aut rubrica divino afflatu dicitur) (deinde dicuntur) In illo témpore: Erat Pascha, et ázyma post bíduum, et quærébant summi sacerdótes et scribæ, quómodo Jesum dolo tenérent et occíderent. Dicébant autem: S. Non in die festo, ne forte tumúltus fíeret in pópulo. C. Et cum esset Jesus Bethániæ in domo Simónis leprósi, et recúmberet: venit múlier habens alabástrum unguénti nardi spicáti pretiósi, et fracto alabástro, effúdit super caput ejus. Erant autem quidam indígne feréntes intra semetípsos, et dicéntes: S. Ut quid perdítio ista unguénti facta est? Póterat enim unguéntum istud venúmdari plus quam trecéntis denáriis, et dari paupéribus. C. Et fremébant in eam. Jesus autem dixit: J. Sínite eam: quid illi molésti estis? Bonum opus operáta est in me. Semper enim páuperes habétis vobíscum: et cum voluéritis, potéstis illis benefácere: me autem non semper habétis. Quod hábuit hæc, fecit: prævénit úngere corpus meum in sepultúram. Amen, dico vobis: Ubicúmque prædicátum fúerit Evangélium istud in univérso mundo, et, quod fecit hæc, narrábitur in memóriam ejus. C. Et Judas Iscariótes, unus de duódecim, ábiit ad summos sacerdótes, ut próderet eum illis. Qui audiéntes, gavísi sunt: et promisérunt ei pecúniam se datúros. Et quærébat, quómodo illum opportúne tráderet. Et primo die azymórum quando pascha immolábant, dicunt ei discípuli: S. Quo vis eámus, et parémus tibi, ut mandúces pascha? C. Et mittit duos ex discípulis suis, et dicit eis: J. Ite in civitátem: et occúrret vobis homo lagénam aquæ bájulans, sequímini eum: et quocúmque introíerit, dícite dómino domus, quia Magíster dicit: Ubi est reféctio mea, ubi pascha cum discípulis meis mandúcem? Et ipse vobis demonstrábit cenáculum grande stratum: et illic paráte nobis. C. Et abiérunt discípuli ejus, et venérunt in civitátem: et invenérunt, sicut díxerat illis, et paravérunt pascha. Véspere autem facto, venit cum duódecim. Et discumbéntibus eis et manducántibus, ait Jesus: J. Amen, dico vobis, quia unus ex vobis tradet me, qui mánducat mecum. C. At illi cœpérunt contristári et dícere ei singulátim: S. Numquid ego? C. Qui ait illis: J. Unus ex duódecim, qui intíngit mecum manum in catíno. Et Fílius quidem hóminis vadit, sicut scriptum est de eo: væ autem hómini illi, per quem Fílius hóminis tradétur. Bonum erat ei, si non esset natus homo ille. C. Et manducántibus illis, accépit Jesus panem: et benedícens fregit, et dedit eis, et ait: J. Súmite, hoc est corpus meum. C. Et accépto cálice, grátias agens dedit eis: et bibérunt ex illo omnes. Et ait illis: J. Hic est sanguis meus novi Testaménti, qui pro multis effundétur. Amen, dico vobis, quia jam non bibam de hoc genímine vitis usque in diem illum, cum illud bibam novum in regno Dei. C. Et hymno dicto, exiérunt in montem Olivárum. Et ait eis Jesus: J. Omnes scandalizabímini in me in nocte ista: quia scriptum est: Percútiam pastórem, et dispergéntur oves. Sed postquam resurréxero, præcédam vos in Galilǽam, C. Petrus autem ait illi: S. Et si omnes scandalizáti fúerint in te, sed non ego. C. Et ait illi Jesus: J. Amen, dico tibi, quia tu hódie in nocte hac, priúsquam gallus vocem bis déderit, ter me es negatúrus. C. At ille ámplius loquebátur: S. Et si oportúerit me simul cómmori tibi, non te negábo. C. Simíliter autem et omnes dicébant. (sed rubrica 1955 aut rubrica 1960 hæc versus omittuntur) In die tijd kwamen zij bij een landgoed, Gethsemani genaamd; en Jezus zeide tot zijn leerlingen: + Zet u hier neer, terwijl Ik ga bidden. C. Dan nam Hij Petrus, Jacobus en Johannes met Zich mee, en Hij begon beangstigd en bedrukt te worden. En Hij sprak tot hen: + Mijn ziel is dodelijk bedroefd; blijft gij hier en waakt. C. Toen ging Hij een weinig verder, wierp Zich neer op de grond en bad, dat dit uur Hem mocht voorbijgaan zo dit mogelijk was. En Hij sprak: + Abba, Vader; alles is U mogelijk; neem deze kelk van Mij weg; maar niet wat Ik wil, doch wat Gij wilt! C. Dan ging Hij terug en vond hen in slaap. En Hij sprak tot Petrus: + Simon, slaapt gij? Kunt gij dan nog geen uur waken? Waakt en bidt, om niet in bekoring te komen. De geest is wel gewillig, maar het vlees is zwak. C. Dan ging Hij weer heen en bad met dezelfde woorden. Toen Hij echter opnieuw terugkeerde, vond Hij hen wederom in slaap, ",
+        "Polski": "D. Jube, domne, benedícere. S. Dóminus sit in córdibus vestris et in lábiis vestris: ut digne et competénter annuntiétis Evangélium suum: In nómine Patris, et Fílii, + et Spíritus Sancti. D. Amen. (deinde dicuntur semper) Pasja Pana naszego Jezusa Chrystusa według Marka. (rubrica 1955 aut rubrica 1960 dicitur) (rubrica 1570 aut rubrica 1910 aut rubrica divino afflatu dicitur) (deinde dicuntur) A było Pascha i przaśniki po dwu dni: i szukali najwyżsi kapłani i Doktorowie, jakoby go zdradą poimali i zabili. Bo mówili: S. Nie w święto, aby snadź nie był rozruch w ludu. C. A gdy był w Bethanii w domu Symona trędowatego i siedział u stołu, przyszła niewiasta, mając alabastr olejku szpikonardowego drogiego, a stłukłszy alabastr, wylała na głowę jego. I byli niektórzy, co się gniewali sami w sobie, a mówili: S. Na cóż się stała ta utrata olejku? Albowiem mógł się ten olejek przedać drożéj niż za trzy sta groszy i rozdać ubogim, i gniewali się na nię. C. A Jezus rzekł: J. Dajcie jéj pokój, czemu jéj przykrość czynicie? Dobry uczynek przeciwko mnie uczyniła. Bo zawżdy ubogie macie z sobą, i kiedy będziecie chcieć, możecie im dobrze czynić; lecz mnie nie zawżdy macie. Ta, co miała, uczyniła: uprzedziła pomazać ciało me na pogrzeb. Zaprawdę powiadam wam: Kędyżkolwiek opowiadana będzie Ewangelia ta po wszystkim świecie, i co ta uczyniła, powiadać będą na pamiątkę jéj. C. A Judasz Iszkaryoth, jeden ze dwanaście, odszedł do najwyższych kapłanów, aby go im wydał. Którzy usłyszawszy, uradowali się, i obiecali mu dać pieniądze; i szukał, jakoby go czasu pogodnego wydał. I pierwszego dnia przaśników, gdy Paschę ofiarowali, rzekli mu uczniowie: S. Gdzie chcesz, abyśmy szli i nagotowali, żebyś jadł Paschę? C. I posłał dwu z swych uczniów i rzekł im: J. Idźcie do miasta, i potka się z wami człowiek niosąc dzban wody, idźcież za nim. A gdziekolwiek wnidzie, powiedzcie panu domu, iż Nauczyciel mówi: Gdzie jest odpoczynienie moje, kędybym jadł Paschę z uczniami moimi? A on wam ukaże wieczernik wielki usłany, i tam nagotujcie nam. C. I poszli uczniowie jego i przyszli do miasta i naleźli, jako im powiedział, i nagotowali Paschę. A gdy był wieczór, przyszedł ze dwiemanaście. A gdy oni siedzieli i jedli, rzekł Jezus: J. Zaprawdę powiadam wam, iż jeden z was wyda mię, który je zemną. C. A oni poczęli się smęcić i mówić mu z osobna: S. Izali ja? C. Który im rzekł: J. Jeden ze dwunaście, który zemną macza rękę w misie. Synci człowieczy idzie, jako o nim jest napisano; lecz biada człowiekowi onemu, przez którego Syn człowieczy będzie wydan! lepiéj mu było, by się był człowiek on nie narodził. C. A gdy oni jedli, wziął Jezus chleb i błogosławiąc, łamał i dał im, i rzekł: J. Bierzcie, to jest ciało moje. C. A wziąwszy kielich, dzięki uczyniwszy, dał im, i pili z niego wszyscy. I rzekł im: J. Ta jest krew moja nowego testamentu, która za wielu będzie wylana. Zaprawdę powiadam wam: Iż już nie będę pił z tego owocu winnéj macice, aż do onego dnia, gdy go pić będę nowy w królestwie Bożem. C. A hymn odprawiwszy, wyszli na górę Oliwną. I rzekł im Jezus: J. Wszyscy się zgorszycie ze mnie téj nocy; iż napisano jest: Uderzę pasterza, a rozproszą się owce. Ale gdy zmartwychwstanę, uprzedzę was do Galilei. C. A Piotr mu rzekł: S. Chociażby się wszyscy zgorszyli z ciebie, ale nie ja. C. I rzekł mu Jezus: J. Zaprawdę powiadam ci, iż ty dziś téj nocy, pierwéj niż dwakroć kur zapieje, trzykroć się mnie zaprzesz. C. A on więcéj mówił: S. By potrzeba i umrzeć mi z tobą, nie zaprzę się ciebie. Także téż i wszyscy mówili. (sed rubrica 1955 aut rubrica 1960 haec versus omittuntur) Onego czasu: Jezus i uczniowie Jego poszli do posiadłości, którą zowią Getsemani. I rzekł do uczniów swoich: J. Zostańcie tu, aż się pomodlę. C. I wziął ze sobą Piotra i Jakuba, i Jana, i począł się lękać i cierpieć nad miarę. I rzekł im: J. Smutna jest dusza moja aż do śmierci, zostańcie tu i czuwajcie. C. A odszedłszy nieco, padł na ziemię i modlił się, aby, jeżeli to być może, ominęła Go ta godzina. I mówił: J. Abba, Ojcze! Wszystko dla Ciebie możliwe, oddal ode mnie ten kielich, wszakże nie to, co ja chcę, ale co Ty. C. I przyszedł, i zastał ich śpiących. I rzekł do Piotra: J. Szymonie, śpisz? Nie mogłeś czuwać jednej godziny? Czuwajcie i módlcie się, abyście nie popadli w pokuszenie: duch wprawdzie jest ochoczy, ale ciało omdlałe. C. I odszedłszy, znowu modlił się, te same słowa mówiąc. A wróciwszy zastał ich znowu śpiących ((albowiem oczy ich były senne)) i nie wiedzieli, co Mu powiedzieć. I przyszedł po raz trzech i rzekł im: J. Śpijcie już i odpoczywajcie. Dosyć, nadeszła godzina! Oto Syn Człowieczy będzie wydany w ręce grzeszników. Wstańcie, pójdźmy; oto blisko jest ten, który mnie wyda. C. A gdy On jeszcze mówił, nadszedł Judasz Iszkariota, jeden z dwunastu, a z nim wielki tłum z mieczami i z kijami, od przedniejszych kapłanów i uczonych w Piśmie, i starszych. Zdrajca zaś Jego dał im znak, mówiąc: S. Którego pocałuję, ten jest, chwytajcie Go, a prowadźcie ostrożnie. C. A gdy się zbliżył, zaraz przystąpił do Niego i rzecze: S. Bądź pozdrowiony, Mistrzu! C. I pocałował Go. A oni targnęli się nań rękoma i pojmali Go. A jeden z tych, którzy byli z Jezusem, dobywszy miecza uderzył sługę najwyższego kapłana i uciął mu ucho. A Jezus odpowiadając rzekł im: J. Wyszliście z mieczami i kijami jak na złoczyńcę, aby mię pojmać. Codziennie wśród was przebywałem nauczając w świątyni, a nie pojmaliście mię. Ale – niech się spełnią Pisma. C. Wtedy uczniowie Jego, opuściwszy Go, wszyscy pouciekali. A młodzieniec pewien szedł za Nim, odziany tylko w prześcieradło. I pojmali go. Lecz on, porzuciwszy prześcieradło, nagi uciekł od nich. I przywiedli Jezusa do najwyższego kapłana, i zebrali się wszyscy kapłani i uczeni w Piśmie, i starsi. Piotr zaś szedł za Nim z daleka, aż do wnętrza na dziedziniec najwyższego kapłana i usiadł ze sługami, grzejąc się przy ogniu. A przedniejsi kapłani i cała rada szukali świadectwa przeciwko Jezusowi, aby Go na śmierć skazać, a nie znajdowali. Wielu bowiem świadczyło fałszywie przeciw Niemu, i świadectwa ich nie były zgodne. A niektórzy, powstawszy, fałszywie świadczyli przeciwko Niemu, mówiąc: S. Myśmy słyszeli, jak On powiadał: Ja zburzę tę świątynię, wzniesioną rękami, a po trzech dniach zbuduję inną, która nie rękami wzniesiona będzie. C. I nie było zgodne ich świadectwo. A najwyższy kapłan, stanąwszy pośrodku, zapytał Jezusa mówiąc: S. Nic nie odpowiadasz na to, co oni zarzucają? C. On zaś milczał i nic nie odpowiedział. Zapytał Go najwyższy kapłan ponownie i rzekł Mu: S. Czyś Ty jest Chrystus, Syn Boga błogosławionego? C. Jezus tedy rzekł doń: J. Jam jest, a ujrzycie Syna Człowieczego siedzącego na prawicy mocy Bożej i przychodzącego w obłokach niebieskich. C. A najwyższy kapłan, rozdzierając szaty swoje, rzekł: S. Na cóż nam więcej potrzeba świadków? Słyszeliście bluźnierstwo. Cóż tedy sądzicie? C. A oni wszyscy wydali wyrok skazujący: że winien jest śmierci. I niektórzy poczęli plwać nań i zakrywać oblicze Jego, i bić Go pięściami, mówiąc Mu: S. Prorokuj! C. A słudzy policzkowali Go. A gdy Piotr był na dziedzińcu, na dole, przyszła jedna z niewiast służebnych najwyższego kapłana i ujrzawszy Piotra grzejącego się, spojrzała nań mówiąc: S. I tyś był z Jezusem Nazareńskim. C. Lecz on zaparł się i rzekł: S. Ani nie wiem, ani nie rozumiem, co mówisz. C. I wyszedł na zewnątrz do przedsionka, a kur zapiał. A znowu ujrzawszy go służebna poczęła mówić do stojących wokoło: S. Ten jest z ich liczby. C. A on powtórnie się zaparł. I niebawem, po małej chwili ci, co tam stali, mówili Piotrowi: S. Prawdziwie należysz do nich, bo jesteś Galilejczykiem. C. On zaś począł się zaklinać i przysięgać: Nie znam człowieka tego, o którym mówicie. A wnet kur zapiał powtórnie. I wspomniał Piotr na słowa, które mu był powiedział Jezus: Pierwej nim kur dwakroć zapieje, trzykroć się mnie zaprzesz. I począł płakać. I zaraz z rana najwyżsi kapłani po naradzie wraz ze starszymi, uczonymi w Piśmie i całym trybunałem, związawszy Jezusa, powiedli i wydali Piłatowi. I zapytał Go Piłat S. Czyś ty jest król żydowski? C. A on odpowiadając rzekł mu: J. Sam mówisz. C. I oskarżali Go przedniejsi kapłani o wiele rzeczy. Piłat więc ponownie zapytał Go mówiąc: S. Nic nie odpowiadasz? Patrz, o jak wiele rzeczy cie obwiniają. C. A Jezus nic nad to nie odpowiedział, tak że się Piłat dziwił. A na święto zwykł był wypuszczać im jednego więźnia, któregokolwiek zażądali. A był jeden zwany Barabaszem, uwięziony z buntownikami za popełnienie w rozruchu zabójstwa. I gdy przystąpił tłum, zaczął się domagać tego, co im czynił zawsze. Piłat tedy odpowiedział im i rzekł: S. Chcecie, wypuszczę wam króla żydowskiego? C. Wiedział bowiem, że Go byli wydali najwyżsi kapłani z zawiści. Ale przedniejsi kapłani podburzali tłum, aby im raczej wypuścił Barabasza. Piłat więc odpowiadając ponownie, rzekł im: S. Cóż chcecie zatem, abym uczynił z królem żydowskim? C. A oni znowu zawołali: S. Ukrzyżuj Go! C. A Piłat rzekł do nich: S. Cóż więc złego uczynił? C. Lecz oni tym więcej krzyczeli: S. Ukrzyżuj Go! C. Piłat zatem, chcąc zadośćuczynić ludowi, wypuścił im Barabasza, a ubiczowanego Jezusa wydał, aby był ukrzyżowany. A żołnierze wprowadzili Go do przedsionka pretorium zwołali całą kohortę. I przyodziali Go w purpurę, a uplótłszy koronę z ciernia, włożyli nań. I poczęli pozdrawiać Go: S. Witaj, królu żydowski! C. A bili Go po głowie trzciną plwali nań, i klękając oddawali Mu pokłon. A gdy mieli dość naigrawań, zdjęli z Niego purpurę i przyoblekli Go w Jego własne szaty, i wyprowadzili, aby Go ukrzyżować I przymusili przechodzącego mimo, niejakiego Szymona Cyrenejczyka, idącego z pola, ojca Aleksandra i Rufa, aby niósł krzyż Jego. I przywiedli Go na miejsce Golgota, co się wykłada: miejsce Trupiej Głowy. I dali Mu do picia wino zmieszane z mirrą, ale nie przyjął. A ukrzyżowawszy Go rozdzielili szaty Jego, rzucając o nie losy, co kto miał wziąć. A była godzina trzecia, gdy Go ukrzyżowali. Był też tytuł winy Jego napisany: Król Żydowski. Ukrzyżowali też z Nim dwóch łotrów, jednego po prawicy, a drugiego po lewicy. I wypełniło się Pismo, które mówi: I do złoczyńców zaliczony był. A przechodzący mimo bluźnili Mu, potrząsając głowami swymi i mówiąc: S. Hej, Ty, co burzysz świątynię Bożą i odbudowujesz ją w ciągu trzech dni, ratuj siebie samego zstępując z krzyża. C. Także i przedniejsi kapłani z uczonymi w Piśmie szydzili mówiąc jeden do drugiego: S. Innych ocalił, a sam siebie ocalić nie może, Chrystus, król izraelski, niechże teraz zstąpi z krzyża, abyśmy ujrzeli i uwierzyli. C. Także i ci, co z Nim ukrzyżowani byli, lżyli Go. A gdy nadeszła godzina szósta, całą ziemię zaległy ciemności aż do godziny dziewiątej. I o godzinie dziewiątej zawołał Jezus głosem wielkim, mówiąc: J. Eloi, Eloi, lamma sabakhtani? C. Co się wykłada: J. Boże mój, Boże mój, czemuś mnie opuścił? C. A niektórzy ze stojących tam, słysząc to mówili: S. Oto Eliasza wzywa. C. A jeden przybiegłszy i napełniwszy gąbkę octem, włożył ją na trzcinę i dał Mu pić, mówiąc: S. Poczekajcie, zobaczymy, czy przyjdzie Eliasz, aby go zdjąć. C. Jezus zaś, zawoławszy głosem wielkim, oddał ducha. (Wszyscy klękają i modlą się w milczeniu) I rozdarła się na dwoje zasłona świątyni, od góry aż do dołu. A setnik, który stał naprzeciw, widząc, że Ten wołając skonał, rzekł: S. Prawdziwie, człowiek ten był Synem Bożym. C. A były tam i niewiasty przypatrujące się z daleka, między którymi była Maria Magdalena i Maria, matka Jakuba Mniejszego i Józefa, i Salome. Gdy był Galilei, szły za Nim i posługiwały Jemu. I wiele innych, które razem z Nim przyszły do Jerozolimy.  (deinde dicuntur) Oczyść serce i wargi moje, wszechmogący Boże, któryś wargi proroka Izajasza oczyścił kamykiem ognistym. W łaskawym zmiłowaniu Swoim racz mię tak oczyścić, abym godnie zdołał głosić Twą świętą Ewangelię. Przez Chrystusa, Pana naszego. Amen. D. Racz pobłogosławić, ojcze. S. Pan niech będzie w sercu twoim i na wargach twoich, byś godnie i należycie głosił Jego Ewangelię. W imię Ojca, i Syna, + i Ducha Świętego. Amen. (sed rubrica 1955 aut rubrica 1960 haec versus omittuntur) A gdy nadszedł wieczór ((albowiem był to dzień Przygotowania, który jest przed szabatem)), przyszedł Józef z Arymatei, senator dostojny, oczekujący także Królestwa Bożego, i odważnie wszedł do Piłata, i prosił o ciało Jezusowe. A Piłat powątpiewał, czy już umarł. I zawoławszy setnika zapytał go, czy już umarł. A dowiedziawszy od setnika, darował ciało Józefowi. Józef zaś, kupiwszy prześcieradło i zdjąwszy Go, owinął prześcieradłem i złożył Go w grobowcu, który był wykuty w skale. I zatoczył kamień przed wejściem do grobowca.",
+        "Portugues": "D. Jube, domne, benedícere. S. Dóminus sit in córdibus vestris et in lábiis vestris: ut digne et competénter annuntiétis Evangélium suum: In nómine Patris, et Fílii, + et Spíritus Sancti. D. Amen. (deinde dicuntur semper) Paixão ++ de Nosso Senhor Jesus Cristo, segundo S. Marcos. (rubrica 1955 aut rubrica 1960 dicitur) (rubrica 1570 aut rubrica 1910 aut rubrica divino afflatu dicitur) (deinde dicuntur) Naquele tempo, a Páscoa e os ázimos eram dois dias depois; e os príncipes dos sacerdotes e os escribas procuravam, traiçoeiramente, prender Jesus e matá-l’O. Diziam, portanto: S. «Não o façamos, porém, no dia da festa, para o povo se não amotinar». C. E, encontrando-se Jesus em Betânia, na casa de Simão, o leproso, a cuja mesa se assentara, veio uma mulher com um vaso de alabastro, cheio de precioso bálsamo de espigas de nardo, e, quebrando o vaso, derramou o perfume sobre a cabeça de Jesus. Ora, alguns dos que lá estavam indignaram-se intimamente e disseram: S. «Para que tal desperdício de bálsamo? Podia este precioso unguento ser vendido por mais de trezentos dinheiros, para serem dados aos pobres». C. E murmuravam contra ela. Então, disse Jesus: ++ «Deixai-a; porque a molestais? Praticou uma boa obra para comigo, pois pobres sempre os tereis convosco e podereis fazer-lhes bem, quando quiserdes; mas a mim me não tereis sempre. Fez o que pôde; antecipou-se a ungir o meu corpo para a sepultura. Em verdade, em verdade vos digo: onde quer que seja pregado este Evangelho (e sê-lo-á em todo o mundo) será contado em sua memória o que esta mulher agora praticou». C. Então Judas Iscariotes, um dos Doze, foi ter com os príncipes dos sacerdotes, para lhes entregar Jesus. Ouviram-no estes com alegria, prometendo dar-lhe dinheiro. Desde logo, Judas procurava ocasião favorável para O entregar.vNo primeiro dia dos ázimos, em que se celebrava a Páscoa, disseram os discípulos a Jesus: S. «Onde quereis que vamos preparar o que é preciso para comer a Páscoa?». C. E Jesus mandou dois discípulos, a quem disse: ++ «Ide à cidade; lá encontrareis um homem, conduzindo um cântaro de água. Acompanhai-o; e, onde ele entrar, dizei ao dono da casa: «O Mestre manda dizer-te: onde está a sala em que hei-de comer a Páscoa com meus discípulos?». Ele vos mostrará um grande cenáculo mobilado. Aí preparareis o que é necessário». C. Partiram logo os discípulos e chegaram à cidade, havendo encontrado tudo, como lhes dissera Jesus, e tendo preparado aí a Páscoa. Quando chegou a tarde, veio Jesus com os Doze, assentaram-se à mesa e começaram a comer. E disse Jesus: ++ «Em verdade vos digo: um de vós, que come comigo, trair-me-á». C. Todos começaram a entristecer-se e a dizer cada um por sua vez: S. «Porventura sou eu?». C. Ele respondeu-lhes: ++ «É um dos Doze que mete a mão comigo no prato. Na verdade, o Filho do homem vai morrer, Segundo o que está escrito a seu respeito; porém, infeliz daquele por quem o Filho do homem for entregue. Melhor fora para esse homem não ter nascido!». C. Enquanto comiam, tomou Jesus o pão, benzeu-o, partiu-o e deu-o a comer, dizendo: ++ «Tomai; isto é o meu corpo». C. E, segurando também o cálice, deu graças, entregou-o aos discípulos e todos dele beberam. E disse-lhes: ++ «Este é o meu sangue, o sangue do Novo Testamento, que será derramado por muitos. Em verdade vos digo: já não tornarei a beber deste fruto até ao dia em que de novo o beba no reino de Deus». C. Após o cântico do hino, saíram para o monte das Oliveiras. Então, disse-lhes Jesus: ++ «Por minha causa esta noite ficareis escandalizados, pois está escrito: «Ferirei o pastor e as ovelhas ficarão dispersas». Mas, quando ressuscitar, irei adiante de vós para a Galileia». C. Pedro disse-lhe: S. «Ainda que todos se escandalizem, nunca me escandalizarei». C. Jesus respondeu-lhe: ++ «Em verdade te digo: hoje, esta noite, antes de o galo cantar duas vezes, tu me negarás três vezes!». C. Contudo, Pedro insistia, dizendo: S. «Ainda mesmo que seja necessário morrer convosco, não Vos negarei!». C. E o mesmo diziam todos os outros. (sed rubrica 1955 aut rubrica 1960 hæc versus omittuntur) Em seguida vieram para uma propriedade chamada Getsémani, dizendo Jesus aos discípulos: ++ «Assentai-vos aqui, enquanto vou orar». C. E, levando consigo Pedro, Tiago e João, começou a angustiar-se. E disse-lhes: ++ «Minha alma está triste até à morte; ficai aqui e vigiai». C. Depois Jesus avançou um pouco mais e foi prostrar-se na terra, orando, a fim de que, se fosse possível, aquela hora se afastasse; e dizia: ++ «Meu Pai, tudo Vos é possível. Afastai, pois, de mim este cálice; contudo, não se faça o que quero, mas sim o que Vós quereis». C. Depois veio ter com eles, achando-os a dormir. Disse, pois, a Pedro: ++ «Simão, tu dormes? Não pudeste vigiar uma hora? Vigiai e orai para não cairdes em tentação. O espírito, na verdade, está pronto, mas a carne é fraca». C. E, afastando-se, novamente orou, repetindo as mesmas palavras. Depois voltou ao encontro dos discípulos, que estavam a dormir (até tinham os olhos pegados) e nem sabiam o que responder-Lhe. Terceira vez veio Jesus e disse-lhes: ++ «Dormi, agora, e descansai. Basta! A hora é chegada em que o Filho do homem vai ser entregue aos pecadores. Erguei-vos e vamos. Eis que se aproxima aquele que me há-de entregar». C. Ainda Ele falava, quando chegou Judas, um dos Doze, e com ele numerosa turba armada com espadas e paus, enviada pelos príncipes dos sacerdotes, pelos escribas e pelos anciãos. O traidor havia-lhes dado este sinal: S. «Aquele que eu beijar é o próprio; prendei-o e segurai-o, cuidadosamente». C. Logo que Judas foi ter com Jesus, disse-Lhe: S. «Eu vos saúdo, ó Mestre». C. E beijou-O. Então, lançaram-Lhe as mãos e prenderam-n’O. Porém, um dos que estavam presentes puxou por uma espada, feriu um servo do sumo sacerdote e cortou-lhe uma orelha. Jesus falou, dizendo-lhes: ++ «Viestes com espadas e paus para me prender, como se fora um ladrão? Todos os dias estava convosco, ensinando no templo, e não me prendestes. Isto, porém, assim acontece para se cumprirem as Escrituras». C. Então, os seus discípulos, abandonando-O, fugiram todos. Seguia-O, porém, um adolescente coberto com um lençol. Logo o prenderam, também; mas ele, desembaraçando-se do lençol, fugiu das suas mãos, assim mesmo nu. E conduziram Jesus à presença do sumo sacerdote, reunindo-se todos os sacerdotes, escribas e anciãos. Pedro seguia-O de longe, indo até ao pátio do sumo sacerdote, assentando-se ao fogo, juntamente com os oficiais, e se aquecendo. Entretanto, os príncipes dos sacerdotes e todo o conselho buscavam algum testemunho contra Jesus, para o condenarem à morte; mas nada encontravam, pois, ainda que bastantes depusessem contra Ele, não eram concordes os depoimentos. Alguns, levantando-se, testemunhavam falsamente, dizendo: S. «Ouvimo-l’O dizer: «Destruirei este templo, construído pelos homens, e no espaço de três dias edificarei outro sem ser obra dos homens». C. E não concordavam os testemunhos. Ergueu-se, então, o sumo sacerdote, no meio de todos, e interrogou Jesus: S. «Nada respondeis ao que estes depõem contra Vós?». C. Ele, porém, calava-se e nada respondia. Segunda vez o interrogou o sumo sacerdote e disse-Lhe: S. «Sois Vós o Cristo, Filho de Deus bendito?». C. Jesus respondeu-lhe: ++ «Sou eu; e vereis o Filho do homem, sentado à direita de Deus, vir descendo à terra, apoiando-se nas nuvens dos céus». C. Logo, o sumo sacerdote, rasgando os vestidos, disse: S. «Para que queremos mais testemunhos? Ouvistes a blasfémia. Que vos parece?». C. E todos O condenaram como réu de morte. Alguns começaram a cuspir sobre Ele; outros tapavam-Lhe o rosto; e ainda outros davam-Lhe socos e diziam-Lhe: S. «Adivinha». C. E os oficiais davam-Lhe bofetadas. Entretanto, estando Pedro em baixo, no pátio, veio uma das criadas do sumo sacerdote; e, vendo que ele se aquecia, disse, fitando-o: S. «Tu também estavas com Jesus Nazareno». C. Ele negou, dizendo: S. «Nem O conheço, nem sei o que dizes!». C. E saiu para fora, diante do pátio. Logo cantou o galo. Novamente a criada o viu e começou a dizer aos circunstantes: «Este é um dos d’Ele». De novo Pedro negou o que a criada afirmava. Pouco tempo passado, aqueles que ali estavam diziam também a Pedro: S. «Realmente, tu pertences a eles, pois conhecemos que és galileu». C. Ele, porém, começou a praguejar, e disse com juramento: «Não conheço o homem de quem falais!». Logo cantou o galo segunda vez. Então Pedro recordou-se daquelas palavras que dissera Jesus: «Antes de o galo cantar duas vezes, tu me negarás três». E começou a chorar! Manhã cedo, sem demora, formaram conselho os príncipes dos sacerdotes com os anciãos, escribas e todos os que a ele pertenciam. Manietaram Jesus e conduziram-n’O à presença de Pilatos, a quem O entregaram. Este perguntou-Lhe: S. «Sois o rei dos judeus?». C. Respondendo, Jesus disse: ++ «Tu o dizes». C. Entretanto, os príncipes dos sacerdotes acusavam-n’O de muitas coisas. Pilatos voltou a interrogá-l’O, dizendo: S. «Nada respondeis? Vede de quantas coisas Vos acusam». C. Jesus, porém, nada respondeu, de maneira que Pilatos estava admirado. Era costume no dia da festa soltar um preso qualquer que o povo pedisse. Ora, havia um, chamado Barrabás, que estava preso como sedicioso e que durante uma sedição cometera um homicídio. Reunindo-se o povo, começou a pedir que concedesse a graça que sempre fazia. Disse, pois, Pilatos: S. «Quereis que vos solte o Rei dos judeus?». C. Porquanto, Pilatos sabia que os príncipes dos sacerdotes lho tinham entregado, movidos pela inveja. Mas os pontífices excitaram o povo, a fim de que Pilatos soltasse antes Barrabás. De novo Pilatos falou ao povo e disse-lhe: S. «Que quereis que faça ao Rei dos judeus?». C. Eles tornaram a clamar: S. «Crucificai-O». C. Pilatos respondeu-lhes: S. «Que mal fez Ele?». C. Porém, o povo clamava, cada vez com mais força: S. «Crucificai-O». C. Entretanto, Pilatos, querendo satisfazer a vontade do povo, soltou logo Barrabás, como lhe pediam; e, havendo mandado açoitar Jesus, entregou-lho para O crucificarem. Os soldados levaram Jesus para o pátio do pretório, convocando toda a coorte, vestiram-n’O de púrpura, impuseram-Lhe na cabeça uma coroa de espinhos, que eles teceram, e começaram a saudá-l’O: S. «Salve, ó Rei dos judeus!». C. E batiam-Lhe na cabeça com uma cana, cuspiam-Lhe no rosto e, prostrados de joelhos, adoravam-n’O. Depois de O escarnecerem desta maneira, despiram-Lhe a púrpura e envergaram-Lhe os seus vestidos. Então, levaram-n’O para O crucificar. E eis que encontraram um homem, que passava, vindo de uma herdade, o qual se chamava Simão Cireneu e era pai de Alexandre e de Rufo; logo o constrangeram a levar a cruz de Jesus, caminhando para o lugar chamado Gólgota, que quer dizer: Calvário. E deram-Lhe a beber vinho misturado com mirra, o que Ele rejeitou. Então crucificaram-n’O, repartindo os seus vestidos, sobre os quais deitaram sortes para ver a quem haviam de ficar pertencendo. Era cerca da hora tércia quando O crucificaram. Estava na cruz esta inscrição, designando a causa da sua condenação: «Rei dos judeus». Ao mesmo tempo crucificaram dois ladrões, um à direita e outro à esquerda, cumprindo-se assim o que dizia a Escritura: «Foi colocado no meio de malfeitores». Aqueles que passavam blasfemavam dele, abanando a cabeça e dizendo: S. «Então, tu, que destróis o templo de Deus e o reedificas em três dias, te não salvas agora a ti mesmo, descendo da cruz?!». C. Escarnecendo desta maneira, os príncipes dos sacerdotes e os escribas diziam uns aos outros: S. «Salvou os outros e não pode salvar-se a si próprio?! Que Cristo, Deus de Israel, desça agora da cruz, para que vejamos e acreditemos». C. Até aqueles que estavam crucificados com Ele O injuriavam! Quando era a hora sexta do dia, cobriu-se toda a terra de trevas e assim esteve até à hora nona. Pela hora nona, exclamou Jesus com voz forte: ++ «Eloi, Eloi, lamma sabatáni». C. O que quer dizer: ++ «Meu Deus, meu Deus, porque me abandonastes?». C. Alguns dos que ali estavam, ouvindo isto, diziam: S. «Eis que chama por Elias». C. E um deles correu a ensopar em vinagre uma esponja, e, colocando-a na extremidade de uma cana, apresentou-Lha para beber, dizendo: S. «Deixai; vejamos se Elias vem descê-l’O». C. Jesus, porém, dando um grande brado, expirou. Então, rasgou-se o véu do templo em duas partes, de alto a baixo. E o centurião, que estava em frente, vendo que Jesus expirava, disse em voz alta: S. «Verdadeiramente, este homem era o Filho de Deus!». C. Encontravam-se também ali algumas mulheres, olhando de longe, entre as quais Maria Madalena, Maria, mãe de Tiago-menor e de José, e Salomé, as quais costumavam segui-l’O e servi-l’O, quando estava na Galileia; e estavam também muitas outras que haviam subido a Jerusalém, juntamente com Ele.  (deinde dicuntur) Ó omnipotente Deus, assim como purificastes os lábios do Profeta Isaías com uma brasa de fogo, assim também purificais agora o meu coração e os meus lábios. Dignai-Vos, pela vossa benigna misericórdia, purificar-me inteiramente, para que possa dignamente anunciar o vosso Evangelho. Amen. D. Dignai-Vos, Senhor, abençoar-me. S. Que o Senhor esteja no vosso coração e nos vossos lábios, para que possa digna e devidamente anunciar seu Evangelho. Amen. Em nome do Pai, e do Filho e do ++ Espírito Santo. Amen. (sed rubrica 1955 aut rubrica 1960 haec versus omittuntur) Havendo chegado a tarde (visto que era o dia da preparação, o qual é na véspera de sábado), veio José de Arimateia, nobre senador, que esperava o reino de Deus. Ousadamente, foi falar com Pilatos, pedindo-lhe o corpo de Jesus. Admirou-se Pilatos de que Jesus houvesse já morrido, mandando chamar à sua presença o centurião e perguntando-lhe se Jesus já estava morto. E, como conhecesse o que se passara, deu o corpo a José. Este comprou um lençol, tirou Jesus da cruz, amortalhou-O nesse lençol, depositou-O em um sepulcro, cavado na rocha, e depois colocou uma pedra à entrada do sepulcro."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) CU(d)stó(d)di(cd) me,(fffgF'Dff) (,) *() Dó(ixcf/hhg/hiG'F/{/iy}g.h!iw!jvIH)mi(h_i_h_)ne,(h.) (;) de(fg) ma(f.0h!iwj)nu(ji/jkj) pec(h)ca(f_d)tó(dfE'D)ris :(d.) (:) et(f) ab(f) ho(f)mí(ixhf/hig)ni(fe)bus(f) in(f)í(ixfhivHFgvFD)quis(c/ffd.) (,) é(f)ri(f)pe(ixhf/hig) me,(f.) (;) Dó(ixfhivHFgvFD//cffdcf.)(,)(ixfhivHFgvFD)mi(d!ewf_d)ne.(d.) (::)",
+      "availableTranslations": {
+        "English": " Keep me, O Lord, from the hand of the wicked: and from unjust men deliver me.",
+        "Espanol": "Defiéndeme, Señor, de las manos del pecador, y líbrame de los hombres inicuos.",
+        "Francais": " Seigneur, préservez-moi de la main du pécheur, et délivrez-moi des hommes injustes.",
+        "Italiano": "Signore, proteggimi dalla mano del peccatore, e salvami dagli uomini iniqui.",
+        "Nederlands": "Bewaar mij, Heer, voor de hand van de zondaar en bevrijd mij van boosaardige mensen.",
+        "Polski": "Zachowaj mnie, Panie, od ręki grzesznika, strzeż mnie od ludzi okrutnych.",
+        "Portugues": "Não me deixeis, Senhor, cair nas mãos dos pecadores; livrai-me dos homens iníquos."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Sacrifícia nos, quǽsumus, Dómine, propénsius ista restáurent: quæ medicinálibus sunt institúta jejúniis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May these sacrifices, we beseech thee, O Lord, which are observed along with health-giving fasts, speedily restore us. ",
+        "Espanol": "Te suplicamos, Señor, que nos renueven mas intensamente estos sacrificios que van acompañados con saludables ayunos.",
+        "Francais": "Nous vous en supplions, Seigneur, qu’ils restaurent favorablement nos âmes, ces sacrifices offerts avec des jeûnes qui sont pour elles un remède.",
+        "Italiano": "Orazione segreta O Signore, ti supplichiamo, che questi sacrifici, che sono preparati da salutari digiuni, ci rinnovino sempre più intensamente.",
+        "Nederlands": "Wij vragen U, Heer, mogen deze offeranden ons des te rijker het nieuwe leven schenken, nu wij ze opdragen onder heilzaam vasten.",
+        "Polski": "Prosimy Cię, Panie, niech te ofiary składane wśród uzdrawiającego postu, skutecznie przyczynią się do naszego zbawienia.",
+        "Portugues": "Permiti, Senhor, Vos imploramos, que estes sacrifícios, acompanhados com os salutares Jejuns, que nos são preceituados, renovem o vigor das nossas almas."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) AD(f)vér(d)sum(fh~) me(hiih) <clear>*(,) ex(hh)er(gxfg)ce(fe)bán(fg)tur,(fg) (,) qui(e) se(d)dé(gxfg)bant(fg) in(e) por(d!ewf)ta :(e.) (;) et(fh) in(hf~) me(hi) psal(gxh)lé(fg)bant,(fg) (,) qui(e) bi(d)bé(gxfg)bant(fe~) vi(gxfg)num :(f.) (:) e(h)go(f) ve(hih)ro(gxfgf.) (,) o(f)ra(d)ti(ef)ó(gxfg)nem(f) me(feede)am(ed..) (;) ad(gxg) te,(gxfg!hvG'FE'fw!gvFE') Dó(d)mi(de!fvED'e)ne :(ed..) (:) tem(gxfg)pus(f_e) be(efe')ne(d)plá(gxfgf')ci(e)ti,(hg/h_g) De(gxfg!hvGF'g)us,(gf..) (;) in(f) mul(hg~)ti(h)tú(i)di(h)ne(hhivF'De.) (,) mi(d)se(e)ri(f)cór(gxfhvGEhvGF)di(ef)æ(f_g_e_!fw!gvFE) tu(de!fvED'e)æ.(ed..) (::)",
+      "availableTranslations": {
+        "English": " They that sat in the gate spoke against me: and they that drank wine made me their song. But as for me, my prayer is to thee, O Lord; for the time of thy good pleasure, O God. In the multitude of thy mercy hear me.",
+        "Espanol": "Hablaban contra mi los que estaban sentados a la puerta: y los que bebían vino cantaban contra mi coplas; mas yo entretanto, Señor, dirigía a ti mi oración: Este es, decía, oh Dios mío, el tiempo de reconciliación, según la grandeza de tu misericordia.",
+        "Francais": "Ceux qui étaient assis à la porte parlaient contre moi, et ceux qui buvaient du vin me raillaient par leurs chansons. Mais moi, je vous adresse, Seigneur, ma prière. Voici le temps favorable, ô Dieu, selon la grandeur de votre miséricorde.",
+        "Italiano": "Gli sfaccendati alla porta parlano contro di me; i beoni mi scherniscono con le loro canzoni. Ma io a te rivolgo, o Signore, la mia preghiera: concedimi un tempo favorevole, per la grandezza della tua misericordia.",
+        "Nederlands": "Die in de poort zitten, kwellen mij en de wijndrinkers zingen hun spotlied op mij, maar tot U, o Heer, richt ik mijn bede. Het is de tijd van genade, o God, in uw overvloedige barmhartigheid.",
+        "Polski": "Siedzący w bramach wyglądają na mnie i lżą mnie pijący wino, ja zaś modły zanoszę do Ciebie, Panie, gdyś pełen łaskawości i miłosierdzia.",
+        "Portugues": "Ergueram-se contra mim os que estavam assentados à porta da cidade; cantaram injúrias contra mim os que costumam embriagar-se! Eu, porém, ó Senhor, a Vós dirijo a minha prece. Ó Deus, eis o tempo propício para manifestardes benevolência, segundo a vossa infinita misericórdia!"
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Sanctificatiónibus tuis, omnípotens Deus: et vítia nostra curéntur, et remédia nobis sempitérna provéniant.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "By thy holy mysteries, almighty God, may our vices be cured, and everlasting healing be granted to us. ",
+        "Espanol": "Oh Dios omnipotente, con tus sacramentos sean curados nuestros vicios, y recibamos remedios para la vida eterna.",
+        "Francais": "Ô Dieu tout-puissant, que par vos mystères si sanctifiants, nos vices soient guéris et que des remèdes spirituels nous soient donnés en vue de l’éternité.",
+        "Italiano": "Per la tua grazia santificatrice, o Dio onnipotente, siano estirpati i nostri vizi e forniti a noi rimedi eterni. Per nostro Signore.",
+        "Nederlands": "Moge uw heiligende werking, almachtige God, ons van onze ondeugden genezen en ons een middel zijn tot eeuwig heil.",
+        "Polski": "Wszechmogący Boże, niech Twoje uświęcające tajemnice uleczą nasze wady i staną się dla nas rękojmią życia wiecznego.",
+        "Portugues": "Que estes meios de santificação, ó Deus omnipotente, possam curar-nos de todos nossos vícios e que nos sejam aplicados os remédios da salvação eterna."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Oratio super Populum",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus. Humiliáte cápita vestra Deo. Tua nos misericórdia, Deus, et ab omni subreptióne vetustátis expúrget, et capáces sanctæ novitátis effíciat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray. Bow your heads to God.  May thy mercy, O God, cleanse us from all traces of our old nature, and enable us to be formed anew unto holiness. ",
+        "Espanol": "Oremos. Humillad ante Dios vuestras cabezas.  Que tu misericordia, oh Dios, nos purifique de toda antigua corrupción, y nos haga capaces de una santa renovación.",
+        "Francais": "Prions. Humiliez vos têtes devant Dieu. Que votre miséricorde, ô Dieu, nous purifie de tout ce que nos vieilles tendances pourraient secrètement dérober à nos devoirs et nous rende capables d’une sainte nouveauté.",
+        "Italiano": "Preghiamo. Umiliate il vostro capo a Dio.  La tua misericordia, o Dio, ci purghi da ogni residuo dell'uomo vecchio, e ci renda capaci di un santo rinnovamento. ",
+        "Nederlands": "Laat ons bidden. Buigt nederig uw hoofd voor God. God, zuiver ons in uw barmhartigheid van iedere infectie onzer oude boosheid, en maak ons ontvankelijk voor een heilige vernieuwing.",
+        "Polski": "Módlmy się. Pochylcie głowy wasze przed Bogiem. Boże, niech Twoje miłosierdzie oczyści nas ze wszystkich ukrytych pozostałości starego człowieka i uzdolni do odnowienia w świętości.",
+        "Portugues": "Oremos.  Inclinai as vossas cabeças diante de Deus.  Que a vossa misericórdia, ó Deus, nos purifique dos restos do «homem velho» e nos torne capazes de uma santa renovação. "
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

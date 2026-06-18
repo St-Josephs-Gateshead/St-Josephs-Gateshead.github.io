@@ -1,0 +1,836 @@
+{
+  "rule": [],
+  "feast": "Feria Sexta infra Hebdomadam II in Quadragesima",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) E(f)go(gh) au(h)tem(h.) <clear>*(,) cum(h) ju(h)stí(h/jjj)ti(hg)a(g.) ap(ixih/ig)pa(f)ré(fg'h)bo(h.) (;) in(f) con(f)spé(ixhf/hig)ctu(f) tu(f_e)o :(fff/ded.) (:) sa(f)ti(h)á(ixgh!ivG'FE'fwgfg)bor,(gf..) (;) dum(f) ma(f)ni(f)fe(f)stá(g)bi(f)tur(gh) gló(h)ri(gf)a(f) tu(f_e)a.(fff/ded.) (::) <i>Ps.</i> Ex(f)áu(gh)di(h) Dó(h)mi(h)ne(h) ju(h)stí(hj)ti(h)am(h) me(hg)am :(gh..) *(:) in(gf~)tén(gh)de(h) de(h)pre(h)ca(h)ti(hjh)ó(g')nem(f) me(fff)am.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
+      "availableTranslations": {
+        "English": "But I in justice shall behold Your face; I shall be content when Your glory shall appear. Hear, O Lord, a just suit; attend to my outcry.",
+        "Espanol": "Yo compareceré en tu presencia con la justicia de mis obras; y quedaré plenamente saciado, cuando se me manifieste tu gloria. Atiende, oh Señor, a mi justicia: acoge mis plegarias.",
+        "Francais": "Pour moi c’est par la justice que je serai admis en votre présence : je serai rassasié lorsque se manifestera votre gloire. Exaucez, Seigneur, ma justice ; soyez attentif à ma supplication.",
+        "Italiano": "I o poi, nella santità, vedrò il tuo volto; mi sazierò, al risvegliarmi, delle tue sembianze. Ascolta, o Signore, la giustizia; porgi l'orecchio al mio gemito. I o poi, nella santità, vedrò il tuo volto; mi sazierò, al risvegliarmi,",
+        "Nederlands": "Wat mij betreft, in gerechtigheid zal ik voor uw aanschijn treden, ik zal verzadigd worden, als uw heerlijkheid zal verschijnen. Heer, luister naar mijn rechtvaardige zaak, geef acht op mijn smeken.",
+        "Polski": "Ja zaś w sprawiedliwości ukażę się przed Twoim obliczem, nasycę się, gdy się objawi chwała Twoja. Wysłuchaj, Panie, słusznej prośby mojej, zważ na me wołanie.",
+        "Portugues": "Eu, porém, cheio de justiça, Senhor, aparecerei diante de Vós: e, quando me for manifestada a vossa glória, serei saciado. Senhor, ouvi a minha prece justa; escutai a minha súplica."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Da, quǽsumus, omnípotens Deus: ut, sacro nos purificánte jejúnio, sincéris méntibus ad sancta ventúra fácias perveníre.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, we beseech You, almighty God, that with the sacred fast to purify us, we may with sincere hearts reach the coming feast.",
+        "Espanol": "Haz, te rogamos, Dios todopoderoso, que purificados con santo ayuno, podamos llegar con almas puras a las santas fiestas que se acercan.",
+        "Francais": "Faites, ô Dieu tout-puissant, que purifiés par ce jeûne sacré, nous parvenions avec un cœur sincère aux saintes solennités qui approchent.",
+        "Italiano": "Concedici. o Dio onnipotente, che, purificati dal sacro digiuno, possiamo arrivare con coscienza retta alle prossime sante solennità.",
+        "Magyar": "Add meg, kérünk, mindenható Isten, hogy a szent böjt minket megtisztítson s tiszta szívvel érhessük el a jövendő ünnepeket.",
+        "Nederlands": "Wij vragen U, almachtige God, ons door dit heilige vasten te zuiveren en ons met een rein hart tot de aanstaande feesten te doen komen.",
+        "Polski": "Prosimy Cię, wszechmogący Boże, abyśmy oczyszczeni świętym postem mogli się doczekać zbliżających się świąt.",
+        "Portugues": "Concedei-nos, Deus omnipotente, Vos suplicamos, que, purificados com estes sagrados jejuns, cheguemos com o coração sincero às próximas solenidades."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Dixit Joseph frátribus suis: Audíte sómnium meum, quod vidi: Putábam nos ligáre manípulos in agro: et quasi consúrgere manípulum meum et stare, vestrósque manípulos circumstántes adoráre manípulum meum. Respondérunt fratres ejus: Numquid rex noster eris? aut subjiciémur dicióni tuæ? Hæc ergo causa somniórum atque sermónum, invídiæ et ódii fómitem ministrávit. Aliud quoque vidit sómnium, quod narrans frátribus, ait: Vidi per sómnium, quasi solem et lunam et stellas úndecim adoráre me. Quod cum patri suo et frátribus rettulísset, increpávit eum pater suus, et dixit: Quid sibi vult hoc sómnium, quod vidísti? Num ego et mater tua et fratres tui adorábimus te super terram? Invidébant ei ígitur fratres sui: pater vero rem tácitus considerábat. Cumque fratres illíus in pascéndis grégibus patris moraréntur in Sichem, dixit ad eum Israël: Fratres tui pascunt oves in Síchimis: veni, mittam te ad eos. Quo respondénte: Præsto sum, ait ei: Vade et vide, si cuncta próspera sint erga fratres tuos et pécora: et renúntia mihi, quid agátur. Missus de valle Hebron, venit in Sichem: invenítque eum vir errántem in agro, et interrogávit, quid quǽreret. At ille respóndit: Fratres meos quæro: índica mihi, ubi pascant greges. Dixítque ei vir: Recessérunt de loco isto: audívi autem eos dicéntes: Eámus in Dóthain. Perréxit ergo Joseph post fratres suos, et invénit eos in Dóthain. Qui cum vidíssent eum procul, ántequam accéderet ad eos, cogitavérunt illum occídere, et mútuo loquebántur: Ecce, somniátor venit; veníte, occidámus eum, et mittámus in cistérnam véterem, dicemúsque: Fera péssima devorávit eum: et tunc apparébit, quid illi prosint sómnia sua. Audiens autem hoc Ruben, nitebátur liberáre eum de mánibus eórum, et dicébat: Non interficiátis ánimam ejus, nec effundátis sánguinem: sed projícite eum in cistérnam hanc, quæ est in solitúdine, manúsque vestras serváte innóxias: hoc autem dicébat, volens erípere eum de mánibus eórum, et réddere patri suo.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, Joseph said to his brothers, Listen to this dream which I had. We were binding sheaves in the field; my sheaf rose up and remained standing, while your sheaves gathered round and bowed down to my sheaf. His brothers answered, Are you to be our king? Are you to rule over us? And because of his dreams and words they hated him the more. He had another dream which he also told to his brothers. I had another dream, he said. The sun, the moon and eleven stars were worshipping me. When he told that to his father and his brothers, his father reproved him. What is this dream that you have had? he said. Can it be that I and your mother and your brothers will come to bow to the ground before you? So his brothers envied him, while his father pondered the matter. When his brothers had gone to pasture their father’s flocks at Sichem, Israel said to Joseph, Your brothers are pasturing the flocks at Sichem; get ready, I will send you to them. Joseph answered, I am ready. Go, then, said Israel, and see if all is well with your brothers and with the flocks; and bring back a report to me. So he sent him from the valley of Hebron, and he came to Sichem. A man found Joseph wandering about in the fields and asked him, What are you looking for? I am looking for my brothers, he answered. Tell me, please, where they are pasturing. The man said, They have moved on from here, because I heard them say, ‘Let us go to Dothain.’ So Joseph went after his brothers and found them in Dothain. They saw him in the distance, and before he drew near them, they plotted to kill him. They said to one another, Here comes that dreamer! Let us therefore kill him and throw him into a cistern; we can say that a wild beast devoured him. Let us see then what becomes of his dreams. But when Ruben heard of it, he tried to rescue him from them saying, We must not kill him. Then he continued, Do not shed blood. Throw him into the cistern there in the desert, but do not lay a hand on him. His purpose was to rescue him from them and restore him to his father.",
+        "Espanol": "En aquellos días, dijo José a sus hermanos: Oíd lo que he soñado. Parecíame que estábamos atando gavillas en el campo, y como que mi gavilla se alzaba, y se tenía derecha, y que vuestras gavillas, puestas alrededor adoraban la mía.  Respondieron sus hermanos: Pues qué, ¿has de ser tú nuestro rey?, ¿o hemos de estar sujetos nosotros a tu dominio? Así pues, la materia de estos sueños y coloquios fue fomento de la envidia y del odio. Vio también otro sueño, que refirió a sus hermanos, diciendo: He visto entre sueños, cómo el sol y la luna, y once estrellas me adoraban. Y habiéndolo contado a su padre y a sus hermanos, su padre le respondió, diciendo: ¿Qué quiere decir ese sueño que has visto?; ¿por ventura yo y tu madre y tus hermanos postrados por tierra te habremos de adorar? De aquí que sus hermanos le miraban con envidia; mas el padre consideraba en silencio estas cosas. Y como sus hermanos estuviesen en el territorio de Siquem apacentando los rebaños de su padre, le dijo Israel: Tus hermanos guardan las ovejas en los pastos de Siquem; ven, que quiero enviarte a ellos. Y respondiendo él: Pronto estoy. Jacob le añadió: Anda, ve y averigua si tus hermanos lo pasan bien, y si están en buen estado los ganados, y tráeme razón de lo que pasa. Despachado, pues, del valle de Hebrón, llegó a Siquem. Y habiéndole encontrado errante por los campos un hombre, le preguntó qué buscaba. A lo que respondió José: Ando en busca de mis hermanos, muéstrame dónde pastan los ganados. Le dijo aquél hombre: Se apartaron de este lugar, y les oí decir: Pasemos a Dotaín. Con esto se marchó José en busca de sus hermanos, y los halló en Dotaín. Los cuales luego que le vieron a lo lejos, antes que se acercase a ellos, trataron de matarle. Y se decían unos a otros: Aquí viene el soñador. Ea, pues, matémosle, y echémosle en una cisterna vieja; diremos que una bestia feroz lo devoró; y entonces se verá qué le aprovechan sus sueños. Oyendo esto Rubén, se esforzaba en librarle de sus manos, y decía: No le quitéis la vida, ni derraméis su sangre, sino echadle en aquella cisterna seca que está en el desierto, y no manchéis vuestras manos; lo que decía con el fin de librarle de ellos y restituirle a su padre.",
+        "Francais": "En ces jours-là, Joseph dit à ses frères : Écoutez le songe que j’ai eu. Il me semblait que je liais avec vous des gerbes dans la campagne, que ma gerbe se leva et se tint debout, et que les vôtres, entourant la mienne, l’adoraient. Ses frères lui répondirent : Est-ce que tu seras notre roi, et serons-nous soumis à ta puissance ? Ces songes et ces entretiens allumèrent donc encore davantage l’envie et la haine qu’ils avaient contre lui. Il eut encore un autre songe, qu’il raconta à ses frères, en leur disant : J’ai vu en songe que le soleil, et la lune, et onze étoiles m’adoraient. Lorsqu’il eut rapporté ce songe à son père et à ses frères, son père lui en fit réprimande, et il lui dit : Que voudrait dire ce songe que tu as eu ? Est-ce que ta mère, tes frères et moi nous t’adorerons sur la terre ? Ainsi ses frères étaient transportés d’envie contre lui ; mais le père considérait tout cela en silence. Il arriva alors que les frères de Joseph s’arrêtèrent à Sichem, où ils faisaient paître les troupeaux de leur père. Et Israël dit à Joseph : Tes frères font paître nos brebis dans le pays de Sichem ; viens, et je t’enverrai vers eux. Je suis tout prêt, lui dit Joseph. Jacob ajouta : Va, et vois si tes frères se portent bien, et si les troupeaux sont en bon état, et tu me rapporteras ce qui se passe. Ayant donc été envoyé de la vallée d’Hébron, il vint à Sichem ; et un homme, l’ayant trouvé errant dans la campagne, lui demanda ce qu’il cherchait. Il lui répondit : Je cherche mes frères ; je vous prie de me dire où ils font paître leurs troupeaux. Cet homme lui répondit : Ils se sont retirés de ce lieu, et j’ai entendu qu’ils se disaient : Allons vers Dothaïn. Joseph alla donc après ses frères, et il les trouva à Dothaïn. Lorsqu’ils l’eurent aperçu, de loin, avant qu’il se fût approché d’eux, ils résolurent de le tuer ; et ils se disaient l’un à l’autre : Voici notre songeur qui vient. Allons, tuons-le et jetons-le dans une vieille citerne ; nous dirons qu’une bête sauvage l’a dévoré, et après cela on verra à quoi ses songes lui auront servi. Ruben, les ayant entendus parler ainsi, tâchait de le tirer d’entre leurs mains, et il leur disait : Ne le tuez point et ne répandez point son sang, mais jetez-le dans cette citerne qui est au désert, et conservez vos mains pures. Il disait cela dans le dessein de le tirer de leurs mains et de le rendre à son père.",
+        "Italiano": "In quel tempo: Giuseppe disse ai suoi undici fratelli: «Udite il sogno che ho fatto. Noi stavamo legando i covoni nel campo, ed ecco il mio covone star ritto e ben fermo, e i vostri invece fargli corona e chinarsi al mio». Allora i fratelli gli dissero: «Che forse tu sarai nostro re e noi dovremo stare a te soggetti?». Così questi sogni e questi discorsi accrebbero l'invidia e l'odio. Egli ebbe ancora un altro sogno, e raccontandolo ai fratelli, disse: «Mi sembrava, in sogno, che il sole, la luna e undici stelle si inchinassero a me». Avendolo raccontato al padre e ai fratelli, suo padre lo sgridò, dicendo: «Che vuoi dire questo sogno che hai avuto? Forse che io, tua madre, e i tuoi fratelli dovremo venire ad inchinarci a te fino a terra?». Mentre per questo i fratelli gli portavano invidia, il padre stava ad osservare la cosa. Or mentre i suoi fratelli stavano a pascere i greggi del padre in Sichem, Israele disse a Giuseppe: «I tuoi fratelli pascolano le pecore in Sichem: vieni, che ti manderò da loro». Ed avendo egli risposto: «Eccomi», Giacobbe gli disse: «Va' a vedere se tutto va bene relativamente ai tuoi fratelli e al bestiame, e portami le notizie di quanto avviene». Mandato dalla valle di Ebron, Giuseppe arrivò a Sichem. Mentre andava errando per i campi, incontrò un uomo il quale gli domandò che cercasse. Egli rispose: «I miei fratelli: insegnami dove siano a pascolare». Quell'uomo gli rispose: «Sono partiti di qui, e li ho sentiti dire: Andiamo a Dòtain». Allora Giuseppe andò sulle orme dei fratelli e li trovò a Dòtain. Essi lo scorsero da lontano, e avanti che s'avvicinasse, disegnarono di ucciderlo, e dicevansi l'uno all'altro: «Ecco, viene il sognatore! Suvvia ammazziamolo e gettiamolo in una vecchia cisterna, e poi diremo: “Una fiera crudele lo ha divorato”·e allora si vedrà a che riescano i suoi sogni». Ma Ruben, udito questo, si sforzava di liberarlo dalle loro mani, e diceva: «Non lo ammazzate, non versate il suo sangue, ma gettatelo in questa cisterna che è nel deserto, e non mettetegli le mani addosso». E diceva questo perché voleva liberarlo dalle loro mani e restituirlo a suo padre.",
+        "Magyar": "Így szólt hozzájuk: „Hallgassatok ide, milyen álmot láttam.  Kévét kötöttünk a mezőn, s íme, az én kévém fölegyenesedett és állva maradt, a ti kévéitek pedig körülvették és meghajoltak az én kévém előtt.”  Testvérei így válaszoltak: „No, talán királyunk akarsz lenni és fölöttünk uralkodni?” Álma és elbeszélése miatt még inkább meggyűlölték.  Más alkalommal újra álmot látott, s azt is elmondta bátyjainak. Így szólt: „Látjátok, ismét álmom volt. A nap, a hold és a csillagok meghajoltak előttem.”  Amikor elbeszélte apjának és testvéreinek, apja megfeddte, mondván: „Mit akar jelenteni ez az álom, amit láttál? Nekem, anyádnak és bátyáidnak, nekünk a földig kell hajolnunk előtted?”  Bátyjai féltékenyek lettek rá, apja ellenben megjegyezte magának a dolgot.  Amikor bátyjai elmentek, és apjuk juhait Szichemben legeltették,  Izrael ezt mondta Józsefnek: „Bátyáid Szichemnél legeltetnek, gyere, hadd küldjelek el hozzájuk.” „Készen vagyok” - felelte.  Akkor ezt mondta neki: „Menj, és nézz utána, hogy bátyáid és a nyájak jól vannak-e, s hozz nekem hírt róluk.” Így elküldte Hebron völgyéből, s ő Szichembe érkezett.  Amikor a mezőn bolyongott, egy ember találkozott vele, s megkérdezte: „Mit keresel?”  „Bátyáimat keresem - felelte -, mondd meg, hol legeltetnek?”  A férfi így válaszolt: „Elmentek innét, hallottam, amikor mondták: menjünk Dotainba.” József tehát elment testvérei után, és Dotainban megtalálta őket.  Amikor azok messziről meglátták, még mielőtt közelükbe ért, azt indítványozták, hogy öljék meg.  Így szóltak egymáshoz: „Nézzétek, ott jön az álomlátó.  Rajta, öljük meg, dobjuk egy ciszternába és mondjuk azt, hogy vadállat ette meg. Akkor majd meglátjuk, mi lesz az álmaiból.”  Mikor Ruben ezt meghallotta, igyekezett kimenteni kezükből, és így szólt: „Ne vegyük el az életét.”  Ruben még azt mondta nekik: „Ne ontsatok vért, dobjátok be a ciszternába, ott a pusztában, de kezeteket ne emeljétek rá.” Ezt mondta, mert ki akarta menteni kezükből és vissza akarta küldeni apjához.",
+        "Nederlands": "In die dagen sprak Jozef tot zijn broeders: Luistert eens naar de droom, die ik gehad heb: Het was mij, alsof wij op de akker schoven bonden en alsof mijn schoof zich oprichtte en overeind ging staan, terwijl uw schoven er rond om heen zich voor mijn schoof neerbogen. Zijn broeders antwoordden: Moet gij dan soms onze koning worden en wij ons onderwerpen aan uw heerschappij? Dergelijke dromen en gesprekken gaven voedsel aan hun haat en nijd. Ook had hij nog een andere droom, die hij aldus aan zijn broeders verhaalde: Ik zag in mijn droom de zon en de maan en elf sterren zich als het ware voor mij nederbuigen. En toen hij dit aan zijn vader en zijn broeders vertelde, wees zijn vader hem terecht en zeide: Wat moet dat met die droom, die gij gehad hebt? Moeten ik en uw moeder en uw broeders ons dan soms ter aarde buigen voor u? Zijn broeders waren daarom afgunstig op hem; maar zijn vader dacht er in stilte over na. Toen nu zijn broeders eens bij Sichem de kudden van hun vader hoedden, zeide Israël tot hem: Uw broeders weiden bij Sichem de schapen; kom, laat ik u er heen sturen. En hij antwoordde: Goed, ik ben bereid. Toen sprak hij tot hem: Ga dan eens zien of alles in orde is met uw broeders en met het vee; en bericht mij dan, hoe het gaat. Toen ging hij op weg uit de vallei van Hebron, en kwam bij Sichem. Terwijl hij door de velden dwaalde, trof iemand hem daar en deze vroeg hem, wat hij zocht. En hij antwoordde: Ik zoek mijn broeders; wijs mij eens, waar zij hun kudden weiden. En die man antwoordde hem: Zij zijn van hier weggetrokken; maar ik heb hen horen zeggen: Laten wij naar Dothain gaan. Jozef trok dan zijn broeders achterna en vond hen in Dothain. Toen zij hem in de verte zagen, nog voordat hij in hun nabijheid was, maakten zij het plan hem te vermoorden; en zij zeiden tot elkander: Ziet, daar komt de dromer aan; komt, laten wij hem doden; dan werpen wij hem in die oude put en zeggen: Een wild beest heeft hem verslonden; dan zal blijken wat hij aan zijn dromen heeft. Maar toen Ruben dit hoorde, trachtte hij hem uit hun handen te redden; daarom zeide hij: Gij moet hem niet om het leven brengen en geen bloed vergieten; maar werpt hem daar in die put in de eenzaamheid en houdt uw handen onbesmet. Hij zeide dat echter omdat hij van plan was, hem uit hun handen te redden en aan zijn vader terug te geven.",
+        "Polski": "W one dni rzeki Józef do braci swoich: «Posłuchajcie, jaki miałem sen. Śniło mi się, że wiązaliśmy snopy na polu i wtedy snop mój podniósł się i stanął, a snopy wasze otoczyły go kołem i oddały mu pokłon». Rzekli mu bracia jego: «Czyż miałbyś jako król panować nad nami i rządzić nami jak władca?» I jeszcze więcej go nienawidzili z powodu snu, który im opowiedział. A potem ((Józef)) miał jeszcze inny sen i opowiedział go braciom swym tak: «Śniło mi się jeszcze, że słońce, księżyc i jedenaście gwiazd oddają mi pokłon». A gdy to powiedział ojcu i braciom, ojciec skarcił go mówiąc: «Co miałby znaczyć ów sen? Czyż ja, matka twoja i twoi bracia mielibyśmy ((kiedyś)) przyjść do ciebie i nisko ci się kłaniać?» Podczas gdy bracia zazdrościli Józefowi, ojciec jego zapamiętał sobie ów sen. Kiedy bracia Józefa poszli paść trzody do Sychem, Izrael rzekł do niego: «Wiesz, że bracia twoi pasą trzody w Sychem. Chcę cię więc posłać do nich». Odpowiedział mu Józef: «Jestem gotów ((iść))». Wtedy rzekł do niego: «Idź i zobacz, czy bracia twoi są zdrowi i czy trzodom nic się nie stało, a potem ((przyjdziesz)) i powiesz mi». Po czym wyprawił go z doliny Hebronu, a on poszedł do Sychem. I ((tam)) spotkał go pewien człowiek błąkającego się po polu i zapytał go: «Kogo szukasz?» Odpowiedział: «Szukam braci moich. Powiedz mi z łaski swojej, gdzie oni pasą ((trzody))». A na to ów człowiek: «Odeszli stąd, ale słyszałem, jak mówili: Chodźmy do Dotain». Józef udał się więc za swymi braćmi i znalazł ich w Dotain. Oni ujrzeli go z daleka i zanim się do nich zbliżył, postanowili podstępnie go zgładzić, mówiąc między sobą: «Oto nadchodzi ten, który miewa sny! Teraz zabijmy go i wrzućmy do którejkolwiek studni, a potem powiemy: Dziki zwierz go pożarł. Zobaczymy, jakie będzie miał sny!» Gdy to usłyszał Ruben, postanowił oswobodzić go od ich przemocy; rzekł więc: «Nie zabijajmy go!» I ((dalej)) Ruben mówił do nich: «Nie doprowadzajcie do rozlewu krwi. Wrzućcie go do studni, która jest tu na pustkowiu, ale ręki nie podnoście na niego». Chciał bowiem ((Ruben)) uratować go od ich przemocy, a potem zaprowadzić go do ojca.",
+        "Portugues": "Naqueles dias, José disse a seus irmãos: «Escutai o sonho que tive: parecia-me que estávamos a atar molhos em um campo e que meu molho se erguia e ficava de pé, enquanto que os outros o rodeavam e como que o adoravam». Responderam-lhe os irmãos: «Porventura serás nosso rei ou ficaremos sob o teu domínio?». E estes sonhos e estas palavras fomentaram cada vez mais o ódio e a inveja dos irmãos contra ele. Teve José ainda outro sonho, que contou também aos irmãos, dizendo-lhes: «Vi em sonho que o sol, a lua e onze estrelas se prostravam diante de mim». Tendo ele contado isto ao pai e aos irmãos, o pai repreendeu-o e disse-lhe: «Que significa o sonho que tiveste? Porventura eu, tua mãe e teus irmãos te adoraremos na terra?». E seus irmãos ficaram com inveja; enquanto que o pai meditava neste caso em segredo. Ora, um dia, estando os irmãos de José a apascentar os rebanhos do pai em Siquém, disse Israel (Jacob) a José: «Os teus irmãos apascentam as ovelhas nas terras de Siquém; vem, pois, para que te mande onde eles estão». José respondeu: «Estou pronto». Jacob disse-lhe: «Vai, vê se teus irmãos estão bem; se os gados se encontram em bom estado; e volta a dizer-me o que acontece por lá». Partiu José do vale de Hébron e chegou a Siquém. Um homem encontrou-o errante no caminho e interrogou-o para saber o que ele procurava. «Procuro meus irmãos; indicai-me onde apascentam os rebanhos». O homem respondeu: «Saíram já deste lugar; porém, ouvi-lhes dizer: vamos até Dótain». Partiu, pois, José após os irmãos e encontrou-os em Dótain. Estes, tendo-o visto ao longe, combinaram matá-lo, antes que se aproximasse. E diziam uns aos outros: «Aí vem o sonhador; vamos; matemo-lo; e lancemo-lo numa cisterna velha. Depois diremos que um animal feroz o devorou. Então se verá de que lhe serviram os sonhos». Mas Ruben esforçava-se para o livrar, dizendo: «Não o mateis nem derrameis o seu sangue. Lançai-o antes numa cisterna, que há no deserto, e conservai as vossas mãos puras». Isto dizia, querendo arrancá-lo das mãos dos irmãos e entregá-lo ao pai."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AD(d) Dó(ff)mi(fgff'f)num,(f_d/fge'/fgd'/eddc.) <clear>*(;) dum(f) tri(f)bu(h)lá(jh/jjj)rer,(j.) (,) cla(j)má(k_j//ijI'H//k_j//j'jjvHGhg/h!jjkvJI)vi,(j.) (:) et(h) ex(h!j'k)au(jh~)dí(h!jjg/h)vit(fg) me.(fgh!jv.0/klJH.1) (,) (ixjjvH'G//hiGF'gwhg/hjhh/fgf.) (z0::c3) <sp>V/</sp>. Dó(h)mi(ih)ne,(hvvGF//ig/h_i_g_//hih//h'i_H'_GEf.ff) (,) (fffgxfff//fh/ihgg/efe.) (;) lí(gxgh'i)be(hi_H'_GF'g)ra(f.) (,) á(gxfg'h)ni(g)mam(fe~) me(f/hhh)am(hv.fhff/ded.) (;) a(d) lá(fdfED//f_d/ef!gwhhi)bi(h)is(h.) (,) in(h)í(i_h//ghG'F//i_h//h'hhvFEfe/f!hhivHG)quis,(h.) (:) et(hhi) a(h) lin(h_f/hhhe/fe/fd~)gua(ed..) *(,) do(h)ló(h)sa.(ihh'hvFE'ed.0) (;) (fdfED//fd/ef/hh/ijghf.0gxegFD.1) (::)",
+      "availableTranslations": {
+        "English": "In my distress I called to the Lord, and He answered me. O Lord, deliver me from lying lip, from treacherous tongue. O Lord, deal with us not according to our sins, nor requite us according to our crimes. O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel) Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name’s sake.",
+        "Espanol": "Al Señor clamé en mi tribulación y me escuchó. Señor, libra a mi alma de labios de maldad y de lengua pérfida. Señor, no nos trates según merecen nuestros pecados, ni según nuestras culpas nos castigues. Señor, no te acuerdes de nuestras antiguas maldades: anticípense a favor nuestro cuanto antes tus misericordias; pues nos hallamos reducidos a extrema miseria. (aquí se arrodilla) Ayúdanos, oh Dios salvador nuestro: y por la gloria de tu nombre, líbranos, Señor, y perdona nuestros pecados, por amor a tu nombre.",
+        "Francais": "Dans ma tribulation, j’ai crié vers le Seigneur et il m’a exaucé.",
+        "Italiano": "Nella mia angoscia ho invocato il Signore, ed egli mi ha risposto.",
+        "Nederlands": "In mijn kwelling riep ik tot de Heer en Hij heeft mij verhoord.",
+        "Polski": "Do Pana wołałem, gdym był w utrapieniu, a On mnie wysłuchał. Wybaw mnie, Panie, od ust kłamliwych i od podstępnego języka.",
+        "Portugues": "Enquanto estava na tribulação, chamei pelo Senhor, que me atendeu. Senhor, livrai a minha alma dos lábios iníquos e da. língua enganadora. Senhor, nos não castigueis, consoante merecemos, pelos pecados que praticámos: nem nos julgueis, segundo as nossas iniquidades. Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas misericórdias, pois grande é a nossa miséria. (genuflectir) Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AD(d) Dó(ff)mi(fgff'f)num,(f_d/fge'/fgd'/eddc.) <clear>*(;) dum(f) tri(f)bu(h)lá(jh/jjj)rer,(j.) (,) cla(j)má(k_j//ijI'H//k_j//j'jjvHGhg/h!jjkvJI)vi,(j.) (:) et(h) ex(h!j'k)au(jh~)dí(h!jjg/h)vit(fg) me.(fgh!jv.0/klJH.1) (,) (ixjjvH'G//hiGF'gwhg/hjhh/fgf.) (z0::c3) <sp>V/</sp>. Dó(h)mi(ih)ne,(hvvGF//ig/h_i_g_//hih//h'i_H'_GEf.ff) (,) (fffgxfff//fh/ihgg/efe.) (;) lí(gxgh'i)be(hi_H'_GF'g)ra(f.) (,) á(gxfg'h)ni(g)mam(fe~) me(f/hhh)am(hv.fhff/ded.) (;) a(d) lá(fdfED//f_d/ef!gwhhi)bi(h)is(h.) (,) in(h)í(i_h//ghG'F//i_h//h'hhvFEfe/f!hhivHG)quis,(h.) (:) et(hhi) a(h) lin(h_f/hhhe/fe/fd~)gua(ed..) *(,) do(h)ló(h)sa.(ihh'hvFE'ed.0) (;) (fdfED//fd/ef/hh/ijghf.0gxegFD.1) (::)",
+      "availableTranslations": {
+        "English": "In my distress I called to the Lord, and He answered me. O Lord, deliver me from lying lip, from treacherous tongue. O Lord, deal with us not according to our sins, nor requite us according to our crimes. O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel) Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name’s sake.",
+        "Espanol": "Al Señor clamé en mi tribulación y me escuchó. Señor, libra a mi alma de labios de maldad y de lengua pérfida. Señor, no nos trates según merecen nuestros pecados, ni según nuestras culpas nos castigues. Señor, no te acuerdes de nuestras antiguas maldades: anticípense a favor nuestro cuanto antes tus misericordias; pues nos hallamos reducidos a extrema miseria. (aquí se arrodilla) Ayúdanos, oh Dios salvador nuestro: y por la gloria de tu nombre, líbranos, Señor, y perdona nuestros pecados, por amor a tu nombre.",
+        "Francais": "Dans ma tribulation, j’ai crié vers le Seigneur et il m’a exaucé.",
+        "Italiano": "Nella mia angoscia ho invocato il Signore, ed egli mi ha risposto.",
+        "Nederlands": "In mijn kwelling riep ik tot de Heer en Hij heeft mij verhoord.",
+        "Polski": "Do Pana wołałem, gdym był w utrapieniu, a On mnie wysłuchał. Wybaw mnie, Panie, od ust kłamliwych i od podstępnego języka.",
+        "Portugues": "Enquanto estava na tribulação, chamei pelo Senhor, que me atendeu. Senhor, livrai a minha alma dos lábios iníquos e da. língua enganadora. Senhor, nos não castigueis, consoante merecemos, pelos pecados que praticámos: nem nos julgueis, segundo as nossas iniquidades. Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas misericórdias, pois grande é a nossa miséria. (genuflectir) Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) DO(f)mi(efE'C)ne,(efeffe//f!gwhghhg/h_f//ghghf.) (;) *() non(f) se(f)cún(f)dum(efE'C) pec(e.f!gwh)cá(h)ta(gf) no(g)stra,(f/gh/iffe.) (;) quæ(e) fé(gh)ci(f)mus(f_e/f!gwh'!iv) nos :(hg/hiih.0) (:) ne(e)que(gh) se(f)cún(fg~)dum(f) in(f)i(f)qui(f)tá(fg)tes(f) no(f_e/f!gwh'!iv)stras(hg/hiih.0) (;) re(ehg)trí(hihhe)bu(fgf)as(hg~) no(hvGF)bis.(fefEC//fefggf.0) (::) \r\n<sp>V/</sp>. Dó(fhg)mi(hi)ne,(ijIH'ihh'hhvGEf_e/f!gw!hvGFgf..) (;) ne(fe) me(h)mí(hi'j)ne(jvIH'GhvGF'g)ris(gf..) (;) in(f)i(f)qui(hg)tá(h)tum(f) no(f)strá(fg)rum(f.) (,) an(fg~)ti(f)quá(f!hh//hhh)rum :(fe/ggf/gh/iffe.) (:) ci(e)to(e) an(gh)tí(f)ci(f)pent(fg~) nos(f.) (,) mi(f)se(f)ri(f)cór(fg~)di(f)æ(f) tu(f_e/f!gwh'!iv)æ,(hg/hiih.0) (;) qui(h)a(h) páu(hihhg)pe(fe)res(fhg) fa(h)cti(h) su(h)mus(gh/ihi) ni(f)mis.(f/ggf.0) (::) \r\n<nlba><sp>V/</sp>. <alt> Hic genuflectitur.</alt>Ad(kxh!iwj'!kv)ju(j)va(j) nos,(j) De(ji)us</nlba>(ij..) (,) sa(h)lu(hf)tá(h)ris(hi'j) no(jvIH'GhvGF'g)ster :(gf..) (;) et(f) pro(f)pter(hg) gló(h)ri(f)am(f) nó(fg)mi(f)nis(f) tu(f)i,(fe) Dó(fg)mi(f)ne,(f.) (,) lí(f)be(f!hh//hhh)ra(fg) nos :(fe/ggf/gh/iffe.) (:) et(e) pro(e)pí(gh)ti(f)us(f) e(fg)sto(f.) (,) pec(f)cá(fg)tis(f) no(f_e/f!gwh'!iv)stris,(kxhgi.jkiih.0) (;) pro(hihhg)pter(fe~) no(fgf)men(g.) *() tu(i_hivHFg.)(,)(h!jijH'GF)um.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
+      "availableTranslations": {
+        "Francais": "Seigneur, ne nous traitez pas selon nos péchés, et ne nous punissez pas selon nos iniquités. Seigneur, ne vous souvenez plus de nos anciennes iniquités ; que vos miséricordes viennent en hâte au-devant de nous, car nous sommes réduits à la dernière misère. (On se met à genoux) Aidez-nous, ô Dieu notre Sauveur, et pour la gloire de votre nom, Seigneur, délivrez-nous et pardonnez-nous nos péchés, à cause de votre nom.",
+        "Italiano": "Non trattarci, Signore, secondo i nostri errori non punirci secondo le nostre colpe. Non ricordarti con noi delle colpe antiche: presto ci venga incontro il tuo affetto, perché siamo molto deboli. (si genuflette) Aiutaci, o Dio della salvezza: e per la gloria del tuo nome, liberaci, Signore: e perdona i nostri errori per amore del tuo nome.",
+        "Nederlands": "Heer, behandel ons niet naar onze zonden, die wij bedreven, vergeld ons niet naar onze schuld. Ach, Heer, denk toch niet meer aan onze vroegere zonden! Moge uw barmhartigheid ons spoedig tegemoet treden, want wij zijn ellendig bovenmate. (Hier maakt men een kniebuiging.) Help ons, o God, onze Redder. Verlos ons, Heer, om de eer van uw Naam. Om wille van uw Naam, vergeef ons onze zonden."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus turbis Judæórum et princípibus sacerdótum parábolam hanc: Homo erat paterfamílias, qui plantávit víneam, et sepem circúmdedit ei, et fodit in ea tórcular, et ædificávit turrim, et locávit eam agrícolis, et péregre proféctus est. Cum autem tempus frúctuum appropinquásset, misit servos suos ad agrícolas, ut accíperent fructus ejus. Et agrícolæ, apprehénsis servis ejus, alium cecidérunt, alium occidérunt, álium vero lapidavérunt. Iterum misit álios servos plures prióribus, et fecérunt illis simíliter. Novíssime autem misit ad eos fílium suum, dicens: Verebúntur fílium meum. Agrícolæ autem vidéntes fílium, dixérunt intra se: Hic est heres, veníte, occidámus eum, et habébimus hereditátem ejus. Et apprehénsum eum ejecérunt extra víneam, et occidérunt. Cum ergo vénerit dóminus víneæ, quid fáciet agrícolis illis? Ajunt illi: Malos male perdet: et víneam suam locábit áliis agrícolis, qui reddant ei fructum tempóribus suis. Dicit illis Jesus: Numquam legístis in Scriptúris: Lápidem, quem reprobavérunt ædificántes, hic factus est in caput ánguli? A Dómino factum est istud, et est mirábile in óculis nostris. Ideo dico vobis, quia auferétur a vobis regnum Dei, et dábitur genti faciénti fructus ejus. Et qui cecíderit super lápidem istum, confringétur: super quem vero cecíderit, cónteret eum. Et cum audíssent príncipes sacerdótum et pharisǽi parábolas ejus, cognovérunt, quod de ipsis díceret. Et quæréntes eum tenére, timuérunt turbas: quóniam sicut Prophétam eum habébant.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus spoke this parable to the multitude of the Jews and the chief priests: There was a man, a householder, who planted a vineyard, and put a hedge about it, and dug a wine vat in it, and built a tower; then he let it out to vine-dressers, and went abroad. But when the fruit season drew near, he sent his servants to the vine-dressers to receive his fruits. And the vine-dressers seized his servants, and beat one, killed another, and stoned another. Again he sent another party of servants more numerous than the first; and they did the same to these. Finally he sent his son to them, saying, ‘They will respect my son.’ But the vine-dressers, on seeing the son, said among themselves, ‘This is the heir; come, let us kill him, and we shall have his inheritance.’ So they seized him, cast him out of the vineyard, and killed him. When, therefore, the owner of the vineyard comes, what will he do to those vine-dressers? They said to Him, He will utterly destroy those evil men, and will let out the vineyard to other vine-dressers, who will render to him the fruits in their seasons. Jesus said to them, Did you never read in the Scriptures, ‘The stone which the builders rejected, has become the cornerstone; by the Lord this has been done, and it is wonderful in our eyes’? Therefore I say to you, that the kingdom of God will be taken away from you and will be given to a people yielding its fruits. And he who falls on this stone will be broken to pieces; but upon whomever it falls, it will grind him to powder. And when the chief priests and Pharisees had heard His parables, they knew that He was speaking about them. And though they sought to lay hands on Him, they feared the people, because they regarded Him as a prophet.",
+        "Espanol": "En aquel tiempo dijo Jesús al pueblo de los judíos y a los príncipes de los sacerdotes esta parábola: «Había un propietario que plantó una viña, la rodeó con una cerca, cavó en ella un lagar, construyó una torre, la arrendó a unos labradores y se marchó lejos. Llegado el tiempo de los frutos, envió sus criados a los labradores para percibir los frutos que le correspondían. Pero los labradores, agarrando a los criados, apalearon a uno, mataron a otro y a otro lo apedrearon. Envió de nuevo otros criados, más que la primera vez, e hicieron con ellos lo mismo. Por último, les mandó a su hijo diciéndose: “Tendrán respeto a mi hijo”. Pero los labradores, al ver al hijo se dijeron: “Este es el heredero: venid, lo matamos y nos quedamos con su herencia”. Y agarrándolo, lo sacaron fuera de la viña y lo mataron. Cuando vuelva el dueño de la viña, ¿qué hará con aquellos labradores?». Le contestan: «Hará morir de mala muerte a esos malvados y arrendará la viña a otros labradores que le entreguen los frutos a su tiempo». Y Jesús les dice: «¿No habéis leído nunca en la Escritura: “La piedra que desecharon los arquitectos es ahora la piedra angular. Es el Señor quien lo ha hecho, ha sido un milagro patente”? Por eso os digo que se os quitará a vosotros el reino de Dios y se dará a un pueblo que produzca sus frutos. Y el que cayere sobre esta piedra se destrozará, y a aquel sobre quien cayere, lo aplastará». Los sumos sacerdotes y los fariseos, al oír sus parábolas, comprendieron que hablaba de ellos. Y, aunque intentaban echarle mano, temieron a la gente, que lo tenía por profeta.",
+        "Francais": "En ce temps-là, Jésus dit à la foule des Juifs et aux princes des prêtres cette parabole : II y avait un père de famille qui planta une vigne, l’entoura d’une haie, y creusa un pressoir, et y bâtit une tour ; puis il la loua à des vignerons, et partit pour un pays lointain. Or, lorsque le temps des fruits approcha, il envoya ses serviteurs aux vignerons, pour recueillir les fruits de sa vigne. Mais les vignerons, s’étant saisis de ses serviteurs, battirent l’un, tuèrent l’autre, et en lapidèrent un autre. Il leur envoya encore d’autres serviteurs, en plus grand nombre que les premiers, et ils les traitèrent de même. Enfin il leur envoya son fils, en disant : Ils auront du respect pour mon fils. Mais les vignerons voyant le fils, dirent entre eux : Voici l’héritier ; venez, tuons-le, et nous aurons son héritage. Et s’étant saisis de lui, ils le jetèrent hors de la vigne et le tuèrent. Lors donc que le maître de la vigne sera venu, que fera-t-il à ces vignerons ? Ils lui dirent : II fera périr misérablement ces misérables, et il louera sa vigne à d’autres vignerons, qui lui en rendront les fruits en leur temps. Jésus leur dit : N’avez-vous jamais lu dans les Écritures : La pierre qu’ont re-jetée ceux qui bâtissaient, celle-là même est devenue la tête de l’angle ; c’est le Seigneur qui a fait cela, et c’est une chose admirable à nos yeux ? C’est pourquoi, je vous dis que le royaume de Dieu vous sera enlevé, et qu’il sera donné à une nation qui en produira les fruits. Et celui qui tombera sur cette pierre, s’y brisera, et celui sur qui elle tombera, elle l’écrasera. Lorsque les princes des prêtres et les pharisiens eurent entendu ces paraboles, ils comprirent que Jésus parlait d’eux. Et cherchant à se saisir de lui, ils craignirent les foules, parce qu’elles le regardaient comme un prophète.",
+        "Italiano": "In quel tempo Gesù disse alle turbe dei Giudei e ai capi dei Sacerdoti questa parabola: «C'era un padrone il quale piantò una vigna, la cinse di siepe, vi scavò un frantoio, vi edificò una torre, la diede a lavorare ai coloni e se ne andò via lontano. Or quando si avvicinò il tempo dei frutti, mandò i suoi servi dai coloni per ricevere i frutti di essa. Ma i coloni, presi quei servitori, chi bastonarono, chi ammazzarono e chi lapidarono. Mandò di nuovo altri servi in maggior numero dei primi, e coloro li trattarono allo stesso modo. Finalmente mandò loro il suo figliuolo, dicendo: “Avran riguardo a mio figlio”. Ma i coloni, visto il figliuolo, dissero tra di loro: “Questo è l'erede; venite, ammazziamolo, e così ci prenderemo la sua eredità”. E afferratolo, lo cacciarono fuori della vigna e l'uccisero. Or quando verrà il padrone della vigna che farà a quei coloni?». Rispondono: «Farà malamente perire gli scellerati ed allogherà la vigna ad altri coloni che gliene rendano il frutto a suo tempo». Dice loro Gesù: «Non avete mai letto nelle Scritture: “La pietra che gli edificatori hanno rigettata è divenuta pietra angolare? Ciò è stato fatto dal Signore ed è meraviglioso agli occhi nostri”. Per questo vi dico: Vi sarà tolto il regno di Dio e sarà dato a gente che ne produca i frutti. E chi cadrà sopra questa pietra, si sfracellerà; e su chi essa cadrà, sarà stritolato». E i principi dei Sacerdoti e i Farisei, udite le sue parole, compresero che parlava di loro; e cercaron di catturarlo; ma ebbero paura delle turbe che lo tenevano qual profeta.",
+        "Magyar": "„Halljatok egy másik példabeszédet. Volt egy gazda, aki szőlőt telepített. Bekerítette sövénnyel, belül pedig sajtót ásott és őrtornyot épített. Aztán bérbe adta a szőlőt műveseknek, és elment idegenbe.  Amikor eljött a szüret ideje, elküldte szolgáit a szőlőművesekhez, hogy szedjék be a termést.  Ám a szőlőművesek nekiestek a szolgáknak. Az egyiket megverték, a másikat megölték, a harmadikat megkövezték.  Erre más szolgákat küldött, többet, mint először, de ezekkel is úgy bántak.  Végül a fiát küldte el hozzájuk, mert azt gondolta: A fiamat csak megbecsülik.  De amikor a szőlőművesek meglátták a fiút, így biztatták egymást: Itt az örökös! Gyertek, öljük meg, és mienk lesz öröksége.  Nekiestek, kidobták a szőlőből és megölték.  Amikor majd megjön a szőlő ura, vajon mit tesz a szőlőművesekkel?”  „A gonoszokat a gonoszok sorsára juttatja, szőlejét pedig más bérlőknek adja ki bérbe, akik idejében beszolgáltatják a termést.”  Erre Jézus azt kérdezte: „Sose olvastátok az Írásban: A kő, amelyet az építők elvetettek, szegletkővé lett. Az Úr tette azzá, s ez csodálatos a szemünkben.  Ezért mondom nektek, hogy elveszik tőletek az Isten országát, s olyan nép kapja meg, amely megtermi gyümölcsét.  Aki erre a kőre esik, összezúzza magát, s akire rázuhan, azt szétmorzsolja.”  E hasonlatokat hallva a farizeusok és az írástudók megértették, hogy róluk beszélt.  El akarták fogni, de féltek a néptől, mert prófétának tartották.",
+        "Nederlands": "In die tijd hield Jezus de scharen der Joden en de opperpriesters deze gelijkenis voor: Er was eens een huisvader, die een wijngaard aanlegde; en hij bracht er een omheining aan, groef er een wijnpers in en bouwde er een wachttoren; dan verhuurde hij hem aan pachters, en vertrok naar het buitenland. Toen nu de tijd van de oogst gekomen was, zond hij zijn knechten naar de pachters, om zijn vruchten in ontvangst te nemen. Maar de pachters grepen zijn knechten vast en zij sloegen de ene, een ander vermoordden zij en een derde stenigden zij. Wederom zond hij andere knechten, nog meer dan vorige keer, maar zij behandelden deze op dezelfde manier. Tenslotte zond hij zijn zoon tot hen; want hij dacht: Mijn zoon zullen zij ontzien. Maar toen de pachters de zoon zagen, zeiden zij tot elkander: Dat is de erfgenaam; komt, laten wij hem doden, dan is zijn erfenis voor ons. En zij grepen hem vast, sleepten hem buiten de wijngaard en doodden hem. Wanneer nu de heer van de wijngaard terugkomt, wat zal hij dan met die pachters doen? Zij antwoordden Hem: Hij zal het die ellendelingen ellendig laten vergaan; en zijn wijngaard zal hij aan andere pachters verhuren, die op tijd de vruchten afdragen. Jezus zeide hun: Hebt gij nooit in de Schrift gelezen: “De steen, die de bouwlieden wegwierpen, deze is hoeksteen geworden. Vanwege de Heer is dit geschied, en wonderbaar is het in onze ogen.” Daarom zeg Ik u: Het rijk Gods zal u worden afgenomen en geschonken worden aan een ander volk, dat er de vruchten van opbrengt. En wie op die steen neervalt, zal te pletter vallen; en op wie hij valt, die zal hij vermorzelen. En toen de opperpriesters en farizeën zijn parabels hoorden, begrepen zij, dat Hij over hen sprak. En hoewel zij Hem zochten gevangen te nemen, waren zij bevreesd voor het volk; want deze hielden Hem voor een profeet.",
+        "Polski": "Onego czasu powiedział Jezus do rzesz żydowskich i do przedniejszych kapłanów tę przypowieść: «Był człowiek gospodarz, który założył winnicę, płotem ją ogrodził, wykopał w niej prasę, zbudował wieżę i wynajął ją rolnikom, a sam odjechał w dalekie strony. A gdy się przybliżył czas owoców, posłał sługi swoje do rolników, aby odebrali owoce jego. A rolnicy, pojmawszy sługi jego, jednego obili, drugiego zamordowali, a innego ukamienowali. Znowu posłał inne sługi, więcej niż przedtem, i uczynili im podobnie. W końcu więc posłał do nich syna swego, mówiąc: Uszanują syna mego. Rolnicy zaś widząc syna mówili między sobą: Ten jest dziedzicem, pójdźcie, zabijmy go, a zawładniemy jego dziedzictwem. I pochwyciwszy go, wyrzucili z winnicy i zabili. Gdy tedy przybędzie Pan winnicy, cóż uczyni owym rolnikom?» Mówią mu: «Złoczyńców srodze wygubi, a winnicę swą wynajmie innym rolnikom, którzy oddawać mu będą owoc w oznaczonym czasie». Rzekł im Jezus: «Czyż nigdy nie czytaliście w Pismach: Kamień, który budujący odrzucili, stał się głowicą węgła. Od Pana się to stało i dziwnym jest w oczach naszych. Przeto powiadam wam, że odjęte będzie od was Królestwo Boże, a dane narodowi czyniącemu owoce jego. I kto by upadł na ten kamień, będzie rozbity, a na kogo by upadł, zmiażdży go». I usłyszawszy przypowieści Jego przedniejsi kapłani i faryzeusze poznali, że o nich mówił. A usiłując Go pojmać, obawiali się rzesz, ponieważ miały Go za Proroka.",
+        "Portugues": "Naquele tempo, disse Jesus à turba dos judeus e aos príncipes dos sacerdotes esta parábola: «Havia um homem, pai de família, que plantou uma vinha, cercou-a com uma sebe, construiu nela um lagar, edificou uma torre, arrendou-a a uns lavradores e partiu para longe. Aproximando-se o tempo da colheita, mandou o pai de família os seus servos aos lavradores, para deles receberem os frutos. Mas os lavradores, prendendo os servos, espancaram um, mataram, outro e apedrejaram outro! Tornou o pai de família a mandar outros servos, em maior número do que os primeiros, e fizeram-lhes o mesmo. Por último, mandou-lhes o seu próprio filho, dizendo: «A meu filho, ao menos, guardarão respeito». Mas os lavradores, vendo o filho, disseram entre si: «Este é o herdeiro; vamos, matemo-lo e ficaremos com sua herança». E, segurando-o, lançaram-no fora da vinha e mataram-no». «Ora - continuou Jesus - quando vier o dono da vinha, que fará a estes lavradores?». Eles responderam: «Castigará os malvados e arrendará a sua vinha a outros lavradores, que paguem o fruto em seu tempo». Disse-lhes Jesus: «Nunca lestes nas escrituras: «A pedra que os edificadores rejeitaram tornou-se em pedra angular? Isto é uma obra do Senhor e é maravilha aos nossos olhos?!». Por isso vos digo: o reino de Deus ser-vos-á tirado e dado a outro povo, que produza os seus frutos. Quem cair sobre esta pedra quebrar-se-á; e aquele sobre quem ela cair ficará esmagado». Ouvindo isto, perceberam os príncipes dos sacerdotes e os fariseus que falava deles. Então quiseram prendê-l’O, mas tiveram medo das turbas, pois estas tinham-n’O na conta de Profeta."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DO(f)mi(fff)ne,(c_d) *(,) in(c) au(d)xí(ff)li(gf)um(fg) me(fg!hvhg)um(ghffg) ré(f)spi(f_g_f_)ce :(f.) (:) con(fgf)fun(g_h)dán(hg~)tur(ghGF.) (,) et(f) re(f)ve(f)re(d)án(d!ffdced)tur,(dc/ded.) (;) qui(c) quae(ffg)runt(f) á(g)ni(fg)mam(fe~) me(d!ew!fvED)am,(d.c!dw!evDCd.) (;) ut(c) áu(ffg~)fe(f)rant(fg/hghv_G~F~) e(f)am :(f/ghF'DffvD'Cffc.) (:) Dó(f)mi(fff)ne,(c_d) (,) in(c) au(d)xí(ff)li(gf)um(fg) me(fg!hvhg)um(ghffg) ré(f)spi(f_g_f_)ce.(f.) (::)",
+      "availableTranslations": {
+        "English": "Deign, O Lord, to rescue me; let all be put to shame and confusion who seek to snatch away my life. Deign, O Lord, to rescue me.",
+        "Espanol": "Señor, atiende a mi auxilio; queden confusos y avergonzados los que quieren quitarme la vida; Señor, atiende a mi auxilio.",
+        "Francais": "Seigneur, regardez vers moi pour me secourir. Qu’ils soient confondus et couverts de honte, ceux qui cherchent ma vie pour me l’ôter. Seigneur, regardez vers moi pour me secourir.",
+        "Italiano": "Dio, vieni presto a liberarmi: abbiano vergogna e disonore quelli che attentano alla mia vita. Dio, vieni presto a liberarmi.",
+        "Nederlands": "Dómine, in auxílium meum réspice: confundántur et revereántur, qui quærunt ánimam meam, ut áuferant eam: Dómine, in auxílium meum réspice.",
+        "Polski": "Panie, pośpiesz mi z pomocą; niech się zawstydzą i okryją rumieńcem ci, którzy dybią na życie moje, by je odebrać. Panie, pośpiesz mi z pomocą.",
+        "Portugues": "Senhor, volvei para mim um olhar de protecção. Caiam na confusão e no opróbrio aqueles que procuram tirar-me a vida! Senhor, volvei um olhar protector para mim."
+      },
+      "mode": "6",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hæc in nobis sacrifícia, Deus, et actióne permáneant, et operatióne firméntur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, may this sacrifice which is offered, stay in us and accomplish lasting effects.",
+        "Espanol": "Haz, oh Dios, que estos sacrificios ejerzan en nosotros acción duradera y se consoliden con su realización.",
+        "Francais": "Ô Dieu, que ce sacrifice demeure en nous par son action et que son effet se confirme en notre âme.",
+        "Italiano": "O Signore, rimanga in noi l'efficacia di questo sacrificio e trovi conferma nelle nostre opere.",
+        "Magyar": "Ez adományok legyenek, Isten, bennünk, cselekvésünkben állandóak és hatásukban erősek.",
+        "Nederlands": "Laat, o God, dit offer door zijn kracht blijvend in ons nawerken en in onze daden krachtig tot uiting komen.",
+        "Polski": "Boże, niech trwa w nas działanie tej ofiary i umacniają się jej skutki.",
+        "Portugues": "Que estes sacrifícios, ó Deus, exerçam em nós uma acção permanente e uma influência fortificadora. "
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) TU(g) Dó(ji/j_k)mi(h!iw!jvI'HG'h)ne(hg..) *(,) ser(gh~)vá(h_f)bis(gh) nos,(e.) (;) et(g) cu(g)stó(ih/i_j)di(hg)es(g) nos(gh!ivih.0) (;) a(h) ge(h)ne(hf)ra(gh)ti(hg)ó(ghfg)ne(f) hac(ef'g) (,) in(g) ae(hggf/ghg)tér(egff)num.(fe..) (::)",
+      "availableTranslations": {
+        "English": "You, O Lord, will keep us and preserve us always from this generation.",
+        "Espanol": "Oh Señor, tú nos salvarás y nos defenderás siempre de esta raza de gentes.",
+        "Francais": "C’est vous, Seigneur, qui nous garderez, et qui nous préserverez à jamais de cette génération.",
+        "Italiano": "O Signore, Tu ci custodirai e ci salverai per sempre da questa perfida genia.",
+        "Nederlands": "Gij, Heer, zult ons behoeden en ons beschermen tegen dit geslacht voor eeuwig.",
+        "Polski": "Ty, Panie, zachowasz nas i na wieki ustrzeżesz nas od tego plemienia ((grzeszników)).",
+        "Portugues": "Senhor, guardar-nos-eis e defender-nos-eis sempre desta geração."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Fac nos, quǽsumus, Dómine: accépto pígnore salútis ætérnæ, sic téndere congruénter; ut ad eam perveníre possímus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, we beseech You, O Lord, that we who have received the pledge of everlasting salvation, may properly direct our course so that we may be able to attain our goal.",
+        "Espanol": "Oh Señor, te pedimos que, después de recibir la prenda de la eterna salud, caminemos con tal acierto que podamos alcanzarla.",
+        "Francais": "Faites, nous vous en supplions, Seigneur, qu’ayant reçu le gage du salut éternel, nous tendions à ce salut de manière à pouvoir y parvenir.",
+        "Italiano": "Fa' , o Signore, te ne preghiamo, che dopo aver ricevuto il pegno dell'eterna salvezza, ad essa così tendiamo da raggiungerla.",
+        "Magyar": "Engedd, kérünk, Urunk, hogy az örök üdvösség zálogát megkapva, ennek megfelelően úgy iparkodjunk, hogy ahhoz el is érhessünk.",
+        "Nederlands": "Wij vragen U, Heer, laat ons, nu wij het onderpand van de eeuwige zaligheid ontvangen hebben, er zo naar streven, dat wij er ook toe kunnen geraken.",
+        "Polski": "Otrzymawszy zadatek zbawienia wiecznego, prosimy Cię, Panie, daj nam tak gorliwie do niego dążyć, abyśmy mogli je osiągnąć.",
+        "Portugues": "Fazei, Senhor, Vos suplicamos, que, tendo nós recebido o penhor da salvação eterna, de tal sorte procuremos merecê-la que possamos possuí-la."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Oratio super Populum",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus. Humiliáte cápita vestra Deo. Da, quǽsumus, Dómine, pópulo tuo salútem mentis et córporis: ut, bonis opéribus inhæréndo, tuæ semper virtútis mereátur protectióne deféndi.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray. Bow your heads to God. Grant unto Your people, we beseech You, O Lord, health of mind and body, that, by persevering in good works, we may be worthy to be protected by Your mighty power.",
+        "Espanol": "Oremos. Humillad ante Dios vuestras cabezas. Te suplicamos, Señor, concedas a tu pueblo la salud del alma y del cuerpo; para que insistiendo en las buenas obras, merezcamos ser siempre defendidos con tu poderosa protección.",
+        "Francais": "Prions. Humiliez vos têtes devant Dieu. Donnez à votre peuple, nous vous en supplions, Seigneur, la santé de l’âme et du corps afin que s’attachant aux bonnes œuvres, il mérite de demeurer toujours sous la protection et sous la défense de votre puissance.",
+        "Italiano": "v, Preghiamo. Inchinatevi davanti a Dio. Da', o Signore, al tuo popolo sanità di mente e di corpo; affinché, attendendo alle buone opere, meriti di essere sempre protetto dalla tua potenza.",
+        "Nederlands": "Laat ons bidden. Buigt nederig uw hoofd voor God. Wij vragen U, Heer, geef uw volk de gezondheid naar ziel en lichaam, opdat het door trouw te zijn in goede werken, verdienen mag altijd veilig te zijn in uw beschermende kracht.",
+        "Polski": "Módlmy się. Pochylcie głowy wasze przed Bogiem. Daj, Panie, ludowi Twojemu zdrowie duszy i ciała, aby oddając się dobrym uczynkom zasłużył sobie na Twoją potężną opiekę.",
+        "Portugues": "Oremos. Inclinai as vossas cabeças diante de Deus. Senhor, concedei ao vosso povo, Vos suplicamos, a saúde da alma e do corpo, a fim de que, ocupando-se em boas obras, mereça ser sempre assistido com a protecção da vossa majestade."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

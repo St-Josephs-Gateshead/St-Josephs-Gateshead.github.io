@@ -1,0 +1,764 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "Dominica in Albis in Octava Paschæ",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) QU{a}(c)si(d) mo(d)do(d) *() gé(d!fffg)ni(f)ti(f) in(f)fán(f)tes,(c.) (,) al(f)le(gef)lú(fhG~'F~){ia} :(f.) (:) ra(fd)ti(f)o(g)ná(ixgih)bi(gf)les,(f.) (,) si(f)ne(ef'g) do(gf)lo(fgff/ded.) (,) lac(d!f'g) con(gh~)cu(f)pí(fgf)sci(d)te,(dcd.) (;) al(c)le(ff)lú(fhG~'F~){ia},(f.) (,) al(df~)le(f_e)lú(fgf){ia},(fffddc.) (,) al(d)le(ff)lú(fhG~'F~){ia}.(f.) (::) <i>Ps.</i> Ex(fg)sul(gf)tá(gh)te(h) De(h)o(h) ad(h)ju(g)tó(ixi)ri(h) no(g)stro :(f.) *(:) ju(f)bi(f)lá(f')te(g) De(fd)o(f') Ja(g)cob.(f.) (::) Gló(fg)ri(gf)a(gh) Pa(h)tri.(h) (::) <eu>E(f') u(g) o(fd) u(f') a(g) e.</eu>(f'/ghg.) (::)",
+      "availableTranslations": {
+        "English": "As newborn babes, alleluia, desire the rational milk without guile, alleluia, alleluia, alleluia. Rejoice to God our Helper; sing aloud to the God of Jacob.",
+        "Bohemice": "Jako právě narozená nemluvňata, alleluja, rozumní; beze lsti chtějte mléko, alleluja, alleluja, alleluja. Jásejte Bohu, našemu pomocníku; jásejte Bohu Jakubovu.",
+        "Francais": "Tels des enfants nouveaux-nés, alléluia, soyez avides du pur lait spirituel, alléluia, alléluia, alléluia. Poussez des cris de joie pour Dieu, notre soutien ; acclamez le Dieu de Jacob.",
+        "Italiano": "Come bambini appena nati, alleluia, siate bramosi di latte spirituale e puro, alleluia, alleluia, alleluia. Inneggiate a Dio nostro aiuto; acclamate il Dio di Giacobbe.",
+        "Nederlands": "Weest als pasgeboren kinderen, alleluia, begerig naar de geestelijke onvervalste melk, alleluia, alleluia, alleluia. Juicht God toe, onze Helper; jubelt voor de God van Jacob!",
+        "Polski": "Jako dopiero narodzone niemowlęta, alleluja, pożądajcie duchowego, czystego mleka, alleluja, alleluja alleluja. Radośnie śpiewajcie Bogu, obrońcy naszemu, wykrzykujcie Bogu Jakuba.",
+        "Portugues": "Como meninos recém-nascidos, aleluia, e raciocinando convenientemente, desejai com ardor beber o leite puro, aleluia, aleluia, aleluia. Aclamai a Deus, que é o nosso Sustentáculo: cantai hinos de júbilo em honra de Deus de Jacob.",
+        "Ukrainian": "Hеначе новонароджені дитятка, аллілуя; ви, духовні, жадайте молока без підступності, аллілуя, аллілуя, аллілуя. Радіcно cпівайте Богові, помічникові нашому, воcкликуйте Богові Якова."
+      },
+      "mode": "6",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Præsta, quǽsumus, omnípotens Deus: ut, qui paschália festa perégimus, hæc, te largiénte, móribus et vita teneámus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, we beseech Thee, almighty God, that we who have celebrated the Paschal Feast, may, by Thy bounty, retain its fruits in our daily habits and behavior.",
+        "Bohemice": "Uděl, prosíme, všemohoucí Bože; abychom, když slavíme velikonoční svátky, toto, s tvou štědrou pomocí, udržovali ve svých mravech i životech.",
+        "Espanol": "Dios todopoderoso, concédenos, con tu gracia, conservar en nuestras vidas el espíritu de estas fiestas pascuales que hemos celebrado.",
+        "Francais": "Faites, Dieu tout-puissant, qu'arrivés au terme de la célébration des fêtes de Pâques, nous puissions, par le don de votre grâce, les garder présentes en nous par toute la conduite de notre vie.",
+        "Italiano": "Concedi, Dio onnipotente, che, terminate le feste pasquali, noi, con la tua grazia, ne conserviamo il frutto nella vita e nella condotta.",
+        "Nederlands": "Wij vragen U, almachtige God, laat ons, nu onze Paasviering voorbij is, door uw genade in handel en wandel het feest verlengen.",
+        "Polski": "Spraw, prosimy Cię, wszechmogący Boże, abyśmy ukończywszy obchód świąt wielkanocnych, za łaską Twoją zachowali ich ducha w życiu i postępowaniu.",
+        "Portugues": "Ó Deus omnipotente, Vos suplicamos, agora, que celebrámos as festas pascais, concedei-nos a graça de conservarmos sempre o seu espírito, tanto nos nossos costumes, como na nossa vida.",
+        "Ukrainian": "Просимо Тебе, всемогутній Боже: подай нам, які завершили святкування Пасхи, Твоєю милістю тривати в ній думками та вчинками."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Caríssimi: Omne, quod natum est ex Deo, vincit mundum: et hæc est victória, quæ vincit mundum, fides nostra. Quis est, qui vincit mundum, nisi qui credit, quóniam Jesus est Fílius Dei? Hic est, qui venit per aquam et sánguinem, Jesus Christus: non in aqua solum, sed in aqua et sánguine. Et Spíritus est, qui testificátur, quóniam Christus est véritas. Quóniam tres sunt, qui testimónium dant in cœlo: Pater, Verbum, et Spíritus Sanctus: et hi tres unum sunt. Et tres sunt, qui testimónium dant in terra: Spíritus, et aqua, et sanguis: et hi tres unum sunt. Si testimónium hóminum accípimus, testimónium Dei majus est: quóniam hoc est testimónium Dei, quod majus est: quóniam testificátus est de Fílio suo. Qui credit in Fílium Dei, habet testimónium Dei in se.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Dearly beloved, Whatsoever is born of God overcometh the world: and this is the victory, which overcometh the world, our faith. Who is he that overcometh the world, but he that believeth that Jesus is the Son of God? This is He that came by water and blood, Jesus Christ: not by water only, but by water and blood. And it is the Spirit which testifieth that Christ is the truth. And there are three who give testimony in heaven: the Father, the Word and the Holy Ghost: and these three are one. And there are three that give testimony on earth: the Spirit and the water and the blood; and these three are one. If we receive the testimony of men, the testimony of God is greater: for this is the testimony of God, which is greater, because He hath testified of His Son. He that believeth in the Son of God hath the testimony of God in himself.",
+        "Bohemice": "Milovaní, každý, kdo je narozen z Boha, vítězí nad světem. A to je vítězství, které přemohlo svět: naše víra. Kdo vítězí nad světem, ne-li ten, kdo věří, že Ježíš je Syn Boží? Ježíš Kristus je ten, který přišel skrze vodu a krev; nejen skrze vodu, ale skrze vodu a krev. A to dosvědčuje Duch, protože Duch je pravda. Jsou tři svědkové: Duch, voda a krev, a ti tři jsou zajedno. Když přijímáme svědectví lidské, tím větší platnost má svědectví Boží. To je totiž svědectví Boží, které Bůh vydal o svém Synu: kdo věří v Božího Syna, má o tom svědectví sám v sobě. Kdo Bohu nevěří, dělá z něho lháře, protože nevěří svědectví, které Bůh vydává o svém Synu.",
+        "Francais": "Mes bien-aimés, tout ce qui est né de Dieu remporte la victoire sur le monde ; et la victoire qui a vaincu le monde, c'est notre foi. Qui est celui qui est vainqueur du monde, sinon celui qui croit que Jésus est le Fils de Dieu ? C'est ce même Jésus-Christ qui est venu par l'eau et par le sang, non avec l'eau seulement, mais avec l'eau et avec le sang. Et c'est l'Esprit qui rend témoignage, parce que l'Esprit est la vérité. Car il y en a trois qui rendent témoignage dans le ciel : le Père, le Verbe et l'Esprit ; et ces trois sont un. Et il y en a trois qui rendent témoignage sur la terre : l'Esprit, l'eau et le sang ; et ces trois sont d'accord. Si nous recevons le témoignage des hommes, le témoignage de Dieu est plus grand ; et c'est bien là le témoignage de Dieu, qui a rendu témoignage à son Fils. Celui qui croit au Fils de Dieu a ce témoignage de Dieu en lui-même.",
+        "Italiano": "Carissimi: chiunque è nato da Dio trionfa del mondo; e ciò che ha trionfato del mondo è la nostra fede. Chi è che vince il mondo, se non chi crede che Gesù è figliolo di Dio? È Lui che è venuto per mezzo dell’acqua e del sangue, Gesù Cristo: non nell’acqua solo, ma nell’acqua e nel sangue. Ed è lo Spirito che attesta, perché lo Spirito è verità. Poiché sono tre che rendono testimonianza in cielo: il Padre, il Verbo e lo Spirito Santo: e questi tre sono una sola cosa. E sono tre che rendono testimonianza in terra: lo Spirito, l’ acqua e il sangue: e questi tre sono concordi. Se ammettiamo la testimonianza degli uomini, dobbiamo tanto più ammettere la testimonianza di Dio, che è superiore. Ora è Dio stesso che ha reso testimonianza al suo Figlio. Chi crede nel figliolo di Dio ha in sé la testimonianza di Dio.",
+        "Magyar": "Mert mindenki, aki az Istentől született, legyőzi a világot. És ez a győzelem - győzelem a világ fölött! - a mi hitünk.  Ki győzi le a világot, ha nem az, aki hiszi, hogy Jézus az Isten Fia?  Ő az, aki víz és vér által jött, Jézus Krisztus. Nem csupán víz által, hanem víz és vér által. És a Lélek tesz tanúságot róla, mert a Lélek az igazság.  Tehát hárman tanúskodnak:  a Lélek, a víz és a vér, és ez a három egy.  Ha az emberek tanúságát is elfogadjuk, az Isten tanúsága többet jelent. Az Isten tanúsága az, hogy tanúságot tett a Fia mellett.  Aki hisz az Isten Fiában, magában hordja az Isten tanúságát. Aki nem hisz Istennek, hazugságot tulajdonít neki, épp mert nem hisz tanúságában, amelyet az Isten Fia mellett tett.",
+        "Nederlands": "Veelgeliefden, al wat uit God is geboren, is overwinnaar van de wereld; en dit is de zegevierende macht, waardoor de wereld overwonnen wordt, ons geloof. Wie anders is er overwinnaar van de wereld, dan hij die gelooft, dat Jezus is de Zoon van God? Deze is het, die gekomen is in water en in bloed, Jezus Christus; niet alleen in het water, maar in het water én in het bloed. En het is de Geest, die getuigt, dat Christus de waarheid is. Want het zijn er drie, die getuigenis geven in de hemel: de Vader, het Woord en de Heilige Geest; en deze drie zijn één. En het zijn er drie, die getuigenis geven op de aarde: de Geest, en het water, en het bloed; en deze drie zijn het eens. Indien wij het getuigenis van mensen aannemen, Gods getuigenis heeft groter waarde; inderdaad hebben wij hierin dat getuigenis van God met die grotere waarde, dat Hij getuigenis heeft gegeven omtrent zijn Zoon. Wie gelooft in de Zoon van God, draagt het getuigenis van God in zich.",
+        "Polski": "Najmilsi: Wszystko, co się narodziło z Boga, zwycięża świat, a zwycięstwem, które odnosimy nad światem jest wiara nasza. Któż jest, który zwycięża świat, jeśli nie ten, kto wierzy, że Jezus jest Synem Bożym? Jest to ten sam Jezus Chrystus, który przyszedł przez wodę i przez krew; nie w wodzie tylko, ale w wodzie i we krwi. A Duch świadczy, że Chrystus jest prawdą. Albowiem Trójca wydaje świadectwo na niebie: Ojciec, Syn i Duch Święty, a Trójca ta jednym jest. Jeśli świadectwo ludzkie przyjmujemy, świadectwo Boże większe jest. Bo to jest świadectwo Boże, które większe jest, przez które zaświadczył o Synu swoim. Kto wierzy w Syna Bożego, nosi w sobie świadectwo Boże.",
+        "Portugues": "Caríssimos: Todo aquele que nasceu de Deus é vencedor do mundo. O que alcança vitória contra o mundo é a nossa fé. Quem é que vence o mundo, senão o que crê que Jesus Cristo é o Filho de Deus? Este mesmo Jesus Cristo é que veio com a água e o sangue: não somente com a água, mas com a água e o sangue. E é o Espírito quem atesta que Jesus Cristo é a verdade. Porquanto são três os que dão testemunho do céu: o Pai, o Verbo, e o Espírito Santo: e estes três são um só. E três são os que dão testemunho na terra: o espírito, a água e o sangue: e estes três são um só. Se aceitamos o testemunho dos homens, muito maior é o testemunho de Deus. Este testemunho de Deus, que é maior, foi por Ele dado a respeito do seu Filho. Aquele que crê no Filho de Deus tem este testemunho de Deus em si mesmo.",
+        "Ukrainian": "Улюблені, все, що народжується від Бога, перемагає світ. І оце перемога, яка перемогла світ: віра наша. А хто перемагає світ, як не той, хто вірує, що Ісус – Син Божий? Це той, хто прийшов водою і кров’ю: Ісус Христос. І не водою тільки, а водою і кров’ю. І Дух свідчить, що Христос є Істина. Бо на небесах троє свідчать: Отець, Слово і Дух святий: і ці Троє – одно. І на землі троє свідчать: Дух, вода і кров, і оті троє – одно. Коли приймаємо свідоцтво людське, то свідоцтво Боже більше. Таке бо свідоцтво Боже ((те, яке є більше)), що він нам свідчить про Сина свого. Хто вірує в Сина Божого, той має в собі Боже свідоцтво."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale & Alleluia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) AL(e)le(e)lú(e_f//df!hvGFhi~){ia}.(ie..) *(,) <i>ij.</i>(fg!hvGFE.df!gvFE.) (;) (de!fv.gh'GFE.df!gvFE.//fgf/!ge/!ffe.) (::) <sp>V/</sp>. In(ei) di(i)e(ihhf//h_ie.) (,) re(d)sur(f!gwh)re(hg)cti(fe)ó(fg)nis(f) me(efe___)ae,(e.) (,) di(dc)cit(de) <nlba>Dó(e)mi(ef/hfg)nus,</nlba>(fe..) (:) prae(i/kj/k_lK'JI')cé(i/kj/k_lK'JI'//hkkvJHivHF)dam(hi~) vos(i.) *(;) in(e) Ga(e)li(e)laé(e_f//df!hvGFhi)am.(ie..) (,) (fg!hvGFE.df!gvFE.) (;) (de!fv.gh'GFE.df!gvFE.//fgf/ge/ffe.) (::)",
+      "availableTranslations": {
+        "English": "Alleluia, alleluia.  On the day of My Resurrection, saith the Lord, I will go before you into Galilee. Alleluia.",
+        "Bohemice": "Alleluja, alleluja.  V den svého zmrtvýchvstání, praví Pán, předejdu vás do Galileje. Alleluja. Po osmi dnech, přes zavřené dveře, stanul Ježíš uprostřed svých učedníků, a řekl: Pokoj vám. Alleluja.",
+        "Francais": "Alleluia, alleluia Au jour de ma résurrection, dit le Seigneur, je vous précéderai en Galilée. Après huit jours, les portes étant fermées, Jésus se tint au milieu de ses disciples, et il leur dit : La paix soit avec vous. Alléluia.",
+        "Italiano": "Alleluia, alleluia Il giorno della mia risurrezione, dice il Signore, mi seguirete in Galilea. Otto giorni dopo, a porte chiuse, Gesù si fece vedere in mezzo ai suoi discepoli, e disse: pace a voi. Allelúia.",
+        "Nederlands": "Alleluia, alleluia. Op de dag van mijn verrijzenis, zegt de Heer, zal Ik u voorgaan naar Galilea. Alleluia.",
+        "Polski": "Alleluja, alleluja. W dzień mojego Zmartwychwstania – mówi Pan – pójdę przed wami do Galilei. Alleluja. Po ośmiu dniach, mimo drzwi zamkniętych, stanął Jezus pośrodku uczniów swoich i rzekł: Pokój wam. Alleluja.",
+        "Portugues": "Aleluia, aleluia.  No dia da minha ressurreição, diz o Senhor, irei adiante de vós para a Galileia, aleluia. Oito dias depois, estando as portas fechadas, Jesus veio e, estando no meio dos seus discípulos, disse: «A paz seja convosco», aleluia.",
+        "Ukrainian": "Aлілуя, aлілуя. В день воскресіння Мого, говорить Господь, випереджу вас у Галілеї. Алілуя. По вісьмох днях, коли двері були замкнені, Ісус стає поміж учнів своїх та й каже: Мир вам! Алілуя."
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) AL(e)le(ef//efE'D)lú(df!hvvij){ia}.(i.) *(;) (hi/jh//j_ijvIH.fhG'Effe.) (;) (df!hvvijh//j_ijvIH.fhG'Effe.) (,) (df!hvvijIH'hvG'FEffe.) (::) <sp>V/</sp>. Post(ef) di(hg)es(hi) o(ij/kjkvJIjk)cto,(ji..) (;) já(ihh)nu(f)is(fhG'Fg) clau(efe___)sis,(e.) (:) ste(e)tit(ehg) Je(hih)sus(i.) (;) in(i) mé(ij/kjkvJIjk)di(ji)o(i.) (,) di(i)sci(ij)pu(i)ló(ihh)rum(f) su(fhG'Fg)ó(efe___)rum,(e.) (:) et(e) di(e)xit :(ef//efE'D) (,) *() Pax(df/h_f) vo(hi'j)bis.(i.) (;) (hi/jh//j_ijvIH.fhG'Effe.) (;) (df!hvvijh//j_ijvIH.fhG'Effe.) (,) (df!hvvijIH'hvG'FEffe.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. After eight days, the doors being shut, Jesus stood in the midst of His disciples and said: Peace be to you. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Acht dagen later stond Jezus, terwijl de deuren gesloten bleven, midden tussen zijn leerlingen en zei: Vrede zij u. Alleluia."
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Cum sero esset die illo, una sabbatórum, et fores essent clausæ, ubi erant discípuli congregáti propter metum Judæórum: venit Jesus, et stetit in médio, et dixit eis: Pax vobis. Et cum hoc dixísset, osténdit eis manus et latus. Gavísi sunt ergo discípuli, viso Dómino. Dixit ergo eis íterum: Pax vobis. Sicut misit me Pater, et ego mitto vos. Hæc cum dixísset, insufflávit, et dixit eis: Accípite Spíritum Sanctum: quorum remiséritis peccáta, remittúntur eis; et quorum retinuéritis, reténta sunt. Thomas autem unus ex duódecim, qui dícitur Dídymus, non erat cum eis, quando venit Jesus. Dixérunt ergo ei álii discípuli: Vídimus Dóminum. Ille autem dixit eis: Nisi vídero in mánibus ejus fixúram clavórum, et mittam dígitum meum in locum clavórum, et mittam manum meam in latus ejus, non credam. Et post dies octo, íterum erant discípuli ejus intus, et Thomas cum eis. Venit Jesus, jánuis clausis, et stetit in médio, et dixit: Pax vobis. Deínde dicit Thomæ: Infer dígitum tuum huc et vide manus meas, et affer manum tuam et mitte in latus meum: et noli esse incrédulus, sed fidélis. Respóndit Thomas et dixit ei: Dóminus meus et Deus meus. Dixit ei Jesus: Quia vidísti me, Thoma, credidísti: beáti, qui non vidérunt, et credidérunt. Multa quidem et ália signa fecit Jesus in conspéctu discipulórum suórum, quæ non sunt scripta in libro hoc. Hæc autem scripta sunt, ut credátis, quia Jesus est Christus, Fílius Dei: et ut credéntes vitam habeátis in nómine ejus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, when it was late that same day, the first of the week, and the doors were shut, where the disciples were gathered together for fear of the Jews, Jesus came, and stood in the midst and said to them: Peace be to you. And when He had said this, He showed them His hands and His side. The disciples therefore were glad, when they saw the Lord. He said therefore to them again: Peace be to you. As the Father hath sent Me, I also send you. When He had said this, He breathed on them, and He said to them: Receive ye the Holy Ghost: whose sins you shall forgive, they are forgiven them; and whose sins you shall retain, they are retained. Now Thomas, one of the Twelve, who is called Didymus, was not with them when Jesus came. The other disciples therefore said to him: We have seen the Lord. But he said to them: Except I shall see in His hands the print of the nails, and put my finger into the place of the nails, and put my hand into His side, I will not believe. And after eight days, again His disciples were within, and Thomas with them. Jesus cometh, the doors being shut, and stood in the midst, and said: Peace be to you. Then He saith to Thomas: Put in thy finger hither, and see My hands, and bring hither thy hand, and put into My side; and be not faithless, but believing. Thomas answered and said to Him: my Lord and my God. Jesus saith to him: Because thou hast seen Me, Thomas, thou hast believed; blessed are they that have not seen, and have believed. Many other signs also did Jesus in the sight of His disciples, which are not written in this book. But these are written, that you may believe that Jesus is the Christ, the Son of God; and that, believing, you may have life in His Name.",
+        "Bohemice": "Za onoho času, navečer toho prvního dne v týdnu přišel Ježíš tam, kde byli učedníci. Ze strachu před židy měli dveře zavřeny. Stanul mezi nimi a řekl: „Pokoj vám!“ Po těch slovech jim ukázal ruce a bok. Když učedníci viděli Pána, zaradovali se. Znovu jim řekl: „Pokoj vám! Jako Otec poslal mne, tak i já posílám vás.“ Po těch slovech na ně dechl a řekl jim: „Přijměte Ducha svatého! Komu hříchy odpustíte, tomu jsou odpuštěny, komu je neodpustíte, tomu odpuštěny nejsou.“ Tomáš, jeden ze Dvanácti, zvaný Blíženec, nebyl s nimi, když Ježíš přišel. Ostatní učedníci mu říkali: „Viděli jsme Pána!“ On jim však odpověděl: „Dokud neuvidím na jeho rukou jizvy po hřebech a nevložím svůj prst na místo hřebů a nevložím svou ruku do jeho boku, neuvěřím!“ Za týden byli jeho učedníci zase uvnitř a Tomáš s nimi. Ježíš přišel zavřenými dveřmi, stanul mezi nimi a řekl: „Pokoj vám!“ Potom vyzval Tomáše: „Vlož sem prst a podívej se na mé ruce, vztáhni ruku a vlož ji do mého boku; a nebuď nevěřící, ale věřící.“ Tomáš mu odpověděl: „Pán můj a Bůh můj!“ Ježíš mu řekl: „Protože jsi mě uviděl, uvěřil jsi. Blahoslavení, kdo neviděli, a přesto uvěřili!“ Ježíš vykonal před svými učedníky ještě mnoho jiných zázraků, ale o těch v této knize není řeč. Tyto však jsem zaznamenal, abyste věřili, že Ježíš je Mesiáš, Syn Boží, a s vírou abyste měli život v jeho jménu.",
+        "Francais": "En ce temps-là, comme c'était le soir de ce même jour, le premier de la semaine, les portes du lieu où se trouvaient les disciples étant fermées, parce qu'ils craignaient les Juifs, Jésus vint, et se présentant au milieu d'eux, il leur dit : « La paix soit avec vous ! » Ayant ainsi parlé, il leur montra ses mains et son côté. Les disciples furent remplis de joie en voyant le Seigneur. Il leur dit une seconde fois : « La paix soit avec vous ! Comme mon Père m'a envoyé, moi aussi je vous envoie. » Après ces paroles, il souffla sur eux et leur dit : « Recevez l'Esprit-Saint. Ceux à qui vous remettrez les péchés, ils leur seront remis ; et ceux à qui vous les retiendrez, ils leur seront retenus. » Mais Thomas, l'un des douze, celui qu'on appelle Didyme, n'était pas avec eux lorsque Jésus vint. Les autres disciples lui dirent donc : « Nous avons vu le Seigneur. » Mais il leur dit : « Si je ne vois dans ses mains la marque des clous, et si je ne mets mon doigt à la place des clous et ma main dans son côté, je ne croirai point. » Huit jours après, les disciples étant encore dans le même lieu, et Thomas avec eux, Jésus vint, les portes étant fermées, et se tenant au milieu d'eux, il leur dit : « La paix soit avec vous ! » Puis il dit à Thomas : « Mets ici ton doigt, et regarde mes mains ; approche aussi ta main, et mets-la dans mon côté ; et ne sois plus incrédule, mais croyant. » Thomas lui répondit : « Mon Seigneur, et mon Dieu ! » Jésus lui dit : « Parce que tu m'as vu, Thomas, tu as cru. Heureux ceux qui n'ont pas vu et qui ont cru. » Jésus a fait encore en présence de ses disciples beaucoup d'autres miracles qui ne sont pas écrits dans ce livre. Mais ceux-ci ont été écrits, afin que vous croyiez que Jésus est le Christ, le Fils de Dieu, et qu'en croyant vous ayez la vie en son nom.",
+        "Italiano": "In quel tempo, la sera di quel giorno, il primo della settimana, essendo, per paura dei Giudei, chiuse le porte del luogo dove si trovavano i discepoli, venne Gesù, si presentò in mezzo a loro e disse: Pace a voi! E detto ciò mostrò loro le mani e il costato. E i discepoli gioirono nel vedere il Signore. Ed egli disse loro di nuovo: Pace a voi! Come il Padre ha mandato me, così anch’io mando voi. E detto questo, soffiò su di loro e disse: Ricevete lo Spirito Santo. A chi rimetterete i peccati, saranno rimessi; a chi li riterrete, essi saranno ritenuti. E uno dei dodici, Tommaso, detto Didimo, non era con loro quando venne Gesù. Ora gli altri discepoli gli dissero: Abbiamo visto il Signore. Ma egli rispose loro: Non crederò se non dopo aver visto nelle sue mani la piaga fatta dai chiodi e aver messo il mio dito dove erano i chiodi e la mia mano nella ferita del costato. Otto giorni dopo i discepoli si trovavano di nuovo in casa e Tommaso era con loro. Venne Gesù a porte chiuse e stando in mezzo a loro disse: Pace a voi! Poi disse a Tommaso: Metti qua il tuo dito, e guarda le mie mani; accosta anche la tua mano e mettila nel mio costato; e non voler essere incredulo, ma fedele. Tommaso gli rispose: Signore mio e Dio mio! E Gesù: Tommaso, tu hai creduto perché mi hai visto con i tuoi occhi; beati coloro che non vedono eppure credono. Gesù fece ancora, in presenza dei suoi discepoli, molti altri miracoli, che non sono stati scritti in questo libro. Queste cose sono state scritte, affinché crediate che Gesù è il Cristo, il Figlio di Dio, e affinché credendo, abbiate vita nel nome di lui .",
+        "Nederlands": "In die tijd, toen de avond van die dag, de eerste dag der week, reeds was gevallen, en de deuren van de plaats, waar de leerlingen samen waren, uit vrees voor de Joden waren gesloten, kwam Jezus, en stond plotseling in hun midden; en Hij sprak tot hen: Vrede zij u! En na dit gezegd te hebben, toonde Hij hun zijn handen en zijn zijde. En de leerlingen waren zeer verheugd, toen zij de Heer zagen. Vervolgens sprak Hij andermaal tot hen: Vrede zij u! Zoals de Vader Mij gezonden heeft, zo zend Ik u. En na deze woorden blies Hij over hen en zeide hun: Ontvangt de Heilige Geest. Aan wie gij de zonden vergeeft, hun zijn ze vergeven, en aan wie gij de zonden laat houden, zij blijven ze houden. Maar Thomas, één van de Twaalf, ook wel Didymus genoemd, was niet bij hen, toen Jezus kwam. Daarom zeiden de andere leerlingen tot hem: Wij hebben de Heer gezien! Maar hij antwoordde hun: Als ik niet in zijn handen de wonden der nagelen zie, en mijn vinger niet in de plaats van de nagelen kan steken, en mijn hand niet kan leggen in zijn zijde, zal ik niet geloven. En acht dagen later waren zijn leerlingen weer daarbinnen bijeen; en ook Thomas was bij hen. En terwijl de deuren gesloten bleven, kwam Jezus binnen; en plotseling stond Hij in hun midden, en sprak: Vrede zij u! Daarop zeide Hij tot Thomas: Steek uw vinger hierin, en bezie mijn handen; en kom hier met uw hand, en leg ze in mijn zijde; en wees niet meer ongelovig, maar gelovig! Thomas gaf Hem ten antwoord: Mijn Heer en mijn God! Toen sprak Jezus tot hem: Omdat gij Mij gezien hebt, Thomas, daarom gelooft gij; zalig zij, die niet zien, en toch geloven. Nog vele andere tekenen, heeft Jezus voor het oog van zijn leerlingen verricht, die in dit boek niet staan opgetekend. Maar deze zijn opgetekend, opdat gij zoudt geloven, dat Jezus de Christus is, de Zoon van God, en opdat gij door dat geloof het leven moogt bezitten in zijn Naam.",
+        "Polski": "Onego czasu: Wieczorem dnia owego, pierwszego po szabacie, gdy drzwi były zamknięte tam, gdzie z bojaźni gromadzili się uczniowie, przyszedł Jezus, stanął między nimi i rzekł im: «Pokój wam». A to powiedziawszy ukazał im ręce i bok. Uradowali się tedy uczniowie, ujrzawszy Pana. Rzekł im przeto znowu: «Pokój wam. Jako mnie posłał Ojciec i ja was posyłam». To powiedziawszy tchnął na nich i rzekł im: «Weźmijcie Ducha Świętego. Którym odpuścicie grzechy, są im odpuszczone, a którym zatrzymacie, są im zatrzymane». A Tomasz, jeden z dwunastu, zwany Didymus, nie był razem z nimi, kiedy przyszedł Jezus. Powiedzieli mu tedy inni uczniowie: «Widzieliśmy Pana». A on im rzekł: «Jeśli nie ujrzę na rękach Jego przebicia gwoźdźmi i nie włożę palca mego w miejsce gwoździ, i nie włożę ręki mojej w bok Jego, nie uwierzę». A po ośmiu dniach byli znowu uczniowie Jego w domu i Tomasz z nimi. Wszedł Jezus, a drzwi były zamknięte, stanął między nimi i rzekł: «Pokój wam». Potem rzekł do Tomasza. «Włóż tu palec twój i oglądaj ręce moje, i wyciągnij rękę twoją, i włóż w bok mój, a nie bądź niewiernym, lecz wierzącym». A odpowiadając Tomasz rzekł Mu: «Pan mój i Bóg mój». Rzecze mu Jezus: «Uwierzyłeś dlatego żeś mię ujrzał. Tomaszu, błogosławieni, którzy nie widzieli, a uwierzyli». Wiele też innych jeszcze cudów uczynił Jezus wobec uczniów swoich, które nie są w tej księdze spisane. Te zaś spisane są, abyście uwierzyli, że Jezus jest Chrystusem, Synem Bożym, i żebyście przez wiarę żywot mieli w imię Jego.",
+        "Portugues": "Naquele tempo, chegada a tarde daquele dia, que era o primeiro da semana, encontrando-se os discípulos reunidos em um lugar, cujas portas estavam fechadas, por causa do medo que tinham dos judeus, veio Jesus, e, estando no meio deles, disse: «A paz seja convosco!». Depois de dizer isto, mostrou as suas mãos e o seu lado. E alegraram-se os discípulos, vendo o Senhor. E disse-lhes novamente: «A paz seja convosco! Assim como meu Pai me enviou, assim também vos envio». Ditas estas palavras, soprou sobre eles, dizendo: «Recebei o Espírito Santo. Àqueles a quem perdoardes os pecados, ser-lhes-ão perdoados, e àqueles a quem os retiverdes, ser-lhes-ão retidos». Porém Tomé, um dos Doze, que era chamado Dídimo, não estava com eles. Disseram-lhe, então, os outros discípulos: «Vimos o Senhor!». Ele respondeu-lhes: «Se não vir nas suas mãos o sinal dos cravos, se não meter o meu dedo no lugar dos cravos e não meter a minha mão no seu lado, não acreditarei». Passados oito dias, encontravam-se os discípulos outra vez, no mesmo lugar, estando Tomé com eles. E veio Jesus, estando as portas fechadas; e, pondo-se no meio deles, disse: «A paz seja convosco». Em seguida disse a Tomé: «Mete aqui o teu dedo e vê as minhas mãos; aproxima, também, a tua mão e mete-a no meu lado; e não sejas incrédulo, mas fiel». Respondeu Tomé: «Meu Senhor e meu Deus!». Disse-lhe Jesus: «Porque me viste, ó Tomé, acreditaste: bem-aventurados aqueles que não viram e acreditaram». Jesus fez ainda na presença de seus discípulos muitos outros milagres, que não foram escritos neste livro; mas estes foram, a fim de que acrediteis que Jesus Cristo é Filho de Deus; e, acreditando, alcanceis a vida eterna em seu nome.",
+        "Ukrainian": "Tого часу, як звечоріло, того самого дня, першого в тижні, – а двері ж були замкнені там, де перебували учні: страхались бо юдеїв, – увіходить Ісус, став посередині та й каже їм: «Мир вам!» Це промовивши, показав їм руки й бік. І врадувались учні, побачивши Господа. І ще раз Ісус їм каже: «Мир вам!» Як мене послав Отець, так я посилаю вас.» Це промовивши, дихнув на них і каже їм: «Прийміть Духа Святого! Кому відпустите гріхи – відпустяться їм, кому ж затримаєте – затримаються.» Тома ж, один з дванадцятьох, на прізвисько Близнюк, не був з ними, коли то прийшов був Ісус. Тож повідали йому інші учні: «Ми Господа бачили.» Та він відрік: «Якщо не побачу на його руках знаків від цвяхів і не вкладу свого пальця у місце, де були цвяхи, а й руки моєї не вкладу в бік його, – не повірю!» По вісьмох днях знову були вдома його учні, а й Тома з ними. І ввіходить Ісус, – а двері були замкнені! – стає посередині та й каже: «Мир вам!» А тоді промовляє до Томи: «Подай сюди твій палець і глянь на мої руки. І руку твою простягни і вклади її у бік мій. Та й не будь невіруючий, – а віруючий!» І відказав Тома, мовивши до нього: «Господь мій і Бог мій!» І каже йому Ісус: «Побачив мене, то й віруєш. Щасливі ті, які, не бачивши, увірували!» Ще й інші численні чудеса, що їх не списано у цій книзі, вчинив Ісус на очу своїх учнів. А ції – списано, щоб увірували ви, що Ісус – Христос, Син Божий, а вірувавши, – щоб мали життя в його ім’я."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AN(fg~)ge(g.!hjHG'gf/ghg___)lus(g.) *(,) Dó(hg/h!jjkvJH)mi(gfh)ni(h.) (;) de(h)scén(jhhf/ghGF'/!fde'1c)(,)(cd!ff/gh!jvHG'gfg)dit(g.) (;) de(g.h!iwj) cae(jji/j_g//h!jijkljj)lo,(ki/jhhg.) (;) et(g) di(gggvED'eg'hvGF'g)xit(g.) (,) mu(g)li(hj)é(ig/h!jj/klK'Ijkj)ri(ij)bus :(hig.) (:) Quem(gh~) quaé(hvGFgvFEf./ghffdg)ri(fg)tis,(g.) (;) sur(h)ré(gjI'Ghh//fh!jvGF'fd/ef!ghg)xit,(g.) (;) sic(g)ut(gj) di(jji/jhhg)xit,(h.) (;) al(h!iwji~)le(jkJH'//gi. hjIH'//g!jj/h_i_g_)lú(ghg___){ia}.(g.) (::)",
+      "availableTranslations": {
+        "English": "An Angel of the Lord descended from heaven, and said to the women; He whom you seek is risen, as He said. Alleluia.",
+        "Bohemice": "Anděl Páně sestoupil z nebe, a řekl ženám: Ten, koho hledáte, vstal z mrtvých, jak sám řekl. Alleluja.",
+        "Francais": "L'ange du Seigneur descendit du ciel, et il dit aux femmes : Celui que vous cherchez est ressuscité comme il l'avait dit, alléluia.",
+        "Italiano": "Un Angelo del Signore discese dal cielo e disse alle donne: Quegli che voi cercate è risuscitato come aveva detto, alleluia.",
+        "Nederlands": "Angelus Dómini descéndit de cœlo, et dixit muliéribus: Quem quǽritis, surréxit, sicut dixit, allelúja.",
+        "Polski": "Anioł Pański zstąpił z nieba i rzekł niewiastom: Ten, którego szukacie zmartwychwstał jak zapowiedział, alleluja.",
+        "Portugues": "Um anjo do Senhor desceu do céu e disse às mulheres: «Aquele a quem procurais ressuscitou, como havia anunciado», aleluia.",
+        "Ukrainian": "Ангел Господній зійшов з неба й мовить до жінок: Той, Кого шукаєте, воскрес, як прорік, аллілуя."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Súscipe múnera, Dómine, quǽsumus, exsultántis Ecclésiæ: et, cui causam tanti gáudii præstitísti, perpétuæ fructum concéde lætítiæ.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Receive, we beseech Thee, O Lord, the gifts of Thine exultant Church: and to her whom Thou hast given cause for so great joy, grant the fruit of perpetual happiness.",
+        "Bohemice": "Přijmi dary, prosíme, Pane, jásající Církve; a když jsi jí dal důvod k takové radosti, uděl jí i dar radosti věčné.",
+        "Francais": "Accueillez, Seigneur, les présents de votre Église transportée d'allégresse, et puisque vous lui avez donné un si grand sujet de joie, accordez-lui le bienfait d'un bonheur sans fin.",
+        "Italiano": "Signore, ricevi i doni della Chiesa esultante; e, a chi hai dato causa di tanta gioia, concedi il frutto di eterna letizia.",
+        "Nederlands": "Aanvaard, Heer, vragen wij U, de gaven van uw jubelende Kerk en laat haar, die Gij reden gegeven hebt tot zo grote vreugde, de vrucht van de eeuwige vreugde oogsten.",
+        "Polski": "Przyjmij prosimy Cię, Panie, dary weselącego się Kościoła i skoro dałeś mu powód do tak wielkiej radości, udziel mu jako owocu pełni radości wiekuistej.",
+        "Portugues": "Aceitai, Senhor, Vos suplicamos, as ofertas que a vossa Igreja alegremente Vos consagra; e, assim como lhe proporcionastes a graça de tão grande gozo; concedei-lhe, também o fruto da eterna alegria.",
+        "Ukrainian": "Прийми, просимо Тебе, Господи, дари ликуючої Церкви, і дарувавши їй причину настільки великої радості, подай і плід вічної веселості."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) MIt(ffg)te(f) *() ma(gh)num(g) tu(f)am,(ghg.) (,) et(fvE~D~) co(f)gnó(g)sce(f) lo(f)ca(f) cla(f)vó(f)rum,(g.) (,) al(fd~)le(f)lú(ixg!hw!ivH~G~){ia} :(hg..) (:) et(fd~) no(f)li(g) es(h)se(g) in(f)cré(g)du(fe)lus,(d.) (,) sed(f) fi(f)dé(d_e_c_)lis,(c.) (;) al(f)le(g)lú(ixi){ia},(h.) (,) al(ixi)le(hv.gih)lú(f_g_f_){ia}.(f.) (::)",
+      "availableTranslations": {
+        "English": "Put in thy hand, and know the place of the nails, alleluia; and be not faithless, but believing, alleluia, alleluia.",
+        "Bohemice": "Vezmi svou ruku, a dotkni se míst po hřebech, alleluja; a nebuď nevěřící, ale věřící, alleluja, alleluja.",
+        "Francais": "Avance ta main et reconnais l'endroit des clous, alléluia ; et ne sois pas incrédule, mais croyant, alléluia, alléluia.",
+        "Italiano": "Metti la tua mano, e riconosci il posto dei chiodi, alleluia; e non essere incredulo, ma fedele, alleluia, alleluia.",
+        "Nederlands": "Steek uw hand uit en zie de plaats der spijkers, alleluia, en wees niet ongelovig, maar gelovig, alleluia, alleluia.",
+        "Polski": "Włóż rękę twoją i rozpoznaj miejsce gwoździ, alleluja i nie bądź niewiernym lecz wierzącym, alleluja, alleluja.",
+        "Portugues": "Mete aqui o teu dedo e toca no lugar dos cravos, aleluia; não sejas incrédulo, mas fiel, aleluia, aleluia.",
+        "Ukrainian": "Вклади руку твою і пізнай рани від цвяхів, алілуя. Та й не будь невіруючий, але віруючий, аллілуя, аллілуя."
+      },
+      "mode": "6",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro reparatiónis nostræ munímine contulísti; et præsens nobis remédium esse fácias et futúrum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "We beseech Thee, O Lord, our God, to make the most holy Mysteries which Thou hast given us as a defense of our renewal, a remedy for us now, and in the future.",
+        "Bohemice": "Prosíme tě, Pane, náš Bože; uděl, aby posvátná tajemství, jež jsi nám k obraně naší obnovy udělil, se nám stala lékem naším přítomným i budoucím.",
+        "Francais": "Puissions-nous, Seigneur notre Dieu, trouver dans les saints mystères que vous avez établis pour affermir l'œuvre de notre rédemption, un remède à nos maux présents et à venir.",
+        "Italiano": "Ti preghiamo, Signore Dio nostro, che i sacrosanti misteri, che tu hai dato a presidio del nostro rinnovamento, ci siano rimedio nel presente e nell’avvenire.",
+        "Nederlands": "Wij vragen U, Heer, onze God, dat Gij de heilige geheimen, die Gij hebt ingesteld om de vruchten der verlossing te bewaren, ons een heilmiddel doet zijn voor tijd en eeuwigheid.",
+        "Polski": "Prosimy Cię, Panie, Boże nasz, aby święte tajemnice, które ustanowiłeś dla zapewnienia naszego zbawienia, stały się lekarstwem dla życia doczesnego i przyszłego.",
+        "Portugues": "Vos suplicamos, Senhor, nosso Deus, permiti que estes sacrossantos mystérios, que instituístes para alcançarmos a regeneração, sejam nosso remédio salutar no presente e no futuro.",
+        "Ukrainian": "ПросимоТебе, Господи, Боже наш: зроби найсвятіші Тайни, які Ти подав на охорону нашого відновлення, нашим зціленням і нині, і в майбутньому."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

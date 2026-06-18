@@ -1,0 +1,844 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "Septem Dolorum Beatæ Mariæ Virginis",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) STA(ixdh'!iv)BANT(h) *(,) jux(h)ta(h) cru(gfh)cem(h) Je(ixhg/ih)su(h.) (,) ma(h)ter(jj) e(jk)jus,(h.) (;) et(h) so(fg'h)ror(hg) ma(h)tris(ji) e(j)jus(h.) (,) Ma(jj)rí(j)a(kvJ'Ij') Clé(h)o(h_i_h_)phæ,(h.) (:) et(h) Sa(f)ló(gh)me,(hghvGFD'ewf.) (;) et(d!fff) Ma(fd)rí(fh)a(g) Ma(g)gda(hfgvFE)lé(d!ewfef)ne.(ed..) (::) ~~<sp>V/</sp>. Mú(f)li(gh)er,(h) ec(h)ce(h) fí(h)li(h)us(h) tu(h)us,(h) di(hj)xit(h) Je(hg)sus;(gh..) *(:) ad(gf~) di(gh)scí(h)pu(h)lum(h) au(h)tem :(h.) (,) Ec(h)ce(hjh) ma(g')ter(f) tu(fff)a.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
+      "availableTranslations": {
+        "English": "There were standing by the Cross of Jesus His Mother, and His Mother’s sister, Mary of Cleophas, and Salome, and Mary Magdalene. Woman, behold your son, said Jesus; and to the disciple, Behold your mother.",
+        "Espanol": "Estaban junto a la cruz de Jesús, su Madre, y la hermana de su Madre María de Cleofás y Salomé y la María Magdalena. Mujer, ahí tienes a tu hijo ; dijo Jesús, y al discípulo: Ahí tienes a tu Madre.",
+        "Francais": "Debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Salomé, et Marie-Madeleine. Femme, voilà votre fils : dit Jésus. Puis iau disciple : Voilà ta mère.",
+        "Italiano": "Stavano presso la croce di Gesù sua madre, la sorella di sua madre, Maria di Clèofa, e Salome, e Maria Maddalena. Donna, ecco tuo figlio, disse Gesù; e al discepolo: Ecco tua madre.",
+        "Magyar": "Üdvözlégy szent szülő, mert te szülted a Királyt, ki az eget és a földet kormányozzae mindörökkön örökké. (Allelúja, allelúja.) Szívem ünnepi szózattól árad, zengem dalomat a Királynak.",
+        "Nederlands": "Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María Cléophæ, et Salóme et María Magdaléne. Múlier, ecce fílius tuus: dixit Jesus; ad discípulum autem: Ecce Mater tua.",
+        "Polski": "Pod krzyżem Jezusowym stały Matka Jego i siostra Matki Jego, Maria Kleofasowa i Salome, oraz Maria Magdalena. Niewiasto, oto syn Twój, rzekł Jezus, a potem uczniowi: Oto Matka twoja.",
+        "Portugues": "Estavam junto à Cruz de Jesus, sua Mãe, a irmã de sua Mãe, Maria, mulher de Cléofas, Salomé e Maria Madalena. «Mulher disse Jesus eis o vosso Filho»; e, dirigindo-se ao discípulo, disse: «Eis a tua Mãe»."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, in cujus passióne, secúndum Simeónis prophetíam, dulcíssimam ánimam gloriósæ Vírginis et Matris Maríæ dolóris gladius pertransívit: concéde propítius; ut, qui transfixiónem ejus et passiónem venerándo recólimus, gloriósis méritis et précibus ómnium Sanctórum Cruci fidéliter astántium intercedéntibus, passiónis tuæ efféctum felícem consequámur:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, in Whose Passion the sword, according to the prophecy of blessed Simeon, pierced through the soul of Mary, the glorious Virgin and Mother, mercifully grant that we, who reverently commemorate her piercing through and her suffering, may, by the interceding glorious merits of all the saints faithfully standing by the Cross, obtain the abundant fruit of Your passion.",
+        "Bohemice": "Bože, při jehož umučení, podle proroctví Simeonova, nejsladší duši přeslavné Panny a Matky Marie pronikl meč bolesti, popřej milostivě, abychom, kdož jejího probodení i utrpení s úctou vzpomínáme, s pomocí slavných zásluh i proseb všech Svatých, kteří věrně stáli u kříže, došli šťastného účinku umučení tvého: ",
+        "Deutsch": "O Gott, bei dessen leidensvollem Tode sich gemäß Simeons Voraussagung ein Schmerzensschwert in die liebenswürdigste Seele der glorienreichen Jungfrau und Mutter Maria hineingebohrt hat, gewähre uns huldvollst die Gnade, daß wir, die wir ihr ausgestandenes Leid in Ehrfurcht begehen, deines Leidens beseligende Wirkung erhalten.",
+        "Espanol": "Oh Dios, en cuya pasión fue traspasada de dolor el alma dulcísima de la gloriosa Virgen y Madre María, según se lo había profetizado ya Simeón; concédenos propicio, que cuantos venerando sus Dolores, hacemos memoria de ellos, consigamos el feliz efecto de tu sagrada pasión.",
+        "Francais": "Ô Dieu, dans la passion duquel suivant la prophétie de Siméon, un glaive de douleur a percé le cœur très doux de la glorieuse Vierge Marie, votre Mère, faites, dans votre miséricorde, que célébrant avec respect le souvenir de ses douleurs, nous recueillions les heureux fruits de votre passion.",
+        "Italiano": "O Dio, nella tua passione, una spada di dolore ha trafitto, secondo la profezia di Simeone, l'anima dolcissima della gloriosa vergine e madre Maria: concedi a noi, che celebriamo con venerazione i suoi dolori, di ottenere il frutto felice della tua passione:",
+        "Magyar": "Engedd, kérünk, Úristen, hogy mi, a te szolgáid, folytonos lelki és testi jólétnek örvendhessünk és a boldogságos, mindenkoron Szűz Máriának dicső közbenjárása által a jelen szomorúságtól megszabadulva, örökkétartó örömet élvezzünk.",
+        "Nederlands": "Deus, in cujus passióne, secúndum Simeónis prophetíam, dulcíssimam ánimam gloriósæ Vírginis et Matris Maríæ dolóris gladius pertransívit: concéde propítius; ut, qui transfixiónem ejus et passiónem venerándo recólimus, gloriósis méritis et précibus ómnium Sanctórum Cruci fidéliter astántium intercedéntibus, passiónis tuæ efféctum felícem consequámur:",
+        "Polski": "Boże, podczas Twej męki, według przepowiedni Symeona, miecz boleści przeszył najsłodszą duszę chwalebnej Dziewicy i Matki Maryi; spraw łaskawie, abyśmy rozważając ze czcią Jej boleści, osiągnęli błogi skutek Twej męki:",
+        "Portugues": "Ó Deus, em cuja Paixão, segundo a profecia de Simeão, uma espada de dor traspassou a terníssima alma da Virgem Maria, vossa Mãe, concedei-nos propício que, celebrando devotadamente a memória das suas dores, alcancemos o feliz efeito da vossa Paixão."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Benedíxit te Dóminus in virtúte sua, quia per te ad níhilum redégit inimícos nostros. Benedícta es tu, fília, a Dómino, Deo excélso, præ ómnibus muliéribus super terram. Benedíctus Dóminus, qui creávit cœlum et terram: quia hódie nomen tuum ita magnificávit, ut non recédat laus tua de ore hóminum, qui mémores fúerint virtútis Dómini in ætérnum, pro quibus non pepercísti ánimæ tuæ propter angústias et tribulatiónem géneris tui, sed subvenísti ruínæ ante conspéctum Dei nostri.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "The Lord has blessed you by His power, Who by you has brought our enemies to nought. Blessed are you, O daughter, by the Lord the Most High God, above all women upon the earth. Blessed be the Lord Who made heaven and earth, because He has so magnified your name this day, that your praise shall not depart out of the mouth of men, who shall be mindful of the power of the Lord forever: for you have not spared your life by reason of the distress and tribulation of your people, but have prevented our ruin in the presence of our God.",
+        "Espanol": "¡Bendito seas, Dios nuestro, que has aniquilado el día de hoy a los enemigos de tu pueblo! ¡Bendita seas, hija del Dios Altísimo más que todas las mujeres de la tierra! Y bendito sea Dios, el Señor, Creador del cielo y de la tierra, que ha engrandecido tu nombre,  y  tu alabanza no faltará en la boca de los hombres, que recordarán la fuerza de Dios eternamente, porque no vacilaste en exponer tu vida a causa de la humillación de nuestra raza, al hacer cesar nuestra ruina ante nuestro Dios.",
+        "Francais": "Le Seigneur vous a bénie de sa force, et il a anéanti par vous nos ennemis. Vous êtes bénie, ma fille, par le Seigneur, le Très Haut, plus que toutes les femmes qui sont sur la terre. Béni soit le Seigneur qui a créé le ciel et la terre, car il a rendu aujourd’hui votre nom si célèbre, que les hommes, se souvenant à jamais de la puissance du Seigneur, ne cesseront jamais de vous louer, parce que vous n’avez pas épargné votre vie pour eux, en voyant les angoisses et les tribulations de votre peuple ; mais vous avez empêché sa ruine en présence de notre Dieu.",
+        "Italiano": "Il Signore nella sua potenza ti ha benedetta: per mezzo tuo ha annientato i nostri nemici. Benedetta sei tu, o figlia, dal Signore Dio altissimo più di ogni altra donna sulla terra. Benedetto il Signore, che ha creato il cielo e la terra, perché oggi egli ha tanto esaltato il tuo nome, che la tua lode non cesserà nella bocca degli uomini: essi ricorderanno in eterno la potenza del Signore. Perché tu non hai risparmiato per loro la tua vita davanti alle angustie e alla afflizione della tua gente: ci hai salvato dalla rovina, al cospetto del nostro Dio.",
+        "Magyar": "Mindnyájan pedig imádván az Urat, mondák neki: Az Úr megáldott téged az ő erejével, mert általad semmivé tette ellenségeinket. Mert ma a te nevedet úgy felmagasztalta, hogy el nem távozik dicséreted az emberek szájától, kik megemlékeznek az Úr erejéről mindörökké; mivelhogy nem kimélted éltedet a te nemzetséged szorongatásaért és sanyarúságaért, hanem elejét vetted a romlásnak a mi Istenünk színe előtt.",
+        "Nederlands": "Benedíxit te Dóminus in virtúte sua, quia per te ad níhilum redégit inimícos nostros. Benedícta es tu, fília, a Dómino, Deo excélso, præ ómnibus muliéribus super terram. Benedíctus Dóminus, qui creávit cœlum et terram: quia hódie nomen tuum ita magnificávit, ut non recédat laus tua de ore hóminum, qui mémores fúerint virtútis Dómini in ætérnum, pro quibus non pepercísti ánimæ tuæ propter angústias et tribulatiónem géneris tui, sed subvenísti ruínæ ante conspéctum Dei nostri.",
+        "Polski": "Pobłogosławił Cię Pan w mocy swojej, bo przez Cię wniwecz obrócił naszych nieprzyjaciół. Błogosławionaś Ty, Córko, przez Pana Boga wysokiego nad wszystkie niewiasty na ziemi. Błogosławiony Pan, który stworzył niebo i ziemię… Bo dziś imię Twe tak wsławił, iż chwała Twa nigdy nie zejdzie z ust ludzi, którzy pomni będą na wieki mocy Pańskiej. Dla nich to samej siebie nie szczędziłaś z powodu utrapienia i udręki rodu Twojego, lecz zapobiegłaś upadkowi przed obliczem Boga naszego.",
+        "Portugues": "O Senhor vos abençoou com seu poder, aniquilando por vosso intermédio todos nossos inimigos. Bendita sois vós entre as mulheres da terra, ó filha do Senhor, Deus Altíssimo. Bendito seja o Senhor, que criou o céu e a terra; pois de tal modo glorificou o vosso nome que todos os homens vos louvarão, lembrando-se para sempre do nome do Senhor. Não poupastes a vossa vida, sentindo a aflição e as angústias do povo, mas remediastes a sua ruína, perante o nosso Deus."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DO(fe)lo(fg)ró(g)sa(gv.ff/ded.) (,) *() et(f) la(dfe)cri(fg)má(gff)bi(df)lis(egF'E) es,(e.) (;) Vir(ed~)go(g) Ma(hj)rí(i!jw!kvJI'H//fhf/gh)a,(g.) (:) stans(df) jux(feg)ta(gefd) cru(cd)cem(d.) (,) Dó(f)mi(gh)ni(ixh.0/ivHG'h/ef'g) Je(gf/hhvGE'fd)su(d.) (;) Fí(dc)li(f)i(gh) tu(ixh.0/ivHG')i(ef'g) Red(g)em(df)ptó(efED.)(,)(ixf.0/hiHG'ge./ghGF'Ef_gF'E)ris.(e.) (::) <sp>V/</sp>. Vir(h)go(ixjhhgh/ef'g eg!ivHGhvFDe.) (,) (ghF'Eghfff'1dfED'fg'h) (,) De(gf/gh)i(g) Gé(f)ni(ghgh)trix,(hgh'1f) (;) quem(ed) to(f_g//ef!hvGE'fd)tus(d.) (,) non(e) ca(c)pit(d) or(d!ff//fffdfvED'ef'g)bis,(ghhg.) (:) hoc(h) cru(gf/gh)cis(g) fert(fg) sup(f)plí(f)ci(ghgh)um,(hgh'1f) (,) au(f)ctor(ed) vi(f_g//ef!hvGE'fd)tæ(d.) *(;) fa(cd!ff)ctus(fg) ho(g_f/hgh)mo.(hhf.) (,) (h_ghvFDgff'fvEC//ddc/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
+      "availableTranslations": {
+        "English": "Sorrowful and tearful are you, O Virgin Mary, standing by the Cross of the Lord Jesus, your Son and Redeemer. O Virgin Mother of God, He Whom the whole earth contains not, the Author of life, made man, bears this anguish of the Cross. Holy Mary, the Queen of heaven and mistress of the world, stood by the Cross of our Lord Jesus Christ, full of sorrows.",
+        "Espanol": "Dolorosa y llorosa, oh Virgen María, estás al pie de la cruz del Señor Jesús tu Hijo, el Redentor. ¡Oh Virgen Madre de Dios! Aquel a quien el mundo entero no puede contener, el Autor de la vida hecho hombre, sufre este suplicio de la cruz.",
+        "Francais": "Douloureuse et en larmes, Vierge Marie, vous vous tenez au pied de la Croix du Seigneur Jésus, votre Fils, le Rédempteur. Vierge Mère de Dieu, celui que le monde ne peut contenir, l’auteur de la vie fait homme, subit ce supplice de la Croix. Alléluia, alléluia. Sainte Marie, la Reine du ciel et Maîtresse du Monde, se tenait pleine de douleurs au pied de la Croix de Notre-Seigneur Jésus-Christ.",
+        "Italiano": "Addolorata e piangente, Vergine Maria, ritta stai presso la croce del Signore Gesù Redentore, Figlio tuo. O Vergine Madre di Dio, Colui che il mondo intero non può contenere, l'Autore della vita, fatto uomo, subisce questo supplizio della croce! Alleluia, alleluia. Stava Maria, Regina del cielo e Signora del mondo, addolorata presso la croce del Signore.",
+        "Nederlands": "Een beeld van droefheid zijt Gij in uw tranen, Maagd Maria, zoals Gij naast het Kruis staat van onze Heer Jezus Christus, uw Zoon, onze Verlosser. Maagd, Moeder van God, Hij, die de gehele wereld niet kan omvatten, verduurt deze straf aan het Kruis. Hij, de Gever van het leven, die mens is geworden. Alleluia, alleluia. De heilige Maria, Koningin van de hemel, stond vol smarten naast het Kruis van onze Heer Jezus Christus.",
+        "Polski": "Bolejąca i zalana łzami stoisz, Dziewico Maryjo, pod krzyżem Pana Jezusa, Syna Swojego i Odkupiciela. Bogarodzico Dziewico, oto Ten, którego cały świat nie zdoła ogarnąć, Twórca życia, stawszy się człowiekiem ponosi haniebną śmierć na krzyżu. Alleluja, alleluja. Święta Maryja, Królowa nieba i Pani świata, stała bolejąca pod krzyżem Pana naszego Jezusa Chrystusa.",
+        "Portugues": "Cheia de dores e de lágrimas, ó Virgem Maria, estavas junto à Cruz do Senhor Jesus, vosso Filho e Redentor. Ó Virgem, Mãe de Deus, Aquele a quem o mundo não pode conter o autor da vida feito homem sofre este suplício da cruz! Aleluia, aleluia. Estava doloroso, junto à Cruz de Nosso Senhor Jesus Cristo, a Rainha do céu e Soberana do mundo, Santa Maria."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) AL(c)le(ee)lú(efehvGF'ge//fvED'C){ia}.(e.) *(;) <i>ij.</i>(iijh/iie./giH'GF'ge/ffe.) (::) <sp>V/</sp>. Vir(eefehvGF'f)ga(e.) Jes(ei)se(jh/iigfge.) fló(e)ru(fvED'C)it :(e.) (:) Vir(ef'g)go(fh//giH'GF'ge.) (,) De(ef/hefvED'C)um(e.) (;) et(e) hó(ef/hgfhg)mi(f)nem(g) gé(hgh)nu(fefvED'C)it :(e.) (:) pa(ii)cem(e.) De(ijIH'i)us(ig) réd(i)di(hvGF)dit,(hvGF'ge.) (;) in(e) se(fg) re(g)con(i)cí(hvGF'ge)li(fvED'C)ans(e.) *(;) i(c)ma(ee) sum(efehvGF'ge//fvED'C)mis.(e.) (;) (iijh/iie./giH'GF'ge/ffe.) (::)",
+      "availableTranslations": null,
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) AL(ef~)le(f/hfghvGE.f'1//hf/gf)lú(ef~){ia}.(f'hvGF.) <clear>*(;) <i>ij.</i>(f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::) <sp>V/</sp>. A(ef)ve(fg/h_f/g_e) Ma(fg!hvGF)rí(ef)a,(f.) (,) grá(fg)ti(e)a(f) ple(fiivHF'E)na :(f.) (;) <nlba>Dó(i_h)mi(i_hivHF'E)nus</nlba>(f.) te(h_g/h_ghvGF'E)cum :(f'hvGF.) (:) be(f)ne(gh'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(;)(fg!h'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(,)(fg!h'i)dí(f_e)cta(e_c) tu(efhvGF.) (;) *() in(ef~) mu(f)li(ef)é(f/hfghvGE.f'1//hf/gf)ri(ef)bus.(f'hvGF.) (;) (f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::)",
+      "availableTranslations": null,
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DO(fe)lo(fg)ró(g)sa(gv.ff/ded.) (,) *() et(f) la(dfe)cri(fg)má(gff)bi(df)lis(egF'E) es,(e.) (;) Vir(ed~)go(g) Ma(hj)rí(i!jw!kvJI'H//fhf/gh)a,(g.) (:) stans(df) jux(feg)ta(gefd) cru(cd)cem(d.) (,) Dó(f)mi(gh)ni(ixh.0/ivHG'h/ef'g) Je(gf/hhvGE'fd)su(d.) (;) Fí(dc)li(f)i(gh) tu(ixh.0/ivHG')i(ef'g) Red(g)em(df)ptó(efED.)(,)(ixf.0/hiHG'ge./ghGF'Ef_gF'E)ris.(e.) (::) <sp>V/</sp>. Vir(h)go(ixjhhgh/ef'g eg!ivHGhvFDe.) (,) (ghF'Eghfff'1dfED'fg'h) (,) De(gf/gh)i(g) Gé(f)ni(ghgh)trix,(hgh'1f) (;) quem(ed) to(f_g//ef!hvGE'fd)tus(d.) (,) non(e) ca(c)pit(d) or(d!ff//fffdfvED'ef'g)bis,(ghhg.) (:) hoc(h) cru(gf/gh)cis(g) fert(fg) sup(f)plí(f)ci(ghgh)um,(hgh'1f) (,) au(f)ctor(ed) vi(f_g//ef!hvGE'fd)tæ(d.) *(;) fa(cd!ff)ctus(fg) ho(g_f/hgh)mo.(hhf.) (,) (h_ghvFDgff'fvEC//ddc/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
+      "availableTranslations": {
+        "English": "Sorrowful and tearful are you, O Virgin Mary, standing by the Cross of the Lord Jesus, your Son and Redeemer. O Virgin Mother of God, He Whom the whole earth contains not, the Author of life, made man, bears this anguish of the Cross. Holy Mary, the Queen of heaven and mistress of the world, stood by the Cross of our Lord Jesus Christ, full of sorrows.",
+        "Espanol": "Dolorosa y llorosa, oh Virgen María, estás al pie de la cruz del Señor Jesús tu Hijo, el Redentor. ¡Oh Virgen Madre de Dios! Aquel a quien el mundo entero no puede contener, el Autor de la vida hecho hombre, sufre este suplicio de la cruz.",
+        "Francais": "Douloureuse et en larmes, Vierge Marie, vous vous tenez au pied de la Croix du Seigneur Jésus, votre Fils, le Rédempteur. Vierge Mère de Dieu, celui que le monde ne peut contenir, l’auteur de la vie fait homme, subit ce supplice de la Croix. Alléluia, alléluia. Sainte Marie, la Reine du ciel et Maîtresse du Monde, se tenait pleine de douleurs au pied de la Croix de Notre-Seigneur Jésus-Christ.",
+        "Italiano": "Addolorata e piangente, Vergine Maria, ritta stai presso la croce del Signore Gesù Redentore, Figlio tuo. O Vergine Madre di Dio, Colui che il mondo intero non può contenere, l'Autore della vita, fatto uomo, subisce questo supplizio della croce! Alleluia, alleluia. Stava Maria, Regina del cielo e Signora del mondo, addolorata presso la croce del Signore.",
+        "Nederlands": "Een beeld van droefheid zijt Gij in uw tranen, Maagd Maria, zoals Gij naast het Kruis staat van onze Heer Jezus Christus, uw Zoon, onze Verlosser. Maagd, Moeder van God, Hij, die de gehele wereld niet kan omvatten, verduurt deze straf aan het Kruis. Hij, de Gever van het leven, die mens is geworden. Alleluia, alleluia. De heilige Maria, Koningin van de hemel, stond vol smarten naast het Kruis van onze Heer Jezus Christus.",
+        "Polski": "Bolejąca i zalana łzami stoisz, Dziewico Maryjo, pod krzyżem Pana Jezusa, Syna Swojego i Odkupiciela. Bogarodzico Dziewico, oto Ten, którego cały świat nie zdoła ogarnąć, Twórca życia, stawszy się człowiekiem ponosi haniebną śmierć na krzyżu. Alleluja, alleluja. Święta Maryja, Królowa nieba i Pani świata, stała bolejąca pod krzyżem Pana naszego Jezusa Chrystusa.",
+        "Portugues": "Cheia de dores e de lágrimas, ó Virgem Maria, estavas junto à Cruz do Senhor Jesus, vosso Filho e Redentor. Ó Virgem, Mãe de Deus, Aquele a quem o mundo não pode conter o autor da vida feito homem sofre este suplício da cruz! Aleluia, aleluia. Estava doloroso, junto à Cruz de Nosso Senhor Jesus Cristo, a Rainha do céu e Soberana do mundo, Santa Maria."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) COn(f)tri(efE'C)stá(efe)tus(ef/hgh) sum(ghG'Fe!fwgf//ghghvGFgf..) <clear>*(;) in(f) ex(e)er(fe~)ci(e)ta(fh)ti(hg)ó(h)ne(f) me(f!hh//hhh)a,(fe/ggf/gh/iffe.) (:) et(e) con(e)tur(e)bá(gh)tus(f) sum(f.) (,) a(f) vo(fg)ce(f) in(f)i(f)mí(f_e/f!gwh'!iv)ci,(hg/hiih.0) (;) et(fhg) a(h) tri(i)bu(h)la(i)ti(h)ó(hhe)ne(fgf) (,) pec(hg)ca(hi)tó(ih/ijffe/hhhvGF')ris.(f/ggf.0) (::) \r\n<sp>V/</sp>. Quó(f)ni(e)am(f) de(h)cli(g)na(hi)vé(i_gi)runt(hg~) in(hvG~F~) me(fe/ggf/gh/iffe.) (;) in(e)i(gh)qui(f)tá(f_e/f!gwh'!iv)tes :(hg/hiih.0) (:) et(i_) in(e) i(f!hh//hhh)ra(gf..) (,) mo(fe)lé(h)sti(h) e(h)rant(gh/ihi) mi(f)hi.(f/ggf.0) (::) \r\n<sp>V/</sp>. E(e)go(f) au(h/ihhf/hh/ijhhg/ihhggf!gwhgh)tem(gf..) (;) ad(h) De(hg)um(i) cla(hg)má(fg)vi :(fe/ggf/gh/iffe.) (:) et(f) Dó(f_e/f!gwh'!iv)mi(hi)nus(kxhgi.jkiih.0) (;) *() sal(hi)vá(hv.gh/ihi)bit(f) me.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
+      "availableTranslations": {
+        "English": "Holy Mary, Queen of heaven and Mistress of the world, filled with sorrow, stood by the Cross of Our Lord Jesus Christ. O all you that pass by the way, attend and see if there be any sorrow like to my sorrow.",
+        "Espanol": "Estaba Santa María, Reina del cielo y Señora del mundo, dolorosa junto a la cruz de nuestro Señor Jesucristo. Oh todos vosotros que pasáis por el camino, mirar y ved, si hay dolor como mi dolor.",
+        "Francais": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur. Ô Vierge, Mère de Dieu, celui que l'univers entier ne peut contenir, devenu homme, s'est enfermé dans votre sein. Réjouissez-vous, ô Vierge Marie, à vous seule vous avez anéanti toutes les hérésies. Vous qui avez cru aux paroles de l'Archange Gabriel. Car vous avez enfanté un Dieu et un homme, et arpès l'enfantement, ô Vierge, vous êtes demeurée inviolée. Mère de Dieu, intercédez pour nous.",
+        "Italiano": "Tu sei benedetta e venerabile, o Vergine Maria, che senza offesa del pudore sei diventata la Madre del Salvatore. O Vergine Madre di Dio, nel tuo seno, fattosi uomo, si rinchiuse Colui che l'universo non può contenere. Rallegrati, o Vergine Maria, che da sola vincesti tutte le eresie. Tu hai creduto alle parole dell'arcangelo Gabriele. Tu che, Vergine, generasti l'Uomo-Dio, e dopo il parto, rimanesti Vergine inviolata. Madre di Dio, prega per noi.",
+        "Magyar": "Áldott és tiszteletreméltó vagy, Szűz Mária, mert szüzességed sérelme nélkül a Megváltó anyja lettél. Szűz Szülője Istennek, Az, akit az egész világ nem tud befogadni, emberré lévén, tebenned lakozott. Örülj, Szűz Mária, minden tévedést megsemmisítettél tenmagad. Aki hittél Gábriel arkangyal szavainak. Mikor mint szűz Istent és embert szültél; és szülés után is szeplőtelen szűz maradtál. Isten Anyja, esedezzél érettünk.",
+        "Nederlands": "Gezegend en lofwaardig zijt Gij, Maagd Maria. Zonder smet op uw reinheid zijt Gij Moeder van de Verlosser bevonden.  Maagd, Moeder van God, die de hele wereld niet kan bevatten, Hij sloot zich op in uw schoot, toen Hij mens werd.  Verheug U, Maagd Maria. Gij alleen hebt alle ketterijen overwonnen. Gij hebt de woorden van de aartsengel Gabriël geloofd. Toen Gij als Maagd een God en mens hebt gebaard, en na de geboorte ongeschonden Maagd zijt gebleven. Moeder van God, wees onze voorspraak.",
+        "Polski": "Błogosławiona i godna czci jesteś, Panno Maryjo, któraś bez naruszenia dziewictwa stała się Matką Zbawiciela. Bogarodzico Dziewico, Ten, którego cały świat nie zdoła ogarnąć, zamknął się w Twoim łonie, stawszy się człowiekiem. Raduj się, Maryjo Panno: wszystkie herezje sama pokonałaś. Ty, co uwierzyłaś słowom Archanioła Gabriela. Jako Dziewica zrodziłaś Boga-Człowieka, a porodziwszy, Panno, pozostałaś nienaruszoną. Bogarodzico, przyczyń się za nami.",
+        "Portugues": "Estava, dolorosa, Santa Maria, Rainha do céu e Senhora do mundo, junto à Cruz de Nosso Senhor Jesus Cristo. Ó vós todos, que passais pelo mundo, atendei e vede se há dor semelhante à minha dor!"
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sequentia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) STa(f)bat(e) Ma(f)ter(fg) do(i)lo(h)ró(g)sa(f.) (;) Jux(h)ta(g) cru(f)cem(fe) la(f)cri(g)mó(f)sa,(e.) (;) Dum(g) pen(h)dé(g)bat(f) Fí(e)li(f)us.(f.) (::)\r\n\r\n2. Cu(f)jus(e) á(f)ni(fg)mam(i) ge(h)mén(g)tem,(f.) (;) Con(h)tri(g)stá(f)tam(fe) et(f) do(g)lén(f)tem,(e.) (;) Per(g)trans(h)í(g)vit(f) glá(e)di(f)us.(f.) (::)\r\n\r\n3. O(j) quam(h) tri(j)stis(ji) et(g) af(h)flí(g)cta(f.) (;) Fu(g)it(h) il(i)la(hg) be(h)ne(g)dí(i)cta(j.) (;) Ma(j)ter(i) U(h)ni(g)gé(f)ni(e)ti!(f.) (::)\r\n\r\n4. Quæ(j) mæ(h)ré(j)bat(ji) et(g) do(h)lé(g)bat,(f.) (;) Pi(g)a(h) Ma(i)ter,(hg) dum(h) vi(g)dé(i)bat(j.) (;) Na(j)ti(i) pœ(h)nas(g) ín(f)cly(e)ti.(f.) (::)\r\n\r\n5. Quis(f) est(h) ho(i)mo(hg) qui(f) non(e) fle(f)ret,(g.) (;) Ma(h)trem(g) Chri(f)sti(fe) si(f) vi(e)dé(dxd)ret(c.) (;) In(f) tan(e)to(g) sup(h)plí(g)ci(f)o?(f.) (::)\r\n\r\n6. Quis(f) non(h) pos(i)set(hg) con(f)tri(e)stá(f)ri,(g.) (;) Chri(h)sti(g) Ma(f)trem(fe) con(f)tem(e)plá(dxd)ri(c.) (;) Do(f)lén(e)tem(g) cum(h) Fí(g)li(f)o?(f.) (::)\r\n\r\n7. Pro(f) pec(e)cá(c)tis(fe) su(g)æ(h) gen(g)tis(f.) (;) Vi(h)dit(j) Je(i)sum(hg) in(h) tor(g)mén(f)tis,(e.) (;) Et(g) fla(i)gél(g)lis(h) súb(g)di(f)tum.(f.) (::)\r\n\r\n8. Vi(f)dit(e) su(c)um(fe) dul(g)cem(h) na(g)tum(f.) (;) Mo(h)ri(j)én(i)do(hg) de(h)so(g)lá(f)tum,(e.) (;) Dum(g) e(i)mí(g)sit(h) spí(g)ri(f)tum.(f.) (::)\r\n\r\n9. E(f){ia}(f) Ma(h)ter,(hg) fons(f) a(g)mó(f)ris,(e.) (;) Me(g) sen(g)tí(h)re(gf) vim(h) do(i)ló(j)ris(j.) (;) Fac,(h) ut(h) te(g)cum(f) lú(e)ge(f)am.(f.) (::)\r\n\r\n10. Fac(f) ut(f) ár(h)de(hg)at(f) cor(g) me(f)um(e.) (;) In(g) a(g)mán(h)do(gf) Chri(h)stum(i) De(j)um,(j.) (;) Ut(h) si(h)bi(g) com(f)plá(e)ce(f)am.(f.) (::)\r\n\r\n11. San(j)cta(i) Ma(h)ter,(hg) i(h)stud(g) a(f)gas,(e.) (;) Cru(g)ci(h)fí(i)xi(hg) fi(i)ge(j) pla(h)gas(g.) (;) Cor(h)di(g) me(f)o(g) vá(h)li(g)de.(f.) (::)\r\n\r\n12. Tu(j)i(i) na(h)ti(hg) vul(h)ne(g)rá(f)ti,(e.) (;) Tam(g) di(h)gná(i)ti(hg) pro(i) me(j) pa(h)ti,(g.) (;) Pœ(h)nas(g) me(f)cum(g) dí(h)vi(g)de.(f.) (::)\r\n\r\n13. Fac(f) me(j) te(j)cum(ih) pi(j)e(i) fle(h)re,(g.) (;) Cru(h)ci(g)fí(i)xo(ih) con(g)do(h)lé(g)re,(f.) (;) Do(e)nec(f) e(g)go(h) ví(g)xe(f)ro.(f.) (::)\r\n\r\n14. Jux(f)ta(j) cru(j)cem(ih) te(j)cum(i) sta(h)re,(g.) (;) Et(h) me(g) ti(i)bi(ih) so(g)ci(h)á(g)re(f.) (;) In(e) plan(f)ctu(g) de(h)sí(g)de(f)ro.(f.) (::)\r\n\r\n15. Vir(h)go(hi) vír(j)gi(ji)num(j) præ(i)clá(h)ra,(g.) (;) Mi(h)hi(i) jam(h) non(hg) sis(h) a(g)má(f)ra :(e.) (;) Fac(g) me(i) te(g)cum(h) plán(g)ge(f)re.(f.) (::)\r\n\r\n16. Fac(h) ut(hi) por(j)tem(ji) Chri(j)sti(i) mor(h)tem,(g.) (;) Pas(h)si(i)ó(h)nis(hg) fac(h) con(g)sór(f)tem,(e.) (;) Et(g) pla(i)gas(g) re(h)có(g)le(f)re.(f.) (::)\r\n\r\n17. Fac(f) me(h) pla(g)gis(gh) vul(i)ne(h)rá(g)ri,(f.) (;) Fac(e) me(h) cru(i)ce(i) in(h)e(g)bri(h)á(i)ri,(j.) (;) Et(h) cru(g)ó(f)re(e) Fí(g)li(f)i.(f.) (::)\r\n\r\n18. Flam(f)mis(h) ne(g) u(gh)rar(i) suc(h)cén(g)sus,(f.) (;) Per(e) te(h) Vir(i)go,(ih) sim(g) de(h)fén(i)sus(j.) (;) In(h) di(g)e(f) ju(e)dí(g)ci(f)i.(f.) (::)\r\n\r\n19. Chri(h)ste,(f) cum(f) sit(fe) hinc(f) ex(g)í(h)re,(g.) (;) Da(h) per(j) Ma(j)trem(ji) me(j) ve(h)ní(g)re(f.) (;) Ad(e) pal(f)mam(g) vi(i)ctó(h)ri(g)æ.(f.) (::)\r\n\r\n20. Quan(h)do(f) cor(f)pus(fe) mo(f)ri(g)é(h)tur,(g.) (;) Fac(h) ut(j) á(j)ni(ji)mæ(j) do(h)né(g)tur(f.) (;) Pa(e)ra(f)dí(g)si(i) gló(h)ri(g)a.(f.) (::)\r\n\r\nA(fgf)men.(ef..) (::)\r\nAl(e)le(h)lú(gf~){ia}.(f.) (::)",
+      "availableTranslations": {
+        "English": "At the Cross her station keeping, Stood the mournful Mother weeping, Close to Jesus to the last. Through her heart, His sorrow sharing, All His bitter anguish bearing Now at length the sword had passed. Oh, how sad and sore distressed Was that Mother highly blessed Of the sole begotten One! Christ above in torment hangs, She beneath beholds the pangs Of her dying, glorious Son. Is there one who would not weep ‘Whelmed in miseries so deep Christ’s dear Mother’s pain untold. Can the human heart refrain From partaking in her pain, In that Mother’s pain untold? Bruised, derided, cursed, defiled, She beheld her tender Child, All with bloody scourges rent. For the sins of His own nation Saw Him hang in desolation Till His spirit forth He sent. O sweet Mother! fount of love, Touch my spirit from above, Make my heart with yours accord. Make me feel as you have felt; Make my soul to glow and melt With the love of Christ, my Lord. Holy Mother, pierce me through, In my heart each wound renew Of my Saviour crucified. Let me share with you His pain, Who for all our sins was slain, Who for me in torments died. Mix’d with yours let my tears be, Mourning Him Who mourned for me, All the days that I may live. By the Cross with you to stay, There with you to weep and pray, Is all I ask of you to give. Virgin of all virgins blest! Listen to my fond request: Let me share that grief of yours. Let me, to my latest breath, In my body bear the death Of that dying Son of yours. Wounded with His every wound, Steep my soul till it has swooned In His very Blood away. Be to me, O Virgin, nigh, Lest in flames I burn and die, In this awful judgment day. Christ, when You shall call me hence, Be Your Mother my defense, Be Your Cross my victory. While my body here decays, May my soul Your goodness praise, Safe in heaven eternally. Amen. Alleluia.",
+        "Espanol": "Estaba la Madre dolorosa junto a la Cruz, lacrimosa, mientras pendía el Hijo. Cuya ánima gimiente, contristada y doliente atravesó la espada. ¡Oh cuán triste y afligida estuvo aquella bendita Madre del Unigénito! Languidecía y se dolía la piadosa Madre que veía las penas de su excelso Hijo. ¿Qué hombre no lloraría si a la Madre de Cristo viera en tanto suplicio? ¿Quién no se entristecería  a la Madre contemplando con su doliente Hijo? Por los pecados de su gente vio a Jesús en los tormentos  y doblegado por los azotes. Vio a su dulce Hijo muriendo desolado al entregar su espíritu. Ea, Madre, fuente de amor, hazme sentir tu dolor, contigo quiero llorar. Haz que mi corazón arda en el amor de mi Dios y en cumplir su voluntad. Santa Madre, yo te ruego que me traspases las llagas del Crucificado en el corazón. De tu Hijo malherido que por mí tanto sufrió reparte conmigo las penas. Déjame llorar contigo condolerme por tu Hijo mientras yo esté vivo. Junto a la Cruz contigo  estar y contigo asociarme en el llanto es mi deseo. Virgen de Vírgenes preclara no te amargues ya conmigo, déjame llorar contigo. Que llore la muerte de Cristo, hazme socio de su pasión, que me quede con sus llagas. Que me hieran sus llagas, que con la Cruz y la sangre de tu Hijo me embriague. Para que no me queme en las llamas, defiéndeme tú, Virgen santa, en el día del juicio. Cuando, Cristo, haya de irme, concédeme que tu Madre me guíe a la palma de la victoria. Cuando el cuerpo sea muerto, haz que al ánima sea dada del Paraíso la gloria. Amén. Aleluya.",
+        "Francais": "Debout, la Mère des douleurs, Près de la croix était en larmes, Quand son Fils pendait au bois. Alors, son âme gémissante, Toute triste et toute dolente, Un glaive le transperça.  Qu’elle était triste, anéantie, La femme entre toutes bénie, La Mère du Fils de Dieu !  Dans le chagrin qui la poignait, Cette tendre Mère pleurait Son Fils mourant sous ses yeux.  Quel homme sans verser de pleurs Verrait la Mère du Seigneur Endurer si grand supplice ?  Qui pourrait dans l’indifférence Contempler en cette souffrance La Mère auprès de son Fils ?  Pour toutes les fautes humaines, Elle vit Jésus dans la peine Et sous les fouets meurtri. Elle vit l’Enfant bien-aimé Mourir tout seul, abandonné, Et soudain rendre l’esprit.  Ô Mère, source de tendresse, Fais-moi sentir grande tristesse Pour que je pleure avec toi.  Fais que mon âme soit de feu Dans l’amour du Seigneur mon Dieu : Que je lui plaise avec toi.  Mère sainte, daigne imprimer Les plaies de Jésus crucifié En mon cœur très fortement.  Pour moi, ton Fils voulut mourir, Aussi donne-moi de souffrir Une part de ses tourments.  Donne-moi de pleurer en toute vérité, Comme toi près du crucifié, Tant que je vivrai !  Je désire auprès de la croix Me tenir, debout avec toi, Dans ta plainte et ta souffrance.  Vierge des vierges, toute pure, Ne sois pas envers moi trop dure, Fais que je pleure avec toi.  Du Christ fais-moi porter la mort, Revivre le douloureux sort Et les plaies, au fond de moi. Fais que ses propres plaies me blessent, Que la croix me donne l’ivresse Du sang versé par ton Fils.  Je crains les flammes éternelles ; Ô Vierge, assure ma tutelle A l’heure de la justice.  Ô Christ, à l’heure de partir, Puisse ta Mère me conduire À la palme des vainqueurs.  À l’heure où mon corps va mourir, À mon âme, fais obtenir La gloire du paradis. Amen. Alléluia.",
+        "Italiano": "Stava di dolore piena e di pianto la Madre presso la croce, da cui pendeva il Figlio. L'anima di Lei gemente, di tristezza e di dolore piena, una spada trafiggeva. Oh! quanto triste ed afflitta fu la benedetta Madre dell'Unigenito! S'affliggeva, si doleva la pia Madre contemplando le pene del Figlio augusto. E chi non piangerebbe mirando la Madre di Cristo in tanto supplizio? E chi non s'attristerebbe vedendo la Madre di Cristo dolente insieme al Figlio? Per i peccati del popolo suo Ella vide Gesù nei tormenti e ai flagelli sottoposto. Ella vide il dolce Figlio, morire desolato, quando emise lo spirito. Orsù, Madre fonte d'amore, a me pure fa' sentire l'impeto del dolore, perché teco io pianga. Fa' che nell'amar Cristo, mio Dio, così arda il mio cuore che a Lui io piaccia. Santa Madre, deh! tu fa' che le piaghe del Signore forte impresse siano nel mio cuore. Del tuo Figlio straziato, che tanto per me s'è degnato patire, con me pure dividi le pene. Con te fa' che pio io pianga e col Crocifisso soffra, finché avrò vita. Stare con te accanto alla Croce, a te associarmi nel piangere io desidero. O Vergine, delle vergini la più nobile, con me non esser dura, con te fammi piangere. Fammi della morte di Cristo partecipe, e della sua passione consorte; e delle sue piaghe devoto. Fammi dalle piaghe colpire, dalla Croce inebriare e dal Sangue del tuo. Perché non arda in fiamme ma da te sia difeso, o Vergine, nel dì del giudizio O Cristo, quando dovrò di qui partire, deh! fa', per la tua Madre, che al premio io giunga. E quando il corpo perirà, fa' che all'anima la gloria del cielo sia data. Amen. Alleluia.",
+        "Polski": "Bolejąca Matka stała U stóp krzyża, we łzach cała, Kiedy na nim zawisł Syn. A w Jej pełnej jęku duszy, Od męczarni i katuszy, Tkwił miecz ostry naszych win. Jakże smutna i strapiona Była ta błogosławiona, Z której się narodził Bóg. Jak cierpiała i bolała, Jakże drżała gdy widziała Dziecię swe wśród śmierci trwóg. Któryż człowiek nie zapłacze, Widząc męki i rozpacze Matki Bożej w żalu tym? Któż od smutku się powstrzyma, Mając matkę przed oczyma, Która cierpi z Synem swym? Widzi, jak za ludzkie winy Znosi męki Syn jedyny, Jezus – jak Go smaga bat. Widzi jak samotnie kona Owoc Jej czystego łona, Dając życie za ten świat. Matko, coś miłości zdrojem, Przejmij mnie cierpieniem swoim Abym boleć z Tobą mógł. Niechaj serce moje pała, By radością mą się stała Miłość, którą – Chrystus Bóg. Matko święta, srogie rany, Które zniósł Ukrzyżowany, Wyryj mocno w duszy mej. Męką, Syna rodzonego, Co dla dobra cierpiał mego, Ze mną się podzielić chciej. Pragnę płakać w Twym pobliżu, Cierpiąc z Tym, co zmarł na krzyżu Po mojego życia kres. Chcę pod krzyżem stać przy Tobie, Z Tobą łączyć się w żałobie, I wylewać zdroje łez. Panno czysta nad pannami, Niechaj dobroć Twoja da mi Płakać z żalu z Tobą współ. Bym z Chrystusem konał razem, Męki Jego był obrazem, Rany Jego w sobie czuł. Niech mnie do krwi rani zgraja, Niech mnie męki krzyż upaja I Twojego Syna krew. W ogniu Panno, niech nie płonę, Więc mnie w swoją weź obronę, Gdy nadejdzie sądu gniew. Gdy kres dni przede mną stanie, Przez Twą Matkę dojść mi Panie, Do zwycięstwa palmy daj. Kiedy umrze moje ciało, Niechaj duszę ma z swą chwałą Czeka Twój wieczysty raj. Amen. Alleluja.",
+        "Portugues": "Estava dolorosa e lacrimosa a Mãe junto à Cruz, donde pendia o Filho. Sua alma, gemendo triste e aflita, foi traspassada por uma espada. Oh! Quão triste e aflita ficou aquela Mãe bendita do Filho Unigénito! Ela, piedosa Mãe, gemia e chorava, sentido as penas do divino Filho! Qual o homem que não chorará, vendo a Mãe de Cristo em tal suplício? Quem poderá contemplar sem tristeza a Mãe de Cristo, afligindo-se com seu Filho? Por causa dos pecados do povo, Ela via Jesus entregue aos sofrimentos e flagelado pelos açoites. Via este terno Filho morrer desolado, entregar o espírito! Ó Mãe, fonte de amor, fazei-me sentir a violência das vossas dores, a fim de que chore convosco. Fazei que meu coração seja ardente em amar Cristo Deus, para que Lhe agrade. Ó Santa Mãe, gravai profundamente as chagas do Crucificado no meu coração. Reparti comigo as dores do vosso Filho, que tanto se dignou sofrer por mim. Fazei-me chorar convosco e compartilhar perpétua e piedosamente os sofrimentos do Crucificado. Quero convosco ficar ao pé da Cruz e unir-me a vós nos gemidos. Ó Virgem, ilustre entre as virgens, não rejeiteis a minha prece; deixai-me chorar convosco. Fazei que se imprima em mim a morte de Cristo; que compartilhe as suas dores e venere as suas chagas. Fazei que, ferido com suas feridas, fique inebriado de amor à Cruz e ao sangue do vosso Filho. Que eu não seja consumido pelas chamas devoradoras e seja defendido por vós, ó Virgem, no dia do juízo. Ó Cristo, quando eu tiver que deixar o mundo, concedei-me por vossa Mãe que alcance a palma da vitória. Quando o meu corpo morrer, dai à minha alma a glória do Paraíso. Amen. Aleluia."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María Cléophæ, et María Magdaléne. Cum vidísset ergo Jesus Matrem, et discípulum stantem, quem diligébat, dicit Matri suæ: Múlier, ecce fílius tuus. Deinde dicit discípulo: Ecce Mater tua. Et ex illa hora accépit eam discípulus in sua.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, there were standing by the Cross of Jesus His Mother and His Mother’s sister, Mary of Cleophas, and Mary Magdalene. When Jesus, therefore, saw His Mother and the disciple standing by, whom He loved, He said to His Mother, Woman, behold your son. Then He said to the disciple, Behold your Mother. And from that hour the disciple took her into his home.",
+        "Espanol": "En aquel tiempo; Estaban junto a la cruz de Jesús su madre y la hermana de su madre, María, mujer de Cleofás, y María la Magdalena. Viendo, pues, Jesús, a su Madre, y junto a ella al discípulo amado, dice a su madre: Mujer, he ahí a tu hijo. Luego dice al discípulo: He ahí a tu madre. Y desde aquella hora la  recibió el discípulo en su casa.",
+        "Francais": "En ce temps-là, debout près de la croix de Jésus se tenaient sa mère, et la sœur de sa mère, Marie, femme de Cléophas, et Marie-Madeleine. Jésus ayant vu sa mère, et, auprès d’elle, le disciple qu’il aimait, dit à sa mère : Femme, voilà votre fils. Puis il dit au disciple : Voilà ta mère. Et, à partir de cette heure, le disciple la prit chez lui.",
+        "Italiano": "In quel tempo, stavano presso la croce di Gesù sua madre, la sorella di sua madre, Maria di Clèofa, e Maria Maddalena. Gesù, dunque, vedendo la madre e accanto a lei il discepolo che amava, disse a sua madre: «Donna, ecco tuo figlio». Poi disse al discepolo: «Ecco tua madre». E da quell'ora il discepolo la prese con sé.",
+        "Magyar": "Jézus keresztje alatt ott állt anyja, anyjának nővére, Mária, aki Kleofás felesége volt és Mária Magdolna.  Amikor Jézus látta, hogy ott áll az anyja és szeretett tanítványa, így szólt anyjához: „Asszony, nézd, a fiad!”  Aztán a tanítványhoz fordult: „Nézd, az anyád!” Attól az órától fogva házába fogadta a tanítvány.",
+        "Nederlands": "In illo témpore: Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María Cléophæ, et María Magdaléne. Cum vidísset ergo Jesus Matrem, et discípulum stantem, quem diligébat, dicit Matri suæ: Múlier, ecce fílius tuus. Deinde dicit discípulo: Ecce Mater tua. Et ex illa hora accépit eam discípulus in sua.",
+        "Polski": "In illo témpore: Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, María Cléophæ, et María Magdaléne. Cum vidísset ergo Jesus Matrem, et discípulum stantem, quem diligébat, dicit Matri suæ: Múlier, ecce fílius tuus. Deinde dicit discípulo: Ecce Mater tua. Et ex illa hora accépit eam discípulus in sua.",
+        "Portugues": "Naquele tempo, falando Jesus às turbas, eis que uma mulher, elevando a voz no meio da multidão, Lhe disse: «Bem-aventurado o seio que Vos trouxe; bem-aventurados os peitos que Vos amamentaram!». E Jesus respondeu, dizendo: «Bem-aventurados, antes, aqueles que ouvem a palavra de Deus e a cumprem»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) RE(d!ff/ggf/gh)cor(fe~)dá(gvFEC'd)re,(d.) *(,) Vir(d/ff/ggf/gh)go(fe) Ma(cd)ter,(d.) (,) in(f) con(gh)spé(hg)ctu(ge) De(gf)i,(dff'1ff) (;) ut(f!hj) lo(ji)quá(gf)ris(fgh) pro(f) no(g)bis(h) bo(fvEC'd)na,(d.) (:) et(f) ut(g) a(gh)vér(fe)tat(d.) (,) in(f)di(g)gna(hj)ti(j)ó(k)nem(i') su(j)am(h.) (;) a(d/ff/ggf/ghd/fffh!jvvIG'Fh.) (,) (h/jj/kkj/klh/jjjvIG'Fg_h) no(d!ewfef)bis.(ed..) (::)\r\n<i>T. P.</i> Al(cd)le(d.!ghGF'fd//ffvEC'd)lú(d_c/d!ewf){ia}.(ed..) (::)",
+      "availableTranslations": {
+        "English": "Hail, Mary, full of grace, the Lord is with you. Blessed are you among women and blessed is the fruit of your womb. (Alleluja.)",
+        "Espanol": "Dios te salve, María; llena de gracia; el Señor es contigo; bendita tú, entre las mujeres; y bendito el fruto de tu vientre. (Aleluya.)",
+        "Francais": "Souvenez-vous, ô Vierge Mère, d’intercéder pour nous auprès de Dieu, et de lui faire détourner de nous son indignation.",
+        "Italiano": "Ricordati, o Vergine Madre di Dio, quando sarai al cospetto del Signore, di intercedere per noi presso Dio, perché distolga da noi la giusta sua collera.",
+        "Nederlands": "Recordáre, Virgo Mater, in conspéctu Dei, ut loquáris pro nobis bona, et ut avértat indignatiónem suam a nobis.",
+        "Polski": "Pamiętaj o nas, Matko Dziewico, przed obliczem Boga, abyś prosiła o dobra dla nas i aby od nas odwrócił swój gniew.",
+        "Portugues": "Ó Virgem, Mãe de Deus, quando estiverdes na presença do Senhor, lembrai-Vos de nós; intercedei em nosso favor junto d’Ele e afastai de nós a sua indignação."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Offérimus tibi preces et hóstias, Dómine Jesu Christe, humiliter supplicántes: ut, qui Transfixiónem dulcíssimi spíritus beátæ Maríæ, Matris tuæ, précibus recensémus; suo suorúmque sub Cruce Sanctórum consórtium multiplicáto piíssimo intervéntu, méritis mortis tuæ, méritum cum beátis habeámus:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O Lord Jesus Christ, we offer You prayers and sacrificial gifts, humbly beseeching You that, as we prayerfully recall the piercing of the most sweet soul of Your blessed Mother Mary, so through the merits of Your death and the manifold intercession of her and her holy friends at the foot of the Cross, we may have our reward with the blessed.",
+        "Espanol": "Te ofrecemos, Señor nuestro Jesucristo, estas hostias y oraciones, suplicándote humildemente que los que en nuestras oraciones recordamos la transfixión del dulcísimo espíritu de tu Santa Madre María, consigamos la recompensa de los bienaventurados, por los méritos de tu muerte y por piadosísima y múltiple intercesión de tu Madre y la de todos santos que al pie de la cruz le acompañaron.",
+        "Francais": "Seigneur Jésus-Christ, nous vous offrons ces prières et ces hosties, en suppliant humblement de faire que, nous qui nous rappelons dans nos prières que l’âme très douce de la bienheureuse Marie, votre Mère fut transpercée : nous méritions, grâce à sa très miséricordieuse intervention jointe à celle des Saints qui l’accompagnaient au pied de la Croix, d’avoir part avec les bieheureux aux mérites de votre mort.",
+        "Italiano": "Ti offriamo le preghiere e il sacrificio, o Signore Gesù Cristo. supplicandoti umilmente: a noi che celebriamo. in preghiera i dolori che hanno trafitto lo spirito dolcissimo della santissima tua Madre Maria, per i meriti della tua morte e per l'amorosa e continua intercessione di lei e dei santi che le erano accanto ai piedi della croce, concedi a noi di partecipare al premio dei beati:",
+        "Magyar": "A te kegyelmedből Urunk, és a Boldogságos, mindenkoron szűz Máriának közbenjárására ez a felajánlás szolgáljon az örök és a jelen élet javára és békéjére.",
+        "Nederlands": "Offérimus tibi preces et hóstias, Dómine Jesu Christe, humíliter supplicántes: ut, qui Transfixiónem dulcíssimi spíritus beátæ Maríæ, Matris tuæ, précibus recensémus; suo suorúmque sub Cruce Sanctórum consórtium multiplicáto piíssimo intervéntu, méritis mortis tuæ, méritum cum beátis habeámus:",
+        "Polski": "Przedkładamy Ci, Panie Jezu Chryste, modlitwy i ofiary i pokornie błagamy, abyśmy rozpamiętując w modlitwach ranę przesłodkiego serca Najświętszej Maryi, Matki Twojej, za łaskawym wstawiennictwem Jej i Świętych, stojących z Nią razem pod krzyżem, przez zasługi śmierci Twojej dostąpili nagrody wespół ze Świętymi:",
+        "Portugues": "Senhor Jesus Cristo, Vos oferecemos as nossas preces e oblações e Vos rogamos humildemente que, recordando nas nossas orações a Transfixão da terníssima alma da B. Maria, vossa Mãe, e pelos seus rogos e piíssima intercessão dos Santos, que permaneceram ao pé da Cruz, tenhamos parte com os bem-aventurados nos méritos da vossa morte."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) FE(d)lí(f)ces(fe) sen(fge'fvED'e)sus(ed..) *(,) be(f)á(deDC'd)tæ(d_c) Ma(f)rí(gh)æ(hvGF) Vír(ixghg/hi)gi(h)nis,(h.) (:) qui(f) si(gh)ne(hg) mor(ixhi)te(h.) (;) me(h)ru(hg/hfgvFE)é(d!ewfef)runt(ed..) (,) mar(h)tý(hj)ri(h)i(h) pal(h)mam(ixhg/hih.) (;) sub(dc) cru(fg'h)ce(f_e) Dó(cd)mi(d_c/d!ewf)ni.(ed..) (::)",
+      "availableTranslations": {
+        "English": "Happy the Heart of the Blessed Virgin Mary, which without dying earned the palm of martyrdom beneath the Cross of our Lord.",
+        "Espanol": "Felices los sentidos de la Santísima Virgen María que sin morir merecieron la palma del martirio bajo la cruz del Señor.",
+        "Francais": "Heureux le cœur de la bienheureuse Vierge Marie, qui sans mourir obtint la palme du martyre au pied de la Croix du Seigneur.",
+        "Italiano": "Beata la Vergine Maria, che senza morire, ha meritato la palma del martirio presso la croce del Signore.",
+        "Magyar": "Boldog vagy, Szűz Mária bensődben, mert az örök Atya Fiát hordoztad. (Allelúja.)",
+        "Nederlands": "Felices sensus beátæ Maríæ Vírginis, qui sine morte meruérunt martýrii palmam sub Cruce Dómini.",
+        "Polski": "Błogosławione serce Najświętszej Maryi Panny, które nawet bez śmierci zasłużyło sobie na palmę męczeństwa pod Krzyżem Pana.",
+        "Portugues": "Ditosos os sentidos da B. V. Maria, que sem serem feridos pela morte alcançaram a palma do martírio, ao pé da Cruz do Senhor."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Sacrifícia, quæ súmpsimus, Dómine Jesu Christe, Transfixiónem Matris tuæ et Vírginis devóte celebrántes: nobis ímpetrent apud cleméntiam tuam omnis boni salutáris efféctum:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O Lord Jesus Christ, may the sacrifices of which we have partaken, while devoutly celebrating the piercing of Your Virgin Mother’s soul, obtain for us, through Your kindness, the good effect of salvation.",
+        "Espanol": "Haz, Señor, que los sacramentos que acabamos de recibir celebrando devotamente la transfixión de tu Madre la Virgen María, nos alcancen de tu bondad todo linaje de saludable efectos.",
+        "Francais": "Que le sacrifice auquel nous avons communié, Seigneur Jésus-Christ, en célébrant avec dévotion la transfixion de la Vierge, votre Mère, nous obtienne de votre clémence le plein effet de votre œuvre de salut.",
+        "Italiano": "O Signore Gesù Cristo, il sacrificio al quale abbiamo partecipato celebrando devotamente i dolori che hanno trafitto la vergine tua Madre, ci ottenga dalla tua clemenza il frutto di ogni bene per la salvezza:",
+        "Magyar": "Magunkhoz véve, Urunk, üdvösségünk kegyszerét, kérünk, add, hogy a Boldogságos, mindenkoron Szűz Mária pártfogásában mindenütt oltalmat találjunk, akinek tiszteletére ezekt Fölségednek bemutattuk.",
+        "Nederlands": "Sacrifícia, quæ súmpsimus, Dómine Jesu Christe, Transfixiónem Matris tuæ et Vírginis devóte celebrántes: nobis ímpetrent apud cleméntiam tuam omnis boni salutáris efféctum:",
+        "Polski": "Panie Jezu Chryste, niech ofiara, z której pożywaliśmy czcząc z oddaniem przebicie serca Twojej Matki-Dziewicy, wyjedna nam u Twej łaskawości wszelkie dobra pomocne ku zbawieniu:",
+        "Portugues": "Que os sacratíssimos dons com que nos alimentámos, Senhor Jesus Cristo, celebrando piedosamente a Transfixão da vossa Mãe, sempre Virgem, nos obtenham da vossa clemência o efeito de todo o bem salutar."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

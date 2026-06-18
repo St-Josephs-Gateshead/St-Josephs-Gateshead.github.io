@@ -1,0 +1,834 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "S. Gabrielis Archangeli",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(g)NE(g)DÍ(hj)CI(j)TE(j) Dó(ij)mi(j)num(j.) *(,) o(j)mnes(j) An(j)ge(jjj_h)li(hk) e(kj~)jus :(jkjji.) (;) pot(g)én(gh~)tes(h) vir(h)tú(jj)te,(i_h) (;) qui(gfg) fá(hg/ji)ci(j)tis(j) ver(hj~)bum(jj) e(gh~)jus,(h_i_h._) (:) ad(g) au(h)di(hkj)én(i)dam(jj//jj) vo(h_g)cem(g_f) (,) ser(fh~)mó(h_g/jjvH'G)num(g_e) e(fgF~'E~)jus.(e.) (::) <nlba><i>T. P.</i> Al(gj~)le(jjj_g)lú(ikj){ia},</nlba>(j_i) (,) al(j)le(jjghvGE)lú(fgF~'E~){ia}.(e.) (::) <i>Ps.</i> Bé(g)ne(hj)dic(j) á(j)ni(j)ma(j) me(k)a(j) Dó(j)mi(ih)no :(jjj) *(:) et(ig) ó(hj)mni(j)a(j) quæ(j) in(j)tra(j) me(j) sunt,(j.) (,) nó(j)mi(j)ni(jji) san(hg)cto(h') e(i)jus.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
+      "availableTranslations": {
+        "English": "Bless the Lord, all you His Angels, you mighty in strength, who do His bidding, obeying His spoken word. (Alleluia, alleluia.) Bless the Lord, O my soul; and, all my being, bless His holy name.",
+        "Bohemice": "Bless the Lord, all you His Angels, you mighty in strength, who do His bidding, obeying His spoken word. (Alleluia, alleluia.) Bless the Lord, O my soul; and, all my being, bless His holy name.",
+        "Espanol": "Bendecid al Señor todos vosotros sus ángeles, poderosos guerreros que ejecutáis sus órdenes y dóciles a la voz de su palabra.  Bendice, alma mía, al Señor; y todo mi ser bendiga su santo nombre.",
+        "Francais": "Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole, pour obéir à la voix de ses ordres (Alléluia, alléluia). Mon âme, bénis le Seigneur, et que tout ce qui est au dedans de moi bénisse son saint Nom.",
+        "Italiano": "Angeli di Dio, benedite il Signore, voi potenti che operate i suoi comandi, pronti al suono della sua Parola. (Alleluia, alleluia.) Anima mia, benedici il Signore, benedica il mio cuore il suo santo Nome.",
+        "Nederlands": "Looft de Heer, gij al zijn engelen, die machtig en sterk zijn bevelen volvoert, om aan zijn woorden te gehoorzamen. (Alleluia, alleluia.) Loof, mijn ziel, de Heer, en al wat in mij is, zijn heilige Naam.",
+        "Polski": "Błogosławcie Pana, wszyscy Jego Aniołowie, potężni mocą, pełniący Jego rozkazy, abyście posłuszni byli Jego słowu. (Alleluja, alleluja.) Błogosław, duszo moja, Pana, a wszystko, co jest we mnie, święte imię Jego.",
+        "Portugues": "Bendizei o Senhor, ó Anjos do Senhor: Sois cheios de poder e virtude: e fazeis o que Ele vos ordena, obedecendo às suas palavras e ordens. (T. P. Aleluia, aleluia). Bendizei o Senhor, ó minha alma: que tudo quanto houver em mim bendiga o santo nome do Senhor."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui inter céteros Angelos, ad annuntiándum incarnatiónis tuæ mystérium, Gabriélem Archángelum elegísti: concéde propítius; ut, qui festum (commemoratiónem) ejus celebrámus in terris, ipsíus patrocínium sentiámus in cœlis:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Who, out of all the angels, chose the Archangel Gabriel to announce the mystery of Your incarnation, mercifully grant that we who keep his feast on earth, may have him as our patron in heaven.",
+        "Bohemice": "Bože, jenž jsi skrze svého Archanděla Gabriela zvěstoval přesvaté Panně Spasitele světa; dej, abychom jej čistou myslí počali, i s horlivým zaujetím napodobovali.",
+        "Espanol": "¡Oh Dios!, que entre todos los ángeles has elegido al arcángel Gabriel para anunciar el misterio de tu encarnación, haz que quienes celebramos su festividad en la tierra sintamos los efectos de su protección en los cielos.",
+        "Francais": "O Dieu, qui avez choisi l’Archange Gabriel entre tous les Anges, pour annoncer le mystère de votre Incarnation ; accordez-nous, dans votre bonté, qu’après avoir célébré (commemoré) sa fête sur la terre, nous goûtions dans le ciel les effets de sa protection.",
+        "Italiano": "O Dio, che fra gli altri angeli per annunziare il mistero della tua Incarnazione hai scelto l'arcangelo Gabriele: concedici benigno che, come ne celebriamo in terra la festa, così ne sentiamo in cielo il patrocinio:",
+        "Nederlands": "God, onder alle engelen hebt Gij de aartsengel Gabriël uitverkoren om het geheim van de Menswording aan te kondigen. Laat ons, die zijn feest op aarde vieren, door uw goedheid zijn bescherming in de hemel mogen ondervinden.",
+        "Polski": "Boże, Ty spośród innych Aniołów wybrałeś Archanioła Gabriela na zwiastuna tajemnicy Twojego Wcielenia; spraw łaskawie, abyśmy obchodząc Jego święto na ziemi, doznali jego opieki z nieba:",
+        "Portugues": "Ó Deus, que entre os outros Anjos escolhestes o Arcanjo Gabriel para anunciar o mystério da vossa Incarnação, concedei-nos propício que, havendo celebrado a sua festa na terra, experimentemos o seu patrocínio no céu:"
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Ecce, vir Gabriël, quem víderam in visióne a princípio, cito volans tétigit me in témpore sacrifícii vespertíni. Et dócuit me et locútus est mihi dixítque: Dániel, nunc egréssus sum, ut docérem te et intellégeres. Ab exórdio precum tuárum egréssus est sermo: ego autem veni, ut indicárem tibi, quia vir desideriórum es: tu ergo animadvérte sermónem et intéllege visiónem. Septuagínta hebdómades abbreviátæ sunt super pópulum tuum et super urbem sanctam tuam, ut consummétur prævaricátio, et finem accípiat peccátum, et deleátur iníquitas, et adducátur justítia sempitérna, et impleátur vísio et prophetía, et ungátur Sanctus sanctórum. Scito ergo et animadvérte: Ab éxitu sermónis, ut íterum ædificétur Jerúsalem, usque ad Christum ducem, hebdómades septem et hebdómades sexagínta duæ erunt: et rursum ædificábitur platéa et muri in angústia témporum. Et post hebdómades sexagínta duas occidétur Christus: et non erit ejus pópulus, qui eum negatúrus est. Et civitátem et sanctuárium dissipábit pópulus cum duce ventúro: et finis ejus vástitas, et post finem belli statúta desolátio.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, behold, Gabriel, the one whom I had seen before in vision, came to me in rapid flight at the time of the evening sacrifice. He instructed me in these words: Daniel, I have now come to give you understanding. When you began your petition, an answer was given which I have come to announce, because you are beloved. Therefore, mark the answer and understand the vision. ‘Seventy weeks are decreed for your people and for your holy city: then transgression will stop and sin will end, guilt will be expiated, everlasting justice will be introduced, vision and prophecy ratified, and a Most Holy will be anointed. Know and understand this: from the utterance of the word that Jerusalem was to be rebuilt until one who is anointed and a leader, there shall be seven weeks. During sixty-two weeks it shall be rebuilt, with streets and trenches, in time of affliction. After the sixty-two weeks an anointed shall be cut down when he does not possess the city; and the people of a leader who will come shall destroy the sanctuary. Then the end shall come like a torrent; until the end there shall be war, the desolation that is decreed.’",
+        "Bohemice": "In those days, behold, Gabriel, the one whom I had seen before in vision, came to me in rapid flight at the time of the evening sacrifice. He instructed me in these words: Daniel, I have now come to give you understanding. When you began your petition, an answer was given which I have come to announce, because you are beloved. Therefore, mark the answer and understand the vision. ‘Seventy weeks are decreed for your people and for your holy city: then transgression will stop and sin will end, guilt will be expiated, everlasting justice will be introduced, vision and prophecy ratified, and a Most Holy will be anointed. Know and understand this: from the utterance of the word that Jerusalem was to be rebuilt until one who is anointed and a leader, there shall be seven weeks. During sixty-two weeks it shall be rebuilt, with streets and trenches, in time of affliction. After the sixty-two weeks an anointed shall be cut down when he does not possess the city; and the people of a leader who will come shall destroy the sanctuary. Then the end shall come like a torrent; until the end there shall be war, the desolation that is decreed.’",
+        "Espanol": "He aquí que Gabriel, el hombre a quien yo había ya visto en visión, vino a mí en rápido vuelo, como a la hora del sacrificio de la tarde. Y me instruyó y habló diciendo: Daniel, he venido ahora para hacerte comprender. Desde el comienzo de tu oración se pronunció una palabra, y vengo para que la conozcas, porque tú eres el predilecto. Oye, pues, la palabra, y entiende la visión. Se han fijado setenta semanas a tu pueblo y a su santa ciudad para poner fin a la prevaricación, cancelar el pecado, expiar la iniquidad, traer la justicia eterna, sellar visión y profecía y ungir al Santo de los santos. Sábelo, pues, y entiéndelo bien: Desde que salga la orden para que se reedifique Jerusalén, hasta un ungido príncipe, habrá siete semanas y sesenta y dos semanas y se reedificará, con plazas y fosos, en la angustia de los tiempos. Y después de las sesenta y dos semanas, se quitará la vida al Cristo y el pueblo que le habrá de negar dejará de subsistir. Y un pueblo vendrá con su caudillo y destruirá la ciudad y el santuario; esto será la ruina y, acabada la guerra, ya no habrá más desolación.",
+        "Francais": "En ces jours-là : Voici que l’homme Gabriel, que j’avais vu au commencement dans la vision, vola rapidement, et me toucha, au temps du sacrifice du soir. Il m’instruisit et il me parla, et il dit : Daniel, je suis venu maintenant pour t’instruire et pour que tu comprennes. Dès le commencement de tes prières la parole est sortie, et je suis venu pour te l’annoncer, car tu es un homme de désirs ; sois donc attentif à mon discours, et comprends la vision. Soixante-dix semaines ont été décrétées sur ton peuple et sur ta ville sainte, pour que la prévarication soit abolie, que le péché trouve sa fin, que l’iniquité soit effacée, que la justice éternelle soit amenée, que la vision et la prophétie soient accomplies, et que le Saint des saint reçoive l’onction. Sache donc et remarque. Depuis l’ordre donné pour rebâtir Jérusalem, jusqu’au Christ chef, il y aura sept semaines et soixante-deux semaines ; et les places et les murs seront rebâtis en des temps d’angoisse. Et, après soixante-deux semaines, le Christ sera mis à mort, et le peuple qui doit Le renier ne sera plus à Lui. Un peuple, avec un chef qui doit venir, détruira la ville et le sanctuaire ; et sa fin sera la ruine, et, après la fin de la guerre, viendra la désolation décrétée.",
+        "Italiano": "In quei giorni, ecco Gabriele, l’uomo che avevo visto prima nella visione, con volo rapido mi si avvicinò nell’ora dell’offerta della sera. Venne e parlò con me e disse: «Daniele, sono uscito ora per farti comprendere. All’inizio della tua supplica una parola è uscita e io sono venuto ad annunziarla poiché tu sei prediletto. Fa’ attenzione alla parola e penetra l’apparizione. Settanta settimane sono state fissate per il tuo popolo e per la tua santa città, finché non sia finita l’empietà e si colmi il peccato e si espii l’iniquità e si faccia venire eterna giustizia e sia sigillata la visione e il profeta e sia unta una santità delle santità. E sappi e comprendi: Dalla pronuncia del verdetto sul ritorno e sulla costruzione i Gerusalemme fino al Cristo duce sette settimane. Ed entro sessantadue settimane di nuovo si ricostruiranno piazza e fosse, e ciò per la situazione critica dei tempi. E dopo sessantadue settimane sarà eliminato il Cristo, e non sarà più suo il popolo che lo rinnegherà. E la città e il santuario distruggerà il popolo di un capo che verrà e la sua fine avverrà mediante una inondazione e sino alla fine vi sarà lotta, devastazioni decise.",
+        "Magyar": "Még mondtam az imádságot, amikor Gábriel, az a férfiú, akit már láttam az előbbi látomásomban, hirtelenül leszállt hozzám az esti áldozat idején.  Megszólított és azt mondta: „Máris eljöttem, hogy felvilágosítást adjak.  Amikor imádkozni kezdtél, egy szózat hallatszott. Eljöttem, hogy tudtodra adjam, mert kedvelt férfiú vagy. Figyelj hát a szózatra, és értsd meg a látomást!  Hetven hete van népednek és szent városodnak. Akkor véget ér a gonoszság, lepecsételik a bűnt és levezeklik a vétket. Elérkezik az örök igazság, megpecsételik a látomást és a jövendölést, és fölkenik a Szentek Szentjét.  Tudd meg és értsd meg: Attól, hogy elhangzik a parancs: Jeruzsálem épüljön fel újra, hét hét telik el a felkent Fejedelemig. Hatvankét hét alatt újra felépül az utca és a fal, mégpedig sok szorongattatás közepette.  Hatvankét hét elteltével megölnek egy Fölkentet, (bírói ítélet) nem lesz neki. A várost és a szentélyt elpusztítja egy eljövendő nép és vezér. Áradat vet neki véget, s a háború és az elhatározott pusztulás mindvégig tart.",
+        "Nederlands": "In die dagen kwam Gabriël, de man, die ik vroeger reeds in een visioen gezien had, snel aangevlogen en raakte mij aan op de tijd van het avondoffer. En om mij te onderrichten sprak hij mij toe en zeide: Daniël, nu ben ik gekomen om u te onderrichten, zodat gij inzicht verwerft. Reeds bij het begin van uw gebed is er een besluit genomen en ik ben gekomen om het u mee te delen, omdat gij zeer wordt bemind. Let daarom goed op mijn woorden, opdat gij het visioen moogt verstaan. Zeventig weken zijn er vastgesteld over uw volk en over uw heilige stad, opdat de boosheid ophoude en de zonde een einde neme; opdat de ongerechtigheid worde uitgedelgd en eeuwige gerechtigheid worde gebracht; opdat visioenen en profetieën haar vervulling vinden en de Heilige der Heiligen worde gezalfd. Weet wel en geef goed acht: vanaf de uitvaardiging van het besluit om Jeruzalem weer op te bouwen tot aan een Gezalfde, een vorst, zullen er zeven weken en twee en zestig weken verlopen; en pleinen en muren zullen worden hersteld onder de druk der tijden. En na die twee en zestig weken zal er een Gezalfde worden gedood; en het volk, dat Hem verloochent, zal niet meer zijn volk zijn. Dan zal er een vorst komen met zijn volk en de stad en het heiligdom verdelgen; en het einde er van is verwoesting, en na het einde van de strijd zal er de verlatenheid zijn, die is vastgesteld.",
+        "Polski": "W one dni: Oto mąż Gabriel, któregom ujrzał w widzeniu na początku, prędko lecąc, dotknął mnie w porze ofiary wieczornej. I pouczył mnie, i rozmawiał ze mną, i rzekł: «Danielu, teraz wyszedłem, by cię pouczyć i byś zrozumiał. Od początku twych błagań dana jest mowa; ja zaś przybyłem, bym ci objaśnił, boś jest mężem gorąco pragnącym: ty przeto zważ na mowę i zrozum widzenie. Siedemdziesiąt tygodni tylko upłynie dla ludu mego i dla świętego miasta twego aż do wypełnienia przeniewierstwa i zakończenia grzechu, do zniszczenia nieprawości, a sprowadzenia wiekuistej sprawiedliwości, i dla wypełnienia widzenia i proroctwa, i dla pomazania Świętego świętych. Wiedz zatem i zważaj: Od czasu wyjścia mowy aż do powtórnego zbudowania Jeruzalem, aż do Wodza-Pomazańca, tygodni siedem i tygodni sześćdziesiąt dwa będzie. A znów odbuduje się ulica i mur śród ucisku czasów. A po sześćdziesięciu dwu tygodniach zabity zostanie Pomazaniec; a lud, który Go się zaprze, nie będzie ludem Jego. Miasto zaś i świątynię zburzy naród z wodzem, który nadejdzie; a końcem jego zagłada, a po zakończeniu wojny utrwali się spustoszenie».",
+        "Portugues": "Naqueles dias: Eis que o varão Gabriel, que eu havia visto antes, em visão, veio junto de mim, voando rapidamente, na ocasião do sacrifício da tarde. Então, inspirou-me, falou-me e disse-me: «Daniel, eu vim, agora, para iluminar a tua inteligência. Desde o princípio das tuas preces foi proferida uma palavra. Ora, eu venho para que possas compreendê-la, pois és um varão favorecido por Deus. Medita, portanto, nessa palavra e compreende a visão. Setenta semanas estão marcadas para o teu povo e para a tua cidade, a fim de que a prevaricação seja consumada, o pecado cesse e seja destruída a iniquidade; e apareça a justiça eterna, cumpra-se a visão e a profecia e seja ungido o Santo dos Santos. Fica, pois, sabendo e atende bem: Desde que foi publicado o decreto para reedificar Jerusalém até Cristo-Rei, haverá sete semanas e sessenta e duas semanas; e, então, novamente, será reedificada com praças e muralhas, nos tempos angustiosos. Após sessenta e duas semanas, Cristo será morto e o povo que O negar não mais será considerado como seu povo. Um povo virá conduzido pelo seu chefe, que destruirá a cidade e o santuário; o seu fim será a devastação. Após o fim da guerra virá a desolação decretada»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(f)ne(ffff_c)dí(d!ewf_e)ci(f)te(fffd/fff) (,) *() Dó(e.f!gwh_g)mi(hg)num(ixg_h//e.f!gw!higff/ded.) (;) o(g)mnes(hj) An(j)ge(j)li(j) e(jj//jjjvHGigh)jus :(h.) (,) (i_j_i_2/j_k_i'_//kvJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) pot(g)én(hjI~H~)tes(jkJ'H) vir(jjh~)tú(jjj_g)te,(ixg_h//e.f!gw!higff/ded.) (;) qui(gji) fá(jji/j_k)ci(jkJ'Hg!ihi)tis(ij'k) ver(jk~)bum(g_f) (,) e(f!h'j~)jus.(i_g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'Ef_h//ixivGFghg/hgge.) (::) <sp>V/</sp>. Bé(e)ne(e)dic(ege/ghgff/ded.) (,) á(dc)ni(g)ma(hj) me(ijh)a(h.) Dó(h!jij)mi(hgh)num,(h.) (,) (i_j_i_2/j_k_i'_//kvJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) et(ijg) ó(h_j)mni(j)a(jj) (,) in(ijg)ter(h_i)i(i)ó(ki/jk_j//ki/jk_jk//ij/kjkkj)ra(j_i) (,) me(jh/jjjvHG'h!jjjvHG'h)a(hv.gjh/ihhg.) (:) no(hji)men(jj//jjjh/ijHG.) (,) (jj//jjjh/ijHG.) (,) (jj/kh/jjk/jk/ljjj'1h/ijHG.) (,) (jg/i_j//gh!jjjvH'GF'fd.) (;) san(fd/ffd/ef!gh/jjj)ctum(g_f) *() e(f!h'j~)jus.(i_g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'/{ix}E0f_h//ivGFghg/hgge.) (::)",
+      "availableTranslations": {
+        "Francais": "Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole. Mon âme, bénis le Seigneur, et que tout ce qui est au dedans de moi bénisse son saint Nom. Allelúja, allelúja Bénissez le Seigneur, vous toutes, ses armées ; vous, ses ministres, qui faites sa volonté. Alléluia.",
+        "Italiano": "Angeli di Dio, benedite il Signore, voi potenti che operate i suoi comandi, pronti al suono della sua Parola.  Anima mia, benedici il Signore, e tutto il mio interno benedica il nome santo suo. Alleluia, alleluia",
+        "Nederlands": "Zegent de Heer, gij, al zijn engelen, die machtig en sterk zijn bevelen volbrengt.  Loof, mijn ziel, de Heer, en al wat in mij is, zijn heilige Naam.  Alleluia, alleluia.",
+        "Polski": "Błogosławcie Pana, wszyscy Jego Aniołowie, potężni mocą, pełniący Jego rozkazy. Błogosław, duszo moja, Pana, a wszystko, co jest we mnie, święte imię Jego. Alleluja, alleluja. Błogosławcie Pana, wszystkie Jego Zastępy, słudzy Jego, którzy wolę Jego pełnicie. Alleluja."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(fd~)le(ef'g)lú(hgh){ia}.(ixhiHG'gf.0) <clear>*(,) <i>ij.</i>(ixhiHG'ge./ghGF'Ef_gffe.) (::) <sp>V/</sp>. Be(h)ne(h)dí(h)ci(g)te(ixg'//ivHG'hffe.) (,) Dó(fd/ef!ghhg)mi(fg)no(g.) (;) o(g)mnes(gh) vir(h_g~)tú(ghg'/hf)tes(ed) e(egF~'D~)jus :(d.) (:) mi(dc)ní(f)stri(ghg) e(ixhiG'Eg./hiF'D//fffdgvFE.)(,)(df/h_f/g_efv.df!gvFE'f)jus,(fe..) (:) qui(f) fá(df)ci(f)tis(f) vo(f)lun(ef'g)tá(gdgvFE)tem(e.) *(,) e(fd/ef!g'h)jus.(ixhiHG'gf.0) (,) (ixhiHG'ge./ghGF'Ef_gffe.) (::)",
+      "availableTranslations": {
+        "Italiano": "Allelúja, allelúja. Benedite il Signore, voi tutti, o eserciti suoi, voi suoi ministri, che fate la sua volontà. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Benedicite Dómino, omnes virtútes ejus: ministri ejus, qui fácitis voluntátem ejus. Alleluia."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(c)le(d)lú(ixed/hi){ia}.(hvvGE'fd.) <clear>*(;) <i>ij.</i>(eggvFD'dc./{/ix}fg!hihhgefd.1) (,) (ffg/hg/hgge.) (::) <sp>V/</sp>. Qui(cd) fa(ixed/hi)cit(h.) (,) An(hvGE'fd/f/ggh)ge(gvFE)los(e.) su(cd!f!gh)os(g.) (,) spí(fe)ri(de)tus :(ed/ffe.) (:) et(cdf//ef!ghg//hvGF'E) mi(c)ní(d)stros(ef) su(ghG'E)os(e.) *(;) flam(c)mam(d) i(ixed/hi)gnis.(hvvGE'fd.) (;) (eggvFD'dc./{/ix}fg!hihhgefd.1) (,) (ffg/hg/hgge.) (::)",
+      "availableTranslations": {
+        "Italiano": "Allelúja, allelúja. Benedite il Signore, voi tutti, o eserciti suoi, voi suoi ministri, che fate la sua volontà. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Benedicite Dómino, omnes virtútes ejus: ministri ejus, qui fácitis voluntátem ejus. Alleluia."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) AL(ef~)le(f/hfghvGE.f'1//hf/gf)lú(ef~){ia}.(f'hvGF.) <clear>*(;) <i>ij.</i>(f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::) <sp>V/</sp>. A(ef)ve(fg/h_f/g_e) Ma(fg!hvGF)rí(ef)a,(f.) (,) grá(fg)ti(e)a(f) ple(fiivHF'E)na :(f.) (;) <nlba>Dó(i_h)mi(i_hivHF'E)nus</nlba>(f.) te(h_g/h_ghvGF'E)cum :(f'hvGF.) (:) be(f)ne(gh'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(;)(fg!h'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(,)(fg!h'i)dí(f_e)cta(e_c) tu(efhvGF.) (;) *() in(ef~) mu(f)li(ef)é(f/hfghvGE.f'1//hf/gf)ri(ef)bus.(f'hvGF.) (;) (f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::)",
+      "availableTranslations": {
+        "Italiano": "Allelúja, allelúja. Benedite il Signore, voi tutti, o eserciti suoi, voi suoi ministri, che fate la sua volontà. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Benedicite Dómino, omnes virtútes ejus: ministri ejus, qui fácitis voluntátem ejus. Alleluia."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(f)ne(ffff_c)dí(d!ewf_e)ci(f)te(fffd/fff) (,) *() Dó(e.f!gwh_g)mi(hg)num(ixg_h//e.f!gw!higff/ded.) (;) o(g)mnes(hj) An(j)ge(j)li(j) e(jj//jjjvHGigh)jus :(h.) (,) (i_j_i_2/j_k_i'_//kvJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) pot(g)én(hjI~H~)tes(jkJ'H) vir(jjh~)tú(jjj_g)te,(ixg_h//e.f!gw!higff/ded.) (;) qui(gji) fá(jji/j_k)ci(jkJ'Hg!ihi)tis(ij'k) ver(jk~)bum(g_f) (,) e(f!h'j~)jus.(i_g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'Ef_h//ixivGFghg/hgge.) (::) <sp>V/</sp>. Bé(e)ne(e)dic(ege/ghgff/ded.) (,) á(dc)ni(g)ma(hj) me(ijh)a(h.) Dó(h!jij)mi(hgh)num,(h.) (,) (i_j_i_2/j_k_i'_//kvJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) et(ijg) ó(h_j)mni(j)a(jj) (,) in(ijg)ter(h_i)i(i)ó(ki/jk_j//ki/jk_jk//ij/kjkkj)ra(j_i) (,) me(jh/jjjvHG'h!jjjvHG'h)a(hv.gjh/ihhg.) (:) no(hji)men(jj//jjjh/ijHG.) (,) (jj//jjjh/ijHG.) (,) (jj/kh/jjk/jk/ljjj'1h/ijHG.) (,) (jg/i_j//gh!jjjvH'GF'fd.) (;) san(fd/ffd/ef!gh/jjj)ctum(g_f) *() e(f!h'j~)jus.(i_g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'/{ix}E0f_h//ivGFghg/hgge.) (::)",
+      "availableTranslations": {
+        "Francais": "Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole. Mon âme, bénis le Seigneur, et que tout ce qui est au dedans de moi bénisse son saint Nom. Allelúja, allelúja Bénissez le Seigneur, vous toutes, ses armées ; vous, ses ministres, qui faites sa volonté. Alléluia.",
+        "Italiano": "Angeli di Dio, benedite il Signore, voi potenti che operate i suoi comandi, pronti al suono della sua Parola.  Anima mia, benedici il Signore, e tutto il mio interno benedica il nome santo suo. Alleluia, alleluia",
+        "Nederlands": "Zegent de Heer, gij, al zijn engelen, die machtig en sterk zijn bevelen volbrengt.  Loof, mijn ziel, de Heer, en al wat in mij is, zijn heilige Naam.  Alleluia, alleluia.",
+        "Polski": "Błogosławcie Pana, wszyscy Jego Aniołowie, potężni mocą, pełniący Jego rozkazy. Błogosław, duszo moja, Pana, a wszystko, co jest we mnie, święte imię Jego. Alleluja, alleluja. Błogosławcie Pana, wszystkie Jego Zastępy, słudzy Jego, którzy wolę Jego pełnicie. Alleluja."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) A(f)ve(efE'C//efe/fgf./efe/fgf.) (,) (ef/hghhvGFg.f!gwhghvGFgf..) (,) *() Ma(gh)rí(gf)a,(ef/gf/ggf/gh/iffe.) (;) grá(gh)ti(f)a(f) ple(f_e/f!gwh'!iv)na :(hg/hiih.0) (:) Dó(ef)mi(eh)nus(gh/ih) te(hvGF')cum.(f/ggf.0) (::) \r\n<sp>V/</sp>. Be(e)ne(f)dí(hi)cta(f) tu(fiH'GhvGFgf..) (,) in(f) mu(f)li(i)é(hhg)ri(fe)bus :(ef/gf/ggf/gh/iffe.) (:) et(e) be(gh)ne(f)dí(f_e/f!gwh'!iv)ctus(hg/hiih.0) (;) fru(i)ctus(e) ven(f)tris(hg~) tu(hvGF)i.(fefEC//fefggf.0) (::) \r\n<sp>V/</sp>. Ec(hi/j_i)ce(ijIH'ihh'hhvGEf_e/f!gw!hvGFgf..) (,) con(h)cí(hi'j)pi(jvIH'GhvGF'g)es,(gf..) (;) et(f) pá(f)ri(f')es(i) fí(jiif/hhfjvIH'hvGF)li(fg)um,(fe/ggf/gh/iffe.) (:) et(e) vo(e)cá(gh)bis(f) no(fg)men(f) e(f_e/f!gwh'!iv)jus(hg/hiih.0) (;) Em(ef)má(eh)nu(gh/ihhvGF')el.(f/ggf.0) (::) \r\n<sp>V/</sp>. Quó(f)mo(fhg)do,(hi) in(i_j_i_2/j_i/j_f~)quit,(f.) (,) fi(h)et(hi'j) i(jvIH'GhvGF'g)stud,(gf..) (;) quó(fg)ni(f)am(f) vi(fg)rum(f) non(f') co(i)gnó(jiif/hhfjvIH'hvGF)sco?(fe/ggf/gh/iffe.) (:) Et(e) re(e)spón(gh)dens(f) An(f_e/f!gwh'!iv)ge(hi)lus(hg/hiih.0) (;) di(ef)xit(eh) e(gh/ihhvGF')i.(f/ggf.0) (::) \r\n<sp>V/</sp>. Spí(hi)ri(j)tus(ih) San(kxiji___/jkI'H//j_i/jkI'H)(,)(jjijvIH//jjijvIH//j_i/jiif~)ctus(f.) (;) su(f)per(fe~)vé(hi'j)ni(jvIH'GhvGF'g)et(gf..) (,) in(hi) te,(hiHF'fe//hiHF'fe//hvGF'ihhvGF'hffe.) (:) et(e) vir(gh~)tus(f) Al(f)tís(f_e/f!gwh'!iv)si(hi)mi(hg/hiih.0) (;) ob(i)um(e)brá(f)bit(hg) ti(hvGF)bi.(fefEC//fefggf.0) (::) \r\n<sp>V/</sp>. Id(e)e(f)ó(h/ihhf/hh/ijhhg/ihhggf!gwhgh)que(gf..) (;) quod(f) na(hfh)scé(iv.hi!jvIG)tur(giH'GhvGFgf..) (,) ex(h) te(i) San(hiHF'fe//hiHF'fe//hvGF'ihhvGF)ctum,(fhffe.) (:) vo(f)cá(f_e/f!gwh'!iv)bi(hi)tur(kxhgi.jkiih.0) (;) Fí(hihhe)li(fgf)us(g.) *() De(i_hivHFg.)(,)(h!jijH'GF)i.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
+      "availableTranslations": {
+        "English": "Bless the Lord, all you His Angels, you mighty in strength, who do His bidding. Bless the Lord, O my soul; and, all my being, bless His holy name. Hail, Mary, full of grace, the Lord is with you. Blessed are you among women and blessed is the fruit of your womb. Behold, you shall conceive and shall bring forth a Son, and you shall call His name Emmanuel. The Holy Spirit shall come upon you and the power of the Most High shall over-shadow you. And therefore the Holy One to be born shall be called the Son of God. During",
+        "Bohemice": "Bless the Lord, all you His Angels, you mighty in strength, who do His bidding. Bless the Lord, O my soul; and, all my being, bless His holy name. Hail, Mary, full of grace, the Lord is with you. Blessed are you among women and blessed is the fruit of your womb. Behold, you shall conceive and shall bring forth a Son, and you shall call His name Emmanuel. The Holy Spirit shall come upon you and the power of the Most High shall over-shadow you. And therefore the Holy One to be born shall be called the Son of God. During",
+        "Espanol": "Bendecid al Señor todos vosotros sus ángeles, poderosos guerreros que ejecutáis sus órdenes. Bendice, alma mía, al Señor; y todo mi ser bendiga su santo nombre. Dios te salve, María; llena de gracia; el Señor es contigo. Bendita tú entre todas las mujeres, y bendito el fruto de tu vientre. Concebirás y darás a luz un Hijo, a quien pondrás por nombre Emmanuel.  El Espiritu Santo vendrá a ti, y te cubrirá con su sombra la virtud del Altisimo. Por ello el fruto santo que nazca de ti se llamará Hijo de Dios.",
+        "Francais": "Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole. Mon âme, bénis le Seigneur, et que tout ce qui est au dedans de moi bénisse son saint Nom.  Je vous salue, Marie, pleine de grâce ; le Seigneur est avec vous. Vous êtes bénie entre les femmes : et le fruit de vos entrailles est béni. Voici, vous concevrez et vous enfanterez un Fils, et vous lui donnerez le nom d’Emmanuel.  L’Esprit-Saint surviendra en vous, et la vertu du Très-Haut vous couvrira de son ombre. C’est pourquoi le fruit saint qui naîtra de vous sera appelé le Fils de Dieu.",
+        "Italiano": "Benedite il Signore, suoi angeli, valorosi che eseguite i suoi comandi. Anima mia, benedici il Signore, e tutto il mio interno benedica il nome santo suo. Ave, Maria, piena di grazia; il Signore è con te. Tu sei benedetta fra le donne e Benedetto è il frutto del tuo grembo. Ecco, concepirai e darai alla luce un figlio e lo chiamerai Emmanuele.  Lo Spirito Santo verrà su te e la Potenza dell’Altissimo ti avvolgerà con la sua ombra. Per questo colui che nascerà da te sarà santo e sarà chiamato Figlio di dio.",
+        "Nederlands": "Zegent de Heer, gij, al zijn engelen, die machtig en sterk zijn bevelen volbrengt.  Loof, mijn ziel, de Heer, en al wat in mij is, zijn heilige Naam. Wees gegroet Maria, Gij zijt vol van genade. De Heer is met U. Gezegend zijt Gij onder de vrouwen en gezegend is de Vrucht van uw schoot. Zie, Gij zult ontvangen en een Zoon baren, en Hem Emmanuël noemen.  De Heilige Geest zal op U neerdalen en de kracht van de Allerhoogste U overschaduwen.  Daarom ook zal het Heilige, dat uit U gaat geboren worden, de Zoon van God genoemd worden.",
+        "Polski": "Błogosławcie Pana, wszyscy Jego Aniołowie, potężni mocą, pełniący Jego rozkazy. Błogosław, duszo moja, Pana, a wszystko, co jest we mnie, święte imię Jego. Zdrowaś, Maryjo, łaski pełna, Pan z Tobą. Błogosławionaś Ty między niewiastami, i błogosławiony owoc żywota Twojego. Oto poczniesz i porodzisz Syna, i nadasz Mu imię Emmanuel. Duch Święty zstąpi na ciebie i moc Najwyższego cię zacieni. Przeto i co się z ciebie narodzi Święte, Synem Bożym będzie nazwane.",
+        "Portugues": "Bendizei o Senhor, vós todos, que sois seus Anjos; ó vós, que sois poderosos e valorosos; e que executais as suas ordens. Bendizei o Senhor, ó minha alma: tudo o que há no meu íntimo bendiga o Senhor. Ave, Maria, cheia de graça, o Senhor é convosco. Bendita sois vós entre as mulheres: e bendito é o fruto do vosso ventre. Eis que conceberás, darás à luz um Filho e o seu nome será Emanuel. O Espírito Santo descerá sobre vós e a virtude do Altíssimo far-vos-á conceber. E, por isso, o Santo que de vós nascer será chamado Filho de Deus."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Missus est Angelus Gábriel a Deo in civitátem Galilææ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ætérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elísabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": " At that time, the angel Gabriel was sent from God to a town of Galilee called Nazareth, to a virgin betrothed to a man named Joseph, of the house of David, and the virgin’s name was Mary. And when the angel had come to her, he said, Hail, full of grace, the Lord is with you. Blessed are you among women. When she had heard him she was troubled at his word, and kept pondering what manner of greeting this might be. And the angel said to her, Do not be afraid, Mary, for you have found grace with God. Behold, you shall conceive in your womb and shall bring forth a Son; and you shall call His name Jesus. He shall be great, and shall be called the Son of the Most High; and the Lord God will give Him the throne of David His father, and He shall be king over the house of Jacob forever; and of His kingdom there shall be no end. But Mary said to the angel, How shall this happen, since I do not know man? And the angel answered and said to her, The Holy Spirit shall come upon you, and the power of the Most High shall overshadow you; and therefore the Holy One to be born shall be called the Son of God. And behold, Elizabeth your kinswoman also has conceived a son in her old age, and she who was called barren is now in her sixth month; for nothing shall be impossible with God. But Mary said, Behold the handmaid of the Lord; be it done to me according to your word.",
+        "Bohemice": "Za onoho času byl Anděl Gabriel poslán od Boha do galilejského města, které se jmenuje Nazaret, k panně zasnoubené s mužem jménem Josef z Davidova rodu a ta panna se jmenovala Maria. Anděl k ní vešel a řekl: „Buď zdráva, milostiplná! Pán s tebou!“ Když to slyšela, ulekla se a uvažovala, co má ten pozdrav znamenat. Anděl jí řekl: „Neboj se, Maria, neboť jsi nalezla milost u Boha. Počneš a porodíš syna a dáš mu jméno Ježíš. Bude veliký a bude nazván Synem Nejvyššího. Pán Bůh mu dá trůn jeho předka Davida, bude kralovat nad Jakubovým rodem navěky a jeho království nebude mít konce.“ Maria řekla Andělovi: „Jak se to stane? Vždyť muže nepoznávám!“ Anděl jí odpověděl: „Duch svatý sestoupí na tebe a moc Nejvyššího tě zastíní! Proto také dítě bude nazváno svaté, Syn Boží. I tvoje příbuzná Alžběta počala ve svém stáří syna a je už v šestém měsíci, ačkoli byla považována za neplodnou. Vždyť u Boha není nic nemožného.“ Maria řekla: „Jsem služebnice Páně: ať se mi stane podle tvého slova!“ A Anděl od ní odešel.",
+        "Espanol": "En aquel tiempo: Envió Dios al ángel Gabriel a una ciudad de Galilea, llamada Nazaret, a una virgen desposada con un varón, llamado José, de la casa de David, y el nombre de la Virgen era María. Y habiendo entrado el ángel a ella, le dijo: Dios te salve, llena de gracia; el Señor es contigo; bendita tú, entre todas las mujeres. Ella se turbó al oír esto, y discurría qué podría significar aquel saludo. Mas el ángel le dijo: No temas, María, porque has hallado gracia antes Dios. He aquí que concebirás en tu seno, y darás a luz un Hijo, a quien pondrás por nombre Jesús. Este será grande, y se llamará el Hijo del Altísimo. El Señor Dios le dará el trono de David, su padre: Reinará en la casa de Jacob eternamente, y su reino no tendrá fin. Dijo entonces María al ángel: ¿Cómo ha de ser eso, pues yo no conozco varón? Le respondió el ángel: El Espíritu Santo descenderá sobre ti y el poder del Altísimo te cubrirá con su sombra. Por lo cual el santo que de ti ha de nacer, se llamará Hijo de Dios. Y he aquí que Isabel, tu parienta, ha concebido también un hijo en su vejez; y la que llamaban estéril, cuenta ya hoy el sexto mes; porque nada es imposible para Dios. Dijo entonces María: ¡He aquí la esclava del Señor! Hágase en mí según tu palabra.",
+        "Francais": "En ce temps-là, l’Ange Gabriel fut envoyé de Dieu dans une ville de Galilée, appelée Nazareth, auprès d’une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie. L’ange, étant entré auprès d’elle, lui dit : Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. Elle, l’ayant entendu, fut troublée de ses paroles, et elle se demandait quelle pouvait être cette salutation. Et l’ange lui dit : Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez dans votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus. Il sera grand, et sera appelé le Fils du Très-Haut ; et le Seigneur Dieu 1ui donnera le trône de David son père, et il régnera éternellement sur la maison de Jacob ; et son règne n’aura pas de fin. Alors Marie dit à l’ange : Comment cela se fera-t-il ? Car je ne connais point d’homme. L’ange lui répondit : L’Esprit-Saint surviendra en vous, et la vertu du Très-Haut vous couvrira de son ombre ; c’est pourquoi le fruit saint qui naîtra de vous sera appelé le Fils de Dieu. Et voici qu’Elisabeth, votre parente, a conçu, elle aussi, un fils dans sa vieillesse, et ce mois est le sixième de celle qui est appelée stérile ; car il n’y a rien d’impossible à Dieu. Et Marie dit : Voici la servante du Seigneur ; qu’il me soit fait selon votre parole.",
+        "Italiano": "In quel tempo, l'angelo Gabriele fu inviato da Dio in una città della Galilea, di nome Nazareth, ad una vergine sposa di un uomo di nome Giuseppe, della stirpe di Davide; e il nome della vergine era Maria. L'angelo, entrando da lei, disse: «Ave, piena di grazia; il Signore è con te; tu sei benedetta fra le donne». Mentre l'udiva, fu turbata alle sue parole, e si domandava cosa significasse quel saluto. E l'angelo le disse: «Non temere, Maria, poiché hai trovato grazia presso Dio. Ecco, concepirai nel tuo seno e partorirai un figlio, e gli porrai nome Gesù. Egli sarà grande e sarà chiamato Figlio dell'Altissimo, e il Signore Iddio gli darà il trono di Davide, suo padre: e regnerà sulla casa di Giacobbe in eterno, e il suo regno non avrà fine». Allora Maria disse all'angelo: «Come avverrà questo, poiché non conosco uomo?». L'angelo le rispose, dicendo: «Lo Spirito Santo scenderà su di te e la potenza dell'Altissimo ti coprirà della sua ombra. Per questo il Santo, che nascerà da te, sarà chiamato Figlio di Dio. Ed ecco, Elisabetta, tua parente, ha concepito anch'essa un figlio nella sua vecchiaia ed è già al sesto mese, lei che era detta sterile: poiché niente è impossibile a Dio». Allora Maria disse: «Ecco la serva del Signore: sia fatto a me secondo la tua parola».",
+        "Magyar": "A hatodik hónapban az Isten elküldte Gábor angyalt Galilea Názáret nevű városába  egy szűzhöz, aki egy Dávid házából való férfinak, Józsefnek volt a jegyese, és Máriának hívták.  Az angyal belépett hozzá és megszólította: „Üdvözlégy, kegyelemmel teljes! Veled van az Úr! Áldottabb vagy minden asszonynál.”  E szavak hallatára Mária zavarba jött, és gondolkozni kezdett rajta, miféle köszöntés ez.  Az angyal ezt mondta neki: „Ne félj, Mária! Kegyelmet találtál Istennél.  Gyermeket fogansz, fiút szülsz, és Jézusnak fogod elnevezni.  Nagy lesz ő és a Magasságbeli Fiának fogják hívni. Az Úr Isten neki adja atyjának, Dávidnak trónját,  és uralkodni fog Jákob házán örökké, s országának nem lesz vége.”  Mária megkérdezte az angyalt: „Hogyan válik ez valóra, amikor férfit nem ismerek?”  Az angyal ezt válaszolta és mondta neki: „A Szentlélek száll rád, s a Magasságbeli ereje borít be árnyékával. Ezért a születendő Szentet is az Isten Fiának fogják hívni.  Íme, rokonod, Erzsébet is fogant öregségében, s már a hatodik hónapban van, noha meddőnek mondták,  mert Istennél semmi sem lehetetlen.”  Mária így válaszolt: „Íme, az Úr szolgálója vagyok, legyen nekem a te igéd szerint.” Erre az angyal eltávozott.",
+        "Nederlands": "In illo tempore: Missus est Angelus Gábriel a Deo in civitatem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero, et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ætérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elísabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum.",
+        "Polski": "In illo tempore: Missus est Angelus Gábriel a Deo in civitatem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero, et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ætérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elísabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum.",
+        "Portugues": "In illo tempore: Missus est Angelus Gábriel a Deo in civitatem Galilǽæ, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Joseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena; Dóminus tecum: benedícta tu in muliéribus. Quæ cum audísset, turbáta est in sermóne ejus: et cogitábat, qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce, concípies in útero, et páries fílium, et vocábis nomen ejus Jesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David, patris ejus: et regnábit in domo Jacob in ætérnum, et regni ejus non erit finis. Dixit autem María ad Angelum: Quómodo fiet istud, quóniam virum non cognósco? Et respóndens Angelus, dixit ei: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. Ideóque et quod nascétur ex te Sanctum, vocábitur Fílius Dei. Et ecce, Elísabeth, cognáta tua, et ipsa concépit fílium in senectúte sua: et hic mensis sextus est illi, quæ vocátur stérilis: quia non erit impossíbile apud Deum omne verbum. Dixit autem María: Ecce ancílla Dómini, fiat mihi secúndum verbum tuum."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) STe(fffvDC'dff/hgh)tit(fgf.) <clear>*(,) An(fg'h)ge(h)lus(ixhf/higff/ded.) (;) jux(d)ta(d!gfg) a(dgfefd/ed)ram(dV!cd~) tem(dv.cd'f/ef!hvGE'fd)pli,(d.) (:) ha(ixdf'!hv//j_hivGEf_g)bens(f.) (,) thu(de)rí(gh)bu(hggvE'DC'd)lum(d.) (,) áu(cd'f/ef'!gvE'Dfv.efd/ed)re(cd)um(dfddc.) (,) in(da~) ma(cd)nu(d) su(dfd___)a :(d.) (:) et(cd~) da(d)ta(fde) sunt(dec) e(cd'f/efd)i(d.) (,) in(da~)cén(cd~)sa(d) mul(dfd___)ta :(d.) (:) et(c) a(d)scén(ixdh./jjh//gih/ig.fg'hjjg)(,)(f!h_gh//fh!jvGF'fdf.//eg/hjh/jhhV!gh~)dit(f.) (;) fu(ef'!gvE'Dfv.efd)mus(dfddc.) a(cd'f/ef'g)ró(ed/fe)ma(d_e_d_)tum(d.) (,) in(da~) con(cd~)spé(d)ctu(d) De(d_e_d_)i,(d.) (:) al(cd)le(f_g_f_hv.ghFD.1//cd/fefg_e)(,)(h_gefd//fvEDed)lú(cd~){ia}.(d.) (::)",
+      "availableTranslations": {
+        "English": "An Angel stood near the altar of the temple, having a golden censer in his hand, and there was given to him much incense: and the smoke of the perfumes went up before God.",
+        "Bohemice": "Stál Anděl podél chrámového oltáře, měl zlatou kadidelnici ve své ruce, a bylo mu dáno mnoho kadidla, a vystupoval vonný kouř před tvář Hospodinovu.",
+        "Espanol": "Púsose el ángel junto al ara del templo, con un incensario de oro en su mano; y diéronsele muchos perfumes; y subió el humo de estos aromas hasta Dios.",
+        "Francais": "L’Ange se plaça devant l’autel du temple, ayant un encensoir d’or dans sa main ; et il lui fut donné beaucoup de parfums : et la fumée des parfums monta devant Dieu, alléluia.",
+        "Italiano": "Un angelo presso l'altare del Tempio apparve reggendo un turibolo d'oro, e gli furono dati molti profumi, l'aroma salì alla presenza di Dio. (Alleluia.)",
+        "Nederlands": "Een engel stond bij het altaar in de tempel, met een gouden wierookvat in de hand en veel wierook werd hem gegeven, en de rook van de wierook steeg op voor het aanschijn van God. (Alleluia.)",
+        "Polski": "Anioł stanął przy ołtarzu świątyni, mając w ręku złotą kadzielnicę; i dano mu wiele kadzideł, i wzniósł się wonny dym przed Bogiem (Alleluja.)",
+        "Portugues": "Junto ao altar, no templo, estava de pé um Anjo, tendo na mão um turíbulo de ouro: e deitava-lhe muito incenso, subindo o fumo dos perfumes à presença de Deus. (T. P. Aleluia.)"
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Accéptum fiat in conspéctu tuo, Dómine, nostræ servitútis munus, et beáti Archángeli Gabriélis orátio: ut, qui a nobis venerátur in terris, sit apud te pro nobis advocátus in cœlis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May this gift from us, Your servants, and the prayer of the blessed Archangel Gabriel be acceptable in Your sight, O Lord, so that he whom we honor on earth may plead our cause with You in heaven.",
+        "Bohemice": "May this gift from us, Your servants, and the prayer of the blessed Archangel Gabriel be acceptable in Your sight, O Lord, so that he whom we honor on earth may plead our cause with You in heaven.",
+        "Espanol": "Acoge, Señor, favorablemente en tu presencia el obsequio de nuestra servidumbre, y la oración del arcángel san Gabriel; y, pues nosotros le veneramos en la tierra, él, a su vez, sea nuestro abogado ante ti en el cielo.",
+        "Francais": "Que le don de notre dépendance soit accepté devant votre face, Seigneur, avec la prière du bienheureux Archange Gabriel : de sorte que celui que nous vénérons sur terre soit notre avocat dans les cieux devant vous.",
+        "Italiano": "Sia gradita al tuo cospetto, o Signore, per intercessione del beato arcangelo Gabriele, l'offerta di noi tuoi servi; affinché venerandolo in terra, sia nostro avvocato presso di te in cielo.",
+        "Nederlands": "Moge, o Heer, de gave van onze dienstbaarheid behagen vinden in uw ogen, tezamen met het gebed van de heilige aartsengel Gabriël, opdat hij, die wij op aarde eren, onze voorspreker bij U mag zijn in de hemel.",
+        "Polski": "Panie, przyjmij łaskawie ofiarę, nas sług Twoich, wraz z modlitwą św. Gabriela Archanioła; niech ten, którego czcimy na ziemi, będzie naszym orędownikiem w niebie.",
+        "Portugues": "Senhor, seja agradável a vossos olhos a oferta da nossa servidão, bem como a oração de B. Gabriel Arcanjo, a fim de que, venerando-o nós na terra, seja nosso advogado junto de Vós no céu."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(eef)ne(de)dí(gh)ci(g_f)te(fff/d_e_d._) (,) *() o(g)mnes(g) An(iij)ge(h)li(g) Dó(h)mi(g)ni(f) <nlba>Dó(hih)mi(ghg___)num :</nlba>(g.) (:) hy(g)mnum(g) dí(i_j)ci(h)te,(g.h!iwjiih.0) (;) et(h) su(iji)per(g)ex(h)al(g)tá(fg'h)te(g) e(efED'e)um(ed..) (,) in(fv.fffdeg_h) sǽ(gv.fg/hhg)cu(egff)la.(fe..) (::) <i>T. P.</i> Al(ff)le(d!ewf!gvFE)lú(egff){ia}.(fe..) (::)",
+      "availableTranslations": {
+        "English": "All you Angels of the Lord, bless the Lord: sing a hymn, and exalt Him above all forever.",
+        "Bohemice": "All you Angels of the Lord, bless the Lord: sing a hymn, and exalt Him above all forever.",
+        "Espanol": "Todos los Ángeles del Señor, bendecid al Señor: cantadle un himno y exaltadlo por siempre.",
+        "Francais": "Tous les anges du Seigneur, bénissez le Seigneur ; dites-lui des hymnes et exaltez-le dans tous les siècles (Alléluia).",
+        "Italiano": "Angeli di Dio, benedite il Signore, inneggiate ed esaltatelo in eterno. (Alleluia.)",
+        "Nederlands": "Alle engelen van de Heer, zegent de Heer. Zingt Hem een loflied en verheft Hem voor eeuwig. (Alleluia.)",
+        "Polski": "Błogosławcie Pana, wszyscy Aniołowie Pańscy, opiewajcie w hymnie i wywyższajcie Go na wieki (Alleluja.)",
+        "Portugues": "Anjos todos do Senhor, louvai o Senhor. Cantai hinos em seu louvor e aclamai-O em todos os séculos. (T. P. Aleluia.)"
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Córporis tui et Sánguinis sumptis mystériis, tuam, Dómine, Deus noster, deprecámur cleméntiam: ut, sicut, Gabriéle nuntiánte, incarnatiónem tuam cognóvimus; ita, ipso adjuvante, incarnationis ejúsdem benefícia consequámur:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, our Lord, having received the sacrament of Your Body and Blood, we ask of Your mercy that, as Your incarnation was made known to us by the message of Gabriel, so by his help we may reap the benefits of that same incarnation.",
+        "Bohemice": "O God, our Lord, having received the sacrament of Your Body and Blood, we ask of Your mercy that, as Your incarnation was made known to us by the message of Gabriel, so by his help we may reap the benefits of that same incarnation.",
+        "Espanol": "O Dios, Señor nuestro, habiendo recibido el sacramento de Tu Cuerpo y Sangre, te pedimos la misericordia de que, del mismo modo que Tu encarnación nos fue dada a conocer por el mensaje de Gabriel, así por su auxilio cosechemos los beneficios de la encarnación.",
+        "Francais": "Ayant communié aux mystères de votre Corps et de votre Sang, nous implorons, Seigneur notre Dieu, votre clémence : afin que comme nous avons connu par les message de Gabriel votre incarnation, de même, avec son aide, nous participions aux bienfaits de cette incarnation.",
+        "Italiano": "Dopo aver ricevuto i misteri del tuo corpo e del tuo sangue, imploriamo la tua clemenza, o Signore; affinché, come dall'annuncio di Gabriele abbiamo conosciuto la tua Incarnazione, così mediante le sue preghiere ne raggiungiamo i benefici:",
+        "Nederlands": "Na de nuttiging van de geheimen van uw Lichaam en Bloed, smeken wij uw barmhartigheid, Heer onze God, dat wij door de hulp van de heilige Gabriël de weldaden van de Menswording mogen verwerven, zoals wij door zijn aankondiging de Menswording hebben vernomen.",
+        "Polski": "Po przyjęciu Sakramentu Ciała i Krwi Twojej, Panie Boże nasz, błagamy Twą dobroć: jak za zwiastowaniem Gabriela poznaliśmy Twoje Wcielenie, tak przy jego pomocy niechaj dostąpimy zbawiennych skutków tegoż Wcielenia:",
+        "Portugues": "Havendo já recebido os mystérios do vosso Corpo e Sangue, Senhor, nosso Deus, imploramos a vossa clemência, para que, assim como pela Anunciação do Arcanjo Gabriel conhecemos a vossa Incarnação, assim também com seu auxílio alcancemos os benefícios da mesma Incarnação."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

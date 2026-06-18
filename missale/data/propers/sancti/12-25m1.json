@@ -1,0 +1,782 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "In Nativitate Domini in nocte",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) DO(fh/ih)MI(hhh)NUS(f.) *(,) di(f!hh)xit(f!hh) ad(eg~) me :(f.) (;) Fí(fgf)li(fe)us(f) me(h_g)us(h_i) es(fgF'E) tu,(e.) (:) e(fh/ih)go(hhh) hó(f/hhh)di(fe)e(e.) (,) gé(fge)nu(hh)i(ivH'Gh) te.(f.) (::) <i>Ps.</i> Qua(e)re(fe) fre(eh)mu(hg)é(hi)runt(i) gen(hi)tes :(h.) *(:) et(hf~) pó(fh)pu(h)li(h) me(h)di(h)tá(h)ti(h') sunt(i) in(hf)á(h)ni(ge)a?(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+      "availableTranslations": {
+        "English": "The Lord said to Me, You are My Son; this day I have begotten You. Why do the nations rage and the people utter folly?",
+        "Bohemice": "Hospodin řekl ke mně: „Syn můj jsi ty, já dnes jsem tebe zplodil.“ Proč se bouří lidská pokolení a národové osnují marné plány?",
+        "Cesky-Schaller": "Hospodin řekl ke mně: „Syn můj jsi ty, já dnes jsem tebe zplodil.“ Proč se bouří lidská pokolení a národové osnují marné plány?",
+        "Espanol": "El Señor me ha dicho: Tú eres mi Hijo, yo te he engredado hoy. ¿Por qué se embravecen las pueblos y maquinan las naciones planes vanos?",
+        "Francais": "Le Seigneur m’a dit : « tu es mon Fils. C’est moi qui t’engendre aujourd’hui » Pourquoi les nations ont-elles frémi ? Pourquoi les peuples ont-ils tramé de vains complots ?",
+        "Italiano": "Il Signore disse a me: tu sei mio figlio, io oggi ti ho generato. Perché si agitano le genti: e i popoli ordiscono vani disegni?",
+        "Nederlands": "De Heer sprak tot Mij: Mijn Zoon zijt Gij, Ik heb U heden voortgebracht. Wat woeden de heidenen en beramen de volkeren ijdele plannen!",
+        "Polski": "Pan rzekł do mnie: «Tyś Synem moim, Ja Cię dziś zrodziłem». Dlaczego się burzą narody, czemu ludy knują daremne zamysły?",
+        "Portugues": "O Senhor disse-me: Sois o meu Filho: Eu Vos gerei hoje. Porque se agitaram as nações? Porque meditaram os povos vãos projectos contra mim?",
+        "Ukrainian": " Гоcподь cказав до мене: Ти – Cин мій, я нині родив тебе. Чому заворушилиcь народи, і люди намиcлили cуєтне?"
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui hanc sacratíssimam noctem veri lúminis fecísti illustratióne claréscere: da, quǽsumus; ut, cujus lucis mystéria in terra cognóvimus, ejus quoque gáudiis in cœlo perfruámur:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Who have brightened this most holy night with the splendor of the true light, grant, we beseech You, that we may know in heaven the joy of that light which we have known mystically on earth.",
+        "Bohemice": "Bože, jenž jsi tuto přesvatou noc jasem pravého světla ozářil, dej, prosíme, abychom téhož světla, jehož tajemství jsme poznali na zemi, také radostí požívali v nebi.",
+        "Cesky-Schaller": "Bože, jenž jsi tuto přesvatou noc jasem pravého světla ozářil, dej, prosíme, abychom téhož světla, jehož tajemství jsme poznali na zemi, také radostí požívali v nebi.",
+        "Espanol": "Oh Dios, que hiciste resplandecer esta noche sacratísima con las claridades de Aquel que es la luz verdadera; dígnate concedernos que, después de conocer en la tierra los misterios de su luz, disfrutemos también de sus goces en el cielo.",
+        "Francais": "Seigneur Dieu, vous avez illuminé cette nuit sainte de l’éclat de la vraie lumière : nous vous en prions, faites que cette lumière dont le mystère nous est révélé sur la terre nous fasse goûter dans le ciel la plénitude de la joie.",
+        "Italiano": "O Dio, che questa notta sacratissima hai rischiarato coi fulgori della vera Luce, concedici, Te ne preghiamo, che di Colui del quale abbiamo conosciuto in terra i misteriosi splendori, partecipiamo pure i gaudii in cielo:",
+        "Nederlands": "God, Gij hebt deze allerheiligste nacht in de helderheid van het ware licht doen stralen; wij vragen U: doe ons in de hemel ook de vreugde genieten van het licht, waarvan wij de geheimen op aarde leerden kennen.",
+        "Polski": "Boże, Tyś sprawił, że ta najświętsza noc zajaśniała blaskiem prawdziwej światłości, spraw, prosimy, abyśmy w niebie mogli nasycać się radościami Tego, którego tajemniczą światłość poznaliśmy na ziemi:",
+        "Portugues": "Ó Deus, que fizestes brilhar nesta noite santíssima os esplendores da verdadeira luz, permiti, Vos pedimos, que, depois de havermos conhecido esta luz misteriosa neste mundo, possamos gozar no céu as delícias de que é origem Aquele que,",
+        "Ukrainian": "Боже, Ти зробив яскравою цю найсвятішу ніч завдяки сяйву істинного Світила, даруй, просимо Тебе, щоб ми насолодилися на небі радістю Того, тайну світла Котрого пізнали на землі:"
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Caríssime: Appáruit grátia Dei Salvatóris nostri ómnibus homínibus, erúdiens nos, ut, abnegántes impietátem et sæculária desidéria, sóbrie et juste et pie vivámus in hoc sǽculo, exspectántes beátam spem et advéntum glóriæ magni Dei et Salvatóris nostri Jesu Christi: qui dedit semetípsum pro nobis: ut nos redímeret ab omni iniquitáte, et mundáret sibi pópulum acceptábilem, sectatórem bonórum óperum. Hæc lóquere et exhortáre: in Christo Jesu, Dómino nostro.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Beloved: The grace of God our Saviour has appeared to all men, instructing us, in order that, rejecting ungodliness and worldly lusts, we may live temperately and justly and piously in this world; looking for the blessed hope and glorious coming of our great God and Saviour, Jesus Christ, Who gave Himself for us that He might redeem us from all iniquity and cleanse for Himself an acceptable people, pursuing good works. Thus speak, and exhort, in Christ Jesus our Lord.",
+        "Bohemice": "Nejmilejší! Ukázala se milost Boha, Spasitele našeho, všem lidem, učíc nás, abychom odřeknouce se bezbožnosti a světských žádostí, střízlivě a spravedlivě a pobožně byli živi na tomto světě, očekávajíce blahou naději a příchod slávy velikého Boha a Spasitele našeho Ježíše Krista, jenž dal sebe samého za nás, aby nás vykoupil od všeliké nepravosti a očistil si lid příjemný, jenž by byl horlitelem dobrých skutků. Tak mluv a napomínej v Kristu Ježíši, Pánu našem.",
+        "Cesky-Schaller": "Nejmilejší! Ukázala se milost Boha, Spasitele našeho, všem lidem, učíc nás, abychom odřeknouce se bezbožnosti a světských žádostí, střízlivě a spravedlivě a pobožně byli živi na tomto světě, očekávajíce blahou naději a příchod slávy velikého Boha a Spasitele našeho Ježíše Krista, jenž dal sebe samého za nás, aby nás vykoupil od všeliké nepravosti a očistil si lid příjemný, jenž by byl horlitelem dobrých skutků. Tak mluv a napomínej v Kristu Ježíši, Pánu našem.",
+        "Espanol": "Hermano: Se ha manifestado la gracia de Dios, que trae la salvación para todos los hombres, enseñándonos a que, renunciando a la impiedad y a los deseos mundanos, llevemos ya desde ahora una vida sobria, justa y piadosa, aguardando la dicha que esperamos y la manifestación de la gloria del gran Dios y Salvador nuestro, Jesucristo, el cual se entregó por nosotros para rescatarnos de toda iniquidad y purificar para sí un pueblo de su propiedad, dedicado enteramente a las buenas obras. De esto es de lo que has de hablar y exhortar en Cristo Jesús Señor nuestro.",
+        "Francais": "Caríssime: Appáruit grátia Dei Salvatóris nostri ómnibus homínibus, erúdiens nos, ut, abnegántes impietátem et sæculária desidéria, sóbrie et juste et pie vivámus in hoc sǽculo, exspectántes beátam spem et advéntum glóriæ magni Dei et Salvatóris nostri Jesu Christi: qui dedit semetípsum pro nobis: ut nos redímeret ab omni iniquitáte, et mundáret sibi pópulum acceptábilem, sectatórem bonórum óperum. Hæc lóquere et exhortáre: in Christo Jesu, Dómino nostro.",
+        "Italiano": "Carissimo: La grazia salvatrice di Dio si è manifestata per tutti gli uomini e ci ha insegnato a rinnegare l’empietà e le mondane cupidigie, e a vivere in questo mondo con temperanza, giustizia e pietà, aspettando la lieta speranza e la manifestazione gloriosa del nostro grande Iddio e Salvatore nostro Gesù Cristo. Egli ha dato sé stesso per noi, a fine di riscattarci da ogni iniquità, e purificare per sé un popolo suo proprio, zelante per buone opere. Insegna queste cose e raccomandale: in nome del Cristo Gesù, Signore nostro.",
+        "Magyar": "Megjelent ugyanis megváltó Istenünk kegyelme minden ember számára,  s arra tanít minket, hogy szakítsunk az istentelenséggel és az evilági vágyakkal, éljünk fegyelmezetten, szentül és buzgón ezen a világon.  Várjuk reményünk boldog beteljesülését: a nagy Istennek és Üdvözítőnknek, Jézus Krisztusnak dicsőséges eljövetelét,  aki önmagát adta értünk, hogy minden gonoszságtól megváltson, megtisztítson, és jótettekben buzgolkodó, választott népévé tegyen.  Erről beszélj, erre buzdíts és figyelmeztess teljes határozottsággal. Senki meg ne vessen!",
+        "Nederlands": "Caríssime: Appáruit grátia Dei Salvatóris nostri ómnibus homínibus, erúdiens nos, ut, abnegántes impietátem et sæculária desidéria, sóbrie et juste et pie vivámus in hoc sǽculo, exspectántes beátam spem et advéntum glóriæ magni Dei et Salvatóris nostri Jesu Christi: qui dedit semetípsum pro nobis: ut nos redímeret ab omni iniquitáte, et mundáret sibi pópulum acceptábilem, sectatórem bonórum óperum. Hæc lóquere et exhortáre: in Christo Jesu, Dómino nostro.",
+        "Polski": "Najmilszy: Okazała się wszystkim ludziom łaska Boga, Zbawiciela naszego, i poucza nas, abyśmy wyrzekłszy się bezbożności i żądz światowych, rozsądnie, sprawiedliwie i pobożnie żyli na tym świecie, oczekując błogosławionej nadziei i przyjścia chwały wielkiego Boga i Zbawiciela naszego Jezusa Chrystusa. Wydał On samego siebie za nas, aby nas wykupił od wszelkiej nieprawości i przygotował sobie na własność lud czysty, dobrych uczynków strzegący. To mów i napominaj w Chrystusie Jezusie, Panu naszym.",
+        "Portugues": "Caríssimo: A graça de Deus, nosso Salvador, manifestou-se a todos os homens, ensinando-nos, a fim de que, repudiando a impiedade e os apetites terrenos, vivamos neste mundo com temperança, justiça e piedade, pensando na esperança, na bem-aventurança eterna e na vinda da glória do nosso grande Deus e Salvador, Jesus Cristo: que se ofereceu espontaneamente por nós, para nos resgatar de todas as iniquidades, e tornar-nos numa raça purificada, escolhida e zelosa em suas boas obras. Ensina e prega estas cousas, em Jesus Cristo, Nosso Senhor!",
+        "Ukrainian": "Улюблений: Божа благодать з’явилася спасенна всім людям і навчає нас, щоб ми, зрікшися нечестя та грішних бажань цього світу, жили тверезо, праведно і благочестиво в нинішньому віці, чекаючи блаженної надії і славного з’явлення великого Бога і Спаса нашого Ісуса Христа, який віддав себе самого, щоб викупити нас від усякого беззаконня та щоб очистити собі народ, що був би його власний, ревний до добрих діл. Так говори і умовляй, в Христі Ісусі, Господі нашім."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale & Alleluia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) TE(f)cum(c) prin(f)cí(f)pi(fgF'Efef)um(f.) <clear>*(,) in(hh/ijIH') di(ig'hvF'Ef/hh/if)e(f.) (;) vir(f!gwh)tú(hv.gihghf)tis(gxfegvFE.) (`) tu(ed/fef)ae :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) in(f) splen(e)dó(hh)ri(hji)bus(ihhf.) (,) san(f)ctó(h.f!gwh/i_f/ij)rum,(h_fhv.ghF'Ef.) (;) ex(f) ú(hfh)te(hhh)ro(h.f!gwh!iv.hi/jhh/iih.0) (:) an(hhi~)te(h) lu(h)cí(hg/hi!jvHGhhg)(,)(i_hivHF')fe(f)rum(fhF'Efhhf//hvvGF'heed.0) (:) gé(de'fhvGF'g)nu(ef)i(hf/h_i) te.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. Di(f)xit(h) Dó(hi)mi(i)nus(i) (`) Dó(i)mi(i)no(ij) me(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_jkvJI'j)o :(ji..) (:) Se(i!jw!kvJI'jw!kvJI)de(i.) (,) a(i) dex(i)tris(ij) me(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)is :(f.) (:) do(hh)nec(h) po(hji)nam(ihhf.) (,) in(f)i(fi)mí(i_f/ij)cos(h_fhv.ghF'Ef.) (,) tu(hf/hhh)os(h.f!gwh!iv.hi/jhh/iih.0) (:) sca(hh)bél(hg/hi!jvHGhhg)(,)(i_hivHF)lum(fhF'Efhhf//hvvGF'heed.0) (:) pe(de'fhvGF'g)dum(e) *() tu(f)ó(hf/h_i)rum.(i_jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
+      "availableTranslations": {
+        "English": "Yours is princely power in the day of Your birth, in holy splendor; before the daystar, I have begotten You. The Lord said to my Lord, Sit at My right hand, till I make Your enemies Your footstool.",
+        "Bohemice": "S tebou je vláda v den tvé moci v lesku Svatých; z lůna před jitřenkou zplodil jsem tebe. Řekl Hospodin Pánu mému: „Usedni po mé pravici, dokud nepoložím nepřátel tvých za podnož tvým nohám.“ Aleluja, aleluja. Hospodin pravil ke mně: „Syn můj jsi ty, já dnes zplodil jsem tebe.“ Aleluja.",
+        "Cesky-Schaller": "S tebou je vláda v den tvé moci v lesku Svatých; z lůna před jitřenkou zplodil jsem tebe. Řekl Hospodin Pánu mému: „Usedni po mé pravici, dokud nepoložím nepřátel tvých za podnož tvým nohám.“ Aleluja, aleluja. Hospodin pravil ke mně: „Syn můj jsi ty, já dnes zplodil jsem tebe.“ Aleluja.",
+        "Espanol": "Contigo está el principado en el día de tu poderío en medio de los resplandores de los Santos; de mis entrañas te engendré antes que brillase el lucero de la mañana. Dijo el Señor a mi Señor: Siéntate a mi derecha, hasta que ponga a tus enemigos por peana de tus pies. Aleluya, aleluya. El Señor me dijo: Mi Hijo eres tú: yo te he engendrado hoy. Aleluya.",
+        "Francais": "À toi la puissance au jour de ton triomphe ! Dans les splendeurs des cieux, je t’ai engendré avant l’aurore du monde. Le Seigneur a dit à mon Seigneur : « Assieds-toi à ma droite, jusqu’à ce que je place tes ennemis sous tes pieds. » Alléluia, alléluia. Le Seigneur m’a dit : « tu es mon Fils. C’est moi qui t’engendre aujourd’hui ». Alléluia.",
+        "Italiano": "Con te è il principato dal giorno della tua nascita: nello splendore dei santi, dal mio seno ti ho generato, prima della stella del mattino. Disse il Signore al mio Signore: Siedi alla mia destra: finché ponga i tuoi nemici a sgabello dei tuoi piedi. Allelúia, allelúia. Il Signore disse a me: tu sei mio figlio, io oggi ti ho generato. Allelúia.",
+        "Nederlands": "Aan U de heerschappij op de dag van uw kracht in heilige luister; uit mijn schoot heb Ik U vóór de morgenster voortgebracht.  De Heer sprak tot mijn Heer: Zit aan mijn rechterhand, totdat Ik uw vijanden neerleg als een rustbank voor uw voeten. Alleluia, alleluia.",
+        "Polski": "Przy Tobie panowanie od dnia Twych narodzin; w blaskach świętości przed jutrzenką wydałem Cię z łona. Rzekł Pan do Pana mego: Siądź po prawicy mojej, aż nieprzyjaciół Twych położę jako podnóżek pod Twe stopy. Alleluja, alleluja. Pan rzekł do mnie: «Tyś Synem moim, Ja Cię dziś zrodziłem». Alleluja.",
+        "Portugues": "Em Vós estará o poder soberano no dia do vosso império, no meio dos esplendores dos escolhidos. Eu Vos gerei no meu seio, antes da aurora. O soberano Senhor disse ao meu Senhor: «Assentai-Vos à minha dextra até que eu torne os meus inimigos em escabelo dos vossos pés». Aleluia, aleluia. O Senhor disse-me: «Vós sois o meu Filho; gerei-Vos hoje». Aleluia.",
+        "Ukrainian": "З тобою влада в день cили твоєї в cяєві cвятих; з утроби раніш зорі ранньої я зродив тебе. Cказав Гоcподь Гоcподеві моєму: Cиди праворуч мене, поки не положу ворогів твоїх підніжжям ніг твоїх. Алілуя, aлілуя. Гоcподь cказав до мене: Ти – Cин мій, я нині родив тебе. Алілуя."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) AL(def)le(f_e/f!gwhg)lú(fhh'1h){ia}.(hiHF'fe.) <clear>*(;) <i>ij.</i>(gh//efED.f!gwhhg ehf/gffe.) (::) <sp>V/</sp>. Dó(hv.gih)mi(h)nus(h) di(hg)xit(g) ad(gh!ivvHFhf/gh) me :(g.) (;) Fí(g)li(gf)us(hji) me(h)us(gh) es(f_ehvvGE.gxfgFD.1gxegF'Efe) tu,(e.) (:) e(efeh)go(h) (,) hó(hfh'GE//fhF'D//gxgvFEf.0/hhh/ijHF.1)(,)(g_i_g_ivHG'he.gxf_e/!g_e/!/!gvFEfd)di(ed)e(d.) *(;) gé(fde)nu(ef)i(hg/hfh) te.(ghFE.) (,) (df!hvF'E//d.0f!gwhghvGFg.//egf'/!gvE'Defe.) (;) (gxhhvF'E/!fgED.gyhhvF'Ef_gffe.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. The Lord said to Me, You are My Son; this day I have begotten You. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. De Heer sprak tot Mij: Mijn Zoon zijt Gij, Ik heb U heden voortgebracht. Alleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Exiit edíctum a Cæsare Augústo, ut describerétur univérsus orbis. Hæc descríptio prima facta est a præside Sýriæ Cyríno: et ibant omnes ut profiteréntur sínguli in suam civitátem. Ascéndit autem et Joseph a Galilæa de civitáte Názareth, in Judæam in civitátem David, quæ vocatur Béthlehem: eo quod esset de domo et fámilia David, ut profiterétur cum María desponsáta sibi uxóre prægnánte. Factum est autem, cum essent ibi, impléti sunt dies, ut páreret. Et péperit fílium suum primogénitum, et pannis eum invólvit, et reclinávit eum in præsépio: quia non erat eis locus in diversório. Et pastóres erant in regióne eádem vigilántes, et custodiéntes vigílias noctis super gregem suum. Et ecce, Angelus Dómini stetit juxta illos, et cláritas Dei circumfúlsit illos, et timuérunt timóre magno. Et dixit illis Angelus: Nolíte timére: ecce enim, evangelízo vobis gáudium magnum, quod erit omni pópulo: quia natus est vobis hódie Salvátor, qui est Christus Dóminus, in civitáte David. Et hoc vobis signum: Inveniétis infántem pannis involútum, et pósitum in præsépio. Et súbito facta est cum Angelo multitúdo milítiæ cœléstis, laudántium Deum et dicéntium: Glória in altíssimis Deo, et in terra pax hóminibus bonæ voluntátis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, there went forth a decree from Caesar Augustus that a census of the whole world should be taken. This first census took place while Cyrinus was governor of Syria. And all were going, each to his own town, to register. And Joseph also went from Galilee out of the town of Nazareth into Judea to the town of David, which is called Bethlehem - because he was of the house and family of David - to register, together with Mary his espoused wife, who was with child. And it came to pass while they were there, that the days for her to be delivered were fulfilled. And she brought forth her firstborn Son, and wrapped Him in swaddling clothes, and laid Him in a manger, because there was no room for them in the inn. And there were shepherds in the same district living in the fields and keeping watch over their flock by night. And behold, an angel of the Lord stood by them and the glory of God shone round about them, and they feared exceedingly. And the angel said to them, Do not be afraid, for behold, I bring you good news of great joy which shall be to all the people; for today in the town of David a Saviour has been born to you, Who is Christ the Lord. And this shall be a sign to you: you will find an Infant wrapped in swaddling clothes and lying in a manger. And suddenly there was with the angel a multitude of the heavenly host praising God and saying, Glory to God in the highest, and on earth peace among men of good will.",
+        "Bohemice": "Za onoho času vyšel rozkaz od císaře Augusta, aby byl sepsán všechen svět. Tento soupis konal se první za náčelnictví Quiriniova v Syrii. I šli všickni, aby se dali zapsat, každý do svého města. Odešel pak i Josef z Galileje z města Nazareta do Judska do města Davidova, jež slove Betlem, poněvadž byl z domu a kmene Davidova, aby se dal zapsat s Marií, zasnoubenou manželkou svou, která byla těhotná. Stalo se pak, když tam byli, naplnili se dnové, aby porodila. I porodila syna svého prvorozeného a obvinula jej plénkami a položila ho v jeslích, poněvadž neměli místa v hospodě. A byli v téže krajině pastýři, ponocujíce a stráž noční konajíce nad svým stádem. A hle, Anděl Páně stanul u nich, a jasnost Boží obklíčila je, a báli se velice. I řekl jim Anděl: „Nebojte se, neboť, hle, zvěstuji vám radost velikou, která bude všemu lidu. Narodilť se vám dnes Spasitel, to jest Kristus Pán, v městě Davidově. A toto bude vám znamením: Naleznete dítko plénkami zavinuté a položené v jeslích.“ A hned nato bylo s Andělem množství vojů nebeských, kteří chválili Boha říkajíce: „Sláva na výsostech Bohu, a na zemi pokoj lidem dobré vůle.“",
+        "Cesky-Schaller": "Za onoho času vyšel rozkaz od císaře Augusta, aby byl sepsán všechen svět. Tento soupis konal se první za náčelnictví Quiriniova v Syrii. I šli všickni, aby se dali zapsat, každý do svého města. Odešel pak i Josef z Galileje z města Nazareta do Judska do města Davidova, jež slove Betlem, poněvadž byl z domu a kmene Davidova, aby se dal zapsat s Marií, zasnoubenou manželkou svou, která byla těhotná. Stalo se pak, když tam byli, naplnili se dnové, aby porodila. I porodila syna svého prvorozeného a obvinula jej plénkami a položila ho v jeslích, poněvadž neměli místa v hospodě. A byli v téže krajině pastýři, ponocujíce a stráž noční konajíce nad svým stádem. A hle, Anděl Páně stanul u nich, a jasnost Boží obklíčila je, a báli se velice. I řekl jim Anděl: „Nebojte se, neboť, hle, zvěstuji vám radost velikou, která bude všemu lidu. Narodilť se vám dnes Spasitel, to jest Kristus Pán, v městě Davidově. A toto bude vám znamením: Naleznete dítko plénkami zavinuté a položené v jeslích.“ A hned nato bylo s Andělem množství vojů nebeských, kteří chválili Boha říkajíce: „Sláva na výsostech Bohu, a na zemi pokoj lidem dobré vůle.“",
+        "Espanol": "En aquel tiempo, salió un decreto del emperador Augusto, ordenando que se empadronase todo el Imperio. Este primer empadronamiento se hizo siendo Cirino gobernador de Siria. Y todos iban a empadronarse, cada cual a su ciudad. También José, por ser de la casa y familia de David, subió desde la ciudad de Nazaret, en Galilea, a la ciudad de David, que se llama Belén, en Judea, para empadronarse con su esposa María, que estaba encinta. Y sucedió que, mientras estaban allí, le llegó a ella el tiempo del parto y dio a luz a su hijo primogénito, lo envolvió en pañales y lo recostó en un pesebre, porque no había sitio para ellos en la posada. En aquella misma región había unos pastores que pasaban la noche al aire libre, velando por turno su rebaño. De repente un ángel del Señor se les presentó; la gloria del Señor los envolvió de claridad, y se llenaron de gran temor. El ángel les dijo: «No temáis, os anuncio una buena noticia que será de gran alegría para todo el pueblo: hoy, en la ciudad de David, os ha nacido un Salvador, el Mesías, el Señor. Y aquí tenéis la señal: encontraréis un niño envuelto en pañales y acostado en un pesebre». De pronto, en torno al ángel, apareció una legión del ejército celestial, que alababa a Dios diciendo: «Gloria a Dios en el cielo, y en la tierra paz a los hombres de buena voluntad».",
+        "Francais": "En ce temps-là : Un édit de César Auguste fut publié , pour le recensement de toute la terre. Ce premier recensement eut lieu pendant que Quirinius était gouverneur de Syrie. Et tous allaient se faire recenser, chacun dans sa ville. Joseph aussi monta de Galilée, de la ville de Nazareth, en Judée, à la ville de David, qui s’appelle Bethléem, parce qu’il était de la maison et de la famille de David, pour se faire recenser avec Marie son épouse, qui était enceinte. Or, pendant qu’ils étaient là, le temps où elle devait enfanter s’accomplit, et elle mit au monde son fils premier-né, l’emmaillota et le coucha dans une crèche, parce qu’il n’y avait pas de place pour eux dans l’hôtellerie. Il y avait dans la même région des bergers qui vivaient aux champs et qui veillaient la nuit sur leur troupeau. Un ange du Seigneur parut auprès d’eux et la gloire du Seigneur les enveloppa de clarté, et ils furent saisis d’une grande crainte. Mais l’ange leur dit : « Ne craignez point, car je vous annonce une nouvelle qui sera pour tout le peuple une grande joie : il vous est né aujourd’hui, dans la ville de David, un Sauveur, qui est le Christ Seigneur. Et voici ce qui vous en sera le signe : vous trouverez un nouveau-né emmailloté et couché dans une crèche. » Tout à coup se joignit à l’ange une troupe de la milice céleste, louant Dieu et disant : « Gloire, dans les hauteurs, à Dieu ! Et, sur terre, paix chez les hommes de bonne vonlonté ! »",
+        "Italiano": "In quel tempo: Uscì un editto di Cesare Augusto che ordinava di fare il censimento di tutto l’impero. Questo primo censimento fu fatto mentre Quirino era preside della Siria. Recandosi ognuno a dare il nome nella propria città, anche Giuseppe, appartenente al casato ed alla famiglia di Davide, andò da Nazareth di Galilea alla città di Davide chiamata Betlemme, in Giudea, per farsi iscrivere con Maria sua sposa, ch’era incinta. E avvenne che mentre si trovavano lì, si compì per lei il tempo del parto; e partorì il suo figlio primogenito, lo fasciò e lo pose in una mangiatoia, perché non avevano trovato posto nell’albergo. Nello stesso paese c’erano dei pastori che pernottavano all’aperto e facevano la guardia al loro gregge. Ed ecco apparire innanzi ad essi un Angelo del Signore e la gloria del Signore circondarli di luce, sicché sbigottirono per il gran timore. L’Angelo disse loro: Non temete, perché annuncio per voi e per tutto il popolo un grande gaudio: infatti oggi nella città di Davide è nato un Salvatore, che è il Cristo Signore. Questo sia per voi il segno: troverete un bambino avvolto in fasce, giacente in una mangiatoia. E d’un tratto si raccolse presso l’Angelo una schiera della Milizia celeste che lodava Iddio, dicendo: Gloria a Dio nell’alto dei cieli e pace in terra agli uomini di buona volontà.",
+        "Magyar": "Azokban a napokban történt, hogy Augustus császár rendeletet adott ki, hogy az egész földkerekséget írják össze.  Ez az első összeírás Quirinius, Szíria helytartója alatt volt.  Mindenki elment a maga városába, hogy összeírják.  József is fölment Galilea Názáret nevű városából Júdeába, Dávid városába, Betlehembe, mert Dávid házából és nemzetségéből származott,  hogy összeírják jegyesével, Máriával együtt, aki áldott állapotban volt.  Ott-tartózkodásuk alatt elérkezett a szülés ideje.  Mária megszülte elsőszülött fiát, bepólyálta és jászolba fektette, mert nem jutott nekik hely a szálláson.  Pásztorok tanyáztak a vidéken kint a szabad ég alatt, és éjnek idején őrizték nyájukat.  Egyszerre csak ott állt előttük az Úr angyala, és beragyogta őket az Úr dicsősége. Nagyon megijedtek.  De az angyal így szólt hozzájuk: „Ne féljetek! Íme, nagy örömet adok tudtul nektek és az lesz majd az egész népnek.  Ma megszületett a Megváltó nektek, Krisztus, az Úr, Dávid városában.  Ez lesz a jel: Találtok egy jászolba fektettett, bepólyált gyermeket.”  Hirtelen mennyei seregek sokasága vette körül az angyalt, és dicsőítette az Istent ezekkel a szavakkal:  „Dicsőség a magasságban Istennek és békesség a földön a jóakarat embereinek!”",
+        "Nederlands": "In die tijd werd er een besluit uitgevaardigd van keizer Augustus, om een volkstelling te houden over de gehele wereld. Deze eerste volkstelling had plaats onder Cyrinus, landvoogd van Syrië. Allen gingen op reis om zich aan te geven, ieder naar zijn eigen stad. Zo vertrok ook Jozef - omdat hij uit het huis en geslacht van David was, - vanuit Galilea, uit de stad Nazareth, naar Judea, naar de stad van David, Bethlehem geheten, om zich aan te geven met Maria, zijn maagdelijke echtgenote, die in gezegende staat verkeerde. Terwijl zij nu daar waren, brak de tijd aan, dat Zij moeder zou worden. En Zij bracht haar eerstgeboren Zoon ter wereld, wikkelde Hem in doeken, en legde Hem neer in een kribbe; want in de herberg was er voor hen geen plaats. Nu waren er herders in die streek, die in die nacht waakten en de wacht hielden over hun kudde. En zie, plotseling stond er een engel des Heren vóór hen, en een goddelijke lichtkrans omstraalde hen; en zij werden zeer bevreesd. Maar de engel zeide tot hen: Vreest niet! want ziet, ik breng u een zeer blijde tijding, die voor het gehele volk bestemd is: Heden is u in de stad van David een Verlosser geboren: Christus, de Heer. En dit zij u ten teken: Gij zult een kindje vinden, dat in doeken is gewikkeld en ligt in een kribbe. En plotseling voegde zich bij de engel een hemelse legerschaar, terwijl zij God verheerlijkten en zongen: Glorie aan God in den hoge, en vrede op aarde voor de mensen van goede wil.",
+        "Polski": "Onego czasu wydany został dekret przez cesarza Augusta, aby spisano wszystek świat. Pierwszy ten spis odbył się, gdy Cyryn był wielkorządcą Syrii. Szli tedy wszyscy do spisu, każdy do miasta swego. Poszedł też i Józef z Galilei, z miasta Nazaret, do Judei, do miasta Dawidowego, zwanego Betlejem, jako że był z domu i pokolenia Dawidowego, aby zostać wpisanym wraz z Maryją, zaślubioną swą małżonką, brzemienną. I stało się, gdy tam byli, że wypełniły się dni, aby porodziła. I porodziła Syna swego pierworodnego, i owinęła Go w pieluszki, i złożyła w żłobie: nie było bowiem dla nich miejsca w gospodzie. I byli w tej krainie pasterze, czuwający i odbywający nocne straże nad stadem swoim. A oto Anioł Pański stanął przy nich i jasność Boża zewsząd ich oświeciła, tak że zlękli się bojaźnią wielką. I rzekł im Anioł: «Nie lękajcie się, oto bowiem zwiastuję wam radość wielką, która będzie wszystkiemu ludowi, że się wam dziś narodził Zbawiciel, którym jest Chrystus Pan, w mieście Dawidowym. A to będzie dla was znakiem: Znajdziecie niemowlę owinięte w pieluszki i złożone w żłobie». I nagle zjawiły się z Aniołem zastępy wojska niebieskiego, wielbiące Boga i mówiące: «Chwała na wysokościach Bogu, a na ziemi pokój ludziom dobrej woli».",
+        "Portugues": "Naquele tempo, foi publicado um édito de César Augusto para que se fizesse o recenseamento de todo o universo. Este primeiro recenseamento foi feito por Cirino, governador da Síria. E todos, pois, iam à sua cidade para se inscreverem. José saiu também da Galileia, da cidade de Nazaré, para a Judeia, e foi a Belém, cidade de David, porque ele era da casa e da família de David, para aí ser recenseado com Maria, sua esposa, que estava próximo a dar à luz. Ora, aconteceu que, enquanto eles estavam em Belém, completaram-se os dias em que ela devia dar à luz. E, com efeito, ela deu à luz o seu Filho primogénito, envolvendo-O em uns panos e colocando-O em um presépio, porque não tiveram lugar na hospedaria. Ora, havia naquele lugar uns pastores, guardando durante a noite os seus gados; e eis que um Anjo do céu lhes apareceu, envolvendo-os com a claridade de Deus, o que os encheu de grande temor. Então, o Anjo disse-lhes: «Não tenhais receio, pois venho anunciar-vos uma grande alegria, que se estenderá a todo o povo: é que nasceu hoje, na cidade de David, um Salvador, que é o Cristo Senhor. Isto vos servirá de sinal: Achareis um Menino, envolvido em uns panos e deitado num presépio», E no mesmo instante reuniu-se com o Anjo uma multidão da milícia celestial, louvando Deus e dizendo: «Glória a Deus no mais alto dos céus, e, na terra, paz aos homens de boa vontade!»",
+        "Ukrainian": "Тими днями вийшов наказ від кесаря Августа переписати всю землю. Перепис цей, перший, відбувся, коли Сирією правив Киріній. І йшли всі записатися, — кожний у своє місто. Пішов також і Йосиф з Галилеї, з міста Назарету в Юдею, в місто Давида, що зветься Вифлеєм, бо він походив з дому й роду Давида, щоб записатися з Марією, зарученою своєю, що була вагітна. І от коли вони були там, настав їй час родити, і вона породила свого сина первородного, сповила його та поклала в ясла, бо не було їм місця в заїзді. Були ж у тій стороні пастухи, що перебували в чистім полі та вночі стояли на сторожі коло своїх отар. Аж ось ангел Господній їм з’явився і слава Господня їх осіяла й великий страх огорнув їх. Ангел же сказав їм «Не бійтесь, бо я звіщаю вам велику радість, що буде радістю всього народу Сьогодні народився вам у місті Давидовім Спаситель, він же Христос Господь. І ось вам знак Ви знайдете дитя сповите, що лежатиме в яслах.» І вмить пристала до ангела велика сила небесного війська, що хвалила Бога й промовляла «Слава на висотах Богу й на землі мир людям його вподобання.»"
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) LAe(cd'f)tén(f)tur(ef'g) *() cae(dgF'E//ghG'FgvFE)li,(f.) (;) et(f) ex(f)súl(fgf/gff'fd~)tet(dgF'E) (,) ter(hgh_fhggd~)ra(dgF'EfgFD.1) (:) an(df/gef)te(f.) fá(f/{/ix}f/hih/ih)ci(hg)em(gh/igh.) Dó(e.f!gwhhg)mi(gf)ni :(fg!hvhg.) (;) quó(g_d)ni(dgF'E)am(e.) ve(eg!hvGFghg)nit.(egf/gffe.) (::)",
+      "availableTranslations": {
+        "English": "Let the heavens be glad and the earth rejoice before the Lord, for He comes.",
+        "Bohemice": "Veselte se nebesa a plesej země před tváří Hospodinovou, neboť přišel.",
+        "Cesky-Schaller": "Veselte se nebesa a plesej země před tváří Hospodinovou, neboť přišel.",
+        "Espanol": "Alégrense los cielos y regocíjese la tierra a la vista del Señor, porque ya vino.",
+        "Francais": "Les cieux se réjouissent, la terre bondit de joie en présence du Seigneur, parce qu’il est venu.",
+        "Italiano": "Si allietino i cieli, ed esulti la terra al cospetto del Signore: poiché Egli è venuto.",
+        "Nederlands": "Dat de hemelen zich verheugen en de aarde jubele voor het aanschijn van de Heer, want Hij komt.",
+        "Polski": "Niech cieszy się niebo i ziemia raduje przed Panem, dlatego że nadchodzi.",
+        "Portugues": "Alegrem-se os céus! Regozije-se a terra ante a face do Senhor, pois Ele veio.",
+        "Ukrainian": "Нехай веcелятьcя небеcа і нехай радіє земля перед лицем Гоcподнім, бо він іде."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Accépta tibi sit, Dómine, quǽsumus, hodiérnæ festivitátis oblátio: ut, tua gratia largiénte, per hæc sacrosáncta commércia, in illíus inveniámur forma, in quo tecum est nostra substántia:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May the offering of this day’s festivity, we beseech You, O Lord, find acceptance with You; that, by the bounty of Your grace, we may, through these sacred dealings, be made like unto Him in Whom our nature is united with You.",
+        "Bohemice": "Příjemna budiž tobě, prosíme, Pane, oběť dnešní slavnosti, abychom štědrotou milosti tvé skrze tuto přesvatou výměnu shledáni byli podobni tomu, v němž je s tebou spojena naše podstata.",
+        "Cesky-Schaller": "Příjemna budiž tobě, prosíme, Pane, oběť dnešní slavnosti, abychom štědrotou milosti tvé skrze tuto přesvatou výměnu shledáni byli podobni tomu, v němž je s tebou spojena naše podstata.",
+        "Espanol": "Que te sea agradable, oh Señor, nuestra oblación en la festividad de este gran día, para que mediante la generosidad de tu gracia, podamos, en virtud de este intercambio sacrosanto, revestir la forma de aquél a quien está unida nuestra sustancia.",
+        "Francais": "En ce jour de fête, Seigneur, rendez notre offrande digne de vous. Et dans l’échange infiniment saint que réalise ce sacrifice, accordez-nous la grâce de ressembler au Christ Jésus, en qui notre nature humaine se trouve unie à vous.",
+        "Italiano": "Ti sia gradita, o Signore, Te ne preghiamo, l’offerta dell’odierna solennità: affinché, aiutati dalla tua grazia, mediante questi sacrosanti scambi, siamo ritrovati conformi a Colui nel quale la nostra sostanza è unita alla Tua:",
+        "Nederlands": "Wij vragen U, Heer, dat de offerande op het feest van vandaag U welgevallig moge zijn, opdat wij met de hulp van uw genade, door deze heilige handelingen een afbeelding worden van Hem, in wie onze natuur met U verenigd is.",
+        "Polski": "Przyjmij łaskawie, o Panie, ofiarę, którą Ci składamy w dzisiejszą uroczystość, abyśmy za łaską Twoją przez tę tajemniczą wymianę otrzymali udział w Bóstwie Tego, w którym zespoliła się z Tobą nasza ludzka natura:",
+        "Portugues": "Dignai-Vos, Senhor, aceitar a oblação que Vos oferecemos na festividade deste dia, e pela vossa graça permiti que por meio deste sacrossanto comércio nos assemelhemos Àquele em quem a nossa substância humana está unida à vossa divindade.",
+        "Ukrainian": "Нехай буде прйнятною для Тебе, Господи – просимо Тебе – приношення сьогоднішнього святкування, щоб, від щедрості Твоєї милості, через цей найсвященнійший обмін ми прийняли подобу Того, в Котрому разом з Твоєю є й наша природа,"
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) IN(f) splen(d)dó(ff)ri(d)bus(ff) *() san(g_f)ctó(f_g_f_)rum,(f.) (;) ex(f) ú(fg'h)te(h_g)ro(gv.fgFD.1) (;) an(ffg~)te(f) lu(hg)cí(hv.f!h'j)fe(g)rum(fgFD.1) (,) gé(df/gh)nu(ff)i(f_g_f_) te.(f.) (::)",
+      "availableTranslations": {
+        "English": "In holy splendor, before the daystar I have begotten You.",
+        "Bohemice": "V lesku svatých z lůna před jitřenkou zplodil jsem tebe.",
+        "Cesky-Schaller": "V lesku svatých z lůna před jitřenkou zplodil jsem tebe.",
+        "Espanol": "En medio de los resplandores de los Santos, de mis entrañas te engendré, antes que el lucero de la mañana.",
+        "Francais": "Dans les splendeurs du sanctuaire, je t’ai engendré avant l’aurore du monde.",
+        "Italiano": "Nello splendore dei santi, dal mio seno ti ho generato, prima della stella del mattino.",
+        "Nederlands": "In heilige luister heb Ik U vóór de morgenster uit mijn schoot voortgebracht.",
+        "Polski": "W blaskach świętości przed jutrzenką wydałem Cię z łona.",
+        "Portugues": "Eu Vos gerei no meu seio, antes do romper da aurora, entre os esplendores dos escolhidos.",
+        "Ukrainian": "В cяєві cвятих, з утроби раніш зорі ранньої я зродив тебе."
+      },
+      "mode": "6",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Da nobis, quǽsumus, Dómine, Deus noster: ut, qui Nativitátem Dómini nostri Jesu Christi mystériis nos frequentáre gaudémus; dignis conversatiónibus ad ejus mereámur perveníre consórtium:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, we beseech You, O Lord our God, that we who joyfully celebrate the birth of our Lord Jesus Christ, in this sacrament may gain His companionship by worthy living.",
+        "Bohemice": "Dej nám, prosíme, Pane, Bože náš, abychom, kteří se radujeme, že můžeme narození Pána našeho Ježíše Krista obnovovat ve svátostech, zasloužili si jeho společenství dojíti hodným životem.",
+        "Cesky-Schaller": "Dej nám, prosíme, Pane, Bože náš, abychom, kteří se radujeme, že můžeme narození Pána našeho Ježíše Krista obnovovat ve svátostech, zasloužili si jeho společenství dojíti hodným životem.",
+        "Espanol": "Te rogamos, Señor Dios Nuestro, nos concedas que, gozándonos de participar en los misterios de la Natividad de Nuestro Señor Jesucristo, merezcamos, por una santa vida, llegar a la perfecta unión con Él.",
+        "Francais": "Nous avons la joie, Seigneur notre Dieu, de célébrer tous ensemble dans ces saints mystères la naissance de Notre Seigneur Jésus Christ : faites, nous vous en prions, qu’au terme d’une vie sainte, nous méritions de partager sa gloire.",
+        "Italiano": "Concedici, Te ne preghiamo, o Signore Dio nostro, che celebrando con giubilo, mediante questi sacri misteri, la nascita del Signore nostro Gesù Cristo, meritiamo con una vita santa di pervenire al suo consorzio:",
+        "Nederlands": "Wij vragen U, Heer onze God, doe ons, die telkens de geboorte van onze Heer Jezus Christus in deze geheimen met vreugde mogen vieren, door waardige levenswandel aan Hem deel hebben.",
+        "Polski": "Panie, Boże nasz, z radością uczestniczymy w misteriach narodzenia Pana naszego Jezusa Chrystusa; daj nam, prosimy, abyśmy przez święte życie zasłużyli na obcowanie z Nim w wieczności:",
+        "Portugues": "Senhor, nosso Deus, permiti, Vos suplicamos, que, celebrando alegremente o Nascimento de Nosso Senhor Jesus Cristo, pela frequência destes divinos mystérios, mereçamos, com uma conduta santa, gozar a união perfeita com Aquele:",
+        "Ukrainian": "Даруй нам, просимо Тебе, Господи, Боже наш, щоб ми, які з радістю святкуємо Народження Господа нашого Ісуса Христа, через гідне навернення удостоїлися долучитися до товариства Того,"
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

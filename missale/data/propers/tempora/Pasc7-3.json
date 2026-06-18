@@ -1,0 +1,771 @@
+{
+  "rule": [
+    "Credo"
+  ],
+  "feast": "Feria Quarta Quattuor Temporum Pentecostes",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DE(g)us,(gd) dum(e) e(f)gre(gh)de(hg)ré(ghg___)ris(g.) *(,) co(g)ram(hj~) pó(j)pu(jjj)lo(g) tu(hjfg)o,(g.) (;) al(gj~)le(jv.jjj_h)lú(hjI~'H~){ia},(h.) (:) i(g)ter(h) fá(j')ci(j)ens(k') e(k)is,(g.) (,) al(g)le(gh'j)lú(ihjI~H~){ia} :(h.) (:) há(jv.jjj)bi(ih)tans(jkj) in(i) il(jjjvH~G~)lis,(g.) (;) al(g)le(gh'j)lú(ihjI~H~){ia},(h.) (,) al(j)le(i_gh/{/ix}fgh/!ig/!h_g)lú(egff){ia}.(fe..) (::) <i>Ps.</i> Ex(g)súr(hj)gat(j) De(j)us,(j.) et(j) dis(j)si(j)pén(j)tur(j) in(j)i(j)mí(k)ci(j) e(ih)jus :(jjj) *(:) et(ig~) fú(hj)gi(j)ant,(j) qui(j) o(j)dé(j)runt(j) e(j)um,(j.) (,) a(j) fá(jji)ci(hg)e(h') e(i)jus.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
+      "availableTranslations": {
+        "English": "O God, when You went forth at the head of Your people, making a passage for them, dwelling in their midst, alleluia: the earth quaked; it rained from heaven, alleluia, alleluia. God arises; His enemies are scattered, and those who hate Him flee before Him.",
+        "Francais": "Ô Dieu, quand vous marchiez à la tête de votre peuple, leur montrant le chemin et habitant parmi eux, alléluia, la terre a tremblé et l'eau a coulé du ciel, alléluia, alléluia. Que Dieu se lève, et que ses ennemis soient dispersés ; qu'ils fuient devant sa face, ceux qui le haïssent.",
+        "Italiano": "O Dio, quando andavi alla testa del tuo popolo, aprendogli la strada e dimorando con esso, alleluia; la terra tremò ed i cieli stessi si sciolsero, alleluia, alleluia. Sorge Dio, i suoi nemici si disperdono; e quelli che lo odiano, fuggono dal suo Volto.",
+        "Nederlands": "God, toen Gij zijt opgetrokken aan het hoofd van uw volk, hun een weg banend, en onder hen wonend, alleluia, beefde de aarde, dropen de hemelen, alleluia, alleluia. Dat God nu oprijze en zijn vijanden verstrooid worden. Dat zij, die Hem haten, vluchten voor zijn aanschijn.",
+        "Polski": "O Boże, gdyś wyruszał wobec ludu swego, wskazując im drogę i wśród nich mieszkając, alleluja, ziemia zadrżała, niebo deszcz zesłało, alleluja, alleluja. Bóg wstaje, a rozpraszają się Jego wrogowie i pierzchają przed Jego obliczem ci, którzy Go nienawidzą.",
+        "Portugues": "Ó Deus, quando aparecestes perante o vosso povo, aleluia, caminhando e habitando com ele na terra, aleluia: a terra estremeceu e os céus destilaram águas, aleluia, aleluia! Erga-se Deus e os seus inimigos sejam dispersos: e os seus perseguidores fujam diante da sua face. "
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Mentes nostras, quǽsumus, Dómine, Paráclitus, qui a te procédit, illúminet: et indúcat in omnem, sicut tuus promísit Fílius, veritátem: ",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May the Paraclete Who proceeds from You, enlighten our minds, we beseech You, O Lord, and guide us to all truth, as Your Son has promised.",
+        "Francais": "Puisse le Paraclet qui procède de vous, Seigneur, illuminer nos âmes, et les amener, selon la promesse de votre Fils, à la pleine vérité.",
+        "Italiano": "O Signore, te ne preghiamo: illumini le menti nostre il Paràclito, che da te procede; e le addentri in ogni verità,",
+        "Nederlands": "Wij vragen U, Heer, dat de Helper die van U voortkomt, onze geest verlichte en, volgens de belofte van uw Zoon, ons brenge tot de volle waarheid.",
+        "Polski": "Panie, niech Pocieszyciel, który od Ciebie pochodzi, oświeci nasze umysły i doprowadzi je do wszelkiej prawdy, jak to obiecał Twój Syn:",
+        "Portugues": "Senhor, Vos suplicamos, permiti que o Paráclito, que procede de Vós, ilumine as nossas almas e nos faça conhecer toda a verdade, como no-lo prometeu vosso Filho."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Per manus autem Apostolórum fiébant signa et prodígia multa in plebe. Et erant unanímiter omnes in pórticu Salomónis. Ceterórum autem nemo audébat se conjúngere illis: sed magnificábat eos pópulus. Magis autem augebátur credéntium in Dómino multitúdo virórum ac mulíerum, ita ut in pláteas ejícerent infírmos, et pónerent in léctulis ac grabátis, ut, veniénte Petro, saltem umbra illíus obumbráret quemquam illórum, et liberaréntur ab infirmitátibus suis. Concurrébat autem et multitúdo vicinárum civitátum Jerúsalem, afferéntes ægros et vexátos a spirítibus immúndis: qui curabántur omnes.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, by the hands of the Apostles many signs and wonders were done among the people. And with one accord they all would meet in Solomon’s portico; but of the rest, no one dared to associate with them, yet the people made much of them. And the multitude of men and women who believed in the Lord increased still more, so that they carried the sick into the streets and laid them on beds and pallets that, when Peter passed, his shadow at least might fall on some of them. And there came also multitudes from the towns near Jerusalem, bringing the sick and those troubled with unclean spirits, and they were all cured.",
+        "Francais": "En ces jours-là, beaucoup de miracles et de prodiges se faisaient parmi le peuple par les mains des apôtres. Et ils étaient tous ensemble sous le portique de Salomon, et aucun des autres n'osait se joindre à eux ; mais le peuple les louait hautement. De plus en plus s'adjoignaient des croyants au Seigneur, hommes et femmes en masse, à tel point qu'on apportait les malades dans les rues et qu'on les plaçait sur des lits et des grabats, afin que, lorsque Pierre passerait, son ombre au moins couvrît quelqu'un d'eux. On venait même en foule des villes voisines de Jérusalem, amenant des malades et des gens tourmentés par des esprits impurs, qui tous étaient guéris.",
+        "Italiano": "In quei giorni: Avvenivano per mezzo degli Apostoli molti segni e prodigi nel popolo. E tutti se ne stavano riuniti nel portico di Salomone. Degli altri poi nessuno ardiva unirsi con essi; ma il popolo li elogiava. E sempre più cresceva la moltitudine di quelli, uomini e donne, che credevano nel Signore: tanto che portavan fuori nelle piazze gli infermi e li mettevan su barelle e strapunti, affinché quando Pietro passava, almeno l'ombra sua ne coprisse qualcuno, e fossero liberati dalle loro infermità. Accorreva pure a Gerusalemme molta gente dalle città vicine, portando malati e tormentati da spiriti immondi, e tutti eran guariti.",
+        "Magyar": "Az apostolok keze sok jelet és csodát művelt a nép között.  Mindnyájan egy emberként voltak a Salamon-csarnokban. Mások közül senki sem mert közéjük elegyedni, de a nép magasztalta őket.  A hívők - férfiak és nők - egyre nagyobb számban csatlakoztak az Úrhoz.  Még a betegeket is kivitték az utcára, hordágyra fektették őket, hogy ha Péter arra megy, legalább az árnyéka érje egyiket-másikat.  Sőt még a Jeruzsálemhez közel eső városok népe is odajött, hozták a betegeket, a tisztátalan szellemektől gyötörteket, s ezek mind meggyógyultak.",
+        "Nederlands": "In die dagen geschiedden er door de hand van de apostelen vele tekenen en wonderen onder het volk. En zij bleven allen bijeen in de zuilengang van Salomon; van de anderen echter durfde niemand zich bij hen voegen; het volk evenwel prees hen zeer. De menigte nu van mannen en vrouwen, die in de Heer geloofden, groeide steeds aan, zodat men de zieken buiten op straat bracht en daar neerlegde op bedden en matrassen, opdat - wanneer Petrus voorbijging - tenminste zijn schaduw op iemand van hen zou vallen en zij zouden genezen van hun ziekten. Zelfs uit de naburige plaatsen stroomde het volk naar Jeruzalem, en zij brachten hun zieken mee en degenen, die door onreine geesten gekweld werden; en allen werden zij genezen.",
+        "Polski": "W one dni: Przez ręce Apostołów działy się wśród ludu liczne znaki i cuda. I byli wszyscy razem w krużganku Salomonowym. Z innych zaś nikt nie śmiał do nich się przyłączyć, ale lud ich uwielbiał. Coraz bardziej wzrastała liczba wierzących w Pana mężów i niewiast, tak że na ulice wynoszono chorych i kładziono na łożach i noszach, aby za nadejściem Piotra przynajmniej cień jego padł na którego z nich, aby zostali uwolnieni od niemocy swoich. A zbiegało się do Jeruzalem wielu z sąsiednich miast, przynosząc chorych i dręczonych przez duchy nieczyste, i wszyscy byli uzdrowieni.",
+        "Portugues": "Naqueles dias, os Apóstolos operavam muitos milagres e prodígios no meio do povo. E, unidos todos, estavam sob o pórtico de Salomão. Nenhuma outra pessoa ousava juntar-se a eles2 ainda que todos os louvassem. O número dos homens e das mulheres que acreditavam em Deus crescia cada vez mais, de modo que conduziam os enfermos para as ruas e colocavam-nos em leitos e catres, para que, quando Pedro passasse, ao menos a sua sombra cobrisse alguns deles e os curasse das suas enfermidades. Até das cidades vizinhas corria a multidão a Jerusalém, conduzindo enfermos e outros atormentados pelos espíritos imundos, os quais eram todos curados."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale & Alleluia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)AL-(e)le-(gg higg'g h_g)lú-(gg hig)ia.(ggh gjh ihhg.) (::)",
+      "availableTranslations": {
+        "English": "Alleluia, alleluia.",
+        "Francais": "Allelúja, allelúja. ",
+        "Italiano": "Allelúia, allelúia. ",
+        "Nederlands": "Alleluia, alleluia. ",
+        "Polski": "Alleluja, alleluja.",
+        "Portugues": "Aleluia, aleluia. (Genuflecte-se) Vinde, ó Espírito Santo; enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor.."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) AL(ef~)le(fg/hggf)lú(ef~){ia}.(f.) (,) *() (ii//gh!ivHG//fhgeef.) (;) (kxjj//ikJI'ivHF.giHG'Eggf.0) (::) <alt>Hic genuflectitur.</alt><sp>V/</sp>. Ve(e!fwg/hggfe_f)ni(f.) (,) San(f)cte(g!hwi) Spí(iv.hig/hfg)ri(gef)tus,(f.) (;) re(h)ple(gvFE'f/ggf.0) (,) tu(f)ó(hg)rum(hi) cor(i_)da(ghfg) fi(g)dé(gf)li(ef)um :(f.) (:) et(g) tu(i)i(ij) a(j)mó(kxkvJI'ivHF.ghGF'ef.)(,)(kxeg//i_j!kvJI'ivHF.ghGF'ef./e!fwg'!hv)ris(g.) (;) in(gef) e(gf)is(f.) i(ef~)gnem(f) *() ac(fg/hggf)cén(ef~)de.(f.) (,) (ii//gh!ivHG//fhgeef.) (;) (kxjj//ikJI'ivHF.giHG'Eggf.0) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. (Kneel.) Come, O Holy Spirit, fill the hearts of Your faithful; and kindle in them the fire of Your love.",
+        "Francais": "Allelúja, allelúja. (Hic genuflectitur) Venez, Esprit Saint, remplissez les cœurs de vos fidèles, et allumez en eux le feu de votre amour.",
+        "Italiano": "Allelúja, allelúja. (si genuflette) Vieni, Spirito Santo, riempi i cuori dei fedeli, accendi il fuoco del tuo amore.",
+        "Nederlands": "Allelúja, allelúja. (Hier maakt men een kniebuiging.) Kom, Heilige Geest, vervul de harten van uw gelovigen en ontsteek in hen het vuur van uw liefde.",
+        "Polski": "Allelúja, allelúja. (Tu się przyklęka) Przyjdź, Duchu Święty, napełnij serca Twych wiernych i zapal w nich ogień Twojej miłości."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sequentia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) VE(c)ni(d) San(e)cte(f) Spí(ed)ri(c)tus,(d.) (;) Et(f) e(g)mít(h)te(ixi) caé(hvGF')li(g)tus(h.) (;) Lu(c)cis(d) tu(f)ae(g) rá(fvED')di(c)um.(d.) (::) \r\nVe(c)ni(d) pa(e)ter(f) páu(ed)pe(c)rum,(d.) (;) Ve(f)ni(g) da(h)tor(ixi) mú(hvGF')ne(g)rum,(h.) (;) Ve(c)ni(d) lu(f)men(g) cór(fvED')di(c)um.(d.) (::) \r\nCon(h)so(j)lá(k)tor(k) ó(ji)pti(j)me,(k.) (;) Dul(j)cis(h) ho(ji)spes(g) á(fe)ni(d)mae,(c.) (;) Dul(g)ce(f) re(gh)fri(g)gé(fvED')ri(c)um.(d.) (::) \r\nIn(h) la(j)bó(k)re(k) ré(ji)qui(j)es,(k.) (;) In(j) ae(h)stu(ji) tem(g)pé(fe)ri(d)es,(c.) (;) In(g) fle(f)tu(gh) so(g)lá(fvED')ti(c)um.(d.) (::) \r\nO(k) lux(k) be(ji)a(j)tís(kj)si(i)ma,(h.) (;) Re(f)ple(d) cor(c)dis(d) ín(f)ti(g)ma(f.) (;) Tu(gh)ó(ixi)rum(h) fi(g)dé(fvED')li(c)um.(d.) (::) \r\nSi(k)ne(k) tu(ji)o(j) nú(kj)mi(i)ne,(h.) (;) Ni(f)hil(d) est(c) in(d) hó(f)mi(g)ne,(f.) (;) Ni(gh)hil(ixi) est(h) in(g)nó(fvED')xi(c)um.(d.) (::) \r\nLa(h)va(j) quod(ih) est(i) sór(ji)di(h)dum,(g.) (;) Ri(h)ga(h) quod(fe) est(f) á(gf)ri(e)dum,(d.) (;) Sa(e)na(g) quod(h) est(g) sáu(j)ci(i)um.(h.) (::) \r\nFle(h)cte(j) quod(ih) est(i) rí(ji)gi(h)dum,(g.) (;) Fo(h)ve(h) quod(fe) est(f) frí(gf)gi(e)dum,(d.) (;) Re(e)ge(g) quod(h) est(g) dé(j)vi(i)um.(h.) (::) \r\nDa(k) tu(k)is(g) fi(h)dé(j)li(i)bus,(h.) (;) In(h) te(ixi) con(hg)fi(h)dén(f)ti(g)bus,(f.) (;) Sa(e)crum(g) se(h)pte(d)ná(f)ri(e)um.(d.) (::) \r\nDa(k) vir(k)tú(g)tis(h) mé(j)ri(i)tum,(h.) (;) Da(h) sa(ixi)lú(hg)tis(h) éx(f)i(g)tum,(f.) (;) Da(e) per(g)én(h)ne(d) gáu(f)di(e)um.(d.) (::) \r\n\r\nA(ded)men.(cd..) (,) Al(c)le(f)lú(ed~){ia}.(d.) (::)",
+      "availableTranslations": {
+        "English": "Veni, Sancte Spíritus,  et emítte cǽlitus  lucis tuæ rádium. Veni, pater páuperum;  veni, dator múnerum;  veni, lumen córdium. Consolátor óptime,  dulcis hospes ánimæ,  dulce refrigérium. In labóre réquies,  in æstu tempéries,  in fletu solácium. O lux beatíssima,  reple cordis íntima  tuórum fidélium. Sine tuo númine  nihil est in hómine,  nihil est innóxium. Lava quod est sórdidum,  riga quod est áridum,  sana quod est sáucium. Flecte quod est rígidum,  fove quod est frígidum, rege quod est dévium. Da tuis fidélibus,  in te confidéntibus,  sacrum septenárium. Da virtútis méritum,  da salútis éxitum,  da perénne gáudium.  Amen. Allelúja.",
+        "Francais": "Veni, Sancte Spíritus,  et emítte cǽlitus  lucis tuæ rádium. Veni, pater páuperum;  veni, dator múnerum;  veni, lumen córdium. Consolátor óptime,  dulcis hospes ánimæ,  dulce refrigérium. In labóre réquies,  in æstu tempéries,  in fletu solácium. O lux beatíssima,  reple cordis íntima  tuórum fidélium. Sine tuo númine  nihil est in hómine,  nihil est innóxium. Lava quod est sórdidum,  riga quod est áridum,  sana quod est sáucium. Flecte quod est rígidum,  fove quod est frígidum, rege quod est dévium. Da tuis fidélibus,  in te confidéntibus,  sacrum septenárium. Da virtútis méritum,  da salútis éxitum,  da perénne gáudium.  Amen. Allelúja.",
+        "Italiano": "Veni, Sancte Spíritus,  et emítte cǽlitus  lucis tuæ rádium. Veni, pater páuperum;  veni, dator múnerum;  veni, lumen córdium. Consolátor óptime,  dulcis hospes ánimæ,  dulce refrigérium. In labóre réquies,  in æstu tempéries,  in fletu solácium. O lux beatíssima,  reple cordis íntima  tuórum fidélium. Sine tuo númine  nihil est in hómine,  nihil est innóxium. Lava quod est sórdidum,  riga quod est áridum,  sana quod est sáucium. Flecte quod est rígidum,  fove quod est frígidum, rege quod est dévium. Da tuis fidélibus,  in te confidéntibus,  sacrum septenárium. Da virtútis méritum,  da salútis éxitum,  da perénne gáudium.  Amen. Allelúja.",
+        "Magyar": "Veni, Sancte Spíritus,  et emítte cǽlitus  lucis tuæ rádium. Veni, pater páuperum;  veni, dator múnerum;  veni, lumen córdium. Consolátor óptime,  dulcis hospes ánimæ,  dulce refrigérium. In labóre réquies,  in æstu tempéries,  in fletu solácium. O lux beatíssima,  reple cordis íntima  tuórum fidélium. Sine tuo númine  nihil est in hómine,  nihil est innóxium. Lava quod est sórdidum,  riga quod est áridum,  sana quod est sáucium. Flecte quod est rígidum,  fove quod est frígidum, rege quod est dévium. Da tuis fidélibus,  in te confidéntibus,  sacrum septenárium. Da virtútis méritum,  da salútis éxitum,  da perénne gáudium.  Amen. Allelúja.",
+        "Nederlands": "Veni, Sancte Spíritus,  et emítte cǽlitus  lucis tuæ rádium. Veni, pater páuperum;  veni, dator múnerum;  veni, lumen córdium. Consolátor óptime,  dulcis hospes ánimæ,  dulce refrigérium. In labóre réquies,  in æstu tempéries,  in fletu solácium. O lux beatíssima,  reple cordis íntima  tuórum fidélium. Sine tuo númine  nihil est in hómine,  nihil est innóxium. Lava quod est sórdidum,  riga quod est áridum,  sana quod est sáucium. Flecte quod est rígidum,  fove quod est frígidum, rege quod est dévium. Da tuis fidélibus,  in te confidéntibus,  sacrum septenárium. Da virtútis méritum,  da salútis éxitum,  da perénne gáudium.  Amen. Allelúja.",
+        "Polski": "Veni, Sancte Spíritus,  et emítte cǽlitus  lucis tuæ rádium. Veni, pater páuperum;  veni, dator múnerum;  veni, lumen córdium. Consolátor óptime,  dulcis hospes ánimæ,  dulce refrigérium. In labóre réquies,  in æstu tempéries,  in fletu solácium. O lux beatíssima,  reple cordis íntima  tuórum fidélium. Sine tuo númine  nihil est in hómine,  nihil est innóxium. Lava quod est sórdidum,  riga quod est áridum,  sana quod est sáucium. Flecte quod est rígidum,  fove quod est frígidum, rege quod est dévium. Da tuis fidélibus,  in te confidéntibus,  sacrum septenárium. Da virtútis méritum,  da salútis éxitum,  da perénne gáudium.  Amen. Allelúja.",
+        "Portugues": "Veni, Sancte Spíritus,  et emítte cǽlitus  lucis tuæ rádium. Veni, pater páuperum;  veni, dator múnerum;  veni, lumen córdium. Consolátor óptime,  dulcis hospes ánimæ,  dulce refrigérium. In labóre réquies,  in æstu tempéries,  in fletu solácium. O lux beatíssima,  reple cordis íntima  tuórum fidélium. Sine tuo númine  nihil est in hómine,  nihil est innóxium. Lava quod est sórdidum,  riga quod est áridum,  sana quod est sáucium. Flecte quod est rígidum,  fove quod est frígidum, rege quod est dévium. Da tuis fidélibus,  in te confidéntibus,  sacrum septenárium. Da virtútis méritum,  da salútis éxitum,  da perénne gáudium.  Amen. Allelúja."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus turbis Judæórum: Nemo potest veníre ad me, nisi Pater, qui misit me, tráxerit eum: et ego resuscitábo eum in novíssimo die. Est scriptum in Prophétis: Et erunt omnes docíbiles Dei. Omnis, qui audívit a Patre et dídicit, venit ad me. Non quia Patrem vidit quisquam, nisi is, qui est a Deo, hic vidit Patrem. Amen, amen, dico vobis: qui credit in me, habet vitam ætérnam. Ego sum panis vitæ. Patres vestri manducavérunt manna in desérto, et mórtui sunt. Hic est panis de cœlo descéndens: ut, si quis ex ipso manducáverit, non moriátur. Ego sum panis vivus, qui de cœlo descéndi. Si quis manducáverit ex hoc pane, vivet in ætérnum: et panis, quem ego dabo, caro mea est pro mundi vita.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus said to the Jews: No one can come to Me unless the Father Who sent Me draw him, and I will raise him up on the last day. It is written in the Prophets, “And they all shall be taught of God.” Everyone who has listened to the Father, and has learned, comes to Me; not that anyone has seen the Father except Him Who is from God, He has seen the Father. Amen, amen, I say to you, he who believes in Me has life everlasting. I am the bread of life. Your fathers ate the manna in the desert, and have died. This is the bread that comes down from heaven, so that if anyone eat of it he will not die. I am the living bread that has come down from heaven. If anyone eat of this bread he shall live forever; and the bread that I will give is My flesh for the life of the world.",
+        "Francais": "En ce temps-là, Jésus dit aux foules des Juifs : « Nul ne peut venir à moi si le Père qui m'a envoyé ne l'attire ; et moi je le ressusciterai au dernier jour. Il est écrit dans les Prophètes : Ils seront tous enseignés par Dieu. Quiconque a entendu le Père et a reçu son enseignement, vient à moi. Ce n'est pas que personne ait vu le Père, sinon celui qui est de Dieu ; celui-là a vu le Père. En vérité, en vérité, je vous le dis, celui qui croit en moi a la vie éternelle. Je suis le pain de vie. Vos pères ont mangé la manne dans le désert, et ils sont morts. Voici le pain descendu du ciel, afin qu'on en mange et qu'on ne meure point. Je suis le pain vivant qui est descendu du ciel. Si quelqu'un mange de ce pain, il vivra éternellement ; et le pain que je donnerai, c'est ma chair, pour le salut du monde. »",
+        "Italiano": "In quel tempo disse Gesù alle turbe dei Giudei: «Nessuno può venire a me se non lo attira il Padre, che mi ha mandato; ed io lo risusciterò nell'ultimo giorno. Sta scritto nei profeti: “Saran tutti ammaestrati da Dio”. Chiunque pertanto ha ascoltato il Padre e ricevuto il suo insegnamento viene a me. Non già che alcuno abbia veduto il Padre, eccetto colui che è presso Dio: questi ha veduto il Padre. In verità, in verità vi dico: chi crede in me ha la vita eterna. Io sono il pane della vita. I padri vostri mangiarono nel deserto la manna e morirono. Questo è il pane disceso dal cielo, e chi ne mangia non muore. Io sono il pane vivo disceso dal cielo. Se uno mangia di questo pane vive in eterno e il pane, che io darò, è la mia carne per la vita del mondo».",
+        "Magyar": "Senki sem jöhet hozzám, ha az Atya, aki küldött, nem vonzza, s én feltámasztom az utolsó napon.  Megírták a próféták: Mindnyájan Isten tanítványai lesznek. Mindenki, aki hallgat az Atyára és tanul tőle, hozzám jön.  Nem mintha valaki is látta volna az Atyát, csak aki az Istentől van, az látta az Atyát.  Bizony, bizony, mondom nektek: Aki hisz bennem, annak örök élete van.  Én vagyok az élet kenyere.  Atyáitok mannát ettek a pusztában, mégis meghaltak.  Ez a mennyből alászállott kenyér, aki ebből eszik, nem hal meg.  Én vagyok a mennyből alászállott élő kenyér. Aki e kenyérből eszik, örökké él. A kenyér, amelyet adok, a testem a világ életéért.”  Erre vita támadt a zsidók közt: „Hogy adhatja ez a testét eledelül?”",
+        "Nederlands": "In die tijd sprak Jezus tot de scharen der Joden: Niemand kan tot Mij komen, als de Vader, die Mij gezonden heeft, hem niet trekt; en Ik zal hem opwekken op de jongste dag. Er staat geschreven bij de profeten: “En zij zullen allen door God onderwezen worden.” Ieder, die van de Vader heeft gehoord en geleerd, komt tot Mij. Niet, dat iemand de Vader heeft gezien; alleen Hij, die van God is, Hij heeft de Vader gezien. Voorwaar, voorwaar, Ik zeg u: wie in Mij gelooft, heeft eeuwig leven. Ik ben het Brood des Levens. Uw vaderen hebben in de woestijn het manna gegeten, en zij zijn gestorven. Dit is het Brood, dat uit de hemel nederdaalt, opdat wie daarvan eet, niet zou sterven. Ik ben het levend Brood, Ik, die uit de hemel ben neergedaald. Wanneer iemand van dit Brood eet, zal hij leven in eeuwigheid; en het Brood, dat Ik zal geven, is mijn Vlees voor het leven der wereld.",
+        "Polski": "Onego czasu: Mówił Jezus rzeszom żydowskim: «Nikt nie może przyjść do mnie, jeśli go nie pociągnie Ojciec, który mię posłał; a ja go wskrzeszę w dzień ostateczny. Jest napisane u Proroków: I będą wszyscy uczniami Bożymi. Każdy, kto usłyszał od Ojca i nauczył się, przychodzi do mnie. Nie jakoby Ojca kto widział, bo tylko ten, który jest od Boga, ten widział Ojca. Zaprawdę, zaprawdę powiadam wam: Kto wierzy we mnie, ma żywot wieczny. Jam jest chleb żywota. Ojcowie wasi pożywali mannę na pustyni i pomarli. A ten jest chleb, który z nieba zstępuje, aby każdy, który go spożywać będzie, nie umarł. Jam jest chleb żywy, który z nieba zstąpił; jeśliby kto pożywał tego chleba, żyć będzie na wieki, a chlebem, który ja mu dam, jest ciało moje za życie świata».",
+        "Portugues": "Naquele tempo, disse Jesus à multidão dos judeus: «Ninguém pode vir a mim, se o Pai, que me enviou, o não trouxer; e Eu o ressuscitarei no último dia. Está escrito nos Profetas: «Serão todos ensinados por Deus». Todo o que ouviu o Pai e O compreendeu vem a mim. Ninguém viu o Pai senão Aquele que vem de Deus; esse, sim, viu o Pai. Em verdade, em verdade vos digo: aquele que crê em mim possui a vida eterna. Eu sou o pão da vida. Vossos pais comeram o maná do deserto e morreram. Este é o pão descido do céu, a fim de que aquele que comer dele não morra. Eu sou o pão descido do céu. Se alguém comer deste pão, viverá eternamente. O pão que Eu der é a minha carne para a vida do mundo»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) ME(c)di(ef)tá(f/hhe/gf)bor(f.) *(,) in(e) man(f)dá(hih)tis(hh/ih) tu(hh/ihhvGF)is,(gf..) (;) quae(hg) di(h)lé(hji)xi(hji) val(h_g_f~)de :(f.) (:) et(e) le(f)vá(hhi)bo(h.hhh) (,) ma(fhh'1hh)nus(ef) me(fh)as(hhh/ih/!ih//h'hhvF'Ef.) (,) ad(e) man(f)dá(hih)ta(high) tu(fgffe)a,(e.) (;) quae(hg) di(h)lé(hjIH'hf//ih/!ih//h'hhvFE'D)(,)(efE'Defef)xi,(f!gwhhvGF'gwhhvGF.) (;) al(fg)le(e!hhhhiH//E'//f/hhh_f/hihi)lú(f_g_f_){ia}.(f.) (::)",
+      "availableTranslations": {
+        "English": "I will delight in Your commands, which I love exceedingly. And I will lift up my hands to Your commands, which I love. Alleluia.",
+        "Francais": "Je méditerai sur vos commandements, car je les aime passionément ; et j'élèverai mes mains vers vos commandements que j'aime, alléluia.",
+        "Italiano": "Io medito sui tuoi precetti che amo, e tendo le mani ai tuoi precetti che amo, alleluia.",
+        "Nederlands": "Ik zal uw geboden overwegen, die ik zeer liefheb, en mijn handen zal ik opheffen naar uw bevelen, die ik bemin, alleluia.",
+        "Polski": "Będę rozważał naukę Twoją, bo bardzo ją pokochałem. Ręce me wyciągnę do przykazań Twoich, które umiłowałem, alleluja.",
+        "Portugues": "Meditarei nos vossos mandamentos, que muito amo: e erguerei as minhas mãos para cumprir os vossos mandamentos, que muito amo, aleluia."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Accipe, quǽsumus, Dómine, munus oblátum: et dignánter operáre; ut, quod mystériis ágimus, piis efféctibus celebrámus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Accept, we beseech You, O Lord, the gifts we offer, and graciously bring it about that we may practice by a holy life what we perform here by a sacred rite.",
+        "Francais": "Accueillez, Seigneur, le don qui vous est offert, et accordez-nous la faveur de réaliser, par une sainte réforme de notre vie, ce que nous accomplissons en ces saints mystères.",
+        "Italiano": "Accogli, o Signore, questo dono a te offerto; e benevolmente concedici di conseguire il frutto del mistero, che compiamo.",
+        "Nederlands": "Aanvaard, vragen wij U, o Heer, de offergave en gewaardig U te bewerken, dat wij door godvruchtige daden beleven wat wij in de geheimen gedenken.",
+        "Polski": "Prosimy Cię, Panie, przyjmij złożony dar ofiarny i spraw łaskawie, abyśmy zbożnymi czynami uczcili to, co sprawujemy w tych misteriach.",
+        "Portugues": "Aceitai, Senhor, Vos rogamos, o dom que Vos oferecemos: e dignai-Vos permitir-nos que celebremos piamente os mystérios que desempenhamos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PA(h)cem(h) re(h)lín(hg)quo(fh) vo(hg)bis :(fe..) *(;) pa(d)cem(gxeg) me(gxg)am(ggge) do(gxgh) vo(gxhg/hg)bis,(e.) (;) di(gxfg)cit(e) Dó(d)mi(de!fvED'e)nus.(ed..) (::)",
+      "availableTranslations": {
+        "English": "Peace I leave with you, alleluia; My peace I give to you, alleluia, alleluia.",
+        "Francais": "Je vous laisse la paix, alléluia, je vous donne ma paix, alléluia, alléluia.",
+        "Italiano": "Vi lascio la pace, alleluia; vi dò la mia pace, alleluia, alleluia.",
+        "Nederlands": "Mijn vrede laat Ik u na, alleluia, mijn vrede geef Ik u, alleluia, alleluia.",
+        "Polski": "Pokój zostawiam wam, alleluja: pokój mój daję wam, alleluja, alleluja.",
+        "Portugues": "Deixo-vos a paz, aleluia: dou-vos a minha paz, aleluia, aleluia."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Suméntes, Dómine, cœléstia sacraménta, quǽsumus cleméntiam tuam: ut quod temporáliter gérimus ætérnis gáudiis consequámur",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "As we receive Your heavenly sacrament we beseech You, merciful Lord, may we reap in the joys of eternity the fruits of what we perform in this life.",
+        "Francais": "En recevant ces sacrements célestes, nous implorons de votre bonté, Seigneur, la pleine possession, dans les joies de l'éternité, de ce que nous accomplissons en nos rites d'ici-bas.",
+        "Italiano": "Dopo aver ricevuti questi celesti sacramenti, supplichiamo, o Signore, la tua misericordia, affinché raggiungiamo nei gaudi eterni ciò che abbiamo celebrato nel tempo.",
+        "Nederlands": "Bij het ontvangen van uw hemelse Sacramenten, o Heer, smeken wij uw barmhartigheid af om in de eeuwige vreugde te mogen genieten wat wij in de tijd vieren.",
+        "Polski": "Przyjmując niebieski Sakrament, błagamy łaskawość Twoją, Panie, abyśmy w wieczności cieszyli się tym, co sprawujemy w doczesności.",
+        "Portugues": "Recebendo nós, Senhor, estes divinos sacramentos, imploramos a vossa clemência, a fim de que alcancemos nos gozos eternos o que celebramos durante o tempo."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

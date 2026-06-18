@@ -1,0 +1,757 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "In Dedicatione S. Michaëlis Archangelis",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(g)NE(g)DÍ(hj)CI(j)TE(j) Dó(ij)mi(j)num(j.) *(,) o(j)mnes(j) An(j)ge(jjj_h)li(hk) e(kj~)jus :(jkjji.) (;) pot(g)én(gh~)tes(h) vir(h)tú(jj)te,(i_h) (;) qui(gfg) fá(hg/ji)ci(j)tis(j) ver(hj~)bum(jj) e(gh~)jus,(h_i_h._) (:) ad(g) au(h)di(hkj)én(i)dam(jj//jj) vo(h_g)cem(g_f) (,) ser(fh~)mó(h_g/jjvH'G)num(g_e) e(fgF~'E~)jus.(e.) (::) <nlba><i>T. P.</i> Al(gj~)le(jjj_g)lú(ikj){ia},</nlba>(j_i) (,) al(j)le(jjghvGE)lú(fgF~'E~){ia}.(e.) (::) <i>Ps.</i> Bé(g)ne(hj)dic(j) á(j)ni(j)ma(j) me(k)a(j) Dó(j)mi(ih)no :(jjj) *(:) et(ig) ó(hj)mni(j)a(j) quæ(j) in(j)tra(j) me(j) sunt,(j.) (,) nó(j)mi(j)ni(jji) san(hg)cto(h') e(i)jus.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
+      "availableTranslations": {
+        "English": "Bless the Lord, all you His Angels, you mighty in strength, who do His bidding, obeying His spoken word. (Alleluia, alleluia.) Bless the Lord, O my soul; and, all my being, bless His holy name.",
+        "Francais": "Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole, pour obéir à la voix de ses ordres. Mon âme, bénis le Seigneur, et que tout ce qui est au dedans de moi bénisse son saint Nom.",
+        "Italiano": "Benedite il Signore, voi tutti Ángeli suoi: gagliardi esecutori dei suoi ordini, pronti ad una sua parola. Benedici, ànima mia, il Signore, e tutto il mio intimo benedica il suo santo nome.",
+        "Nederlands": "Benedícite Dóminum, omnes Angeli ejus: poténtes virtúte, qui fácitis verbum ejus, ad audiéndam vocem sermónum ejus. (Allelúja, allelúja.) Bénedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.",
+        "Polski": "Błogosławcie Pana, wszyscy Jego Aniołowie, potężni mocą, pełniący Jego rozkazy, abyście posłuszni byli Jego słowu. Błogosław, duszo moja, Pana, a wszystko, co jest we mnie, święte imię Jego.",
+        "Portugues": "Bendizei o Senhor, ó vós, todos os Anjos do Senhor: Sois cheios de poder e virtude: e fazeis o que Ele vos manda, obedecendo às suas palavras e ordens. Bendiz o Senhor, ó minha alma: Que tudo quanto houver em mim bendiga o santo Nome do Senhor.",
+        "Ukrainian": "Благоcловіте Гоcпода, вcі ангели його, cильні кріпоcтю, що виконуєте cлово його, cлухаючиcь голоcу cлів його. Благоcлови, душе моя, Гоcпода і, вcе нутро моє, – ім’я cвятеє його."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui, miro ordine, Angelórum ministéria hominúmque dispénsas: concéde propítius; ut, a quibus tibi ministrántibus in cœlo semper assístitur, ab his in terra vita nostra muniátur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Who assign according to a wondrous order the duties of Angels and men, mercifully grant that our life on earth be guarded by those who continually stand in Your presence and minister to You in heaven.",
+        "Deutsch": "O Gott, der du in wunderbarer Ordnung die von den Engeln und von den Menschen zu leistenden Dienste verteilst, gewähre uns gütigst die Gnade, daß von denjenigen, die vor dir im Himmel zu Diensten bereitstehen, auch auf Erden Schutz unserem Leben gewährt werde.",
+        "Espanol": "Oh Dios, que con maravilloso orden dispones el servicio de los Ángeles y los hombres: concede propicio que por medio de aquellos que siempre te sirven en el cielo, defiendan nuestra vida en la tierra. ",
+        "Francais": "Ô Dieu, qui dispensez avec un ordre admirable les ministères des Anges et des hommes, accordez-nous dans votre bonté, d’avoir pour protecteurs de notre vie sur la terre, ceux qui sans cesse, dans le ciel, vous entourent et vous servent.",
+        "Italiano": "O Dio, che con ordine meraviglioso distribuisci gli uffici degli Angeli e degli uomini, concédici, propizio, che da coloro che in cielo continuamente servono alla tua presenza, sia difesa in terra la nostra vita.",
+        "Nederlands": "Deus, qui, miro ordine, Angelórum ministéria hominúmque dispénsas: concéde propítius; ut, a quibus tibi ministrántibus in cœlo semper assístitur, ab his in terra vita nostra muniátur.",
+        "Polski": "Boże, Ty w przedziwny sposób wyznaczasz obowiązki Aniołom i ludziom; spraw miłościwie, aby na ziemi strzegli naszego życia ci, którzy służąc Ci w niebie zawsze Cię otaczają.",
+        "Portugues": "Ó Deus, que com sublime harmonia dispusestes os ministérios dos Anjos e dos homens, concedei-nos propício que sejamos protegidos durante a vida na terra por aqueles que, servindo-Vos no céu, gozam sempre a vossa companhia.",
+        "Ukrainian": "Боже, Ти чудовим чином влаштовуєш служіння ангелів та людей, даруй милостиво, щоб ті, хто завжди служачи, предстоять Тобі на небесах, охоронили й наше життя на землі."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Significávit Deus, quæ opórtet fíeri cito, mittens per Angelum suum servo suo Joánni, qui testimónium perhíbuit verbo Dei, et testimónium Jesu Christi, quæcúmque vidit. Beátus, qui legit et audit verba prophetíæ hujus: et servat ea, quæ in ea scripta sunt: tempus enim prope est. Joánnes septem ecclésiis, quæ sunt in Asia. Grátia vobis et pax ab eo, qui est et qui erat et qui ventúrus est: et a septem spirítibus, qui in conspéctu throni ejus sunt: et a Jesu Christo, qui est testis fidélis, primogénitus mortuórum et princeps regum terræ, qui diléxit nos et lavit nos a peccátis nostris in sánguine suo.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, God signified those things which must shortly come to pass, sending through His Angel to His servant John; who bore witness to the word of God and to the testimony of Jesus Christ, to whatever he saw. Blessed is he who reads and those who hear the words of this prophecy, and keep the things that are written therein; for the time is at hand. John to the seven churches that are in Asia: grace be to you and peace from Him Who is and Who was and Who is coming, and from the seven spirits who are before His throne, and from Jesus Christ, Who is the faithful witness, the firstborn of the dead, and the ruler of the kings of the earth. To Him Who has loved us, and washed us from our sins in His own Blood.",
+        "Francais": "En ces jours-là : Dieu a manifesté les choses qui doivent arriver bientôt en envoyant son Ange, à son serviteur Jean ; lequel a attesté la parole de Dieu et le témoignage de Jésus-Christ, tout ce qu’il a vu. Heureux celui qui lit et qui entend les paroles de cette prophétie, et qui garde les choses qui y sont écrites ; car le temps est proche. Jean aux sept églises qui sont en Asie. Que la grâce et la paix vous soient données par celui qui est, et qui était, et qui viendra, et par les sept esprits qui sont en face de son trône, et par Jésus-Christ, qui est le témoin fidèle, le premier-né d’entre les morts, et le prince des rois de la terre, qui nous a aimés et nous a lavés de nos péchés dans son sang.",
+        "Italiano": "In quel tempo: Dio rivelò le cose che presto debbono accadere, inviando per mezzo del suo Angelo il messaggio al suo servo Giovanni, il quale attesta che tutto quello che vide è parola di Dio e testimonianza di Gesú Cristo. Beato chi legge e ascolta le parole di questa profezia: e serba le cose che in essa sono scritte, poiché il tempo è vicino. Giovanni alle sette Chiese che sono nell’Asia. Grazia a voi e pace da parte di Colui che è, era e sta per venire; e dei sette spiriti che sono dinanzi al suo trono, e di Gesú Cristo che è il testimonio fedele, il primogenito tra i morti e il principe dei re della terra, il quale ci amò e ci lavò dai nostri peccati col proprio sangue.",
+        "Magyar": "Jézus Krisztus kinyilatkoztatása, amelyet azért adott neki az Isten, hogy szolgáinak megmutasson mindent, aminek csakhamar be kell következnie. Elküldte angyalát, így adta tudtul szolgájának, Jánosnak,  aki tanúskodik Isten Igéjéről és Jézus Krisztus tanúságtételéről: mindenről, amit látott.  Boldog, aki olvassa és aki hallgatja ezeket a prófétai szavakat, és meg is tartja, ami bennük meg van írva, mert az idő közel van.  János a hét ázsiai egyháznak. Kegyelem és békesség nektek attól, aki van, aki volt és aki eljő, meg a hét lélektől, aki trónja előtt áll,  és Jézus Krisztustól, a hűséges tanútól, a halottak elsőszülöttétől és a föld királyainak fejedelmétől!",
+        "Nederlands": "In diébus illis: Significávit Deus, quæ opórtet fíeri cito, mittens per Angelum suum servo suo Joánni, qui testimónium perhíbuit verbo Dei, et testimónium Jesu Christi, quæcúmque vidit. Beátus, qui legit et audit verba prophetíæ hujus: et servat ea, quæ in ea scripta sunt: tempus enim prope est. Joánnes septem ecclésiis, quæ sunt in Asia. Grátia vobis et pax ab eo, qui est et qui erat et qui ventúrus est: et a septem spirítibus, qui in conspéctu throni ejus sunt: et a Jesu Christo, qui est testis fidélis, primogénitus mortuórum et princeps regum terræ, qui diléxit nos et lavit nos a peccátis nostris in sánguine suo.",
+        "Polski": "W one dni: Bóg jawnym uczynił to, co ma się stać niebawem, i oznajmił przez poselstwo swojego Anioła słudze swemu Janowi. On to daje świadectwo słowu Bożemu i świadczy o Jezusie Chrystusie, o wszystkim, co widział. Błogosławiony, który czyta i słucha słów tego proroctwa i strzeże tego, co w nim jest napisane: albowiem czas jest blisko. Jan do siedmiu kościołów w Azji. Łaska wam i pokój od Tego, który jest i który był, i który nadejdzie, i od siedmiu duchów, stojących przed tronem Jego. I od Jezusa Chrystusa, będącego świadkiem wiernym, pierworodnym spośród umarłych i księciem królów ziemskich. On to nas umiłował, obmył nas z grzechów naszych we Krwi swojej.",
+        "Portugues": "Naqueles dias, manifestou Deus o que logo deveria acontecer, enviando o seu Anjo ao seu servo João, o qual deu testemunho pela palavra de Deus e deu testemunho de tudo o que viu em Jesus Cristo. Bem-aventurado o que lê e ouve as palavras desta Profecia e observa o que nela se contém, pois o tempo está próximo. João diz às sete igrejas, que estão na Ásia: «Que a graça e a paz vos sejam dadas por Aquele que é, que era e que há-de vir, pelos sete espíritos, que estão diante do seu trono, e por Jesus Cristo, que é a testemunha fiel, o primogénito dos mortos e o príncipe dos reis da terra, O qual nos amou e nos lavou das manchas dos nossos pecados no seu sangue».",
+        "Ukrainian": "У ті дні, Одкровення дав Бог – показати слугам своїм, чому належить статися незабаром; і він показав, пославши через свого ангела, слузі своєму Йоанові, який засвідчив слово Боже і свідчення Ісуса Христа, і все, що він бачив. Блажен, хто читає, і ті, котрі слухають слів цього пророцтва й додержують написаного в ньому, бо час – близько. Йоан сімом Церквам, які в Азії: Благодать вам і мир від того, хто є і хто був і хто приходить; і від сімох духів, які – перед престолом його, і від Ісуса Христа, що є свідок вірний, первісток із мертвих і володар царів земних. Йому, що полюбив нас і обмив нас від гріхів наших кров’ю своєю."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale & Alleluia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(f)ne(ffff_c)dí(d!ewf_e)ci(f)te(fffd/fff) (,) *() Dó(e.f!gwh_g)mi(hg)num(ixg_h//e.f!gw!higff/ded.) (;) o(g)mnes(hj) An(j)ge(j)li(j) e(jj//jjjvHGigh)jus :(h.) (,) (i_j_i_2/j_k_i'_//kvJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) pot(g)én(hjI~H~)tes(jkJ'H) vir(jjh~)tú(jjj_g)te,(ixg_h//e.f!gw!higff/ded.) (;) qui(gji) fá(jji/j_k)ci(jkJ'Hg!ihi)tis(ij'k) ver(jk~)bum(g_f) (,) e(f!h'j~)jus.(i_g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'Ef_h//ixivGFghg/hgge.) (::) <sp>V/</sp>. Bé(e)ne(e)dic(ege/ghgff/ded.) (,) á(dc)ni(g)ma(hj) me(ijh)a(h.) Dó(h!jij)mi(hgh)num,(h.) (,) (i_j_i_2/j_k_i'_//kvJ'IHjvIH) (,) (jj/ki'jvHG'jh'/ihhg.) (:) et(ijg) ó(h_j)mni(j)a(jj) (,) in(ijg)ter(h_i)i(i)ó(ki/jk_j//ki/jk_jk//ij/kjkkj)ra(j_i) (,) me(jh/jjjvHG'h!jjjvHG'h)a(hv.gjh/ihhg.) (:) no(hji)men(jj//jjjh/ijHG.) (,) (jj//jjjh/ijHG.) (,) (jj/kh/jjk/jk/ljjj'1h/ijHG.) (,) (jg/i_j//gh!jjjvH'GF'fd.) (;) san(fd/ffd/ef!gh/jjj)ctum(g_f) *() e(f!h'j~)jus.(i_g//ivHGhhf/hh) (,) (g!jj//jj//jjjvH'GF'/{ix}E0f_h//ivGFghg/hgge.) (::)",
+      "availableTranslations": {
+        "English": "Bless the Lord, all you His Angels, you mighty in strength, who do His bidding.",
+        "Francais": "Bénissez le Seigneur, vous tous, ses Anges, qui êtes puissants et forts ; qui exécutez sa parole. Mon âme, bénis le Seigneur, et que tout ce qui est au dedans de moi bénisse son saint Nom. Alléluia, alléluia. Saint Michel Archange, défendez-nous dans le combat, que nous ne périssions pas au jour du jugement terrifiant. Alléluia.",
+        "Italiano": "Benedite il Signore, voi tutti Ángeli suoi, gagliardi esecutori dei suoi ordini, pronti ad una sua parola. Benedici, ànima mia, il Signore, e tutto il mio intimo benedica il suo santo nome. Allelúia, allelúia. San Michele Arcangelo, difendici nella battaglia, affinché non periamo nel tremendo giudizio. Allelúia.",
+        "Nederlands": "Zegent de Heer, gij, al zijn engelen, machtig en sterk, die zijn bevelen volvoert.  Loof, mijn ziel, de Heer, en al wat in mij is, zijn heilige Naam.",
+        "Polski": "Błogosławcie Pana, wszyscy Jego Aniołowie, potężni mocą, pełniący Jego rozkazy.  Błogosław, duszo moja, Pana, a wszystko, co jest we mnie, święte imię Jego. Alleluja, alleluja. Święty Michale Archaniele, broń nas w walce, abyśmy nie zginęli na straszliwym sądzie. Alleluja.",
+        "Portugues": "Bendizei o Senhor, ó Anjos do Senhor, que sois poderosos e cheios de força, e cumpris as ordens do Senhor. Bendizei o Senhor, ó minha alma; que toda minha alma bendiga o nome do Senhor. Aleluia, aleluia. S. Miguel Arcanjo, defendei-nos neste combate, para que não pereçamos no dia do tremendo juízo. Aleluia.",
+        "Ukrainian": "Благоcловіте Гоcпода, вcі ангели його, cильні кріпоcтю, що виконуєте cлово його. Благоcлови, душе моя, Гоcпода і, вcе нутро моє, – ім’я cвятеє його. Aлілуя, aлілуя. Святий Михаїле Архангеле, захисти нас у боротьбі, щоб не згинути нам на страшному суді. Aлілуя."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(d)le(ggf)lú(hg~){ia}.(gv.efd.1) <clear>*(;) <i>ij.</i>(df!ghhgjvIHG.) (,) (giihkvJIH'GivHG'Fgh//fefd.) (,) (df!ghhgjvIH'hg.) (::) \r\n<sp>V/</sp>. San(dg~)cte(gh) Mí(gf)cha(de)el(ev.dec.) (,) Arch(ghi)án(ih~)ge(h/jkJH'GF'g)le,(g.) (;) de(g)fén(e)de(fe) nos(d) in(d) proé(ef)li(g)o :(g/iihkvJIH'hg.) (:) ut(gk) non(k_g) per(hf)e(ghi)á(i.h!iw!jvI'HG)mus(g'/hfg.) (;) in(d) tre(ggf)mén(hg~)do(g.) *() ju(f)dí(de)ci(ev.dec)o.(c.) (;) (df!ghhgjvIHG.) (,) (giihkvJIH'GivHG'Fgh//fefd.) (,) (df!ghhgjvIH'hg.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. St. Michael the Archangel, defend us in battle, that we may not perish in the dreadful judgment. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Heilige aartsengel Michaël, verdedig ons in de strijd, opdat wij niet verloren gaan in het vreeswekkend oordeel. Alleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrábitis in regnum cœlórum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit. Qui autem scandalizáverit unum de pusíllis istis, qui in me credunt, expédit ei, ut suspendátur mola asinária in collo ejus, et demergátur in profúndum maris. Væ mundo a scándalis! Necésse est enim, ut véniant scándala: verúmtamen væ hómini illi, per quem scándalum venit! Si autem manus tua vel pes tuus scandalízat te, abscíde eum et projíce abs te: bonum tibi est ad vitam ingrédi débilem vel claudum, quam duas manus vel duos pedes habéntem niitti in ignem ætérnum. Et si óculus tuus scandalízat te, érue eum et projice abs te: bonum tibi est cum uno óculo in vitam intráre, quam duos óculos habéntem mitti in gehénnam ignis. Vidéte, ne contemnátis unum ex his pusíllis: dico enim vobis, quia Angeli eórum in cœlis semper vident fáciem Patris mei, qui in cœlis est.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, the disciples came to Jesus, saying, Who then is greatest in the kingdom of heaven? And Jesus called a little child to Him, set him in their midst, and said, Amen I say to you, unless you turn and become like little children, you will not enter into the kingdom of heaven. Whoever, therefore, humbles himself as this little child, he is the greatest in the kingdom of heaven. And whoever receives one such little child for My sake, receives Me. But whoever causes one of these little ones who believe in Me to sin, it were better for him to have a great millstone hung around his neck, and to be drowned in the depths of the sea. Woe to the world because of scandals! For it must needs be that scandals come, but woe to the man through whom scandal does come! And if your hand or your foot is an occasion of sin to you, cut it off and cast it from you! It is better for you to enter life maimed or lame, than, having two hands or two feet, to be cast into the everlasting fire. And if your eye is an occasion of sin to you, pluck it out and cast it from you! It is better for you to enter into life with one eye, than, having two eyes, to be cast into hell-fire. See that you do not despise one of these little ones; for I tell you, their Angels in heaven always behold the face of My Father in heaven.",
+        "Francais": "En ce temps-là, les disciples vinrent un jour poser à Jésus cette question : « Selon vous, qui est le plus grand dans le royaume des cieux ? » Alors Jésus appela un petit enfant et le fit venir au milieu du groupe : « En vérité, je vous l’affirme si vous ne vous transformez pas pour devenir semblables aux petits enfants, vous n’entrerez pas dans le royaume des cieux. Celui qui se fait petit comme cet enfant, c’est le plus grand dans le royaume des cieux. Et lorsqu’on reçoit en mon nom un enfant comme celui-ci, c’est moi-même que l’on reçoit. Mais si quelqu’un scandalise un de ces petits qui croient en moi, il vaudrait mieux pour lui qu’on suspendit à son cou une de ces meules qu’un âne tourne, et qu’on le plongeât au fond de la mer. Malheur au monde à cause des scandales ! Car il est nécessaire qu’il arrive des scandales ; mais malheur à l’homme par qui le scandale arrive ! Si ta main ou ton pied te scandalise, coupe-le, et jette-le loin de toi ; il vaut mieux pour toi entrer dans la vie manchot ou boiteux, que d’avoir deux mains ou deux pieds, et d’être jeté dans le feu éternel. Et si ton oeil te scandalise, arrache-le, et jette-le loin de toi ; il vaut mieux pour toi entrer dans la vie n’ayant qu’un oeil, que d’avoir deux yeux et d’être jeté dans la géhenne de feu. Gardez-vous de mépriser aucun de ces petits ; car je vous dis que leurs Anges dans le ciel voient sans cesse la face de mon Père qui est dans les cieux. »",
+        "Italiano": "In quel tempo: Si presentarono a Gesú i discepoli e gli dissero: Chi ritieni tu il piú grande nel regno dei cieli? E Gesú, chiamato a sé un fanciullo, lo pose in mezzo ad essi e rispose: In verità vi dico che, se non vi convertirete e non diverrete come fanciulli, non entrerete nel regno dei cieli. Quindi, chiunque si farà piccolo come questo fanciullo, questi sarà il piú grande nel regno dei cieli. E chiunque accoglierà nel nome mio un fanciullo come questo, accoglie me stesso. Chi poi scandalizzerà uno di questi piccoli, che credono in me, sarebbe meglio per lui che gli fosse appesa al collo una màcina d’àsino e fosse immerso nel profondo del mare. Guai al mondo per gli scandali. Poiché è inevitabile che vi siano scandali, ma guai all’uomo per colpa del quale viene lo scandalo. Che se la tua mano e il tuo piede ti è di scandalo, troncali e gettali via da te: è meglio per te entrare nella vita monco o zoppo, che essere gettato nel fuoco eterno con tutte e due le mani o i piedi. E se il tuo occhio ti è di scandalo, lévatelo e géttalo via da te: è meglio per te entrare nella vita con un solo occhio, che essere gettato nel fuoco della geenna con due occhi. Guardatevi dal disprezzare qualcuno di questi piccoli: vi dico che i loro Ángeli nei cieli vedono sempre il volto del Padre mio che è nei cieli.",
+        "Magyar": "Abban az időben történt, hogy odamentek Jézushoz a tanítványok és megkérdezték tőle: „Ki a legnagyobb a mennyek országában?”  Odahívott egy gyereket, közéjük állította,  s azt mondta: „Bizony mondom nektek, ha nem változtok meg, s nem lesztek olyanok, mint a gyerekek, nem mentek be a mennyek országába.  Aki tehát megalázza magát, mint ez a gyerek, az a legnagyobb a mennyek országában.  Aki befogad egy ilyen gyereket a nevemben, engem fogad be.  De aki megbotránkoztat csak egyet is ezek közül a kicsik közül, akik hisznek bennem, jobban járna, ha malomkövet kötnének a nyakába és a tenger fenekére vetnék.  Jaj a világnak a botrányok miatt! Elkerülhetetlen ugyan, hogy botrányok ne forduljanak elő, mégis jaj annak, aki botrányt okoz!  Ha kezed vagy lábad botrányt okoz, vágd le és dobd el! Jobb csonkán vagy sántán bemenned az életre, mint két kézzel, két lábbal az örök tűzre kerülnöd.  Ha szemed okoz botrányt, vájd ki és dobd el, mert jobb, ha egy szemmel mész be az életre, mint ha két szemmel a pokol tüzére vetnek.  Vigyázzatok, ne vessetek meg egyet se e kicsik közül! Mondom nektek: angyalaik az égben szüntelenül látják mennyei Atyám arcát.",
+        "Nederlands": "In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et ádvocans Jesus párvulum, státuit eum in médio eórum et dixit: Amen, dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrábitis in regnum cœlórum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est major in regno cœlórum. Et qui suscéperit unum párvulum talem in nómine meo, me súscipit. Qui autem scandalizáverit unum de pusíllis istis, qui in me credunt, expédit ei, ut suspendátur mola asinária in collo ejus, et demergátur in profúndum maris. Væ mundo a scándalis! Necésse est enim, ut véniant scándala: verúmtamen væ hómini illi, per quem scándalum venit! Si autem manus tua vel pes tuus scandalízat te, abscíde eum et projíce abs te: bonum tibi est ad vitam ingrédi débilem vel claudum, quam duas manus vel duos pedes habéntem niitti in ignem ætérnum. Et si óculus tuus scandalízat te, érue eum et projice abs te: bonum tibi est cum uno óculo in vitam intráre, quam duos óculos habéntem mitti in gehénnam ignis. Vidéte, ne contemnátis unum ex his pusíllis: dico enim vobis, quia Angeli eórum in cœlis semper vident fáciem Patris mei, qui in cœlis est.",
+        "Polski": "Onego czasu: Przystąpili uczniowie do Jezusa mówiąc: «Któż, mniemasz, jest większy w Królestwie Niebieskim?» A Jezus przywoławszy dziecię postawił je w pośrodku nich, i rzekł: «Zaprawdę mówię wam, jeśli się nie nawrócicie i nie staniecie jako dzieci, nie wnijdziecie do Królestwa Niebieskiego. Ktokolwiek się przeto uniży jako to dziecię, ten jest większym w Królestwie Niebieskim. A ktobykolwiek przyjął jedno takie dziecię w imię moje, mnie przyjmuje. Kto by zaś zgorszył jedno z tych maleńkich, które we mnie wierzą, lepiej by mu było, aby mu zawieszono u szyi kamień młyński, i pogrążono w głębinie morskiej. Biada światu za zgorszenia. Muszą bowiem przyjść zgorszenia, wszelako biada temu człowiekowi, przez którego przychodzi zgorszenie. A jeśli cię ręka twoja albo noga twoja gorszy, odetnij ją i odrzuć precz od siebie. Lepiej ci jest ułomnym i chromym wnijść do żywota, niż mając dwie ręce lub dwie nogi, być wrzuconym w ogień wieczny. I jeśli cię oko twoje gorszy, wyłup je i odrzuć precz od siebie. Lepiej ci jest jednookim wnijść do żywota niż dwoje oczu mając, być wrzuconym do ognistej gehenny. Baczcie, abyście nie wzgardzili którymi z tych maluczkich. Powiadam wam bowiem, że Aniołowie ich w niebiesiech zawsze widzą oblicze Ojca mego, który jest w niebie».",
+        "Portugues": "Naquele tempo, os discípulos aproximaram-se de Jesus, dizendo-Lhe: «Quem, pois, pensais Vós que é o maior no reino dos céus?». Jesus, havendo chamado um pequeno, colocou-o no meio deles e disse: «Em verdade vos digo: Se vos não converteis e não vos tornais como os pequenos, não entrareis no reino dos céus; todo aquele que se fizer pequeno, como este menino, esse, é o maior no reino dos céus; e quem receber um destes pequenos em meu nome, recebe-me a mim mesmo; e quem escandalizar um destes pequenos, que crêem em mim, melhor será que se lhe pendure ao pescoço uma mó de moinho e seja lançado ao fundo do mar! Ai do mundo por causa dos escândalos! Contudo é necessário que aconteçam os escândalos; mas ai do homem por quem vier o escândalo. Se a vossa mão ou o vosso pé são ocasião de escândalo, cortai-os e lançai-os para longe; pois melhor é entrar na vida manco ou coxo do que ser lançado no fogo eterno, tendo as duas mãos ou os dois pés. Se o vosso olho é ocasião de escândalo, arrancai-o e lançai-o para longe; pois é melhor entrar na vida só com um olho do que ser lançado no fogo eterno, tendo os dois olhos. Vede que não seja desprezado nenhum destes pequeninos; pois, digo-vos: os seus Anjos nos céus estão sempre na presença de meu Pai, que está nos céus».",
+        "Ukrainian": "Того часу підійшли до Ісуса учні й мовлять: “Хто найбільший у Небеснім Царстві?” Ісус покликав дитину, поставив її серед них – і каже: “Істинно кажу вам: Якщо ви не навернетеся і не станете, як діти, не ввійдете в Небесне Царство. Хто, отже, стане малим, як ця дитина, той буде найбільший у Небеснім Царстві. Хто приймає дитину в моє ім’я, той мене приймає. А хто спокусить одного з тих малих, що вірують у мене, такому було б ліпше, якби млинове жорно повішено йому на шию, і він був утоплений у глибині моря. Горе світові від спокус. Воно й треба, щоб прийшли спокуси, однак горе тій людині, через яку спокуси приходять! Коли твоя рука або нога стає тобі причиною падіння, відітни її і кинь геть від себе: ліпше тобі ввійти в життя одноруким чи кульгавим, ніж з обома руками чи з обома ногами бути вкиненим у вогонь вічний. І коли око твоє до гріха тебе призводить, вирви його й кинь геть від себе: ліпше тобі ввійти в життя однооким, ніж з обома очима бути вкиненим у вогняне пекло. Глядіть, щоб ви ніким з оцих малих не гордували: кажу бо вам, що ангели їхні на небі повсякчас бачать обличчя мого Небесного Отця."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) STe(fffvDC'dff/hgh)tit(fgf.) <clear>*(,) An(fg'h)ge(h)lus(ixhf/higff/ded.) (;) jux(d)ta(d!gfg) a(dgfefd/ed)ram(dV!cd~) tem(dv.cd'f/ef!hvGE'fd)pli,(d.) (:) ha(ixdf'!hv//j_hivGEf_g)bens(f.) (,) thu(de)rí(gh)bu(hggvE'DC'd)lum(d.) (,) áu(cd'f/ef'!gvE'Dfv.efd/ed)re(cd)um(dfddc.) (,) in(da~) ma(cd)nu(d) su(dfd___)a :(d.) (:) et(cd~) da(d)ta(fde) sunt(dec) e(cd'f/efd)i(d.) (,) in(da~)cén(cd~)sa(d) mul(dfd___)ta :(d.) (:) et(c) a(d)scén(ixdh./jjh//gih/ig.fg'hjjg)(,)(f!h_gh//fh!jvGF'fdf.//eg/hjh/jhhV!gh~)dit(f.) (;) fu(ef'!gvE'Dfv.efd)mus(dfddc.) a(cd'f/ef'g)ró(ed/fe)ma(d_e_d_)tum(d.) (,) in(da~) con(cd~)spé(d)ctu(d) De(d_e_d_)i,(d.) (:) al(cd)le(f_g_f_hv.ghFD.1//cd/fefg_e)(,)(h_gefd//fvEDed)lú(cd~){ia}.(d.) (::)",
+      "availableTranslations": {
+        "English": "An Angel stood near the altar of the temple, having a golden censer in his hand, and there was given to him much incense; and the smoke of the perfumes ascended before God. Alleluia.",
+        "Francais": "L’Ange se plaça devant l’autel du temple, ayant un encensoir d’or dans sa main ; et il lui fut donné beaucoup de parfums : et la fumée des parfums monta devant Dieu, alléluia.",
+        "Italiano": "L’Angelo si fermò presso l’altare del tempio, tenendo un turíbulo d’oro in mano, e gli fu dato molto incenso: e il fumo degli aromi salí al cospetto di Dio, allelúia.",
+        "Nederlands": "Stetit Angelus juxta aram templi, habens thuríbulum áureum in manu sua, et data sunt ei incénsa multa: et ascéndit fumus aromátum in conspéctu Dei. (Allelúja.)",
+        "Polski": "Anioł stanął przy ołtarzu świątyni, mając w ręku złotą kadzielnicę; i dano mu wiele kadzideł, i wzniósł się wonny dym przed Bogiem, alleluja.",
+        "Portugues": "Junto ao altar, no templo, estava de pé um Anjo, tendo na mão um turíbulo de ouro: e deitaram-lhe muito incenso, subindo o fumo dos perfumes à presença de Deus. Aleluia.",
+        "Ukrainian": "Ангел став перед вівтарем з золотою кадильницею в руці своїй, і йому дано було багато ладану, і піднявся дим кадильний перед Богом, aлілуя."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes: ut eásdem, angélico pro nobis interveniénte suffrágio, et placátus accípias, et ad salútem nostram proveníre concédas.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "We offer You sacrifices of praise, O Lord, humbly praying You to accept them graciously and to grant that they may be helpful for our salvation through the intercession of the Angels who intercede for us.",
+        "Francais": "Nous vous offrons, Seigneur, des hosties de louange, en vous suppliant humblement : par l’intercession du suffrage des Anges, recevez-les avec bienveillance et accordez qu’elles servent à notre salut.",
+        "Italiano": "Ostie di lode Ti offriamo, o Signore, pregandoTi supplichevoli: affinché, per intercessione degli Ángeli, le accetti propizio e le renda proficue alla nostra salvezza.",
+        "Nederlands": "Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes: ut eásdem, angélico pro nobis interveniénte suffrágio, et placátus accípias, et ad salútem nostram proveníre concédas.",
+        "Polski": "Składamy Ci, Panie, ofiarę uwielbienia i pokornie prosimy, abyś za wstawiennictwem anielskim łaskawie ją przyjął i obrócił ku naszemu zbawieniu.",
+        "Portugues": "Vos oferecemos estas hóstias de louvor, Senhor, implorando-Vos humildemente que as aceiteis com indulgência pela intercessão do vosso Santo Anjo, e que elas sejam úteis à nossa salvação.",
+        "Ukrainian": "Приносимо Тобі жертву хвали, Господи, смиренно благаючи, щоб, заради заступницьких молитов ангелів, Ти милостиво прийняв її та благоволив, щоб вона була нам на спасіння. "
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(eef)ne(de)dí(gh)ci(g_f)te(fff/d_e_d._) (,) *() o(g)mnes(g) An(iij)ge(h)li(g) Dó(h)mi(g)ni(f) <nlba>Dó(hih)mi(ghg___)num :</nlba>(g.) (:) hy(g)mnum(g) dí(i_j)ci(h)te,(g.h!iwjiih.0) (;) et(h) su(iji)per(g)ex(h)al(g)tá(fg'h)te(g) e(efED'e)um(ed..) (,) in(fv.fffdeg_h) sǽ(gv.fg/hhg)cu(egff)la.(fe..) (::) <i>T. P.</i> Al(ff)le(d!ewf!gvFE)lú(egff){ia}.(fe..) (::)",
+      "availableTranslations": {
+        "English": "All you Angels of the Lord, bless the Lord: sing a hymn, and exalt Him above all forever. (Alleluia.)",
+        "Francais": "Tous les anges du Seigneur, bénissez le Seigneur ; dites-lui des hymnes et exaltez-le dans tous les siècles.",
+        "Italiano": "Benedite il Signore, Angeli tutti del Signore: cantate inni e superesaltatelo nei secoli.",
+        "Nederlands": "Benedícite, omnes Angeli Dómini, Dóminum: hymnum dícite et superexaltáte eum in sǽcula. (Allelúja.)",
+        "Polski": "Błogosławcie Pana, wszyscy Aniołowie Pańscy, wysławiajcie Go hymnem i wywyższajcie na wieki.",
+        "Portugues": "Anjos do Senhor, bendizei todos o Senhor: cantai hinos em seu louvor e exaltai-O em todos os séculos.",
+        "Ukrainian": "Благословіть, Господні ангели, Господа. Оспівуйте і прославляйте Його на віки."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Beáti Archángeli tui Michaélis intercessióne suffúlti: súpplices te, Dómine, deprecámur; ut, quod ore proséquimur, contingámus et mente.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Relying upon the intercession of blessed Michael, Your Archangel, O Lord, we humbly pray You, that what we have received by our mouth may give grace to our mind.",
+        "Francais": "Renforcés par l’intercession du bienheureux Michel votre Archange, nous vous supplions humblement, Seigneur, que ce que nos lèvres sollicitent, notre âme arrive à le posséder.",
+        "Italiano": "Sostenuti dall’intercessione del tuo beato Michele Arcangelo: súpplici Ti preghiamo, o Signore, affinché di quanto abbiamo ricevuto con la bocca, conseguiamo l’effetto nell’ànima.",
+        "Nederlands": "Beáti Archángeli tui Michaélis intercessióne suffúlti: súpplices te, Dómine, deprecámur; ut, quod ore proséquimur, contingámus et mente.",
+        "Polski": "Wsparci wstawiennictwem św. Archanioła Twego Michała, kornie błagamy Cię Panie, abyśmy pojęli umysłem to, cośmy spożyli ustami.",
+        "Portugues": "Confiado na intercessão do vosso B. Arcanjo Miguel, Senhor, Vos oferecemos as nossas humildes súplicas, para que a nossa alma alcance o que a nossa boca pede.",
+        "Ukrainian": "Підтримувані заступництвом Твого блаженного Архангела Михаїла, смиренно молимо Тебе, Господи, щоб те, що ми сприйняли устами, ми осягнули й думкою."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

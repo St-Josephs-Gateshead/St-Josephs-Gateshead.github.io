@@ -1,0 +1,809 @@
+{
+  "rule": [
+    "Gloria"
+  ],
+  "feast": "S. Damasi Papæ et Confessoris",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) SI(ed) dí(g)li(hj)gis(ij) me,(j.) <clear>*(,) Si(jjj_h)mon(hk) Pe(kj)tre,(jkjji.) (;) pa(gh'j)sce(jjjvIH) <nlba>a(h!iwj)gnos</nlba>(h_g) me(g_f)os,(fff/d_e_d._) (;) pa(g.h!iw!jvIH)sce(jj) o(jjg)ves(g.h!iw!jvIHi.g!hw!ivHG) me(egff)as.(fe..) (::) <i>T. P.</i> Al(e)le(f)lú(gh){ia},(g.) (,) al(gh)le(g.h!iwjjvIH'G)lú(g_e/fgF~'E~){ia}.(e.) (::) <i>Ps.</i> Ex(g)al(hj)tá(j)bo(j) te,(j) Dó(j)mi(j)ne,(j.) (,) quó(j)ni(j)am(j) sus(k)ce(j)pí(j)sti(ih) me :(jjj) <clear>*(:) nec(ig) de(hj)le(j)ctá(j)sti(j) in(j)i(j)mí(j)cos(j) me(jji)os(hg) su(h')per(i) me.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
+      "availableTranslations": {
+        "Bohemice": "Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.) Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me.",
+        "Cesky-Schaller": "Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.) Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me.",
+        "Francais": "Si tu m’aimes, Simon Pierre, conduis mes agneaux, conduis mes brebis. Je vous exalterai, Seigneur, parce que vous m’avez relevé, et que vous n’avez pas réjoui mes ennemis à mes dépens.",
+        "Italiano": "Simon Pietro, se Mi ami, pasci i miei agnelli: pasci le mie pecorelle. Io ti glorificherò, o Signore, perché mi hai soccorso e non hai permesso ai miei nemici di ridersi di me.",
+        "Nederlands": "Als gij Mij bemint, Simon Petrus, weid dan mijn lammeren, weid mijn schapen. (Alleluia, alleluia.) Ik wil U prijzen, o Heer, want Gij hebt mij gered, en liet mijn vijanden niet over mij juichen.",
+        "Polski": "Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.) Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me.",
+        "Portugues": "Si díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.) Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Exáudi, Dómine, preces nostras: et interveniénte beáto Dámaso Confessóre tuo atque Pontífice, indulgéntiam nobis tríbue placátus et pacem.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Deutsch": "Erhöre, o Herr, unser Flehen, und auf die Fürsprache deines heiligen Bekenners und Bischofs Damasus gewähre und gnädigst Nachsicht und Segen.",
+        "Italiano": "Esaudisci, Signore, le nostre preghiere: e, per intercessione del tuo beato Confessore e Pontefice Da-maso, accordaci, placato, il perdono e la pace. ",
+        "Nederlands": "Geef welwillend acht op uw kudde, eeuwige Herder, en stel hem veilig in uw voortdurende bescherming, op voorspraak van de heilige paus N., die Gij hebt aangesteld tot herder over uw gehele Kerk.",
+        "Polski": "Wysłuchaj, Panie, próśb naszych a wstawiennictwem błogosławionego Damazego Wyznawcy Twego i Biskupa przebłagany, odpuść nam grzechy nasze i obdarz pokojem."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Caríssimi: Senióres, qui in vobis sunt, obsécro consénior et testis Christi passiónum, qui et ejus, quæ in futúro revelánda est, glóriæ communicátor: páscite qui in vobis est gregem Dei, providéntes non coácte, sed spontánee secúndum Deum, neque turpis lucri grátia, sed voluntárie; neque ut dominántes in cleris, sed forma facti gregis ex ánimo. Et, cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Bohemice": "Caríssimi: Senióres, qui in vobis sunt, obsécro consénior et testis Christi passiónum, qui et ejus, quæ in futúro revelánda est, glóriæ communicátor: páscite qui in vobis est gregem Dei, providéntes non coácte, sed spontánee secúndum Deum, neque turpis lucri grátia, sed voluntárie; neque ut dominántes in cleris, sed forma facti gregis ex ánimo. Et, cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen.",
+        "Cesky-Schaller": "Caríssimi: Senióres, qui in vobis sunt, obsécro consénior et testis Christi passiónum, qui et ejus, quæ in futúro revelánda est, glóriæ communicátor: páscite qui in vobis est gregem Dei, providéntes non coácte, sed spontánee secúndum Deum, neque turpis lucri grátia, sed voluntárie; neque ut dominántes in cleris, sed forma facti gregis ex ánimo. Et, cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen.",
+        "Francais": "Frères bien-aimés : J’exhorte les anciens qui sont parmi vous, moi ancien comme eux, témoin des souffrances du Christ, et qui prendrai part avec eux à la gloire qui doit être manifestée : paissez le troupeau de Dieu qui vous est confié, veillant sur lui, non par contrainte, mais de bon gré ; non dans un intérêt sordide, mais par dévouement ; non en dominateurs des Églises, mais en devenant les modèles du troupeau. Et quand le Prince des pasteurs paraîtra, vous recevrez la couronne de gloire, qui ne se flétrit jamais. Le Dieu de toute grâce, qui vous a appelés à sa gloire éternelle dans le Christ, après quelques souffrances, achèvera lui-même son oeuvre, voua affermira, vous fortifiera, vous rendra inébranlables. A lui soient la gloire et la puissance aux siècles des siècles ! Amen !",
+        "Italiano": "Carissimi: Sacerdote anch'io e teste della Passione di Cristo e chiamato ad aver parte alla futura gloria, io scongiuro i sacerdoti che sono tra voi: Pascete il gregge di Dio, che vi è affidato, governandolo non per forza, ma volentieri per amor di Dio; non per il vil guadagno, ma con animo generoso; non come dominatori delle Chiese, ma come sinceri modelli del gregge; e così, quando apparirà il principe dei pastori, riceverete l'incorruttibile corona della gloria. Il Dio di ogni grazia, il quale ci ha chiamati in Gesù Cristo all'eterna sua gloria, con un po' di patire vi perfezionerà, vi conforterà, vi confermerà. A Lui impero e gloria in eterno. Amen.",
+        "Magyar": "Akik közületek elöljárók, azokat mint magam is elöljáró és Krisztus szenvedéseinek tanúja, s egyszer majd kinyilvánuló dicsőségének is részese, kérem:  Legeltessétek az Istennek rátok bízott nyáját, viseljétek gondját, ne kényszerből, hanem önként, az Isten szándéka szerint ne haszonlesésből, hanem buzgóságból.  Ne zsarnokoskodjatok a választottak fölött, hanem legyetek a nyájnak példaképei.  Ha majd megjelenik a legfőbb pásztor, elnyeritek a dicsőség hervadhatatlan koszorúját.  A minden kegyelem Istene pedig, aki Krisztusban örök dicsőségre hívott meg benneteket, rövid szenvedés után maga fog majd titeket tökéletessé tenni, megerősíteni, megszilárdítani és biztos alapra helyezni.  Neki legyen dicsőség, és övé legyen az uralom örökkön-örökké! Amen.",
+        "Nederlands": "Veelgeliefden, de priesters onder u bid ik, als hun medepriester en als getuige van Christus' lijden, maar ook als deelgenoot van zijn glorie, die eens geopenbaard zal worden: weidt Gods kudde, die u is toevertrouwd, en zorgt er voor, niet noodgedwongen, maar bereidwillig, zoals God verlangt; ook niet uit schandelijk winstbejag, maar vol toewijding; en niet als dwingelanden over het u toevertrouwde deel, maar van harte een voorbeeld geworden voor de kudde. Wanneer dan de opperherder zal verschijnen, zult gij een onvergankelijke gloriekroon ontvangen. En de God van alle genade, die ons heeft geroepen tot zijn eeuwige glorie in Christus Jezus, Hij zal ons na een weinig lijden tot volmaaktheid brengen, ons versterken en bevestigen. Aan Hem de glorie en de opperheerschappij in de eeuwen der eeuwen. Amen.",
+        "Polski": "Caríssimi: Senióres, qui in vobis sunt, obsécro consénior et testis Christi passiónum, qui et ejus, quæ in futúro revelánda est, glóriæ communicátor: páscite qui in vobis est gregem Dei, providéntes non coácte, sed spontánee secúndum Deum, neque turpis lucri grátia, sed voluntárie; neque ut dominántes in cleris, sed forma facti gregis ex ánimo. Et, cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen.",
+        "Portugues": "Caríssimi: Senióres, qui in vobis sunt, obsécro consénior et testis Christi passiónum, qui et ejus, quæ in futúro revelánda est, glóriæ communicátor: páscite qui in vobis est gregem Dei, providéntes non coácte, sed spontánee secúndum Deum, neque turpis lucri grátia, sed voluntárie; neque ut dominántes in cleris, sed forma facti gregis ex ánimo. Et, cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) EX(b)ál(dd)tent(ef~) e(f_devDCB.e_c/de)um(d.) *(;) in(d) ec(d)clé(fd/ef!hh/ihi)si(hgh)a(f_e) (,) ple(f!hhvFD.1fvEDed)bis :(d.) (:) et(d) in(fe~) cá(eh)the(h)dra(hfhED.) (`) (fd/ef!hh/ig/hf/hi/kkkh..) (,) se(f)ni(fi)ó(iv.hhhjvIH'hvGF'g)rum(gf..) (;) lau(hh)dent(h) e(ihhf)um.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::) <sp>V/</sp>. Con(d)fi(d)te(f)án(hf/hhf/hhf/hhh)(,)(f!hhf/hhf/hhh//ihhf/hhf/hhh)tur(h.) (,) Dó(h)mi(h)no(ih//h'hh_f//hhf/hhe//gxfgED./hhjvIH.) (:) mi(d)se(d)ri(fe)cór(eh)di(h)ae(ih) (,) (hhh'/ih/!hg./i/jiih.0/j/kjjh.0/i/jiig./h/ihh//fh//ghFE'ed.0) (;) e(fdfED//f_d/ef!gwh'!iv)jus :(hg/ijIH.ghGF.) (:) et(f) mi(hfh)ra(h)bí(i)li(hi)a(hh) (,) e(hh//hhjvIG'hvF'Ef!hhivHG)jus(h.) (;) fí(hh)li(hih)is(h_f) () *() hó(fh!ij)mi(hg)num.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
+      "availableTranslations": {
+        "Bohemice": "Exáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum. Allelúja, allelúja.",
+        "Cesky-Schaller": "Exáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum. Allelúja, allelúja.",
+        "Francais": "Acclamez-le dans l’Église assemblée, car il siège dans la chaire des anciens pontifes ! Remerciez le Seigneur de sa bonté et des merveilles qu’il accomplit pour les enfants des hommes. Alléluia, alléluia. Tu es Pierre, et sur cette pierre je bâtirai mon Église. Alléluia.",
+        "Italiano": "Lo esaltino nell'assemblea del popolo e lo lodino nel consesso degli anziani. Ringrazino il Signore per la sua bontà e per i suoi prodigi a favore degli uomini. Allelúia, allelúia Tu sei Pietro, e su questa pietra edificherò la mia Chiesa! Allelúia.",
+        "Polski": "Exáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum. Allelúja, allelúja.",
+        "Portugues": "Exáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum. Allelúja, allelúja."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) <sp>V/</sp>. Tu(hi) es(i) Pe(jiihi)trus,(iv.hh/fgf.) (;) et(f) su(fg)per(f) hanc(f) pe(f!hh/ijHF'ivH'GEf./hfhhf/ge)tram(e.) (:) ae(f)di(e)fi(f)cá(ffe/ffe/fc..)(,)(ef!hvvF'Ehhh)bo(ivH'Ghf..) (;) Ec(f)clé(hh)si(h)am(hi~) *() me(i_h/jij)am.(jvvIH'GE//f!gwhf.1) (::)",
+      "availableTranslations": {
+        "Bohemice": "Allelúja, allelúja. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+        "Cesky-Schaller": "Allelúja, allelúja. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+        "Polski": "Allelúja, allelúja. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+        "Portugues": "Allelúja, allelúja. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) <sp>V/</sp>. Tu(hi) es(i) Pe(jiihi)trus,(iv.hh/fgf.) (;) et(f) su(fg)per(f) hanc(f) pe(f!hh/ijHF'ivH'GEf./hfhhf/ge)tram(e.) (:) ae(f)di(e)fi(f)cá(ffe/ffe/fc..)(,)(ef!hvvF'Ehhh)bo(ivH'Ghf..) (;) Ec(f)clé(hh)si(h)am(hi~) *() me(i_h/jij)am.(jvvIH'GE//f!gwhf.1) (::)",
+      "availableTranslations": {
+        "Bohemice": "Allelúja, allelúja. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+        "Cesky-Schaller": "Allelúja, allelúja. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+        "Polski": "Allelúja, allelúja. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+        "Portugues": "Allelúja, allelúja. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(cde)le(e_f!gvFED'C)lú(de~){ia}.(e.) <clear>*(,) (efggvFEfvED'Cdee) (,) (ed/g_efvED'Cdee) (,) (ef/gffe ef!gvFED'dc//d!ewf/gffe.) (::) <sp>V/</sp>. Con(cde)stí(e')tu(e)es(e_0/ge'fvD'C) e(de)os(e.) (,) prín(efg)ci(hggvFE)pes(e.d!ewfEDe.) (;) su(efef/efe)per(dec) o(de~)mnem(e.) ter(e_0/ge'/fd'evCA'c/dee,e_0/ge'/fd'evCA'c/dee efef/efe)ram :(ddc.) (:) mé(deD'C)mo(de)res(e) e(ef/gffe)runt(e.) (,) nó(e)mi(g)nis(gh) tu(h_iHG'hvGE'fvED.cd!ev'1fde)i,(e.) <clear>*(;) Dó(e/gggvFE'//dfED'dc)mi(de)ne.(e.) (,) (efggvFEfvED'Cdee) (,) (ed/g_efvED'Cdee) (,) (ef/gffe ef!gvFED'/!dc//d!ewf/gffe.) (::)",
+      "availableTranslations": {
+        "Bohemice": "Allelúja, allelúja. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+        "Cesky-Schaller": "Allelúja, allelúja. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+        "Polski": "Allelúja, allelúja. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.",
+        "Portugues": "Allelúja, allelúja. Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) EX(b)ál(dd)tent(ef~) e(f_devDCB.e_c/de)um(d.) *(;) in(d) ec(d)clé(fd/ef!hh/ihi)si(hgh)a(f_e) (,) ple(f!hhvFD.1fvEDed)bis :(d.) (:) et(d) in(fe~) cá(eh)the(h)dra(hfhED.) (`) (fd/ef!hh/ig/hf/hi/kkkh..) (,) se(f)ni(fi)ó(iv.hhhjvIH'hvGF'g)rum(gf..) (;) lau(hh)dent(h) e(ihhf)um.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::) <sp>V/</sp>. Con(d)fi(d)te(f)án(hf/hhf/hhf/hhh)(,)(f!hhf/hhf/hhh//ihhf/hhf/hhh)tur(h.) (,) Dó(h)mi(h)no(ih//h'hh_f//hhf/hhe//gxfgED./hhjvIH.) (:) mi(d)se(d)ri(fe)cór(eh)di(h)ae(ih) (,) (hhh'/ih/!hg./i/jiih.0/j/kjjh.0/i/jiig./h/ihh//fh//ghFE'ed.0) (;) e(fdfED//f_d/ef!gwh'!iv)jus :(hg/ijIH.ghGF.) (:) et(f) mi(hfh)ra(h)bí(i)li(hi)a(hh) (,) e(hh//hhjvIG'hvF'Ef!hhivHG)jus(h.) (;) fí(hh)li(hih)is(h_f) () *() hó(fh!ij)mi(hg)num.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
+      "availableTranslations": {
+        "Bohemice": "Exáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum. Allelúja, allelúja.",
+        "Cesky-Schaller": "Exáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum. Allelúja, allelúja.",
+        "Francais": "Acclamez-le dans l’Église assemblée, car il siège dans la chaire des anciens pontifes ! Remerciez le Seigneur de sa bonté et des merveilles qu’il accomplit pour les enfants des hommes. Alléluia, alléluia. Tu es Pierre, et sur cette pierre je bâtirai mon Église. Alléluia.",
+        "Italiano": "Lo esaltino nell'assemblea del popolo e lo lodino nel consesso degli anziani. Ringrazino il Signore per la sua bontà e per i suoi prodigi a favore degli uomini. Allelúia, allelúia Tu sei Pietro, e su questa pietra edificherò la mia Chiesa! Allelúia.",
+        "Polski": "Exáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum. Allelúja, allelúja.",
+        "Portugues": "Exáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum. Confiteántur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum. Allelúja, allelúja."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AN(f)nun(f)ti(f)á(fg!hvhg)vi(hggf!gwhghvGFgf..) (,) *() ju(fg)stí(gjjk)ti(h)am(hg/hf//h!jhj) tu(jvIH'iw!jvI'HG'h)am(hg..) (;) in(g) ec(g)clé(gj)si(j)a(j) ma(ik/ljjh)gna,(jhhg/hg/jjh/jggf.0) (:) ec(fh)ce(hghvGF) lá(gh)bi(g)a(g) me(gh)a(g.) (,) non(g) pro(g)hi(gh/jij)bé(j.h!iwj)bo :(jjjvIHivHGhg..) (;) Dó(h_g/h!iwj)mi(ghG'F)ne,(f'_) (,) tu(f!h'j) sci(j)sti.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Ju(g)stí(g!hwi'!jv)ti(j)am(j) tu(ij)am(j.) (,) non(j) abs(j)cón(j_kJ//Gh_g/h!iw!jvIHijh)di(hg..) (;) in(g) cor(gj)de(j) me(ik/ljjh)o :(jhhg/hg/jjh/jggf.0) (:) ve(f!h'j)ri(igh)tá(gfg)tem(gh/jij) tu(j.h!iwj)am(jjjvIHivHGhg..) (;) et(g) sa(g)lu(g)tá(h_g/h!iwj)re(ghf) tu(f!h'j)um(j) di(j)xi.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Non(gd) abs(g)cón(hihj'jjkvJ'IGh_g/h!iw!jvIHijh)di(hg..) (;) mi(g)se(ghg)ri(fg)cór(g/h'j~)di(ji)am(i) tu(ik/ljjh)am,(jhhg/hg/jjh/jggf.0) (:) et(f) ve(hj)ri(igh)tá(gfg)tem(gh/jij) tu(j.h!iwj)am(jjjvIHivHGhg..) (;) a(gh) con(g)cí(h_g/h!iwj)li(ghG'F)o(f!h'j) () *() mul(j)to.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
+      "availableTranslations": {
+        "Nederlands": "Dat zij hem roemen in de vergadering van het volk, in de raad der ouderlingen hem prijzen. Dat zij de Heer prijzen om zijn barmhartigheid en om zijn wonderwerken voor de kinderen der mensen. Ik verkondigde uw gerechtigheid in de volle vergadering. Neen, mijn lippen hield ik niet gesloten; Heer, Gij weet het. Uw gerechtigheid hield ik niet verborgen in mijn hart, uw trouw en uw hulp heb ik verkondigd. Uw barmhartigheid en uw trouw heb ik niet verzwegen in de volle vergadering."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Bohemice": "In illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis.",
+        "Cesky-Schaller": "In illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis.",
+        "Francais": "En ce temps-là : Jésus, étant venu dans la région de Césarée de Philippe, interrogeait ainsi ses disciples : « Qui dit-on qu’est le Fils de l’homme ?» Ils dirent : « Les uns Jean le Baptiste, d’autres Elie, d’autres Jérémie ou l’un des prophètes.» Il leur dit : « Et vous, qui dites-vous que je suis ?» Simon Pierre, prenant la parole, dit : « Vous êtes le Christ, le Fils du Dieu vivant.» Jésus lui répondit : « Tu es heureux, Simon Fils de Jona, car ce n’est pas la chair et le sang qui te l’ont révélé, mais mon Père qui est dans les cieux. Et moi, je te dis que tu es Pierre, et sur cette pierre je bâtirai mon Eglise, et les portes de l’enfer ne prévaudront point contre elle. Et je te donnerai les clefs du royaume des cieux : tout ce que tu lieras sur la terre sera lié dans les cieux, et tout ce que tu délieras sur la terre sera délié dans les cieux.»",
+        "Italiano": "In quel tempo, Gesù, venuto nella zona di Cesarea di Filippo, interrogava i suoi discepoli: «Chi dicono che sia il Figlio dell'uomo?». Ed essi risposero: «Alcuni Giovanni il Battista, altri Elia, altri ancora Geremia, o uno dei profeti». Disse loro Gesù: «Ma voi, chi dite che io sia?». Rispose Simon Pietro: «Tu sei il Cristo, il Figlio del Dio vivente». E Gesù, in risposta, gli disse: «Beato sei tu, Simone, figlio di Giona, poiché non la carne e il sangue te l'hanno rivelato, ma il Padre mio che è nei cieli. E io dico a te che tu sei Pietro, e su questa pietra edificherò la mia Chiesa, e le porte degli inferi non prevarranno contro di essa. E ti darò le chiavi del regno dei cieli: tutto ciò che avrai legato sulla terra sarà legato anche nei cieli, e tutto ciò che avrai sciolto sulla terra sarà sciolto anche nei cieli».",
+        "Magyar": "Amikor Jézus Fülöp Cezáreájának vidékére ért, megkérdezte tanítványaitól: „Kinek tartják az emberek az Emberfiát?”  Így válaszoltak: „Van, aki Keresztelő Jánosnak, van, aki Illésnek, Jeremiásnak vagy valamelyik másik prófétának.”  Jézus most hozzájuk fordult: „Hát ti mit mondtok, ki vagyok?”  Simon Péter válaszolt: „Te vagy Krisztus, az élő Isten Fia.”  Erre Jézus azt mondta neki: „Boldog vagy, Simon, Jónás fia, mert nem a test és vér nyilatkoztatta ki ezt neked, hanem az én mennyei Atyám.  Én is mondom neked: Péter vagy, erre a sziklára építem egyházamat, s az alvilág kapui sem vesznek rajta erőt.  Neked adom a mennyek országa kulcsait. Amit megkötsz a földön, a mennyben is meg lesz kötve, s amit feloldasz a földön, a mennyben is fel lesz oldva.”",
+        "Polski": "In illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis.",
+        "Portugues": "In illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) EC(gh/jij)ce(i.) *() de(ikj)di(i./jjj) ver(h)ba(ghg) me(h)a(hi/jhhg.) (,) in(gh/jij) o(j_h/k_j)re(j) tu(ikJ'I)o :(i.) (:) ec(g)ce(hihi') con(g)stí(h!iwj)tu(jjjvIH)i(gh) te(ghggf.0) (,) su(gh/jij)per(j) gen(jjjvIHivH~G~)tes,(hg..) (,) et(g) su(hi)per(i.h!iw!jvIH) re(f_g_f_)gna,(f.) (:) ut(ed) e(g)vél(gh/ihi)las(g_h) et(f) dé(efghgh)stru(fd)as,(d_f) (,) et(c) ae(df)dí(f_eg//hhj)fi(g)ces(g_h) et(e) plan(egF~'E~)tes.(e.) (::) <i>T. P.</i> Al(f)le(efghgh)lú(hjg){ia}.(gvFEf_e//g_f/gffe..) (::)",
+      "availableTranslations": {
+        "Bohemice": "Ecce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et ædífices et plantes. (Allelúja.)",
+        "Cesky-Schaller": "Ecce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et ædífices et plantes. (Allelúja.)",
+        "Francais": "C’est moi qui parle par ta bouche : je t’ai établi au dessus des peuples et des empires, pour arracher et pour détruire, mais aussi pour bâtir et pour planter.",
+        "Italiano": "Ecco che le mie parole pongo sulla tua bocca: ecco che io ti prepongo a nazioni e a regni per svellere ed abbattere, per edificare e piantare.",
+        "Nederlands": "Zie, Ik heb u mijn woorden in de mond gelegd. Zie, Ik heb u gesteld over volkeren en rijken, opdat gij zoudt uitroeien en vernietigen, opbouwen en planten. (Alleluia.)",
+        "Polski": "Ecce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et ædífices et plantes. (Allelúja.)",
+        "Portugues": "Ecce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et ædífices et plantes. (Allelúja.)"
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Nederlands": "Wij vragen U, o Heer, wil door deze U aangeboden offergaven uw Kerk genadig verlichten, opdat uw kudde alom in aantal mag groeien en haar herders onder uw leiding uw Naam welgevallig mogen zijn."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) TU(f) es(df) Pe(fgff)trus,(cdc.) <clear>*(;) et(d) su(ffg)per(f) hanc(f) pe(f_g_f_)tram(f.) (;) ae(f)di(fg'h)fi(h_g)cá(g)bo(fgFD.1) (,) Ec(d)clé(ffg)si(f)am(fg/hg/h_g) me(fg!hvGF'g)am.(gf..) (::)",
+      "availableTranslations": {
+        "Bohemice": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
+        "Cesky-Schaller": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
+        "Francais": "Tu es Pierre, et sur cette pierre je bâtirai mon Église.",
+        "Italiano": "Tu sei Pietro, e su questa pietra edificherò la mia Chiesa!",
+        "Polski": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
+        "Portugues": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)"
+      },
+      "mode": "6",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Nederlands": "Wij vragen U, Heer, bestuur goedgunstig uw Kerk, die door dit heilig voedsel verkwikt is, opdat zij, gericht door uw machtige leiding, groter vrijheid verkrijge en ongerept in uw dienst volharde."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

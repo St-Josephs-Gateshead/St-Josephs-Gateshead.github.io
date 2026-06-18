@@ -1,0 +1,728 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "S. Petri ad Vincula",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) NUNC(fffdgvFE) sci(g)o(h) ve(h!jij)re,(i.) (,) *() qui(j)a(j) mi(jkjj)sit(h) Dó(h!jj)mi(hgh)nus(h.) (;) An(ixhi~)ge(gv.fg'h)lum(h) su(ixhiggef)um :(fe..) (:) et(f) e(f)rí(ef'g)pu(g)it(ixhiH~'G~) me(g.) (,) de(gh) ma(h)nu(f) He(fg/hhgh)ró(e!gfg)dis,(fe..) (:) et(f) de(fffdg) o(gh)mni(e) ex(g)spe(g)cta(g)ti(jj)ó(hjg)ne(g.) (;) ple(ghG'EgvFE'f)bis(d.) Ju(fhg___)dae(g_e)ó(e!gfg)rum.(fe..) (::) <i>Ps.</i> Dó(g)mi(hj)ne(j) pro(j)bá(j)sti(j) me,(j) et(j) co(k)gno(j)ví(j)sti(ih) me :(jjj) (:) *() tu(ig) co(hj)gno(j)ví(j)sti(j) ses(j)si(j)ó(j)nem(j) me(j)am,(j.) (,) et(j) re(j)sur(j)re(j)cti(jji)ó(hg)nem(h') me(i)am.(gh..) (::) Gló(g)ri(hj)a(j) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(hg) u(h') a(i) e.</eu>(gh..) (::)",
+      "availableTranslations": {
+        "Francais": "Maintenant, je reconnais d’une manière certaine que le Seigneur a envoyé son ange : qu’il m’a arraché de la main d’Hérode et à toute l’attente du peuple juif. Seigneur, vous m’avez sondé, et vous me connaissez : vous savez quand je m’assieds, et quand je me lève.",
+        "Italiano": "Adesso riconosco veramente che il Signore ha mandato il suo Angelo, e m'ha liberato dalle mani d'Erode, e da tutta l'attesa del popolo dei Giudei. Signore, tu mi hai scrutato, e mi hai conosciuto; Tu hai conosciuto quando mi seggo e quando mi alzo.",
+        "Nederlands": "Nunc scio vere, quia misit Dóminus Angelum suum: et erípuit me de manu Heródis et de omni exspectatióne plebis Judæórum. Dómine; probásti me et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui beátum Petrum Apóstolum, a vínculis absolútum, illǽsum abíre fecísti: nostrórum, quǽsumus, absólve víncula peccatórum; et ómnia mala a nobis propitiátus exclúde. Deus, qui multitúdinem géntium beáti Pauli Apóstoli prædicatióne docuísti: da nobis, quǽsumus; ut, cujus commemoratiónem cólimus, ejus apud te patrocínia sentiámus. ",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, who didst loose the blessed Apostle, Peter, from his chains and didst make him go forth unharmed, loose, we pray, the chains of our sins, and in thy mercy ward off from us every evil. O God, Who, through the preaching of the Blessed Apostle Paul, hast caused the light of the Gospel to shine throughout the world, grant, we beseech thee, that we, who do keep his memorial, may continually be helped by his intercession with thee.",
+        "Bohemice": "Bože, jenž jsi svatého Petra, Apoštola, vysvobozeného z pout, neporušeného vyvedl; prosíme, uvolni pouta našich hříchů; a všechno zlé od nás laskavě odveď.",
+        "Deutsch": "O Gott, der du den heiligen Apostel Petrus aus den Ketten befreit und ihn ohne Verletzung hast entkommen lassen, löse, wir bitten dich, auch die Ketten unserer Sünden und halte in deiner Güte alle Übel von uns fern. O Gott, der du alle Völker durch die Predigt des heiligen Apostels Paulus gelehrt hast, gewähre uns, wir bitten dich, die Gnade, daß wir von demjenigen, dessen Gedächtnis wir begehen, auch die Fürsprache bei dir fühlen.",
+        "Espanol": "Oh Dios, que liberaste al bienaventurado apóstol Pedro de sus cadenas y le hiciste salir ileso, te rogamos que liberes las cadenas de nuestros pecados y, por tu misericordia, aleja de nosotros todo mal. Oh Dios, que por la predicación del bienaventurado apóstol Pablo hiciste brillar en todo el mundo la luz del Evangelio, te rogamos que a los que guardamos su memoria seamos continuamente ayudados por su intercesión ante ti.",
+        "Francais": "Ô Dieu, qui après avoir fait tomber les chaînes du bienheureux Pierre, Apôtre, l’avez fait sortir de prison, sans qu’il eût reçu aucun mal, nous vous en prions, brisez les liens de nos péchés, et dans votre bonté, éloignez de nous tous les maux. Dieu, vous avez instruit une multitude de nations par la prédication du bienheureux Apôtre Paul : accordez-nous, nous vous en supplions, que, célébrant sa mémoire, nous ressentions les effets de sa protection.",
+        "Italiano": "O Dio, che, sciolto il beato Apostolo Pietro dalle catene, lo facesti uscire illeso: sciogli le catene dei nostri peccati; ed allontana benigno da noi tutti i mali. O Dio, che colla predicazione del beato Paolo Apostolo hai istruito una moltitudine di Genti: concedi che, come ne celebriamo il natale, così ne risentiamo il patrocinio presso di te.",
+        "Nederlands": "God, Gij hebt de heilige apostel Petrus uit de boeien verlost en ongehinderd laten weggaan. Wij vragen U, verlos ons uit de boeien van onze zonden en verdrijf genadig alle kwaad van ons. God, Gij hebt een menigte heidenen door de prediking van uw heilige apostel Paulus onderwezen. Wij vragen U, doe ons, die zijn geboortefeest vieren, de macht van zijn voorspraak bij U ondervinden.",
+        "Polski": "Boże, któryś po uwolnieniu z więzów błogosławionego Piotra Apostoła, wypuścił go w zdrowiu z więzienia, skrusz, błagamy i nasze więzy grzechowe i oddal od nas łaskawie wszelkie zło. Boże, któryś liczne narody wymową św. Pawła Apostoła oświecił, daj nam, prosimy Cię, abyśmy doznali u Ciebie wstawiennictwa tego, którego dziś pamiątkę obchodzimy."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Misit Heródes rex manus, ut afflígeret quosdam de ecclésia. Occidit autem Jacóbum fratrem Joánnis gládio. Videns autem, quia placéret Judæis, appósuit, ut apprehénderet et Petrum. Erant autem dies azymórum. Quem cum apprehendísset, misit in cárcerem, tradens quátuor quaterniónibus mílitum custodiéndum, volens post Pascha prodúcere eum pópulo. Et Petrus quidem servabátur in cárcere. Orátio autem fiébat sine intermissióne ab ecclésia ad Deum pro eo. Cum autem productúrus eum esset Heródes, in ipsa nocte erat Petrus dórmiens inter duos mílites, vinctus caténis duábus: et custódes ante óstium custodiébant cárcerem. Et ecce, Angelus Dómini ástitit: et lumen refúlsit in habitáculo: percussóque látere Petri, excitávit eum, dicens: Surge velóciter. Et cecidérunt caténæ de mánibus ejus. Dixit autem Angelus ad eum: Præcíngere, et cálcea te cáligas tuas. Et fecit sic. Et dixit illi: Circúmda tibi vestiméntum tuum, et séquere me. Et éxiens sequebátur eum, et nesciébat, quia verum est, quod fiébat per Angelum: existimábat autem se visum vidére. Transeúntes autem primam et secúndam custódiam, venérunt ad portam férream, quæ ducit ad civitátem: quæ ultro apérta est eis. Et exeúntes processérunt vicum unum: et contínuo discéssit Angelus ab eo. Et Petrus ad se revérsus, dixit: Nunc scio vere, quia misit Dóminus Angelum suum, et erípuit me de manu Heródis et de omni exspectatióne plebis Judæórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Francais": "En ces jours-là : le roi Hérode mit les mains sur quelques membres de l’Église, pour les maltraiter. Il fit mourir par le glaive Jacques, frère de Jean. Et voyant que cela plaisait aux Juifs, il fit aussi arrêter Pierre. C’étaient alors les jours des azymes. L’ayant donc fait arrêter, il le mit en prison, et le donna à garder à quatre escouades, de quatre soldats chacune, avec l’intention de le faire comparaître devant le peuple après la Pâque. Pierre était donc gardé dans la prison ; mais l’église faisait sans interruption des prières à Dieu pour lui. Or, la nuit même avant le jour où Hérode devait le faire comparaître, Pierre dormait entre deux soldats, lié de deux chaînes, et des gardes devant la porte gardaient la prison. Et voici qu’un ange du Seigneur apparut, et une lumière brilla dans la cellule ; et l’ange, touchant Pierre au côté, l’éveilla, en disant : Lève-toi vite. Et les chaînes tombèrent de ses mains. Et l’ange lui dit : mets ta ceinture, et chausse tes sandales. Il le fit. Et l’ange reprit : Enveloppe-toi de ton vêtement, et suis-moi. Pierre sortit et le suivit ; et il ne savait pas que ce qui se faisait par l’ange était véritable, mais il croyait voir une vision. Passant la première et la seconde garde, ils vinrent à la porte de fer qui conduit à la ville ; elle s’ouvrit d’elle-même devant eux, et étant sortis, ils s’avancèrent dans une rue ; et aussitôt l’ange le quitta. Alors Pierre, étant revenu à lui-même, dit : Maintenant je reconnais d’une manière certaine que le Seigneur a envoyé son ange, et qu’il m’a arraché à la main d’Hérode et à toute l’attente du peuple juif.",
+        "Italiano": "In quei giorni il re Erode mise mano a maltrattare alcuni della Chiesa.  Uccise di spada Giacomo, fratello di Giovanni.  E vedendo che ciò piaceva ai Giudei, procedé anche all'arresto di Pietro. Erano i giorni degli azimi.  E fattolo catturare, lo mise in prigione, dandolo in guardia a quattro picchetti, di quattro soldati ciascuno, volendo dopo la Pasqua processarlo davanti al popolo.  Pietro dunque era custodito nella prigione. Ma dalla Chiesa si faceva continua orazione a Dio per lui.  Or, la notte stessa che Erode stava per processarlo, Pietro dormiva tra due soldati, legato con due catene; e le sentinelle alla porta custodivano la prigione.  Quand'ecco si presenta un Angelo del Signore e brilla una luce nella cella, e dato un colpo nel fianco a Pietro, lo risvegliò, dicendo: Lévati su in fretta. E caddero le catene dalle mani di lui.  Poi l'Angelo gli disse: Mettiti la cintura e lègati i sandali. Ed egli fece così. E gli soggiunse: Buttati addosso il tuo mantello, e seguimi.  E uscito che fu, lo seguiva, senza rendersi conto che fosse realtà quanto si faceva dall'Angelo; ma credeva di avere un'allucinazione.  E passata la prima e la seconda sentinella, giunsero alla porta di ferro che mette in città, la quale s'aprì loro da sé medesima; e usciti fuori, s'inoltrarono in una contrada, e d'improvviso l'Angelo si partì da lui.  Pietro allora, rientrato in se, disse; Adesso riconosco veramente che il Signore ha mandato il suo Angelo, e m'ha liberato dalle mani d'Erode, e da tutta l'attesa del popolo dei Giudei.",
+        "Magyar": "Ebben az időben Heródes király elfogatta az egyház néhány tagját, hogy ártson nekik.  János testvérét, Jakabot karddal kivégeztette.  Amikor látta, hogy ezzel megnyerheti a zsidók tetszését, azon volt, hogy Pétert is elfogassa. A kovásztalan kenyér ünnepét ülték.  Elfogatta, börtönbe záratta, és rábízta négy, egyenként négy katonából álló őrségre. Az volt a szándéka, hogy húsvét után a nép elé vezetteti.  Míg Pétert fogva tartották a börtönben, az egyház állandóan imádkozott érte az Istenhez.  Azon az éjszakán, amikor Heródes elő akarta vezettetni, Péter két katona között aludt, kettős lánccal megbilincselve. A bejáratnál őrök tartották szemmel a börtönt.  Egyszerre csak megjelent az Úr angyala, a helyiséget pedig fény árasztotta el. Az angyal oldalba lökte Pétert, s fölébresztette: „Kelj fel gyorsan!” - mondta. Erre a láncok lehulltak a kezéről.  Aztán így folytatta az angyal: „Csatold fel övedet, és vedd fel sarudat!” Amikor megtette, tovább sürgette: „Vedd magadra köntösödet, és kövess!”  Ment és követte, de nem tudta, hogy valóság-e, amit vele az angyal tesz. Azt gondolta, látomása van.  Átmentek az első őrségen, majd a másodikon is, aztán eljutottak a város felé nyíló vaskapuhoz, és ez magától kinyílt előttük. Kint még végigmentek az egyik utcán, aztán az angyal hirtelen eltűnt mellőle.  Amikor Péter föleszmélt, megszólalt: - „Most már csakugyan tudom, hogy az Úr elküldte angyalát, és kiszabadított Heródes kezéből, s abból, amire a zsidó nép számított.”",
+        "Nederlands": "In diébus illis: Misit Heródes rex manus, ut afflígeret quosdam de ecclésia. Occidit autem Jacóbum fratrem Joánnis gládio. Videns autem, quia placéret Judæis, appósuit, ut apprehénderet et Petrum. Erant autem dies azymórum. Quem cum apprehendísset, misit in cárcerem, tradens quátuor quaterniónibus mílitum custodiéndum, volens post Pascha prodúcere eum pópulo. Et Petrus quidem servabátur in cárcere. Orátio autem fiébat sine intermissióne ab ecclésia ad Deum pro eo. Cum autem productúrus eum esset Heródes, in ipsa nocte erat Petrus dórmiens inter duos mílites, vinctus caténis duábus: et custódes ante óstium custodiébant cárcerem. Et ecce, Angelus Dómini ástitit: et lumen refúlsit in habitáculo: percussóque látere Petri, excitávit eum, dicens: Surge velóciter. Et cecidérunt caténæ de mánibus ejus. Dixit autem Angelus ad eum: Præcíngere, et cálcea te cáligas tuas. Et fecit sic. Et dixit illi: Circúmda tibi vestiméntum tuum, et séquere me. Et éxiens sequebátur eum, et nesciébat, quia verum est, quod fiébat per Angelum: existimábat autem se visum vidére. Transeúntes autem primam et secúndam custódiam, venérunt ad portam férream, quæ ducit ad civitátem: quæ ultro apérta est eis. Et exeúntes processérunt vicum unum: et contínuo discéssit Angelus ab eo. Et Petrus ad se revérsus, dixit: Nunc scio vere, quia misit Dóminus Angelum suum, et erípuit me de manu Heródis et de omni exspectatióne plebis Judæórum."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale & Alleluia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) COn(d)stí(ff)tu(f!hgh)es(h) e(gg)os(gf..) <clear>*(,) prín(h)ci(ixi)pes(h_g//hiHF.ghFD.ev.dec.!/fg/!hggf.0) (;) su(jjk)per(j_h) o(jk~)mnem(j) ter(ixjhi)ram :(hgiHGkv.jkJ//F.0gh/jiih.0) (:) mé(ixj_h/i!jwk)mo(ixjk_J'_IH'i)res(h.) e(ixgh!i'j)runt(i_h) (,) nó(ixjhi)mi(gf)nis(f) tu(h_g)i,(jj) (`) Dó(ixjhi)mi(gf)ne.(fhg___) (,) (jkijh.fhg/hggf.0) (z0::c3) <sp>V/</sp>. Pro(df) pá(hvvGFhvGEff//gxde!fgF'EfvEDe.)(,)(fh/ih/ih/ijh)tri(gh)bus(h.) (,) tu(ih/kkh/ih/kkvIH)is(hv.ghGF.) (;) na(h.i!jwk)ti(ih) sunt(h.) ti(f!hhe)bi(f.) (,) fí(gxfgFE.fgFD.fvEDed)li(bd)i :(d.) (:) pro(de)ptér(ef)e(hf/ge)a(ef!hih.) (,) pó(h)pu(gh)li(gxfhE'D//hf/gf..) (,) con(d)fi(ef)te(f)bún(f)tur(hV_!fg~) *() ti(e.f!gwh)bi.(he) (,) (gxhfgED'//ef/hff/ded.) (::)",
+      "availableTranslations": {
+        "Espanol": "Los constituirás príncipes sobre toda la tierra; conservarán la memoria de tu nombre, oh Señor. En lugar de tus padres, te nacerán hijos; por eso los pueblos te ensalzarán. Aleluya, aleluya. Desata, oh Pedro, por mandato de Dios, todas nuestras cadenas terrenas; tú que mantienes abierto a los bienaventurados el reino de los cielos. Aleluya.",
+        "Francais": "Vous les établirez princes sur toute la terre ; ils se souviendront de votre nom, de génération en génération, Seigneur. À la place de vos pères, des fils vous sont nés, c’est pourquoi les peuples vous loueront. Alléluia, alléluia. Brisez, ô Pierre, sur l’ordre de Dieu, nos liens ici-bas, vous qui ouvrez aux bienheureux le royaume des cieux. Alléluia.",
+        "Italiano": "Li porrai come principi su tutta la terra, essi faranno ricordare il tuo Nome, Signore.                                     ",
+        "Nederlands": "Gij zult hen aanstellen tot vorsten over heel de wereld. Zij zullen uw Naam gedenken, o Heer. "
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(cd~)le(deD'C)lú(e_d/fgeed~){ia}.(d.) (;) *() <i>ij.</i>(ixdhhg/hiHG'ge/gh//egFE'evD'Cd.) (,) (hf/ghhd/!dggvFD'Cde.) (,) (fhG'ED'efeed.0) (::) <sp>V/</sp>. Sol(de!fggvFD'ew!fvED'Cd)ve,(d.) (,) ju(hf)bén(ggf~)te(f) De(ghhd.0/gvvFD'Cde.)(,)(fhG'ED'ewfeed)o,(d.) (;) ter(c)rá(d)rum,(e) Pe(ef!gvFE'e)tre,(c) ca(d)té(cfE'Ceed/fg)nas :(ed..) (:) qui(cde) fa(gggvFDee//ghG'ED'ew!fvED)cis(de..) (;) ut(egFE'e) pá(d)te(e)ant(eevD'Cde.) (,) cae(cd)lé(d)sti(deD'C)a(c.) re(e_d/fgeed~)gna(d.) (;) *() be(dh)á(ixhg/hiHG'ge/gh//egFE'evD'Cd.)(,)(hf/ghhd/!dggvFD'Cde.)(,)(fhG'ED'efeed)tis.(d.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. Loose, O Peter, by God's command, all our earthly chains; thou who keepest open the kingdom of heaven to the blessed. Allelúja.",
+        "Italiano": "Allelúja, allelúja. Sciogli, o Pietro, per ordine di Dio le catene che ci legano sulla terra, tu che apri il regno dei cieli ai beati. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Bevrijd de aarde, o Petrus, op Gods bevel, van de ketenen. Gij toch zorgt, dat het hemelrijk openstaat voor de zaligen. Alleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Francais": "En ce temps-là : Jésus vint aux environs de Césarée de Philippe, et il interrogeait ses disciples, en disant : Que disent les hommes touchant le Fils de l’homme ? Ils lui répondirent : Les uns, qu’il est Jean-Baptiste ; les autres, Elie ; les autres, Jérémie, ou quelqu’un des prophètes. Jésus leur dit : Et vous, qui dites-vous que je suis. Simon-Pierre, prenant la parole, dit : Vous êtes le Christ, le Fils du Dieu vivant. Jésus lui répondit : Tu es bienheureux, Simon, fils de Jonas, parce que ce n’est pas la chair et le sang qui t’ont révélé cela, mais mon Père qui est dans les cieux. Et moi, je te dis que tu es Pierre, et que sur cette pierre je bâtirai mon église, et les portes de l’enfer ne prévaudront point contre elle. Et je te donnerai les clefs du royaume des cieux ; et tout ce que tu lieras sur la terre sera lié aussi dans les cieux, et tout ce que tu délieras sur la terre sera délié dans les cieux.",
+        "Italiano": "In quel tempo, Gesù, venuto nella zona di Cesarea di Filippo, interrogava i suoi discepoli: «Chi dicono che sia il Figlio dell'uomo?». Ed essi risposero: «Alcuni Giovanni il Battista, altri Ella, altri ancora Geremia, o uno dei profeti». Disse loro Gesù: «Ma voi, chi dite che io sia?». Rispose Simon Pietro: «Tu sei il Cristo, il Figlio del Dio vivente». E Gesù, in risposta, gli disse: «Beato sei tu, Simone, figlio di Giona, poiché non la carne e il sangue te l'hanno rivelato, ma il Padre mio che è nei cieli. E io dico a te che tu sei Pietro, e su questa pietra edificherò la mia Chiesa, e le porte degli inferi non prevarranno contro di essa. E ti darò le chiavi del regno dei cieli: tutto ciò che avrai legato sulla terra sarà legato anche nei cieli, e tutto ciò che avrai sciolto sulla terra sarà sciolto anche nei cieli».",
+        "Magyar": "Amikor Jézus Fülöp Cezáreájának vidékére ért, megkérdezte tanítványaitól: „Kinek tartják az emberek az Emberfiát?”  Így válaszoltak: „Van, aki Keresztelő Jánosnak, van, aki Illésnek, Jeremiásnak vagy valamelyik másik prófétának.”  Jézus most hozzájuk fordult: „Hát ti mit mondtok, ki vagyok?”  Simon Péter válaszolt: „Te vagy Krisztus, az élő Isten Fia.”  Erre Jézus azt mondta neki: „Boldog vagy, Simon, Jónás fia, mert nem a test és vér nyilatkoztatta ki ezt neked, hanem az én mennyei Atyám.  Én is mondom neked: Péter vagy, erre a sziklára építem egyházamat, s az alvilág kapui sem vesznek rajta erőt.  Neked adom a mennyek országa kulcsait. Amit megkötsz a földön, a mennyben is meg lesz kötve, s amit feloldasz a földön, a mennyben is fel lesz oldva.”",
+        "Nederlands": "In illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) COn(dg)stí(g./hji)tu(jkj)es(jvIH.) *() e(hj!kvJH)os(hjhhg.) (,) prín(ikj)ci(jvIH)pes(h_g//ih/igh.) (;) su(ef)per(g) o(h_g/jki'jvH'G)mnem(g_fh) ter(ghfg)ram :(f.) (:) mé(ffff_d/gih)mo(g)res(g./hjh) e(f_d/fhg)runt(ef'g) (,) nó(gh/jij)mi(gjj'1jj)nis(gj) tu(ixjjjvH'GF'gwh!ivHG'h)i,(hg..) (:) in(hji___) o(jkjijh)mni(h.) pro(dg)gé(gj)ni(jjjvH'G)e(g.) (;) et(f) ge(ef'g)ne(fh/jgh)ra(ef)ti(g)ó(g./h!iw!jvIH)ne.(hjH'GF.) (,) (fff//hvG'FEf_e//g_f/gffe.) (::)",
+      "availableTranslations": {
+        "Italiano": "Li costituirai príncipi su tutta la terra: essi ricorderanno il tuo nome, o Signore, di generazione in generazione."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Oblátum tibi, Dómine, sacrifícium, intercedénte beáto Petro Apostolo tuo, vivíficet nos semper et múniat. Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica: ut, quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio supplicántis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May the sacrifice offered to thee, O Lord, through the intercession of thy blessed Apostle, Peter, enliven us always. Hallow, O Lord, the gifts of thy people through the prayers of Paul, thy apostle: that this sacrifice, which is pleasing to thee as thine own institution, may became yet more pleasing through his patronage and intercession.",
+        "Espanol": "El sacrificio ofrecido a ti, Señor, por intercesión de tu bendito apóstol Pedro, nos vivifique siempre. Santifica, oh Señor, los dones de tu pueblo por las oraciones de Pablo, tu apóstol, para que este sacrificio, que te es agradable como institución tuya, sea aún más agradable por su patrocinio e intercesión.",
+        "Francais": "Que ce sacrifice qui vous est offert nous soit toujours, ô Seigneur, par l’intercession du bienheureux Apôtre Pierre, un principe de vie et une source de secours. En raison des prières de votre Apôtre Paul, rendez saints, Seigneur, les dons de votre peuple : de sorte que leur offrande qui vous est agréable, du fait qu’elle a été instituée par vous, devienne plus agréable encore, à cause du patronage de celui qui intercède pour nous.",
+        "Italiano": "Il sacrificio a te offerto, o Signore, ci vivifichi e protegga sempre, per l'intercessione del beato Pietro tuo Apostolo. Per le preghiere del tuo Apostolo Paolo santifica, o Signore, i doni del tuo popolo, affinché il sacrificio che Ti è già gradito per la tua istituzione, lo sia ancora più per il patrocinio per chi Ti prega.",
+        "Nederlands": "Moge, o Heer, dit offer, dat wij U opdragen, op voorspraak van uw heilige apostel Petrus ons leven telkens vernieuwen en sterken. Heilig, Heer, door de gebeden van uw apostel Paulus de gaven van uw volk, opdat, wat U aangenaam is, reeds door uw schepping, nog aangenamer wordt door de voorbede van onze voorspreker."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) TU(f) es(df) Pe(fgff)trus,(cdc.) <clear>*(;) et(d) su(ffg)per(f) hanc(f) pe(f_g_f_)tram(f.) (;) ae(f)di(fg'h)fi(h_g)cá(g)bo(fgFD.1) (,) Ec(d)clé(ffg)si(f)am(fg/hg/h_g) me(fg!hvGF'g)am.(gf..) (::)",
+      "availableTranslations": {
+        "Francais": "Tu es Pierre, et sur cette pierre je bâtirai mon Église.",
+        "Italiano": "Tu sei Pietro, e su questa pietra edificherò la mia Chiesa.",
+        "Nederlands": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)"
+      },
+      "mode": "6",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Córporis sacri et pretiósi sánguinis repléti libámine, quǽsumus, Dómine, Deus noster: ut, quod pia devotióne gérimus, certa redemptióne capiámus. Percéptis, Dómine, sacramentis, beáto Paulo Apostolo tuo interveniénte, deprecámur: ut, quæ pro illíus celebráta sunt glória, nobis profíciant ad medélam.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Filled with the offering of Your sacred Body and Your precious Blood, we beseech You, O Lord, our God, that what we have done in holy devotion may become an assurance of our redemption. Having received thy sacrament, O Lord, we ask that through the intercession of blessed Paul, thy Apostle, the mysteries we celebrate to his glory may be a healing remedy to us.",
+        "Espanol": "Llenos de la ofrenda de tu sagrado Cuerpo y de tu preciosa Sangre, te suplicamos, oh Señor, Dios nuestro, que lo que hemos hecho en santa devoción se convierta en garantía de nuestra redención. Habiendo recibido tu sacramento, oh Señor, te pedimos que por intercesión de bienaventurado Pablo, tu Apóstol, los misterios que celebramos para su gloria sean para nosotros un remedio curativo.",
+        "Francais": "Rassasiés par le Corps sacré et le Précieux sang qui vous ont été offerts en sacrifice, nous vous demandons, ô Seigneur notre Dieu, que nous possédions là où notre rédemption sera assurée, ce que nous portons maintenant avec une pieuse dévotion. Ayant reçu, Seigneur, votre sacrement, et le bienheureux Apôtre Paul intervenant en notre faveur : nous vous prions de faire servir à notre guérison, le sacrifice qui a été célébré pour glorifier cet Apôtre.",
+        "Italiano": "Saziati del sacro corpo e del prezioso sangue ti preghiamo, o Signore Dio nostro; quanto abbiamo compiuto con devozione, lo possiamo conseguire con sicura redenzione. Dopo aver ricevuto il sacramento, ti preghiamo, o Signore, perché, per intercessione del beato Paolo apostolo ciò che a sua gloria è stato offerto, a noi giovi come rimedio.",
+        "Nederlands": "Verzadigd mmet het offer van uw heilig Lichaam en kostbaar Bloed, vragen wij U, Heer, onze God, dat eens in een zekere verlossing ons bezit mag worden, wat wij nu met liefde en eerbied voltrekken. Na het ontvangen van de Sacramenten bidden wij U, o Heer, door de voorspraak van uw heilige apostel Paulus, dat ons tot genezing mag strekken, wat wij voor zijn verheerlijking vierden."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

@@ -1,0 +1,790 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "Festum Sanctissimi Corporis Christi",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) CI(c)bá(efe)vit(f) e(fhf)os(efe.) <clear>*(,) ex(f) á(h)di(hhh)pe(f) fru(e)mén(egf'/ge)ti,(c.) (,) al(eh~)le(hghf)lú(f_g_f_){ia} :(f.) (:) et(e) de(f) pe(hh)tra,(hi~) mel(ih~)le(hihh/fgf.) (,) sa(f)tu(fi)rá(i_h)vit(hi'j) e(ih)os,(h.) (;) al(hi~)le(i)lú(ihi){ia},(f.) (,) al(g!hwi)le(i_h)lú(hfgv_F~E~){ia},(fe..) (,) al(f!gwh)le(hvGF'gwh/ig/h_g)lú(fg!hvGF'g){ia}.(gf..) (::) <i>Ps.</i> Ex(e)sul(fe)tá(eh)te(h) De(h)o(h) ad(h)ju(hg)tó(hi)ri(i) no(hi)stro :(h.) *(:) ju(hf)bi(fh)lá(h')te(i) De(hf)o(h) Ja(ge)cob.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+      "availableTranslations": {
+        "English": "He fed them with the best of wheat, alleluia; and filled them with honey from the rock, alleluia, alleluia, alleluia. Sing joyfully to God our strength; acclaim the God of Jacob.",
+        "Espanol": "Los sustentó con flor de trigo, aleluya; y los sació con miel de la roca, aleluya, aleluya, aleluya. Regocijaos alabando a Dios, nuestro protector; cantad al Dios de Jacob.",
+        "Francais": "Il les a nourris de la graisse du froment, alléluia ; et il les a rassasiés du miel de la pierre, alléluia, alléluia, alléluia. Exultez pour Dieu, notre secours ; jubilez pour le Dieu de Jacob.",
+        "Italiano": "Li ha nutriti col fiore del frumento, allelúia: e li ha saziati col miele scaturito dalla roccia, allelúia, allelúia, allelúia. Esultate in Dio nostro aiuto: rallegratevi nel Dio di Giacobbe.",
+        "Nederlands": "Cibávit eos ex ádipe fruménti, allelúja: et de petra, melle saturávit eos, allelúja, allelúja. Exsultáte Deo, adjutóri nostro: jubiláte Deo Jacob. ",
+        "Polski": "Nakarmił ich pszenicą przewyborną, alleluja. A z opoki miodem nasycił ich, alleluja, alleluja, alleluja. Śpiewajcie z radością Bogu, mocy naszej, wznoście okrzyki Bogu Jakuba.",
+        "Portugues": "O Senhor alimentou-os com a flor da farinha, aleluia: e saciou-os com o mel tirado do rochedo, aleluia, aleluia, aleluia. Exultai de alegria e louvai a Deus, que é o nosso sustentáculo: Aclamai com júbilo Deus de Jacob.",
+        "Ukrainian": "Тучною пшеницею годував їх, aлілуя, і медом із cкелі наcитив їх, aлілуя, aлілуя, aлілуя. Радіcно cпівайте Богові, помічникові нашому, воcкликуйте Богові Якова."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui nobis sub Sacraménto mirábili passiónis tuæ memóriam reliquísti: tríbue, quǽsumus, ita nos Córporis et Sánguinis tui sacra mystéria venerári; ut redemptiónis tuæ fructum in nobis júgiter sentiámus:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, You Who in this wondrous sacrament have left us a memorial of Your passion, grant us, we beseech You, so to venerate the sacred mysteries of Your Body and Blood that we may ever experience within us the effect of Your redemption.",
+        "Espanol": "¡Oh Dios!, que bajo un sacramento admirable, nos dejaste el memorial de tu pasión; te pedimos, Señor, nos concedas celebrar de tal manera los sagrados misterios de tu cuerpo y sangre, que sintamos constantemente en nosotros el fruto de tu redención.",
+        "Francais": "Ô Dieu, qui, sous un sacrement admirable, nous avez laissé le mémorial de votre passion, accordez-nous une telle vénération pour les mystères sacrés de votre Corps et de votre Sang que nous ressentions sans cesse en nous les effets de votre rédemption.",
+        "Italiano": "O Dio, che nell’ammirabile Sacramento ci lasciasti la memoria della tua Passione: concedici, Te ne preghiamo, di venerare i sacri misteri del tuo Corpo e del tuo Sangue cosí da sperimentare sempre in noi il frutto della tua redenzione:",
+        "Nederlands": "God, Gij hebt ons in het wonderbaar Sacrament een gedachtenis van uw lijden nagelaten. Wij vragen U, doe ons zo de heilige geheimen van uw Lichaam en Bloed vereren, dat wij de uitwerking van uw verlossing altijd in ons mogen ervaren.",
+        "Polski": "Boże, który w przedziwnym Sakramencie zostawiłeś nam pamiątkę Swej męki, dozwól, prosimy, taką czcią otaczać święte tajemnice Ciała i Krwi Twojej, abyśmy nieustannie doznawali w sobie owoców Twojego Odkupienia:",
+        "Portugues": "Ó Deus, que neste admirável sacramento nos deixastes o memorial da vossa Paixão, concedei-nos, Vos pedimos, que de tal sorte veneremos os sacratíssimos mystérios do vosso Corpo e Sangue, que sintamos perpetuamente no nosso íntimo o fruto da vossa Redenção.",
+        "Ukrainian": "Господи, Ти в Пресвятому Таїнстві залишив нам спомин своїх страстей, дай нам так вшановувати святі тайни Твоїх Тіла й Крові, щоб ми могли безустанно пожинати плоди Твого відкуплення."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Fratres: Ego enim accépi a Dómino quod et trádidi vobis, quóniam Dóminus Jesus, in qua nocte tradebátur, accépit panem, et grátias agens fregit, et dixit: Accípite, et manducáte: hoc est corpus meum, quod pro vobis tradétur: hoc fácite in meam commemoratiónem. Simíliter et cálicem, postquam cenávit, dicens: Hic calix novum Testaméntum est in meo sánguine. Hoc fácite, quotiescúmque bibétis, in meam commemoratiónem. Quotiescúmque enim manducábitis panem hunc et cálicem bibétis, mortem Dómini annuntiábitis, donec véniat. Itaque quicúmque manducáverit panem hunc vel bíberit cálicem Dómini indígne, reus erit córporis et sánguinis Dómini. Probet autem seípsum homo: et sic de pane illo edat et de calice bibat. Qui enim mandúcat et bibit indígne, judícium sibi mandúcat et bibit: non dijúdicans corpus Dómini.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Brethren: I myself have received from the Lord - what I also delivered to you, - that the Lord Jesus, on the night in which He was betrayed, took bread, and giving thanks broke, and said, Take and eat. This is My Body which shall be given up for you; do this in remembrance of Me. In like manner also the cup, after He had supped, saying, This is the new covenant in My Blood; do this as often as you drink it, in remembrance of Me. For as often as you shall eat this Bread and drink the cup, you proclaim the death of the Lord, until He comes. Therefore whoever eats this Bread or drinks the cup of the Lord unworthily, will be guilty of the Body and the Blood of the Lord. But let a man prove himself, and so let him eat of that Bread and drink of the cup; for he who eats and drinks unworthily, without distinguishing the Body, eats and drinks judgment to himself.",
+        "Espanol": "Hermanos: Del Señor aprendí lo que también os tengo ya enseñado, y es que el Señor Jesús, la noche misma en que había de ser traicionado, tomó el pan, y dando gracias, lo partió, y dijo: Tomad y comed; éste es mi cuerpo, que por vosotros será entregado; haced esto en memoria mía. Y de la misma manera tomó el cáliz, después de haber cenado, diciendo: Este cáliz es el Nuevo Testamento en mi sangre; haced esto, siempre que lo bebiereis, en memoria mía. Así que, cuantas veces comiereis este pan y bebiereis este cáliz, otras tantas anunciaréis la muerte del Señor, hasta que venga. Por tanto, cualquiera que coma este pan o beba el cáliz del Señor indignamente, será reo del cuerpo y sangre del Señor. Examínese, pues, a si mismo cada cual, y así coma de ese pan y beba de ese cáliz. Porque quien le come y bebe indignamente, se come y bebe su propia condenación, si no discierne el cuerpo del Señor.",
+        "Francais": "Frères, j'ai moi-même reçu du Seigneur ce que je vous ai transmis : à savoir, que le Seigneur Jésus, dans la nuit où il fut livré, prit du pain, et après avoir rendu grâces, le rompit et dit : « Prenez et mangez ; ceci est mon corps, qui sera livré pour vous ; faites ceci en mémoire de moi. » De même, après le repas, il prit le calice et dit : « Ce calice est la nouvelle Alliance en mon sang ; faites ceci, toutes les fois que vous en boirez, en mémoire de moi. » Car toutes les fois que vous mangez ce pain et que vous buvez ce calice, vous annoncez la mort du Seigneur, jusqu'à ce qu'il vienne. C'est pourquoi celui qui mangera le pain ou boira le calice du Seigneur indignement, sera coupable envers le Corps et le Sang du Seigneur. Que chacun donc s'éprouve soi-même, et qu'ainsi il mange de ce pain et boive de ce calice ; car celui qui mange et boit indignement, sans discerner le Corps du Seigneur, mange et boit son propre jugement.",
+        "Italiano": "Fratelli: Io stesso ho appreso dal Signore quello che ho insegnato a voi: il Signore Gesú, nella stessa notte nella quale veniva tradito: prese il pane, e rendendo grazie, lo spezzò e disse: Prendete e mangiate, questo è il mio corpo che sarà immolato per voi: fate questo in memoria di me. Similmente, dopo cena, prese il calice, dicendo: Questo calice è il nuovo patto nel mio sangue, tutte le volte che ne berrete, fate questo in memoria di me. Infatti, tutte le volte che mangerete questo pane e berrete questo calice, annunzierete la morte del Signore fino a quando Egli verrà. Chiunque perciò avrà mangiato questo pane e bevuto questo calice indegnamente, sarà reo del Corpo e del Sangue del Signore. Dunque, l’uomo esamini sé stesso e poi mangi di quel pane e beva di quel calice: chi infatti mangia e beve indegnamente, mangia e beve la sua condanna, non riconoscendo il corpo del Signore.",
+        "Nederlands": "Broeders, ik heb immers zelf van de Heer vernomen, wat ik u ook heb meegedeeld, dat de Heer Jezus in de nacht, waarin Hij werd overgeleverd, brood heeft genomen, een zegenbede sprak en het gebroken heeft met de woorden: Neemt en eet; dit is mijn Lichaam, dat voor u zal worden overgeleverd; doet dit ter gedachtenis aan Mij. Evenzo ook de kelk - na de maaltijd - zeggende: Deze Kelk is het Nieuwe Verbond in mijn Bloed; zo dikwijls gij die drinkt, doet het dan ter gedachtenis aan Mij. Want zo dikwijls gij dit Brood eet en die Kelk drinkt, verkondigt gij de dood des Heren, totdat Hij wederkomt. Daarom: alwie onwaardig dit Brood eet of de Kelk des Heren drinkt, zal schuldig zijn aan het Lichaam en Bloed des Heren. Een ieder moet daarom zich zelf onderzoeken en dan eerst van dit Brood eten en van deze Kelk drinken; want wie onwaardig eet en drinkt, eet en drinkt zich zelf de veroordeling, omdat hij het Lichaam des Heren niet weet te onderscheiden.",
+        "Polski": "Bracia: Ja bowiem otrzymałem od Pana co też wam podałem, że Pan Jezus tej nocy, w której był wydany, wziął chleb i dzięki uczyniwszy łamał i rzekł «Bierzcie i jedzcie, to jest ciało moje, które za was będzie wydane: to czyńcie ma moją pamiątkę». Także i kielich, po wieczerzy, mówiąc: «Ten kielich jest Nowym Testamentem we krwi mojej. To czyńcie, ilekroć pić będziecie, na pamiątkę moją». Ilekroć bowiem ten chleb pożywać, a kielich pić będziecie, śmierć Pańską będziecie zwiastować, aż przybędzie. Tak więc ktokolwiek by pożywał ten chleb albo pił kielich Pański niegodnie, winien będzie ciała i krwi Pańskiej. Niechajże tedy doświadcza człowiek samego siebie, a tak niechaj pożywa chleba tego i z kielicha pije. Kto bowiem pożywa i pije niegodnie, potępienie dla siebie pożywa i pije, nie bacząc na ciało Pańskie.",
+        "Portugues": "Meus irmãos: Foi com o Senhor que aprendi aquilo que vos ensinei: Que o Senhor Jesus, naquela mesma noite em que foi traído, tomou o pão, e, dando graças, partiu-o e disse: «Tomai e comei: isto é o meu corpo, que será entregue por amor de vós. Fazei isto em minha memória». E, de modo semelhante, após a ceia, tomou também o cálice, dizendo: «Este cálice é a nova aliança no meu sangue. Fazei isto todas as vezes que o beberdes, em minha memória; pois todas as vezes que comerdes este pão e que beberdes este cálice, anunciareis a morte do Senhor, até que Ele venha». Assim, todo aquele que comer o pão ou beber o cálice do Senhor indignamente, será réu do Corpo e do Sangue do Senhor. Examine-se, pois, o homem a si mesmo; e, depois, coma deste pão e beba deste cálice; pois o que come e bebe indignamente, come e bebe a sua própria condenação, não distinguindo o Corpo do Senhor.",
+        "Ukrainian": "Брати: Я бо, що прийняв від Господа, те й передав вам: Господь Ісус тієї ночі, якої був виданий, узяв хліб і, віддавши подяку, розламав і сказав: «Це моє тіло, воно за вас дається. Це робіть на мій спомин.» Так само й чашу по вечері, кажучи: «Ця чаша - Новий Завіт у моїй крові. Робіть це кожний раз, коли будете пити, на мій спомин.» Бо кожного разу, як їсте хліб цей і п’єте цю чашу, звіщаєте смерть Господню, аж доки він не прийде. Тому хто буде їсти хліб або пити чашу Господню недостойно, буде винний за тіло і кров Господню. Хай, отже, кожний випробує себе самого і тоді їсть цей хліб і п’є цю чашу. Бо той, хто їсть і п’є, не розрізняючи Господнього тіла, суд собі їсть і п’є."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale & Alleluia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c2) O(c.d!ewff)cu(gffvED)li(d_c) *(,) ó(cd/ede)mni(cd!evDC'd)um(dc..) (;) in(cf) te(fg) spe(g'hvGF')rant,(gffe~) (,) Dó(fg)mi(g)ne :(gigivvHGhg/j_i//hjii/ghg.) (:) et(f) tu(h/iji) das(i_h) il(iiiv_H~G~)lis(ghgg/efe.) (;) e(ef!gh!ivGF'Ef_g)scam(ghff'fvE'DCdc..) (;) in(cd) tém(fe/f_g)po(gefvEDef)re(e./fgf'/gd//evDCdc..) (;) op(cd)por(fe~)tú(fgf)no.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/eddc.) (::) <sp>V/</sp>. A(g)pe(hgge/f'/gffe/g'/hgge//f'/gff)(,)(d!fffvDC'd!ff//eg!hvFEghG'Fgh)ris(gh) tu(g.) (;) ma(gigivvHGhg/j_i)num(i_h) (,) tu(hjI'HG)am :(gv.d_f!g!hw!ivHF'iv//hig/hhg.) (:) et(ghG'E) im(f!gwh)ples(g'/hg'/hff'f/gddc//dc/ded.) (,) o(cd)mne(c) á(c)ni(c.d!ew!fvED'e)mal(dc..) <clear>*(;) be(cd)ne(fe)di(fgf)cti(ge)ó(fg)ne.(fg!ii//g!iiivGF'fvD'C) (,) (fffdfvEC'dc'/fd/eddc.) (::)",
+      "availableTranslations": {
+        "English": "The eyes of all look hopefully to You, O Lord; and You give them their food in due season. You open Your hand; and satisfy the desire of every living thing. Alleluia, alleluia.  My Flesh is food indeed, and My Blood is drink indeed. He who eats My Flesh, and drinks My Blood, abides in Me and I in him.",
+        "Espanol": "Los ojos de todos en ti esperan, Señor; y tú les das comida en el tiempo conveniente. Abres tu mano, y llenas a todo viviente de bendición. Aleluya, aleluya.  Mi carne es verdadera comida, y mi sangre es verdadera bebida: el que come mi carne y bebe mi sangre, en mi permanece, y yo en él.",
+        "Francais": "Les yeux de tous espèrent en vous, Seigneur, et vous leur donnez leur nourriture en temps opportun. Vous ouvrez votre main, et vous remplissez toute chair de votre bénédiction. Alléluia, alléluia. Ma chair est vraiment une nourriture, et mon Sang est vraiment un breuvage ; celui qui mange ma Chair et boit mon Sang demeure en moi et moi en lui. Alléluia.",
+        "Italiano": "Gli occhi di tutti sperano in Te, o Signore: e Tu concedi loro il cibo a tempo opportuno, Apri la tua mano: e colma ogni essere vivente della tua benedizione,",
+        "Nederlands": "De ogen van allen, o Heer, zien vertrouwvol tot U op. Gij geeft hun spijs ten bekwamen tijde. Gij opent uw hand en overlaadt al wat leeft met zegeningen. Alleluia, alleluia.",
+        "Polski": "Oczy wszystkich w Tobie, Panie, pokładają nadzieję, a Ty im dajesz pokarm we właściwym czasie. Ty otwierasz swą rękę i wszystko, co żyje, życzliwie nasycasz. Alleluja, alleluja. Ciało moje prawdziwe jest pokarmem, a Krew moja prawdziwie jest napojem. Kto pożywa Ciało moje i pije Krew moją, we Mnie mieszka, a ja w nim. Alleluja.",
+        "Portugues": "Todos os olhos, Senhor, estão voltados para Vós, cheios de esperança: Pois dais a cada um, oportunamente, o seu sustento. Abris as vossas mãos e saciais todos os viventes com vossas bênçãos. Aleluia, aleluia. Minha Carne é verdadeira comida; e o meu Sangue é verdadeira bebida. Aquele, pois, que come a minha carne e bebe o meu sangue permanece em mim e Eu nele.",
+        "Ukrainian": "Очі вcіх на тебе надіютьcя, Господи, і ти даєш їм поживу у cвій чаc. Відкриваєш ти руки твої і наcичуєш уcе живе благоволінням. Aлілуя, aлілуя. Тіло моє – їжа правдива, і кров моя – правдивий напій. Хто споживає тіло моє і кров мою п’є, той у мені перебуває, а я – в ньому, aлілуя."
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) AL(d)le(efdeffe)lú(df!hvGFhh){ia}.(e.) *(;) <i>ij.</i>(hvijj/h/ii//efE'Dffe.) (,) (h'/ig'hvF'ED'CB.e.f!gwhhvG'FEffe.) (::) <sp>V/</sp>. Ca(eh)ro(h_gfge) me(fe)a(e.) (,) ve(d)re(efef) est(f) ci(hvGF'ge)bus,(e.) (;) et(ei) san(iv.jkj/!jvIHjh/ij)guis(i) me(ij)us(i.) (,) ve(ij)re(i) est(i) po(j!kwljkvJIjvIHi)tus :(i.) (:) qui(ij) man(i)dú(ij/kljkvJIjvIHi)cat(i.) (;) me(eijvIH'hvGF'E)am(fe) car(de)nem,(e/ffe.) (;) et(e) bi(ehg)bit(hi) me(i./jkj/!jvIH'Ghih)um(i.) (,) sán(hv.fhG'FE'D//fg)gui(fe)nem,(e.) (;) in(d) me(efdeffe) ma(df!hvGFhh)net,(e.) (;) et(h) e(ijj)go(h) *() in(i) e(i)o.(efE'Dffe.) (,) (h'/ig'hvF'ED'CB.e.f!gwhhvG'FEffe.) (::)",
+      "availableTranslations": {
+        "Italiano": "Allelúja, allelúja. La mia carne è veramente cibo, e il mio sangue è veramente bevanda: chi mangia la mia carne e beve il mio sangue, rimane in me e io in lui. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Mijn Vlees is waarlijk spijs en mijn Bloed is waarlijk drank. Wie mijn Vlees eet en mijn Bloed drinkt, blijft in Mij en Ik in hem. Alleluia."
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sequentia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) LAu(c)da(e) Si(f)on(e) Sal(h)va(g)tó(f)rem,(e.) (;) Lau(f)da(g) du(e)cem(c) et(d) pa(c)stó(bc)rem,(e.) (;) In(f) hy(g)mnis(f) et(e) cán(d)ti(e)cis.(e.) (::) \r\n2. Quan(c)tum(e) pot(f)es,(e) tan(h)tum(g) au(f)de :(e.) (;) Qui(f)a(g) ma(e)jor(c) o(d)mni(c) lau(bc)de,(e.) (;) Nec(f) lau(g)dá(f)re(e) súf(d)fi(e)cis.(e.) (::) \r\n3. Lau(g)dis(e) the(f)ma(e) spe(i)ci(h)á(gvFE'f)lis,(g.) (;) Pa(g)nis(f) vi(h)vus(e) et(c) vi(d)tá(c)lis(b.) (;) Hó(f)di(g)e(f) pro(e)pó(d)ni(e)tur.(e.) (::) \r\n4. Quem(g) in(e) sa(f)crae(e) men(i)sa(h) coe(gvFE'f)nae,(g.) (;) Tur(g)bae(f) fra(h)trum(e) du(c)o(d)dé(c)nae(b.) (;) Da(f)tum(g) non(f) am(e)bí(d)gi(e)tur.(e.) (::) \r\n5. Sit(e) laus(i) ple(j)na,(h) sit(i) so(gf)nó(h)ra,(i.) (;) Sit(i) ju(h)cún(g)da,(f) sit(h) de(i)có(i)ra(e.) (;) Men(f)tis(g) ju(f)bi(e)lá(d)ti(e)o.(e.) (::) \r\n6. Di(e)es(d) e(cb)nim(a) sol(e)é(f)mnis(e) á(d)gi(e)tur,(e.) (;) In(e) qua(d) men(cb)sae(a) pri(e)ma(f) re(e)có(d)li(e)tur(e.) (;) Hu(h)jus(g) in(f)sti(e)tú(d)ti(e)o.(e.) (::) \r\n7. In(e) hac(i) men(j)sa(h) no(i)vi(gf) Re(h)gis,(i.) (;) No(i)vum(h) Pa(g)scha(f) no(h)vae(i) le(i)gis,(e.) (;) Pha(f)se(g) ve(f)tus(e) tér(d)mi(e)nat.(e.) (::) \r\n8. Ve(e)tu(d)stá(cb)tem(a) nó(ef)vi(d)tas,(e.) (;) Um(e)bram(d) fu(cb)gat(a) vé(ef)ri(d)tas,(e.) (;) No(h)ctem(g) lux(f) e(e)lí(d)mi(e)nat.(e.) (::) \r\n9. Quod(i) in(h) coe(i)na(ij) Chri(l)stus(k) ges(j)sit,(i.) (;) Fa(l)ci(k)én(j)dum(h) hoc(i) ex(j)prés(i)sit(e.) (;) In(f) su(g)i(f) me(e)mó(d)ri(e)am.(e.) (::) \r\n10. Do(i)cti(h) sa(i)cris(ij) in(l)sti(k)tú(j)tis,(i.) (;) Pa(l)nem,(k) vi(j)num(h) in(i) sa(j)lú(i)tis(e.) (;) Con(f)se(g)crá(f)mus(e) hó(d)sti(e)am.(e.) (::) \r\n11. Do(i)gma(h) da(i)tur(h) chri(k)sti(j)á(i)nis,(h.) (;) Quod(h) in(i) car(k)nem(j) trans(i)it(h) pa(i)nis,(i.) (;) Et(i) vi(g)num(h) in(fe) sán(d)gui(e)nem.(e.) (::) \r\n12. Quod(i) non(h) ca(i)pis,(h) quod(k) non(j) vi(i)des,(h.) (;) A(h)ni(i)mó(k)sa(j) fir(i)mat(h) fi(i)des,(i.) (;) Prae(i)ter(g) re(h)rum(fe) ór(d)di(e)nem.(e.) (::) \r\n13. Sub(i) di(h)vér(gh)sis(fe) spe(g)ci(h)é(ij)bus,(i.) (;) Si(h)gnis(i) tan(k)tum,(j) et(i) non(h) re(g)bus,(f.) (;) La(h)tent(i) res(e) ex(f)í(g)mi(f)ae.(e.) (::) \r\n14. Ca(i)ro(h) ci(gh)bus,(fe) san(g)guis(h) po(ij)tus :(i.) (;) Ma(h)net(i) ta(k)men(j) Chri(i)stus(h) to(g)tus(f.) (;) Sub(h) u(i)trá(e)que(f) spé(g)ci(f)e.(e.) (::) \r\n15. A(i) su(ij)mén(l)te(i) non(l) con(k)cí(j)sus,(i.) (;) Non(j) con(k)frá(l)ctus,(k) non(j) di(i)ví(i)sus :(g.) (;) In(i)te(g)ger(h) ac(fe)cí(d)pi(e)tur.(e.) (::) \r\n16. Su(i)mit(ij) u(l)nus,(i) su(l)munt(k) mil(j)le :(i.) (;) Quan(j)tum(k) i(l)sti,(k) tan(j)tum(i) il(i)le :(g.) (;) Nec(i) sum(g)ptus(h) con(fe)sú(d)mi(e)tur.(e.) (::) \r\n17. Su(e)munt(i) bo(i)ni,(h) su(i)munt(k) ma(jvIH)li :(i.) (;) Sor(i)te(j) ta(h)men(f) in(h)ae(i)quá(h)li,(g.) (;) Vi(e)tae(f) vel(e) in(f)té(d)ri(e)tus.(e.) (::) \r\n18. Mors(e) est(i) ma(i)lis,(h) vi(i)ta(k) bo(jvIH)nis :(i.) (;) Vi(i)de(j) pa(h)ris(f) sum(h)pti(i)ó(h)nis(g.) (;) Quam(e) sit(f) dis(e)par(f) éx(d)i(e)tus.(e.) (::) \r\n19. Fra(h)cto(g) de(f)mum(e) sa(f)cra(d)mén(e)to,(e.) (;) Ne(e) va(g)cíl(i)les,(i) sed(j) me(h)mén(i)to(i.) (;) Tan(i)tum(i) es(j)se(h) sub(i) frag(j)mén(i)to,(g.) (;) Quan(i)tum(g) to(h)to(fe) té(d)gi(e)tur.(e.) (::) \r\n20. Nul(h)la(g) re(f)i(e) fit(f) scis(d)sú(e)ra :(e.) (;) Si(e)gni(g) tan(i)tum(i) fit(j) fra(h)ctú(i)ra,(i.) (;) Qua(i) nec(i) sta(j)tus,(h) nec(i) sta(j)tú(i)ra(g.) (;) Si(i)gná(g)ti(h) mi(fe)nú(d)i(e)tur.(e.) (::) \r\n21. <sc>Ec</sc>(i)<sc>ce</sc>(h) <sc>Pa</sc>(i)<sc>nis</sc>(g) <sc>An</sc>(h)<sc>ge</sc>(f)<sc>ló</sc>(d)<sc>rum</sc>,(e.) (;) Fa(e)ctus(g) ci(i)bus(i) vi(j)a(h)tó(i)rum :(i.) (;) Ve(j)re(k) pa(l)nis(k) fi(ji)li(h)ó(i)rum,(i.) (;) Non(i) mit(g)tén(h)dus(fe) cá(d)ni(e)bus.(e.) (::) \r\n22. In(i) fi(h)gú(i)ris(g) prae(h)si(f)gná(d)tur,(e.) (;) Cum(e) I(g)sa(i)ac(i) im(j)mo(h)lá(i)tur,(i.) (;) A(j)gnus(k) Pa(l)schae(k) de(ji)pu(h)tá(i)tur,(i.) (;) Da(i)tur(g) man(h)na(fe) pá(d)tri(e)bus.(e.) (::) \r\n23. Bo(e)ne(e) pa(f)stor,(e) pa(g)nis(h) ve(ij)re,(i.) (;) Je(j)su,(k) no(j)stri(i) mi(j)se(gf)ré(h)re :(i.) (;) Tu(e) nos(g) pa(i)sce,(i) nos(j) tu(h)é(i)re,(i.) (;) Tu(i) nos(j) bo(h)na(f) fac(h) vi(g)dé(f)re(e.) (;) In(d) ter(f)ra(hi) vi(e)vén(f)ti(e)um.(e.) (::) \r\n24. Tu(e) qui(e) cun(f)cta(e) scis(g) et(h) va(ij)les,(i.) (;) Qui(j) nos(k) pa(j)scis(i) hic(j) mor(gf)tá(h)les :(i.) (;) Tu(e)os(g) i(i)bi(i) com(j)men(h)sá(i)les,(i.) (;) Co(i)he(j)ré(h)des(f) et(h) so(g)dá(f)les(e.) (;) Fac(d) san(f)ctó(hi)rum(e) cí(f)vi(e)um.(e.) (::) \r\nA(efe)men.(de..) (,) <v>(</v>Al(f)le(d)lú(fe~){ia}.(e.) (::) <i>at Mass only.</i><v>)</v>()",
+      "availableTranslations": {
+        "English": "O Sion, thy Redeemer praising, Songs of joy to Him upraising, Laud thy Pastor and thy Guide: Swell thy notes most high and daring; For His praise is past declaring, And thy loftiest powers beside. ‘Tis a theme with praise that gloweth, For the bread that life bestoweth Goes this day before us out; Which, His holy supper taking, To the brethren twelve His breaking None hath ever called in doubt. Full, then, be our praise and sounding, Modest and with joy abounding Be our mind’s triumphant state; For the festal’s prosecution, When the first blest institution Of this feast we celebrate. In the new King’s new libation, In the new law’s new oblation, Ends the ancient Paschal rite; Ancient forms new substance chaseth, Typic shadows truth displaceth, Day dispels the gloom of night. When He did at supper seated, Christ enjoined to be repeated, When His love we celebrate: Thus obeying His dictation, Blood and wine of our salvation, We the victim consecrate. ‘Tis for Christian faith asserted, Bread is into flesh converted, Into blood the holy wine: Sight and intellect transcending, Nature’s laws to marvel bending, ‘Tis confirmed by faith divine. Under either kind remaining, Form, not substance, still retaining, Wondrous things our spirit sees: Flesh and blood thy palate staining, Yet still Christ entire remaining, Under either species. All untorn for eating given, Undivided and unriven, Whole He’s taken and unrent; Be there one, or crowds surrounding, He is equally abounding, Nor, though eaten, ever spent. Both to good and bad ‘tis broken, But on each a different token or of life, or death attends: Life to good, to bad damnation; Lo, of one same manducation How dissimilar the ends. When the priest the victim breaketh, See thy faith in no wise shaketh, Know that every fragment taketh All that ‘neath the whole there lies: This in Him no fracture maketh, ‘Tis the figure only breaketh, Form, or state, no change there taketh Place in what it signifies. Bread, that angels eat in heaven, Now becomes the pilgrim’s leaven, Bread in truth to children given, That must ne’er to dogs be thrown. He, in ancient types disguised, Was the Isaac sacrificed, For the feast a lamb devised, Manna to the Fathers shown. Bread, whose shepherd-care doth tend us, Jesu Christ, Thy mercy send us, Do Thou feed us, Thou defend us, Lead us where true joys attend us, In the land where life is given: Thou all ken and might possessing, Mercies aye to us largessing, Make us share Thy cup of blessing, Heritage and love’s caressing With the denizens of heaven.  Amen. Alleluia.",
+        "Espanol": "Alaba, alma mía, a tu Salvador; alaba a tu guía y pastor con himnos y cánticos. Pregona su gloria cuanto puedas, porque él está sobre toda alabanza, y jamás podrás alabarle lo bastante. El tema especial de nuestros loores es hoy el pan vivo  y que da vida. El cual se dio en la mesa de la sagrada cena al grupo de los doce apóstoles sin género de duda. Sea, pues, llena, sea sonora, sea alegre, sea pura la alabanza de nuestra alma. Pues celebramos el solemne día en que fue instituido este divino banquete. En esta mesa del nuevo rey, la pascua nueva de la nueva ley pone fin a la pascua antigua. Lo viejo cede ante lo nuevo, la sombra ante la realidad, y la luz ahuyenta la noche. Lo que Jesucristo hizo en la cena, mandó que se haga  en memoria suya. Instruidos con sus santos mandatos,  consagramos el pan y el vino, en sacrificio de salvación. Es dogma que se da a los cristianos, que el pan se convierte en carne, y el vino en sangre. Lo que no comprendes y no ves, una fe viva lo atestigua, fuera de todo el orden de la naturaleza. Bajo diversas especies, que son accidente y no substancia, están ocultos los dones más preciados. Su carne es alimento y su sangre bebida; mas Cristo está todo entero bajo cada especie. Quien lo recibe no lo rompe, no lo quebranta ni lo desmiembra;  se recibe todo entero. Recíbelo uno, lo reciben mil; y aquél le toma tanto como éstos, pues no se consume al ser tomado. Lo reciben buenos y malos; más con suerte desigual de vida o de muerte. Es muerte para los malos  y vida para los buenos; mira cómo un mismo alimento produce efectos tan diversos. Cuando se divida el Sacramento, no vaciles, sino recuerda que Jesucristo  tan entero está en cada parte  como antes en el todo. No se parte la sustancia,  se rompe sólo la señal;  ni el ser ni el tamaño  se reducen de Cristo presente. He aquí el pan de los ángeles,  hecho viático nuestro; verdadero pan de los hijos, no lo echemos a los perros. Figuras lo representaron: Isaac fue sacrificado; el cordero pascual, inmolado; el maná nutrió a nuestros padres. Buen pastor, pan verdadero, ¡oh Jesús!, ten piedad. Apaciéntanos y protégenos; haz que veamos los bienes en la tierra de los vivientes. Tú, que todo lo sabes y puedes, que nos apacientas aquí siendo aún mortales, haznos tus comensales, coherederos y compañeros de los santos ciudadanos. Amén. Aleluya.",
+        "Francais": "Sion, acclame ton Sauveur, Loue ton chef et ton Pasteur, Par des hymnes et des cantiques. Ose autant que tu peux, Car Il est au-dessus de toute louange, Et tu ne saurais suffire à Le louer. Ce qu'il nous est proposé de célébrer En ce jour, c'est le Pain vivant, Le Pain qui donne la vie. Le même, en toute vérité, Qu'au repas sacré de la Cène Ont reçu les douze Apôtres. Que notre louange soit parfaite et résonne ; Qu'il soit ardent, qu'il soit splendide, Le chant de nos esprits ! Nous rappelons en cette grande fête Le jour auguste où fut institué Le repas eucharistique. À ce banquet du nouveau Roi, La nouvelle Pâque de la loi nouvelle  Met fin à la Pâque ancienne. L'ancien fait place au nouveau, L'ombre est mise en fuite par la réalité, Et le jour a éliminé la nuit. Ce que le Christ fit à la Cène, Il ordonna qu'on le refasse  En se souvenant de Lui. Instruits par ces saintes leçons, Nous consacrons le pain et le vin En sacrifice sauveur. C'est un dogme pour les chrétiens : Le pain devient vraiment sa Chair Et le vin vraiment son Sang. Ce que tu ne comprends ni ne vois, La foi vive, elle, l'affirme, En dépassant l'ordre naturel. Sous deux apparences différentes, Signes et non réalités, Se cachent des choses merveilleuses. La chair est nourriture, le Sang est breuvage, Cependant le Christ est là tout entier Sous l'une et l'autre espèce. Il est reçu tout entier Ni scindé, ni brisé, ni divisé, Par celui qui le prend. Qu'un seul ou que mille le prennent, Autant eux, autant Lui ; Et Il n'est point détruit quand il est pris. Bons et méchants, tous le reçoivent, Mais pour un sort bien différent : Pour la vie ou pour la mort. Mort pour les méchants et vie pour les bons, Vois combien le même aliment Produit des effets dissemblables. Lors donc qu'on divise l'Hostie, Ne te trouble pas, mais souviens-toi Qu'en vérité chaque fragment Contient autant que le tout. La réalité n'est pas déchirée, Le signe seul est brisé ; Du Christ présent rien n'est réduit, Ni l'être ni la grandeur. Voici vraiment le Pain des anges, Qui se fait notre Pain de route ; En vérité, Pain des fils, Qu'il ne faut point jeter aux chiens. Des figures l'ont annoncé Quand Isaac est sacrifié, Quand l'Agneau pascal est immmolé, Quand la manne nourrit nos pères. Ô bon Pasteur, Pain véritable, Jésus, ayez pitié de nous : Nourrissez-nous, protégez-nous,  Faites-nous voir les biens Dans la terre des vivants. Vous qui savez et pouvez tout, Qui nous nourrissez ici-bas, pauvres mortels, Faites-nous un jour les convives, Les cohéritiers et les compagnons Des citoyens du Ciel. Amen. Allelúja.",
+        "Italiano": "Loda, o Sion, il Salvatore,  loda il capo e il pastore,  con inni e càntici. Quanto puoi, tanto inneggia:  ché è superiore a ogni lode,  né basta il lodarlo. Il pane vivo e vitale  è il tema di lode speciale,  che oggi si propone. Che nella mensa della sacra cena,  fu distribuito ai dodici fratelli,  è indubbio. Sia lode piena, sia sonora,  sia giocondo e degno  il giúbilo della mente. Poiché si celebra il giorno solenne,  in cui in primis fu istituito  questo banchetto. In questa mensa del nuovo Re,  la nuova Pasqua della nuova legge  estingue l’antica. Il nuovo rito allontana l’antico,  la verità l’ombra,  la luce elímina la notte. Ciò che Cristo fece nella cena,  ordinò che venisse fatto  in memoria di sé. Istruiti dalle sacre leggi,  consacriamo nell’ostia di salvezza  il pane e il vino. Ai Cristiani è dato il dogma:  che il pane si muta in carne,  e il vino in sangue. Ciò che non capisci, ciò che non vedi,  lo afferma pronta la fede,  oltre l’ordine naturale. Sotto specie diverse,  che son solo segni e non sostanze,  si celano realtà sublimi. La carne è cibo, il sangue bevanda,  ma Cristo è intero  sotto l’una e l’altra specie. Da chi lo assume, non viene tagliato,  spezzato, diviso:  ma preso integralmente. Lo assuma uno, lo assumino in mille:  quanto riceve l’uno tanto gli altri:  né una volta ricevuto viene consumato. Lo assumono i buoni e i cattivi:  ma con diversa sorte  di vita e di morte. Pei cattivi è morte, pei buoni vita:  oh che diverso ésito  ha una stessa assunzione. Spezzato poi il Sacramento,  non temere, ma ricorda  che tanto è nel frammento  quanto nel tutto. Non v’è alcuna separazione:  solo un’apparente frattura,  né vengono diminuiti stato  e grandezza del simboleggiato. Ecco il pane degli Angeli,  fatto cibo dei viandanti:  in vero il pane dei figli  non è da gettare ai cani. Prefigurato  con l’immolazione di Isacco,  col sacrificio dell’Agnello Pasquale,  e con la manna donata ai padri. Buon pastore, pane vero,  o Gesú, abbi pietà di noi:  Tu ci pasci, ci difendi:  fai a noi vedere il bene  nella terra dei viventi. Tu che tutto sai e tutto puoi:  che ci pasci, qui, mortali:  fa che siamo tuoi commensali,  coeredi e compagni dei santi del cielo.  Amen. Allelúia.",
+        "Nederlands": "Prijs, o Sion, uw Verlosser.  Prijs uw Leider en uw Herder  in uw lied en lofzang. Waag u tot de grens van uw vermogen,  want boven iedere lof staat Hij.  Uw lof zal nooit zijn grootheid naderen. Bijzonder stof voor onze lofzang  biedt vandaag het levend Brood,  dat leven geeft. Dat toch - niemand durft hier te twijfelen -  was voor de twaalf broeders  de gave bij het heilig gastmaal. Laat ons loflied rijk zijn, hooggestemd,  de juichtoon onzer zielen  zij welluidend en vol schone klank. Want een hoogtij vieren wij.  Vandaag gedenken wij  de eerste viering van dit maal. In deze maaltijd bij de nieuwe Koning  moet het oude Paaslam wijken  voor het nieuwe Pascha van de nieuwe wet. Het nieuwe dringt het oude weg.  De waarheid doet het beeld verdwijnen.  Het licht breekt door de nacht. Wat Christus deed in het Avondmaal,  wil Hij van ons  tot zijn gedachtenis. Zoals de heilige Wet ons leert,  wijden wij het brood, de wijn  tot offer voor ons heil. Een dogma geldt het iedere christen,  dat het brood in Vlees verandert  en de wijn in Bloed. Wat gij niet weet, niet ziet,  prent in uw ziel het vast geloof,  dat verder reikt dan de natuur. In twee gedaanten, tekens slechts,  maar niet het wezen, vindt het Hoogste  hier zijn schuilplaats. Het Vlees is spijs,  het Bloed een drank.  In beide woont toch Christus onverdeeld. Die nuttigt schendt Hem niet,  zal Hem niet breken, noch verdelen,  maar gaaf ontvangt men Hem. Nuttigt één of komen duizend,  de laatste vindt Hem als de eerste,  en nuttiging verteert Hem niet. Goeden eten, ook de bozen.  Hoe diep verschil bergt hun die gave,  het leven of de ondergang. Dood voor bozen,  voor goeden leven.  Zie, hoe groot verschil in éne spijs. Ook al wordt dit brood gebroken,  wankel niet, maar houdt voor ogen,  hoe ieder deel omsloten houdt  niet minder dan het onverdeelde. Niet het wezen wordt gespleten,  slechts een teken wordt gebroken.  Op wie het duidt blijft ongeschonden  in wezen en in majesteit. Zie, dit is het Brood der engelen,  spijs geworden van de zwerver,  waarachtig brood, slechts voor de kinderen,  houdt dan de honden op een afstand. Beelden waren zijn herauten:  Isaäc was 't in zijn offer,  het paaslam duidde op deze maaltijd,  het manna als de spijs der vaderen. Goede Herder, ware spijze,  Jezu, wil U toch erbarmen.  Wil ons weiden, ons beschermen.  Spreid het goede ons voor ogen  in het land van hen die leven. Gij weet alles en beheerst het.  Verkwik ons hier in onze boosheid, maar laat ons daar weer bij U thuis zijn,  de erfenis delen en het gezelschap van hen,  die wonen in uw rijk.  Amen. Alleluia.",
+        "Polski": "Zbawiciela chwal, Syjonie, W hymnów i kantyków tonie, Wodza i pasterza. Z całej duszy chwal Go śmiało, Gdyż przewyższa wszystko chwałą I co pieśń zamierza. Przedmiot chwały dziś przedziwny, Chleb żyjący i pożywny Będzie opiewany, Co przy świętej uczty stole Był w dwunastu uczniów kole Najprawdziwiej dany. Niech pieśń jasna i donośna, Pełna wdzięku i radosna Cieszy nas pospołu, Gdyż obchodzim dzień świąteczny, By w pamięci ważyć wieczny Prawzór tego stołu. Ucztą tą Król nowy dawa Nowej Paschy nowe prawa I dawna ustała. Przed nowością przeszłość znika, Cień od prawdy precz umyka, Światłość noc wygnała. Co Pan czynił przy wieczerzy, Rzekł, że czynić nam należy Dla Jego wspomnienia. Pouczani tą godziną, Przemieniamy chleb i wino W ofiarę zbawienia. Jest pewności naszej skała, Że się chleb przemienia w Ciało, Wino Krwią się staje, Chociaż myśl i wzrok nie pojmie, Wiara naszych dusz rękojmią, Wbrew jawie nam daje. Pod różnymi postaciami, Zewnętrznymi pozorami, Skryty cud ogromny. Ciało strawą, Krew napojem, Lecz Pan cały z bóstwem swoim, W obu jest przytomny. Przez biorących nie kruszony, Nie łamany, nie dzielony, Cały w nich się mieści. Bierze jeden, tysiąc bierze, Ten i ów w jednakiej mierze, Nic nie ginie z treści. Biorą dobrzy i grzeszniki, Lecz nierówne są wyniki, Życie lub zagłada. Dla złych śmierć, dla dobrych życie; Choć jednakie jest spożycie, Jak różny los pada. Hostii świętej okruszyna Niech ci wiernie przypomina, Że to samo odrobina, Co całość ukrywa. Nic nie dzieli się w przedmiocie, Tylko znak się kruszy w krocie, Lecz nie w stanie i istocie Pana nie ubywa. Oto boski chleb aniołów, Dla pielgrzymów wśród padołów, Dla synowskich jeno stołów; Psom nie rzucać chleba. Stare mieści go przymierze: Izaak dany w ofierze, Jagnię – na paschy wieczerzę, Manna – ojcom z nieba. O pasterzu, chlebie żywy, Jezu, bądź nam litościwy, Nakarm nas i nie gub mściwy, Daj nam ujrzeć błogie dziwy W żyjących krainie. Znawco naszych dusz tajników, Co nas żywisz, śmiertelników, Uczyń nas współbiesiadników, Współdziedziców i wspólników W wybranych rodzinie. Amen. Alleluja.",
+        "Portugues": "Louva, ó Sião, louva o teu Salvador! Louva com hinos e cânticos O teu Principe e Pastor! Louva-O tanto quanto possas: Nem tu podes louvá-l’O dignamente, Pois está acima de todos os louvores. O tema dos teus louvores, O Pão vivo e vital É nos oferecido hoje. O qual, na ceia Ao grupo dos Doze Irmãos Foi dado sem dúvida. Que o louvor seja perene, sonoro e melodioso: Que seja agradável e belo, Como a alegria que transporta as nossas almas! Eis o dia solene, Que nos recorda a primitiva instituição Deste Banquete divino. Nesta mesa do novo Rei A Páscoa da nova Lei Acaba com a páscoa antiga. O rito antigo cede o lugar ao novo, Como a imagem desaparece diante da realidade, E a luz apaga a noite. Aquilo que Cristo praticou na Ceia, Mandou que fizéssemos, Também, em sua memória. E nós, instruídos pelo mandato divino, Consagrámos o pão E o vinho em hóstia de salvação. É um dogma de fé para os cristãos Que o pão passa para Carne de Cristo E o vinho para seu Sangue. Aquilo que não compreendeis, nem vedes, A fé viva o afirma Sem alterar a ordem da natureza. Debaixo de diversas espécies, Distintas somente por sinais exteriores, Ocultam-se sublimes realidades. A Carne é alimento, o Sangue bebida; Mas Cristo existe inteiro Em cada espécie. Quem O recebe, nem O parte, Nem O corta, nem O divide; Porém recebe-O inteiro. Quem O receba uma só pessoa, quer O recebam mil, Todas recebem o mesmo: Recebem-n’O sem O consumirem. Recebem-n’O bons e maus; Porém com efeitos diferentes: Uns encontram vida; outros a morte! Para os maus é morte e para os bons é vida. Vede que diferentes são Os efeitos que produz o mesmo alimento! Que a vossa fé não vacile quando a hóstia é dividida; Mas lembrai-vos de que Jesus Tanto está no fragmento, Como na hóstia inteira. A substância não é dividida: Somente o sinal é que é partido, Mas sem diminuição, nem no estado, Nem na grandeza do que está sob as espécies. Eis o Pão dos Anjos Que se fez alimento dos homens viadores, Verdadeiro pão dos inocentes, Que não deve ser dado aos cães! Antigamente foi representado por figuras: Imolado com Isaque E significado no cordeiro pascal E no maná do deserto. Ó bom Pastor, ó Pão verdadeiro, Ó Jesus, tende piedade de nós: Alimentai-nos, defendei-nos do mal Permiti que gozemos os verdadeiros Bens da terra dos vivos. Ó Vós, que tudo conheceis e podeis: Ó Vós, que nos alimentais nesta vida mortal, Tornai-nos co-herdeiros Companheiros dos habitantes Da cidade celestial. Amen. Alleluia.",
+        "Ukrainian": "Слав Спасителя, Сіоне! Співом гімнів і поклоном Пастирю хвалу воздай! Хоч понад усе хваління вищий Він, ти поклоніння з сил усіх Йому складай. Ось причина достохвальна: хліб живий і життєдайний нині подається нам. Сам Господь цей дар преславний за столом в вечері тайній дав дванадцятьом братам. Тож хай радість буде повна, осяйна і дзвінкомовна, щоби чула вся земля! День святкуймо урочистий: в нім бо трапеза ця чиста установлена була. Це на ній доби старої Цар наш Пасхою новою Ветхий довершив Завіт. Тінь від істини втікає, світло темну ніч зміняє, вже старий минає світ. Що звершив ретельно Вчитель, на свій спомин це чинити учням твердо заповів. За Христовим наставлінням хліб, вино ми на спасіння несемо до вівтарів. Вчення істинне розважмо: вже не хліб з вином, а справжні Тіло й Кров даються нам. Віра ствердить це натхненна, бо уму це незбагненно і невидимо очам. Ці два види – вже лиш знаки, чудо в видах цих двояких незглибиме відбулось: Плоть – це їжа, кров – це напій, і у кожнім із цих знаків міститься увесь Христос. Хоч спожитий, неподільним, не поламаним і цільним Він лишається без змін. Безлік чи один приймає, кожен порівну вживає – та все ж невичерпний Він. Споживають Його праві, споживають і лукаві, та несхожий жереб в них. Глянь – одне і те ж приймають, наслідок же різний мають: рай – для добрих, смерть – для злих. Той, хто хліб оцей ламає, хай несхитно пам’ятає: кожна частка уміщає стільки ж, що і повнота. Тільки знак тут розділився, вміст його ж не умалився, а незмінним залишився, – віра мовить нам тверда. Ось хліб Ангелів правдивий, для паломників пожива, даний дітям милостиво, не призначений він псам. У прообразах нам даний: в Ісааковім закланні, в агнці жертвеннім пасхальнім, в манні, посланій отцям. Пастир добрий, хлібе правий, Христе, будь до нас ласкавий! Нас провадь у кожній справі, а в кінці блаженством слави обдаруй в землі живих. Ти, благий і необ’ятий, зволь нас, смертних, випасати, спадкоємцями назвати і на трапезі зібрати поміж сонмами Святих. Амінь. Алілуя"
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus turbis Judæórum: Caro mea vere est cibus et sanguis meus vere est potus. Qui mandúcat meam carnem et bibit meum sánguinem, in me manet et ego in illo. Sicut misit me vivens Pater, et ego vivo propter Patrem: et qui mandúcat me, et ipse vivet propter me. Hic est panis, qui de cœlo descéndit. Non sicut manducavérunt patres vestri manna, et mórtui sunt. Qui mandúcat hunc panem, vivet in ætérnum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus said to the crowds of the Jews: My Flesh is food indeed, and My Blood is drink indeed. He who eats My Flesh, and drinks My Blood, abides in Me and I in him. As the living Father has sent Me, and as I live because of the Father, so he who eats Me, he also shall live because of Me. This is the Bread that has come down from heaven; not as your fathers ate the manna, and died. He who eats this Bread shall live forever.",
+        "Bohemice": "Za onoho času řekl Ježíš zástupům Židů: „Mé tělo je skutečný pokrm a má krev je skutečný nápoj. Kdo jí mé tělo a pije mou krev, zůstává ve mně a já v něm. Jako mne poslal živý Otec a já žiji z Otce, tak i ten, kdo jí mne, bude žít ze mne. To je ten chléb, který sestoupil z nebe; ne takový, jaký jedli otcové a umřeli. Kdo jí tento chléb, bude žít navěky.“",
+        "Espanol": "En aquel tiempo: Dijo Jesús a las turbas de los judíos: Mi carne verdaderamente es comida, y mi sangre, verdaderamente bebida, quien come mi carne y bebe mi sangre, en mi mora y yo en él. Así como vive el Padre que me envió, y yo vivo por el  Padre; así, el que me come, también vivirá por mí. Éste es el pan que ha bajado del celo, No sucederá como a nuestros padres, que comieron el maná, y murieron. Quien coma este pan, vivirá eternamente.",
+        "Francais": "En ce temps-là, Jésus dit à la foule des Juifs : « Celui qui mange ma chair et boit mon sang, demeure en moi, et moi en lui. Comme le Père qui est vivant m'a envoyé, et que je vis par le Père, ainsi celui qui me mange vivra aussi par moi. C'est là le pain qui est descendu du ciel : il n'en est point comme de vos pères qui ont mangé la manne et qui sont morts ; celui qui mange de ce pain vivra éternellement. »",
+        "Italiano": "In quel tempo: Gesú disse alle turbe dei Giudei: La mia carne è veramente cibo, e il mio sangue è veramente bevanda. Chi mangia la mia carne e beve il mio sangue, vive in me e io in lui. Come è vivo il Padre che mi ha mandato, e io vivo del Padre, cosí chi mangia la mia carne vive di me. Questo è il pane che discende dal cielo. Non come i vostri padri che mangiarono la manna e sono morti. Chi mangia questo pane vivrà in eterno.",
+        "Magyar": "Aki eszi az én testemet és issza az én véremet, az bennem marad, én meg benne.  Engem az élő Atya küldött, s általa élek. Így az is élni fog általam, aki engem eszik.  Ez a mennyből alászállott kenyér nem olyan, mint az, amelyet atyáitok ettek és meghaltak. Aki ezt a kenyeret eszi, az örökké él.”  Ezeket mondta, amikor Kafarnaumban, a zsinagógában tanított.",
+        "Nederlands": "In die tijd sprak Jezus tot de scharen der Joden: Mijn Vlees is waarlijk spijs en mijn Bloed is waarlijk drank. Wie mijn Vlees eet en mijn Bloed drinkt, blijft in Mij en Ik in hem. Zoals de Vader, die leeft, Mij heeft gezonden en Ik leef door de Vader, zo zal ook hij, die Mij eet, leven door Mij. Dit is het brood, dat uit de hemel is neergedaald. Niet zoals uw vaderen het manna hebben gegeten en gestorven zijn. Wie dit brood eet, zal leven in eeuwigheid.",
+        "Polski": "Onego czasu: Rzekł Jezus rzeszom żydowskim: «Ciało moje prawdziwie jest pokarmem, a krew moja prawdziwie jest napojem. Kto pożywa moje ciało i pije moją krew, we mnie mieszka, a ja w nim. Jako mię posłał żyjący Ojciec – i ja żyję dla Ojca, a kto pożywa mnie, i on żyć będzie dla mnie. To jest chleb, który zstąpił z nieba. Nie jako ojcowie wasi spożywali mannę i pomarli. Kto pożywa tego chleba, żyć będzie na wieki».",
+        "Portugues": "Naquele tempo, disse Jesus aos judeus: «Minha Carne é verdadeira comida e o meu Sangue é verdadeira bebida. Quem come a minha Carne e bebe o meu Sangue permanece em mim e Eu nele. Assim como meu Pai, que é fonte de vida e me mandou, e Eu vivo de meu Pai, assim também aquele que me comer viverá de mim. Este é o pão que desceu do céu. Porém não é como o maná, que os vossos pais comeram havendo morrido mais tarde. Quem comer este pão viverá eternamente».",
+        "Ukrainian": "Tого часу Сказав Ісус натовпу Юдеїв: «Тіло моє – їжа правдива, і кров моя – правдивий напій. Хто споживає тіло моє і кров мою п’є, той у мені перебуває, а я – в ньому. Як мене Отець живий послав, і я Отцем живу, так і той хто споживає мене, жи тиме мною. Це й хліб, що зійшов з неба. Не як ото манну їли батьки ваші, а померли: хто цей хліб споживатиме, той повіки житиме.»"
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) SA(f)cer(d!ewf)dó(f)tes(e'fg) *() Dó(ixghf___//ih/igh)mi(e)ni(egf/gffe.) (;) in(f)cén(fgf)sum(ff) et(df~) pa(fff/ghggef)nes(e_d) (,) óf(gh)fe(g/jjj)runt(hjhhg) De(gh)o :(hg..) (:) et(ixgih'ivGF') íd(g)e(f)o(f_e) (,) san(ef'g~)cti(g) e(ixhig)runt(ghF'E) (;) De(gh)o(gjh) su(ghf/ghg)o,(gvFD//ef/gfgd.) (:) et(df/gef) non(f) pól(ixef/hiHG')lu(hggfg)ent(g_d) (,) no(df/gef)men(f) e(f_g_f_)jus,(f.) (;) al(f!gwhg~)le(ixh_f/ih/igh)lú(e){ia}.(egf/gffe.) (::)",
+      "availableTranslations": {
+        "English": "The priests of the Lord offer incense and loaves to God, and therefore they shall be sacred to their God and shall not profane His name. Alleluia.",
+        "Espanol": "Los sacerdotes del Señor ofrecen a Dios incienso y panes; por tanto, serán santos para su Dios, y no profanarán su nombre. Aleluya.",
+        "Francais": "Les prêtres du Seigneur offrent l'encens et le pain à Dieu ; et c'est pourquoi ils seront saints pour leur Dieu, et ils ne profaneront point son Nom, alléluia.",
+        "Italiano": "I sacerdoti del Signore offrono incenso e pane a Dio: perciò saranno santi per il loro Dio e non profaneranno il suo nome, allelúia.",
+        "Nederlands": "De priesters van de Heer offeren wierook en brood en daarom moeten zij heilig zijn voor hun God, en zijn Naam niet onteren, alleluia.",
+        "Polski": "Kapłani Pańscy kadzenie i chleb składają Bogu w ofierze, przeto świętymi być powinni wobec Boga swego, by nie zhańbili Jego Imienia, alleluja.",
+        "Portugues": "Os sacerdotes do Senhor oferecem a Deus incenso e pães: eis porque serão santos diante de Deus e não profanarão o seu nome, aleluia.",
+        "Ukrainian": "Священики Господні ладан і хліб принесуть Богові, тож і мусять бути святими перед Богом своїм і не плюгавити імени Його, алілуя."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Ecclésiæ tuæ, quǽsumus, Dómine, unitátis et pacis propítius dona concéde: quæ sub oblátis munéribus mýstice designántur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Graciously give Your Church, we beseech You, O Lord, the gifts of unity and peace which are betokened by the gifts we offer.",
+        "Espanol": "Te pedimos, Señor, concedas propicio a tu Iglesia los dones de la unidad y de la paz, místicamente representados por los presentes que te ofrecemos.",
+        "Francais": "À votre Église, Seigneur, accordez avec bienveillance l'unité et la paix, que symbolisent les offrandes que nous vous présentons.",
+        "Italiano": "O Signore, Te ne preghiamo, concedi propizio alla tua Chiesa i doni dell’unità e della pace, che misticamente son figurati dalle oblazioni presentate.",
+        "Nederlands": "Wij vragen U, Heer, schenk uw Kerk genadig de gaven van eenheid en vrede, die door deze offergaven op geheimzinnige wijze worden betekend.",
+        "Polski": "Prosimy Ciebie, Panie, użycz łaskawie Kościołowi Twemu darów jedności i pokoju, które mistycznie wyraża ofiara przez nas składana.",
+        "Portugues": "Senhor, Vos imploramos, dignai-Vos conceder à vossa Igreja os dons da unidade e da paz, que misticamente se figuram nas ofertas que Vos apresentamos.",
+        "Ukrainian": "Господи, уділи милостиво своїй Церкві дари єдності й миру, містичним знаком котрих є принесені дари."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) QUo(e)ti(ei)es(i)cúm(i)que(e.) *(,) man(i)du(h)cá(kjki)bi(i)tis(i) pa(ij)nem(i) hunc,(i.) (,) et(h) cá(hi'j)li(j)cem(ji~) bi(hj)bé(ih)tis,(h.) (;) mor(hg)tem(f) Dó(hhi)mi(h)ni(h) an(h)nun(g)ti(h)á(i)bi(h)tis,(h.) (;) do(i!jwkj)nec(iji) vé(hg)ni(f!gwhg)at :(fe..) (:) í(fg)ta(f)que(f.) (,) qui(hg)cúm(efe)que(e.) man(e)du(f)cá(hi'j)ve(i)rit(i) pa(j)nem,(i.) (,) vel(i) bí(j)be(i)rit(i) cá(j)li(i)cem(h) Dó(ik)mi(i)ni(j) in(h)dí(hg/h_ih)gne(fe..) (;) re(fh)us(h) e(ge)rit(e) cór(fg)po(fe)ris(e.) et(e) sán(ef)gui(e)nis(e) Dó(fhg)mi(hih)ni,(f.) (;) al(eg~)le(gv.fhg)lú(efe___){ia}.(e.) (::)",
+      "availableTranslations": {
+        "English": "As often as you shall eat this Bread and drink the cup, you proclaim the death of the Lord, until He comes. Therefore whoever eats this Bread or drinks the cup of the Lord unworthily, will be guilty of the Body and Blood of the Lord. Alleluia.",
+        "Espanol": "Cuantas veces comiereis este pan y bebiereis este cáliz, otras tantas anunciaréis la muerte del Señor hasta que venga. Por tanto, cualquiera que coma este pan o beba el cáliz del Señor indignamente, será reo del cuerpo y sangre del Señor, aleluya.",
+        "Francais": "Chaque fois que vous mangerez ce pain et boirez ce calice, vous annoncerez la mort du Seigneur, jusqu'à ce qu'Il vienne ; donc, quiconque mangera le pain ou boira le calice du Seigneur indignement, il sera coupable du Corps et du Sang du Seigneur, alléluia.",
+        "Italiano": "Tutte le volte che mangerete questo pane e berrete questo calice, annunzierete la morte del Signore, finché verrà: ma chiunque avrà mangiato il pane e bevuto il sangue indegnamente sarà reo del Corpo e del Sangue del Signore, allelúia.",
+        "Nederlands": "Zo dikwijls gij van dit brood eet en van de kelk drinkt, zult gij de dood van de Heer verkondigen, totdat Hij komt. Wie dus onwaardig van dit brood eet of van de kelk van de Heer drinkt, zal schuldig zijn aan het Lichaam en Bloed van de Heer, alleluia.",
+        "Polski": "Ilekroć ten chleb pożywać, a kielich pić będziecie, śmierć Pańską będziecie zwiastować, aż przybędzie. Tak więc ktokolwiek by pożywał ten chleb albo pił kielich Pański niegodnie, winien będzie ciała i krwi Pańskiej, alleluja.",
+        "Portugues": "Todas as vezes que comerdes este Pão e beberdes este Cálice anunciareis a morte do Senhor, até que Ele venha. Assim, todo aquele que comer este Pão ou beber este Cálice indignamente será réu do Corpo e do Sangue do Senhor. Aleluia.",
+        "Ukrainian": "Кожного разу, як їсте хліб цей і п’єте цю чашу, звіщаєте смерть Господню, аж доки він не прийде. Тому хто буде їсти хліб або пити чашу Господню недостойно, буде винний за тіло і кров Господню, алілуя."
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Fac nos, quǽsumus, Dómine, divinitátis tuæ sempitérna fruitióne repléri: quam pretiósi Corporis et Sanguinis tui temporalis percéptio præfigúrat:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, we beseech You, O Lord, that we may be filled with that everlasting enjoyment of Your Godhead, as foreshadowed here on earth by the partaking of Your precious Body and Blood.",
+        "Espanol": "Te suplicamos, Señor, nos sacies plenamente con el goce sempiterno de tu divinidad, el cual está representado en la recepción temporal de tu precioso cuerpo y sangre.",
+        "Francais": "Accordez-nous, Seigneur, dans l'éternité, cette jouissance intarissable de votre divinité qu'annonce en figure ici-bas la communion à vos précieux Corps et Sang.",
+        "Italiano": "O Signore, Te ne preghiamo, fa che possiamo godere del possesso eterno della tua divinità: prefigurato dal tuo prezioso Corpo e Sangue che ora riceviamo:",
+        "Nederlands": "Wij vragen U, Heer, doe ons in volle omvang het bezit van uw godheid in de eeuwigheid genieten, waarvan het ontvangen van uw kostbaar Lichaam en Bloed in de tijd een voorafbeelding is.",
+        "Polski": "Spraw, prosimy Cię Panie, aby w wieczności napełniała nas radość z posiadania Bóstwa Twojego, co wyobraża już doczesne spożycie przenajświętszego Ciała i Krwi Twojej.",
+        "Portugues": "Fazei, Senhor, Vos imploramos, que alcancemos eternamente a vossa divindade na glória eterna, que é figurada neste mundo pela recepção temporal do vosso Corpo e Sangue preciosíssimos.",
+        "Ukrainian": "Просимо, Господи, вчини, щоб ми у вічності раділи повнотою участі в Божому житті, яку на землі провіщає прийняття Твоїх найдорогоцінніших Тіла та Крові."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

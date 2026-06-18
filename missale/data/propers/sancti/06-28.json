@@ -1,0 +1,818 @@
+{
+  "rule": [
+    "Gloria"
+  ],
+  "feast": "S. Irenæi Episcopi et Martyris",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) LEX(d!f'g) ve(gh)ri(f)tá(fh/ji)tis(ih) *(,) fu(jjj)it(hg) in(g) o(ghG'F)re(f) e(ixhiH~'G~)jus,(hg..) (;) et(j) in(h)í(iij)qui(hg)tas(gh) non(h) est(hfh) in(h)vén(ixhiH~'G~)ta(hg..) (,) in(g) lá(gh/ji)bi(jjj)is(gh) e(ixhiH~'F~)jus :(f.) (:) in(f) pa(gh)ce(h) et(g) in(h) ae(f)qui(g)tá(h)te(g.) (,) am(h)bu(g)lá(f!gwh)vit(hf) me(ixgih)cum,(h.) (;) et(jj) mul(j)tos(hkj) a(j)vér(jjjhhf~)tit(f.) (,) ab(f) in(g_f)i(fh/ji)qui(jjvIH'iw!jvIH)tá(gh!ivHG'h)te.(hg..) (::) <i>Ps.</i> At(g)tén(hg)di(gj)te,(j) pó(j)pu(j)le(j) me(j)us,(ji) le(jk)gem(k) me(jk)am :(j.) *(:) in(jh~)cli(hj)ná(j)te(j) au(j)rem(j) ve(j)stram(j) in(j) ver(j)ba(jji) o(gh)ris(ji) me(h)i.(g.) (::) Gló(g)ri(hg)a(gj) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(gh) u(ji) a(h) e.</eu>(ghd___/ffg.) (::)",
+      "availableTranslations": {
+        "English": "The law of truth was in his mouth, and iniquity was not found in his lips: he walked with Me in peace, and in equity, and turned many away from iniquity. Hearken, My people, to My teaching; incline your ears to the words of My mouth.",
+        "Francais": "La loi de vérité fut dans sa bouche, et l'iniquité ne s'est point trouvée sur ses lèvres; il a marché en paix et dans l'équité avec moi, et il en a détourné un grand nombre de l'iniquité. Soyez attentif, ô mon peuple, à ma loi; inclinez votre oreille vers les paroles de ma bouche.",
+        "Italiano": "La legge della verità fu nella sua bocca, non vi fu iniquità sulle sue labbra: procedette con me nella pace e nella rettitudine, e ritrasse molti dall'iniquità. Alla mia legge, popolo mio, sempre il tuo orecchio rivolgi: a quel che ti dice la mia bocca presta attento l'orecchio.",
+        "Nederlands": "De wet van de waarheid was in zijn mond. Er kwam geen boosheid over zijn lippen. In vrede en gelijkmoedigheid is hij met Mij omgegaan, en velen heeft hij van het kwaad afgehouden. Luister, mijn volk, naar mijn leer, neig uw oor naar de woorden van mijn mond.",
+        "Polski": "Zakon prawdy był w jego ustach, a nieprawość nie znalazła się na jego wargach; w pokoju i w prawości chodził ze mną, a wielu odwiódł od nieprawości. Słuchaj, mój ludu, nauki mojej; uszy swoje nakłońcie na słowa ust moich.",
+        "Portugues": "A lei da verdade esteve na sua boca, e a iniquidade nunca existiu nos seus lábios: caminhou comigo na paz e na equidade e afastou muitos da iniquidade. Ouvi, ó meu povo, a minha lei: inclinai vossos ouvidos para as palavras da minha boca."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui beáto Irenǽo Mártyri tuo atque Pontífici tribuísti, ut et veritáte doctrínæ expugnáret hǽreses, et pacem Ecclésiæ felíciter confirmáret: da, quǽsumus, plebi tuæ in sancta religióne constántiam; et pacem tuam nostris concéde tempóribus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Who enabled blessed Irenaeus, Your Martyr and Bishop, to overcome heresy with true doctrine and to establish peace happily in the Church, grant, we beseech You, that Your people may be steadfast in holy religion, and give us Your peace in our times.",
+        "Bohemice": "Bože, jenž jsi udělil svatému Ireneji, svému Mučedníkovi a Biskupovi, aby učením pravdy potíral bludy, i mír v Církvi šťastně upevnil; dej, prosíme, svému lidu vytrvalost ve svatém náboženství, a svůj mír uděl v našich časech.",
+        "Espanol": "Oh Dios, que concediste al bienaventurado Ireneo, tu Mártir y Pontífice, la gracia de impugnar la herejía por medio de la verdadera doctrina, y de confirmar eficazmente la paz de la Iglesia: te rogamos que concedas a tu pueblo la constancia en la santa religión, otorgando tu paz a nuestros tiempos.",
+        "Francais": "Ô Dieu, qui avez donné au binheureux Irénée, votre Martyre et Pontife, de combattre les hérésies par la vérité de la doctrine, et d'affermir avec bonheur la paix de l'Église, accordez à votre peuple, nous vous en prions, la constance dans la sainte religion, et accordez votre paix à notre temps.",
+        "Italiano": "O Dio, che al tuo martire e vescovo Ireneo desti di espugnare le eresie mediante la vera dottrina e di consolidare felicemente la pace della Chiesa; concedi benigno al tuo popolo la costanza nella santa religione, e ai nostri tempi, la tua pace.",
+        "Nederlands": "God, Gij hebt uw heilige martelaar en bisschop Ireneüs door de waarheid van zijn leer de ketterijen doen overwinnen en weldadig de vrede in uw Kerk laten verzekeren. Wij vragen U, schenk uw volk de volharding in het heilig geloof en geef vrede in onze dagen.",
+        "Polski": "Boże, który sprawiłeś, że św. Ireneusz prawdziwą nauką zwalczał herezje i szczęśliwie umocnił pokój w Kościele, prosimy Cię, daj Twojemu ludowi wytrwać w Twojej świętej wierze i udziel pokoju naszym czasom.",
+        "Portugues": "Ó Deus, que concedestes ao B. Ireneu, vosso Mártir e Pontífice, que combatesse as heresias com a verdade da doutrina e que alcançasse felizmente a paz para a Igreja, permiti, Vos suplicamos, que o vosso povo seja constante na santa religião; e, Senhor, concedei a vossa paz aos nossos tempos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Caríssime: Pérmane in iis, quæ didicísti et crédita sunt tibi: sciens, a quo didíceris; et quia ab infántia sacras; lítteras nosti, quæ te possunt instrúere ad salútem, per fidem, quæ est in Christo Jesu. Omnis Scriptúra divínitus inspiráta útilis est ad docéndum, ad arguéndum, ad corripiéndum, ad erudiéndum in justítia: ut perféctus sit homo Dei, ad omne opus bonum instrúctus. Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria coacervábunt sibi magístros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum imple.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Beloved: Continue in the things that you have learned and that have been entrusted to you, knowing of whom you have learned them. For from your infancy you have known the Sacred Writings, which are able to instruct you unto salvation by the faith which is in Christ Jesus. All Scripture is inspired by God and useful for teaching, for reproving, for correcting, for instructing in justice; that the man of God may be perfect, equipped for every good work. I charge you, in the sight of God and Christ Jesus, Who will judge the living and the dead by His coming and by His kingdom, preach the word, be urgent in season, out of season; reprove, entreat, rebuke with all patience and teaching. For there will come a time when they will not endure the sound doctrine; but having itching ears, will heap up to themselves teachers according to their own lusts, and they will turn away their hearing from the truth and turn aside rather to fables. But be watchful in all things, bear with tribulation patiently, work as a preacher of the Gospel, fulfill your ministry.",
+        "Francais": "Bien-aimé, demeure dans ce que tu as appris et dont tu as la certitude, sachant de qui tu l'as appris et que, depuis l'enfance, tu connais les Saintes Lettres, qui peuvent te donner la sagesse pour le salut par la foi dans le Christ Jésus. Toute Écriture est inspirée de Dieu et utile pour enseigner, pour reprendre, pour redresser, pour éduquer en la justice, afin que l'homme de Dieu soit parfait, prêt pour toute œuvre bonne. Je t'adjure devant Dieu et le Christ Jésus, qui doit juger les vivants et les morts, et par son apparition et par son règne : prêche la parole, insiste à temps et à contretemps, reprends, censure, exhorte, avec une entière patience et souci d'instruction. Car un temps viendra où les hommes ne supporteront pas la saine doctrine, mais au gré de leurs désirs se donneront une foule de maîtres, l'oreille leur démangeant, et ils détourneront l'oreille de la vérité pour se tourner vers les fables. Pour toi, sois sobre en toutes choses, endure la souffrance, fais œuvre de prédicateur de l'Évangile, remplis pleinement ton ministère.",
+        "Italiano": "Carissimo: Sii fermo in quanto hai imparato e ti è stato affidato, ricordando da chi hai imparato. Sin dall'infanzia conosci le Sacre Scritture, le quali possono istruirti a salvezza, mediante la fede in Cristo Gesù. Ogni Scrittura, divinamente ispirata, è utile a insegnare, a convincere, a correggere, a educare alla giustizia. Così l'uomo di Dio diventa perfetto e pronto ad ogni opera buona. Ti scongiuro davanti a Dio e a Gesù Cristo, che ha da venire a giudicare i vivi ed i morti, per la sua venuta e per il suo regno: predica la Parola, insisti a tempo opportuno e fuori tempo. Riprendi, esorta, sgrida con paziente insegnamento; perché verrà tempo in cui la gente non potrà sopportare la sana dottrina, ma, per assecondare la propria passione e per prurito di novità, si creerà una folla di maestri, e per non ascoltare la verità andrà dietro a favole. Ma tu veglia sopra tutte le cose, sopporta le afflizioni, compi l'ufficio di predicare il Vangelo, adempi il tuo ministero.",
+        "Magyar": "Te azonban tarts ki amellett, amit tanultál, s amiről meggyőződtél, hiszen tudod, kitől tanultad.  Gyerekkorod óta ismered a Szentírást: ez megadja neked az útmutatást ahhoz, hogy a Krisztus Jézusba vetett hitben eljuss az üdvösségre.  Minden Írás, amit az Isten sugalmazott, jól használható a tanításra, az érvelésre, a feddésre, s az igaz életre való nevelésre,  hogy az Isten embere tökéletes legyen és minden jóra kész legyen.  Kérve-kérlek az Istenre és Krisztus Jézusra, aki ítélkezni fog élők és holtak fölött, az Ő eljövetelére és országára:  hirdesd az evangéliumot, állj vele elő, akár alkalmas, akár alkalmatlan. Érvelj, ints, buzdíts nagy türelemmel és hozzáértéssel.  Mert jön idő, amikor az egészséges tanítást nem hallgatják szívesen, hanem saját ízlésük szerint szereznek maguknak tanítókat, hogy fülüket csiklandoztassák.  Az igazságot nem hallgatják meg, de a meséket elfogadják.  Te azonban maradj mindenben meggondolt, viseld el a bajokat, teljesítsd az evangélium hirdetőjének feladatát, töltsd be szolgálatodat.",
+        "Nederlands": "Veelgeliefde, blijf standvastig in hetgeen gij geleerd hebt en in hetgeen u is toevertrouwd; gij weet immers, van wie gij het geleerd hebt, en gij kent van kindsbeen af de heilige Schriften, die u kunnen onderrichten ter zaligheid door het geloof in Christus Jezus. Geheel de Schrift is onder Gods inwerking geschreven en is daarom nuttig om te onderhouden en te weerleggen, om te berispen en op te voeden in gerechtigheid, opdat de man Gods volmaakt zij, wel-toegerust tot allerlei goede werken. Voor het oog van God en Jezus Christus, die levenden en doden zal oordelen, bezweer ik u bij zijn komst en zijn rijk: verkondig het Evangelie; houd aan, of het welkom is of niet; tracht te overtuigen met smeken of bedreigen, in alle geduld en onderrichting. Want er komt een tijd, dat men de gezonde leer niet meer zal dulden, maar zich vele leraren zal uitzoeken naar eigen verkiezing om zich de oren te laten strelen; - een tijd, dat men het oor zal afwenden van de waarheid en zich zal keren naar allerlei verzinselen. Wees gij echter waakzaam; doe in alle omstandigheden uw werk; verricht de taak van de geloofsverkondiger; vervul uw ambt ten volle.",
+        "Polski": "Najmilszy! Trwaj w tym, czegoś się nauczył i co ci zostało zwierzone, wiedząc, od kogoś się nauczył, znając od dzieciństwa Pismo święte, mogące cię oświecić ku zbawieniu, przez wiarę w Chrystusa Jezusa. Wszelkie Pismo przez Boga natchnione jest użyteczne do pouczania, do przekonywania, do napominania, do kształcenia w sprawiedliwości, aby człowiek Boży stał się doskonały i do wszelkiego dobrego dzieła zaprawiony. Zaklinam cię przed Bogiem i przed Jezusem Chrystusem, który będzie sądził żywych i umarłych, przez przyjście Jego i przez Jego Królestwo – głoś naukę, nalegaj w porę czy nie w porę, przekonywaj, proś, karć ze wszelką cierpliwością i nauką. Bo nadejdzie czas, że zdrowej nauki nie ścierpią, ale według swych pragnień zgromadzą sobie nauczycieli, a żądni tego, co łechce ucho, odwrócą słuch od prawdy i obrócą się ku baśniom. Ale ty czuwaj, znoś wszystkie trudy, pilnuj obowiązku głosiciela Ewangelii, posługę swoją wypełniaj.",
+        "Portugues": "Caríssimo: Permanece firme naquelas coisas que aprendeste, das quais tens a certeza, sabendo de quem as aprendeste. Além de que desde a infância que conheces as sagradas letras que podem instruir-te na salvação pela fé em Jesus Cristo. Toda a Escritura, devidamente inspirada, é útil para ensinar, para argumentar, para corrigir e para educar na justiça, a fim de que o homem de Deus seja perfeito e capaz para toda a obra boa. Eu te conjuro diante de Deus e ele Jesus Cristo, pela sua vinda e pelo seu reino, que deve julgar os vivos e os mortos na sua vinda e no seu reino, que pregues a palavra, instes oportuna e inoportunamente, repreendas, supliques e ameaces com toda a paciência e doutrina; pois virá tempo em que não suportarão a sã doutrina, mas, indo ao sabor dos seus desejos, procurarão para si muitos mestres que lhes preguem o que os ouvidos gostam de ouvir e fechem os ouvidos à verdade, para os abrirem às fábulas. Tu, porém, vigia, trabalha em tudo, faz o trabalho de Evangelista, cumpre o teu ministério."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PRo(ffg)pter(f) *() fra(f)tres(gh~) me(h_fgvFED.g_e/fg)os(f) (;) et(f) pró(hf/gh!jj/kjk)xi(ij)mos(hg) me(h!iwj)os,(ih..) (;) lo(j)qué(j)bar(ij) pa(hhg)cem(h) de(hggfg) te.(fgh!jv.0klJH.1) (,) (ixjjvH'G//hiGF'/!gwhg/hjhh/fgf.) (z0::c3) <sp>V/</sp>. Cu(d)stó(fe)di(eh) in(h)no(h)cén(h)ti(h)am,(h_i_h_2//i_hjvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) et(h) vi(ihh'hvGE'f!hhgxihhvG'FEfg)de(f.) (,) ae(gxeg)qui(g)tá(gg//gghvG'FE'/!fw!gvF'ED'e)tem :(ed..) (:) quó(f)ni(d)am(fh) sunt(h) re(h)lí(i_h//ghG'F//i_h//hhhvFEfe/f!hhivHGh')qui(h)ae(h.) (;) hó(hh)mi(h)ni(h) *() pa(h)cí(ihhf/hh/ij)fi(hg)co.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
+      "availableTranslations": {
+        "English": "Because of my relatives and friends I will say, Peace be within you! Keep innocence, and behold equity; for there is a future for the man of peace.",
+        "Francais": "À cause de mes frères et de mes proches, j’ai demandé pour toi la paix. Conserve l’innocence et aie les yeux sur l’équité : car il y a une postérité pour l’homme qui est pacifique. Alléluia, alléluia. Tiens-toi au milieu de la multitude des vieillards prudents, et à leur sagesse unis-toi de cœur, afin que tu puisses écouter tout leur récit sur Dieu. Alléluia.",
+        "Italiano": "A causa dei fratelli ed amici miei io auguro la pace a te. Osserva l'innocente, e mira l'uomo retto; alla fine è felice l'uomo amante della pace.",
+        "Nederlands": "Om wille van mijn broeders en mijn vrienden sprak ik: vrede zij u. Bewaar dus de onschuld en houd het recht voor ogen, want een vreedzaam man heeft een nageslacht. Alleluia, alleluia.",
+        "Polski": "Przez wzgląd na mych braci i towarzyszy moich mówić będę: «Pokój w tobie». Strzeż niewinności, patrz na sprawiedliwość, bo ma potomstwo mąż pokój czyniący. Alleluja, alleluja. Stawaj w gromadzie roztropnych starców i przyłączaj się z serca do ich mądrości, abyś wszystko, co o Bogu mówią, mógł słyszeć. Alleluja.",
+        "Portugues": "Por causa dos meus irmãos e dos meus vizinhos, peço a paz para vós. Guardai a inocência e observai a justiça, pois o homem pacífico terá posteridade. Aleluia, aleluia. Permanecei na assembleia dos presbíteros e uni-vos de coração à sua sabedoria, para que possais ouvir tudo quanto digam de Deus. Aleluia."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(ggd//g.h!iwj)le(hg)lú(hfg){ia}.(g.) *(;) <i>ij.</i>(gi!kvvJ'IH//j_g/hefvED.) (,) (df!gh//j_g/hf//g_dgv.) (::) <sp>V/</sp>. In(gg) mul(hg)ti(gj)tú(jk)di(j)ne(j.) (,) pre(j)sby(ji)te(g)ró(h_g/h!iw!jvIH'hg)rum(g.) (,) pru(dg)dén(ghj)ti(j)um(ij!kvJ'IGhfg) sta,(g.) (:) et(g) sa(e)pi(f)én(gh)ti(g)ae(g) il(gh)ló(hvGEffe)rum(dc..) (,) ex(g) cor(hgj)de(j) con(jji~)jún(ghGE'f)ge(ed)re :(d.) (:) ut(geg) o(hgj)mnem(j) nar(j)ra(jk)ti(j)ó(ji)nem(g) De(h_g/h!iw!jvIH'hg)i(g.) (;) pos(ggd//g.h!iwj)sis(hg) () *() au(g)dí(hfg)re.(g.) (;) (gi!kvvJ'IH//j_g/hefvED.) (,) (df!gh//j_g/hf//g_dgv.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. Frequent the company of the elders; whoever is wise, stay close to him. Be eager to hear every godly discourse. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Ama la compagnia dei prudenti vegliardi, e sta' unito di cuore alla loro sapienza, per ascoltare tutto quello che si dirà di Dio. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Blijf in het gezelschap van verstandige ouderlingen, en neem hun wijsheid van harte in u op, opdat gij alles, wat op God betrekking heeft, kunt vernemen. Alleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(d)le(df/gfefd)lú(ixf!gwh!ivH~G~){ia}.(gh..) <clear>*(,) <i>ij.</i>(d!ffe/fg!hvGF//ghg'/hf/gffe.) (::) <sp>V/</sp>. Cu(h)stó(h)di(ixgih'ivGF'gffe.) (,) in(fd)no(ef)cén(gh)ti(ixhiHG'hwihi)am,(ih..) (;) et(h) vi(h)de(ghg) ae(fd)qui(dgff)tá(egff)tem :(fe..) (:) quó(fd/ef!gh)ni(ixhiHG'hi)am(hg..) (,) sunt(gh) re(hg)lí(ghG'E)qui(f!gw!hvGF'EfvED'e)ae(ed..) (;) hó(ef!gvFEfvED)mi(d!ewfef)ni(ed..) <clear>*(,) pa(dc)cí(f!gwh)fi(ixhiH'G)co.(gh..) (,) (d!ffe/fg!hvGF//ghg'/hf/gffe.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. Frequent the company of the elders; whoever is wise, stay close to him. Be eager to hear every godly discourse. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Ama la compagnia dei prudenti vegliardi, e sta' unito di cuore alla loro sapienza, per ascoltare tutto quello che si dirà di Dio. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Blijf in het gezelschap van verstandige ouderlingen, en neem hun wijsheid van harte in u op, opdat gij alles, wat op God betrekking heeft, kunt vernemen. Alleluia."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(ggd//g.h!iwj)le(hg)lú(hfg){ia}.(g.) *(;) <i>ij.</i>(gi!kvvJ'IH//j_g/hefvED.) (,) (df!gh//j_g/hf//g_dgv.) (::) <sp>V/</sp>. In(gg) mul(hg)ti(gj)tú(jk)di(j)ne(j.) (,) pre(j)sby(ji)te(g)ró(h_g/h!iw!jvIH'hg)rum(g.) (,) pru(dg)dén(ghj)ti(j)um(ij!kvJ'IGhfg) sta,(g.) (:) et(g) sa(e)pi(f)én(gh)ti(g)ae(g) il(gh)ló(hvGEffe)rum(dc..) (,) ex(g) cor(hgj)de(j) con(jji~)jún(ghGE'f)ge(ed)re :(d.) (:) ut(geg) o(hgj)mnem(j) nar(j)ra(jk)ti(j)ó(ji)nem(g) De(h_g/h!iw!jvIH'hg)i(g.) (;) pos(ggd//g.h!iwj)sis(hg) () *() au(g)dí(hfg)re.(g.) (;) (gi!kvvJ'IH//j_g/hefvED.) (,) (df!gh//j_g/hf//g_dgv.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. Frequent the company of the elders; whoever is wise, stay close to him. Be eager to hear every godly discourse. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Ama la compagnia dei prudenti vegliardi, e sta' unito di cuore alla loro sapienza, per ascoltare tutto quello che si dirà di Dio. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Blijf in het gezelschap van verstandige ouderlingen, en neem hun wijsheid van harte in u op, opdat gij alles, wat op God betrekking heeft, kunt vernemen. Alleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PRo(ffg)pter(f) *() fra(f)tres(gh~) me(h_fgvFED.g_e/fg)os(f) (;) et(f) pró(hf/gh!jj/kjk)xi(ij)mos(hg) me(h!iwj)os,(ih..) (;) lo(j)qué(j)bar(ij) pa(hhg)cem(h) de(hggfg) te.(fgh!jv.0klJH.1) (,) (ixjjvH'G//hiGF'/!gwhg/hjhh/fgf.) (z0::c3) <sp>V/</sp>. Cu(d)stó(fe)di(eh) in(h)no(h)cén(h)ti(h)am,(h_i_h_2//i_hjvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) et(h) vi(ihh'hvGE'f!hhgxihhvG'FEfg)de(f.) (,) ae(gxeg)qui(g)tá(gg//gghvG'FE'/!fw!gvF'ED'e)tem :(ed..) (:) quó(f)ni(d)am(fh) sunt(h) re(h)lí(i_h//ghG'F//i_h//hhhvFEfe/f!hhivHGh')qui(h)ae(h.) (;) hó(hh)mi(h)ni(h) *() pa(h)cí(ihhf/hh/ij)fi(hg)co.(hhhf/hhhf/hhf.) (,) (de/f!hh/ijghf.0gxegFD.1) (::)",
+      "availableTranslations": {
+        "English": "Because of my relatives and friends I will say, Peace be within you! Keep innocence, and behold equity; for there is a future for the man of peace.",
+        "Francais": "À cause de mes frères et de mes proches, j’ai demandé pour toi la paix. Conserve l’innocence et aie les yeux sur l’équité : car il y a une postérité pour l’homme qui est pacifique. Alléluia, alléluia. Tiens-toi au milieu de la multitude des vieillards prudents, et à leur sagesse unis-toi de cœur, afin que tu puisses écouter tout leur récit sur Dieu. Alléluia.",
+        "Italiano": "A causa dei fratelli ed amici miei io auguro la pace a te. Osserva l'innocente, e mira l'uomo retto; alla fine è felice l'uomo amante della pace.",
+        "Nederlands": "Om wille van mijn broeders en mijn vrienden sprak ik: vrede zij u. Bewaar dus de onschuld en houd het recht voor ogen, want een vreedzaam man heeft een nageslacht. Alleluia, alleluia.",
+        "Polski": "Przez wzgląd na mych braci i towarzyszy moich mówić będę: «Pokój w tobie». Strzeż niewinności, patrz na sprawiedliwość, bo ma potomstwo mąż pokój czyniący. Alleluja, alleluja. Stawaj w gromadzie roztropnych starców i przyłączaj się z serca do ich mądrości, abyś wszystko, co o Bogu mówią, mógł słyszeć. Alleluja.",
+        "Portugues": "Por causa dos meus irmãos e dos meus vizinhos, peço a paz para vós. Guardai a inocência e observai a justiça, pois o homem pacífico terá posteridade. Aleluia, aleluia. Permanecei na assembleia dos presbíteros e uni-vos de coração à sua sabedoria, para que possais ouvir tudo quanto digam de Deus. Aleluia."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) A(f)pud(efE'C) Dó(efef)mi(gf)num(f.) (,) *() gres(ef'h)sus(hg) hó(h)mi(hvGF)nis(e!fwgf//ghghvGFgf..) (;) di(ef)ri(eh)gén(hggf~)tur :(fe/ggf/gh/iffe.) (:) et(gh) vi(f_e/f!gwh'!iv)am(hg/hiih.0) e(eh)jus(gh/ihi) vo(f)let.(f/ggf.0) (::) \r\n<sp>V/</sp>. Os(ef) ju(hi)sti(f.) me(e)di(f)tá(hi)bi(hghvGF'g)tur(gf..) (;) sa(hhg)pi(i)én(hhg)ti(fe)am,(ef/gf/ggf/gh/iffe.) (:) et(e) lin(gh)gua(f) e(f_e/f!gwh'!iv)jus(hg/hiih.0) (;) lo(i)qué(i)tur(e) ju(f)dí(hv.gh/ihi)ci(f)um.(f/ggf.0) (::) \r\n<sp>V/</sp>. Lex(hi) De(hih)i(f) e(f!h_gh//gh!jvIGhvGF'g)jus(gf..) (,) in(hg) cor(hi)de(hvGE) i(f)psí(g_fg)us,(fe/ggf/gh/iffe.) (:) et(g) non(e) sup(fh)plan(h)ta(h)bún(h/ihhe)tur(f!gwhg.) (,) gres(h)sus(gh/ihi) ()*() e(f)jus.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
+      "availableTranslations": {
+        "Francais": "C’est par le Seigneur que les pas de l’homme seront dirigés : et c’est lui qui favorisera ses voies. La bouche du juste méditera la sagesse et sa langue proférera l’équité. La loi de son Dieu est dans son cœur, ses pas ne chancelleront pas.",
+        "Italiano": "Dal Signore saranno diretti i passi dell' uomo, e la sua vita sarà da lui approvata. La bocca del giusto esprime sapienza e la sua lingua parla giudizio. Ha nel cuore la legge del suo Dio e i suoi passi non sono esitanti.",
+        "Nederlands": "Apud Dóminum gressus hóminis dirigéntur: et viam ejus volet. Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus discípulis suis: Nolíte timére eos, qui occídunt corpus, ánimam autem non possunt occídere; sed pótius timéte eum, qui potest et ánimam et corpus pérdere in gehénnam. Nonne duo pásseres asse véneunt: et unus ex illis non cadet super terram sine Patre vestro? Vestri autem capílli cápitis omnes numeráti sunt. Nolíte ergo timére: multis passéribus melióres estis vos. Omnis ergo, qui confitébitur me coram homínibus, confitébor et ego eum coram Patre meo, qui in cœlis est. Qui autem negáverit me coram homínibus, negábo et ego eum coram Patre meo, qui in cœlis est.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus said to His disciples, Do not be afraid of those who kill the body but cannot kill the soul. But rather be afraid of Him Who is able to destroy both soul and body in hell. Are not two sparrows sold for a farthing? And yet not one of them will fall to the ground without your Father’s leave. But as for you, the very hairs of your head are all numbered. Therefore do not be afraid; you are of more value than many sparrows. Therefore, everyone who acknowledges Me before men, I also will acknowledge him before My Father in heaven. But whoever disowns Me before men, I in turn will disown him before My Father in heaven.",
+        "Francais": "En ce temps-là : Jésus dit à ses disciples : Ne craignez pas ceux qui tuent le corps, mais ne peuvent tuer l’âme ; craignez plutôt celui qui peut perdre l’âme et le corps dans la géhenne. Deux moineaux ne se vendent-ils pas un as ? Et pas un d’entre eux ne tombe sur la terre, sans (la permission de) votre Père. Quant à vous, même les cheveux de votre tête sont tous comptés. Ne craignez donc point : vous valez, vous, plus que beaucoup de moineaux. Celui donc qui me confessera devant les hommes, moi aussi je le confesserai devant mon Père qui est dans les cieux ; mais celui qui me reniera devant les hommes, moi aussi je le renierai devant mon Père qui est dans les cieux.",
+        "Italiano": "In quel tempo Gesù disse ai suoi discepoli: «Non temete coloro che uccidono il corpo, ma non possono uccidere l'anima; temete piuttosto colui che può mandare in perdizione anima e corpo nell'inferno. Non si vendono forse due passeri per un soldo? Eppure nemmeno uno di essi cadrà in terra senza il volere del Padre vostro. Orbene, quanto a voi, perfino i capelli del vostro capo sono tutti contati. Non temete dunque, voi valete di più di molti passeri. Chi dunque mi riconoscerà davanti agli uomini, anch'io lo riconoscerò davanti al Padre mio che è nei cieli. Chi invece mi rinnegherà davanti agli uomini, anch'io lo negherò davanti al Padre mio, che è nei cieli».",
+        "Magyar": "Ne féljetek azoktól, akik a testet megölik, a lelket azonban nem tudják megölni! Inkább attól féljetek, aki a kárhozatba vetve a testet is, a lelket is el tudja pusztítani!  Ugye két verebet adnak egy filléren? S Atyátok tudta nélkül egy sem esik le a földre.  Nektek minden szál hajatok számon tartják.  Ne féljetek hát! Sokkal többet értek a verebeknél.  Azokat, akik megvallanak engem az emberek előtt, én is megvallom majd mennyei Atyám előtt.  De aki megtagad az emberek előtt, azt én is megtagadom mennyei Atyám előtt.",
+        "Nederlands": "In die tijd sprak Jezus tot zijn leerlingen: Weest niet bevreesd voor hen, die het lichaam doden, doch de ziel niet kunnen doden; maar vreest veeleer Hem, die ziel en lichaam kan verderven in de hel. Verkoopt men geen twee mussen voor een penning? En toch zal er niet één van op de grond vallen zonder de wil van uw Vader. En van u zijn zelfs de haren van het hoofd alle geteld. Weest dus niet bevreesd; gij zijt toch meer waard dan een hele zwerm mussen. Derhalve, alwie Mij belijdt voor de mensen, hem zal ook Ik belijden voor mijn Vader, die in de hemel is. En wie Mij verloochend heeft voor de mensen, hem zal Ik ook verloochenen voor mijn Vader, die in de hemel is.",
+        "Polski": "Onego czasu: Rzekł Jezus uczniom swoim: «Nie bójcie się tych, którzy zabijają ciało, duszy zaś zabić nie mogą. Raczej bójcie się tego, który może i duszę, i ciało zatracić w piekle. Czyż za drobny pieniądz nie sprzedają dwóch wróbli? A żaden z nich nie upadnie na ziemię bez Ojca waszego. A nawet włosy wasze na głowie są wszystkie policzone. Nie lękajcie się tedy, lepsi jesteście wy niż wiele wróbli. Każdego tedy, który mnie wyzna przed ludźmi, wyznam i ja przed Ojcem moim, który jest w niebiesiech. A tego, kto by się zaparł mnie przed ludźmi, zaprę się i ja przed Ojcem moim, który jest w niebiesiech».",
+        "Portugues": "Naquele tempo, disse Jesus aos seus discípulos: «Não tenhais medo daqueles que matam o corpo e não podem matar a alma; temei antes Aquele que pode condenar a alma e o corpo ao inferno. Porventura se não vendem dois pássaros por um ceitil? E nenhum deles, contudo, cairá no chão sem o consentimento do vosso Pai. Até os cabelos da vossa cabeça estão contados. Nada receeis; pois valeis mais do que muitos pássaros. Portanto, todo aquele que me confessar perante os homens, Eu também o confessarei na presença de meu Pai, que está nos céus»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DO(dfd)ctrí(eef//dgff'ffvD'C//dfD'C//dfd/ef)nam(f.) *(;) qua(e.f!gwh)si(hg) an(g)te(d!ewf)lu(gf)cá(f!gwhgh)num(eef.) (;) il(d)lú(dg)mi(hg)no(g) ó(hjh___!iwj)mni(g)bus,(fgffd.) (:) et(f) e(f_e/f!gwh)nar(h_g)rá(g/jjjvIH)bo(g_h) il(egF'E)lam(fff) (;) us(dec)que(fv.fff) ad(eef) lon(d!ewf)gín(fff/ghG'//D//fffhvGFgvFE)quum.(e.) (::)",
+      "availableTranslations": {
+        "English": "I send my teachings forth to all shining like the dawn, and I will make them known afar off.",
+        "Francais": "Je fais briller la doctrine pour tous, et je l’expliquerai jusqu’au loin.",
+        "Nederlands": "Wijsheid zal Ik als de morgenstond over allen laten stralen, en Ik zal haar uitzeggen tot in de verre toekomst.",
+        "Polski": "Nauką jak świtanie oświecam wszystkich i opowiem ją aż w dalekie strony.",
+        "Portugues": "A doutrina que espalharei em todo o mundo será como a luz matutina que iluminará a todos: e transmiti-la-ei até ao decorrer dos séculos."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui credéntes in te pópulos nullis sinis cóncuti terróribus: dignáre preces et hóstias dicátæ tibi plebis suscípere; ut pax, a tua pietáte concéssa, christianórum fines ab omni hoste fáciat esse secúros.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Who do not allow the nations that believe in You to be troubled by any distress, graciously accept the prayers and sacrificial gifts Your people dedicate to You, so that the peace bestowed by Your love may make Christian lands safe from every foe.",
+        "Francais": "Dieu, vous ne laissez ébranler par aucune terreur les peuples qui croient en vous, daignez recevoir les prières et les offrandes du peuple qui vous est consacré, afin que la paix que vous accordez par votre miséricorde garde en sécurité les frontières des chrétiens contre tout ennemi.",
+        "Italiano": "O Dio, che non lasci turbare da nessun terrore i popoli a te fedeli, accogli le preghiere e le offerte del tuo popolo devoto; affinché la pace concessa dalla tua pietà renda sicuro da ogni nemico il mondo cristiano.",
+        "Nederlands": "God, Gij laat niet toe, dat volkeren, die in U geloven, door enige verschrikking geslagen worden. Gewaardig U de gebeden en de offers van het U gewijde volk te aanvaarden, opdat de vrede, die Gij ons in uw liefde geschonken hebt, de gebieden van de Christenen tegen iedere vijand beveilige.",
+        "Polski": "Boże, który nie dozwalasz, aby narody w Ciebie wierzące zostały wstrząśnięte jakąkolwiek trwogą, racz przyjąć prośby i ofiary oddanego Ci ludu, aby pokój z dobroci Twej udzielony zabezpieczył granice chrześcijan od wszelkich nieprzyjaciół.",
+        "Portugues": "Ó Deus, que conservais a paz nos povos que acreditam em Vós, dignai-Vos aceitar as preces e as hóstias que os vossos fiéis Vos oferecem, para que a paz, que concedeis benignamente, deixe os países cristãos ao abrigo de todos os ataques do inimigo."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) VI(d)dé(fhg)te(gh) *(,) quó(gh)ni(g)am(g) non(g) so(gh)li(g) mi(fgff)hi(d!ew!fvEC.) (,) la(fg'h)bo(fg)rá(g!hwihi)vi,(hg..) (:) sed(ji) ó(jk)mni(j)bus(ji/jkj.) ex(j)qui(j)rén(kij)ti(h_g)bus(g_f/h!iwj.) (,) ve(ij)ri(hg)tá(gffd//fh/jggf!gwhgh)tem.(hg..) (::)",
+      "availableTranslations": {
+        "English": "See that I have not labored for myself only, but for all who seek out the truth.",
+        "Francais": "Voyez comme je n’ai pas travaillé pour moi seul, mais pour tous ceux qui recherchent la vérité.",
+        "Italiano": "Osservate come non per me solo ho lavorato, ma per tutti quelli che cercano la verità.",
+        "Nederlands": "Ziet, dat ik niet alleen voor mij zelf gewerkt heb, maar voor allen, die de waarheid zoeken.",
+        "Polski": "Zobaczcie, że nie dla samego siebie pracowałem, lecz dla wszystkich szukających prawdy.",
+        "Portugues": "Vede como não tenho trabalhado só para mim, mas para todos aqueles que procuram a verdade."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, auctor pacis et amátor, quem nosse vívere, cui servíre regnáre est: prótege ab ómnibus impugnatiónibus súpplices tuos; ut, qui in defensióne tua confídimus, beáti Irenæi Mártyris tui atque Pontíficis intercessióne, nullius hostilitátis arma timeámus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, author and lover of peace, to know You is to live, and to serve You is to rule; protect from all assaults those who humbly implore You, that, trusting in Your protection, by the intercession of St. Irenaeus, Your Martyr and Bishop, we may not fear the power of any foe.",
+        "Francais": "Ô Dieu, vous aimez la paix et en êtes l’auteur, vous connaître c’est vivre et vous servir, c’est régner : protégez de toute attaque ceux qui vous supplient, afin que, nous qui nous confions en votre protection et qui espérons en l’intercession du bienheureux Irénée votre Martyr et Pontife, nous ne craignions les d’armes d’aucune hostilité.",
+        "Italiano": "Dio, autore e amatore della pace, conoscere te è vivere, servirti è regnare: proteggi da ogni assalto coloro che ti supplicano: così che confidando nella tua difesa, per intercessione del beato Ireneo tuo vescovo e martire, non temiamo le -armi di nessun nemico.",
+        "Nederlands": "God, Bewerker en Minnaar van vrede, U kennen is leven, U dienen heersen. Bescherm ons, die tot U smeken, tegen alle aanvallen, opdat wij, die op uw verdediging vertrouwen, op voorspraak van uw heilige martelaar en bisschop Ireneüs, de wapens van geen enkele vijand hoeven te vrezen.",
+        "Polski": "Boże, sprawco i miłośniku pokoju, którego znać to żyć, któremu służyć to królować; chroń proszących Cię od wszelkich napaści, abyśmy ufając Twojej opiece, za przyczyną św. Ireneusza, Twego Męczennika i Biskupa, nie obawiali się oręża żadnych nieprzyjaciół.",
+        "Portugues": "Ó Deus, que sois autor e amante da paz, aqueles que Vos conhecem vivem, e aqueles que Vos servem reinam: protegei, pois, contra todas as adversidades os vossos suplicantes, para que, havendo colocado toda a confiança no vosso socorro e na intercessão do B. Ireneu, vosso Mártir e Pontífice, nunca temamos as armas dos nossos inimigos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

@@ -1,0 +1,754 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "Septima die infra Octavam Epiphaniæ",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) EC(ce!fg)CE(f.) *(,) ad(fe~)vé(f!gwh_f)nit(f.) (,) do(e)mi(hh)ná(h)tor(h) Dó(hiHG')mi(hggfg)nus :(gf..) (:) et(eh~) re(h)gnum(hhh) (,) in(fe~) ma(f!hhf/gf)nu(ef) e(fhhfgv_F~E~)jus,(fe..) (:) et(f) pot(hh)é(hi)stas,(f.) (,) et(fh'!iv) im(i)pé(hiHG')ri(hggfg)um.(gf..) (::) <i>Ps.</i> De(e)us,(fe) ju(eh)dí(h)ci(h)um(hg) tu(hi)um(i) Re(hi)gi(h) da :(h.) *(:) et(hf~) ju(fh)stí(h)ti(h)am(h) tu(h)am(h') Fí(i)li(hf)o(h) Re(ge)gis.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+      "availableTranslations": {
+        "English": "Behold, the Lord and Ruler is come; and the kingdom is in His hand, and power, and dominion. O God, with Your judgment endow the King, and with Your justice, the King’s Son.",
+        "Espanol": "Ya viene el Señor, el Dominador, y en su mano están el reino, y la potestad, y el imperio. ¡Oh Dios!, da al Rey tu juicio, y al Hijo del Rey tu justicia.",
+        "Francais": "Voilà que vient le Seigneur Maître ; le pouvoir est dans sa main, la puissance et l’empire. Ô Dieu, donnez au roi votre jugement et au fils du roi votre justice.",
+        "Italiano": "Ecco, giunge il sovrano Signore: e ha nelle sue mani il regno, la potestà e l’impero. O Dio, concedi al re il tuo giudizio, e la tua giustizia al figlio del re.",
+        "Magyar": "Íme, megjött a Fejedelem, az Úr: királyság, hatalom és uralkodás ékesítik őt. Isten! add át ítéletedet a királynak, igazságodat a király fiának.",
+        "Nederlands": "Zie, Hij komt, de Heer en Gebieder: en het bestuur, de macht en de heerschappij rusten in zijn hand. Geef uw rechtsmacht, o God, aan de Koning en uw rechtvaardigheidszin aan uw Zoon.",
+        "Polski": "Oto już nadszedł Władca najwyższy: a w ręku Jego królewska władza i moc i rządy świata. Boże, przekaż swą władzę Królowi i sądy swoje temuż potomkowi Króla."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui hodiérna die Unigénitum tuum géntibus stella duce revelásti: concéde propítius; ut, qui jam te ex fide cognóvimus, usque ad contemplándam spéciem tuæ celsitúdinis perducámur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, You Who by the guidance of a star this day revealed Your only-begotten Son to the Gentiles; mercifully grant that we who know You now by faith, may come to behold You in glory.",
+        "Espanol": "Oh Dios, que en este día revelaste tu Unigénito a los gentiles por medio de una estrella, concede propicio que los que ya te conocemos por la fe, seamos conducidos hasta contemplar tu hermosura y tu grandeza.",
+        "Francais": "Ô Dieu, qui avez révélé en ce jour votre Fils unique aux païens par l’apparition d’une étoile : faites dans votre miséricorde que, vous connaissant déjà par la foi, nous soyons amenés à vous contempler dans l’éclat de votre majesté.",
+        "Italiano": "O Dio, che oggi rivelasti alle genti il tuo Unigenito con la guida di una stella, concedi benigno che, dopo averti conosciuto mediante la fede, possiamo giungere a contemplare lo splendore della tua maestà.",
+        "Magyar": "Isten, ki a csillag vezérlete mellett a mai napon kinyilatkoztattad egyszülött Fiadat a pogányoknak, engedd kegyesen, hogy mi, kik téged már hitünk által ismerünk, magasztos színed látására is eljuthassunk. ",
+        "Nederlands": "God, Gij hebt op deze dag uw enige Zoon door de ster aan de heidenen geopenbaard; laat in uw goedheid ons, die U reeds door het geloof kennen, tot de stralende aanschouwing van uw Majesteit komen.",
+        "Polski": "Boże, w dniu dzisiejszym za przewodem gwiazdy objawiłeś narodom Jedynego Syna Twojego; skoro tedy poznaliśmy Ciebie przez wiarę, doprowadź nas łaskawie do oglądania piękna Majestatu Twojego."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Surge, illumináre, Jerúsalem: quia venit lumen tuum, et glória Dómini super te orta est. Quia ecce, ténebræ opérient terram et calígo pópulos: super te autem oriétur Dóminus, et glória ejus in te vidébitur. Et ambulábunt gentes in lúmine tuo, et reges in splendóre ortus tui. Leva in circúitu óculos tuos, et vide: omnes isti congregáti sunt, venérunt tibi: fílii tui de longe vénient, et fíliæ tuæ de látere surgent. Tunc vidébis et áfflues, mirábitur et dilatábitur cor tuum, quando convérsa fúerit ad te multitúdo maris, fortitúdo géntium vénerit tibi. Inundátio camelórum opériet te, dromedárii Mádian et Epha: omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Rise up in splendor, O Jerusalem! Your light has come, the glory of the Lord shines upon you. See, darkness covers the earth, and thick clouds cover the peoples; but upon you the Lord shines, and over you appears His glory. Nations shall walk by your light, and kings by your shining radiance. Raise your eyes and look about; they all gather and come to you: your sons come from afar, and your daughters in the arms of their nurses. Then you shall be radiant at what you see, your heart shall throb and overflow, for the riches of the sea shall be emptied out before you, the wealth of nations shall be brought to you. Caravans of camels shall fill you, dromedaries from Madian and Epha; all from Saba shall come bearing gold and frankincense, and proclaiming the praises of the Lord.",
+        "Espanol": "¡Levántate y resplandece, Jerusalén, porque llega tu luz; la gloria del Señor amanece sobre ti! Las tinieblas cubren la tierra, la oscuridad los pueblos, pero sobre ti amanecerá el Señor y su gloria se verá sobre ti. Caminarán los pueblos a tu luz, los reyes al resplandor de tu aurora. Levanta la vista en torno, mira: todos esos se han reunido, vienen hacia ti; llegan tus hijos desde lejos, a tus hijas las traen en brazos. Entonces lo verás y estarás radiante; tu corazón se asombrará, se ensanchará, porque la opulencia del mar se vuelca sobre ti, y a ti llegan las riquezas de los pueblos. Te cubrirá una multitud de camellos, dromedarios de Madián y de Efá. Todos los de Saba llegan trayendo oro e incienso, y proclaman las alabanzas del Señor",
+        "Francais": "Lève-toi, et resplendis, Jérusalem ! Car ta lumière paraît, et la gloire du Seigneur s’est levée sur toi. Voici que les ténèbres couvrent la terre, et une sombre obscurité les peuples ; mais sur toi le Seigneur se lève, et sa gloire se manifeste sur toi. Les nations marchent vers ta lumière, et les rois vers la clarté de ton lever. Lève tes regards autour de toi, et vois : Tous se rassemblent, ils viennent à toi ; tes fils viennent de loin, et tes filles sont portées sur les bras. Tu le verras alors, et tu seras radieuse ; ton cœur tressaillira et se dilatera ; car les richesses de la mer se dirigeront vers toi, les trésors des nations viendront à toi. Des multitudes de chameaux te couvriront, les dromadaires de Madian et d’Epha ; tous ceux de Saba viendront, ils apporteront de l’or et de l’encens, et publieront les louanges du Seigneur.",
+        "Italiano": "Sorgi, o Gerusalemme, sii raggiante: poiché la tua luce è venuta, e la gloria del Signore è spuntata sopra di te. Mentre le tenebre si estendono sulla terra e le ombre sui popoli: ecco che su di te spunta l’aurora del Signore e in te si manifesta la sua gloria. Alla tua luce cammineranno le genti, e i re alla luce della tua aurora. Leva gli occhi e guarda intorno a te: tutti costoro si sono riuniti per venire a te: da lontano verranno i tuoi figli, e le tue figlie sorgeranno da ogni lato. Quando vedrai ciò sarai raggiante, il tuo cuore si dilaterà e si commuoverà: perché verso di te affluiranno i tesori del mare e a te verranno i beni dei popoli. Sarai inondata da una moltitudine di cammelli, dai dromedarii di Madian e di Efa: verranno tutti i Sabei portando oro e incenso, e celebreranno le lodi del Signore.",
+        "Magyar": "Kelj föl, ragyogj föl, mert elérkezett világosságod, és az Úr dicsősége felragyogott fölötted!  Mert még sötétség borítja a földet, és homály a nemzeteket, de fölötted ott ragyog az Úr, és dicsősége megnyilvánul rajtad.  Népek jönnek világosságodhoz, és királyok a benned támadt fényességhez.  Hordozd körül tekintetedet és lásd: mind egybegyűlnek és idejönnek hozzád. Fiaid messze távolból érkeznek, s a lányaidat ölükben hozzák.  Ennek láttára földerülsz, szíved dobog az örömtől és kitágul. Mert feléd áramlik a tengerek gazdagsága, és ide özönlik a nemzetek kincse.  Tevék áradata borít majd el, Midián és Efa dromedárjai. Mind Sábából jönnek; aranyat és tömjént hoznak és az Úr dicsőségét zengik.",
+        "Nederlands": "Sta op, Jeruzalem, in het volle licht! Want uw licht is gekomen, en de heerlijkheid van de Heer is over u opgegaan. Want zie, duisternis zal de aarde bedekken, en donker zal het zijn boven de volkeren. Maar over u zal de Heer zijn luister spreiden, en zijn glorie zal verschijnen in u. Dan zullen de volken komen naar uw licht en koningen naar de glans, die over u opgaat. Hef uw ogen op en zie in het rond; zij allen komen gezamenlijk tot u. Uw zonen komen van verre terug; uw dochters gaan aan hun zijde. Als gij dat ziet, zult gij er vol van zijn; uw hart zet zich uit van ontroering, als de volken van de zee tot u zich bekeren, als de heidense machten zullen komen tot u. Een stroom van kamelen zal u bedekken, dromedarissen van Madian en Epha. Allen van Saba zullen komen; zij brengen goud en wierook mee, en verkondigen de lof van de Heer.",
+        "Polski": "Powstań, Jeruzalem, i rozbłyśnij jasnością, bo przybywa światłość twoja i chwała Pańska wzeszła nad tobą. Bo oto ciemności okryją ziemię i mrok narody, nad tobą zaś wzejdzie Pan i ujrzą w tobie Jego chwałę. I będą poganie chodzić w świetle twoim, a królowie w blasku twego wschodu. Podnieś wokoło twe oczy, a oglądaj: wszyscy ci zgromadzili się, do ciebie przybyli. Synowie twoi z daleka przybędą, a córki twoje z boku powstaną. Wtedy ujrzysz i promieniować będziesz radością. Zadziwi się i rozszerzy twe serce, gdy zwróci się ku tobie bogactwo morza, moc pogan do ciebie przybędzie. Niby potop przykryje cię mnóstwo wielbłądów, dromaderów z Madianu i Efy. Wszyscy z Saby przybędą, przynosząc złoto i kadzidło i głosząc chwałę Panu."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale & Alleluia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) O(d!ewfef//hig'hvFE'ede)mnes(e.) *(;) de(d) Sa(efe)ba(fv.hhh/ijhhvF'Egihhf) vé(f)ni(f_g_f_)ent,(f.) (:) au(ijI~H~)rum(ih) et(fh~) thus(h_) de(f)fe(df)rén(eh~)tes,(hig'/hf.) (;) et(f) lau(h)dem(g) Dó(h)mi(f)no(d.) (,) an(df)nun(e!hgh)ti(f)án(de~)tes.(d!ewfef//highf.dfe/feed.0) (::) \r\n<sp>V/</sp>. Sur(hi~)ge,(ihhf/hiHG.hiFD.1) (,) (f!hhi/hhf/hiHG.hiFD.1) (;) et(d) il(d)lu(d)mi(d)ná(fdfED//fd/ef!hh/ig/hf/hi!kkk_h)re(h.) (;) Je(fh)rú(hih)sa(ffe)lem :(gxef__d_2//f_e/fgF'ED'dfvEDed..) (:) qui(d)a(d) gló(fdfED')ri(d)a(d.) Dó(fd/ef!hh/i!jwk)mi(ih)ni(hiHF.1) (;) su(gxgg//gg)per(d) te(efe/ffe.) () *() or(fhGF')ta(i) est.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "All they from Saba shall come, bringing gold and frankincense, and proclaiming the praises of the Lord. Rise up in splendor, O Jerusalem, for the glory of the Lord shines upon you.",
+        "Espanol": "De Sabá vendrán todos trayendo oro e incienso y cantando los loores del Señor. ¡Levántate, Jerusalén, resplandece!, porque se levanta sobre ti la gloria del Señor. Aleluya, aleluya. Vimos su estrella en el oriente, y venimos con presentes a adorar al Señor. Aleluya.",
+        "Francais": "Tous ceux de Saba viendront, ils apporteront de l’or et de l’encens, et publieront les louanges du Seigneur. Lève-toi, et resplendis, Jérusalem ! Car la gloire du Seigneur s’est levée sur toi. Allelúja, allelúja",
+        "Italiano": "Verranno tutti i Sabei portando oro e incenso, e celebreranno le lodi del Signore. Sorgi, o Gerusalemme, e sii raggiante: poiché la gloria del Signore è spuntata sopra di te. Allelúia, allelúia Vedemmo la sua stella in Oriente, e venimmo con doni per adorare il Signore. Allelúia.",
+        "Magyar": "Mind eljőnek Sábából aranyat és tömjént hoznak, és az Úr dícséretét hirdetik. Kelj fel, ragyogj föl Jeruzsálem: mert az Úr dicsősége felragyogott fölötted. Alleluja, alleluja! Láttuk az ő csillagát napkeleten és eljöttünk ajándékainkkal imádni az Urat. Alleluja!",
+        "Nederlands": "Allen zullen uit Saba komen met goud en wierook en de lof van de Heer verkondigen.  Sta op, word verlicht Jeruzalem, want de heerlijkheid van de Heer is over u opgegaan. Alleluia, alleluia.",
+        "Polski": "Wszyscy ze Saby przyjdą, złoto i kadzidło przynosząc i chwałę Pańską rozgłaszając. Powstań, Jeruzalem i zajaśniej: bo chwała Pańska wzeszła nad tobą. Alleluja, alleluja. Ujrzeliśmy gwiazdę Jego na wschodzie i przybyliśmy z darami pokłonić się Panu. Alleluja."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) \r\n<sp>V/</sp>. Ví(f_e/f!gwh'!iv)di(jiihi)mus(iv.hh/fgf.) (,) stel(fg~)lam(f) e(f!hh/ijHF'ivH'GEf./hfhhf/ge)jus(e.) (:) in(f) O(e)ri(f)én(ffe/ffe/fc..)(,)(ef!hvvF'Ehhh)te,(ivH'Ghf..) (:) et(f) vé(f!h'i)ni(jiihi)mus(iv.hh/fgf.) (,) cum(fg~) mu(f)né(f!hh/ijHF'ivH'GEf./hfhhf/ge)ri(f)bus(e.) (;) ad(hh)o(h)rá(h)re(hi) *() Dó(i_h/jij)mi(j)num.(jvvIH'GE//f!gwhf.1) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. We have seen His star in the East: and have come with gifts to worship the Lord. Alleluia.",
+        "Francais": "Allelúja, allelúja. Allelúja.",
+        "Nederlands": "Allelúja, allelúja. Wij hebben zijn ster in het Oosten gezien en zijn met geschenken gekomen om de Heer te aanbidden. Alleluia."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Cum natus esset Jesus in Béthlehem Juda in diébus Heródis regis, ecce, Magi ab Oriénte venerunt Jerosólymam, dicéntes: Ubi est, qui natus est rex Judæórum? Vidimus enim stellam ejus in Oriénte, et vénimus adoráre eum. Audiens autem Heródes rex, turbatus est, et omnis Jerosólyma cum illo. Et cóngregans omnes principes sacerdotum et scribas pópuli, sciscitabátur ab eis, ubi Christus nasceretur. At illi dixérunt ei: In Béthlehem Judæ: sic enim scriptum est per Prophétam: Et tu, Béthlehem terra Juda, nequáquam mínima es in princípibus Juda; ex te enim éxiet dux, qui regat pópulum meum Israël. Tunc Heródes, clam vocátis Magis, diligénter dídicit ab eis tempus stellæ, quæ appáruit eis: et mittens illos in Béthlehem, dixit: Ite, et interrogáte diligénter de púero: et cum invenéritis, renuntiáte mihi, ut et ego véniens adórem eum. Qui cum audíssent regem, abiérunt. Et ecce, stella, quam víderant in Oriénte, antecedébat eos, usque dum véniens staret supra, ubi erat Puer. Vidéntes autem stellam, gavísi sunt gáudio magno valde. Et intrántes domum, invenérunt Púerum cum María Matre ejus, (hic genuflectitur) et procidéntes adoravérunt eum. Et, apértis thesáuris suis, obtulérunt ei múnera, aurum, thus et myrrham. Et respónso accépto in somnis, ne redírent ad Heródem, per aliam viam revérsi sunt in regiónem suam.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "When Jesus was born in Bethlehem of Judea, in the days of King Herod, behold, Magi came from the East to Jerusalem, saying, Where is He that is born King of the Jews? For we have seen His star in the east and have come to worship Him. But when King Herod heard this, he was troubled, and so was all Jerusalem with him. And gathering together all the chief priests and Scribes of the people, he inquired of them where the Christ was to be born. And they said to him, In Bethlehem of Judea; for thus it is written by the prophet, ‘And you, Bethlehem, of the land of Juda, are by no means least among the princes of Juda; for from you shall come forth a leader who shall rule My people Israel.’ Then Herod summoned the Magi secretly, and carefully ascertained from them the time when the star had appeared to them. And sending them to Bethlehem, he said, Go and make careful inquiry concerning the Child, and when you have found Him, bring me word, that I too may go and worship Him. Now they, having heard the king, went their way. And behold, the star that they had seen in the East went before them, until it came and stood over the place where the Child was. And when they saw the star they rejoiced exceedingly. And entering the house, they found the Child with Mary His Mother, (genuflect) and falling down they worshipped Him. And opening their treasures they offered Him gifts of gold, frankincense and myrrh. And being warned in a dream not to return to Herod, they went back to their own country by another way.",
+        "Espanol": "Habiendo nacido Jesús en Belén de Judea en tiempos del rey Herodes, unos magos de Oriente se presentaron en Jerusalén preguntando: «¿Dónde está el Rey de los judíos que ha nacido? Porque hemos visto salir su estrella y venimos a adorarlo». Al enterarse el rey Herodes, se sobresaltó y toda Jerusalén con él; 4convocó a los sumos sacerdotes y a los escribas del país, y les preguntó dónde tenía que nacer el Mesías. Ellos le contestaron: «En Belén de Judea, porque así lo ha escrito el profeta: “Y tú, Belén, tierra de Judá, no eres ni mucho menos la última de las poblaciones de Judá, pues de ti saldrá un jefe que pastoreará a mi pueblo Israel”». Entonces Herodes llamó en secreto a los magos para que le precisaran el tiempo en que había aparecido la estrella, y los mandó a Belén, diciéndoles: «Id y averiguad cuidadosamente qué hay del niño y, cuando lo encontréis, avisadme, para ir yo también a adorarlo». Ellos, después de oír al rey, se pusieron en camino y, de pronto, la estrella que habían visto salir comenzó a guiarlos hasta que vino a pararse encima de donde estaba el niño. Al ver la estrella, se llenaron de inmensa alegría. Entraron en la casa, vieron al niño con María, su madre, (arrodillarse) y cayendo de rodillas lo adoraron; después, abriendo sus cofres, le ofrecieron regalos: oro, incienso y mirra. Y habiendo recibido en sueños un oráculo, para que no volvieran a Herodes, se retiraron a su tierra por otro camino.",
+        "Francais": "Jésus étant né à Bethléem de Judée, aux jours du roi Hérode, voici que des mages d’Orient arrivèrent à Jérusalem, disant : « Où est le roi des Juifs qui vient de naître ? Car nous avons vu son étoile à l’orient et nous sommes venus l’adorer.» Ce que le roi Hérode ayant appris, il fut troublé, et tout Jérusalem avec lui. Il assembla tous les grands prêtres et les scribes du peuple, et il s’enquit auprès d’eux où devait naître le Christ. Ils lui dirent : « A Bethléem de Judée, car ainsi a-t-il été écrit par le prophète : Et toi, Bethléem, terre de Juda, tu n’es pas la moindre parmi les principales villes de Juda, car de toi sortira un chef qui paîtra Israël, mon peuple.» Alors Hérode, ayant fait venir secrètement les mages, s’enquit avec soin auprès d’eux du temps où l’étoile était apparue. Et il les envoya à Bethléem en disant : « Allez, informez-vous exactement au sujet de l’enfant, et lorsque vous l’aurez trouvé, faites-le-moi savoir, afin que moi aussi j’aille l’adorer.» Ayant entendu les paroles du roi, ils partirent. Et voilà que l’étoile qu’ils avaient vue à l’orient allait devant eux, jusqu’à ce que, venant au-dessus du lieu où était l’enfant, elle s’arrêta. A la vue de l’étoile, ils eurent une très grande joie. Ils entrèrent dans la maison, trouvèrent l’enfant avec Marie, sa mère, (Ici on se met à genoux) et, se prosternant, ils l’adorèrent ; puis, ouvrant leurs trésors, ils lui offrirent des présents : de l’or, de l’encens et de la myrrhe. Et ayant été avertis en songe de ne point retourner vers Hérode, ils regagnèrent leur pays par un autre chemin.",
+        "Italiano": "Nato Gesú, in Betlemme di Giuda, al tempo del re Erode, ecco arrivare dei Magi dall’Oriente, dicendo: Dov’è nato il Re dei Giudei? Abbiamo visto la sua stella in Oriente e siamo venuti per adorarlo. Sentite tali cose, il re Erode si turbò, e con lui tutta Gerusalemme. E, adunati tutti i sommi sacerdoti e gli scribi del popolo, voleva sapere da loro dove doveva nascere Cristo. E questi gli risposero: A Betlemme di Giuda, perché cosí è stato scritto dal Profeta: E tu Betlemme, terra di Giuda, non sei la minima tra i príncipi di Giuda: poiché da te uscirà il duce che reggerà il mio popolo Israele. Allora Erode, chiamati a sé di nascosto i Magi, si informò minutamente circa il tempo dell’apparizione della stella e, mandandoli a Betlemme, disse loro: Andate e cercate diligentemente il bambino, e quando l’avrete trovato fatemelo sapere, affinché io pure venga ad adorarlo. Quelli, udito il re, partirono: ed ecco che la stella che avevano già vista ad Oriente li precedeva, finché, arrivata sopra il luogo dov’era il bambino, si fermò. Veduta la stella, i Magi gioirono di grandissima gioia, ed entrati nella casa trovarono il bambino con Maria sua madre (qui ci si inginocchia) e prostratisi, lo adorarono. E aperti i loro tesori, gli offrirono in dono oro, incenso e mirra. Avvertiti poi in sogno di non passare da Erode, tornarono al loro paese per un altra strada.",
+        "Magyar": "Amikor a júdeai Betlehemben Heródes király idejében Jézus megszületett, bölcsek jöttek napkeletről Jeruzsálembe  és kérdezősködtek: „Hol van a zsidók újszülött királya? Láttuk csillagát napkeleten s eljöttünk, hogy bemutassuk neki hódolatunkat.”  Ennek hallatára Heródes király megriadt, s vele egész Jeruzsálem.  Összehívta tehát a főpapokat és a nép írástudóit, és tudakozódott tőlük, hol kell a Messiásnak születnie.  „Júda Betlehemében - válaszolták -, mert így jövendölt a próféta:  Te Betlehem, Júda földje, egyáltalán nem vagy oly kicsi Júda nemzetségei közt, hisz belőled származik majd a vezér, aki népemnek, Izraelnek pásztora lesz.”  Erre Heródes titokban magához hívatta a bölcseket és pontosan megtudakolta tőlük a csillag feltűnésének idejét.  Aztán elküldte őket Betlehembe: „Menjetek - mondta -, s szerezzetek pontos értesülést a gyermek felől! Ha megtaláljátok, jelentsétek nekem, hogy én is elmenjek és hódoljak neki.”  Azok meghallgatták a királyt és útra keltek. S lám, a csillag, amelyet napkeleten láttak, vezette őket, míg végre meg nem állt a hely fölött, ahol a gyermek volt.  A csillagot megpillantva nagyon megörültek.  Bementek a házba, és meglátták a gyermeket anyjával, Máriával. Leborultak és hódoltak neki (hic genuflectitur), majd elővették kincseiket s ajándékot adtak neki: aranyat, tömjént és mirhát.  Mivel álmukban utasítást kaptak, hogy ne menjenek vissza Heródeshez, más úton tértek vissza hazájukba.",
+        "Nederlands": "Toen Jezus te Bethlehem in Juda geboren was, ten tijde van koning Herodes, zie, toen verschenen er te Jeruzalem Wijzen uit het Oosten; en zij vroegen: Waar is de nieuwgeboren koning van de joden? Want wij hebben in het Oosten zijn ster gezien, en wij zijn gekomen om Hem te aanbidden. Toen koning Herodes dit hoorde, ontstelde hij en geheel Jeruzalem met hem. En hij riep alle opperpriesters en schriftgeleerden van het volk bijeen en stelde hun de vraag, wáár de Christus zou geboren worden. En zij antwoordden hem: Te Bethlehem in Juda; want aldus staat er geschreven bij de profeet: “En gij, Bethlehem, land van Juda, gij zijt geenszins de geringste onder de hoofdsteden van Juda; want uit u zal opstaan een vorst, die mijn volk Israël zal leiden.” Toen liet Herodes de Wijzen heimelijk bij zich komen, en ondervroeg hen nauwkeurig over het tijdstip, waarop de ster hun verschenen was; dan zond hij hen naar Bethlehem met de woorden: Gaat en doet zorgvuldig onderzoek naar het Kind, en als gij Het gevonden hebt, komt het mij dan zeggen; dan kan ook ik Het gaan aanbidden. Na dit onderhoud met de koning vertrokken zij. En zie, de ster, die zij in het Oosten hadden gezien, ging voor hen uit, totdat ze kwam te staan boven de plaats, waar het Kind Zich bevond. Toen zij de ster weer zagen, waren zij ten zeerste verheugd. Zij gingen het huis binnen en vonden het Kind met zijn Moeder Maria; (Hier knielt men.) en zij wierpen zich neder en aanbaden Het. Dan haalden zij hun schatten te voorschijn, en boden Hem goud, wierook en myrrhe ten geschenke. Zij werden echter in de slaap gewaarschuwd om niet weer naar Herodes te gaan; daarom keerden zij langs een andere weg naar hun land terug.",
+        "Polski": "Gdy się tedy narodził Jezus w Betlejem Judzkim za dni króla Heroda: oto przybyli Mędrcy ze Wschodu do Jerozolimy mówiąc: «Gdzie jest on Król żydowski, który się narodził? Albowiem ujrzeliśmy gwiazdę Jego na wschodzie i przybyliśmy pokłonić się Jemu». A usłyszawszy to król Herod zatrwożył się i cała Jerozolima z nim. I zebrawszy wszystkich przedniejszych kapłanów i nauczycieli ludu, dowiadywał się od nich, gdzie się miał Chrystus narodzić. A oni mu rzekli: «W Betlejem judzkim; bo tak jest napisane przez Proroka: I ty Betlejem, ziemio judzka, żadną miarą nie jesteś najmniejsze między książętami judzkimi, albowiem z ciebie wynijdzie wódz, który by rządził ludem moim izraelskim». Wtedy Herod, wezwawszy potajemnie Mędrców, dokładnie dowiedział się od nich o czasie gwiazdy, która im się ukazała. A odsyłając ich do Betlejem, rzekł: «Idźcie, a wywiadujcie się pilnie o Dzieciątku, a gdy znajdziecie, oznajmijcie mi, abym i ja przybywszy pokłonił się Jemu». Oni tedy po wysłuchaniu króla ruszyli w drogę. A oto gwiazda, którą byli widzieli na wschodzie, wyprzedzała ich, aż zatrzymała się nad miejscem, gdzie było Dziecię. A ujrzawszy gwiazdę uradowali się radością bardzo wielką. I wszedłszy w dom znaleźli dziecię z Maryją, Matką Jego (tu się przyklęka) i upadłszy, pokłonili się Jemu. A otworzywszy skarby swe, ofiarowali Mu dary: złoto, kadzidło i mirrę. A otrzymawszy odpowiedź we śnie, aby nie wracali do Heroda, inną drogą powrócili do krainy swojej."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) RE(h)ges(fh) Thar(h)sis(hhh//hv.hhh) *(,) et(fh) ín(hhhjvIH)su(hvGF)lae(fhG'Fh.) (;) mú(defivHG')ne(hggfg)ra(g_f) óf(gxdf!gvFE')fe(feede)rent :(ed..) (:) re(f)ges(e) A(ef!gvgf)ra(ef!hhvFE')bum(feed.0) (,) et(de) Sa(f)ba(hig'hvFE.//hig'hvFE'ed.0) (;) do(fhh'1hhi)na(i) ad(hhh)dú(hi!jvIH'GhvGF'g)cent :(gf..) (:) et(hf) ad(h)o(hi)rá(iv.hihhe)bunt(fhg) e(h_g)um(hig'hvFD.1) (;) o(df)mnes(f_e) re(f!hhh)ges(f_e) ter(egF'Efe)rae,(e.) (:) o(f!hihh'h)mnes(ef/g_f) gen(f!hihh'h)tes(ef/g_f) (;) sér(fh/i_h)vi(gxf!hhf/ge)ent(de/fhf) e(gxegF'Efd)i.(d.) (::)",
+      "availableTranslations": {
+        "English": "The kings of Tharsis and the Isles shall offer gifts; the kings of Arabia and Saba shall bring tribute. All kings shall pay Him homage, all nations shall serve Him.",
+        "Espanol": "Los reyes de Tarsis y de las islas le pagarán el tributo; los reyes de Arabia y de Sabá le traerán presentes. Le adorarán todos los reyes de tierra, todos los pueblos servirán.",
+        "Francais": "Les rois de Tharsis et les îles lui offriront des présents, les rois d’Arabie et de Saba apporteront des dons et tous les rois de la terre l’adoreront, toutes les nations le serviront.",
+        "Italiano": "I re di Tharsis e le genti offriranno i doni: i re degli Arabi e di Saba gli porteranno regali: e l’adoreranno tutti i re della terra: e tutte le genti gli saranno soggette.",
+        "Magyar": "Tarzisz királyai és a szigetek adományokat hordjanak: Arábia és Szába királyai ajándékokat hozzanak: és hódoljon előtte a föld minden királya, s legyen minden nemzet a szolgája",
+        "Nederlands": "De koningen van Tharsis en de eilanden zullen geschenken offeren, de vorsten van Arabië en Saba gaven aanbrengen, en alle koningen der aarde zullen Hem aanbidden, alle volkeren Hem dienen.",
+        "Polski": "Królowie Tarszisz i wysp przyniosą dary, królowie Arabii i Saby złożą daninę. I oddadzą mu pokłon wszyscy królowie, wszystkie narody będą mu służyły."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Ecclésiæ tuæ, quǽsumus, Dómine, dona propítius intuere: quibus non jam aurum, thus et myrrha profertur; sed quod eisdem munéribus declarátur, immolátur et súmitur, Jesus Christus, fílius tuus, Dóminus noster:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O Lord, look favorably upon the gifts of Your Church, which are no longer gifts of gold, frankincense and myrrh, but, as these gifts signify, our offering is Jesus Christ Your Son, our Lord, Who is now sacrifice and food.",
+        "Espanol": "Te rogamos, Señor, mires propicio los dones de tu Iglesia, en los que ya no se ofrece oro, incienso, ni mirra, sino lo que con estos mismos dones se significa, se inmola y se recibe, Jesucristo, tu Hijo y Señor nuestro.",
+        "Francais": "Jetez une regard bienveillant, nous vous en supplions, Seigneur, sur les dons de votre Eglise, laquelle ne vous offre plus ni l’or, ni l’encens, ni la myrrhe, mais Celui que figuraient ces offrandes, qui a été immolé et qui s’est fait notre nourriture, Jésus-Christ votre Fils, Notre-Seigneur.",
+        "Italiano": "Guarda benigno, o Signore, Te ne preghiamo, alle offerte della tua Chiesa, con le quali non si offre piú oro, incenso e mirra, bensí Colui stesso che, mediante le medesime, è rappresentato, offerto e ricevuto: Gesú Cristo tuo Figlio e nostro Signore:",
+        "Magyar": "Egyházad áldozati adományaiira kérünk, Urunk, kegyesen tekints le, melyekkel már nem aranyat, tömjént és mirhát ajánlunk fel neked, hanem amit ezek az adományok jelentenek, azt áldozzuk fel és azt vesszük viszont magunkhoz, Jézus Krisztust, a te Fiadat, a mi Urunkat:",
+        "Nederlands": "Wij vragen U, Heer, geef genadig acht op de gaven van uw Kerk, want wij brengen wel geen goud, wierook en myrrhe, maar wat door die gaven wordt afgebeeld, geofferd en genuttigd, Jezus Christus, uw Zoon, onze Heer.",
+        "Polski": "Wejrzyj miłościwie na dary Twojego Kościoła, który składa ci już nie złoto kadzidło i mirrę, lecz Tego, którego one wyobrażały: Jezusa Chrystusa Syna Twego, Pana naszego, który się stał ofiarą i pokarmem naszym."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) VI(ef'g)di(hgh)mus(gfg//efd.1) *(,) stel(gi~)lam(i) e(j)jus(g) in(g) O(fg'h)ri(i)én(gh~)te,(e.) (:) et(ef'h) vé(h!iwj)ni(g)mus(g) cum(g) mu(g)né(fg)ri(efED'e)bus(ed..) (;) ad(f)o(gh)rá(g)re(ghG'Fghg') Dó(e)mi(egff)num.(fe..) (::)",
+      "availableTranslations": {
+        "English": "We have seen His star in the East and have come with gifts to worship the Lord.",
+        "Espanol": "Hemos visto su estrella en el Oriente, y venimos con presentes a adorar al Señor.",
+        "Francais": "Nous avons vu son étoile à l’orient et nous sommes venus avec des présents adorer le Seigneur.",
+        "Italiano": "Vedemmo la sua stella in Oriente, e venimmo con doni ad adorare il Signore.",
+        "Magyar": "Láttuk az ő csillagát napkeleten és eljöttünk ajándékainkkal imádni az Urat.",
+        "Nederlands": "Wij hebben zijn ster in het Oosten gezien en zijn met geschenken gekomen om de Heer te aanbidden.",
+        "Polski": "Ujrzeliśmy gwiazdę Jego na wschodzie i przybyliśmy z darami pokłonić się Panu."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Præsta, quǽsumus, omnípotens Deus: ut, quæ sollémni celebrámus officio, purificátæ mentis intellegéntia consequámur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, we beseech You, almighty God, that, by the understanding of our minds made pure, we may grasp what we celebrate by these solemn rites.",
+        "Espanol": "Haz, te rogamos, ¡oh Dios omnipotente!, que, purificado nuestro espíritu, comprenda el misterio que celebramos con estos solemnes oficios.",
+        "Francais": "Faites, nous vous en supplions, ô Dieu tout-puissant, que célébrant ce mystère en un office solennel nous en obtenions l’intelligence et en recueillions les fruits dans une âme purifiée.",
+        "Italiano": "Concedici, Te ne preghiamo, o Dio onnipotente, che i misteri oggi solennemente celebrati, li comprendiamo con l’intelligenza di uno spirito purificato.",
+        "Magyar": "Kérünk, mindenható Isten, hogy amit ünnepi áldozattal ünnepelünk, azt megtisztult lélekkel el is érhessük.",
+        "Nederlands": "Wij vragen U, almachtige God, laat ons de geheimen, die wij plechtig vieren, met het inzicht van een gezuiverde geest omvatten.",
+        "Polski": "Spraw, prosimy, wszechmogący Boże, abyśmy czystym i jasnym umysłem pojęli tajemnicę uroczyście dziś obchodzoną."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

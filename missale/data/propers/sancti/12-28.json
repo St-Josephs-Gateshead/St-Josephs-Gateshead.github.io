@@ -1,0 +1,849 @@
+{
+  "rule": [
+    "Credo"
+  ],
+  "feast": "Ss. Innocentium",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) EX(f!gwh) o(egf)re(f.) *() in(fhg)fán(hi~)ti(i)um,(hi~) De(i_f)us,(f.) (,) et(fi) la(i)ctén(ij)ti(ih)um(hv.gih.) (;) per(fg)fe(f_e)cí(fhg)sti(hi) lau(fgF~'E~)dem(e.) (:) pro(h)pter(hhh) in(f)i(fi)mí(iv.hji)cos(ihhf) tu(fg/eh//ghf/ggf)os.(f.) (::) <i>Ps.</i> Dó(e)mi(fe)ne(eh) Dó(hg)mi(hi)nus(i) no(hi)ster :(h.) *(:) quam(hf~) ad(fh)mi(h)rá(h)bi(h)le(h) est(h) no(h)men(h) tu(h)um(h.) (,) in(h) u(h')ni(i)vér(hf)sa(h) ter(ge)ra!(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+      "availableTranslations": {
+        "English": "Out of the mouths of babes and of sucklings, O God, You have fashioned praise because of Your foes. O Lord, our Lord, how glorious is Your name over all the earth!",
+        "Bohemice": "Z úst dítek, Bože, a kojenců udělal jsi chválu před nepřáteli tvými. Hospodine, Pane náš, jak obdivuhodné jest jméno tvé po celém světě!",
+        "Cesky-Schaller": "Z úst dítek, Bože, a kojenců udělal jsi chválu před nepřáteli tvými. Hospodine, Pane náš, jak obdivuhodné jest jméno tvé po celém světě!",
+        "Francais": "De la bouche des enfants et de ceux qui sont encore allaités, vous avez tiré une louange parfaite contre vos adversaires. Seigneur, notre Maître, que votre nom est admirable dans toute la terre.",
+        "Italiano": "O Dio, dalle labbra dei bambini e dei lattanti cavi lode a confusione dei tuoi nemici. O Eterno nostro Dio, quant'è mirabile il tuo Nome su tutta la terra!",
+        "Magyar": "A kisdedek és csecsemők szájával hirdetted ellenségeiddel szemben dicséretedet. Uram! mi Urunk! mily csodálatos az egész világon a te neved!",
+        "Nederlands": "Uit de mond van kinderen en zuigelingen hebt Gij U lof bereid, o God, uw vijand ten spijt. Heer, onze Heer, hoe wonderbaar is uw Naam over heel de aarde!",
+        "Polski": "Z ust dzieci i niemowląt zgotowałeś sobie chwałę, Boże, wbrew przeciwnikom Twoim. O Panie, Panie nasz, jak przedziwne Twe imię po wszystkiej ziemi.",
+        "Portugues": "Da boca dos meninos e das crianças de peito fazeis sair louvores em vossa honra, para confusão dos vossos inimigos. Ó Senhor, nosso Deus, como o vosso nome é admirável em todo o universo!"
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, cujus hodierna die præcónium Innocéntes Mártyres non loquéndo, sed moriéndo conféssi sunt: ómnia in nobis vitiórum mala mortífica; ut fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Whose praise the Innocents, Your martyrs, this day proclaimed, not by speaking, but by dying, put to death in us all the wickedness of sin, so that Your faith which our tongue professes may be proclaimed also by our life.",
+        "Bohemice": "Bože, jehož chválu dnešního dne Mláďátka jako mučedníci, ne řečí, nýbrž smrtí vyznala, všecko zlo hříchů v nás umrtvi, aby víru v tebe, kterou vyznává náš jazyk, také život mravy hlásal.",
+        "Cesky-Schaller": "Bože, jehož chválu dnešního dne Mláďátka jako mučedníci, ne řečí, nýbrž smrtí vyznala, všecko zlo hříchů v nás umrtvi, aby víru v tebe, kterou vyznává náš jazyk, také život mravy hlásal.",
+        "Deutsch": "O Gott, dem am heutigen Tage die unschuldigen Blutzeugen den Ruhmgesang nicht mit Worten, sondern mit ihren Sterben angestimmt haben, ertöte in uns alles, was uns die bösen Anlagen an Schaden zufügen, damit der Glaube an dich, den unsere Zunge mit Worten bekennt, sich auch in unserem Leben und durch unser Verhalten kund tue.",
+        "Espanol": "¡Oh Dios, cuya gloria proclaman en este día los santos mártires inocentes, no con palabras, sino con su propia muerte!; destruye en nosotros toda malicia de pecado, para que nuestra vida testimonie con hechos la fe que confesaron con los labios.",
+        "Francais": "Dieu, dont en ce jour les Innocents Martyrs ont confessé la gloire, non en parlant mais en mourant, faites mourir en nous tous les penchants au vice, afin que votre foi, que notre langue proclame, notre vie en témoigne aussi dans notre conduite.",
+        "Italiano": "I santi Innocenti tuoi martiri, o Signore, hanno oggi proclamato il tuo messaggio non a parole ma col sangue: inaridisci in noi le radici del male, perché la tua fede che professiamo con le labbra, sia testimoniata dalla nostra vita.",
+        "Magyar": "Isten, kinek dicsőségét az ártatlan vértanúk a mai napon nem szóval, hanem halálukkal vallották, fojtsd el bennünk a vétkeknek minden gonoszságát, hogy a benned való hitet, melyet nyelvünk hirdet, erkölcseink által életünk is hirdesse.",
+        "Nederlands": "God, de onschuldige Martelaren hebben op deze dag uw lof verkondigd niet met woorden, maar door hun dood; doe in ons de drift naar het kwaad afsterven, opdat ons leven het geloof in U, dat wij met de mond belijden, ook in daden openbare.",
+        "Polski": "Boże, święci Młodziankowie obwieścili Twą chwałę nie słowami, lecz śmiercią; racz wyniszczyć w nas wszystkie źródła grzechów, abyśmy całym życiem wyznawali wiarę w Ciebie, którą głosimy słowami.",
+        "Portugues": "Ó Deus, cuja glória os Inocentes Mártires confessaram neste dia, não com suas palavras, mas com sua morte, mortificai no nosso íntimo as paixões e os vícios, a fim de que a vossa fé, que a nossa boca confessa, seja Confirmada com os nossos costumes."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Vidi supra montem Sion Agnum stantem, et cum eo centum quadragínta quatuor mília, habéntes nomen ejus, et nomen Patris ejus scriptum in fróntibus suis. Et audívi vocem de cœlo, tamquam vocem aquárum multárum, et tamquam vocem tonítrui magni: et vocem, quam audívi, sicut citharœdórum citharizántium in cítharis suis. Et cantábant quasi cánticum novum ante sedem, et ante quátuor animália, et senióres: et nemo póterat dícere cánticum, nisi illa centum quadragínta quátuor mília, qui empti sunt de terra. Hi sunt, qui cum muliéribus non sunt coinquináti: vírgines enim sunt. Hi sequúntur Agnum, quocúmque íerit. Hi empti sunt ex homínibus primítiæ Deo, et Agno: et in ore eórum non est invéntum mendácium: sine mácula enim sunt ante thronum Dei.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, I saw the Lamb standing upon Mount Sion, and with Him a hundred and forty-four thousand having His name and the name of His Father written on their foreheads. And I heard a voice from heaven like a voice of many waters, and like a voice of loud thunder; and the voice that I heard was as of harpers playing on their harps. And they were singing as it were a new song before the throne, and before the four living creatures and the elders; and no one could learn the song except those hundred and forty-four thousand, who have been purchased from the earth. These are they who were not defiled with women; for they are virgins. These follow the Lamb wherever He goes. These were purchased from among men, first-fruits unto God and unto the Lamb, and in their mouth there was found no lie; they are without blemish before the throne of God.",
+        "Bohemice": "V těch dnech viděl jsem, a hle, Beránek stál na hoře Sionu, a s ním sto čtyřicet čtyři tisíce těch, kteří měli jméno jeho i jméno Otce jeho napsáno na čelech svých. A uslyšel jsem hlas s nebe jako hukot mnoha vod a jako rachot velikého hromu, a ten hlas, který jsem uslyšel, byl jako hlas citerních pěvců, kteří hrají na své citery. I zpívali jako píseň novou před trůnem a před čtyřmi živočichy a před starci, a nikdo nemohl se naučiti té písni leč ony sto čtyřicet čtyři tisíce, kteří jsou vykoupení ze země. To jsou ti, kteří se neposkvrnili s ženami, neboť jsou panici; ti jsou to, kteří následují Beránka, kamkoli jde. Oni byli koupení z lidí jako prvotiny pro Boha a pro Beránka, a v ústech jejich lež se nenalezla, neboť jsou bez poskvrny před trůnem Božím.",
+        "Cesky-Schaller": "V těch dnech viděl jsem, a hle, Beránek stál na hoře Sionu, a s ním sto čtyřicet čtyři tisíce těch, kteří měli jméno jeho i jméno Otce jeho napsáno na čelech svých. A uslyšel jsem hlas s nebe jako hukot mnoha vod a jako rachot velikého hromu, a ten hlas, který jsem uslyšel, byl jako hlas citerních pěvců, kteří hrají na své citery. I zpívali jako píseň novou před trůnem a před čtyřmi živočichy a před starci, a nikdo nemohl se naučiti té písni leč ony sto čtyřicet čtyři tisíce, kteří jsou vykoupení ze země. To jsou ti, kteří se neposkvrnili s ženami, neboť jsou panici; ti jsou to, kteří následují Beránka, kamkoli jde. Oni byli koupení z lidí jako prvotiny pro Boha a pro Beránka, a v ústech jejich lež se nenalezla, neboť jsou bez poskvrny před trůnem Božím.",
+        "Francais": "En ces jours là : Je vis l’Agneau qui se tenait sur la montagne de Sion, et avec lui cent quarante-quatre mille personnes, qui avaient son nom et le nom de son Pére écrits sur le front. Et j’entendis un son qui venait du ciel, pareil au bruit de grandes eaux et à la vois d’un puissant tonnerre ; et le son que j’entendis ressemblait à un concert de harpistes jouant de leurs instruments. Et ils chantaient comme un cantique nouveau devant le trône, et devant les quatre animaux et les vieillards ; et nul ne pouvait apprendre ce cantique, si ce n’est les cent quarante-quatre mille qui ont été rachetés de la terre. Ce sont ceux qui ne se sont pas souillés avec des femmes, car ils sont vierges. Ce sont eux qui accompagnent l’Agneau partout où il va. Ils ont été rachetés d’entre les hommes, comme des prémices pour Dieu et pour l’Agneau ; et il ne s’est point trouvé de mensonge dans leur bouche, car ils sont irréprochables.",
+        "Italiano": "Poi guardai, e vidi l'Agnello che stava sul monte Sion e con lui centoquarantaquattromila persone che avevan scritto in fronte il Nome di Lui e quello del suo Padre. E udii venir dal cielo un suono simile al rumore di molte acque e al rombo di gran tuono, e il suono che sentivo era come un concerto di arpisti che suonino i loro strumenti. E cantavano come un cantico nuovo dinanzi al trono, dinanzi ai quattro viventi e ai vegliardi, cantico che nessuno poteva imparare, se non quei centoquarantaquattromila riscattati dalla terra: quelli cioè che non si sono macchiati con donne, essendo vergini. Essi seguono l'Agnello dovunque vada; essi furon riscattati di fra gli uomini, primizie a Dio e all'Agnello; né fu trovata menzogna nella loro bocca; e sono senza macchia davanti al trono di Dio.",
+        "Magyar": "S láttam a Bárányt, ott állt Sion hegyén, és vele száznegyvennégyezer, aki viselte az ő és Atyjának homlokára írt nevét.  Aztán szózatot hallottam az égből, mint nagy vizek zúgását vagy szörnyű mennydörgés robaját. A szózat, amelyet hallottam, emlékeztetett arra, ahogyan a hárfások pengetik hárfájukat.  Új éneket énekeltek a trón előtt, a négy élőlény és a vének előtt. Az éneket senki sem tudta megtanulni, csak a földről megváltott száznegyvennégyezer.  Ezek azok, akik asszonnyal nem szennyezték be magukat, szüzek maradtak és mindenüvé követték a Bárányt, bárhová ment. Ők a megváltottak az emberek közül, az Isten és a Bárány első termése.  Ajkukon nincs hazugság: szeplőtelenek.",
+        "Nederlands": "In die dagen zag ik het Lam staan op de berg Sion en met Hem honderd vier en veertig duizend, die zijn naam en de naam van zijn Vader geschreven droegen op hun voorhoofd. En ik hoorde een stem uit de hemel als het gebruis van vele wateren en als het geluid van een hevig onweer; en de stem, die ik hoorde, was als van citherspelers, die spelen op hun cithers. En zij zongen vóór de Troon en de Vier Dieren en de Ouderlingen als een nieuw lied, en niemand was bij machte dat lied te zingen behalve die honderd vier en veertig duizend, die vrijgekocht zijn van de aarde. Dat zijn degenen, die zich niet met vrouwen hebben besmet; want zij zijn maagden. Zij volgen het Lam, waarheen Het ook gaat. Zij zijn vrijgekocht uit de mensen als eerstelingen voor God en het Lam; en in hun mond werd geen leugen gevonden; want zonder smet zijn zij voor de troon van God.",
+        "Polski": "W one dni widziałem Baranka stojącego na górze Syjon, a wraz z Nim sto czterdzieści cztery tysiące tych, którzy mają imię Jego i imię Ojca Jego napisane na czołach. I usłyszałem głos z nieba, niby głos wielu wód i niby huk wielkiego gromu, a ton, który dał się słyszeć, podobny był do tonu cytrzystów grających na cytrach. A śpiewali jakby nową pieśń przed tronem i przed czterema zwierzętami, i starszymi. A nikt nie mógł śpiewać onej pieśni, jeno one sto czterdzieści i cztery tysiące, którzy byli wykupieni z ziemi. To są ci, którzy nie pokalali się z niewiastami, bo dziewicami są. Podążają oni za Barankiem, dokądkolwiek idzie. Są oni wykupionymi z ludzi pierwocinami Bogu i Barankowi. W ustach ich nie postało kłamstwo, albowiem są nienaganni przed tronem Bożym.",
+        "Portugues": "Naqueles dias, vi o Cordeiro de pé sobre a montanha de Sião e com ele cento e quarenta e quatro mil pessoas, que tinham o seu nome e o nome de seu Pai escritos na fronte, e ouvi uma voz do céu, semelhante ao murmúrio de muitas águas e ao ruído de um grande trovão. Essa voz era como que o som de muitas harpas dedilhadas por um coro de músicos! E cantavam um cântico novo diante do trono de Deus, em presença dos quatro animais e dos anciãos, não podendo ninguém mais cantar este cântico senão os cento e quarenta e quatro mil que haviam sido resgatados da terra. Estes são os que se não mancharam com mulheres, pois são virgens; estes são os que acompanham o Cordeiro a qualquer lugar onde Ele vá; estes são os que foram resgatados entre os homens, para serem oferecidos como primícias a Deus e ao Cordeiro, não tendo eles nunca procedido falsamente, pois foram julgados sem mancha diante do trono de Deus."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) A(dd)ni(d)ma(d) no(ded//d'd)stra,(d_b/dec'/deb'/cbba.) <clear>*(;) sic(d)ut(f) pas(hf/hhh)ser,(h.) (,) e(h_g/i!jwk)ré(i_h)pta(h) est(hihh/fgf.) (;) de(h_f) lá(h)que(hi)o(i) ve(ihhf)nán(gxhfgED')ti(d!f'h)um.(gyhighf.) (,) (de/f!hh/ijghf.gxegFD.1) (::) <sp>V/</sp>. Lá(d)que(gxf)us(fh/ih/i_hivFD'//fh.ivFD'f!hfg.) (,) (fh/ih/i_h//ivFD'e_d.0ddd!f_h/ijh.1) (,) con(hi'j)trí(i_h)tus(h) est,(hg/i_hjvIH'Ghf..) (:) et(hh) nos(h) li(h)be(h)rá(ih/ij_h ih/ij_ij//hi/jij)ti(jh/jkihhf.) (,) su(hf/hhh)mus :(h.f!gwh!iv.hi/jhh/iih.0) (:) ad(hhi)ju(h)tó(hi)ri(h)um(hf~) no(hi)strum(h.) (,) in(hf~) nó(hi)mi(h)ne(hh) Dó(hih/ihjvIG'hvF'Ef!hhivHG)mi(hg)ni,(h.) (;) qui(hh) fe(h)cit(h) cae(ivHF)lum(f.) *(,) et(f!h'i) ter(hgiHF)ram.(f.//de/f!hh/ijghf.gxegFD.1) (::)",
+      "availableTranslations": {
+        "English": "We were rescued like a bird from the fowlers’ snare. Broken was the snare, and we were freed. Our help is in the name of the Lord, Who made heaven and earth.",
+        "Bohemice": "Duše naše vyvázla jako ptáče z osidla lovců. Osidlo se přetrhlo a my jsme osvobozeni. Pomoc naše ve jménu Páně, jenž stvořil nebe a zemi. Aleluja, aleluja. Chvalte, hoši, Pána, chvalte jméno Hospodinovo. Aleluja.",
+        "Cesky-Schaller": "Duše naše vyvázla jako ptáče z osidla lovců. Osidlo se přetrhlo a my jsme osvobozeni. Pomoc naše ve jménu Páně, jenž stvořil nebe a zemi. Aleluja, aleluja. Chvalte, hoši, Pána, chvalte jméno Hospodinovo. Aleluja.",
+        "Francais": "Notre âme s’est échappée comme un passereau du filet des chasseurs. Le filet a été brisé et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia. Louez le Seigneur, vous ses serviteurs, louez le nom du Seigneur. Alléluia.",
+        "Italiano": "L'anima nostra come passero è sfuggita al laccio del cacciatore. Il laccio si spezzò, e noi siamo stati liberati. II nostro aiuto è nel nome del Signore, Egli ha fatto cielo e terra. Alleluia, alleluia",
+        "Magyar": "Megszabadultunk, mint a madár a vadászok tőréből Összetört a tőr és mi megszabadultunk. Segítségünk az Úr nevében van, ki az eget és a földet alkotta. Alleluja, alleluja! Dicsérjétek az Urat, gyermekek, dicsérjétek az Úr nevét. Alleluja!",
+        "Nederlands": "Als een mus zijn wij ontsnapt aan de strik der vogelaars. De strik is verbroken en wij zijn bevrijd! Onze hulp is in de Naam des Heren, die hemel en aarde gemaakt heeft. Alleluia, alleluia.",
+        "Polski": "Dusza nasza niby ptak wyrwała się z sidła łowców. Sidło się podarło, a my zostaliśmy uwolnieni. Wspomożenie nasze w imieniu Pana, który stworzył niebo i ziemię. Alleluja, alleluja. Chwalcie, o dziatki, Pana, chwalcie imię Pańskie. Alleluja.",
+        "Portugues": "A nossa alma escapou-se, como um pássaro do laço do caçador. O laço quebrou-se, e ficámos livres. A nossa esperança está no nome do Senhor, que criou o céu e a terra. Aleluia, aleluia. Ó meninos, louvai o Senhor; louvai o seu santo Nome. Aleluia."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(d!ff)le(ef)lú(ghG'Fg_h){ia}.(hjH'G) <clear>*(,) <i>ij.</i>(h_dev.fg/h_g h_dev.fg!hvGF'hgge.) (::) <sp>V/</sp>. Lau(h)dá(h)te(ixg'ivHG'hffe.) (,) pú(fd/ef!ghhg)e(fg)ri(g.) (,) Dó(gh)mi(g)num,(ghghf.) (:) lau(ed~)dá(e/gefhvGFhvGFgf)te(e.) (,) no(ef'g)men(gdf.) *() Dó(ef'g)mi(f!hgh)ni.(hjH'G) (,) (h_dev.fg/h_g h_dev.fg!hvGF'hgge.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. Praise the Lord, you children, praise the name of the Lord. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Lodate, o bimbi, il Signore; lodate il nome del Signore. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Looft de Heer, gij, zijn dienaren, looft de Naam des Heren. Alleluia."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(d!ff)le(ef)lú(ghG'Fg_h){ia}.(hjH'G) <clear>*(,) <i>ij.</i>(h_dev.fg/h_g h_dev.fg!hvGF'hgge.) (::) <sp>V/</sp>. Lau(h)dá(h)te(ixg'ivHG'hffe.) (,) pú(fd/ef!ghhg)e(fg)ri(g.) (,) Dó(gh)mi(g)num,(ghghf.) (:) lau(ed~)dá(e/gefhvGFhvGFgf)te(e.) (,) no(ef'g)men(gdf.) *() Dó(ef'g)mi(f!hgh)ni.(hjH'G) (,) (h_dev.fg/h_g h_dev.fg!hvGF'hgge.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. Praise the Lord, you children, praise the name of the Lord. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Lodate, o bimbi, il Signore; lodate il nome del Signore. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Looft de Heer, gij, zijn dienaren, looft de Naam des Heren. Alleluia."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(fg~)le(g)lú(hghvGFhh){ia}.(g.) *(;) <i>ij.</i>(gj/ki/jh/ijHG.) (,) (gj/ki/jh/ijHG.) (,) (gji'___/jkkvJH'Gh_ihhg.) (::) <sp>V/</sp>. San(fg~)cti(g) tu(hghvGF)i,(hhg) Dó(h!iwjjvIH'G)mi(fg)ne,(g.) (;) flo(g)ré(i_0jk)bunt(jji) sic(hg)ut(hih') lí(g)li(fg)um :(g.) (:) et(g) sic(ih)ut(jk) o(kvvJH'Gh/ii//kvvJH'G)dor(hih') bál(g)sa(fg)mi(g.) (:) e(ghghvGFhh)runt(g.) *(,) an(fg~)te(ghghvGFhh) te.(g.) (;) (gj/ki/jh/ijHG.) (,) (gj/ki/jh/ijHG.) (,) (gji'___/jkkvJH'Gh_ihhg.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. Praise the Lord, you children, praise the name of the Lord. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Lodate, o bimbi, il Signore; lodate il nome del Signore. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Looft de Heer, gij, zijn dienaren, looft de Naam des Heren. Alleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) A(dd)ni(d)ma(d) no(ded//d'd)stra,(d_b/dec'/deb'/cbba.) <clear>*(;) sic(d)ut(f) pas(hf/hhh)ser,(h.) (,) e(h_g/i!jwk)ré(i_h)pta(h) est(hihh/fgf.) (;) de(h_f) lá(h)que(hi)o(i) ve(ihhf)nán(gxhfgED')ti(d!f'h)um.(gyhighf.) (,) (de/f!hh/ijghf.gxegFD.1) (::) <sp>V/</sp>. Lá(d)que(gxf)us(fh/ih/i_hivFD'//fh.ivFD'f!hfg.) (,) (fh/ih/i_h//ivFD'e_d.0ddd!f_h/ijh.1) (,) con(hi'j)trí(i_h)tus(h) est,(hg/i_hjvIH'Ghf..) (:) et(hh) nos(h) li(h)be(h)rá(ih/ij_h ih/ij_ij//hi/jij)ti(jh/jkihhf.) (,) su(hf/hhh)mus :(h.f!gwh!iv.hi/jhh/iih.0) (:) ad(hhi)ju(h)tó(hi)ri(h)um(hf~) no(hi)strum(h.) (,) in(hf~) nó(hi)mi(h)ne(hh) Dó(hih/ihjvIG'hvF'Ef!hhivHG)mi(hg)ni,(h.) (;) qui(hh) fe(h)cit(h) cae(ivHF)lum(f.) *(,) et(f!h'i) ter(hgiHF)ram.(f.//de/f!hh/ijghf.gxegFD.1) (::)",
+      "availableTranslations": {
+        "English": "We were rescued like a bird from the fowlers’ snare. Broken was the snare, and we were freed. Our help is in the name of the Lord, Who made heaven and earth.",
+        "Bohemice": "Duše naše vyvázla jako ptáče z osidla lovců. Osidlo se přetrhlo a my jsme osvobozeni. Pomoc naše ve jménu Páně, jenž stvořil nebe a zemi. Aleluja, aleluja. Chvalte, hoši, Pána, chvalte jméno Hospodinovo. Aleluja.",
+        "Cesky-Schaller": "Duše naše vyvázla jako ptáče z osidla lovců. Osidlo se přetrhlo a my jsme osvobozeni. Pomoc naše ve jménu Páně, jenž stvořil nebe a zemi. Aleluja, aleluja. Chvalte, hoši, Pána, chvalte jméno Hospodinovo. Aleluja.",
+        "Francais": "Notre âme s’est échappée comme un passereau du filet des chasseurs. Le filet a été brisé et nous avons été délivrés ; notre secours est dans le nom du Seigneur qui a fait le ciel et la terre. Alléluia, alléluia. Louez le Seigneur, vous ses serviteurs, louez le nom du Seigneur. Alléluia.",
+        "Italiano": "L'anima nostra come passero è sfuggita al laccio del cacciatore. Il laccio si spezzò, e noi siamo stati liberati. II nostro aiuto è nel nome del Signore, Egli ha fatto cielo e terra. Alleluia, alleluia",
+        "Magyar": "Megszabadultunk, mint a madár a vadászok tőréből Összetört a tőr és mi megszabadultunk. Segítségünk az Úr nevében van, ki az eget és a földet alkotta. Alleluja, alleluja! Dicsérjétek az Urat, gyermekek, dicsérjétek az Úr nevét. Alleluja!",
+        "Nederlands": "Als een mus zijn wij ontsnapt aan de strik der vogelaars. De strik is verbroken en wij zijn bevrijd! Onze hulp is in de Naam des Heren, die hemel en aarde gemaakt heeft. Alleluia, alleluia.",
+        "Polski": "Dusza nasza niby ptak wyrwała się z sidła łowców. Sidło się podarło, a my zostaliśmy uwolnieni. Wspomożenie nasze w imieniu Pana, który stworzył niebo i ziemię. Alleluja, alleluja. Chwalcie, o dziatki, Pana, chwalcie imię Pańskie. Alleluja.",
+        "Portugues": "A nossa alma escapou-se, como um pássaro do laço do caçador. O laço quebrou-se, e ficámos livres. A nossa esperança está no nome do Senhor, que criou o céu e a terra. Aleluia, aleluia. Ó meninos, louvai o Senhor; louvai o seu santo Nome. Aleluia."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) EF(f)fu(f)dé(fg!hvhg)runt(hggf!gw!h!ghvGFgf..) (,) *() sán(gjjk)gui(h)nem(hg/hf//h!jhj) san(jvIH'iw!jvI'HG'h)ctó(ghg___)rum,(g.) (;) vel(gh)ut(g) a(h_g/h!iwj)quam,(ghf.1) (,) in(gh) cir(gh)cú(g)i(g)tu(h_g/h!iwj) Je(g_f)rú(g)sa(h)lem.(j./kjjg/j./kjj'jj/kjjh) (,) (ji/jjvI'G//hjhjvHF.1) (,) (gh!jvvI'G//hjHF'g/hhg.) (::) \r\n<sp>V/</sp>. Et(g) non(g) e(g!hwi'!jv)rat(j.) (,) qui(j) se(jkjj'j/kjjh)(,)(ji/jjvI'G//hjhjvHF.g.h!iwj)pe(k)lí(jv.ikjjv'1jvIG'h/jjhjvHF'g)ret.(g/hhg.) (::) \r\n<sp>V/</sp>. Vín(gd~)di(g)ca,(gh'j) Dó(jjjvIH')mi(jhhg)ne,(g_h) (,) sán(h)gui(h)nem(h/jjh) san(gf)ctó(ghg)rum(h_g) (,) (ixi_hivGF.g/hg/hg/hg/jjh/jggf.0) (,) tu(gh/jij)ó(j.h!iwj)rum,(jjjvIHivHGhg..) (:) qui(g) ef(g)fú(h_g/h!iwj)sus(gh) est(g_f) *(,) su(f!h'j)per(j) ter(i_0/jhhg/hggfg.)(,)(jjjkvJ'IH'hg)ram.(ghGF.) (,) (h!iwjijjh/ihhg.) (::)",
+      "availableTranslations": {
+        "Bohemice": "Vylili krev Svatých jako vodu kolem Jerusalema. A nebyl, kdo by je pochoval. Pomsti, Pane, krev svých Svatých, která byla vylita na zemi.",
+        "Cesky-Schaller": "Vylili krev Svatých jako vodu kolem Jerusalema. A nebyl, kdo by je pochoval. Pomsti, Pane, krev svých Svatých, která byla vylita na zemi.",
+        "Francais": "Ils ont répandu le sang des Saints comme de l’eau autour de Jérusalem. Et il n’y avait personne pour les ensevelir. V.Vengez, Seigneur, le sang de vos Saints qui a été répandu sur la terre.",
+        "Italiano": "Hanno sparso il sangue dei Santi come acqua intorno a Gerusalemme, e non c'è stato alcuno che li seppellisse E non c’è stato alcuno che li seppellisse Vendica, o Signore, il sangue dei tuoi Santi, che è stato sparso sulla terra.",
+        "Magyar": "Kiöntötték a szentek vérét Jeruzsálem körül, akárcsak a vizet. És nem akadt, ki eltemette volna őket. Bosszuld meg, Uram, szenteidnek vérét, mely kiontatott a földre.",
+        "Nederlands": "Zij hebben het bloed der heiligen als water vergoten rondom Jeruzalem. En niemand was er om hen te begraven. Wreek, Heer, het bloed van uw heiligen, dat over de aarde uitgestort werd.",
+        "Polski": "Krew Świętych rozlali jak wodę wokół Jeruzalem. I nie było komu pogrzebać. Pomścij, o Panie, krew Świętych Twoich, którą wylano na ziemi.",
+        "Portugues": "Derramaram o sangue dos Santos, como água, em redor de Jerusalém. E não houve ninguém que os sepultasse. Vingai, Senhor, o sangue dos vossos Santos que correu pela terra."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Angelus Dómini appáruit in somnis Joseph, dicens: Surge, et áccipe Púerum et Matrem ejus, et fuge in Ægýptum, et esto ibi, usque dum dicam tibi. Futúrum est enim, ut Heródes quærat Púerum ad perdéndum eum. Qui consúrgens accépit Púerum et Matrem ejus nocte, et secéssit in Ægýptum: et erat ibi usque ad óbitum Heródis: ut adimplerétur quod dictum est a Dómino per Prophétam dicéntem: Ex Ægýpto vocávi Fílium meum. Tunc Heródes videns, quóniam illúsus esset a Magis, irátus est valde, et mittens occídit omnes púeros, qui erant in Béthlehem et in ómnibus fínibus ejus, a bimátu et infra, secúndum tempus, quod exquisíerat a Magis. Tunc adimplétum est, quod dictum est per Jeremíam Prophetam dicéntem: Vox in Rama audíta est, plorátus et ululátus multus: Rachel plorans fílios suos, et nóluit consolári, quia non sunt.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, an angel of the Lord appeared in a dream to Joseph, saying, Arise, and take the Child and His mother, and flee into Egypt, and remain there until I tell you. For Herod will seek the Child to destroy Him. So he arose, and took the Child and His mother by night, and withdrew into Egypt, and remained there until the death of Herod; that what was spoken by the Lord through the prophet might be fulfilled, Out of Egypt I called My Son. Then Herod, seeing that he had been tricked by the Magi, was exceedingly angry; and he sent and slew all the boys in Bethlehem and all its neighborhood who were two years old or under, according to the time that he had carefully ascertained from the Magi. Then was fulfilled what was spoken through Jeremias the prophet. A voice was heard in Rama, weeping and loud lamentation; Rachel weeping for her children, and she would not be comforted, because they are no more.",
+        "Bohemice": "Za onoho času anděl Páně ukázal se ve snách Josefovi a řekl: „Vstaň a vezmi dítě i matku jeho a utec do Egypta, a buď tam, až povím tobě; neboť Herodes bude hledati dítěte, aby je zahubil.“ On pak vstav, vzal dítko i matku jeho v noci a odešel do Egypta, a byl tam až do smrti Herodovy, aby se naplnilo, co bylo pověděno od Pána skrze proroka řkoucího: „Z Egypta povolal jsem syna svého.“ Tu Herodes vida, že byl oklamán od mudrců, rozhněval se náramně a poslav vojíny, dal usmrtiti všecka pacholata, která byla v Betlemě i ve všech končinách jeho ode dvou let a níže podle času, který byl vyzvěděl na mudrcích. Tehdy se naplnilo, co bylo pověděno skrze proroka Jeremiáše řkoucího: „Hlas v Rámě slyšen jest, pláč a kvílení mnohé; Ráchel plakala synů svých; a nedávala se potěšiti, poněvadž jich není.“",
+        "Cesky-Schaller": "Za onoho času anděl Páně ukázal se ve snách Josefovi a řekl: „Vstaň a vezmi dítě i matku jeho a utec do Egypta, a buď tam, až povím tobě; neboť Herodes bude hledati dítěte, aby je zahubil.“ On pak vstav, vzal dítko i matku jeho v noci a odešel do Egypta, a byl tam až do smrti Herodovy, aby se naplnilo, co bylo pověděno od Pána skrze proroka řkoucího: „Z Egypta povolal jsem syna svého.“ Tu Herodes vida, že byl oklamán od mudrců, rozhněval se náramně a poslav vojíny, dal usmrtiti všecka pacholata, která byla v Betlemě i ve všech končinách jeho ode dvou let a níže podle času, který byl vyzvěděl na mudrcích. Tehdy se naplnilo, co bylo pověděno skrze proroka Jeremiáše řkoucího: „Hlas v Rámě slyšen jest, pláč a kvílení mnohé; Ráchel plakala synů svých; a nedávala se potěšiti, poněvadž jich není.“",
+        "Francais": "En ce temps là : voici qu’un ange du Seigneur apparut en songe à Joseph et lui dit : « Lève toi, prends l’enfant et sa mère, fuis en Egypte et restes-y jusqu’à ce que je t’avertisse ; car Hérode va rechercher l’enfant pour le faire périr.» Et lui se leva, prit l’enfant et sa mère de nuit et se retira en Egypte. Et il y resta jusqu’à la mort d’Hérode, afin que s’accomplît ce qu’avait dit le Seigneur par le prophète : J’ai rappelé mon fils d’Egypte. Alors Hérode, voyant que les mages s’étaient joués de lui, entra dans une grande colère, et il envoya tuer tous les enfants qui étaient à Bethléem et dans tout son territoire, depuis l’âge de deux ans et au-dessous, d’après le temps qu’il connaissait exactement par les mages. Alors fut accompli l’oracle du prophète Jérémie disant : Une voix a été entendue en Rama, des plaintes et des cris lamentables : Rachel pleure ses enfants ; et elle n’a pas voulu être consolée, parce qu’ils ne sont plus.",
+        "Italiano": "Partiti i Magi, ecco un Angelo del Signore apparire a Giuseppe in sogno e dirgli: «Levati, prendi il bambino e sua madre, e fuggi in Egitto; e resta là finché non t'avviserò, perché Erode cercherà del bambino per farlo morire». Egli, alzatosi, durante la notte, prese il bambino e la madre di lui e si ritirò in Egitto, ove stette fino alla morte cii Erode, affinché si adempisse quanto era stato detto dal Signore per il profeta: «Dall'Egitto ho richiamato il mio Figlio». Allora Erode, vedendosi burlato dai Magi, s'irritò grandemente e mandò ad uccidere tutti i fanciulli maschi che erano in Betlemme e in tutti·i suoi dintorni, dai due anni in giù, secondo il tempo che aveva rilevato dai Magi. Allora si adempì ciò che era stato detto per bocca del profeta Geremia: «Un grido si è udito in Rama di gran pianto e lamento: Rachele che piange i figli suoi, e non vuole esser consolata, perché non ci sono più».",
+        "Magyar": "Azután, hogy elmentek, megjelent Józsefnek álmában az Úr angyala, s ezt mondta neki: „Kelj föl, fogd a gyermeket és anyját, menekülj Egyiptomba, s maradj ott, amíg nem szólok, mert Heródes keresi a gyermeket, meg akarja ölni.”  Fölkelt, s még akkor éjszaka fogta a gyermeket és anyját, és elmenekült Egyiptomba.  Ott maradt Heródes haláláig. Így beteljesedett, amit a próféta szavával mondott az Úr: „Egyiptomból hívtam az én fiamat.”  Amikor Heródes látta, hogy a bölcsek kijátszották, haragra lobbant, és Betlehemben meg a környékén, minden fiúgyermeket megöletett, kétéves korig, a bölcsektől megtudott időnek megfelelően.  Így beteljesedett, amit Jeremiás próféta jövendölt:  Kiáltozás hallik Rámában, keserves sírás és jajgatás: Ráchel siratja fiait, s nem akar vigasztalódni, mert nincsenek többé.",
+        "Nederlands": "In die tijd verscheen er aan Jozef in de slaap een engel des Heren en deze sprak: Sta op, en neem het Kind en zijn moeder, en vlucht naar Egypte, en blijf daar, totdat ik het u zal zeggen. Want Herodes gaat het Kind zoeken, om Het te doden. Toen stond hij op in de nacht, nam het Kind en zijn moeder en trok naar Egypte. En daar bleef hij tot de dood van Herodes. Zo moest vervuld worden, wat de Heer door de profeet gesproken had: “Uit Egypte heb Ik mijn Zoon geroepen.” Toen Herodes nu zag, dat hij door de Wijzen misleid was, werd hij ten zeerste vertoornd, en hij liet al de knaapjes ombrengen, die er te Bethlehem en heel de omtrek waren van twee jaar en daaronder, overeenkomstig de tijd, die hij van de Wijzen had weten te achterhalen. Toen ging in vervulling, wat er gesproken was door Jeremias de profeet: “In Rama werd een stem gehoord, een groot geween en luid gekerm: Rachel, die om haar kinderen schreit, en zich niet wil laten troosten, omdat zij er niet meer zijn.”",
+        "Polski": "Onego czasu: Anioł Pański ukazał się we śnie Józefowi mówiąc: «Wstań, a weźmij Dziecię i Matkę Jego i uchodź do Egiptu. A pozostań tam, aż ci oznajmię. Albowiem stanie się, że Herod szukać będzie Dziecięcia, aby Je zgładzić». A on powstał, wziął Dziecię i Matkę Jego w nocy i uszedł do Egiptu. I pozostał tam aż do śmierci Heroda, aby się spełniło, co powiedziane jest od Pana przez Proroka, mówiącego: «Z Egiptu wezwałem Syna mojego». Wtedy Herod widząc, że go Mędrcy zawiedli, rozgniewał się bardzo i posławszy pozabijał wszystkie dzieci, które były w Betlejem i we wszystkich granicach jego, w wieku od dwóch lat i niżej według czasu, o który się był pytał Mędrców. Wówczas wypełniło się, co jest powiedziane przez Jeremiasza proroka, mówiącego: «Głos usłyszano w Rama, płacz i jęk wielki: Rachel opłakująca synów swoich, i nie chciała się dać pocieszyć, bo ich nie ma».",
+        "Portugues": "Naquele tempo, um Anjo do Senhor apareceu em sonhos a José, dizendo-lhe: «Ergue-te, toma o Menino e a sua Mãe e foge para o Egipto, onde ficarás até que novamente te avise; pois Herodes procura o Menino para O matar». Então José, ainda de noite, levantou-se e tomou o Menino, assim como sua Mãe, conduzindo-os para o Egipto, onde permaneceram até à morte de Herodes. E assim se cumpriu o que o Senhor anunciara pelo Profeta: «Chamei o meu Filho do Egipto». Entretanto, Herodes, vendo que os Magos o tinham iludido, encolerizou-se e mandou matar todos os meninos, que havia em Belém e nos arredores, desde a idade de dois anos para baixo, segundo o tempo que ele inquirira diligentemente dos Magos. Deste modo se cumpriu o que dissera o profeta Jeremias: «Uma voz se ouviu em Rama: muitos soluços e lamentações. É Raquel que chora os seus filhos; e ela não quer ser consolada, porque já não existem!»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) A(ce)ni(ef)ma(f) *() no(f/hhh_f/hjIH'ihh'hhvF'Ef!gwhf)stra,(f.) (;) sic(f!hfh)ut(ef) pas(f!gwh/ih)ser,(f!hfh.) (,) e(ef)ré(hi)pta(ij) est(kxhj/kjji.) (;) de(kxh.i!jwk_j) lá(jji)que(ih)o(h!iwjihh/fgf.) (,) ve(hhi)nán(kxjkij)ti(h_f)um :(fhF'Ef.) (:) lá(fh)que(hhh//hv.hhh)us(fh) con(hih)trí(hi)tus(kxi./jki) est,(h.) (:) et(iv.hhhi) nos(ijhh/fgf.) (,) li(h_g)be(gihh)rá(iv.hjIH'hf/hih)ti(hv.hhh//hv.hhh) (,) su(f)mus.(f!hhh_f/hhh/f_g_f._) (::)",
+      "availableTranslations": {
+        "English": "We were rescued like a bird from the fowlers’ snare. Broken was the snare and we were freed.",
+        "Bohemice": "Duše naše unikla jako ptáče z osidla lovců. Osidlo se přetrhlo a my jsme vysvobozeni.",
+        "Cesky-Schaller": "Duše naše unikla jako ptáče z osidla lovců. Osidlo se přetrhlo a my jsme vysvobozeni.",
+        "Francais": "Notre âme s’est échappée comme un passereau du filet des chasseurs. Le filet a été brisé et nous avons été délivrés.",
+        "Italiano": "L'anima nostra come passero è sfuggita al laccio del cacciatore; il laccio si spezzò e noi fummo liberi.",
+        "Magyar": "Megszabadultunk, mint a madár a vadászok tőréből: összetört a tőr, és mi megszabadultunk.",
+        "Nederlands": "Anima nostra, sicut passer, erépta est de láqueo venántium: láqueus contrítus est, et nos liberáti sumus.",
+        "Polski": "Dusza nasza niby ptak wyrwała się z sidła łowców. Sidło się podarło, a my zostaliśmy uwolnieni.",
+        "Portugues": "A nossa alma escapou-se, como um pássaro do laço do caçador. O laço quebrou-se, e ficámos livres."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Sanctórum tuórum, Dómine, nobis pia non desit orátio: quæ et múnera nostra concíliet, et tuam nobis indulgéntiam semper obtíneat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let not the gracious prayer of Your saints fail us, O Lord, but may it make our offerings acceptable to You and obtain for us Your mercy.",
+        "Bohemice": "Ať nám nechybí, Pane, přímluva tvých Svatých, která nechť i dary naše doporučí i tvé odpuštění nám vždycky zjednává.",
+        "Cesky-Schaller": "Ať nám nechybí, Pane, přímluva tvých Svatých, která nechť i dary naše doporučí i tvé odpuštění nám vždycky zjednává.",
+        "Francais": "Seigneur, que la pieuse intercession de vos Saints ne nous fasse point défaut, qu’elle vous rende nos dons agréables et qu’elle nous obtienne sans cesse votre miséricorde.",
+        "Italiano": "Non ci manchi, o Signore, la pia preghiera dei tuoi santi, che renda gradita la nostra offerta e ci ottenga sempre la tua clemenza.",
+        "Magyar": "Szenteidnek jámbor könyörgése legyen velünk, Urunk, hogy ez adományainkat kedvesekké tegye előtted, és bocsánatodat is mindenkor megszerezze nekünk.",
+        "Nederlands": "Laat ons, Heer, de liefdevolle voorbede van uw heiligen niet ontbreken, opdat hij onze gaven bij U aanbevele en ons voortdurend vergeving verwerve.",
+        "Polski": "Niechaj nie braknie nam, Panie, pobożnej modlitwy Świętych Twoich: niech ona uczyni miłymi nasze dary, a nam zawsze wyjedna Twoje przebaczenie.",
+        "Portugues": "Não nos falte, Senhor, a pia oração dos vossos Santos e que ela Vos torne agradáveis as nossas ofertas e sempre nos alcance a vossa indulgência."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) VOX(ii) in(h) Ra(hi)ma(i) *() au(ih~)dí(ij)ta(j) est,(i.) (;) plo(i)rá(iih)tus(g) et(h) u(i)lu(gh)lá(gh)tus :(g.) (:) Ra(i)chel(i.h!iwj_i) plo(g!igh)rans(h_g) fí(i)li(h)os(gh) su(f_g_e_)os,(e.) (:) nó(ggh)lu(f!gwh)it(he) con(hhhf~)so(h)lá(hi)ri,(g.) (;) qui(iihivHGh.f!gwh'!iv)a(g) non(efe~___) sunt.(e.) (::)",
+      "availableTranslations": {
+        "English": "A voice was heard in Rama, weeping and loud lamentation; Rachel weeping for her children, and she would not be comforted, because they are no more.",
+        "Bohemice": "Hlas v Rámě je slyšen, pláč a kvílení: Ráchel oplakávala syny své, a nedávala se potěšit, poněvadž jich není.",
+        "Cesky-Schaller": "Hlas v Rámě je slyšen, pláč a kvílení: Ráchel oplakávala syny své, a nedávala se potěšit, poněvadž jich není.",
+        "Francais": "Une voix a été entendue en Rama, des plaintes et des cris lamentables : Rachel pleure ses enfants ; et elle n’a pas voulu être consolée, parce qu’ils ne sont plus.",
+        "Magyar": "Szózat hallatszék Rámában, sírás és jajgatás: Ráchel siratta fiait és nem akart vigasztalódni, mert nincsenek.",
+        "Nederlands": "Een stem is in Rama gehoord, geween en geschrei: Rachel beweende haar kinderen en wilde niet getroost worden, omdat zij niet meer waren.",
+        "Polski": "Głos usłyszano w Rama, płacz i jęk wielki: Rachel opłakująca synów swoich, i nie chciała się dać pocieszyć, bo ich nie ma.",
+        "Portugues": "Uma voz se ouviu em Rama: muitos soluços e lamentações. É Raquel que chora os seus filhos; e ela não quer ser consolada, porque já não existem!"
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Votíva, Dómine, dona percépimus: quæ Sanctórum nobis précibus, et præséntis, quǽsumus, vitæ páriter et ætérnæ tríbue conférre subsídium.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "We have partaken, O Lord, of the dedicated gifts: may they, we beseech You, help us through the intercession of Your saints both for this life and life eternal.",
+        "Francais": "Nous avons reçu, Seigneur, les dons que vous nous avions présentés ; nous vous en supplions, daignez nous accorder, grâce aux prières de vos saints, votre assistance pour la vie présente ainsi que pour la vie éternelle.",
+        "Italiano": "Abbiamo partecipato, o Signore, ai tuoi santi doni: da essi, per le preghiere dei tuoi martiri, venga a noi l'aiuto per la vita presente e per la vita eterna.",
+        "Magyar": "Magunkhoz vettük az adományokat és kérünk, Urunk, engedd, hogy azok a szentek esedezései által nekünk mind a jelen, mind az örök életre egyaránt segítségül szolgáljanak.",
+        "Nederlands": "Wij hebben, Heer, de gewijde gaven genuttigd; wij vragen U, zorg dat zij ons door de gebeden van uw heiligen steun geven, zowel voor dit als voor het eeuwige leven.",
+        "Polski": "Spożyliśmy, Panie, poświęcone Tobie dary. Spraw, prosimy, aby dzięki modlitwom Twoich Świętych przyniosły nam pomoc w życiu doczesnym i przyszłym.",
+        "Portugues": "Havendo nós participado dos dons que Vos oferecemos, dignai-Vos permitir que as orações dos vossos Santos nos sirvam de auxílio para a vida presente e para a futura."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

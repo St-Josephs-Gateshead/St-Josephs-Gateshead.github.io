@@ -1,0 +1,811 @@
+{
+  "rule": [
+    "Gloria"
+  ],
+  "feast": "S. Camilli de Lellis Confessoris",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) MA(gxdf)jó(fg)rem(ed) hac(de!fvfe.) <clear>*(,) di(f)le(d)cti(f)ó(hhi)nem(h.) (,) ne(ihhvGF)mo(hh) ha(hi!jvIH'i)bet,(ih..) (:) ut(hf) á(hj)ni(i)mam(h) su(hiH'F)am(f.) po(gxde/fe/fg)nat(fe) quis(hh) (,) pro(d) a(ef)mí(f/hhf)cis(e) su(ef/hfh)is.(d.) (::) <i>Ps.</i> Be(d)á(f)tus(h) qui(h) in(h)tél(h)li(h)git(h) su(h)per(h) e(h)gé(h)num(h) et(i) páu(i)pe(h)rem :(h.) *(:) in(f) di(h)e(h) ma(h)la(h) li(h)be(h)rá(h)bit(h) e(i)um(g) Dó(h)mi(f)nus.(f.) (::) Gló(d)ri(f)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(i) u(g) a(h) e.</eu>(fefvEDe.) (::)",
+      "availableTranslations": {
+        "English": "Greater love than this no one has, that one lay down his life for his friends. Happy is he who has regard for the lowly and the poor; in the day of misfortune the Lord will deliver him.",
+        "Espanol": "Nadie tiene amor mas grande que el que da su vida por sus amigos. Dichoso el que piensa en el necesitado y en el pobre; en el día de la desgracia le librará el Señor. ",
+        "Francais": "Personne ne peut avoir un plus grand amour que de donner sa vie pour ses amis. Heureux celui qui a l’intelligence de l’indigent et du pauvre : le Seigneur le délivrera au jour mauvais.",
+        "Italiano": "Nessuno ha amore più grande di colui che dà la vita per i suoi amici. Beato colui che si prende cura del povero; il Signore lo libererà nel giorno della sventura.",
+        "Nederlands": "Niemand heeft groter liefde, dan wie zijn leven geeft voor zijn vrienden. Gelukkig hij, die zich ontfermt over de arme en ellendige. Op de dag des onheils zal de Heer hem bevrijden.",
+        "Polski": "Nikt nie ma większej miłości nad tę, aby kto życie swe oddał za przyjaciół swoich. Błogosławiony ten, który myśli o nędznym i biednym: wybawi go Pan w dniu nieszczęścia.",
+        "Portugues": "Ninguém pode dar maior prova de amor do que dar a sua vida pelos seus amigos. Bem-aventurado aquele que atende às necessidades do pobre e do indigente, pois o Senhor o livrará no dia da aflição."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui sanctum Camíllum, ad animárum in extrémo agóne luctántium subsídium, singulári caritátis prærogatíva decorásti: ejus, quǽsumus, méritis, spíritum nobis tuæ dilectiónis infúnde; ut in hora éxitus nostri hostem víncere, et ad cœléstem mereámur corónam perveníre.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Who endowed St. Camillus with a special gift of charity for the help of souls struggling in their final agony, pour upon us, we beseech You, by his merits, the spirit of Your love, so that in the hour of our death we may be found worthy to overcome the enemy and attain the heavenly crown.",
+        "Bohemice": "Bože, jenž jsi svatého Kamila k pomoci duší bojujícím v posledním smrtelném boji jedinečným vyvolením lásky; pro jeho zásluhy, prosíme, nám vlej ducha své lásky, abychom v hodinu své smrti přemohli nepřítele, a zasloužili si dojíti nebeské koruny.",
+        "Espanol": "Oh Dios, que has adornado a san Camilo con una caridad sin igual para auxiliar las almas de los agonizantes; te pedimos por sus méritos, infundas en nosotros el espíritu de tu amor, para que podamos en la hora de nuestra muerte vencer al enemigo y merecer la posesión de la corona celestial.",
+        "Francais": "Dieu, vous avez fait don à Saint Camille d’une charité extraordinaire pour aider les âmes dans la lutte suprême de l’agonie : nous vous supplions, par ses mérites, de répandre en nous l’esprit de votre charité ; afin que nous puissions, à l’heure du trépas, vaincre l’ennemi et parvenir à la céleste couronne.",
+        "Italiano": "O Dio, che ornasti san Camillo della prerogativa di una singolare carità ad aiuto delle anime combattenti nell'ultima battaglia; per i suoi meriti, infondi in noi, te ne preghiamo, lo spirito del tuo amore affinché nell'ora della nostra morte possiamo vincere il nemico e raggiungere l'eterna corona.",
+        "Nederlands": "God, Gij hebt de heilige Camillus getooid met een bijzondere gave van liefde om de zielen in hun laatste strijd bij te staan. Wij vragen, stort in ons om zijn verdiensten de geest van uw liefde, opdat wij in het uur van ons scheiden, de vijand mogen overwinnen en de hemelse kroon behalen.",
+        "Polski": "Boże, który wyróżniłeś świętego Kamila szczególnym darem miłości, by niósł pomoc duszom zmagającym się w przedśmiertnej walce, prosimy Cię, przez jego zasługi, napełnij nas duchem Twojej miłości, abyśmy w godzinę naszej śmierci zdołali pokonać wroga i dojść do korony niebieskiej.",
+        "Portugues": "Ó Deus, que dotastes S. Camilo com a prerrogativa de uma singular caridade para auxiliar as almas nas derradeiras lutas da agonia, infundi-nos pelos seus méritos, Vos suplicamos, o espírito do vosso amor, a fim de que, na hora da nossa morte, mereçamos vencer o inimigo e alcançar a coroa celestial."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Caríssimi: Nolíte mirári, si odit vos mundus. Nos scimus, quóniam transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui non díligit, manet in morte: omnis, qui odit fratrem suum, homicída est. Et scitis, quóniam omnis homicída non habet vitam ætérnam in semetípso manéntem. In hoc cognóvimus caritátem Dei, quóniam ille ánimam suam pro nobis pósuit: et nos debémus pro frátribus ánimas pónere. Qui habúerit substántiam hujus mundi, et víderit fratrem suum necessitátem habére, et cláuserit víscera sua ab eo: quómodo cáritas Dei manet in eo? Filíoli mei, non diligámus verbo neque lingua, sed ópere et veritáte.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Francais": "Mes très chers : Ne vous étonnez pas, mes frères, si le monde vous hait. Nous, nous savons que nous sommes passés de la mort à la vie, parce que nous aimons nos frères. Celui. qui n’aime pas demeure dans la mort. Quiconque hait son frère est un meurtrier, et vous savez qu’aucun meurtrier n’a la vie éternelle demeurant en lui. A ceci nous avons connu l’amour, c’est que Lui a donné sa vie pour nous. Nous aussi, nous devons donner notre vie pour nos frères. Si quelqu’un possède les biens de ce monde et que, voyant son frère dans la nécessité, il leur ferme ses entrailles, comment l’amour de Dieu demeure-t-il en lui ? Mes petits enfants, n’aimons pas de parole et de langue, mais en action et en vérité.",
+        "Italiano": "Carissimi, non meravigliatevi se il mondo vi odia. Noi sappiamo di esser passati da morte a vita, perché amiamo i fratelli. Chi non ama rimane nella morte: chiunque odia il fratello è omicida. E voi sapete che ogni omicida non ha la vita eterna dimorante in lui. In questo noi abbiamo conosciuto la carità di Dio; che egli ha dato la sua vita per noi; ed anche noi dobbiamo dare la vita per i fratelli. Se qualcuno ha dei beni di questo mondo, e, vedendo il suo fratello in necessità, gli chiudesse il suo cuore, come potrebbe la carità di Dio rimanere in lui? Figlioli miei, amiamo non a parole e con la lingua, ma in opere e verità.",
+        "Magyar": "Ne csodálkozzatok azon, testvérek, hogy a világ gyűlöl benneteket.  Mi tudjuk, hogy a halálból átmentünk az életbe, mert szeretjük testvéreinket. Aki nem szeret, a halálban marad.  Aki gyűlöli testvérét, gyilkos, márpedig tudjátok, hogy egy gyilkosnak sem maradandó birtoka az örök élet.  A szeretetet arról ismerjük fel, hogy ő életét adta értünk. Nekünk is kötelességünk életünket adni testvéreinkért.  Hogyan marad meg az Isten szeretete abban, aki - bár bőven van neki a világ javaiból -, mégis, amikor látja, hogy testvére szükséget szenved, elzárja előle a szívét?  Gyermekeim, ne szeressünk se szóval, se nyelvvel, hanem tettel és igazsággal.",
+        "Nederlands": "Caríssimi: Nolíte mirári, si odit vos mundus. Nos scimus, quóniam transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui non díligit, manet in morte: omnis, qui odit fratrem suum, homicída est. Et scitis, quóniam omnis homicída non habet vitam ætérnam in semetípso manéntem. In hoc cognóvimus caritátem Dei, quóniam ille ánimam suam pro nobis pósuit: et nos debémus pro frátribus ánimas pónere. Qui habúerit substántiam hujus mundi, et víderit fratrem suum necessitátem habére, et cláuserit víscera sua ab eo: quómodo cáritas Dei manet in eo? Filíoli mei, non diligámus verbo neque lingua, sed ópere et veritáte.",
+        "Polski": "Caríssimi: Nolíte mirári, si odit vos mundus. Nos scimus, quóniam transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui non díligit, manet in morte: omnis, qui odit fratrem suum, homicída est. Et scitis, quóniam omnis homicída non habet vitam ætérnam in semetípso manéntem. In hoc cognóvimus caritátem Dei, quóniam ille ánimam suam pro nobis pósuit: et nos debémus pro frátribus ánimas pónere. Qui habúerit substántiam hujus mundi, et víderit fratrem suum necessitátem habére, et cláuserit víscera sua ab eo: quómodo cáritas Dei manet in eo? Filíoli mei, non diligámus verbo neque lingua, sed ópere et veritáte.",
+        "Portugues": "Caríssimi: Nolíte mirári, si odit vos mundus. Nos scimus, quóniam transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui non díligit, manet in morte: omnis, qui odit fratrem suum, homicída est. Et scitis, quóniam omnis homicída non habet vitam ætérnam in semetípso manéntem. In hoc cognóvimus caritátem Dei, quóniam ille ánimam suam pro nobis pósuit: et nos debémus pro frátribus ánimas pónere. Qui habúerit substántiam hujus mundi, et víderit fratrem suum necessitátem habére, et cláuserit víscera sua ab eo: quómodo cáritas Dei manet in eo? Filíoli mei, non diligámus verbo neque lingua, sed ópere et veritáte."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) OS(ddcdfffddcd) ju(dfd/fffvED)sti(dfddc.) ~*(;) me(d)di(fddc)tá(fg)bi(ixfhg/hi)tur(h.) (,) sa(hjhhg)pi(hggf)én(fh!jvH'Gh)ti(h)am,(ixhv.f.g!hwihhggf.0) (:) et(dh) lin(h_g/jij)gua(h_f/hg) (`) e(g_eg)jus(gvF'EDfvED) (,) (fge'/fgd'/eddc.) (;) lo(fgh!jvIH'G)qué(gf)tur(f.) (,) ju(f)dí(f)ci(gvFD)um.(dc/d!ff/ghG'Efgf/!f/ded.) (::) <sp>V/</sp>. Lex(dh) De(h)i(g) e(h!jij)jus(h.) (,) (g/hhg/hh//gh!jjjhjvvIH'jggf.0) (:) in(f) cor(ixghgh//fh!ivGE'fvDC'//d!ff//g/hhg/hh,gh!jj//jjjkvJH)de(j_i) i(j_i)psí(j_i)us(jjjvIH'jggf.0) (:) et(f) non(ixghgh//fh!ivGF'E//fg!hvhg) (`) sup(h)plan(g_e~)ta(fg)bún(gffvE~D~)tur(d/ffd) (,) (fge'/fgd'/eddc.) <clear>*(;) gres(ff)sus(fg) e(g_f/hgh)jus.(hvvGF'EC//d!ewfd.1) (::)",
+      "availableTranslations": {
+        "Francais": "La bouche du juste méditera la sagesse et sa langue proférera l’équité. La loi de son Dieu est dans son cœur et on ne le renversera point. Alléluia, alléluia. Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements. Alléluia.",
+        "Italiano": "La bocca del giusto esprime sapienza e la sua lingua parla giudizio. Ha nel cuore la legge del suo Dio e i suoi passi non sono esitanti.",
+        "Nederlands": "Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.",
+        "Polski": "Usta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne. Prawo jego Boga mieszka w jego sercu, a kroki się jego nie chwieją. Alleluja, alleluja. Błogosławiony mąż, który boi się Pana i wielką radość znajduje w Jego nakazach. Alleluja.",
+        "Portugues": "A boca do justo fala com sabedoria e a sua língua proclama a justiça! A lei do seu Deus está no seu coração e os seus pés não tropeçarão. Aleluia, aleluia. Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em obedecer-Lhe. Aleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) AL(d!f'h~)le(h_f)lú(fh'/ih~){ia}.(iv.hiHF'fd.) <clear>*(;) <i>ij.</i>(gxfgF'Egyhighf.dfe/feed.0) (::) <sp>V/</sp>. Be(d.0f!gwh)á(h_iH//E./!gxgfgE'Dd'f/h_f)tus(fh/i_hjvIH) vir,(h.) (;) qui(h_f) ti(gxg)met(gyf_e/highf.gxegF'Ef') Dó(d)mi(d_e_d_)num :(d.) (:) in(d) man(d)dá(efeffefv.)(,)(h_i_h'_ivHF'Ef.//hiH'F)tis(gxgvFE) e(gxf@h!fg~)jus(f.) *(;) cu(de'f)pit(fhGF') ni(i)mis.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "Italiano": "Allelúja, allelúja. Beato l'uomo che teme il Signore, e molto si compiace nei suoi comandi. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. Allelúja."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(df)le(e/ghfgvFE'D)lú(gh){ia}.(gh..) *(;) <i>ij.</i>(gihgiHG'gd//efED'/!dc/e/ggh.) (,) (gihgiHG'gd//efED'/!dc/de/feed.0) (::) <sp>V/</sp>. Be(c!e'g)á(ghGE'fvED.cd/fde)tus(efvfe) vir,(e.) (;) qui(e_c) suf(eg/fhggvFE)fert(e.) (,) ten(g.h!iwjjvIH)ta(g!igh)ti(ghe)ó(fv.efd)nem :(ed..) (:) quó(e_g!hi)ni(h)am(h) cum(h) pro(h)bá(h)tus(hg) fú(hj)e(ghggvFE'f)rit,(fe..) (;) ac(ec)cí(eg)pi(fhggvFE)et(e.) (,) co(cd'e)ró(e_0fvE'Cd_e)nam(e.) *() vi(e/ghfgvFE'Dgh)tae.(gh..) (;) (gihgiHG'gd//efED'/!dcevggh.) (,) (gihgiHG'gd//efED'/!dc/de/feed.0) (::)",
+      "availableTranslations": {
+        "Italiano": "Allelúja, allelúja. Beato l'uomo che teme il Signore, e molto si compiace nei suoi comandi. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. Allelúja."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(c)le(d!fde./fge/fddc)lú(de~){ia}.(e.) *(;) <i>ij.</i>(cd/fde./fge/fd/!dc/ege.) (,) (cd/fde./fge/fd/!dc/ege.) (,) (ghGF'Dee) (,) (fgF'Ededdc//fff/ghGFgvFE.) (::) <sp>V/</sp>. A(c)má(dfd/ef)vit(f.) e(ffe)um(ed~) Dó(deD'C)mi(de)nus,(e.) (;) et(c) or(eg~)ná(ggf/gefvED)vit(ce) e(effe)um :(e.) (:) sto(c)lam(e) gló(ixgh!ivHG//fhGE.)(,)(ixce/ghivHG//fhGE.)(,)(gvFED'evD'C)ri(de)ae(e.) (;) ín(c)du(dfd/ef)it(e.) *() e(cd/fde./fge/fd/!dc/ege.)(,)(cd/fde./fge/fd/!dc/ege.)(,)(ghGF'Dee)(,)(fgF'Ededdc//fff/ghGFgvFE)um.(e.) (::)",
+      "availableTranslations": {
+        "Italiano": "Allelúja, allelúja. Beato l'uomo che teme il Signore, e molto si compiace nei suoi comandi. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Beátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. Allelúja."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) OS(ddcdfffddcd) ju(dfd/fffvED)sti(dfddc.) ~*(;) me(d)di(fddc)tá(fg)bi(ixfhg/hi)tur(h.) (,) sa(hjhhg)pi(hggf)én(fh!jvH'Gh)ti(h)am,(ixhv.f.g!hwihhggf.0) (:) et(dh) lin(h_g/jij)gua(h_f/hg) (`) e(g_eg)jus(gvF'EDfvED) (,) (fge'/fgd'/eddc.) (;) lo(fgh!jvIH'G)qué(gf)tur(f.) (,) ju(f)dí(f)ci(gvFD)um.(dc/d!ff/ghG'Efgf/!f/ded.) (::) <sp>V/</sp>. Lex(dh) De(h)i(g) e(h!jij)jus(h.) (,) (g/hhg/hh//gh!jjjhjvvIH'jggf.0) (:) in(f) cor(ixghgh//fh!ivGE'fvDC'//d!ff//g/hhg/hh,gh!jj//jjjkvJH)de(j_i) i(j_i)psí(j_i)us(jjjvIH'jggf.0) (:) et(f) non(ixghgh//fh!ivGF'E//fg!hvhg) (`) sup(h)plan(g_e~)ta(fg)bún(gffvE~D~)tur(d/ffd) (,) (fge'/fgd'/eddc.) <clear>*(;) gres(ff)sus(fg) e(g_f/hgh)jus.(hvvGF'EC//d!ewfd.1) (::)",
+      "availableTranslations": {
+        "Francais": "La bouche du juste méditera la sagesse et sa langue proférera l’équité. La loi de son Dieu est dans son cœur et on ne le renversera point. Alléluia, alléluia. Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements. Alléluia.",
+        "Italiano": "La bocca del giusto esprime sapienza e la sua lingua parla giudizio. Ha nel cuore la legge del suo Dio e i suoi passi non sono esitanti.",
+        "Nederlands": "Os justi meditábitur sapiéntiam, et lingua ejus loquétur judícium. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus.",
+        "Polski": "Usta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne. Prawo jego Boga mieszka w jego sercu, a kroki się jego nie chwieją. Alleluja, alleluja. Błogosławiony mąż, który boi się Pana i wielką radość znajduje w Jego nakazach. Alleluja.",
+        "Portugues": "A boca do justo fala com sabedoria e a sua língua proclama a justiça! A lei do seu Deus está no seu coração e os seus pés não tropeçarão. Aleluia, aleluia. Bem-aventurado o varão que teme o Senhor e que põe todo seu zelo em obedecer-Lhe. Aleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) BO(f_)num(efE'C) est(ef//ef/hghvvGFggf.0) (;) *() con(e)fi(f)té(hhg)ri(i) Dó(hhg)mi(fe)no(ef/gf/ggf/gh/iffe.) (;) et(gh) psál(f_e/f!gwh'!iv)le(hi)re(hgh.) nó(i_)mi(e)ni(e) tu(f)o(hg) Al(h)tís(i_f/ihhvGF)si(ef)me.(f/ggf.0) (::) \r\n<sp>V/</sp>. Ad(e) an(f)nun(hi~)ti(i)án(hih)dum(f) ma(f!h_gh//gh!jvIGhvGF'g)ne(gf..) (;) mi(f)se(f)ri(hg)cór(hi)di(hvGE')am(f) tu(g_fg)am,(fe/ggf/gh/iffe.) (:) et(e) ve(gh)ri(f)tá(fg)tem(f) tu(f_e/f!gwh'!iv)am(hiH'GhvG'FEf_e) (,) per(fhf) no(hvvGF')ctem.(f/ggf.0) (::) \r\n<sp>V/</sp>. Qui(f)a(g) de(e)le(f)ctá(h)sti(hhi) me,(f.) Dó(hi)mi(ivH'GhvGF'g)ne,(gf..) (;) in(f) fa(hg~)ctú(h)ra(f) tu(f/hh//hhh)a,(fe/ggf/gh/iffe.) (:) et(f) in(c) o(c)pé(ef)ri(fe)bus(f/hhhvF'Ef_ef.) (,) má(ef/hhi)nu(h)um(h) tu(hi)á(h/ihhe)rum(f!gwhg) (,) *() ex(h)sul(gh/ihi)tá(f)bo.(fe/f/hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
+      "availableTranslations": null,
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus discípulis suis: Hoc est præcéptum meum, ut diligátis ínvicem, sicut diléxi vos. Majórem hac dilectiónem nemo habet, ut ánimam suam ponat quis pro amícis suis. Vos amíci mei estis, si fecéritis quæ ego præcípio vobis. Jam non dicam vos servos: quia servus nescit, quid fáciat dóminus ejus. Vos autem dixi amícos: quia ómnia, quæcúmque audívi a Patre meo, nota feci vobis. Non vos me elegístis: sed ego elégi vos, et pósui vos, ut eátis, et fructum afferátis: et fructus vester maneat: ut, quodcúmque petiéritis Patrem in nómine meo, det vobis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "Francais": "En ce temps-là : Jésus dit à ses disciples : Ceci est mon commandement : que vous vous aimiez les uns les autres, comme je vous ai aimés. Personne ne peut avoir un plus grand amour que de donner sa vie pour ses amis. Vous êtes mes amis, si vous faites ce que je vous commande. Je ne vous appellerai plus serviteurs, parce que le serviteur ne sait pas ce que fait son maître ; mais je vous ai appelés amis, parce que tout ce que j’ai appris de mon Père, je vous l’ai fait connaître. Ce n’est pas vous qui m’avez choisi, mais c’est moi qui vous ai choisis, et je vous ai établis afin que vous alliez, et que vous portiez du fruit, et que votre fruit demeure ; afin que tout ce que vous demanderez au Père en mon nom, il vous le donne.",
+        "Italiano": "In quel tempo Gesù disse ai suoi discepoli: «II comandamento mio è questo: che vi amiate a vicenda come io ho amato voi. Nessuno ha amore più grande di chi dà la propria vita per i suoi amici. Voi siete gli amici miei se fate quanto vi comando. Non vi chiamo più servi, perché il servo non sa quel che fa il padrone. Ma vi ho chiamati amici, perché vi ho fatto sapere tutto quello che ho sentito dal Padre mio. Non voi avete eletto me, ma son io che ho eletto voi, e vi ho costituiti perché andiate e portiate frutti e frutti duraturi: così che, qualunque cosa voi chiederete al Padre in nome mio, egli ve la concederà».",
+        "Magyar": "Az az én parancsom, hogy szeressétek egymást, amint én szerettelek benneteket.  Senki sem szeret jobban, mint az, aki életét adja barátaiért.  Ha megteszitek, amit parancsolok nektek, a barátaim vagytok.  Nem nevezlek többé szolgának benneteket, mert a szolga nem tudja, mit tesz ura. Barátaimnak mondalak benneteket, mert amit hallottam Atyámtól, azt mind tudtul adtam nektek.  Nem ti választottatok engem, hanem én választottalak benneteket, s arra rendeltelek, hogy menjetek, teremjetek gyümölcsöt, maradandó gyümölcsöt. Akkor mindent megad nektek az Atya, amit a nevemben kértek tőle.",
+        "Nederlands": "In illo témpore: Dixit Jesus discípulis suis: Hoc est præcéptum meum, ut diligátis ínvicem, sicut diléxi vos. Majórem hac dilectiónem nemo habet, ut ánimam suam ponat quis pro amícis suis. Vos amíci mei estis, si fecéritis quæ ego præcípio vobis. Jam non dicam vos servos: quia servus nescit, quid fáciat dóminus ejus. Vos autem dixi amícos: quia ómnia, quæcúmque audívi a Patre meo, nota feci vobis. Non vos me elegístis: sed ego elégi vos, et pósui vos, ut eátis, et fructum afferátis: et fructus vester maneat: ut, quodcúmque petiéritis Patrem in nómine meo, det vobis.",
+        "Polski": "Onego czasu: Rzekł Jezus uczniom swoim: «To jest przykazanie moje, abyście się wzajemnie miłowali, jakom i ja was umiłował. Nikt nie ma większej miłości nad tę, aby kto życie swe oddał za przyjaciół swoich. Wy jesteście przyjaciółmi moimi, gdy czynić będziecie, co ja wam rozkazuję. Już was nie nazwę sługami, bo sługa nie wie, co czyni pan jego. Lecz nazwałem was przyjaciółmi, bo wszystko, cokolwiek od Ojca usłyszałem, oznajmiłem wam. Nie wyście mnie wybrali, alem ja was wybrał i ustanowiłem was, abyście poszli i owoc przynieśli, i żeby owoc wasz trwał».",
+        "Portugues": "Naquele tempo, disse Jesus aos seus discípulos: «Este é o meu mandamento: «Que vos ameis uns aos outros, como vos amei». Ninguém pode ter maior amor do que dar a sua vida pelos seus amigos. Vós sereis meus amigos se fizerdes o que vos mando. Já vos não chamarei servos, porque o servo ignora o que faz o seu senhor. Chamo-vos meus amigos, porque tudo quanto ouvi a meu Pai vo-lo tenho feito conhecer. Não fostes vós que me escolhestes a mim, mas Eu é que vos escolhi e vos destinei, para que caminheis e alcanceis fruto. Que este fruto, pois, permaneça, para que meu Pai vos conceda tudo quanto Lhe pedirdes em meu nome»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c2) IN(c) vir(d)tú(ff)te(f) tu(f)a,(f.) *(,) Dó(fgf)mi(exfee)ne,(c!ece.) (;) <nlba>lae(c)tá(ffg)bi(f)tur</nlba>(fg/hg/h_g) ju(fg!hvGF'g)stus,(gf..) (:) et(f) su(f!gwh'!iv)per(h) sa(h)lu(h)tá(h/jjh/i_j)re(g_fg) tu(d!fff/g_f)um(f.) (;) ex(g)sul(f)tá(f)bit(d!ff) ve(d)he(ff/gf)mén(deD~'C~)ter :(dc..) (:) de(c)si(d)dé(ffg)ri(f)um(f.) (,) á(hj)ni(g)mae(f) e(d!fffvEDevD~C~)jus(dc..) (;) tri(c)bu(d)í(ffg)sti(f) <nlba>e(f!gwhghjjh//giH'GF.)(,)(fff//fgf/ghg/hf/g_f)i.</nlba>(f.) (::) <nlba><i>T. P.</i> Al(gf~)le(fff//hg/h_g)lú(fg!hvGF'g){ia}.</nlba>(gf..) (::)",
+      "availableTranslations": {
+        "Francais": "Seigneur, le juste se réjouira dans votre force, et il tressaillira d’une vive allégresse, parce que vous l’avez sauvé. Vous lui avez accordé le désir de son cœur.",
+        "Italiano": "O Signore, il giusto si allieta della tua potenza, e del tuo soccorso quanto esulta! Tu hai saziato il desiderio del suo cuore.",
+        "Nederlands": "In virtúte tua, Dómine, lætábitur justus, et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei. (Allelúja.)",
+        "Polski": "Z potęgi Twej, Panie, weseli się sprawiedliwy, i z pomocy Twojej bardzo się cieszy: spełniłeś pragnienie jego serca.",
+        "Portugues": "Com o vosso poder, Senhor, se alegrará o justo, o qual exultará de alegria, vendo-se salvo por Vós. Concedestes-lhe, Senhor, o desejo da sua alma."
+      },
+      "mode": "6",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hóstia immaculáta, qua illud Dómini nostri Jesu Christi imménsæ caritátis opus renovámus, sit, Deus Pater omnípotens, sancto Gamíllo intercedénte, contra omnes córporis et animæ infirmitates salutáre remedium, et in extrémo agóne solátium et tutéla.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through the prayers of St. Camillus may this spotless sacrificial offering, by which we renew the work of our Lord Jesus Christ’s infinite charity, be a healing remedy against all infirmities of body and soul and a consolation and protection in our last agony.",
+        "Espanol": "Que la víctima sin defecto, con la que renovamos la obra del inmenso amor de nuestro Señor Jesucristo sea, por la intercesión de tu santo confesor Camilo, remedio saludable contra todas las enfermedades de cuerpo y alma, y consuelo y defensa nuestra en la hora de la muerte.",
+        "Francais": "Que l’hostie immaculée, par laquelle nous renouvelons l’œuvre d’immense charité de Notre-Seigneur Jésus-Christ, soit pour nous, ô Dieu et Père tout puissant, par l’intercession de saint Camille, un remède salutaire contre toutes les infirmités du corps et de l’âme ainsi qu’une consolation et une protection dans la dernière agonie.",
+        "Italiano": "L'ostia immacolata, per mezzo della quale rinnoviamo l'opera d'immensa carità del Signore nostro Gesù Cristo, per l'intercessione di san Camillo, sia a noi, o Padre onnipotente, di salutare rimedio contro ogni male dell'anima e del corpo, e di consolazione e protezione nell'ultimo combattimento.",
+        "Nederlands": "Moge, God, almachtige Vader, de onbevlekte offerande, waardoor wij het werk van de onmetelijke liefde van onze Heer Jezus Christus hernieuwen, op voorspraak van de heilige Camillus een heilzaam geneesmiddel zijn tegen alle zwakheden van ziel en lichaam, en in de laatste strijd een troost en bescherming. ",
+        "Polski": "Boże Ojcze Wszechmogący, niech ta niepokalana ofiara, w której odnawiamy dzieło niezmierzonej miłości Pana naszego Jezusa Chrystusa, za Przyczyną św. Kamila stanie się zbawiennym lekarstwem na wszelkie słabości ciała i duszy, a przy konaniu pociechą i obroną.",
+        "Portugues": "Que a hóstia imaculada pela qual renovamos esta instituição da imensa caridade de Nosso Senhor Jesus Cristo seja para nós, pela intercessão de S. Camilo, remédio salutar contra todas as enfermidades da alma e do corpo e na extrema agonia nos sirva de consolação e de protecção."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) IN(d)fír(cd)mus(d) fu(d!ew!fvED)i,(d!ewf.) *(,) et(d) vi(dc)si(f)tá(fh)stis(g) me.(ixgh/ih..) (:) A(h)men,(h) a(j)men(hg) di(h)co(gf) vo(ff/g_f)bis :(f.) (:) Quám(dg~)di(g)u(g) fe(h)cí(gf)stis(f.) (,) u(ixf!gwh'!iv)ni(h) ex(h) his(hg) frá(h)tri(g)bus(f) me(g)is(fe) mí(d)ni(c)mis,(dff) (,) mi(gh)hi(fe) fe(ded)cí(cd!fvED'e)stis.(ed..) (::)",
+      "availableTranslations": {
+        "English": "I was sick and you visited Me: Amen, amen, I say to you, as long as you did it for one of these the least of My brethren, you did it for Me.",
+        "Espanol": "He estado enfermo y me habéis visitado. En verdad, en verdad os digo: Siempre que lo habéis hecho al menor de estos mis hermanos a mí me lo habéis hecho.",
+        "Francais": "J’étais malade, et vous m’avez visité. En vérité, je vous le dit : toutes les fois que vous l’avez fait à l’un de ces plus petits d’entre mes frères, c’est à moi que vous l’avez fait.",
+        "Italiano": "Ero infermo e mi visitaste. In verità vi dico: quanto avrete fatto ad uno di questi minimi tra i miei fratelli, l'avete fatto a me.",
+        "Nederlands": "Ik was ziek en gij hebt Mij bezocht. Voorwaar, voorwaar, Ik zeg u: wat gij aan een van mijn geringste broeders gedaan hebt, hebt gij aan Mij gedaan.",
+        "Polski": "Byłem chory, a nawiedziliście mię. Zaprawdę, zaprawdę powiadam wam: coście uczynili jednemu z tych braci moich najmniejszych, mnieście uczynili.",
+        "Portugues": "Estive enfermo e visitastes-me. Em verdade, em verdade vos digo: todas as vezes que fizerdes isto mesmo a um destes meus irmãos mais pequeninos, a mim mesmo o fizestes."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per hæc cœléstia aliménta, quæ, sancti Camílli Confessóris tui sollémnia celebrántes, pia devotióne suscépimus: da, quǽsumus. Dómine; ut, in hora mortis nostræ sacraméntis refécti et culpis ómnibus expiáti, in sinum misericórdiæ tuæ læti súscipi mereámur:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through this heavenly food which we have received with holy devotion as we celebrate the feast of St. Camillus, Your Confessor, grant, we beseech You, O Lord, that in the hour of our death, strengthened by Your sacraments and absolved of all our sins, we may be found worthy to be taken up, rejoicing, into the bosom of Your mercy.",
+        "Espanol": "Por este alimento celestial, que al celebrar la festividad de tu santo confesor Camilo, hemos recibido con religioso fervor, haz, Señor, que, alimentados con los sacramentos en la hora de nuestra muerte y purificados de nuestras culpas, merezcamos gozosos ser recibidos en el seno de tu misericordia. ",
+        "Francais": "Nous vous en supplions, Seigneur, par ces célestes aliments, que nous avons reçus avec piété et dévotion en célébrant la solennité de saint Camille, votre Confesseur : faites qu’à l’heure de notre mort, fortifiés par les sacrements et absous de toutes nos fautes, nous méritions d’être reçus avec joie dans le sein de votre miséricorde.",
+        "Italiano": "In virtù di questi sacri alimenti, che con pia devozione abbiamo ricevuto nella solennità di san Camillo confessore tuo, fa', o Signore, te ne preghiamo, che nell'ora della morte, confortati dai sacramenti e purificati da ogni colpa, meritiamo di essere accolti lietamente nel seno della tua misericordia:",
+        "Nederlands": "Wij vragen U, Heer, geef ons door dit hemels voedsel, dat wij bij de viering van het feest van uw heilige belijder Camillus met liefdevolle godsvrucht genuttigd hebben, de genade om in het uur van onze dood, gesterkt door de Sacramenten en van alle schuld gereinigd, blij te mogen worden opgenomen in de schoot van uw barmhartigheid.",
+        "Polski": "Przez ten pokarm niebieski, któryśmy z nabożeństwem przyjęli, obchodząc uroczystość św. Kamila, Twojego Wyznawcy, racz sprawić, o Panie, abyśmy w godzinie śmierci swojej opatrzeni Sakramentami i oczyszczeni z wszystkich grzechów, pełni radości zostali przyjęci na łono Twojego miłosierdzia:",
+        "Portugues": "Por estes alimentos celestiais, que recebemos com pia devoção celebrando a festa de S. Camilo, vosso Confessor, concedei-nos, Senhor, Vos suplicamos, que à hora da morte, munidos com os sacramentos e limpos de todas as culpas, mereçamos ser recebidos com alegria no seio da vossa misericórdia."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

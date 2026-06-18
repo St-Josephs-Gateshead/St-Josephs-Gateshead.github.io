@@ -1,0 +1,842 @@
+{
+  "rule": [
+    "Gloria"
+  ],
+  "feast": "Commune unius Confessoris Pontificis",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) STá(ixdh'!iv)tu(h)it(h') *() e(h)i(h) Dó(hjjh)mi(ixihig)nus(hg..) (;) te(ixhig)sta(f)mén(fg)tum(ghF'Ef) pa(d_e_d_)cis,(d.) (:) et(d) prín(df!gh~)ci(g)pem(g) fe(ixhig)cit(f') e(fg'h)um :(h.) (;) ut(h) sit(jj) il(jk)li(h.) (,) sa(jj)cer(j)dó(j)ti(j')i(kvJ'Ij') dí(h)gni(h_i_h_)tas(h.) (;) in(de!fg//ef'h) ae(hghfgvFE)tér(d!ewfef)num.(ed..) (::) <i>T. P.</i> Al(ixhi)le(h)lú(hgh){ia},(f_d) (,) al(fg)le(efghfgvFE)lú(d!ewfef){ia}.(ed..) (::) <i>Ps.</i> Me(f)mén(gh~)to(h) Dó(hj)mi(h)ne(h) Da(hg)vid :(gh..) *(:) et(gf) o(gh)mnis(h) man(h)su(h)e(h)tú(hjh)di(g')nis(f) e(fff)jus.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
+      "availableTranslations": {
+        "Cesky-Schaller": "Uzavřel s ním Pán smlouvu míru a knížetem jej učinil, aby mu zůstala důstojnost kněžství na věky. Pamětliv buď, Pane, Davida a všeliké jeho zbožnosti."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Da, quǽsumus, omnípotens Deus: ut beáti N. Confessóris tui atque Pontíficis veneránda solémnitas, et devotiónem nobis áugeat et salútem.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, we beseech thee, almighty God, that the venerable feast of N. thy blessed Confessor and Bishop may increase our devotion and promote our salvation. ",
+        "Bohemice": "Dej, prosíme, všemohoucí Bože, ať úctyhodná slavnost svatého N., tvého Vyznavače a Biskupa, rozmnoží naši zbožnost i spásu. ",
+        "Cesky-Schaller": "Dej, prosíme, všemohoucí Bože, aby úctyhodná slavnost svatého N., vyznavače tvého a biskupa, zbožnost naši rozmnožila i spásu.",
+        "Deutsch": "Verleihe uns, wir bitten dich, o allmächtiger Gott, die Gnade, daß deines heiligen Bekenners und Bischofs N. ehrwürdige Festlichkeit uns einen Zuwachs gewähre an Unterwürfigkeit gegen dich und auch an Segen.",
+        "Espanol": "Te pedimos, Dios todopoderoso, que al celebrar la fiesta de San N., obispo, aumente nuestro celo por servirte, y crezca en nosotros tu obra de salvación. ",
+        "Francais": "Faites, nous vous en prions, Dieu tout-puissant, que la vénérable solennité de saint N., votre évêque et confesseur, accroisse en nous la dévotion et le salut.",
+        "Italiano": "Signore Dio onnipotente, concedici che la solennità del beato N. confessore tuo e vescovo, aumenti in noi la devozione e la salvezza.",
+        "Magyar": "Hallgasd meg kérünk Uram könyörgésünket amelyet hozzád intézünk áldott hitvallód és püspököd ünnepen, hogy annak kedveért aki olyan magasztosan szolgált téged, bocsásd meg kihágasainkat",
+        "Nederlands": "Wij vragen U, almachtige God, dat het roemrijk feest van uw heilige belijder en bisschop N. onze godsvrucht mag bevorderen en onze zaligheid.",
+        "Polski": "Spraw, prosimy Cię, wszechmogący Boże, aby chwalebna uroczystość świętego N., Twego Wyznawcy i Biskupa, przysporzyła nam gorliwości i łaski do zbawienia.",
+        "Portugues": "Dignai-Vos permitir, ó Deus omnipotente, que a veneranda solenidade do vosso Confessor e Pontífice N. aumente a nossa piedade e nos assegure a salvação.\t"
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Ecce sacérdos magnus, qui in diébus suis plácuit Deo, et invéntus est justus: et in témpore iracúndiæ factus est reconciliátio. Non est invéntus símilis illi, qui conservávit legem Excélsi. Ideo jurejurándo fecit illum Dóminus créscere in plebem suam. Benedictiónem ómnium géntium dedit illi, et testaméntum suum confirmávit super caput ejus. Agnóvit eum in benedictiónibus suis: conservávit illi misericórdiam suam: et invénit grátiam coram óculis Dómini. Magnificávit eum in conspéctu regum: et dedit illi corónam glóriæ. Státuit illi testaméntum ætérnum, et dedit illi sacerdótium magnum: et beatificávit illum in glória. Fungi sacerdótio, et habére laudem in nómine ipsíus, et offérre illi incénsum dignum in odórem suavitátis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Behold, a great priest, who in his days pleased God, and was found just;  and in the time of wrath he was made a reconciliation.  There was not  found the like to him, who kept the law of the Most High. Therefore, by an oath, the Lord made him to increase among his people. He gave him the blessing of all nations, and confirmed His covenant upon his head. He acknowledged him in His blessings; He preserved for him His mercy; and he found grace before the eyes of the Lord. He glorified him in the sight of kings, and gave him a crown of glory. He made an everlasting covenant with him, and gave him a great priesthood; and made him blessed in glory. To execute the office of the priesthood, and to have praise in His name, and to offer Him a worthy incense for an odor of sweetness.",
+        "Bohemice": "Ejhle, kněz veliký, jenž Bohu ve dnech svých líbil se, a byl shledán mužem spravedlivým, že se stal v dobách hněvu spasitelem. Nebyl nalezen podobný jemu slávou, který by šetřil tak zákona Nejvyššího. Proto, jak se přísahou byl zavázal, dal mu Pán, že vzrostl národ jeho. Požehnání všech národů dal mu Hospodin, a jeho sliby na hlavu se mu snesly. Uznal, že mu přísluší požehnání, zachoval mu milosrdenství své, a našel milost před zrakem Hospodinovým. Slavným učinil ho před králi, a dal jemu korunu slávy. Učinil s ním smlouvu na věčné časy, udělil mu velekněžství, a rouchem nádherným oblažil ho, úřad kněžský aby konal, bohoslužbu, lidu svému aby žeh nal ve jménu Páně, a řádně kadidlo pálil mu v příjemnou vůni.",
+        "Cesky-Schaller": "Ejhle, kněz veliký, jenž Bohu ve dnech svých líbil se, a byl shledán mužem spravedlivým, že se stal v dobách hněvu spasitelem. Nebyl nalezen podobný jemu slávou, který by šetřil tak zákona Nejvyššího. Proto, jak se přísahou byl zavázal, dal mu Pán, že vzrostl národ jeho. Požehnání všech národů dal mu Hospodin, a jeho sliby na hlavu se mu snesly. Uznal, že mu přísluší požehnání, zachoval mu milosrdenství své, a našel milost před zrakem Hospodinovým. Slavným učinil ho před králi, a dal jemu korunu slávy. Učinil s ním smlouvu na věčné časy, udělil mu velekněžství, a rouchem nádherným oblažil ho, úřad kněžský aby konal, bohoslužbu, lidu svému aby žeh nal ve jménu Páně, a řádně kadidlo pálil mu v příjemnou vůni.",
+        "Espanol": "He aqui al gran sacerdote que agradé a Dios en los dias de su vida; fue hallado justo, y en el tiempo de la ira vino a ser nuestra reconciliación. No tuvo semejante en la observancia de la ley del Altisimo. Por eso juró el Señor engrandecerle a la cabeza de su pueblo. Ha bendecido en él a todas las naciones y ha confirmado su alianza con él. Ha derramado sobre él sus bendiciones, ha conservado para él su misericordia y ha hallado gracia a los ojos del Señor. Lo ha glorificado ante los reyes y le ha dado una corona de gloria. Ha cerrado con él una alianza eterna, le ha dado el sacerdocio supremo y le ha llenado de felicidad y de gloria. Lo ha escogido para ejercer las funciones del sacerdocio, para cantar sus alabanzas y ofrecerle dignamente un incienso de agradable olor.",
+        "Francais": "Voici le grand pontife qui, pendant sa vie, a plu à Dieu et a été trouvé juste, et au temps de la colère il est devenu la réconciliation. Il ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. C’est pourquoi le Seigneur a juré de le faire croître dans son peuple. Il a béni en lui toutes les nations, et a confirmé en lui son alliance. Il l’a reconnu par ses bénédictions, il lui a continué sa miséricorde ; et lui-même a trouvé grâce aux yeux du Seigneur. Il l’a glorifié devant les rois et lui a donné une couronne de gloire. Il a établi avec lui une alliance éternelle et lui a donné le sacerdoce suprême. Il l’a rendu heureux dans la gloire pour exercer le sacerdoce, louer son nom et lui offrir un digne encens en agréable odeur.",
+        "Italiano": "Ecco il gran sacerdote che nei suoi giorni piacque a Dio, e fu trovato giusto, e nel giorno dell'ira fu strumento di conciliazione. Nessuno fu simile a lui nel conservare la legge dell'Eccelso. Per questo, con giuramento, il Signore gli assicurò la gloria nella sua stirpe. A lui diede la benedizione di tutti gli antenati, e confermò il suo patto sopra il capo di lui. Lo riconobbe con le sue benedizioni; conservò per lui la sua misericordia, e trovò grazia agli occhi del Signore. Lo glorificò al cospetto dei re, e gli mostrò la sua gloria. Fece con lui un patto eterno, e gli diede un grande sacerdozio, lo rese invidiabile nel suo onore. Gli fece compiere le funzioni sacerdotali ed avere gloria nel suo nome, e offrirgli un degno sacrificio di incenso, di soave profumo.",
+        "Magyar": "Hénok tetszett az Istennek, és a paradicsomba vitetett, hogy a népeknek bönbánatot hirdessen.  Noé tökéletesnek és igaznak találtatott, és a harag idején engesztelés lett.  Azért hagyatott a földön maradék, mikor a vízözön volt.  Örök szövetséget kötött vele, hogy ne töröltessék el minden test vízözönnel.  Ábrahám sok nemzet nagy atyja, nem talál magához hasonlót dicsöségben; ö megtartotta a Fölséges törvényét, és szövetségben volt vele.  Annak testén állapította meg a szövetséget, és ö a kisértetben hívnek találtatott.  Azért dicsöséget adott neki nemzetében, megesküdvén: hogy megsokasítja öt, mint a föld porát;  és mint a csillagokat, fölmagasztalja ivadékát, és örökössé teszi tengertöl tengerig, és a folyóvíztöl a föld határaig.  És Izsákkal szintazon módon cselekedett atyjáért, Ábrahámért.  Minden nemzetek áldását neki adta az Úr, és szövetségét megerösítette Jákob fején.  Elismerte öt áldásai által, és örökséget adott neki, és részenkint elosztá azt a tizenkét nemzetség között.  És megtartotta neki az irgalmasság férfiait, kik kedvet találtak minden ember szemei elött.",
+        "Nederlands": "Zie de hogepriester, die in zijn dagen aan God heeft behaagd en gerecht werd bevonden; ten tijde der gramschap strekte hij tot verzoening. Niemand werd er gevonden zoals hij, die aan de Wet van de Allerhoogste getrouw bleef. Daarom heeft de Heer onder ede beloofd hem groot te maken onder zijn volk. Alle volken heeft Hij in hem gezegend, en in zijn persoon zijn Verbond bevestigd. Hij onderscheidde hem met zijn zegeningen, bewees hem voortdurend zijn barmhartigheid; want hij vond genade in de ogen des Heren. Hij maakte hem groot in de ogen van koningen, en verleende hem de kroon der glorie. Een eeuwig verbond heeft Hij met hem gesloten, en het hogepriesterschap hem verleend, daardoor hem geluk geschonken en ere; doordat hij priester was en in zijn eer mocht delen, en Hem een waardig reukoffer mocht brengen tot lieflijke geur.",
+        "Polski": "Oto wielki kapłan, który za dni swoich podobał się Bogu i okazał się sprawiedliwym, a w czasie gniewu stał się pojednaniem. Nie znalazł się jemu podobny, który by zachował prawo Najwyższego. Przeto na mocy przysięgi sprawił Pan, iż rozrósł się on w ludzie Jego. Dał mu błogosławieństwo dla wszystkich narodów i przymierze swoje utwierdził nad głową jego. Uznał go przez swe błogosławieństwa, zachował dlań swe miłosierdzie, (tak iż) znalazł on łaskę w oczach Pańskich. Wobec królów uczynił go wielkim i dał mu wieniec chwały. Postanowił z nim wieczne przymierze i dał mu najwyższe kapłaństwo, i w chwale go uszczęśliwił, by sprawował władzę kapłańską i czci doznawał dla Jego imienia, i składał Mu godną ofiarę kadzenia ku wdzięcznej wonności.",
+        "Portugues": "Eis o grande sacerdote, que nos dias da sua vida agradou a Deus e foi julgado justo; e no tempo da ira se tornou a reconciliação dos homens. Ninguém o igualou na observância das leis do Altíssimo. Eis porque o Senhor jurou que o tornaria grande no meio do seu povo. O Senhor abençoou nele todos os povos; e com ele ratificou a sua aliança. O Senhor deu-lhe as suas bênçãos e continuou a dispensar-lhe a sua misericórdia, vendo-se bem que este homem achou graça aos olhos do Senhor, que, por isso mesmo, o engrandeceu diante dos reis e lhe deu uma coroa de glória. Estabeleceu com ele uma aliança eterna, elevou-o ao sumo sacerdócio, e tornou-o feliz na glória para exercer o sacerdócio, louvar o seu nome e oferecer-lhe dignamente incenso de odor agradável."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) EC(ffg)ce(f.) *() sa(f)cér(f)dos(gh~) ma(h_fgvFED.g_e/fg)gnus,(f.) (;) qui(f) in(f) di(f)é(hf/gh!jj/kjk)bus(jij) su(ixh_g/h!jjvHF.1ivHGhf)is(f.) (:) plá(ixf/hhi)cu(gjj)it(j.h!iw!jvIG'hw!ivHG) De(fv.ff)o.(f_c) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Non(d) est(d) in(fe~)vén(eh)tus(h.) (,) sí(h)mi(h)lis(h) il(h)li,(ihhe./h_i_h_/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) qui(hh) con(h)ser(h)vá(ih/ij_h ih/ij_ij//hi/jij)ret(jh/jkihh/fgf.) <clear>*(;) le(f)gem(d) Ex(ef)cél(fhG'Fhhh)si.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "Behold, a great priest, who in his days pleased God.  There was not found the like to him, who kept the law of the Most High.",
+        "Bohemice": "Hle, kněz veliký, jenž ve dnech svých Bohu se líbil. Nikdo nebyl nalezen, jenž by podobně jako on zachovával zákon Nejvyššího. Aleluja, aleluja. Ty jsi kněz na věky podle řádu Melchisedechova. Aleluja.",
+        "Cesky-Schaller": "Hle, kněz veliký, jenž ve dnech svých Bohu se líbil. Nikdo nebyl nalezen, jenž by podobně jako on zachovával zákon Nejvyššího. Aleluja, aleluja. Ty jsi kněz na věky podle řádu Melchisedechova. Aleluja.",
+        "Espanol": "He aquí el gran sacerdote que agradó a Dios en los días de su vida. No tuvo semejante en la observancia de la ley del Altísimo. Aleluya, aleluya. Tú eres sacerdote por siempre a la manera de Melquisedec. Aleluya.",
+        "Francais": "Voici un grand prêtre qui, pendant sa vie, fut agréable à Dieu. Il ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Alléluia, alléluia. Tu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+        "Italiano": "Ecco il gran sacerdote che nei suoi giorni piacque a Dio. Nessuno fu simile a lui nel conservare la legge dell'Eccelso. Allelúja, allelúja",
+        "Nederlands": "Dit is de hogepriester, die in zijn dagen aan God heeft behaagd. Niemand werd er gevonden, die zo trouw als hij de Wet van de Allerhoogste onderhield. Alleluia, alleluia.",
+        "Polski": "Oto wielki kapłan, który za dni swoich podobał się Bogu. Nie znalazł się jemu podobny, który by zachował prawo Najwyższego. Alleluja, alleluja. Tyś kapłanem na wieki na wzór Melchizedeka. Alleluja.",
+        "Portugues": "Eis o grande sacerdote que nos dias da sua vida agradou a Deus. Não foi encontrado outrem semelhante a ele na observância das leis do Altíssimo. Aleluia, aleluia. Tu és sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(d)le(d!gfg//hjh)lú(fg~){ia}.(g.) <clear>*(;) <i>ij.</i>(h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::) <sp>V/</sp>. Tu(fg) es(g) sa(h)cér(ijhhg~)dos(g.) in(ih) ae(j_k_j_)tér(jjjvIG'h)num,(h.) (;) se(hi!j'k)cún(kj~)dum(kjikJH'hg.) ór(ih/ij)di(hg)nem(gh/jkj//ikJH'hg.) (;) *() Mel(d)chí(d!gfg//hjh)se(fg)dech.(g.) (;) (h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. You are a priest forever, according to the order of Melchisedec. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Tu sei sacerdote per sempre, secondo l'ordine di Melchisedech. Allelúja.",
+        "Nederlands": "Allelúja, allelúja. Gij zijt priester voor eeuwig naar de wijze van Melchisedech. Alleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(d)le(d!gfg//hjh)lú(fg~){ia}.(g.) <clear>*(;) <i>ij.</i>(h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::) <sp>V/</sp>. Tu(fg) es(g) sa(h)cér(ijhhg~)dos(g.) in(ih) ae(j_k_j_)tér(jjjvIG'h)num,(h.) (;) se(hi!j'k)cún(kj~)dum(kjikJH'hg.) ór(ih/ij)di(hg)nem(gh/jkj//ikJH'hg.) (;) *() Mel(d)chí(d!gfg//hjh)se(fg)dech.(g.) (;) (h!jhj./klJ//G.hjI'HG.) (,) (h!jhj./klJ//G.hjI'HG.) (;) (h!jij//ikJH'hg//ig/hhg.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. You are a priest forever, according to the order of Melchisedec. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Tu sei sacerdote per sempre, secondo l'ordine di Melchisedech. Allelúja.",
+        "Nederlands": "Allelúja, allelúja. Gij zijt priester voor eeuwig naar de wijze van Melchisedech. Alleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) AL(e)le(f)lú(hi~){ia}.(i_h/iggf.0) <clear>*(,) <i>ij.</i>(hv.iji./ef/h_f//hv.ghe/hhh.f!gwhf.1) (::) <sp>V/</sp>. Hic(f_e/f!gwh'!iv//jiihi) est(iv.hh/fgf.) (,) sa(f)cér(f!hh/ijHF'ivH'GEf./hfhhf/ge)dos,(e.) (;) quem(hh) co(h)ro(h)ná(h)vit(hi) <nlba>*() Dó(i_h/jij)mi(j)nus.</nlba>(jvvIH'GE//f!gwhf.1) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. You are a priest forever, according to the order of Melchisedec. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Tu sei sacerdote per sempre, secondo l'ordine di Melchisedech. Allelúja.",
+        "Nederlands": "Allelúja, allelúja. Gij zijt priester voor eeuwig naar de wijze van Melchisedech. Alleluia."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) EC(ffg)ce(f.) *() sa(f)cér(f)dos(gh~) ma(h_fgvFED.g_e/fg)gnus,(f.) (;) qui(f) in(f) di(f)é(hf/gh!jj/kjk)bus(jij) su(ixh_g/h!jjvHF.1ivHGhf)is(f.) (:) plá(ixf/hhi)cu(gjj)it(j.h!iw!jvIG'hw!ivHG) De(fv.ff)o.(f_c) (,) (fg!hvGF.e!g'h//fhg/hggf.0) (z0::c3) <sp>V/</sp>. Non(d) est(d) in(fe~)vén(eh)tus(h.) (,) sí(h)mi(h)lis(h) il(h)li,(ihhe./h_i_h_/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) qui(hh) con(h)ser(h)vá(ih/ij_h ih/ij_ij//hi/jij)ret(jh/jkihh/fgf.) <clear>*(;) le(f)gem(d) Ex(ef)cél(fhG'Fhhh)si.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "Behold, a great priest, who in his days pleased God.  There was not found the like to him, who kept the law of the Most High.",
+        "Bohemice": "Hle, kněz veliký, jenž ve dnech svých Bohu se líbil. Nikdo nebyl nalezen, jenž by podobně jako on zachovával zákon Nejvyššího. Aleluja, aleluja. Ty jsi kněz na věky podle řádu Melchisedechova. Aleluja.",
+        "Cesky-Schaller": "Hle, kněz veliký, jenž ve dnech svých Bohu se líbil. Nikdo nebyl nalezen, jenž by podobně jako on zachovával zákon Nejvyššího. Aleluja, aleluja. Ty jsi kněz na věky podle řádu Melchisedechova. Aleluja.",
+        "Espanol": "He aquí el gran sacerdote que agradó a Dios en los días de su vida. No tuvo semejante en la observancia de la ley del Altísimo. Aleluya, aleluya. Tú eres sacerdote por siempre a la manera de Melquisedec. Aleluya.",
+        "Francais": "Voici un grand prêtre qui, pendant sa vie, fut agréable à Dieu. Il ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Alléluia, alléluia. Tu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+        "Italiano": "Ecco il gran sacerdote che nei suoi giorni piacque a Dio. Nessuno fu simile a lui nel conservare la legge dell'Eccelso. Allelúja, allelúja",
+        "Nederlands": "Dit is de hogepriester, die in zijn dagen aan God heeft behaagd. Niemand werd er gevonden, die zo trouw als hij de Wet van de Allerhoogste onderhield. Alleluia, alleluia.",
+        "Polski": "Oto wielki kapłan, który za dni swoich podobał się Bogu. Nie znalazł się jemu podobny, który by zachował prawo Najwyższego. Alleluja, alleluja. Tyś kapłanem na wieki na wzór Melchizedeka. Alleluja.",
+        "Portugues": "Eis o grande sacerdote que nos dias da sua vida agradou a Deus. Não foi encontrado outrem semelhante a ele na observância das leis do Altíssimo. Aleluia, aleluia. Tu és sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(g)á(g/hih)tus(g/hhg) vir,(g.) *(,) qui(gjj) ti(j_k)met(hvGF'ghhg.) (,) Dó(h!jij)mi(hj)num :(jjjkhhg/hg/jjh/jggf.0) (:) in(f!h'j) man(igh)dá(gfg)tis(gh/jij) (`) e(j.h!iwj)jus(jjjvIHivHGhg..) (;) cu(ixfh/ih/ig)pit(j.) ni(iyjv.ijg.ixjjvH'GhiGF.)(,)(iyh./jh/ig)mis.(g/hhg.) (::) \r\n<sp>V/</sp>. Pot(g!hwi'!jv)ens(j) in(j) ter(j)ra(j) e(ij)rit(j.) (,) se(j)men(j) e(j_kJ'//Gh_g/h!iw!jvIHijh)jus :(hg..) (:) ge(f!h'j)ne(igh)rá(gf/gh)ti(g)o(g.) (`) re(gh/jij)ctó(j.h!iwj)rum(jjjvIHivHGhg..) (;) be(h_g/h!iwj)ne(ghG'F)di(f!h'j)cé(j)tur.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Gló(g!hwi'!jv)ri(j)a(j) et(j) di(j)ví(ij)ti(j)ae(j.) (,) in(j) do(j)mo(j) e(j_kJ'//Gh_g/h!iw!jvIHijh)jus :(hg..) (:) et(f!h'j) ju(igh)stí(gf/gh)ti(g)a(gh/jij) (`) e(j.h!iwj)jus(jjjvIHivHGhg..) (;) ma(h_g/h!iwj)net(g_h) *(,) in(f) saé(f.0h!iw!jk)cu(j)lum(j) saé(j)cu(j)li.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
+      "availableTranslations": {
+        "English": "Behold, a great priest, who in his days pleased God.  There was not found the like to him, who kept the law of the Most High.   Happy the man who fears the Lord, who greatly delights in His commands.  His posterity shall be mighty upon the earth; the upright generation shall be blessed.  Wealth and riches shall be in his house; his generosity shall endure forever.",
+        "Bohemice": "Hle, kněz veliký, jenž ve dnech svých Bohu se líbil. Nikdo nebyl nalezen, jenž by podobně jako on zachovával zákon Nejvyššího. Blaze člověku, jenž se bojí Pána, jenž v přikázáních jeho libuje si velice. Mocné bude na zemi símě jeho; pokolení spravedlivých požehnáno bude. Sláva a bohatství v domě jeho a spravedlnost jeho zůstává na věky věkův.",
+        "Cesky-Schaller": "Hle, kněz veliký, jenž ve dnech svých Bohu se líbil. Nikdo nebyl nalezen, jenž by podobně jako on zachovával zákon Nejvyššího. Blaze člověku, jenž se bojí Pána, jenž v přikázáních jeho libuje si velice. Mocné bude na zemi símě jeho; pokolení spravedlivých požehnáno bude. Sláva a bohatství v domě jeho a spravedlnost jeho zůstává na věky věkův.",
+        "Francais": "Voici un grand prêtre qui, pendant sa vie, fut agréable à Dieu. Il ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements. V. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie. V. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.",
+        "Italiano": "Ecco il gran sacerdote che nei suoi giorni piacque a Dio Nessuno fu simile a lui nel conservare la legge dell'Eccelso.  Beato l'uomo che teme il Signore, e molto si compiace nei suoi comandi. Sarà forte sulla terra la sua prole e benedetta la generazione dei giusti.  Nella sua casa gloria e ricchezza, la sua giustizia sta per sempre.",
+        "Magyar": "Íme a főpap, ki életének napjaiban tetszett az Istennek. Nem akadt hozzá hasonló, ki úgy megtartotta a fölséges törvényét. Boldog az az ember, ki az Urat féli; és parancsaiban nagy tetszését leli. Hatalmas lesz a földön ivadéka; az igazak nemzedéke áldott leszen. Dicsőség és gazdagság lesz házában; és igazsága mindörökre megmarad.",
+        "Nederlands": "Dit is de hogepriester, die in zijn dagen aan God heeft behaagd. Niemand werd er gevonden, die zo trouw als hij de Wet van de Allerhoogste onderhield. Zalig de man, die de Heer vreest en zijn geboden van harte bemint. Zijn nakomelingschap zal machtig zijn op aarde. Het geslacht der vromen zal worden gezegend. Roem en rijkdom zijn in zijn huis en zijn gerechtigheid duurt eeuwig voort.",
+        "Polski": "Oto wielki kapłan, który za dni swoich podobał się Bogu. Nie znalazł się jemu podobny, który by zachował prawo Najwyższego. Błogosławiony mąż, który boi się Pana i wielką radość znajduje w Jego nakazach. Potomstwo jego będzie potężne na ziemi, dozna błogosławieństwa pokolenie prawych. Zasoby i bogactwa będą w jego domu, a hojność jego będzie trwała zawsze.",
+        "Portugues": "Eis o grande sacerdote que nos dias da sua vida agradou a Deus. Não foi encontrado outrem semelhante a ele na observância das leis do Altíssimo. Bem-aventurado o varão que teme o Senhor e cuja vontade é ardente no cumprimento dos seus mandamentos. Sua descendência será poderosa na terra, pois a posteridade dos justos será abençoada. Na sua casa haverá abundância e riqueza, e a sua justiça subsistirá em todos os séculos dos séculos."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Homo péregre proficíscens vocávit servos suos, et trádidit illis bona sua. Et uni dedit quinque talénta, álii autem duo, álii vero unum, unicuíque secúndum própriam virtútem, et proféctus est statim. Abiit autem, qui quinque talénta accéperat, et operátus est in eis, et lucrátus est ália quinque. Simíliter et, qui duo accéperat, lucrátus est ália duo. Qui autem unum accéperat, ábiens fodit in terram, et abscóndit pecúniam dómini sui. Post multum vero témporis venit dóminus servórum illórum, et pósuit ratiónem cum eis. Et accédens qui quinque talénta accéperat, óbtulit ália quinque talénta, dicens: Dómine, quinque talénta tradidísti mihi, ecce, ália quinque superlucrátus sum. Ait illi dóminus ejus: Euge, serve bone et fidélis, quia super pauca fuísti fidélis, super multa te constítuam: intra in gáudium dómini tui. Accéssit autem et qui duo talénta accéperat, et ait: Dómine, duo talénta tradidísti mihi, ecce, ália duo lucrátus sum. Ait illi dóminus ejus: Euge, serve bone et fidélis, quia super pauca fuísti fidélis, super multa te constítuam: intra in gáudium dómini tui.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus spoke this parable to His disciples: A man going abroad, called his servants and handed over his goods to them. And to one he gave five talents, to another two, and to another one, to each according to his particular ability, and then he went on his journey. And he who had received the five talents went and traded with them, and gained five more. In like manner, he who had received the two gained two more. But he who had received the one went away and dug in the earth and hid his master’s money. Then after a long time the master of those servants came and settled accounts with them. And he who had received the five talents came and brought five other talents, saying, ‘Master, you handed over to me five talents; behold, I have gained five others in addition.’ His master said to him, ‘Well done, good and faithful servant; because you have been faithful over a few things, I will set you over many; enter into the joy of your master.’ And he also who had received the two talents came, and said, ‘Master, you handed over to me two talents; behold, I have gained two more.’ His master said to him, ‘Well done, good and faithful servant; because you have been faithful over a few things, I will set you over many; enter into the joy of your master.’",
+        "Bohemice": "Za onoho času Pán Ježíš pověděl učedníkům svým: podobenství toto: „Člověk jeden odcházeje z domova, povolal k sobě služebníky své a odevzdal jim statek svůj. I dal jednomu pět hřiven, druhému dvě a jinému jednu, každému podle schopnosti jeho, a odcestoval ihned. Odešel pak ten, jenž obdržel pět hřiven, těžil jimi a vytěžil jiných pět hřiven. Taktéž i ten, jenž obdržel dvě, vyzískal dvě jiné. Ten však, který dostal jednu, odešed zakopal ji v zemi a skryl peníze pána svého. Po dlouhém čase pak přišel pán oněch služebníků a skládal účet s nimi. I přistoupil ten, jenž byl obdržel pět hřiven, a podal: jiných pět hřiven řka: ,Pane, pět hřiven odevzdal jsi mi, hle, jiných pět jsem vyzískal.‘ Řekl mu pán jeho: ,Dobře, služebníku dobrý a věrný, že jsi nad málem byl věrný, nad mnoha věcmi ustanovím tebe, vejdi v radost pána svého.‘ Přistoupiv pak i ten, kterýž byl obdržel dvě hřivny, řekl: ,Pane, dvě hřivny odevzdal jsi mi, hle, jiné dvě jsem vyzískal.‘ Řekl mu pán jeho: ,Dobře, služebníku dobrý a věrný, že jsi nad málem byl věrný, nad mnoha věcmi ustanovím tebe; vejdi v radost pána svého.‘“",
+        "Cesky-Schaller": "Za onoho času Pán Ježíš pověděl učedníkům svým: podobenství toto: „Člověk jeden odcházeje z domova, povolal k sobě služebníky své a odevzdal jim statek svůj. I dal jednomu pět hřiven, druhému dvě a jinému jednu, každému podle schopnosti jeho, a odcestoval ihned. Odešel pak ten, jenž obdržel pět hřiven, těžil jimi a vytěžil jiných pět hřiven. Taktéž i ten, jenž obdržel dvě, vyzískal dvě jiné. Ten však, který dostal jednu, odešed zakopal ji v zemi a skryl peníze pána svého. Po dlouhém čase pak přišel pán oněch služebníků a skládal účet s nimi. I přistoupil ten, jenž byl obdržel pět hřiven, a podal: jiných pět hřiven řka: ,Pane, pět hřiven odevzdal jsi mi, hle, jiných pět jsem vyzískal.‘ Řekl mu pán jeho: ,Dobře, služebníku dobrý a věrný, že jsi nad málem byl věrný, nad mnoha věcmi ustanovím tebe, vejdi v radost pána svého.‘ Přistoupiv pak i ten, kterýž byl obdržel dvě hřivny, řekl: ,Pane, dvě hřivny odevzdal jsi mi, hle, jiné dvě jsem vyzískal.‘ Řekl mu pán jeho: ,Dobře, služebníku dobrý a věrný, že jsi nad málem byl věrný, nad mnoha věcmi ustanovím tebe; vejdi v radost pána svého.‘“",
+        "Espanol": "En aquel tiempo: Dijo Jesús a sus discipulos esta parábola: Un hombre que partió para lejanas tierras hizo llamar a sus criados, y les entregó sus bienes, y a uno le entregó cinco talentos, a otro dos, y a otro uno, a cada cual según su capacidad, y emprendió el viaje. En seguida, el que había recibido cinco talentos se fue, y negociando con ellos, ganó otros cinco. De la misma suerte, aquél que había recibido dos ganó otros dos. Mas el que recibió uno fue, hizo un hoyo en la tierra y en él escondió el dinero de su Señor. Pasado mucho tiempo vuelve et amo de estos criados y ajusta cuentas con ellos. Llegándose el que habia recibido cinco talentos, presentóle otros cinco, diciendo: Señor, cinco talentos me habias entregado, he aquí otros cinco que con ellos he ganado. Respondióle su amo: Bien, siervo bueno y leal; has sido fiel en cosa de poca importancia, te confiaré lo mucho; entra en el gozo de tu Señor. Llegándose también el que había recibido dos talentos, dijo: Señor, dos talentos me habías confiado  he aqui otros dos, que he granjeado con ellos. Díjole su amo: Bien, siervo bueno, has sido fiel en lo poco, yo te confiaré lo mucho; entra en el gozo de tu Señor.",
+        "Francais": "En ce temps-là, Jésus dit à ses disciples cette parabole : « Partant pour un voyage, un homme appela ses serviteurs et leur remit ses biens. Il donna à l’un cinq talents, à l’autre deux et au troisième un, à chacun selon sa capacité, et il partit aussitôt. Celui qui avait reçu cinq talents s’en alla, les fit valoir et en gagna cinq autres. De même, celui qui en avait reçu deux en gagna deux autres. Celui qui n’en avait reçu qu’un s’en alla creuser la terre et y cacha l’argent de son maître. Longtemps après, le maître de ces serviteurs revint et leur fit rendre compte. Celui qui avait reçu cinq talents s’approcha, en apporta cinq autres, disant : “Seigneur, tu m’avais remis cinq talents, en voici cinq autres que j’ai gagnés.” Son maître lui dit : “C’est bien, bon et fidèle serviteur : parce que tu as été fidèle en peu de choses, je t’établirai sur beaucoup ; entre dans la joie de ton maître.” Celui qui avait reçu deux talents s’approcha également et dit : “Seigneur, tu m’avais remis deux talents, en voici deux autres que j’ai gagnés.” Son maître lui dit : “C’est bien, bon et fidèle serviteur : parce que tu as été fidèle en peu de choses, je t’établirai sur beaucoup ; entre dans la joie de ton maître.” »",
+        "Italiano": "In quel tempo Gesù disse ai suoi discepoli questa parabola: «Un uomo, in procinto di partire, chiamati i servi consegnò loro i suoi beni: a chi diede cinque talenti, a chi due, a chi uno: a ciascuno secondo la sua capacità, e subito partì. Tosto colui, che aveva ricevuto cinque talenti, andò a negoziarli e ne guadagnò altri cinque. Similmente quello che ne aveva ricevuti due, ne guadagnò altri due. Ma colui che ne aveva ricevuto uno andò a fare una buca nella terra e vi nascose il danaro del suo padrone. Or molto tempo dopo ritornò il padrone di quei servi, e li chiamò a render conto. E venuto quello che aveva ricevuto cinque talenti, ne presentò altri cinque dicendo: “Signore, me ne desti cinque, ecco ne ho guadagnati altri cinque”. E il padrone a lui: “Bene, servo buono e fedele, perché sei stato fedele nel poco, ti darò potere su molto; entra nella gioia del tuo Signore». E presentatosi l'altro che aveva ricevuto due talenti, disse: “Signore, me ne hai affidati due; eccone guadagnati altri due». E il padrone a lui: “Bene, servo buono e fedele, perché sei stato fedele, nel poco, ti darò potere su molto: entra nella gioia del tuo Signore»».",
+        "Magyar": "Úgy lesz, mint azzal az emberrel, aki idegenbe készült. Összehívta szolgáit, s rájuk bízta vagyonát.  Az egyiknek öt talentumot adott, a másiknak kettőt, a harmadiknak csak egyet, kinek-kinek rátermettsége szerint, aztán útra kelt.  Aki öt talentumot kapott, menten elkezdett vele kereskedni, s másik ötöt nyert rajta.  Ugyanígy az is, aki kettőt kapott, másik kettőt szerzett.  Aki egyet kapott, elment, ásott egy gödröt, és elrejtette urának pénzét.  Hosszú idő elteltével megjött a szolgák ura, és számadást tartott.  Jött, aki öt talentumot kapott, és felmutatta a másik öt talentumot: Uram, öt talentumot adtál, nézd, másik ötöt nyertem rajta. -  Jól van, te hűséges, derék szolga - mondta neki ura. - Minthogy a kevésben hű voltál, sokat bízok rád: menj be urad örömébe!  Jött az is, aki két talentumot kapott, s így szólt: Uram, két talentumot adtál, nézd, másik kettőt szereztem. -  Jól van, te hűséges, derék szolga. Mivel a kevésben hű voltál, sokat bízok rád: menj be urad örömébe!",
+        "Nederlands": "In die tijd hield Jezus zijn leerlingen deze gelijkenis voor: Er was eens een mens, die naar het buitenland ging; daarom riep hij zijn dienaren, en vertrouwde hun zijn bezittingen toe. En aan de één gaf hij vijf talenten, aan een ander twee, en aan een derde één, aan ieder volgens zijn bekwaamheid; dan ging hij terstond op reis. Degene nu, die vijf talenten ontvangen had, ging heen, dreef er handel mee, en won er nog vijf bij. Evenzo won ook hij, die er twee ontvangen had, nog twee er bij. Maar hij, die er één ontvangen had, ging heen, maakte een kuil in de grond, en verborg daar het geld van zijn heer. Geruime tijd daarna echter kwam de heer van die dienaren terug, en hield afrekening met hen. En toen degene, die de vijf talenten ontvangen had, naar voren trad, haalde hij nog vijf talenten te voorschijn, en zeide: Heer, vijf talenten hebt gij mij toevertrouwd; zie, ik heb er nog vijf bij verdiend. Zijn heer zeide tot hem: Uitstekend! goede en getrouwe knecht; omdat gij over weinig getrouw geweest zijt, zal ik u stellen over veel; treed binnen in de vreugde van uw heer. Dan kwam ook hij, die de twee talenten ontvangen had, naar voren en zeide: Heer, twee talenten hebt gij mij toevertrouwd; zie, ik heb er nog twee bij verdiend. Zijn heer zeide hem: Uitstekend! goede en getrouwe knecht; omdat gij over weinig getrouw geweest zijt, zal ik u stellen over veel; treed binnen in de vreugde van uw heer.",
+        "Polski": "Onego czasu: Rzekł Jezus uczniom swoim tę przypowieść: «Człowiek pewien odjeżdżając daleko, zwołał sługi swoje i oddał im majętność swoją. I jednemu dał pięć talentów, a drugiemu dwa, a innemu jeden: każdemu według jego zdolności. I wnet odjechał. A ten, który był wziął pięć talentów, poszedł i zarabiał nimi, a zyskał drugie pięć. Podobnie i ten, który dwa otrzymał, zyskał drugie dwa. Ale ten, który otrzymał był jeden, odszedłszy, zakopał go w ziemi i skrył pieniądze pana swego. A po długim czasie wrócił pan sług onych i począł rozliczać się z nimi. I przystąpiwszy ten, który pięć talentów otrzymał, wręczył mu drugie pięć talentów, mówiąc: Panie, dałeś mi pięć talentów, otom drugie pięć zyskał. Rzekł mu pan jego: Dobrze, sługo prawy i wierny, żeś w małym był wierny, dam ci władzę nad wieloma: wnijdź do wesela pana twego. Przystąpił też i ten, który dwa talenty otrzymał, i rzekł: Panie, dałeś mi dwa talenty, otom zyskał drugie dwa. Rzekł mu pan jego: Dobrze, sługo prawy i wierny, żeś w małym był wierny, dam ci władzę nad wieloma: wnijdź do wesela pana twojego.»",
+        "Portugues": "Naquele tempo, disse Jesus a seus discípulos esta parábola: Indo um homem viajar para longe, chamou os seus servos e entregou-lhes os bens. A um deu cinco talentos, a outro dois e ao terceiro um. Deu a cada um segundo a sua capacidade; partindo imediatamente. Aquele que havia recebido cinco talentos partiu, e, negociando com este dinheiro, ganhou outros cinco talentos. Semelhantemente, o que recebera dois lucrou outros dois. Mas aquele que havia recebido só um talento foi, cavou a terra e aí ocultou o dinheiro do senhor. Passado muito tempo, veio o senhor daqueles servos e fez contas com eles. Aproximando-se, então, o que recebera cinco talentos, apresentou outros cinco, dizendo: «Senhor, entregastes-me cinco talentos, eis outros cinco, que lucrei». Disse-lhe o seu senhor: «Muito bem, servo bom e fiel: visto que foste fiel em poucas cousas, estabelecer-te-ei acima de muitas cousas: entra no gozo do teu senhor». Aproximando-se também o que recebera dois talentos, disse: «Senhor, entregastes-me dois talentos, eis outros dois que lucrei». E o senhor lhe disse: «Muito bem, servo bom e fiel: visto que foste fiel em poucas cousas, eu te estabelecerei acima de muitas cousas: entra no gozo do teu senhor»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) IN(c)vé(ef'g)ni(f) *() Da(f)vid(fhffe.) (,) ser(f)vum(fiH'Gh) me(f_g_f_)um,(f.) (:) ó(hhi)le(h)o(h) san(h)cto(hiH'GhvG'FEfe..) (,) un(hhf~)xi(hh) e(giH'G)um :(g.) (:) ma(hhi)nus(h) e(hi/ji)nim(ihh) me(f!hhhfivH'Gh)a(h.) (,) au(h)xi(h)li(h)á(hhi)bi(f)tur(e_d) e(fhF'EfvED'e)i,(ed..) (:) et(ef~) brá(e)chi(e.f!gwhg)um(h) me(hg)um(hig'hvF'Ef.) (,) con(e)for(f)tá(f!hhhfivH'Gh)bit(g_f) e(efe___)um.(e.) (::) <nlba><i>T. P.</i> Al(ef)le(e)lú(egivHG'h){ia}.</nlba>(fe/fgffe.) (::)",
+      "availableTranslations": {
+        "Cesky-Schaller": "Vyvolil jsem Davida, služebníka svého, olejem svatým pomazal jsem jej. Proto bude ruka má mu pomáhati a rámě mé jej posílí. Aleluja."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Sancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum mérita recólimus, patrocínia sentiámus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May Your Saints, we beseech You, O Lord, everywhere make us joyful: so that, while we reflect upon their merits, we may enjoy their help. ",
+        "Bohemice": "Svatí tvoji, prosíme, Pane, ať nás všudy potěšují, abychom zásluhy jejich velebíce, ochranu jejich pociťovali.",
+        "Cesky-Schaller": "Svatí tvoji, prosíme, Pane, ať nás všudy potěšují, abychom zásluhy jejich velebíce, ochranu jejich pociťovali.",
+        "Espanol": "Te rogamos, Señor, que en todas partes nos alegren tus santos, para que celebrando sus méritos sintamos su patrocinio.",
+        "Francais": "Que vos saints, Seigneur, nous réjouissent partout : en sorte que, rappelant leurs mérites, nous éprouvions les effets de leur protection.",
+        "Italiano": "Signore, i tuoi Santi ovunque ci rallegrino; affinché mentre ne ricordiamo i meriti ne esperimentiamo il patrocinio.",
+        "Magyar": "Szenteid, kérünk, Urunk, örvendeztessenek meg minket mindenütt, hogy érdemeiket ünnepelve, oltalmukat érezhessük.",
+        "Nederlands": "Wij vragen U, Heer, mogen uw heiligen ons altijd gelukkig doen zijn, en laat ons daarom bij de herdenking van hun verdiensten hun bescherming ondervinden.",
+        "Polski": "Panie, niech nam wszędzie sprawiają radość Twoi Święci, abyśmy wspominając ich zasługi doznali również ich opieki.",
+        "Portugues": "Que os vossos santos, Senhor, Vos suplicamos, nos alegrem em toda a parte, a fim de que, honrando os seus méritos, sintamos o efeito do seu patrocínio."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) FI(e)dé(f)lis(ge) ser(fh~)vus(h.) *() et(hg~) pru(hi)dens,(i.) (;) quem(i) con(i)stí(ijij)tu(ih)it(h) Dó(hi)mi(h)nus(hg/hih.) (;) su(h)per(hg) fa(ge)mí(gh)li(f!h'i)am(hg~) su(e.)am :(e.) (:) ut(h) det(h) il(hih)lis(e.) (,) in(ghf~) tém(hi~)po(ijiigh)re(hg..) (;) trí(i!jw!kvJI'ih//i_ghvGF'//gh'i!jv)ti(hf)ci(hi) men(hg~)sú(efe___)ram.(e.) (::) <i>T. P.</i> Al(f!gwh)le(h_i_h_gih.f!hgh./f_g_e_)lú(efe___){ia}.(e.) (::)",
+      "availableTranslations": {
+        "English": "The faithful and prudent servant whom the master will set over his household to give them their ration of grain in due time. (Allelúja.)",
+        "Bohemice": "Věrný služebník a opatrný, jejž ustanovil pán nad čeledí svou, aby jim dával v čas míru pšenice. (Aleluja.)",
+        "Cesky-Schaller": "Věrný služebník a opatrný, jejž ustanovil pán nad čeledí svou, aby jim dával v čas míru pšenice. Aleluja.",
+        "Espanol": "Fue siervo fiel y prudente, puesto por su amo sobre su familia, para distribuir a  cada uno, a su tiempo, la ración de trigo. (Alleluia.)",
+        "Francais": "Voici le serviteur fidèle et prudent que le Seigneur a établi sur sa famille pour qu’il donne à chacun en temps voulu sa mesure de blé. (Alléluia.)",
+        "Italiano": "Fedele e saggio è il servitore che il Signore ha preposto alla sua casa: perché al tempo conveniente dia il cibo che spetta a ciascuno. (Alleluia.)",
+        "Magyar": "Hű és okos sáfár, kit az Úr háznépe fölé rendel, hogy búzát adjon nekik mérték szerint a maga idejében. (Allelúja.)",
+        "Nederlands": "Een trouwe en verstandige knecht was hij, die de Heer over zijn gezin aanstelde, om hun op tijd de maat tarwe uit te reiken. (Alleluia.)",
+        "Polski": "Oto wierny i roztropny sługa, którego Pan postanowił nad swoją czeladzią, by każdemu wydzielał żywność w odpowiednim czasie. (Alleluia.)",
+        "Portugues": "Eis o servo fiel e prudente que o Senhor estabeleceu acima da sua família para distribuir, oportunamente, a cada um a sua medida de trigo. (Alleluia.)"
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhibéntes, intercedénte beáto N. Confessóre tuo atque Pontífice, benefícia potióra sumámus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, we beseech You, almighty God, that as we thank You for the favors we have received, we may, by the intercession of blessed N., Your Confessor and Bishop, obtain still greater blessings. ",
+        "Bohemice": "Uděl, prosíme, všemohoucí Bože, abychom za přijaté dary díky vzdávajíce, na přímluvu svatého N., vyznavače tvého a biskupa, ještě hojnějších dobrodiní dosáhli.",
+        "Cesky-Schaller": "Uděl, prosíme, všemohoucí Bože, abychom za přijaté dary díky vzdávajíce, na přímluvu svatého N., vyznavače tvého a biskupa, ještě hojnějších dobrodiní dosáhli.",
+        "Espanol": "Te rogamos, ¡oh Dios todopoderoso!, que, dándote gracias por los dones recibidos, obtengamos por la intercesión de tu santo obispo y confesor N., beneficios aún mayores.",
+        "Francais": "Nous vous en prions, Dieu tout-puissant : accordez, par l’intercession de saint N., votre évêque et confesseur, que, rendant grâce pour les dons reçus, nous acquérions de plus grands bienfaits.",
+        "Italiano": "O Dio onnipotente, concedici, te ne preghiamo, che, mentre ti ringraziamo dei doni ricevuti, per intercessione del beato N. confessore tuo e vescovo, ne riceviamo dei maggiori.",
+        "Magyar": "Add meg, kérünk, mindenható Isten, hogy a vett adományokért hálát adva Szent N. hitvallód és püspököd közbenjárására ég nagyobb jótéteményeket nyerhessünk.",
+        "Nederlands": "Dankbaar voor de ontvangen gaven, vragen wij U, almachtige God, dat wij op voorspraak van uw heilige belijder en bisschop N. de hogere gaven mogen genieten.",
+        "Polski": "Wszechmogący Boże, spraw, prosimy, abyśmy składając dzięki za przyjęte dary, za przyczyną świętego N., Wyznawcy Twego i Biskupa, otrzymywali coraz większe dobrodziejstwa.",
+        "Portugues": "Dignai-Vos permitir, ó Deus omnipotente, que, dando-Vos nós graças pelos benefícios recebidos, alcancemos por intercessão do B. N., vosso Confessor e Pontífice, ainda outros maiores."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

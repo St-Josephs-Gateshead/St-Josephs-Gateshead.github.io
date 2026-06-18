@@ -1,0 +1,750 @@
+{
+  "rule": [
+    "Gloria"
+  ],
+  "feast": "S. Gorgonii Martyris",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) LAe(e)tá(hh)bi(fd)tur(e) *() ju(fe/hhvF'E)stus(f.) (`) in(hh) Dó(ihi)mi(igh)no,(ih..) (;) et(f) spe(h_g)rá(gh!ijH'G)bit(hhe/hh) (,) in(hvvGF'E) e(ef/gffe)o :(efeed.0) (:) et(ef) lau(e)da(hh)bún(e!hhh/i_h)tur(h.) (,) o(hg/hih)mnes(fv.de'f) re(f!hhf/hhh)cti(hvGF) cor(fg~)de.(e.) (::) <i>Ps.</i> Ex(e)áu(fe~)di(eh) De(h)us(h) o(h)ra(h)ti(h)ó(h)nem(h) me(hg)am(hi) cum(i) dé(hi)pre(h)cor :(h.) *(:) a(hf) ti(fh)mó(h)re(h) in(h)i(h)mí(h)ci(h.) (,) é(h)ri(h)pe(h) á(hhg)ni(ef)mam(hg) me(f)am.(e.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h) u(hhg) o(ef) u(hg) a(f) e.</eu>(e.) (::)",
+      "availableTranslations": null,
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Sanctus tuus, Dómine, Gorgónius sua nos intercessióne lætíficet: et pia fáciat sollemnitáte gaudére.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May Gorgonius, Your Saint, O Lord, gladden us by his intercession, and cause us to rejoice on his festival which we are devoutly keeping.",
+        "Bohemice": "Pane, tvůj svatý Gorgonius nechť nám svou přímluvou přináší radost; a učiní, ať se radujeme ze zbožné slavnosti.",
+        "Deutsch": "Dein heiliger, o Herr, Gorgonius möge uns durch seine Fürsprache beglücken: und es bewirken, daß wir uns in andächtiger Festesstimmung freuen.",
+        "Espanol": "Haz, Señor, que San Gorgonio, tu mártir, nos alegre con su intercesión, y nos conceda el gozar devotamente de esta solemnidad.",
+        "Francais": "Seigneur, faites que saint Gorgon, votre martyr, nous console par son intercession, et nous fasse goûter la joie de cette pieuse solennité.",
+        "Italiano": "Ii tuo santo Gorgonio, o Signore, ci allieti con la sua intercessione e ci faccia godere di questa pia solennità.",
+        "Magyar": "Nyájadra, örök Pásztor tekints le kiengesztelődötten: és örök oltalommal őrizd meg Szent N. vértanúd és pápád által, akit egész Egyházad pásztorává tettél.",
+        "Nederlands": "Moge uw heilige Gorgonius ons, o Heer, met zijn voorspraak verblijden en ons door de vrome viering vreugde schenken.",
+        "Polski": "Panie, niechaj Twój święty Męczennik Gorgoniusz raduje nas swoim wstawiennictwem i sprawi, byśmy się cieszyli z tego uroczystego nabożeństwa.",
+        "Portugues": "Alegre-nos, Senhor, o vosso Santo Gorgónio com sua intercessão; e nos faça sentir o gozo desta pia solenidade."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Caríssime: Memor esto, Dóminum Jesum Christum resurrexísse a mórtuis ex sémine David, secúndum Evangélium meum, in quo labóro usque ad víncula, quasi male óperans: sed verbum Dei non est alligátum. Ideo ómnia sustíneo propter eléctos, ut et ipsi salútem consequántur, quæ est in Christo Jesu, cum glória coelésti. Tu autem assecútus es meam doctrínam, institutiónem, propósitum, fidem, longanimitátem, dilectiónem, patiéntiam, persecutiónes, passiónes: quália mihi facta sunt Antiochíæ, Icónii et Lystris: quales persecutiónes sustínui, et ex ómnibus erípuit me Dóminus. Et omnes, qui pie volunt vívere in Christo Jesu, persecutiónem patiéntur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) JU(dd/efE'Cd_e_d_)stus(d.) *() cum(d) ce(d)cí(de)de(d)rit,(d.) (,) non(d) col(ef)li(f_dfvED'cd'e)dé(e)tur :(ded.) (:) qui(d)a(d) Dó(fd/ef!hh/ihi)mi(hgh)nus(f_e) (,) sup(f)pó(f/hhvFD.1gxgvFE'De)nit(ed..) (;) ma(dfe___/hgh)num(f) su(ded)am.(dfe___hv.hhhff//dfe/feed.0) (::) <sp>V/</sp>. To(d)ta(f) di(fh/ih/ijh)e(h) mi(h)se(h)ré(hi)tur,(h.) (,) et(h_g/i!jwk) cóm(i_h)mo(h)dat :(hg/i_h//jvIH'Ghf..) (:) et(hh) se(h)men(h) e(ih/ij_h ih/ij_ij//hi/jij)jus(jh/jkihh/fgf.) (;) in(d) be(d)ne(d)di(d)cti(d)ó(dfE'D)ne(ef) *(,) e(fhG'Fhhh)rit.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": null,
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) AL(fgF'E)le(gh/ih)lú(gf~){ia}.(f.) <clear>*(,) <i>ij.</i>(gh!ivHFE.c!ef!hv.) (,) (gh!ijjvIH'GF//gvFEggf.0) (::) <sp>V/</sp>. Qui(fgF'E) sé(gh/ih)qui(gf)tur(ef) me,(f/ggf.0) (;) non(fgf) ám(e)bu(g)lat(kxiji/jkJI'i) in(g!ij) té(hg)ne(fg)bris,(gf/hhg.) (:) sed(e) ha(fg)bé(gfivvH'GF'E)bit(fg) lu(efehvvGF'g)men(g.) <clear>*(,) vi(fgF'Eg)tae(g.) ae(gh/ih)tér(gf~)nae.(f.) (,) (gh!ivHFE.c!ef!hv.) (,) (gh!ijjvIH'GF//gvFEggf.0) (::)",
+      "availableTranslations": null,
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c2) AL(cd)le(c)lú(cfe!gh){ia}.(g.) *(;) <i>ij.</i>(fh!ivHGhvGFg.) (,) (fh!ivHGhvFDffg//cd!fvED'dc.) (,) (e!ghGE.ced/eddc.) (::) <sp>V/</sp>. Con(cd)fi(c)te(cfe)bún(fg)tur(g.) cae(gh!ij)li(iivHG.) (;) mi(g)ra(g)bí(g/hih)li(gf)a(f) tu(fvEDef!hvGF'fvEDef)a(e.) (,) Dó(e!fw!gvF'ED'ew!fvED')mi(cd'e)ne :(dc..) (:) ét(gfg)e(ihijg//jvIH'Fg.)(;)(gfgihijg//jvIH'F)nim(g'/hihhg.) (;) ve(g)ri(hih)tá(gf)tem(f) tu(fvEDef!hvGF'fvEDef)am(e./fgf'/gd//evDCdc..) (:) in(cd) ec(c)clé(c.d!ewfef)si(e)a(e.) *(,) san(fg)ctó(fe/fgf/gh)rum.(g.) (;) (fh!ivHGhvGFg.) (,) (fh!ivHGhvFDffg//cd!fvED'dc.) (,) (e!ghGE.ced/eddc.) (::)",
+      "availableTranslations": null,
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(cd/fg)le(edf./efd/ed)lú(cd~){ia}.(d.) *(;) (ixfg!hvhf//hv.giHF.1) (,) (ixhv.giH'GF.deddc) (,) (cf/g/hh//fhg'hvF'EDffd.) (::) <sp>V/</sp>. Po(cd/fg)su(edf./efd/ed)í(cd)sti,(d.) (,) Dó(ixfg!hvhf//hv.giHF.1)(,)(ixhv.giH'GF.deddc)(,)(cd/fg)mi(edffd)ne,(d.) (:) su(h)per(g) ca(h)put(g) e(ixf/hhg/hh//fh!ivGFhh/fhfgvF~D~)jus(d.) (;) co(dcf)ró(ixhfhivGFhv.)(,)(ixf!gwhghivGFh)nam(hgg) (,) de(ef'g) lá(edf./efd/ed)pi(cd)de(d.) *(;) pre(cd/fg)ti(edf./efd/ed)ó(cd)so.(d.) (;) (ixfg!hvhf//hv.giHF.1) (,) (ixhv.giH'GF.deddc) (,) (cf/g/hh//fhg'hvF'EDffd.) (::)",
+      "availableTranslations": null,
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) JU(dd/efE'Cd_e_d_)stus(d.) *() cum(d) ce(d)cí(de)de(d)rit,(d.) (,) non(d) col(ef)li(f_dfvED'cd'e)dé(e)tur :(ded.) (:) qui(d)a(d) Dó(fd/ef!hh/ihi)mi(hgh)nus(f_e) (,) sup(f)pó(f/hhvFD.1gxgvFE'De)nit(ed..) (;) ma(dfe___/hgh)num(f) su(ded)am.(dfe___hv.hhhff//dfe/feed.0) (::) <sp>V/</sp>. To(d)ta(f) di(fh/ih/ijh)e(h) mi(h)se(h)ré(hi)tur,(h.) (,) et(h_g/i!jwk) cóm(i_h)mo(h)dat :(hg/i_h//jvIH'Ghf..) (:) et(hh) se(h)men(h) e(ih/ij_h ih/ij_ij//hi/jij)jus(jh/jkihh/fgf.) (;) in(d) be(d)ne(d)di(d)cti(d)ó(dfE'D)ne(ef) *(,) e(fhG'Fhhh)rit.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": null,
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(g)á(g/hih)tus(g/hhg) vir,(g.) *(,) qui(gjj) ti(j_k)met(hvGF'ghhg.) (,) Dó(h!jij)mi(hj)num :(jjjkhhg/hg/jjh/jggf.0) (:) in(f!h'j) man(igh)dá(gfg)tis(gh/jij) (`) e(j.h!iwj)jus(jjjvIHivHGhg..) (;) cu(ixfh/ih/ig)pit(j.) ni(iyjv.ijg.ixjjvH'GhiGF.)(,)(iyh./jh/ig)mis.(g/hhg.) (::) \r\n<sp>V/</sp>. Pot(g!hwi'!jv)ens(j) in(j) ter(j)ra(j) e(ij)rit(j.) (,) se(j)men(j) e(j_kJ'//Gh_g/h!iw!jvIHijh)jus :(hg..) (:) ge(f!h'j)ne(igh)rá(gf/gh)ti(g)o(g.) (`) re(gh/jij)ctó(j.h!iwj)rum(jjjvIHivHGhg..) (;) be(h_g/h!iwj)ne(ghG'F)di(f!h'j)cé(j)tur.(jijHG.ixjjvH'GhiGF.) (,) (iyh./jh/ig/hhg.) (::) \r\n<sp>V/</sp>. Gló(g!hwi'!jv)ri(j)a(j) et(j) di(j)ví(ij)ti(j)ae(j.) (,) in(j) do(j)mo(j) e(j_kJ'//Gh_g/h!iw!jvIHijh)jus :(hg..) (:) et(f!h'j) ju(igh)stí(gf/gh)ti(g)a(gh/jij) (`) e(j.h!iwj)jus(jjjvIHivHGhg..) (;) ma(h_g/h!iwj)net(g_h) *(,) in(f) saé(f.0h!iw!jk)cu(j)lum(j) saé(j)cu(j)li.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
+      "availableTranslations": null,
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus discípulis suis: Nihil est opértum, quod non revelábitur; et occúltum, quod non sciétur. Quod dico vobis in ténebris, dícite in lúmine: et quod in aure audítis, prædicáte super tecta. Et nolíte timére eos, qui occídunt corpus, ánimam autem non possunt occídere; sed pótius timéte eum, qui potest et ánimam et corpus pérdere in gehénnam. Nonne duo pásseres asse véneunt: et unus ex illis non cadet super terram sine Patre vestro? Vestri autem capílli cápitis omnes numeráti sunt. Nolíte ergo timére: multis passéribus melióres estis vos. Omnis ergo, qui confitébitur me coram homínibus, confitébor et ego eum coram Patre meo, qui in coelis est.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PO(f)su(g)í(g./hjHG'gf/ghg___)sti(g.) <clear>*(,) Dó(hg/h!jjkvJH)mi(gfh)ne(h.) (;) in(h) cá(jhhf/!ghGF'/!fde'1c)(,)(cd!ff/gh/jh)pi(g)te(f) e(fg~)jus(g.) (;) co(g.h!iwj)ró(jj/ij_g//h!jijkljj)nam(ki/jhhg.) (;) de(g) lá(g)pi(g)de(gggvED'eg'!hvGFg.) (,) pre(g)ti(hj)ó(ig/h!jj/klK'Ijkjjh/ig)so :(g.) (:) vi(g)tam(gh~) pé(hvGFgvFEf.0/!ghffdg)ti(fg)it(g.) (,) a(h) te,(gjI'Ghh//fh!jvGF'fd/ef!ghg.) (:) tri(g)bu(g)í(gjji/jh)sti(h) e(gh)i,(h.) (;) al(h!iwji~)le(jkJH'//gi. hjIH'//g!jj/h_i_g_)lú(ghg___){ia}.(g.) (::)",
+      "availableTranslations": null,
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Grata tibi sit, Dómine, nostræ servitútis oblátio: pro qua sanctus Gorgónius Martyr intervéntor exsístat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O Lord, may the offering which we, Your servants, present be pleasing to You because St. Gorgonius, Your Martyr, intercedes for us.",
+        "Francais": "Que vous soit agréable l’offrande de vos serviteurs, et que le saint Martyr Gorgon se montre notre intercesseur.",
+        "Italiano": "Ti sia gradita, o Signore, l'offerta dei tuoi servi e il santo martire Gorgonio, con la sua intercessione, a te la raccomandi.",
+        "Nederlands": "Moge, Heer, de offerande van ons, uw dienaren, U aangenaam zijn, omdat ook de heilige martelaar Gorgonius onze voorspreker is.",
+        "Polski": "Niech wstawiennictwo świętego Gorgoniusza sprawi, aby miłą Tobie, Panie, była ofiara Twoich sług.",
+        "Portugues": "Que Vos seja agradável, Senhor, a oferta da nossa servidão, a qual Vo-la apresentamos pela intervenção do Santo Mártir Gorgónio."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) QUI(d) mi(gxf!gwh)hi(h) mi(gxhf)ní(ghg)strat,(f.) <clear>*(,) me(hi) se(h)quá(hfh)tur :(fhffd.) (:) et(d) u(d)bi(fh) e(h_f/hi/kjk)go(i_h) sum,(hg/hf..) (;) il(f)lic(h_i_h_ghFE'edev'1fhffe.) (;) et(hv.ghf'hvE'D) mi(d)ní(b_c_a_)ster(ba~) me(dfe___)us(e!fwg'!hvF'Ef) e(d_e_d_)rit.(d.) (::)",
+      "availableTranslations": null,
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Famíliam tuam, Deus, suávitas ætérna contíngat et végetet: quæ in Mártyre tuo Gorgónio Christi, Fílii tui, bono júgiter odóre pascátur:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May Your everlasting kindness fill Your faithful people with new life, and may they be ever refreshed by the good fragrance of Christ, your Son, through Gorgonius, Your Martyr.",
+        "Francais": "Que le suave aliment éternel touche et nourrisse votre famille, ô Dieu, et que celle-ci soit embaûmée de la bonne odeur du Christ, votre Fils, en la fête de votre Martyr Gorgon.",
+        "Italiano": "L'eterna soavità, o Dio, tocchi e faccia crescere la tua famiglia, e nel martire tuo Gorgonio essa continuamente si impregni del profumo soave di Cristo tuo Figlio:",
+        "Nederlands": "Moge de eeuwige zoetheid, o God, uw gezin ten deel vallen en verkwikken, en moge het steeds gevoed worden met de geur van Christus, uw Zoon, die was in uw martelaar Gorgonius.",
+        "Polski": "Boże, niech wieczna słodycz przeniknie i pokrzepi Twoją rodzinę, aby w świętym Męczenniku Twoim Gorgoniuszu zawsze napawała się dobrą wonią Chrystusa Syna Twojego:",
+        "Portugues": "Que a vossa família, ó Deus, seja alimentada e fortalecida com as delícias eternas; e que pelo vosso S. Mártir Gorgónio ela se alimente incessantemente com o bom odor de vosso Filho Jesus Cristo:"
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

@@ -1,0 +1,758 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "Die V infra octavam Paschæ",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) VIc(g)trí(gi)cem(i) *() ma(ik)num(j) tu(jjjh)am,(h) Dó(jj)mi(gih)ne,(h.) (;) lau(g)da(hji)vé(i)runt(kjj) pá(h/jjj)ri(g)ter,(gfh.) (,) al(h)le(h)lú(ghfg){ia} :(e.) (:) qui(f)a(fff) sa(ed)pi(g)én(hV!gh~)ti(h)a(h.) (,) a(h)pé(h!iwj)ru(hg)it(g.) os(gh/jij) mu(gh!jjh!iwj_g)tum,(g.) (:) et(g) lin(hi~)guas(i) in(ih~)fán(jk~)ti(k_j)um(jjj/h_i_h._) (,) fe(ik)cit(j) di(jjj)sér(gi/jh)tas,(h.) (;) al(ih~)le(j)lú(jijh){ia},(g.) (,) al(gh~)le(hv.fhg)lú(ghg___){ia}.(g.) (::) <i>Ps.</i> Can(g)tá(hg)te(gj) Dó(j)mi(j)no(j) cán(ji)ti(jk)cum(k) no(jk)vum :(j.) *(:) qui(jh)a(hj) mi(j)ra(j)bí(jji)li(gh)a(ji) fe(h)cit.(g.) (::) Gló(g)ri(hg)a(gj) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(gh) u(ji) a(h) e.</eu>(g.) (::)",
+      "availableTranslations": {
+        "English": "They sung to thy holy name, O Lord, and they praised with one accord thy victorious hand, alleluia. For wisdom opened the mouth of the dumb, and made the tongues of infants eloquent, allelúja, allelúja. Sing ye to the Lord a new canticle: because he hath done wonderful things.",
+        "Francais": "D'un seul cœur, ils louèrent, Seigneur, votre main victorieuse, alléluia ; car la Sagesse a ouvert la bouche muette, et elle a rendu éloquente la langue des enfants, alléluia, alléluia. Chantez au Seigneur un cantique nouveau, car il a fait des merveilles.",
+        "Italiano": "I giusti lodarono concordi la tua mano vittoriosa, o Signore, alleluia; poiché la sapienza aprì la bocca ai muti e rese eloquente la lingua dei pargoli, alleluia, alleluia. Canto nuovo cantate al Signore poiché fatti mirabili Egli ha operato.",
+        "Nederlands": "Uw hand, die overwinningen bevocht, prezen ze eenstemmig, o Heer, alleluia, want de wijsheid opende de mond van de stomme en maakte de tong van kinderen welsprekend, alleluia, alleluia. Zingt de Heer een nieuw lied, want wonderen heeft Hij gewrocht.",
+        "Polski": "Zwycięską rękę Twą, Panie, jednomyślnie wychwalali, alleluja, bo mądrość otworzyła usta niemych, a języki niemowląt uczyniła wymownymi, alleluja, alleluja, alleluja. Śpiewajcie Panu pieśń nową, albowiem cuda uczynił.",
+        "Portugues": "Louvaram juntamente, Senhor, a vossa mão vencedora, aleluia: pois a sabedoria abriu a boca dos mudos e tornou eloquente a língua das crianças, aleluia, aleluia. Cantai em honra do Senhor um hino novo, pois Ele operou maravilhas."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Deus, qui diversitátem géntium in confessióne tui nóminis adunásti: da, ut renátis fonte baptísmatis una sit fides méntium, et píetas actiónum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Who dost make all nations, how diverse soever they be, to become one family in giving of praise to thy Name, grant unto all them that are born again in the fountain of baptism to live ever in oneness of faith, and godliness of works. ",
+        "Francais": "Ô Dieu, qui avez uni les diverses nations dans la confession de votre nom, faites qu'en ceux qui viennent de renaître dans la source du baptême, il n'y ait qu'une foi dans les esprits, une charité dans les œuvres.",
+        "Italiano": "O Signore, che nella professione della tua divinità hai radunato popoli diversi; fa' che nei rinati dal fonte battesimale sia una la Fede della mente e una la pietà delle opere.",
+        "Nederlands": "God, Gij hebt de verschillende volkeren één gemaakt in de belijdenis van uw Naam. Laat hen, die herboren zijn in het water van het Doopsel, één zijn van geest door het geloof, en één van daden door de liefde.",
+        "Polski": "Boże, który zjednoczyłeś różne narody w wyznawaniu Twojego imienia, daj, aby ci, co się odrodzili w wodzie Chrztu, zachowali jedność wiary w duchu i miłość w uczynkach.",
+        "Portugues": "Ó Deus, que reunistes os diversos povos na confissão do vosso nome, fazei que aqueles que foram regenerados pela água do baptismo tenham uma só fé no espírito e uma só piedade nas acções."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Angelus Dómini locútus est ad Philíppum, dicens: Surge et vade contra meridiánum ad viam, quæ descéndit ab Jerúsalem in Gazam: hæc est desérta. Et surgens ábiit. Et ecce vir Æthiops eunúchus, potens Candácis regínæ Æthíopum, qui erat super omnes gazas ejus, vénerat adoráre in Jerúsalem: et revertebátur sedens super currum suum, legénsque Isaíam Prophétam. Dixit autem Spíritus Philíppo: Accéde et adjúnge te ad currum istum. Accúrrens autem Philíppus, audívit eum legéntem Isaíam Prophétam, et dixit: Putásne, intéllegis, quæ legis? Qui ait: Et quómodo possum, si non áliquis osténderit mihi? Rogavítque Philíppum, ut ascénderet et sedéret secum. Locus autem Scriptúræ, quam legébat, erat hic: Tamquam ovis ad occisiónem ductus est: et sicut agnus coram tondénte se, sine voce, sic non apéruit os suum. In humilitáte judícium ejus sublátum est. Generatiónem ejus quis enarrábit, quóniam tollétur de terra vita ejus? Respóndens autem eunúchus Philíppo, dixit: Obsecro te, de quo Prophéta dicit hoc? de se, an de álio áliquo? Apériens autem Philíppus os suum, et incípiens a Scriptúra ista, evangelizávit illi Jesum. Et dum irent per viam, venérunt ad quandam aquam: et ait eunúchus: Ecce aqua, quid próhibet me baptizári? Dixit autem Philíppus: Si credis ex toto corde, licet. Et respóndens, ait: Credo, Fílium Dei esse Jesum Christum. Et jussit stare currum: et descendérunt utérque in aquam, Philíppus et eunúchus, et baptizávit eum. Cum autem ascendíssent de aqua, Spíritus Dómini rápuit Philíppum, et ámplius non vidit eum eunúchus. Ibat autem per viam suam gaudens. Philíppus autem invéntus est in Azóto, et pertránsiens evangelizábat civitátibus cunctis - donec veníret Cæsaréam - nomen Dómini Jesu Christi.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In that time, an angel of the Lord spoke to Philip, saying: Arise, go towards the south, to the way that goeth down from Jerusalem into Gaza: this is desert. And rising up, he went. And behold a man of Ethiopia, an eunuch, of great authority under Candace the queen of the Ethiopians, who had charge over all her treasures, had come to Jerusalem to adore. And he was returning, sitting in this chariot, and reading Isaias the prophet. And the Spirit said to Philip: Go near, and join thyself to this chariot. And Philip running thither, heard him reading the prophet Isaias. And he said: Thinkest thou that thou understandest what thou readest? Who said: And how can I, unless some man shew me? And he desired Philip that he would come up and sit with him. And the place of the scripture which he was reading was this: He was led as a sheep to the slaughter; and like a lamb without voice before his shearer, so openeth he not his mouth. In humility his judgment was taken away. His generation who shall declare, for his life shall be taken from the earth? And the eunuch answering Philip, said: I beseech thee, of whom doth the prophet speak this? of himself, or of some other man? Then Philip, opening his mouth, and beginning at this scripture, preached unto him Jesus. And as they went on their way, they came to a certain water; and the eunuch said: See, here is water: what doth hinder me from being baptized? And Philip said: If thou believest with all thy heart, thou mayest. And he answering, said: I believe that Jesus Christ is the Son of God. And he commanded the chariot to stand still; and they went down into the water, both Philip and the eunuch: and he baptized him. And when they were come up out of the water, the Spirit of the Lord took away Philip; and the eunuch saw him no more. And he went on his way rejoicing. But Philip was found in Azotus; and passing through, he preached the gospel to all the cities, till he came to Caesarea.",
+        "Francais": "En ces jours-là, l'ange du Seigneur, s'adressant à Philippe, lui dit : « Lève-toi, et va, vers le milieu du jour, sur la route qui descend de Jérusalem à Gaza ; elle est déserte. » Il se leva et partit. Et voici qu'un Éthiopien, eunuque, ministre de Candace, reine des Éthiopiens, et surintendant de tout son trésor, venu à Jérusalem pour adorer, s'en retournait, assis sur son char, et lisait le prophète Isaïe. L'Esprit dit à Philippe : « Avance, et tiens-toi près de ce char. » Philippe accourut, l'entendit qui lisait le prophète Isaïe, et dit : « Comprends-tu bien ce que tu lis ? » L'autre dit : « Et comment le pourrais-je, si quelqu'un ne me guide ? » Et il pria Philippe de monter et de s'asseoir avec lui. Or le passage de l'Écriture qu'il lisait était celui-ci : Comme une brebis, il a été mené à la tuerie ; et comme un agneau muet devant celui qui le tond, ainsi il n'ouvre pas la bouche. C'est dans son humiliation que son jugement a été enlevé. Sa génération, qui la racontera ? Car sa vie a été retranchée de la terre. » L'eunuque reprit et dit à Philippe : « Je te prie, de qui le prophète dit-il cela ? Est-ce de lui-même ou de quelque autre ? » Alors Philippe, ouvrant la bouche et commençant par ce passage de l'Écriture, lui annonça la bonne nouvelle de Jésus. Or, chemin faisant, ils rencontrèrent de l'eau, et l'eunuque dit : « Voici de l'eau ; qu'est-ce qui empêche que je sois baptisé ? » Philippe lui dit : « Si tu crois de tout ton cœur, c'est possible. » Il répondit : « Je crois que Jésus-Christ est le Fils de Dieu. » Et il ordonna d'arrêter le char, et ils descendirent tous deux dans l'eau, Philippe et l'eunuque, et Philippe le baptisa. Mais, quand ils furent remontés de l'eau, l'Esprit du Seigneur enleva Philippe, et l'eunuque ne le vit plus. Mais il poursuivait sa route tout joyeux.Quant à Philippe, il se trouva dans Azot, et il alla jusqu'à Césarée, en proclamant le nom du Seigneur Jésus-Christ dans toutes les villes par où il passait.",
+        "Italiano": "In quei giorni: Un Angelo del Signore parlò a Filippo e gli disse: «Alzati e va' verso mezzogiorno sulla strada che da Gerusalemme scende a Gaza: questa è deserta». Egli si alzò e partì. Ed eccoti un Etiope eunuco, uomo molto potente presso Candace, regina degli Etiopi, sovraintendente di tutti i suoi tesori, il quale era stato ad adorare a Gerusalemme; e se ne tornava ora leggendo, seduto sopra il suo cocchio, il profeta Isaia. Allora lo Spirito disse a Filippo: «Fatti avanti e accòstati a quel cocchio». E Filippo, accorso, lo sentì che leggeva il profeta Isaia, e disse: «Comprendi quanto leggi?». Quello, disse: «E come lo posso se nessuno me lo spiega?». E pregò Filippo che salisse a sedere con lui. Il passo della Scrittura che leggeva era questo: «Come pecora è stato condotto al macello; e, come agnello muto dinanzi a chi lo tosa, così non apri la sua bocca. È portato via per una sentenza ingiusta, e chi si dà pensiero di difendere la sua causa, mentre è strappato di tra i viventi, e per il peccato del mio popolo è messo a morte?». L'eunuco prese a dire a Filippo: «Ti prego, il profeta di chi dice questo? di sé o di qualche altro?». E Filippo cominciando da questa Scrittura, gli annunziò Gesù. E seguitando la strada, arrivarono a una fonte, e l'eunuco disse: «Ecco dell'acqua; cosa impedisce ormai che io sia battezzato?». Allora Filippo rispose: «Se credi di tutto cuore, si può» Ed egli rispose: «Credo che Gesù Cristo è il Figlio di Dio». Fece fermare il cocchio: ed ambedue scesero nell'acqua, e Filippo battezzò l'eunuco. E usciti che furono dall'acqua, lo Spirito del Signore rapì Filippo, e l'eunuco non lo vide più; ma proseguì allegramente il suo viaggio. Filippo poi si trovò in Azoto, e passando evangelizzava a tutte le città il nome di nostro Signore Gesù Cristo finché giunse a Cesarea.",
+        "Magyar": "Az Úr angyala így szólt Fülöphöz: „Kelj útra és menj délre, a Jeruzsálemből Gázába vezető, elhagyott útra.”  Fölkerekedett hát, és elment oda. Egy etiópiai férfi, Kandákének, az etiópiai királynénak magas rangú udvari tisztje és főkincstárosa épp Jeruzsálemben járt imádkozni.  Visszatérőben kocsiján ülve Izajás prófétát olvasta.  A Lélek indítást adott Fülöpnek: „Menj és szegődj a kocsi mellé!”  Fülöp odasietett, és meghallotta, hogy Izajás prófétát olvassa. Megkérdezte: „Érted, amit olvasol?”  „Hogyan érthetném - felelte -, ha nincs, aki megmagyarázza nekem?” Aztán arra kérte Fülöpöt, hogy szálljon fel és üljön mellé.  Az Írásnak ezt a helyét olvasta: Mint a juhot, úgy vitték leölni. Ahogy a bárány sem ad hangot nyírója előtt, ő sem nyitotta szóra ajkát.  A megaláztatásban vétetett el róla az ítélet. Ki sorolhatja fel nemzedékét? Mert élete elvétetett a földről.  Az udvari tiszt megkérdezte Fülöpöt: „Mondd, kiről mondja ezt a próféta, magáról vagy valaki másról?”  Fülöp elkezdte a magyarázatot, és az Írásból kiindulva hirdette neki Jézust.  Amint továbbhaladtak az úton, egy tóhoz értek. Az udvari tiszt megszólalt: „Nézd, itt a víz, mi akadálya van hát, hogy megkeresztelkedjem?”   Ezzel megállíttatta a kocsit, aztán mindketten, Fülöp is, az udvari tiszt is bementek a vízbe, és Fülöp megkeresztelte.  Amikor kijöttek a vízből, az Úr Lelke elragadta Fülöpöt, az udvari tiszt nem is látta többé, de azért boldogan folytatta útját.  Fülöp egyszerre Asdódban találta magát, s útközben hirdette az evangéliumot minden városban, míg meg nem érkezett Cezáreába.",
+        "Nederlands": "In die dagen sprak een engel des Heren tot Filippus: Sta op en ga naar het zuiden, naar de weg, die van Jeruzalem afdaalt naar Gaza; deze is eenzaam. En hij stond op en ging. En zie, een Ethiopiër, een hoveling, een hoog staatsbeambte van Candace, de koningin van Ethiopië, die over al haar schatten stond, was komen bidden in Jeruzalem; en nu was hij op de terugweg, terwijl hij op zijn wagen gezeten de profeet Isaias las. De Geest zeide dan tot Filippus: Treed nader en ga dicht bij die wagen lopen. Toen trad Filippus nader en hoorde hem de profeet Isaias lezen; en hij vroeg: Meent gij te verstaan wat gij leest? Hij antwoordde echter: Maar hoe zou ik dat kunnen, als niet iemand mij uitleg geeft? En hij vroeg Filippus in te stappen en bij hem te komen zitten. De plaats nu uit de Schrift, die hij bezig was te lezen, was deze: “Als een lam is hij naar de slachtbank gebracht; zoals een lam voor zijn scheerder geen geluid geeft, zo heeft hij zijn mond niet geopend. In verdrukking werd zijn vonnis afgedwongen. Wie zal er nog spreken van zijn geslacht? Zijn leven immers wordt van de aarde weggenomen.” De hoveling nu hernam en vroeg aan Filippus: Ik bid u, van wie zegt de profeet dit? van zichzelf of van iemand anders? Toen opende Filippus zijn mond en bij deze Schriftuurplaats beginnend, verkondigde hij hem de blijde boodschap van Jezus. En terwijl zij hun weg vervolgden, kwamen zij bij een water; en de hoveling sprak: Zie, daar is water; wat belet er nog, dat ik gedoopt word? En Filippus antwoordde: Als gij van ganser harte gelooft, dan mag het. En hij antwoordde: Ik geloof, dat Jezus Christus de Zoon is van God. Toen liet hij de wagen stilhouden; en beiden daalden af in het water, Filippus en de hoveling, en hij doopte hem. En toen zij weer uit het water kwamen, nam de Geest des Heren Filippus mee; en de hoveling zag hem niet meer, maar vol blijdschap vervolgde hij zijn weg. Filippus echter werd aangetroffen in Azot, en op zijn verdere tocht predikte hij aan alle steden de Naam van Jezus Christus, totdat hij kwam in Caesarea.",
+        "Polski": "W one dni: Anioł Pański rzekł do Filipa mówiąc: «Wstań, a idź ku południowi na drogę wiodącą z Jerozolimy do Gazy: jest ona pusta». I powstawszy poszedł. A oto Etiopczyk, rzezaniec, dostojnik królowej etiopskiej, Kandaki, który był jej podskarbim, przyjechał był do Jerozolimy, aby pokłonić się ((Bogu)). I wracał siedząc na wozie swoim i czytając Izajasza proroka. I rzekł Duch do Filipa: «Przystąp i przyłącz się do tego wozu». A Filip przybiegłszy usłyszał go czytającego Izajasza proroka i rzekł: «Czy sądzisz, że rozumiesz, co czytasz?» On zaś odpowiedział: «Jakże mogę, jeśli nikt nie wyjaśni?» I prosił Filipa, aby wszedł na wóz i siadł przy nim. A tekst Pisma, które czytał, był ten: Jako owca na zabicie był prowadzony i jako cichy baranek przed strzygącym go, tak on nie otworzył ust swoich. W uniżeniu jego wyrok mu zniesiono. Ród jego któż wypowiedzieć zdoła. Bo zgładzony będzie z ziemi żywot jego. A rzezaniec odpowiadając Filipowi rzekł: «Proszę cię, o kim to Prorok mówi? O sobie czy o kim innym?» A Filip otworzywszy usta swoje i zaczynając od tego Pisma opowiedział mu dobrą nowinę o Jezusie. A gdy jechali drogą, przybyli nad wodę. I rzekł rzezaniec: «Oto woda! Cóż przeszkadza, abym był ochrzczony?» I rzekł Filip: «Jeśli wierzysz z całego serca, wolno ci». A odpowiadając rzekł: «Wierzę, że Jezus Chrystus jest Synem Bożym». I kazał zatrzymać wóz, i wstąpili obydwaj, Filip i rzezaniec, do wody, i ochrzcił go. A gdy wyszli z wody, Duch Pański porwał Filipa i nie widział go więcej rzezaniec, ale jechał uradowany drogą swoją. A Filip znalazł się w Azocie i obchodząc wszystkie miasta ((aż przyszedł do Cezarei)) głosił imię Pana Jezusa Chrystusa.",
+        "Portugues": "Naqueles dias, um Anjo do Senhor, dirigindo-se a Filipe, disse-lhe: «Levanta-te e caminha para o lado do sul, na estrada que vai de Jerusalém a Gaza. Este caminho está deserto». E, levantando-se ele, partiu. Ora, eis que um varão etíope, eunuco, ministro de Candácia, rainha da Etiópia, superintendente de todos os tesouros, viera a Jerusalém para adorar e regressava, sentado no seu carro e lendo o Profeta Isaías. Então o Espírito disse a Filipe: «Caminha e aproxima-te do carro». Filipe obedeceu; e, vendo o etíope a ler o Profeta Isaías, disse-lhe: «Acaso compreendes o que estás a ler?». Ele respondeu: «Como poderei compreendê-lo sem ninguém explicar?». E pediu a Filipe para subir e assentar-se a seu lado. A passagem da Escritura que ele lia era esta: «Foi condenado à morte, como uma ovelha; e permaneceu no silêncio sem abrir a boca, como o cordeiro diante daquele que o tosquia. Foi humilhado, mas o julgamento apresentado contra Ele foi-lhe retirado. Quem poderá contar a sua descendência, visto a sua vida ter sido arrancada da terra?». O eunuco perguntou a Filipe: «Diz-me: de quem fala o Profeta nestas palavras? Fala de si próprio ou de outrem?». Então Filipe tomou a palavra, e, começando por esta passagem da Escritura, anunciou-lhe Jesus. Continuando a viagem, encontraram água. Disse então o eunuco: «Eis aqui água. O que impede que seja baptizado?». Filipe respondeu: «Se tu crês com todo teu coração, isso é possível». Ele respondeu: «Creio que Jesus Cristo é o filho de Deus!». E mandou parar o carro. Desceram Filipe e o eunuco até à água; e Filipe baptizou o eunuco. Quando saíram da água, o Espírito do Senhor arrebatou Filipe; e o eunuco não mais o viu! Entretanto este continuou alegre o seu caminho. Porém, Filipe encontrou-se em Azoto; e pregava o nome do Senhor Jesus Cristo em todos os lugares por onde passava, até que chegou a Cesareia."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) HAec(gxf_egvFEfd/f_h) di(hhhvFEfef)es,(f.) <clear>*(;) quam(ef) fe(hh)cit(hh//ijhhvF'Ef.) (,) Dó(hfh)mi(hhh)nus :(h.f!gwh!iv.hi/jhh/iih.0) (:) ex(f)sul(h)té(hg/hi!jvHGhhg)(,)(i_hivHF)mus,(fhF'Efhhf//hvvGF'/!heed.0) (:) et(de'f) lae(fef)té(hf/hhh)mur(hiHF.1) (;) in(ef) e(hf/h_i)a.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. Lá(fi)pi(i)dem,(iji/jji.) (,) quem(f) re(f)pro(f)ba(f)vé(fi)runt(i.) (,) ae(i)di(i)fi(i)cán(ih/ij!kvJH'//ij'1ij)tes,(j_0kvJH'//jh/j_i//kvJIkvJI.) (:) hic(f) fa(hi)ctus(ig/hiF'Ef) est(h_i_f_) (,) (ihi./ghf/ihi.//hji/jkJ'I//j.h!iwj!kvJIjji.) (:) in(i) ca(iv.hi/jij)put(jihhf) án(hi'!jv//hjIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif~)gu(f!gwh_f)li :(f.) (:) a(fge) Dó(hh)mi(ih)no(h) fa(ihhvGF')ctum(g) est,(f.) (;) et(fi) est(i_fhv.ghF'E) mi(fef)rá(hf/hhh)bi(h)le(h.f!gwh!iv.hi/jhh/iih.0) (:) in(d) ó(de'fhvGF'g)cu(e)lis(f) () *() no(hf/h_i)stris.(i_jH'Ghi..) (,) (ef'hhjIH'GF'gwhf.1) (::)",
+      "availableTranslations": {
+        "English": " This is the day which the Lord hath made: let us be glad and rejoice therein.  The stone which the builders rejected; the same is become the head of the corner. This is the Lord's doing: and it is wonderful in our eyes. Allelúja, allelúja, Christ is risen, who created all things, and has had compassion upon the human race.",
+        "Francais": "Allelúja, allelúja. Voici le jour que fit le Seigneur : exultons et réjouissons-nous. La pierre qu'avaient rejetée les bâtisseurs est devenue la pierre d'angle. C'est là l'œuvre du Seigneur, une merveille sous nos yeux. Alléluia, alléluia.",
+        "Italiano": "Alleluia, alleluia Questo è il giorno che il Signore ha fatto: rallegriamoci ed esultiamo. La pietra scartata da coloro che costruivano la casa è divenuta la pietra angolare: il Signore ha fatto questo, ed è mirabile ai nostri occhi. Alleluia, alleluia.",
+        "Nederlands": "Dit is de dag, die de Heer gemaakt heeft. Laten wij daarop jubelen en ons verblijden. De steen, die de bouwlieden hebben verworpen, is tot hoeksteen geworden. Dit is het werk van de Heer en het is wonderbaar in onze ogen. Alleluia, alleluia, Christus is verrezen, die alles geschapen heeft, en Hij heeft zich ontfermd over het menselijk geslacht.",
+        "Polski": "Alleluja, alleluja Oto dzień, który Pan uczynił; radujmy się zeń i weselmy. Kamień, odrzucony przez budujących, stał się kamieniem węgielnym. Stało się to przez Pana; cudem jest w oczach naszych. Alleluja, alleluja,",
+        "Portugues": "Aleluia, aleluia Eis o dia que o Senhor fez: exultemos e alegremo-nos nele. A pedra que os edificadores rejeitaram tornou-se na pedra angular: foi o Senhor quem fez isto; e os nossos olhos viram-no com admiração. Aleluia, aleluia. Ressuscitou Cristo, que criou todas as coisas: e compadeceu-se do género humano."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sequentia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) VI(d)cti(c)mae(d) pa(f)schá(g)li(f) lau(e)des(d.) *(,) ím(h)mo(g)lent(e) Chri(g)sti(f)á(e)ni.(d.) (::) A(h)gnus(j) red(k)é(h)mit(g) o(h)ves :(h.) (;) Chri(h)stus(g) ín(h)no(g)cens(f) Pa(e)tri(d.) (,) re(f)con(g)ci(d)li(e)á(d)vit(c.) pec(e)ca(f)tó(e)res.(d.) (::) Mors(h) et(j) vi(k)ta(h) du(g)él(h)lo(h.) (,) con(h)fli(g)xé(h)re(g) mi(f)rán(e)do :(d.) (;) dux(f) vi(g)tae(d) mór(e)tu(d)us,(c.) re(e)gnat(f) vi(e)vus.(d.) (::) Dic(a) no(c)bis(d) Ma(f)rí(g)a,(e_d) (,) quid(c) vi(f)dí(e)sti(d) in(e) vi(c)a?(d.) (::) Se(f)púl(h)crum(g) Chri(h)sti(f) vi(g)vén(fe~)tis,(d.) (;) et(d) gló(g)ri(f)am(g) vi(h)di(g) re(f)sur(g)gén(fe~)tis :(d.) (::) An(a)gé(c)li(d)cos(f) te(g)stes,(e_d) (,) su(c)dá(f)ri(e)um,(d) et(e) ve(c)stes.(d.) (::) Sur(f)ré(h)xit(g) Chri(h)stus(f) spes(g) me(fe)a :(d.) (;) prae(d)cé(g)det(f) su(g)os(h) in(g) Ga(f)li(g)laé(fe)am.(d.) (::) Sci(h)mus(j) Chri(k)stum(h) sur(h)re(g)xís(h)se(h.) (,) a(h) mór(j)tu(g)is(f) ve(e)re :(d.) (;) tu(c) no(f)bis,(e) vi(g)ctor(h) Rex,(h.) (,) mi(f)se(g)ré(fe)re.(d.) (::) A(ded)men.(cd..) (,) Al(c)le(f)lú(ed~){ia}.(d.) (::)",
+      "availableTranslations": {
+        "English": "Víctimæ pascháli laudes ímmolent Christiáni. Agnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres. Mors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat vivus. Dic nobis, María, quid vidísti in via? Sepúlcrum Christi vivéntis et glóriam vidi resurgéntis. Angélicos testes, sudárium et vestes. Surréxit Christus, spes mea: præcédet vos in Galilǽam. Scimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex, miserére. Amen. Allelúja.",
+        "Francais": "Víctimæ pascháli laudes ímmolent Christiáni. Agnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres. Mors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat vivus. Dic nobis, María, quid vidísti in via? Sepúlcrum Christi vivéntis et glóriam vidi resurgéntis. Angélicos testes, sudárium et vestes. Surréxit Christus, spes mea: præcédet vos in Galilǽam. Scimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex, miserére. Amen. Allelúja.",
+        "Italiano": "Víctimæ pascháli laudes ímmolent Christiáni. Agnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres. Mors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat vivus. Dic nobis, María, quid vidísti in via? Sepúlcrum Christi vivéntis et glóriam vidi resurgéntis. Angélicos testes, sudárium et vestes. Surréxit Christus, spes mea: præcédet vos in Galilǽam. Scimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex, miserére. Amen. Allelúja.",
+        "Magyar": "Víctimæ pascháli laudes ímmolent Christiáni. Agnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres. Mors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat vivus. Dic nobis, María, quid vidísti in via? Sepúlcrum Christi vivéntis et glóriam vidi resurgéntis. Angélicos testes, sudárium et vestes. Surréxit Christus, spes mea: præcédet vos in Galilǽam. Scimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex, miserére. Amen. Allelúja.",
+        "Nederlands": "Víctimæ pascháli laudes ímmolent Christiáni. Agnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres. Mors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat vivus. Dic nobis, María, quid vidísti in via? Sepúlcrum Christi vivéntis et glóriam vidi resurgéntis. Angélicos testes, sudárium et vestes. Surréxit Christus, spes mea: præcédet vos in Galilǽam. Scimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex, miserére. Amen. Allelúja.",
+        "Polski": "Víctimæ pascháli laudes ímmolent Christiáni. Agnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres. Mors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat vivus. Dic nobis, María, quid vidísti in via? Sepúlcrum Christi vivéntis et glóriam vidi resurgéntis. Angélicos testes, sudárium et vestes. Surréxit Christus, spes mea: præcédet vos in Galilǽam. Scimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex, miserére. Amen. Allelúja.",
+        "Portugues": "Víctimæ pascháli laudes ímmolent Christiáni. Agnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres. Mors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat vivus. Dic nobis, María, quid vidísti in via? Sepúlcrum Christi vivéntis et glóriam vidi resurgéntis. Angélicos testes, sudárium et vestes. Surréxit Christus, spes mea: præcédet vos in Galilǽam. Scimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex, miserére. Amen. Allelúja."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: María stabat ad monuméntum foris, plorans. Dum ergo fleret, inclinávit se et prospéxit in monuméntum: et vidit duos Angelos in albis, sedéntes, unum ad caput et unum ad pedes, ubi pósitum fúerat corpus Jesu. Dicunt ei illi: Múlier, quid ploras? Dicit eis: Quia tulérunt Dóminum meum: et néscio, ubi posuérunt eum. Hæc cum dixísset, convérsa est retrórsum, et vidit Jesum stantem: et non sciébat, quia Jesus est. Dicit ei Jesus: Múlier, quid ploras? quem quæris? Illa exístimans, quia hortulánus esset, dicit ei: Dómine, si tu sustulísti eum, dícito mihi, ubi posuísti eum: et ego eum tollam. Dicit ei Jesus: María. Convérsa illa, dicit ei: Rabbóni - quod dícitur Magíster. - Dicit ei Jesus: Noli me tángere, nondum enim ascéndi ad Patrem meum: vade autem ad fratres meos et dic eis: Ascéndo ad Patrem meum et Patrem vestrum, Deum meum et Deum vestrum. Venit María Magdaléne annúntians discípulis: Quia vidi Dóminum, et hæc dixit mihi.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": " In that time: Mary stood at the sepulchre without, weeping. Now as she was weeping, she stooped down, and looked into the sepulchre, And she saw two angels in white, sitting, one at the head, and one at the feet, where the body of Jesus had been laid. They say to her: Woman, why weepest thou? She saith to them: Because they have taken away my Lord; and I know not where they have laid him. When she had thus said, she turned herself back, and saw Jesus standing; and she knew not that it was Jesus. Jesus saith to her: Woman, why weepest thou? whom seekest thou? She, thinking it was the gardener, saith to him: Sir, if thou hast taken him hence, tell me where thou hast laid him, and I will take him away. Jesus saith to her: Mary. She turning, saith to him: Rabboni - which is to say, Master. - Jesus saith to her: Do not touch me, for I am not yet ascended to my Father. But go to my brethren, and say to them: I ascend to my Father and to your Father, to my God and your God. Mary Magdalen cometh, and telleth the disciples: I have seen the Lord, and these things he said to me.",
+        "Francais": "En ce temps-là, Marie se tenait près du sépulcre, en dehors, versant des larmes. En pleurant, elle se pencha vers le sépulcre, et elle vit deux anges vêtus de blanc, assis à la place où avait été mis le corps de Jésus, l'un à la tête, l'autre aux pieds. Et ceux-ci lui dirent : « Femme, pourquoi pleures-tu ? » Elle leur dit : « Parce qu'ils ont enlevé mon Seigneur, et je ne sais où ils l'ont mis. » Ayant dit ces mots, elle se retourna et vit Jésus debout ; et elle ne savait pas que c'était Jésus. Jésus lui dit : « Femme, pourquoi pleures-tu ? Qui cherches-tu ? » Elle, pensant que c'était le jardinier, lui dit : «Seigneur, si c'est toi qui l'as emporté, dis-moi où tu l'as mis, et j'irai le prendre. » Jésus lui dit : « Marie ! » Elle se retourna et lui dit en hébreu : « Rabboni ! » c'est à dire « Maître ! » Jésus lui dit : « Ne me touche point, car je ne suis pas encore remonté vers mon Père. Mais va vers mes frères, et dis-leur : Je monte vers mon Père et votre Père, vers mon Dieu, et votre Dieu. » Marie-Madeleine alla annoncer aux disciples qu'elle avait vu le Seigneur, et qu'il lui avait dit ces choses.",
+        "Italiano": "In quel tempo: Maria stava fuori presso il sepolcro e piangeva. E mentre piangeva s'affacciò alla tomba; vi scorse due Angeli vestiti di bianco, seduti l'uno al capo e l'altro ai piedi, dove era stato posto il corpo di Gesù. Ed essi le dissero: «Donna, perché piangi?». Rispose loro: «Perché han portato via il mio Signore e non so dove l'abbiano messo». E detto questo si voltò indietro e vide Gesù che era là, senza però conoscere che era Gesù. Gesù le disse: «Donna perché piangi? chi cerchi?». E lei, pensando che fosse l'ortolano, gli disse: «Signore, se l'hai portato via tu, dimmelo dove l'hai messo ed io lo prenderò». Gesù disse: «Maria!». Essa rivoltasi esclamò: « Rabboni! », che vuoi dire Maestro. Gesù le disse: «Non attaccarti a me; perché non sono asceso al Padre mio, ma va' dai miei fratelli e di' loro che io ascendo al Padre mio e Padre vostro, Dio mio e Dio vostro». Maria Maddalena andò dai discepoli a dire: «Ho visto il Signore e così mi ha parlato».",
+        "Magyar": "Mária ott állt a sír előtt és sírt. Amint így sírdogált, egyszer csak benézett a sírba.  Látta, hogy ott, ahol Jézus teste volt, két fehér ruhába öltözött angyal ül, az egyik fejtől, a másik lábtól.  Megszólították: „Asszony, miért sírsz?” „Mert elvitték Uramat - felelte -, s nem tudom, hová tették.”  E szavakkal hátrafordult, s látta Jézust, amint ott állt, de nem tudta róla, hogy Jézus.  Jézus megkérdezte: „Asszony, miért sírsz? Kit keresel?” Abban a hiszemben, hogy a kertész áll mögötte, így felelt neki: „Uram, ha te vitted el, mondd meg, hova tetted, hogy elvihessem magammal.”  Jézus most nevén szólította: „Mária!” Erre megfordult, s csak ennyit mondott: „Rabboni”, ami annyit jelent, mint „Mester”.  Jézus ezt mondta neki: „Engedj! Még nem mentem föl Atyámhoz. Inkább menj el testvéreimhez és vidd nekik hírül: Fölmegyek Atyámhoz és a ti Atyátokhoz, Istenemhez és a ti Istenetekhez.”  Mária Magdolna elment, és hírül adta a tanítványoknak: „Láttam az Urat, s ezt mondta nekem.”",
+        "Nederlands": "In die tijd stond Maria buiten bij het graf te wenen. En terwijl zij weende, bukte zij zich voorover en keek in het graf; daar zag zij twee engelen zitten in het wit gekleed, een aan het hoofdeinde en een aan het voeteneinde van de plaats, waar het lichaam van Jezus gelegen had. Deze zeiden tot haar: Vrouw, waarom weent gij? Zij gaf hun ten antwoord: Omdat ze mijn Heer heben weggenomen en ik niet weet, waar men Hem heeft neergelegd. Toen zij dit gezegd had, keerde zij zich om en zag Jezus staan; maar zij wist niet, dat het Jezus was. Jezus sprak tot haar: Vrouw, waarom weent gij? Wie zoekt gij? In de mening, dat het de tuinman was, zeide zij tot Hem: Heer, als gij Hem weggenomen hebt, zeg mij dan, waar gij Hem hebt neergelegd; dan zal ik Hem meenemen. Jezus sprak tot haar: Maria! Zij wendde zich om en zei tot Hem: Rabboni ",
+        "Polski": "Onego czasu: Maria stała u grobu zewnątrz i płakała. płacząc nachyliła się, i zajrzała do grobu. I spostrzegła dwóch Aniołów w bieli siedzących, jednego u głowy, a drugiego u nóg, gdzie było złożone ciało Jezusowe. Mówią jej oni: «Niewiasto, czemu płaczesz?» Rzecze im: «Wzięto Pana mego, a nie wiem, gdzie Go położono». To powiedziawszy. obróciła się za siebie i ujrzała Jezusa stojącego, a nie wiedziała, że był to Jezus. Rzecze jej Jezus: «Niewiasto, czemu płaczesz? Kogo szukasz?» A ona mniemając, że był to ogrodnik, rzecze mu: «Panie, jeśliś ty Go zabrał, powiedz mi, gdzieś Go złożył, a ja Go wezmę». Rzecze jej Jezus: «Mario». Ona zaś obróciwszy się rzecze Mu: «Rabboni ((co znaczy: Mistrzu))». Rzecze jej Jezus: «Nie dotykaj mnie, jeszcze bowiem nie wstąpiłem do Ojca mego, ale idź do braci moich i powiedz im: wstępuję do Ojca mego, i Ojca waszego, Boga mego i Boga waszego». Przyszła więc Maria Magdalena oznajmiając uczniom: «Widziałam Pana i to mi powiedział».",
+        "Portugues": "Naquele tempo, Maria Madalena estava fora, perto do sepulcro, a chorar. Então, ainda a chorar, inclinou-se para dentro do sepulcro e olhou para lá, vendo dois Anjos, vestidos de branco, assentados no lugar onde haviam sepultado o corpo de Jesus: um à cabeceira e o outro aos pés. E eles disseram-lhe: «Mulher, porque choras?». Ela respondeu: «Porque levaram o meu Senhor e não sei onde O puseram». Havendo dito isto, voltou-se e viu Jesus, de pé, mas O não conheceu. Jesus disse-lhe: «Mulher, porque choras? A quem procuras?». Ela, pensando que aquele que lhe falava era o hortelão, disse-lhe: «Senhor, se foste tu que O levaste, diz-me onde O colocaste: e eu O levarei». Jesus disse-lhe: «Maria!». Então ela, voltando-se, disse: «Raboni!» (que quer dizer: Mestre). E Jesus continuou: «Não me toques, porque ainda não subi a meu Pai. Vai encontrar os meus irmãos e dizei-lhes: eu subi a meu Pai e vosso Pai; ao meu Deus e vosso Deus». Veio Maria Madalena e anunciou aos discípulos: «Eu vi o Senhor e eis o que Ele me disse»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) IN(c) di(dfe/ffe/g_fgvFE'f)e(fe..) (,) *() sol(d)e(e)mni(f)tá(ixg_i_g_!hwi)tis(fg) ve(ffffgfg)strae,(e.) (;) di(ff)cit(gh) Dó(hv.ghf/gge//hggf/ghg)mi(egff)nus,(fe..) (:) in(fe~)dú(fg//fgh!jj//jjj)cam(gh//ghf/ghhg) vos(gff//dgFE.) (;) in(fge) ter(ghgh./ghf/gge//fgdf/egF'E)ram(ffffe..) (;) <nlba>flu(f)én(f_g//ef/ge'/{/bx}fv/D'CB.d!ewf/gf~)tem</nlba>(f.) (,) lac(g_f/g_f/gdf) et(fg) mel,(g.) (:) al(gh~)le(hgge//ghF'DCd.//,//d!fef/!fe//dgf'g//ef!gvFE'fv//deddc.//,//de!fvED')lú(de'!fv){ia}.(ed..) (::)",
+      "availableTranslations": {
+        "English": "In the day of your solemnity, said the Lord, I will bring you into a land that floweth with milk and honey, allelúja.",
+        "Francais": "Au jour de votre solennité, dit le Seigneur, je vous conduirai vers une terre ruisselante de lait et de miel, alléluia.",
+        "Italiano": "Nel giorno della vostra festa, dice il Signore, vi farò entrare in una terra che stilla latte e miele, alleluia.",
+        "Nederlands": "Op uw feestdag, zegt de Heer, zal Ik u binnenvoeren in het land, dat overvloeit van melk en honing.",
+        "Polski": "W dniu uroczystości waszej, mówi Pan, wprowadzę was do ziemi opływającej mlekiem i miodem, alleluja.",
+        "Portugues": "No dia da vossa solenidade, diz o Senhor, Eu vos conduzirei à terra onde correm leite e mel, aleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Súscipe, quǽsumus, Dómine, múnera populórum tuórum propítius: ut, confessióne tui nóminis et baptísmate renováti, sempitérnam beatitúdinem consequántur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Graciously receive, we beseech thee, O Lord, the offering of thy people, and grant that they who are renewed by baptism and the confession of thy name, may attain to everlasting happiness.",
+        "Francais": "Accueillez avec complaisance, Seigneur, ces présents de vos peuples, afin qu'ayant reçu une nouvelle vie au baptême, où ils confessent votre nomm, ils obtiennent la béatitude éternelle.",
+        "Italiano": "Ti supplichiamo, o Signore, di accogliere benevolo le offerte dei tuoi fedeli, affinché rinnovati dalla professione della Fede e dal Battesimo, ottengano la beatitudine eterna.",
+        "Nederlands": "Aanvaard genadig, vragen wij U, Heer, de gaven van uw volkeren, opdat zij, herschapen door de belijdenis van uw Naam en het Doopsel, het eeuwig geluk mogen verwerven.",
+        "Polski": "Prosimy Cię, Panie, przyjmij łaskawie dary Swoich ludów, aby odrodzone przez wyznanie Twojego imienia i Chrzest osiągnęły szczęście wiekuiste.",
+        "Portugues": "Recebei benigno, Senhor, Vos suplicamos, as ofertas dos vossos servos, para que, renovados em virtude da profissão de fé e do baptismo, alcancem a bem-aventurança eterna."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c2) PO(c)pu(c.d!ewfef)lus(e.) *(,) ac(f)qui(f)si(fff)ti(fd)ó(dgf/gh)nis,(g.) (;) an(g)nun(h)ti(ji)á(iv.hjI'HGhi)te(hg..) (,) vir(e)tú(gh)tes(g) e(fgf)jus,(fef.) (,) al(d)le(dv.bdc)lú(cdc___){ia} :(c.) (:) qui(cg) vos(gh/i_g) <nlba>de(g) té(hi)ne(hiH'GFgh)bris</nlba>(g.) (,) vo(gh!i'j)cá(jv.hjI'HGhi)vit(hg..) (;) in(g) ad(hih)mi(f)rá(hhi)bi(h_g)le(g_e) lu(eg)men(f) su(fvED)um,(d.) (;) al(f)le(f_g_f_egf.d!fef./d_e_c_)lú(cdc___){ia}.(c.) (::)",
+      "availableTranslations": {
+        "English": " But you are a chosen generation, a kingly priesthood, a holy nation, a purchased people: that you may declare his virtues, who hath called you out of darkness into his marvellous light: allelúja.",
+        "Francais": "Peuple que Dieu s'est acquis, proclamez les merveilles, alléluia, de Celui qui vous a appelés des ténèbres à son admirable lumière, alléluia.",
+        "Italiano": "O Voi, popolo da Dio acquisito, proclamate le grandezze di Colui, alleluia, che dalle tenebre vi chiamò alla meravigliosa sua Luce, alleluia.",
+        "Nederlands": "Volk, dat van God zijt geworden, verkondigt zijn kracht, alleluia. Hij toch riep u uit de duisternis tot zijn wonderbaar licht, alleluia.",
+        "Polski": "Ludu nabyty, opowiadaj wielkie sprawy Jego, alleluja: On ciebie wezwał z ciemności ku swojej przedziwnej światłości, alleluja.",
+        "Portugues": "Que o povo por Deus adquirido anuncie as grandezas divinas, aleluia, Foi Ele quem vos conduziu das trevas à sua admirável luz, aleluia."
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Exáudi, Dómine, preces nostras: ut redemptiónis nostræ sacrosáncta commércia, et vitæ nobis cónferant præséntis auxílium, et gáudia sempitérna concílient.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O Lord, hear our prayers; that the holy channels of our redemption may obtain us help in this our present life, and secure us eternal joys.",
+        "Francais": "Exaucez nos prières, Seigneur, afin que l'échange sacré où s'opère notre rédemption nous apporte votre aide dans la vie présente, et nous obtienne les joies de l'éternité.",
+        "Italiano": "Signore, esaudisci le nostre preci: affinché questi sacri scambi della nostra redenzione, nella vita presente ci portino aiuto e nella futura ci ottengano i gaudi eterni.",
+        "Nederlands": "Verhoor, Heer, onze gebeden, opdat de deelname aan de hoogheilige geheimen van onze verlossing, ons hulp biede voor het tegenwoordige leven en ook de eeuwige vreugde verwerve.",
+        "Polski": "Wysłuchaj, Panie, modlitwy nasze, aby to święte i zbawienne zjednoczenie było nam pomocą w życiu doczesnym i wyjednało radość wieczną.",
+        "Portugues": "Ouvi, Senhor, as nossas preces, a fim de que os sacrossantos mystérios da nossa redenção nos auxiliem durante esta vida e nos obtenham as alegrias eternas."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

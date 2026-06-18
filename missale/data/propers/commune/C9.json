@@ -1,0 +1,804 @@
+{
+  "rule": [],
+  "feast": "Missa pro Defunctis",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) RE(ffg)qui(f)em(f) *() ae(fg'h)tér(hggfg)nam(gf..) (;) do(fg'h)na(hg) e(h)is(ixhjHG'hw!ivHG') Dó(f)mi(fg!hvGF'g)ne :(gf..) (:) et(hg~) lux(hvGF') per(h)pé(gh)tu(gf)a(f.) (;) lú(hg)ce(h)at(ixhjHG'hw!ivHG) e(fg!hvGF'g)is.(gf..) (::) <i>Ps.</i> Te(fg) de(gf)cet(gh) hy(h)mnus(h) De(h)us(h) in(h) Si(g)on,(h.) (;) et(f) ti(g)bi(h) red(h)dé(h)tur(h) vo(h)tum(h) in(h) Je(g)rú(ixi)sa(g)lem :(h.) *(:) ex(f)áu(gh~)di(h) o(h)ra(h)ti(h)ó(h)nem(h) me(h)am,(h.) (;) ad(h) te(h) o(h)mnis(h) ca(f)ro(gh) vé(g)ni(f)et.(f.) (::) Ré(ffg)qui(f)em.(f) (::)",
+      "availableTranslations": {
+        "English": "Eternal rest give to them, O Lord; and let perpetual light shine upon them. To You we owe our hymn of praise, O God, in Sion; to You must vows be fulfilled in Jerusalem. Hear my prayer; to You all flesh must come.",
+        "Espanol": "Dales, Señor, el descanso eterno, y la luz perpetua brille para ellos. Para Ti, oh Dios, se canta un himno en Sion y para Ti entregan ofrendas en Jerusalén; escucha mi oración, a ti vendrá todo lo que está vivo.",
+        "Francais": "Donnez-leur, Seigneur, le repos éternel, et que sur eux brille à jamais votre lumière. À vous sied la louange, ô Dieu, dans Sion ; en votre honeur on acquitte des vœux en Jérusalem. Écoutez ma prière, vous vers qui va toute chair.",
+        "Italiano": "L'eterno riposo dona loro, Signore, e splenda ad essi la luce perpetua. In Sion, Signore, ti si addice la lode, in Gerusalemme a te si compia il voto. Ascolta la preghiera del tuo servo, poiché giunge a te ogni vivente.",
+        "Nederlands": "Heer, geef hun de eeuwige rust, en het eeuwige licht verlichte hen. U komt een lofzang toe, o God, op Sion, en een dankoffer worde U gebracht in Jeruzalem; verhoor mijn gebed; alle vlees komt tot U",
+        "Polski": "Wieczny odpoczynek racz im dać, Panie, a światłość wiekuista niechaj im świeci. Ciebie, Boże, przystoi wielbić hymnem na Syjonie; Tobie dopełnią ślubów w Jeruzalem; wysłuchaj mojej modlitwy: do Ciebie przyjdzie każdy człowiek.",
+        "Portugues": "Dai-lhes, Senhor, o eterno repouso, e que lhes resplandeça a luz perpétua. A Vós, Senhor, dirigimos estes hinos em Sião: e oferecemos estes votos em Jerusalém: ouvi a minha oração: todas as criaturas devem comparecer ante Vós.",
+        "Ukrainian": "Вічний спочинок дай їм, Господи, і світло віковічне нехай їм світить. Тобі належитьcя піcня, Боже, в Cіоні, і до тебе піднеcена буде молитва в Єрусалимі. Виcлухай молитву мою, прийде до тебе вcяке тіло."
+      },
+      "mode": "6",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Fidélium, Deus, ómnium Cónditor et Redémptor: animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum; ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Creator and Redeemer of all the faithful, grant to the souls of Your servants and handmaids the remission of all their sins, that by loving prayers they may obtain the forgiveness they have ever desired.",
+        "Espanol": "Oh Dios, Creador y Redentor de todos los fieles, concede al alma de Tus siervos y siervas la remisiión de todos sus pecados, para que por las oraciones misericordiosas obtengan el perdón que siempre desearon.",
+        "Francais": "Ô Dieu créateur et rédempteur de tous les fidèles, accordez aux âmes de vos serviteurs et de vos servantes la rémission de tous leurs péchés, pour qu'elles obtiennent ainsi par nos ferventes prières le pardon qu'elles n'ont cessé de désirer. ",
+        "Italiano": "O Dio, creatore e redentore di tutti i fedeli, concedi alle anime dei defunti l'universale remissione dei peccati: le nostre devote preghiere ottengano loro il perdono che hanno sempre desiderato:",
+        "Nederlands": "God, Schepper en Verlosser van alle gelovigen, schenk de zielen van uw dienaren en dienaressen vergiffenis van al hun zonden, en laat hen zo de vergeving, die zij altijd verlangd hebben, door dit liefdevol gebed verwerven.",
+        "Ukrainian": "Боже, Творче й Відкупителю всіх вірних, даруй прощення всіх гріхів слугам та служницям Твоїм, аби завдяки відданим благанням вони осягнули відпущення, якого завжди прагнули."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Audívi vocem de cœlo, dicéntem mihi: Scribe: Beáti mórtui, qui in Dómino moriúntur. Amodo jam dicit Spíritus, ut requiéscant a labóribus suis: ópera enim illórum sequúntur illos.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, I heard a voice from heaven saying, Write: Blessed are the dead who die in the Lord henceforth. Yes, says the Spirit, let them rest from their labors, for their works follow them.",
+        "Espanol": "En aquellos días, oí una voz del cielo que decía: Escribe: Bienaventurados los muertos que mueren en el Señor. Ya desde ahora dice el Espíritu, que descansen de sus trabajos, puesto que sus obras los van acompañando.",
+        "Francais": "En ces jours-là, j'entendis une voix qui me dit : « Écris : Heureux les morts qui meurent dans le Seigneur. L'Esprit leur dit désormais de se reposer de leurs travaux, car leurs œuvres les suivent. »",
+        "Italiano": "In quei giorni: Udii una voce dal cielo che diceva: «Scrivi: beati i morti che da ora innanzi muoiono nel Signore. Sì, dice lo Spirito, essi si riposano dalle loro fatiche perché le loro opere li seguono».",
+        "Magyar": "Erre szózatot hallottam az égből: „Jegyezd fel: Mostantól fogva boldogok a halottak, akik az Úrban haltak meg. Igen, mondja a Lélek, hadd pihenjék ki fáradalmaikat, mert tetteik elkísérik őket.”",
+        "Nederlands": "In die dagen hoorde ik een stem uit de hemel, die mij zeide: Schrijf op: Zalig de doden, die sterven in de Heer. Nu reeds zegt de Geest, dat zij rusten mogen van hun zwoegen. Want hun werken volgen hen.",
+        "Ukrainian": "У ті дні почув я голос із неба, що говорив: «Напиши: Блаженні мертві, що в Господі вмирають віднині. Так! — говорить Дух, — нехай відпочинуть від трудів своїх бо діла їхні слідують за ними.»"
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) RE(egf)qui(f)em(f.) *() ae(f)tér(hfghvF'Ege/fg)nam(f.) (;) do(hf/hi'j)na(hvGF') e(f)is(gxfegvFE.) (,) Dó(ed/fef)mi(fef)ne :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) et(hh) lux(h) per(h)pé(hg/hi!jvHGhhg)(,)(i_hivHF')tu(f)a(fhF'Efhhf//hvvGF'heed.0) (:) lú(de'fhvGF'g)ce(e)at(f) e(hf/h_i)is.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. In(f) me(h)mó(hi)ri(i)a(i) ae(ij)tér(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_jkvJI'j)na(ji..) (:) e(i!jw!kvJI'jw!kvJI)rit(ij) ju(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)stus :(f.) (:) ab(hh) au(h)di(h)ti(h)ó(h)ne(hi) ma(ivH'GE//fhGEfh..)(,)(gi!jvHF)la(fhF'Efhhf//hvvGF'/!heed.0) <clear>*(:) non(de'fhvGF'g) ti(ef)mé(hf/h_i)bit.(i_jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
+      "availableTranslations": {
+        "English": "Eternal rest give to them, O Lord; and let perpetual light shine upon them. The just man shall be in everlasting remembrance; an evil report he shall not fear.",
+        "Espanol": "Dales, Señor, el descanso eterno, y la luz perpetua brille para ellos. La memoria del justo será eterna y no temerá un renombre funesto. Absuelve, Señor, las almas de los fieles difuntos de los lazos de sus pecados. V. Ayúdales tu gracia para que puedan escapar a la sentencia de condenación. Y gozar eternamente la dicha de vivir en tu luz.",
+        "Francais": "Donnez-leur, Seigneur, le repos éternel, et que la lumière perpétuelle brille sur eux. Le juste sera en mémoire éternelle, il ne redoutera pas une mauvaise renommée.",
+        "Italiano": "L'eterno riposo dona loro, o Signore, e splenda ad essi la luce perpetua. Il giusto sarà sempre nel ricordo, non teme il giudizio sfavorevole.",
+        "Nederlands": "Heer, geef hun de eeuwige rust, en het eeuwige licht verlichte hen. In eeuwig aandenken blijft de vrome, voor geen kwade tijding heeft hij te vrezen.",
+        "Polski": "Wieczny odpoczynek racz im dać, Panie, a światłość wiekuista niechaj im świeci. W wiecznej pamięci będzie sprawiedliwy: nie będzie się lękał smutnej nowiny.",
+        "Portugues": "Dai-lhes, Senhor, o eterno repouso, e que lhes resplandeça a luz perpétua. A recordação do homem justo permanecerá eternamente; este não temerá ouvir as sentenças más dos homens.",
+        "Ukrainian": "Вічний спочинок дай їм, Господи, і світло віковічне нехай їм світить. У вічній пам’яті буде праведник, злої чутки не буде боятиcь. Розріши, Господи, душі всіх померлих вірних від всіх узів гріхів. І з допомогою Твоєї благодаті нехай вони удостояться уникнути суду помсти. І насолодяться блаженством вічного світла."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) RE(egf)qui(f)em(f.) *() ae(f)tér(hfghvF'Ege/fg)nam(f.) (;) do(hf/hi'j)na(hvGF') e(f)is(gxfegvFE.) (,) Dó(ed/fef)mi(fef)ne :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) et(hh) lux(h) per(h)pé(hg/hi!jvHGhhg)(,)(i_hivHF')tu(f)a(fhF'Efhhf//hvvGF'heed.0) (:) lú(de'fhvGF'g)ce(e)at(f) e(hf/h_i)is.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. In(f) me(h)mó(hi)ri(i)a(i) ae(ij)tér(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_jkvJI'j)na(ji..) (:) e(i!jw!kvJI'jw!kvJI)rit(ij) ju(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)stus :(f.) (:) ab(hh) au(h)di(h)ti(h)ó(h)ne(hi) ma(ivH'GE//fhGEfh..)(,)(gi!jvHF)la(fhF'Efhhf//hvvGF'/!heed.0) <clear>*(:) non(de'fhvGF'g) ti(ef)mé(hf/h_i)bit.(i_jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
+      "availableTranslations": {
+        "English": "Eternal rest give to them, O Lord; and let perpetual light shine upon them. The just man shall be in everlasting remembrance; an evil report he shall not fear.",
+        "Espanol": "Dales, Señor, el descanso eterno, y la luz perpetua brille para ellos. La memoria del justo será eterna y no temerá un renombre funesto. Absuelve, Señor, las almas de los fieles difuntos de los lazos de sus pecados. V. Ayúdales tu gracia para que puedan escapar a la sentencia de condenación. Y gozar eternamente la dicha de vivir en tu luz.",
+        "Francais": "Donnez-leur, Seigneur, le repos éternel, et que la lumière perpétuelle brille sur eux. Le juste sera en mémoire éternelle, il ne redoutera pas une mauvaise renommée.",
+        "Italiano": "L'eterno riposo dona loro, o Signore, e splenda ad essi la luce perpetua. Il giusto sarà sempre nel ricordo, non teme il giudizio sfavorevole.",
+        "Nederlands": "Heer, geef hun de eeuwige rust, en het eeuwige licht verlichte hen. In eeuwig aandenken blijft de vrome, voor geen kwade tijding heeft hij te vrezen.",
+        "Polski": "Wieczny odpoczynek racz im dać, Panie, a światłość wiekuista niechaj im świeci. W wiecznej pamięci będzie sprawiedliwy: nie będzie się lękał smutnej nowiny.",
+        "Portugues": "Dai-lhes, Senhor, o eterno repouso, e que lhes resplandeça a luz perpétua. A recordação do homem justo permanecerá eternamente; este não temerá ouvir as sentenças más dos homens.",
+        "Ukrainian": "Вічний спочинок дай їм, Господи, і світло віковічне нехай їм світить. У вічній пам’яті буде праведник, злої чутки не буде боятиcь. Розріши, Господи, душі всіх померлих вірних від всіх узів гріхів. І з допомогою Твоєї благодаті нехай вони удостояться уникнути суду помсти. І насолодяться блаженством вічного світла."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AB(g)sól(g/hih)ve,(g/hhg.) (,) ~~~*() Dó(gjjk)mi(h)ne,(gf/ghhg.) (;) á(gj)ni(j)mas(j) ó(j)mni(j)um(j) fi(j)dé(hj)li(j)um(j.) (,) de(j)fun(j)ctó(ik/ljjh)rum(jhhg/hg/jjh/jggf.0) (:) ab(f) o(hj)mni(igh) vín(gf/gh)cu(g)lo(g.) (,) de(g)li(gh/jij)ctó(j.h!iwj)rum.(jjjvIHivHGhg..) (::) \r\n<sp>V/</sp>. Et(g) grá(gj)ti(j)a(j) tu(j)a(j.) (,) il(j)lis(j) suc(j)cur(j)rén(ik/ljjh)te,(jhhg/hg/jjh/jggf.0) (:) me(f)re(f)án(hj)tur(igh) e(gf)vá(gh)de(g)re(g.) (,) ju(g)dí(gh)ci(g)um(g) ul(g)ti(gh/jij)ó(j.h!iwj)nis.(jjjvIHivHGhg..) (::) \r\n<sp>V/</sp>. Et(g) lu(gj)cis(j) ae(j)tér(ik/ljjh)nae(jhhg/!hg/!jjh/!jggf.0) (:) be(g)a(g)ti(g)tú(h_g/h!iwj)di(ghG'F)ne(f.) *(,) pér(f.0h!iwj'!kv)fru(j)i.(jijHGg'g/hggfg.) (,) (jjjkvJ'IH'/!hg/hjI'HG'ghf.1) (,) (h!iw!jvIH'ihhg.) (::)",
+      "availableTranslations": {
+        "English": "O Lord, absolve the souls of all the faithful departed from every bond of sin. And by the help of Your grace may they be worthy to escape the sentence of vengeance. And to enjoy all the beatitude of the light eternal.",
+        "Francais": "Délivrez de tout lien de péché, Seigneur, les âmes de tous les fidèles défunts. Et que, votre grâce leur venant en aide, ils méritent d'échapper au jugement de vengeance. Et de jouir de la béatitude de la lumière éternelle.",
+        "Italiano": "L ibera, Signore, le anime di tutti i fedeli defunti da ogni legame di peccato. Con il soccorso della tua grazia possano evitare la condanna. e godere la gioia della luce eterna.",
+        "Nederlands": "Heer, ontsla de zielen van alle gelovigen van alle boeien der zonde. En mogen zij door de hulp van uw genade aan het wraakgericht ontkomen. En genieten van de zaligheid in het eeuwig licht.",
+        "Polski": "Uwolnij, Panie, dusze wszystkich wiernych zmarłych od wszelkich więzów grzechowych. A przy pomocy Twojej łaski niechaj unikną strasznego wyroku zatracenia. I niech zażywają szczęścia wiecznej światłości.",
+        "Portugues": "Livrai, Senhor, as almas dos fiéis defuntos das cadeias dos seus pecados: E que com o socorro da vossa graça consigam evitar o juízo da vingança: E gozem a bem-aventurança da luz eterna."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sequentia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DI(f)es(e) i(f)rae,(d) di(e)es(c) il(d)la,(d.) (;) Sol(f)vet(fg) sae(fe)clum(dc) in(e) fa(f)víl(e)la :(d.) (;) Te(a)ste(cd) Da(d)vid(dc) cum(e) Si(f)býl(e)la.(d.) (::) \r\nQuan(f)tus(e) tre(f)mor(d) est(e) fu(c)tú(d)rus,(d.) (;) Quan(f)do(fg) ju(fe)dex(dc) est(e) ven(f)tú(e)rus,(d.) (;) Cun(a)cta(cd) stri(d)cte(dc) dis(e)cus(f)sú(e)rus!(d.) (::) \r\nTu(h)ba(j) mi(j)rum(igh) spar(hvGF)gens(g) so(h)num(hd..) (;) Per(f) se(e)púl(f)cra(d) re(e)gi(c)ó(d)num,(d.) (;) Co(f)get(gh) o(hvGF)mnes(evDC) an(e)te(f) thro(e)num.(d.) (::) \r\nMors(h) stu(j)pé(j)bit(igh) et(hvGF) na(g)tú(h)ra,(hd..) (;) Cum(f) re(e)súr(f)get(d) cre(e)a(c)tú(d)ra,(d.) (;) Ju(f)di(gh)cán(hvGF)ti(evDC) re(e)spon(f)sú(e)ra.(d.) (::) \r\nLi(h)ber(gf) scri(g)ptus(h_d) pro(dc)fe(a)ré(cd)tur,(d.) (;) In(fe) quo(d) to(c)tum(a) con(c)ti(d)né(f)tur,(ecd.) (;) Un(h)de(f) mun(g)dus(d) ju(c)di(d)cé(f)tur.(ecd.) (::) \r\nJu(h)dex(gf) er(g)go(h_d) cum(dc) se(a)dé(cd)bit,(d.) (;) Quid(fe)quid(d) la(c)tet(a) ap(c)pa(d)ré(f)bit :(ecd.) (;) Nil(h) in(f)úl(g)tum(d) re(c)ma(d)né(f)bit.(ecd.) (::) \r\nQuid(f) sum(e) mi(f)ser(d) tunc(e) di(c)ctú(d)rus?(d.) (;) Quem(f) pa(fg)tró(fe)num(dc) ro(e)ga(f)tú(e)rus?(d.) (;) Cum(a) vix(cd) ju(d)stus(dc) sit(e) se(f)cú(e)rus.(d.) (::) \r\nRex(f) tre(e)mén(f)dae(d) ma(e)je(c)stá(d)tis,(d.) (;) Qui(f) sal(fg)ván(fe)dos(dc) sal(e)vas(f) gra(e)tis,(d.) (;) Sal(a)va(cd) me,(d) fons(dc) pi(e)e(f)tá(e)tis.(d.) (::) \r\nRe(h)cor(j)dá(j)re(igh) Je(hvGF)su(g) pi(h)e,(hd..) (;) Quod(f) sum(e) cau(f)sa(d) tu(e)ae(c) vi(d)ae :(d.) (;) Ne(f) me(gh) per(hvGF)das(evDC) il(e)la(f) di(e)e.(d.) (::) \r\nQuae(h)rens(j) me,(j) se(igh)dí(hvGF)sti(g) las(h)sus :(hd..) (;) Red(f)e(e)mí(f)sti(d) cru(e)cem(c) pas(d)sus :(d.) (;) Tan(f)tus(gh) la(hvGF)bor(evDC) non(e) sit(f) cas(e)sus.(d.) (::) \r\nJu(h)ste(gf) ju(g)dex(h_d) ul(dc)ti(a)ó(cd)nis,(d.) (;) Do(fe)num(d) fac(c) re(a)mis(c)si(d)ó(f)nis,(ecd.) (;) An(h)te(f) di(g)em(d) ra(c)ti(d)ó(f)nis.(ecd.) (::) \r\nIn(h)ge(gf)mí(g)sco,(h_d) tam(dc)quam(a) re(cd)us :(d.) (;) Cul(fe)pa(d) ru(c)bet(a) vul(c)tus(d) me(f)us :(ecd.) (;) Sup(h)pli(f)cán(g)ti(d) par(c)ce(d) De(f)us.(ecd.) (::) \r\nQui(f) Ma(e)rí(f)am(d) ab(e)sol(c)ví(d)sti,(d.) (;) Et(f) la(fg)tró(fe)nem(dc) ex(e)au(f)dí(e)sti,(d.) (;) Mi(a)hi(cd) quo(d)que(dc) spem(e) de(f)dí(e)sti.(d.) (::) \r\nPre(f)ces(e) me(f)ae(d) non(e) sunt(c) di(d)gnae :(d.) (;) Sed(f) tu(fg) bo(fe)nus(dc) fac(e) be(f)ní(e)gne,(d.) (;) Ne(a) per(cd)én(d)ni(dc) cre(e)mer(f) i(e)gne.(d.) (::) \r\nIn(h)ter(j) o(j)ves(igh) lo(hvGF)cum(g) prae(h)sta,(hd..) (;) Et(f) ab(e) hae(f)dis(d) me(e) se(c)qué(d)stra,(d.) (;) Stá(f)tu(gh)ens(hvGF) in(evDC) par(e)te(f) dex(e)tra.(d.) (::) \r\nCon(h)fu(j)tá(j)tis(igh) ma(hvGF)le(g)dí(h)ctis,(hd..) (;) Flam(f)mis(e) á(f)cri(d)bus(e) ad(c)dí(d)ctis :(d.) (;) Vo(f)ca(gh) me(hvGF) cum(evDC) be(e)ne(f)dí(e)ctis.(d.) (::) \r\nO(h)ro(gf) sup(g)plex(h_d) et(dc) ac(a)clí(cd)nis,(d.) (;) Cor(fe) con(d)trí(c)tum(a) qua(c)si(d) ci(f)nis :(ecd.) (;) Ge(h)re(f) cu(g)ram(d) me(c)i(d) fi(f)nis.(ecd.) (::) \r\nLa(d)cri(h)mó(ixhi)sa(h) di(g)es(fe) il(g)la,(h.) (;) Qua(f) re(e)súr(g)get(h.) ex(dfED'C) fa(f)víl(e)la,(d.) (::) \r\nJu(h)di(j)cán(k)dus(jvIH) ho(hvGF)mo(g) re(h)us :(hd..) (;) Hu(f)ic(e) er(g)go(h.) par(dfED'C)ce(f) De(e)us.(d.) (::) \r\nPi(h)e(g) Je(f)su(e) Dó(g)mi(g)ne,(h.) (;) do(f)na(e) e(g)is(ede) ré(f)qui(e)em.(d.) (::) \r\nA(ce!fvED)men.(cd..) (::)",
+      "availableTranslations": {
+        "English": "Dreaded day, that day of ire, When the world shall melt in fire, Told by Sibyl and David’s lyre. Fright men’s hearts shall rudely shift, As the Judge through gleaming rift Comes each soul to closely sift. Then, the trumpet’s shrill refrain, Piercing tombs by hill and plain, Souls to judgment shall arraign. Death and nature stand aghast, As the bodies rising fast, Hie to hear the sentence passed. Then, before Him shall be placed, That whereon the verdict’s based, Book wherein each deed is traced. When the Judge His seat shall gain, All that’s hidden shall be plain, Nothing shall unjudged remain. Wretched man, what can I plead? Whom to ask to intercede, When the just much mercy need? You, O awe-inspiring Lord, Saving e’en when unimplored, Save me, mercy’s fount adored. O sweet Jesus, mindful be, That You came on earth for me: Cast me not from You this day. Seeking me Your strength was spent Ransoming Your limbs were rent: Is this toil to no intent? You, awarding pains condign, Mercy’s ear to me incline, Ere the reckoning You assign. I, felon-like, my lot bewail, Suffused cheeks my shame unveil: God! O let my prayer prevail. Mary’s soul You fashioned white, And did to heaven the thief invite; Hope in me these now excite. Prayers of mine in vain ascend: You are good and will forefend, In quenchless fire my life to end. When the cursed by shame oppressed, Enter flames at Your behest, Call me then to join the blessed. Place amid Your sheep accord, Keep me from the tainted horde, Set me in Your sight, O Lord. Prostrate, suppliant, now no more Unrepenting, as of yore, Save me dying, I implore. Mournful day that day of sighs, When from dust shall man arise, Stained with guilt his doom to know, Mercy, Lord, on him bestow. Jesus, kind! Your souls release, Led them thence to realms of peace. Amen.",
+        "Espanol": "¡Oh día de ira aquel  en que el mundo se disolverá,  como lo atestiguan David y Sibila! Cuán grande será el terror  cuando el juez venga a juzgarlo todo con rigor. La trompeta, al esparcir su atronador sonido  por la región de los sepulcros,  reunirá a todos ante el trono. La muerte se asombrará, y la naturaleza,  cuando resucite lo creado,  responderá ante el Juez. Se abrirá el libro  en que está escrito todo aquello  por lo que el mundo será juzgado. Entonces el Juez tomará asiento.  Cuanto estaba oculto será revelado,  nada quedará oculto. ¿Qué diré yo, miserable?  ¿A qué abogado acudiré  cuando aun el justo apenas está seguro? ¡Oh Rey de terrible majestad,  que a los que salvas, salvas por gracia!  ¡Sálvame, fuente de piedad! Acuérdate, piadoso Jesús,  de que por mí has venido al mundo;  no me pierdas en aquel día. Al buscarme, te sentaste fatigado,  me redimiste padeciendo en la cruz.  ¡Que no se pierda tanto trabajo! Oh justo juez de las venganzas,  concédeme el perdón en el día  en que pidas cuentas. Gimo como reo,  la culpa ruboriza mi cara.  Perdona, Señor a quien te lo suplica. Tú que perdonaste a María,  y escuchaste al ladrón  y a mí mismo me diste la esperanza. Mis plegarias no son dignas;  pero Tú, buen Señor, muéstrate benigno,  para que yo no arda en el fuego. Dame un lugar entre tus ovejas  y apártame del infierno,  colocándome a tu diestra. Arrojados los malditos  a las terribles llamas, convócame con tus elegidos. Te ruego, suplicante y anonadado,  con el corazón contrito como el polvo,  que me cuides en mi hora final. ¡Oh día de lágrimas, aquel  en el que resurgirá del polvo  el hombre para ser juzgado como reo! Perdónale oh Dios. Piadoso Señor Jesús:  dales el descanso eterno.  Amén.",
+        "Francais": "Jour de colère que ce jour-là, qui réduira le monde en cendres ; David l'atteste, ainsi que la Sibylle. Ah ! quelle terreur régnera, lorsque le Juge apparaîtra pour tout trancher avec rigueur. La trompette au son terrifiant, jetant l'appel parmi les tombes, poussera tout le monde devant le Trône. La mort et et la nature seront dans la stupeur, quand ressuscitera la créature, tenue de répondre à son Juge ! Le Livre écrit sera produit, où tout se trouve consigné, et d'où le monde sera jugé. Lors donc que le Juge siégera, tout ce qui est caché apparaîtra, rien ne restera impuni. Que dirai-je alors, moi misérable ? Quel protecteur appellerai-je, tandis que le juste à peine sera rassuré ? Ô Roi à la majesté redoutable, Vous qui sauvez gratuitement les élus, sauvez-moi, source de la bonté. Souvenez-vous, ô bon Jésus, que je suis la cause de votre venue en ce monde ; ne me perdez pas en ce jour. En me cherchant Vous vous êtes assis fatigué, Vous m'avez racheté en souffrant la croix : que tant de travail ne soit pas vain ! Juste arbitre du châtiment, faites-moi la grâce de la rémission avant le jour des comptes. Je gémis comme un coupable ; mon visage rougit de honte. Pardonnez, ô Dieu, à celui qui vous supplie. Vous qui avez absous Marie-Madeleine et exaucé le larron, à moi aussi Vous avez donné l'espérance. Mes prières ne sont pas dignes, mais Vous qui êtes bon, agissez avec bonté, afin que je ne brûle point au feu éternel. Accordez-moi une place parmi les brebis, séparez-moi des boucs en me plaçant à votre droite. Les maudits une fois confondus et jetés aux âpres flammes, appelez-moi avec les bénis. Je vous en prie, suppliant et prosterné, le cœur brisé comme la cendre : prenez soin de ma fin. Jour de larmes que ce jour-là, où l'homme coupable ressuscitera de la cendre pour être jugé. Pardonnez-lui donc, ô Dieu. Bon Jésus, Seigneur, donnez-leur le repos. Amen.",
+        "Italiano": "Giorno d'ira sarà quel giorno, quando il mondo diventerà cenere, come annunziarono Davide e la Sibilla. Quale spavento ci sarà all'apparire del Giudice, che su tutto farà un esame severo. L'alto squillo di una tromba passerà ovunque sulle tombe e raccoglierà tutti dinanzi al trono. Natura e morte, con stupore, vedranno gli uomini risorgere per rendere conto al Giudice. Allora sarà aperto il libro sul quale tutto è segnato per il giudizio del mondo. Davanti al giudice, assiso in trono, apparirà ogni segreto, niente rimarrà impunito. Nella mia miseria che dirò? che avvocato inviterò, se il giusto è appena sicuro? O Re di terribile maestà, che salvi chi vuoi, per tuo dono: salvami, o sorgente di amore! O Gesù amoroso, ricorda che per me tu sei venuto, non lasciarmi perire, in quel giorno. Per cercarmi, ti sei affaticato; per salvarmi hai sofferto la croce; non sia inutile tanta sofferenza! O Giudice, giusto nel punire, concedimi il perdono prima del giorno del giudizio. Come un colpevole, io tremo, e il rossore è sul mio· volto: o Dio, perdona chi ti supplica! Tu, che hai perdonato Maria ed esaudito il ladrone, a me pure hai dato speranza. Le mie suppliche non sono degne: ma tu, buono, concedi benigno che io non bruci nel fuoco eterno. Mettimi fra gli agnelli, e, separandomi dai capri, ponimi alla tua destra. Mentre saranno confusi i maledetti, e condannati al fuoco divorante, tu chiamami insieme ai benedetti. Ti supplico umilmente prostrato, con il cuore spezzato, come polvere: prendi a cuore il mio destino. Giorno di pianto sarà quel giorno, quando dalle ceneri risorgerà il peccatore per ascoltare la sentenza. O Dio, concedigli il perdono! o pietoso Signore Gesù, dona loro il riposo. Amen.",
+        "Magyar": "Ama végsô harag napja A világot tűznek adja, Dávid így s Szibilla hagyja. Reszket akkor holt meg élô, Ha megjön a nagy Itélô, Mindeneket lattal mérô. Csodakürtök zengenek meg, Sírok éjén átremegnek: Itéletre mindeneknek. Csodájára a halálnak: Aki rég por, talpra támad, Számot adni bírájának. Kézzel írt könyv nyílik ottan: Világ terhe, minden, ott van, Itéletre felrovottan. Bíró majd ha széket űl ott, Minden rejtek felderűl ott, Zsoldot bűn el nem kerűl ott. Én szegény, ott mit beszéljek, Pártfogómul kit reméljek, Hol a szent is alig él meg? Félelmetes Fejedelem, Kinél ingyen a kegyelem: Jóság kútja, légy jó velem! Kegyes Jézus kérlek téged Értem álltál emberséget, Ama nap ne adj rossz véget. Munkád, könnyed értem vesztek: Ennyi kínod, szent kereszted, Ne maradjon kárbavesztett. Bírája a bosszúlásnak, Add kegyelmét tisztulásnak, Mig itt nincs a számadásnap. Bűneimben sóhajtozván, Vétkemtôl vet lángot orcám, Légy kegyelmes, Uram, hozzám. Magdolnához lehajoltál, A latorhoz kegyes voltál, Énbelém is reményt oltál. Méltó imát nem tud ajkam, Te könyörülj, Jóság, rajtam, Ne veszíts el örök jajban. Báránykáid közé végy föl, Keríts el a gödölyéktôl, Jobbra állass ama széktôl. Ha a rosszak zavarodnak, Fojtó lángok kavarognak, Akkor engem hívj áldottnak. Térden kérlek, görnyedetten; Sír a lelkem megtörötten: Ott a végnél, állj mellettem! Könnyel árad ama nagy nap, Hamvukból ha föltámadnak A bűnösök s számot adnak. Uram, nekik adj jó véget, Kegyes Jézus, kérünk téged, Add meg nekik békességed. Amen.",
+        "Nederlands": "Dag van wrake moet hij heten,  als 't vuur 't heelal verteert:  zoals David en Sibylle melden. Wat een angst zal ons doen beven, als de rechter komt getreden om onvermurwbaar recht te spreken. Bazuinen met een ongehoorde klank schallen door de dodenlanden, drijven allen rond de troon. Natuur en dood zien ijzend, hoe het schepsel aan komt treden voor het antwoord aan zijn Rechter. 't Geschreven boek zal worden voorgelegd, waarin het al vervat ligt, waaruit de wereld dan het oordeel hoort. Als dan de Rechter op zijn zetel troont, doet hij weten, wat nog niemand hoorde: niets ontgaat zijn wraak. Welk woord zal mijn ellende dan nog vinden, wie zal ik als beschermer roepen? want gerechtigheid biedt nauwelijks rust. Koning, voor wiens majesteit wij beven, maar die onverdiend ons begenadigt, maak mij zalig, bron van liefde. Wil bedenken, goede Jezus, dat uw levenstocht om mij begon: verstoot mij niet op deze dag. Vermoeidheid drong U neer, toen Gij mij zocht, Uw lijden op het Kruis was mijn verlossing. Moet zoveel moeite dan om níet zijn? Rechtvaardige Rechter, vol van wrake, schenk ons de gunst van uw vergeving, vóór de dag van rekenschap. In zuchten wil ik schuld bekennen, blozen zal ik om mijn zonden, spaar dan, Heer, die tot U smeekt. Maria mocht genade vinden, de moordenaar hebt Gij verhoord, ook mij is dus nog hoop gebleven. Mijn beden kunnen U niet dwingen, maar uw goedheid zorgt uit liefde, dat ik niet onderga in 't eeuwig vuur. Bereid mij dan een plaats bij uwe schapen, houd mij verwijderd van de bokken, laat mij zijn bij hen, die rechts staan. Als te schande worden, die verdoemd zijn, de felle vlammen hen ontvangen, roep mij tot U, bij uw beminden. Ik smeek U nederig, diep gebogen, mijn hart vermorzeld als in as; draag Gij de zorgen van mijn einde. Rijk aan tranen zal die dag zijn, als uit de as komt opgerezen de mens vol schuld, rijp voor het oordeel. Spaar hem dan, o God, goede Jezus, onze Heer, geef hun allen rust. Amen.",
+        "Polski": "W gniewu dzień, w tę pomsty chwilę, Świat w popielnym legnie pyle: Zważ Dawida i Sybillę. Jakiż będzie płacz i łkanie, Gdy dzieł naszych sędzia stanie, Odpowiedzieć każąc za nie. Trąba groźnym zabrzmi tonem Nad grobami śpiących zgonem, Wszystkich stawi nas przed tronem. Śmierć z naturą się zadziwi, Gdy umarli wstaną żywi, Win brzemieniem nieszczęśliwi. Księgi się otworzą karty, Gdzie spis grzechów jest zawarty, Za co świat karania warty. Kiedy sędzia więc zasiędzie, Wszystko tajne jawnym będzie, Gniewu dłoń dosięże wszędzie. Cóż mam, nędzarz, ku obronie, Czyją pieczą się zasłonię, Gdy i święty zadrży w łonie? Panie w grozie swej bezmierny, Zbawisz z łaski lud Twój wierny, Zbaw mnie, zdroju miłosierny. Racz pamiętać, Jezu drogi, Żeś wziął dla mnie żywot srogi, Nie gub mnie w dzień straszny trwogi. Długoś szukał mnie znużony, Zbawił krzyżem umęczony, Niech ten trud nie będzie płony. Sędzio pomsty sprawiedliwy, Bądź mym grzechom litościwy, Zanim przyjdzie sąd straszliwy. Jęcząc, pomnąc win bezdroże, Wstydem me oblicze gorze, Szczędź mnie, błagam, Panie Boże. Ty coś Marii grzech wybaczył I wysłuchać łotra raczył, Nie pozwolisz, bym zrozpaczył. Choć niegodne me błaganie, Nie daj mi, dobroci Panie, W ognia wieczne wpaść otchłanie. Daj mi mieszkać w owiec gronie, Z dala kozłów, przy Twym tronie Postaw mnie po prawej stronie. Gdy uśmierzysz potępionych, Srogim żarom przeznaczonych, Weź mnie do błogosławionych. Błagam kornie bijąc czołem, Z sercem, co się zda popiołem, Wspomóż mnie nad śmierci dołem. O dniu jęku, o dniu szlochu, Kiedy z popielnego prochu Człowiek winny na sąd stanie. Oszczędź go, o dobry Boże, Jezu nasz, i w zgonu porze Daj mu wieczne spoczywanie. Amen.",
+        "Portugues": "Dia da ira aquele dia em que o universo será reduzido a cinzas, segundo as profecias de David e Sibila. Qual não será o terror dos homens quando o soberano Juiz vier examinar todas as acções com rigor! O som estridente da trombeta acordará os mortos, nas profundezas das sepulturas, reunindo-os todos diante do trono do Senhor. A morte e a natureza ficarão estupefactas quando a criatura comparecer para ser julgada pelo Juiz. Um livro aparecerá, onde está escrito tudo sobre o que há-de consistir o julgamento do mundo. Quando o Juiz se assentar no tribunal, tudo o que estiver oculto ficará descoberto, e nenhum crime ficará impune. Infeliz de mim! Que poderei dizer então? Que protector procurarei, quando somente o justo está tranquilo?! Ó Rei, cuja majestade é tremenda, mas que salvais, gratuitamente, os escolhidos, salvai-me, ó fonte de piedade! Recordai-Vos, ó piíssimo Jesus, de que vieste ao mundo por minha causa: não me condeneis nesse dia. Ó Vós, que Vos fatigastes em minha procura e que para me resgatardes morrestes na Cruz: não queirais que fiquem infrutíferos tantos esforços. Ó justo Juiz, que castigais com justiça, concedei-me o perdão das minhas faltas antes do dia do julgamento. Eu choro, como réu; as minhas culpas envergonham-me. Ó Deus, que minhas súplicas me alcancem perdão. Ó Vós, que absolvestes Maria e ouvistes o ladrão, e me concedestes também a esperança! Bem sei que minhas preces não são dignas; mas Vós, que sois bom, não consintais que eu arda no fogo eterno. Colocai-me entre os cordeiros, à vossa direita, e separai-me dos pecadores. Livrai-me da confusão e do suplicio dos malditos condenados e introduzi-me junto dos benditos de vosso Pai. Prostrado ante Vós, suplicante, com o coração esmagado, como reduzido a cinzas, Vos imploro, ó da morte. Dia de lágrimas aquele em que o homem renasça da sua cinza para ser julgado! Tende, pois, piedade dele, ó meu Deus! Ó piíssimo Jesus, ó Senhor, concedei-lhe o repouso eterno. Amen.",
+        "Ukrainian": "Гніву день уже надходить Що кінець землі сотворить: Так Давид й віщунка мовлять. Як тремтітиме творіння, Що його діла помильні Судить Судія первинний! Як труба чудесно грає, Двері гробів відкриває, До престолу всіх збирає! Смерті час прийшов мовчати: Час землі від сну вставати Щоб Судді відповідати. Книгу писану являють, Всі земні діла читають, Світ за нею осуждають. На престол Суддя сідає, Всяку тайну відкриває: За діла всім воздаває. Як, нещасний, оправдаюсь? Якщо й праведні благають, То до кого ж я звертаюсь? Царю величі страшної, Що спасаєш в добрій волі, Порятуй мене, о добрий! О Ісусе милосердний, Лиш тобою я спасенний, Пригадай це в день буремний. Ти шукав мене, розбитий, На Хресті дав кров пролити: Жертви плід не дай згубити! Ти, що кари накладаєш, Ти провини відпускаєш: Відпусти ж мої, благаю! День наблизився розплати, Час із соромом ридати, Всі гріхи ісповідати. Ти пробачив Магдалині, Ти з убивці зняв всі вини: Дай мені надію нині. Молитви мої негідні; Лише Ти, благий, є в силі, Від вогню мене помилуй. До отари причисливши, Не рахуй мене з козлищем, По правиці посадивши. Поразивши осужденних, На страждання приреченних, Клич мене серед блаженних. Тож, склонившись, я благаю, серце в попіл сокрушаю: Смерть свою тобі вручаю. Плачу день уже надходить, Коли з праху плоть ісходить, І для суду воскресає. Боже, змилуйся, благаю. Господи, Ісус благий, Дай їм Твій блаженний мир. Амінь."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus turbis Judæórum: Ego sum panis vivus, qui de cœlo descéndi. Si quis manducáverit ex hoc pane, vivet in ætérnum: et panis, quem ego dabo, caro mea est pro mundi vita. Litigábant ergo Judǽi ad ínvicem, dicéntes: Quómodo potest hic nobis carnem suam dare ad manducándum? Dixit ergo eis Jesus: Amen, amen, dico vobis: nisi manducavéritis carnem Fílii hóminis et bibéritis ejus sánguinem, non habébitis vitam in vobis. Qui mánducat meam carnem et bibit meum sánguinem, habet vitam ætérnam: et ego resuscitábo eum in novíssimo die.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus said to the multitudes of the Jews, I am the living bread that has come down from heaven. If anyone eat of this bread he shall live forever; and the bread that I will give is My Flesh for the life of the world. The Jews on that account argued with one another, saying, How can this man give us His Flesh to eat? Jesus therefore said to them, Amen, amen, I say to you, unless you eat the Flesh of the Son of Man, and drink His Blood, you shall not have life in you. He who eats My Flesh and drinks My Blood has life everlasting and I will raise him up on the last day.",
+        "Espanol": "En aquel tiempo, dijo Jesús a la muchedumbre de los judíos: Yo soy el pan vivo, que he descendido del cielo. Quien comiere de este pan, vivirá eternamente: y el pan que yo os daré es mi misma carne, para la vida del mundo. Comenzaron entonces los judíos a altercar unos con otros, diciendo: ¿Cómo puede este darnos a comer su carne? Jesús empero les dijo: En verdad, en verdad os digo que si no comiereis la carne del Hijo del hombre y no bebiereis su sangre, no tendréis vida en vosotros. Quien come mi carne y bebe mi sangre, tiene vida eterna, y yo le resucitaré en el último día.",
+        "Francais": "En ce temps-là, Jésus dit aux foules des Juifs : « Je suis le pain vivant qui est descendu du ciel. Si quelqu'un mange de ce pain, il vivra éternellement; et le pain que je donnerai, c'est ma chair, pour le salut du monde. » Là-dessus, les Juifs disputaient entre eux, disant: « Comment cet homme peut-il donner sa chair à manger ? » Jésus leur dit: « En vérité, en vérité, je vous le dis, si vous ne mangez la chair du Fils de l'homme, et ne buvez son sang, vous n'avez point la vie en vous-mêmes. Celui qui mange ma chair et boit mon sang a la vie éternelle, et moi, je le ressusciterai au dernier jour. »",
+        "Italiano": "In quel tempo, Gesù disse alla folla dei Giudei: «Io sono il pane vivo, che è disceso dal cielo. Se uno mangia di questo pane, vivrà in eterno. E il pane che io darò è la mia carne, per la vita del mondo». E perciò i Giudei discutevano fra loro, dicendo: «Come costui può darci la sua carne da mangi-are?». Gesù allora disse: «In verità, in verità, vi dico: se non mangiate la carne del Figlio dell'uomo e non bevete il suo sangue, non avrete la vita in voi. Chi mangia la mia carne e beve il mio sangue, ha la vita eterna; e io lo risusciterò nell'ultimo giorno ».",
+        "Magyar": "Én vagyok a mennyből alászállott élő kenyér. Aki e kenyérből eszik, örökké él. A kenyér, amelyet adok, a testem a világ életéért.”  Erre vita támadt a zsidók közt: „Hogy adhatja ez a testét eledelül?”  Jézus ezt mondta rá: „Bizony, bizony, mondom nektek: Ha nem eszitek az Emberfia testét és nem isszátok a vérét, nem lesz élet bennetek.  De aki eszi az én testemet, és issza az én véremet, annak örök élete van, s feltámasztom az utolsó napon.  A testem ugyanis valóságos étel, s a vérem valóságos ital.",
+        "Nederlands": "In die tijd sprak Jezus tot de scharen der Joden: Ik ben het levend Brood, dat uit de hemel is neergedaald. Zo iemand van dit Brood eet, zal hij leven in eeuwigheid; en het Brood, dat Ik zal geven, is mijn Vlees voor het leven der wereld. Toen begonnen de Joden onder elkaar te twisten, en zeiden: Hoe kan Hij ons zijn Vlees te eten geven? Maar Jezus zeide hun: Voorwaar, voorwaar, Ik zeg u: als gij het Vlees van de Mensenzoon niet eet, en zijn Bloed niet drinkt, zult gij niet het leven in u hebben. Wie mijn Vlees eet en mijn Bloed drinkt, heeft eeuwig leven, en Ik zal hem doen verrijzen op de jongste dag.",
+        "Ukrainian": "Того часу, сказав Ісус натовпу Юдеїв: «Я — хліб живий, що з неба зійшов. Коли хтось цей хліб їстиме, житиме повіки. І хліб, що його я дам, це — тіло моє за життя світу.» Отож юдеї заходилися сперечатись між собою, кажучи: «Як отой може нам своє тіло дати їсти?» А Ісус їм: «Істинно, істинно говорю вам: Якщо не споживатимете тіло Чоловічого Сина й не питимете його кров, не матимете життя в собі. Хто тіло моє їсть і кров мою п’є, той живе життям вічним, і я воскрешу його останнього дня.»"
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) DO(f)mi(ef)ne(f) Je(f)su(fe) Chri(f)ste,(fhffe.) (,) *() Rex(hv.ghi) gló(gfh./ghf/gf)ri(ef)ae,(fhffe.) (;) lí(g)be(ef)ra(f) á(fg)ni(f)mas(f.) (,) ó(fg~)mni(f)um(f) fi(g)dé(gfh)li(fge)um(e) de(efh)fun(gh)ctó(f_g_f_)rum(f.) (;) de(f) poe(ef)nis(f) in(f)fér(f!gwh_f)ni,(f.) (,) et(g) de(e) pro(f)fún(h)do(g) la(f_g_f_)cu :(f.) (:) lí(g)be(e)ra(f) e(h)as(hg) de(f) o(g)re(f) le(i)ó(ivvHF'E)nis,(f!gwhg.) (;) ne(e) ab(f)sór(h)be(g)at(f) e(g)as(f.) tár(ghf)ta(ef)rus,(f.) (;) ne(f) ca(f)dant(ec~) in(e) ob(fg)scú(g.f!gwh_f)rum :(f.) (:) sed(f.g!hwi) sí(hg~)gni(fg)fer(g.) san(gf~)ctus(f!gwhg) Mí(fgf)cha(ef)el(f.) (;) re(f)prae(f)sén(hg~)tet(hi) e(ivvHF'E)as(fg..) (,) in(eg~) lu(g.f!gwh)cem(gf~) san(eg/hf~)ctam :(f.) (:) *()~Quam(f) o(f)lim(ec~) A(e)bra(fg)hae(gf) pro(h)mi(hg)sí(fg)sti,(ffe.) (;) et(hi) sé(gf//hiHF'fe.//fhg/hig)(,)(fhg)mi(fge)ni(e_c) e(e!fwg/hf~)jus.(f.) (::) \r\n\r\n<sp>V/</sp>.~Hó(e)sti(fh)as(hhg) et(fe~) pre(fh)ces(hhg.) (,) ti(e)bi(fh) Dó(h)mi(fgF'E)ne(e.) (,) lau(gf~)dis(gh) of(gf)fé(e)ri(ef)mus :(f.) (:) tu(f.g!hwi) sús(hg)ci(fg)pe(g.) (,) pro(f) a(f)ni(e)má(fh)bus(ghg) il(f.)lis,(f.) (;) qua(ih)rum(iji') hó(h)di(gh)e(f.) (,) me(f)mó(fe)ri(f)am(hg) fá(fg)ci(fe)mus :(e.) (:) fac(fg) e(e)as,(ec) Dó(e)mi(ef)ne,(f.) (,) de(h) mor(gff)te(e) trans(ghi~)í(iih)re(gf) ad(ghg) vi(f.)tam.(f.) (::)\r\n\r\n*()~Quam(f) o(f)lim.(ec~) (::)",
+      "availableTranslations": {
+        "English": "O Lord, Jesus Christ, King of glory, deliver the souls of all the faithful departed from the pains of hell and the deep pit; deliver them from the lion’s mouth, that hell engulf them not, nor they fall into darkness, but that Michael, the holy standard-bearer, bring them into the holy light * which You once promised to Abraham and his seed. We offer You, O Lord, sacrifices and prayers of praise; accept them for those souls whom we this day commemorate; grant them, O Lord, to pass from death to the life * which You once promised to Abraham and his seed.",
+        "Espanol": "Señor Jesucristo, Rey de gloria, liberad las almas de los fieles difuntos de las llamas del Infierno y del Abismo sin fondo: liberadlos de la boca del león para que el abismo horrible no los engulla y no caigan en los lazos de las tinieblas. Que san Miguel, portador del estandarte, los introduzca en la santa luz; * como le prometiste a Abrahán y a su descendencia.  Súplicas y alabanzas, Señor, te ofrecemos en sacrificio. Acéptalas en nombre de las almas en cuya memoria hoy las hacemos. Hazlas pasar, Señor, de la muerte a la vida, * como antaño prometiste a Abraham y a su descendencia.",
+        "Francais": "Seigneur Jésus-Christ, Roi de gloire, délivrez les âmes de tous les fidèles défunts du châtiment de l'enfer et du gouffre profond. Délivrez-les de la gueule du lion ! Que l'abîme ne les engloutisse pas, quelle ne tombent point dans la nuit ! Mais que saint Michel, le porte-étendard, les introduise dans la lumière sainte : * Que jadis vous avez promise à Abraham et à sa postérité. Nous vous offrons, Seigneur, ce sacrifice, ces prières de louange. Accueillez-les pour ces âmes dont nous faisons aujoud'hui mémoire. Faites-en sorte, Seigneur, qu'elles passent de la mort à la vie. * Que jadis vous avez promise à Abraham et à sa postérité.",
+        "Italiano": "Signore Gesù Cristo, Re della gloria, libera tutti i fedeli defunti dalle pene dell'inferno e dall'abisso. Salvali dalla bocca del leone; che non li afferri l'inferno e non scompaiano nel buio. L'arcangelo san Michele li conduca alla santa luce * che tu un giorno hai promesso ad Abramo e alla sua discendenza. Noi ti offriamo, Signore, sacrifici e preghiere di lode: accettali per l'anima di quelli di cui oggi facciamo memoria. Fa' che passino, Signore, dalla morte alla vita, * che tu un giorno hai promesso ad Abramo e alla sua discendenza.",
+        "Nederlands": "Heer, Jezus Christus, Koning van heerlijkheid, bevrijd de zielen van alle overleden gelovigen van de straffen der hel en de diepe poel; bevrijd hen uit de muil van de leeuw, laat de onderwereld hen niet verzwelgen, laat hen niet in het duister neerstorten, maar laat de heilige Michaël, de vaandeldrager, hen tot het heilige licht geleiden, * dat Gij oudtijds aan Abraham en zijn zaad beloofd hebt. Wij bieden U, Heer, offers en gebeden tot lof; aanvaard ze voor die zielen, die wij vandaag gedenken; doe hen, Heer, van de dood naar het leven overgaan.  * Dat Gij oudtijds aan Abraham en zijn zaad beloofd hebt.",
+        "Polski": "Panie Jezu Chryste, Królu chwały, zachowaj dusze wszystkich wiernych zmarłych od kar piekielnych i głębokiej czeluści. Wybaw je z lwiej paszczęki, niech ich nie pochłonie piekło, niech nie wpadają w ciemności. Lecz chorąży święty Michał niech je stawi w światłości świętej: * Którą niegdyś obiecałeś Abrahamowi i jego potomstwu. Składamy Ci, Panie, ofiary i modły pochwalne, a Ty je przyjmij za te dusze, które dzisiaj wspominamy. Spraw, o Panie, niech przejdą ze śmierci do życia. * Które niegdyś obiecałeś Abrahamowi i jego potomstwu.",
+        "Portugues": "Senhor Jesus Cristo, Rei da glória, livrai as almas de todos os fiéis defuntos das penas do inferno e do lago profundo; livrai-as da boca do leão; que o inferno as não sepulte, nem elas se abismem nas trevas desse lugar tremendo; mas que S. Miguel, que é o porta-estandarte divino, as conduza até à luz santa. Como outrora prometestes a Abraão e à sua posteridade. Vos oferecemos, Senhor, estas hóstias e estas orações de louvor: aceitai-as pelas almas daqueles que hoje comemoramos, e fazei-as passar da morte à vida: Como outrora prometestes a Abraão e à sua posteridade.",
+        "Ukrainian": "Господи Ісусе Христе, Царю слави, визволи душі всіх померлих вірних від пекельних страждань та глибокої ями. Звільни їх від уст львів, хай не поглине їх тартар, хай не впадуть вони у забуття, але нехай святий знаменоносець Михаїл введе їх у святе світло, * яке Ти колись обіцяв Авраамові та його потомству. Жертви хвали й молитви приносимо Тобі, Господи: прийми їх за душі тих, кого згадуємо сьогодні: даруй їм Господи, перейти від смерті до життя, * яке Ти колись обіцяв Авраамові та його потомству."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hóstias, quǽsumus, Dómine, quas tibi pro animábus famulórum famularúmque tuárum offérimus, propitiátus inténde: ut, quibus fídei christiánæ méritum contulísti, dones et prǽmium.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Look mercifully, we beseech You, O Lord, upon the sacrificial gifts we offer You for the souls of Your servants and handmaids; and since You have given them the merit of Christian faith, also grant them its reward.",
+        "Espanol": "Recibe, Señor, estas hostias que te ofrecemos por el alma de tus siervos y siervas, y pues que los honraste en este mundo con el mérito de la fe cristiana, pasen a gozar su premio.",
+        "Francais": "Jetez les yeux avec bienveillance, Seigneur, sur le sacrifice que nous vous offrons pour les âmes de vos serviteurs et de vos servantes, afin qu'après leur avoir donné le mérite de la foi chrétienne, vous leur en accordiez aussi la récompense.",
+        "Italiano": "Guarda benigno, Signore, le offerte che ti presentiamo per le anime di tutti i fedeli defunti: e come hai dato loro la grazia della fede cristiana, concedi anche il premio.",
+        "Nederlands": "Wij vragen U, Heer, geef vol goedheid acht op de offers, die wij U voor de zielen van uw dienaren en dienaressen opdragen en schenk daarom aan hen, die Gij de genade van het christelijk geloof hebt gegeven, ook de beloning ervan.",
+        "Ukrainian": "На жертви, просимо Тебе, милостивий Господи, які Тобі ми приносимо за душі слуг та служниць Твоїх, зглянся, щоб тим, кого Ти наділив заслугами християнської віри, Ти дав і нагороду."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) LUX(h) ae(gf)tér(gh)na(g.) (,) *() lú(h)ce(j)at(i) e(j)is,(h) Dó(g)mi(fg)ne :(g.) (:) *() Cum(h) san(j)ctis(i) tu(j)is(h) in(i) ae(j)tér(h)num,(ghg.) (,) qui(e)a(f) pi(gh)us(h) es.(g.) (::) <sp>V/</sp>. Ré(g)qui(h)em(j) ae(j)tér(j)nam(j) do(j)na(j) e(j)is(k) Dó(k)mi(j)ne,(j.) (;) et(h) lux(j) per(j)pé(j)tu(j)a(j) lú(j)ce(i)at(j) e(h)is.(g.) (::) *() Cum(h) san(j)ctis(i) tu(j)is(h) in(i) ae(j)tér(h)num,(ghg.) (,) qui(e)a(f) pi(gh)us(h) es.(g.) (::)",
+      "availableTranslations": {
+        "English": "May light eternal shine upon them, O Lord, with Your Saints forever, for You are kind. Grant them eternal rest, O Lord; and let perpetual light shine upon them: with Your Saints forever, for You are kind.",
+        "Espanol": "Brille, Señor, para ellos la luz eterna * con tus santos para siempre, porque eres piadoso. Dales Señor el descanso eternos y brille para ellos la luz perpetua; * con tus santos para siempre porque eres piadoso.",
+        "Francais": "Que sur eux brille la lumière éternelle, Seigneur : * Avec vos saints à jamais ; car Vous êtes bon. Donnez-leur le repos éternel, Seigneur, et que la lumière perpétuelle brille pour eux. * Avec vos saints à jamais ; car Vous êtes bon.",
+        "Italiano": "Splenda ad essi la luce perpetua, * insieme ai tuoi santi, in eterno, o Signore, perché tu sei buono. L'eterno riposo dona loro, Signore, e splenda ad essi la luce perpetua. * Insieme ai tuoi santi, in eterno, Signore, perché tu sei buono.",
+        "Nederlands": "Het eeuwige licht verlichte hen, Heer,  * met uw heiligen in eeuwigheid, want Gij zijt vol liefde. Heer, geef hun de eeuwige rust, en het eeuwige licht verlichte hen.  * Met uw heiligen in eeuwigheid, want Gij zijt vol liefde.",
+        "Polski": "Światłość wiekuista niechaj im świeci, o Panie: * Wśród Świętych Twoich na wieki, bo jesteś pełen dobroci. Wieczny odpoczynek racz im dać, Panie, a światłość wiekuista niechaj im świeci. * Wśród świętych Twoich na wieki, bo jesteś pełen dobroci.",
+        "Portugues": "Que a luz eterna lhes resplandeça: Com os vossos Santos em todos os séculos, ó Senhor, pois sois bom. Dai-lhes, Senhor, o eterno repouso, e que a luz perpétua lhes resplandeça: Com os vossos santos em todos os séculos, ó Senhor, pois sois misericordioso.",
+        "Ukrainian": "Світло вічне нехай світить їм, Господи, * з Твоїми святими навіки, бо Ти милостивий. Вічний спочинок дай їм, Господи, і світло віковічне нехай їм світить. * з Твоїми святими навіки, бо Ти милостивий."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Animábus, quǽsumus, Dómine, famulórum famularúmque tuárum orátio profíciat supplicántium: ut eas et a peccátis ómnibus éxuas, et tuæ redemptiónis fácias esse partícipes:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May the prayers of Your suppliants be helpful to the souls of Your servants and handmaids, we beseech You, O Lord, that You may free them from all sin and make them sharers in Your redemption.",
+        "Espanol": "Que las oraciones de los que te suplican auxilien las almas de Tus siervos y siervas, te rogamos, Señor, para que los liberes de todo pecado y tengan parte en Tu redención.",
+        "Francais": "Que nos prières suppliantes viennent en aide, Seigneur, aux âmes de vos serviteurs et de vos servantes ; délivrez-les de tous leurs péchés et donnez-leur part à votre rédemption.",
+        "Italiano": "Le nostre suppliche giovino, o Signore, alle anime di tutti i fedeli defunti: perché liberi da ogni vincolo di colpa siano resi partecipi della tua redenzione:",
+        "Nederlands": "Wij vragen U, Heer, moge het gebed van ons, die tot U smeken, de zielen van uw dienaren en dienaressen ten voordeel zijn; wil hen van alle zonden bevrijden en deelgenoot maken aan uw verlossing.",
+        "Ukrainian": "Душам, просимо Тебе, Господи, слуг та служниць Твоїх, нехай піде на користь молитва тих, що Тебе благають: вибав їх від усіх гріхів, і вчини їх причасниками Твого відкуплення."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

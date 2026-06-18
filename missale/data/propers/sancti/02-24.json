@@ -1,0 +1,815 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "S. Matthiæ Apostoli",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) MI(e)HI(f) au(f)tem(hh) *() ni(ihi)mis(ihi_f) (,) ho(fi)no(i)rá(ij)ti(ih) sunt(hv.gih.) (,) a(f)mí(ege)ci(f) tu(f)i,(hhi) De(fgF'E)us :(e.) (:) ni(h)mis(hhh) con(f)for(fi~)tá(i)tus(h) est(hji.) (,) prin(hihh)ci(ef)pá(hhi)tus(h) e(h)ó(hjI'H)rum.(hhh/f_g_f._) (::) <i>Ps.</i> Dó(e)mi(fe)ne(eh) pro(h)bá(h)sti(h) me,(h) et(hg~) co(hi)gno(i)ví(hi)sti(h) me :(h.) *(:) tu(hf) co(fh)gno(h)ví(h)sti(h) ses(h)si(h)ó(h)nem(h) me(h)am,(h.) (,) et(h) re(h)sur(h)re(h')cti(i)ó(hf)nem(h) me(ge)am.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+      "availableTranslations": {
+        "English": "To me, Your friends, O God, are made exceedingly honorable; their principality is exceedingly strengthened. O Lord, You have probed me and You know me; You know when I sit and when I stand.",
+        "Bohemice": "Mně však jsou velmi drazí tvoji přátelé, Bože, velmi se upevnilo jejich panování. Hospodine, zkoumal jsi mě a poznal jsi mě: ty víš o každém mém usednutí i povstání.",
+        "Cesky-Schaller": "Ogromnie zaszczyceni są w oczach moich przyjaciele Twoi, Boże; na zawsze jest utrwalone ich władanie. Panie, Ty mnie przenikasz i znasz; Ty wiesz o moim spoczynku i o mym powstaniu.",
+        "Espanol": "Veo, Señor, que honras sobremanera a tus amigos, y que les das un poder inmenso. Señor, tú me has probado y me conoces; tú lo sabes todo respecto de mí, la hors de mi muerte y la de mi resurrección.",
+        "Francais": "Selon moi, vos amis ont été plus qu’honorés, ô Dieu ; leur dignité de princes de l’Église a été puissamment établie. Seigneur, vous m’avez éprouvé et vous m’avez connu ; vous avez connu mon entrée dans le repos et ma résurrection future.",
+        "Italiano": "I tuoi amici, o Dio, sono sommamente onorati; veramente forte è diventato il loro principato. Signore, tu mi scruti e mi conosci, tu conosci quando siedo e quando sorgo.",
+        "Magyar": "Mily tiszteletremeltók előttem, Isten, a te barátaid: mily hatalmas a számuk Uram, te megvizsgáltál és ismersz engem: tudod, ha leülök és ha felkelek.",
+        "Nederlands": "Hoe hoog staan, o God, uw vrienden bij mij in ere. Hoe machtig is hun heerschappij. Heer, Gij doorvorst mij en kent mij, of ik nederzit of oprijs, Gij weet het.",
+        "Polski": "Ogromnie zaszczyceni są w oczach moich przyjaciele Twoi, Boże; na zawsze jest utrwalone ich władanie. Panie, Ty mnie przenikasz i znasz; Ty wiesz o moim spoczynku i o mym powstaniu.",
+        "Portugues": "Honrais largamente os vossos amigos, ó Deus: e o seu poder tem-se fortalecido extraordinariamente. Senhor, perscrutastes o meu íntimo e ficastes conhecendo-me: ficastes conhecendo quando me deito e quando me levanto."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Déus, qui beátum Matthíam Apostolórum tuórum collégio sociásti: tríbue, quǽsumus; ut, eius interventióne, tuæ circa nos pietátis sémper víscera sentiámus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O God, Who didst choose thy blessed servant Matthias to be of the number of the twelve Apostles, grant, we beseech thee, that thy Church, being upholden by his prayers, may ever feel about her the arms of thy most mighty protection.",
+        "Bohemice": "Bože, jenž jsi blahoslaveného Matěje připojil ke sboru svých Apoštolů, dej, prosíme, aby nám na jeho přímluvu byla vždy blízká tvá milosrdná láska.",
+        "Cesky-Schaller": "Boże, który przyłączyłeś św. Macieja do grona Twoich Apostołów, spraw, prosimy, abyśmy za jego wstawiennictwem doznawali zawsze Twojej tkliwej miłości.",
+        "Deutsch": "O Gott, der du den heiligen Matthias der Schar deiner Apostel eingereiht hast, verleihe uns, wir bitten dich, die Gnade, daß wir auf seine Fürsprache deine Vatergüte gegen uns in ihrer ganzen Zartheit fühlen.",
+        "Espanol": "Oh Dios, que te dignaste asociar al bienaventurado Matías al colegio de tus apóstoles, concédenos, te rogamos, que por su intercesión, experimentemos siempre en nosotros los efectos de tu piedad.",
+        "Francais": "0 Dieu, qui avez associé le bienheureux Matthias au collège de vos Apôtres, accordez-nous, s’il vous plaît, que, par son intercession, nous ressentions toujours les effets de vôtre miséricorde à notre égard.",
+        "Italiano": "O Dio, che hai aggregato san Mattia al collegio dei tuoi apostoli; concedi a noi, per il suo intervento, di sentirci sempre circondati dalla tenerezza del tuo amore. ",
+        "Magyar": "Isten, te Szent Mátyást apostolaid társává tetted, add meg nekünk, kérünk, hogy az ő közbenjárására mindig érezzük a te irántunk való irgalams szeretetedet.",
+        "Nederlands": "God, Gij hebt de heilige Matthias in de kring der apostelen opgenomen. Wij vragen U, doe ons door zijn voorspraak altijd de hartelijkheid van uw liefde ondervinden.",
+        "Polski": "Boże, który świętego Macieja do liczby Apostołów swych przyjąłeś, spraw, prosimy Cię, abyśmy za wstawiennictwem jego, doznawali zawsze opieki i miłosierdzia Twego.",
+        "Portugues": "Ó Deus, que agregastes o B. Matias ao colégio apostólico, concedei-nos, Vos imploramos, que por sua intercessão sintamos sempre os efeitos dos abysmos da vossa misericórdia para connosco."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis exsúrgens Petrus in médio fratrum, dixit - erat autem turba hóminum simul, fere centum vigínti -: Viri fratres, opórtet impléri Scriptúram, quam prædíxit Spíritus Sanctus per os David de Juda, qui fuit dux eórum, qui comprehendérunt Jesum: qui connumerátus erat in nobis, et sortítus est sortem ministérii hujus. Et hic quidem possédit agrum de mercéde iniquitátis, et suspénsus crépuit médius: et diffúsa sunt ómnia víscera ejus. Et notum factum est ómnibus habitántibus Jerúsalem, ita ut appellarétur ager ille, lingua eórum, Hacéldama, hoc est ager sánguinis. Scriptum est enim in libro Psalmórum: Fiat commorátio eórum desérta, et non sit, qui inhábitet in ea: et episcopátum ejus accípiat alter. Opórtet ergo ex his viris, qui nobíscum sunt congregáti in omni témpore, quo intrávit et exívit inter nos Dóminus Jesus, incípiens a baptísmate Joánnis usque in diem, qua assúmptus est a nobis, testem resurrectiónis ejus nobíscum fíeri unum ex istis. Et statuérunt duos, Joseph qui vocabátur Bársabas, qui cognominátus est Justus, et Matthíam. Et orántes dixérunt: Tu, Dómine, qui corda nosti ómnium, osténde, quem elégeris ex his duóbus unum, accípere locum ministérii hujus et apostolátus, de quo prævaricátus est Judas, ut abíret in locum suum. Et dedérunt sortes eis, et cécidit sors super Matthíam, et annumerátus est cum úndecim Apóstolis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, Peter stood up in the midst of the brethren - now the number of persons met together was about a hundred and twenty - and he said, Brethren, the Scripture must be fulfilled which the Holy Spirit declared before by the mouth of David concerning Judas, who was the guide of those who arrested Jesus; inasmuch as he had been numbered among us and was allotted his share in this ministry. And he indeed bought a field with the price of his iniquity and, being hanged, burst asunder in the midst, and all his bowels gushed out. And it became known to all the residents of Jerusalem, so that the field came to be called in their language Haceldama, that is, the Field of Blood. For it is written in the book of Psalms, ‘Let their habitation become desolate and let there be none to dwell in it.’ And, ‘His ministry let another take.’ Therefore, of these men who have been in our company all the time that the Lord Jesus moved among us, from John’s baptism until the day that He was taken up from us, of these one must become a witness with us of His Resurrection.” And they put forward two: Joseph, called Barsabbas, who was surnamed Justus, and Matthias. And they prayed and said, You, Lord, Who know the hearts of all, show which of these two You have chosen to take the place in this ministry and apostleship from which Judas fell away to go to his own place. And they drew lots between them, and the lot fell upon Matthias; and he was numbered with the eleven apostles.",
+        "Bohemice": "V těch dnech povstal Petr uprostřed bratří – bylo tam shromážděno asi sto dvacet lidí – a řekl: Muži bratři, muselo se naplnit Písmo, které předpověděl Duch Svatý ústy Davidovými o Judášovi, jenž se stal vůdcem těch, kdo zajali Ježíše. Patřil k nám a měl podíl na této službě. Ten si za mzdu nepravosti pořídil pole, ale pověsil se a pukl vprostřed, takže se vysypala všechna jeho střeva. A stalo se to známým všem obyvatelům Jeruzaléma, takže to pole bylo nazváno v jejich jazyce Hakeldama, to jest Pole krve. Vždyť je psáno v Knize žalmů: „Jeho příbytek ať zpustne, a nikdo ať v něm nebydlí,“ a dále: „Jeho úřad ať převezme jiný.“ Proto je třeba, aby jeden z těch mužů, kteří byli s námi po celý čas, kdy Pán Ježíš mezi námi chodil, počínaje křtem Janovým až do dne, kdy byl vzat od nás vzhůru, se stal s námi svědkem jeho zmrtvýchvstání. A postavili dva: Josefa zvaného Barsabáš, příjmením Spravedlivý, a Matěje. A modlili se slovy: Ty, Pane, jenž znáš srdce všech, ukaž, kterého z těchto dvou sis vyvolil, aby přijal místo této služby a apoštolátu, z něhož Judáš odstoupil, aby šel na své místo. A dali jim losy, a los padl na Matěje, a byl připojen k jedenácti apoštolům.",
+        "Cesky-Schaller": "W one dni powstał Piotr wpośród braci ((a był poczet osób zebranych około stu dwudziestu)) i rzekł: «Mężowie bracia! Musiało się wypełnić Pismo, które Duch Święty zapowiedział przez usta Dawida o Judaszu, przywódcy tych, co pojmali Jezusa. Należał on do naszego grona i miał współuczestnictwo w tym posługiwaniu. Ten tedy nabył pole z zapłaty niegodziwości, a powiesiwszy się, rozpękł się na dwoje i wypłynęły wszystkie jego wnętrzności. I stało się to wiadome wszystkim mieszkańcom Jerozolimy, tak że i pole owo nazwano w ich języku Hakeldama, to jest pole krwi. Napisane jest bowiem w Księdze Psalmów: Niech mieszkanie ich stanie się pustkowiem i niech się nie znajdzie, kto by w nim zamieszkał: oraz biskupstwo jego niech zabierze inny. Potrzeba tedy, aby jeden z tych mężów, którzy się z nami zbierali przez cały czas, kiedy Pan Jezus przebywał między nami, począwszy od chrztu Janowego aż do dnia Wniebowstąpienia, stał się wraz z nami świadkiem Jego zmartwychwstania». I stawiono dwóch: Józefa, zwanego Barsabą, który miał przydomek Justus, i Macieja. A modląc się mówili: «Ty, Panie, który znasz serca wszystkich, okaż, kogoś z tych dwóch wybrał, aby zajął miejsce tego posługiwania i apostolstwa, któremu sprzeniewierzył się Judasz, aby odejść na miejsce swoje». I rozdano im losy. A los padł na Macieja i przyłączony był do jedenastu Apostołów.",
+        "Espanol": "En aquellos dias: Levantóse Pedro en medio de los hermanos, y era la reunión como de ciento veinte personas, y dijo: Hermanos, era preciso se cumpliera la palabra de la Escritura, que et Espiritu Santo había anunciado ya por boca de David, acerca de Judas, que se hizo guia de los que prendieron a Jesús. Fue de nuestro número, y tenía su parte en nuestro ministerio. Éste, pues, adquirió un campo con el precio de su maldad, y habiendo caído de cabeza, reventó, por medio, esparcióndose todas sus entravas; y se hizo notorio a todos los habitantes de Jerusalén, de modo que aquel campo ha lido llamado en su lengua Hacéldama, esto es, campo de sangre. Porque escrito está en el libro de los salmos: Quede su morada desierta y nadie la habite, y ocupe otro su puesto. Es, pues, menester que de los varones que nos acompañaron todo et tiempo que el Señor Jesús vivió entre nosotros, desde el bautismo de Juan hasta el dia en que nos fue arrebatado, se elija a uno de ellos como testigo de su resurrección. Y presentaron a dos: a José, llamado Barsabás, y por sobrenombre el Justo, y a Matías. Y, orando, dijeron: Tú, Señor, que conoces todos los corazones, muéstranos cuál de éstos dos has escogido para ocupar et puesto de este ministerio apostólico, del cual desertó Judas, para irse a su lugar. Y echaron suertes, y recayó la suerte en Matias; y fue agregado a los once apóstoles.",
+        "Francais": "En ces jours-là, Pierre, se levant au milieu des frères qui étaient rassemblés au nombre d’environ cent vingt, leur dit : Mes frères, il fallait que s’accomplît ce que le Saint-Esprit a prédit dans l’Ecriture, par la bouche de David, au sujet de Judas, qui a été le guide de ceux qui ont arrêté Jésus. Il était compté parmi nous, et il avait reçu sa part de notre ministère. Cet homme, après avoir acquis un champ avec te salaire du crime, se pendit et se brisa par le milieu, et toutes ses entrailles se répandirent. Le fait a été si connu de tous les habitants de Jérusalem que ce champ a été nommé dans leur langue Haceldama, c’est-à-dire Champ du sang. Car il est écrit dans le livre des Psaumes : Que leur demeure devienne déserte et qu’il n’y ait personne qui l’habite, et qu’un autre reçoive son ministère. Il faut donc que, parmi les hommes qui ont été en notre compagnie pendant tout le temps que le Seigneur Jésus a vécu avec nous, à commencer depuis le baptême de Jean, jusqu’au jour où il a été enlevé du milieu de nous, il y en ait un qui devienne avec nous témoin de sa résurrection. Ils en présentèrent deux : Joseph appelé Barsabas, surnommé le Juste, et Mathias. Et se mettant en prières, ils dirent : Seigneur, vous qui connaissez les cœurs de tous, montrez lequel de ces deux vous avez choisi pour occuper la part du ministère et de l’apostolat que Judas a quittée par son crime, pour s’en aller en son lieu. Alors ils tirèrent au sort ; et le sort tomba sur Mathias, qui fut mis au rang des onze apôtres.",
+        "Italiano": "In quei giorni, alzatosi Pietro in mezzo ai fratelli (in numero di circa centoventi persone) disse: «Fratelli, è necessario che si adempia quanto predisse lo Spirito Santo nella Scrittura per bocca di David, riguardo a Giuda, il quale fu di guida a coloro che catturarono Gesù. Egli era uno dei nostri ed era stato ammesso a partecipare del nostro ministero. Ma con la mercede dell'iniquità comperò un campo, ed impiccatosi. crepò nel mezzo, e si sparsero tutte le sue viscere. E la cosa si è risaputa da tutti gli abitanti di Gerusalemme, sicché nel loro linguaggio quel campo è stato chiamato Acéldama cioè campo del sangue. Or sta scritto nel libro dei Salmi: “Diventi la sua abitazione deserta, né vi sia chi abiti in essa; e il suo ufficio lo prenda un altro”. Bisogna dunque che di questi uomini, i quali sono stati insieme con noi per tutto quel tempo in cui il Signore Gesù è andato e venuto con noi, a cominciar dal battesimo di Giovanni fino al giorno in cui di mezzo a noi fu assunto in cielo, uno sia con noi costituito testimone della risurrezione di Lui». E ne proposero due: Giuseppe detto Bàrsaba, soprannominato il Giusto e Mattia. E dissero pregando: «Tu, Signore, che conosci i cuori di tutti, mostra quale di questi due tu abbia scelto a prendere, in questo ministero e apostolato, il posto dal quale prevaricò Giuda, per andarsene nel suo luogo». E tirarono a sorte, e la sorte cadde su Mattia, ed egli fu aggregato agli undici apostoli.",
+        "Magyar": "Ezekben a napokban a testvérek körében - mintegy százhúszan lehettek együtt - Péter szólásra emelkedett:  „Testvérek, férfiak! Be kellett teljesednie az Írásnak, amelyet a Szentlélek Dávid szájával Júdásról, azok vezetőjéről jövendölt, akik elfogták Jézust.  Közénk számított, a mi szolgálatunk jutott neki is részül.  Gonoszsága bérén telket szerzett magának, amikor pedig lezuhant, kettérepedt és kifordultak a belei.  Erről Jeruzsálem minden lakója tudomást szerzett, úgyhogy azt a telket az ő nevükön Hakeldamának, azaz vérmezőnek nevezték el.  Benne van ugyanis a zsoltárok könyvében: Lakóhelyük váljék sivataggá, ne lakja senki sátrukat. És: Tisztségét kapja meg más.  Kell tehát, hogy azok közül, akik mindig velünk tartottak, amikor a mi Urunk, Jézus közöttünk járt-kelt,  kezdve János keresztségétől egészen mennybevétele napjáig, valaki velünk együtt tanúskodjék feltámadásáról.”  Kijelöltek hát kettőt, Józsefet, akit Barszabbásznak vagy más néven Jusztusznak is hívtak, és Mátyást.  Majd imádkoztak: „Uram, ki belelátsz mindenkinek a szívébe, mutasd meg, e kettő közül kire esik választásod,  hogy átvegye az apostoli szolgálatban azt a helyet, amelyet Júdás hűtlenül elhagyott, hogy az őt megillető helyre jusson.”  Ezután sorsot vetettek. A sors Mátyásra esett, így a tizenegy apostolhoz sorolták.",
+        "Nederlands": "In die dagen stond Petrus op te midden van de broeders - er was een groep van ongeveer honderd en twintig mensen bijeen - en hij sprak: Mannen, broeders, het schriftwoord moet vervuld worden, dat de Heilige Geest door de mond van David voorzegd heeft over Judas, die de aanvoerder is geweest van hen, die Jezus gevangen hebben genomen. Hij behoorde immers tot ons getal en had deel aan ditzelfde ambt; en met het loon der ongerechtigheid heeft hij zich een stuk grond verworven; maar na zich te hebben opgehangen, is hij gebarsten, zodat al zijn ingewanden naar buiten kwamen; en dat is bekend geworden aan al de bewoners van Jeruzalem, zodat dit stuk grond in hun taal de naam kreeg van Haceldama, dat is: bloedakker. Er staat immers geschreven in het boek der psalmen: “Hun landgoed worde een eenzaamheid, zodat niemand er meer woont;” en ook: “Dat een ander bezit neme van zijn ambt.” Daarom moet er van deze mannen, die met ons samen waren al de tijd, dat de Heer Jezus onder ons verkeerde - te beginnen bij het doopsel van Johannes tot op de dag, dat Hij van ons werd opgenomen - er van hen één met ons optreden als getuige van zijn verrijzenis. Toen stelde men er twee voor: Jozef, die ook Barsabas genoemd werd, en de bijnaam had van Justus, en Matthias. En men bad: Gij, Heer, die aller harten kent, wijs Gij van deze twee er één aan, die Gij hebt uitgekozen om in dit apostelambt de plaats te vervullen, die Judas heeft verbeurd, om te gaan naar zijn eigen plaats. Dan wierp men het lot tussen hen, en het lot viel op Matthias, zodat hij bij de elf apostelen gerekend werd.",
+        "Polski": "W one dni powstał Piotr wpośród braci ((a był poczet osób zebranych około stu dwudziestu)) i rzekł: «Mężowie bracia! Musiało się wypełnić Pismo, które Duch Święty zapowiedział przez usta Dawida o Judaszu, przywódcy tych, co pojmali Jezusa. Należał on do naszego grona i miał współuczestnictwo w tym posługiwaniu. Ten tedy nabył pole z zapłaty niegodziwości, a powiesiwszy się, rozpękł się na dwoje i wypłynęły wszystkie jego wnętrzności. I stało się to wiadome wszystkim mieszkańcom Jerozolimy, tak że i pole owo nazwano w ich języku Hakeldama, to jest pole krwi. Napisane jest bowiem w Księdze Psalmów: Niech mieszkanie ich stanie się pustkowiem i niech się nie znajdzie, kto by w nim zamieszkał: oraz biskupstwo jego niech zabierze inny. Potrzeba tedy, aby jeden z tych mężów, którzy się z nami zbierali przez cały czas, kiedy Pan Jezus przebywał między nami, począwszy od chrztu Janowego aż do dnia Wniebowstąpienia, stał się wraz z nami świadkiem Jego zmartwychwstania». I stawiono dwóch: Józefa, zwanego Barsabą, który miał przydomek Justus, i Macieja. A modląc się mówili: «Ty, Panie, który znasz serca wszystkich, okaż, kogoś z tych dwóch wybrał, aby zajął miejsce tego posługiwania i apostolstwa, któremu sprzeniewierzył się Judasz, aby odejść na miejsce swoje». I rozdano im losy. A los padł na Macieja i przyłączony był do jedenastu Apostołów.",
+        "Portugues": "Naqueles dias, levantando-se Pedro no meio dos discípulos (era a turba quase cento e vinte pessoas) disse: «Varões e irmãos, é preciso que se cumpra a Escritura, segundo o que o Espírito Santo predisse pela boca de David a respeito de Judas, que foi o guia daqueles que prenderam Jesus, o qual era um dos nossos e havia recebido participação no nosso mystério. Este homem, depois de haver comprado um campo com o preço do seu crime, suspendeu-se pelo pescoço e rebentou no meio do corpo, espalhando-se pelo chão. Este acontecimento foi conhecido de todos os habitantes de Jerusalém, de modo que aquele campo ficou sendo chamado em sua própria língua «Hacéldama», isto é, «campo de sangue». Ora está escrito no livro dos Salmos: «Que sua morada fique deserta e não haja quem resida nela, e que outro receba o seu episcopado». É, pois, necessário que entre os homens, que estiveram reunidos connosco durante o tempo em que o Senhor Jesus viveu entre nós desde o baptismo de João até ao dia em que subiu aos céus, um deles seja escolhido como testemunho da sua Ressurreição». E apresentaram-se dois: José, chamado Barsabás, cognominado o justo, e Matias. Então, orando, disseram: «Vós, Senhor, que conheceis o coração de todos, mostrai-nos qual destes dois escolhestes para ocupar o lugar neste ministério e apostolado, de que Judas se afastou». E lançaram-lhes sortes, caindo a sorte em Matias, que foi associado aos Onze Apóstolos."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) NI(egf)mis(f.) *(,) ho(f)no(f)rá(hfghvF'Egef)ti(g) sunt(f.) (;) a(f)mí(hf/hi'j)ci(h_f) tu(f_e)i,(gxegFE.) (,) De(ed/fef)us :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) ni(hh)mis(h) con(h)for(h)tá(hg/hi!jvHGhhg)(,)(i_hivHF')tus(f) est(fhF'Efhhf//hvvGF'heed.0) (:) prin(d)ci(ef)pá(f.0/hvGF'g)tus(e) e(f)ó(hf/h_i)rum.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. Di(f)nu(h)me(hi)rá(i)bo(ij) e(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_jkvJI'j)os :(ji..) (:) et(i) su(k.i!jw!kvJI')per(i) a(ij)ré(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)nam(f.) *(:) mul(d)ti(ef)pli(f.0/hvGF'g)ca(ef)bún(hf/h_i~)tur.(i_jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
+      "availableTranslations": {
+        "English": "Your friends, O God, are exceedingly honorable; their principality is exceedingly strengthened. Were I to recount them, they would outnumber the sands.",
+        "Bohemice": "Převelice drazí jsou tvoji přátelé, Bože, velmi se upevnilo jejich panování. Rozmnožím je, a budou četnější než písek.",
+        "Cesky-Schaller": "Ogromnie zaszczyceni są w oczach moich przyjaciele Twoi, Boże; na zawsze jest utrwalone ich władanie. Gdybym ich przeliczył, więcej ich niż piasku.",
+        "Espanol": "Sobremanera honrados son tus amigos, ¡oh Dios!; muy grande es su poder.  Son más, si los recuento, que la arena.",
+        "Francais": "Ô Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi. Si j’entreprends de les compter, leur nombre surpasse celui du sable de la mer.",
+        "Italiano": "I tuoi amici, o Dio, sono sommamente onorati; veramente forte è diventato il loro principato. Se mi metto a contarli sono più numerosi dell'arena.",
+        "Nederlands": "Hoe hoog staan uw vrienden bij mij in ere, o God. Hoe machtig is hun heerschappij. Zou ik ze tellen: talrijker zijn ze dan zandkorrels.",
+        "Polski": "Ogromnie zaszczyceni są w oczach moich przyjaciele Twoi, Boże; na zawsze jest utrwalone ich władanie. Gdybym ich przeliczył, więcej ich niż piasku.",
+        "Portugues": "Honrais largamente os vossos amigos, ó Deus: e o seu poder tem-se fortalecido extraordinariamente. Hei-de contá-los, e ultrapassarão os grãos de areia."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) NI(egf)mis(f.) *(,) ho(f)no(f)rá(hfghvF'Egef)ti(g) sunt(f.) (;) a(f)mí(hf/hi'j)ci(h_f) tu(f_e)i,(gxegFE.) (,) De(ed/fef)us :(fd/ef!hvvF'E//f!gwh/ihh/fgf.) (:) ni(hh)mis(h) con(h)for(h)tá(hg/hi!jvHGhhg)(,)(i_hivHF')tus(f) est(fhF'Efhhf//hvvGF'heed.0) (:) prin(d)ci(ef)pá(f.0/hvGF'g)tus(e) e(f)ó(hf/h_i)rum.(ih/ijI'H) (,) (jh/jkIG'hvF'E//f!gwh!iv.hi'j) (,) (ijijHF'gwhf.1) (::) <sp>V/</sp>. Di(f)nu(h)me(hi)rá(i)bo(ij) e(jvI'HG'hvF'E)(,)(ge/f!hh/ijij.)(,)(hj!kvIG'hvF'E//fgF'Ef.)(,)(i!jwk_jkvJI'j)os :(ji..) (:) et(i) su(k.i!jw!kvJI')per(i) a(ij)ré(j_hjvIH'hf//hhfhv.hhh_f)(,)(hi!jvIHjvIHif)nam(f.) *(:) mul(d)ti(ef)pli(f.0/hvGF'g)ca(ef)bún(hf/h_i~)tur.(i_jH'Ghi..) (,) (ef'hh'jIH'GF'gwhf.1) (::)",
+      "availableTranslations": {
+        "English": "Your friends, O God, are exceedingly honorable; their principality is exceedingly strengthened. Were I to recount them, they would outnumber the sands.",
+        "Bohemice": "Převelice drazí jsou tvoji přátelé, Bože, velmi se upevnilo jejich panování. Rozmnožím je, a budou četnější než písek.",
+        "Cesky-Schaller": "Ogromnie zaszczyceni są w oczach moich przyjaciele Twoi, Boże; na zawsze jest utrwalone ich władanie. Gdybym ich przeliczył, więcej ich niż piasku.",
+        "Espanol": "Sobremanera honrados son tus amigos, ¡oh Dios!; muy grande es su poder.  Son más, si los recuento, que la arena.",
+        "Francais": "Ô Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi. Si j’entreprends de les compter, leur nombre surpasse celui du sable de la mer.",
+        "Italiano": "I tuoi amici, o Dio, sono sommamente onorati; veramente forte è diventato il loro principato. Se mi metto a contarli sono più numerosi dell'arena.",
+        "Nederlands": "Hoe hoog staan uw vrienden bij mij in ere, o God. Hoe machtig is hun heerschappij. Zou ik ze tellen: talrijker zijn ze dan zandkorrels.",
+        "Polski": "Ogromnie zaszczyceni są w oczach moich przyjaciele Twoi, Boże; na zawsze jest utrwalone ich władanie. Gdybym ich przeliczył, więcej ich niż piasku.",
+        "Portugues": "Honrais largamente os vossos amigos, ó Deus: e o seu poder tem-se fortalecido extraordinariamente. Hei-de contá-los, e ultrapassarão os grãos de areia."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DE(f)si(f)dé(fg!hvhg)ri(hggf)um(fg!hvhghvGFgf..) <clear>*(;) á(gjjk)ni(h)mae(hg/hf/h!jhj) e(jvIH'iw!jvI'HG'h)jus(hg..) (;) tri(ghg)bu(fg)í(jj)sti(hji') e(j)i :(jjjkhhg/hg/jjh/jggf.0) (:) et(f) vo(f)lun(f)tá(hj)te(igh) la(gf/gh)bi(g)ó(g)rum(gh/jij) (`) e(j.h!iwj)jus(jjjvIHivHGhg..) (;) non(h_g/h!iwj) frau(g_f~)dá(g)sti(h) (`) e(j./kjjg//j./kjj'jj/kjjh)(,)(ji/jjvI'G//hjh'jvHF.1)(,)(gh!jvvI'G//hjHF'g)um.(g/hhg.) (::) \r\n<sp>V/</sp>. Quó(g)ni(g)am(g_d) prae(g)ve(hih)ní(jjji)sti(g) e(h_g/h!iw!jvIHijh)um(hg..) (:) in(g) be(ghg)ne(fg)di(jj)cti(hji')ó(j)ne(jkjj'j/kjjh) (,) (ji/jjvI'G//hjh'jvHF.g.h!iwjjv) (;) dul(jk~)cé(jv.ikjjv'1jvIG'h//jjhjvHG)di(fg)nis.(g/hhg.) (::) \r\n<sp>V/</sp>. Po(g)su(g)í(gh'j)sti(jjjvIH') su(jhhg)per(g_h) ca(h/jjh)put(gf) e(ghg~)jus(h_g) (,) (ixi_hivGF.g/hg/hg/hg/jjh/jggf.0) (:) co(gh/jij)ró(j.h!iwj)nam(jjjvIHivHGhg..) (;) de(g) lá(h_g/h!iwj)pi(ghG'F)de(f.) (,) *() pre(f!h'j)ti(j)ó(i_0/jhhg/hggfg.)(,)(jjjkvJ'IH'hg)so.(ghGF.) (,) (h!iwjijjh/ihhg.) (::)",
+      "availableTranslations": {
+        "English": "Your friends, O God, are exceedingly honorable; their principality is exceedingly strengthened. Were I to recount them, they would outnumber the sands. You have granted him his heart’s desire. You refused not the wish of his lips. For You welcomed him with goodly blessings. You placed on his head a crown of pure gold.",
+        "Bohemice": "Převelice drazí jsou tvoji přátelé, Bože, velmi se upevnilo jejich panování. Rozmnožím je, a budou četnější než písek. Žádost jeho duše jsi mu splnil a přání jeho rtů jsi mu neodepřel. Neboť jsi mu předešel požehnáním lahodnosti. Na jeho hlavě jsi položil korunu z drahého kamene.",
+        "Cesky-Schaller": "Ogromnie zaszczyceni są w oczach moich przyjaciele Twoi, Boże; na zawsze jest utrwalone ich władanie. Gdybym ich przeliczył, więcej ich niż piasku. Spełniłeś pragnienie jego serca, prośbie ust jego nie odmówiłeś. Uprzedziłeś go hojnym błogosławieństwem. Włożyłeś mu na głowę koronę z drogich kamieni.",
+        "Espanol": "Cumpliste los deseos de su corazón y no defraudaste la petición de sus labios. V. Porque le previniste con venturosas bendiciones.  Pusiste en su cabeza una corona de piedras preciosas.",
+        "Francais": "Ô Dieu, que vos amis sont singulièrement honorés à mes yeux ! Leur empire s’est extraordinairement affermi. Si j’entreprends de les compter, leur nombre surpasse celui du sable de la mer. Vous lui avez accordé le désir de son cœur, et vous ne l’avez point frustré de la demande de ses lèvres. Car vous l’avez prévenu des plus douces bénédictions. Vous avez mis sur sa tête une couronne de pierres précieuses.",
+        "Italiano": "I tuoi amici, o Dio, sono sommamente onorati; veramente forte è diventato il loro principato. Se mi metto a contarli sono più numerosi dell'arena. I desiderio del suo cuore hai colmato e la preghiera delle sue labbra non gli hai negata. Poiché lo hai preceduto con le più liete benedizioni. In capo gli hai posto una corona di pietre preziose.",
+        "Magyar": "Mily tiszteletreméltók, Isten, a te barátaid: mily hatalmas a számuk. Megolvasnám őket, de számosabbak a fövénynél. Teljesítetted szívének kívánságát, nem tagadtad meg tőle ajkának óhajtását. Sőt eléje siettél boldogító áldással. Fejére drágakőből koronát helyeztél.",
+        "Nederlands": "Hoe hoog staan uw vrienden bij mij in ere, o God. Hoe machtig is hun heerschappij. Zou ik ze tellen: talrijker zijn ze dan zandkorrels. Zijn hartewens hebt Gij verhoord en de bede van zijn lippen niet afgewezen. Ja, Gij hebt hem voorkomen met milde zegen. Gij hebt een kroon van edelgesteente hem op het hoofd gedrukt.",
+        "Polski": "Ogromnie zaszczyceni są w oczach moich przyjaciele Twoi, Boże; na zawsze jest utrwalone ich władanie. Gdybym ich przeliczył, więcej ich niż piasku. Spełniłeś pragnienie jego serca, prośbie ust jego nie odmówiłeś. Uprzedziłeś go hojnym błogosławieństwem. Włożyłeś mu na głowę koronę z drogich kamieni.",
+        "Portugues": "Honrais largamente os vossos amigos, ó Deus: e o seu poder tem-se fortalecido extraordinariamente. Hei-de contá-los, e ultrapassarão os grãos de areia. Concedestes-lhe o desejo da sua alma: lhe não negastes o que seus lábios Vos pediram. Premunistes-lo com bênção de doçura. Impusestes na sua cabeça uma coroa de pedras preciosas."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Respóndens Jesus, dixit: Confíteor tibi, Pater, Dómine coeli et terræ, quia abscondísti hæc a sapiéntibus et prudéntibus, et revelásti ea párvulis. Ita, Pater: quóniam sic fuit plácitum ante te. Omnia mihi trádita sunt a Patre meo. Et nemo novit Fílium nisi Pater: neque Patrem quis novit nisi Fílius, et cui volúerit Fílius reveláre. Veníte ad me, omnes, qui laborátis et oneráti estis, et ego refíciam vos. Tóllite jugum meum super vos, et díscite a me, quia mitis sum et húmilis corde: et inveniétis réquiem animábus vestris. Jugum enim meum suáve est et onus meum leve.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus spoke and said, I praise You, Father, Lord of heaven and earth, that You hid these things from the wise and prudent, and revealed them to little ones. Yes, Father, for such was Your good pleasure. All things have been delivered to Me by My Father; and no one knows the Son except the Father; nor does anyone know the Father except the Son, and him to whom the Son chooses to reveal Him. Come to Me, all you who labor and are burdened, and I will give you rest. Take My yoke upon you, and learn from Me, for I am meek and humble of heart; and you will find rest for your souls. For My yoke is easy, and My burden light.",
+        "Bohemice": "In illo témpore: Respóndens Jesus, dixit: Confíteor tibi, Pater, Dómine coeli et terræ, quia abscondísti hæc a sapiéntibus et prudéntibus, et revelásti ea párvulis. Ita, Pater: quóniam sic fuit plácitum ante te. Omnia mihi trádita sunt a Patre meo. Et nemo novit Fílium nisi Pater: neque Patrem quis novit nisi Fílius, et cui volúerit Fílius reveláre. Veníte ad me, omnes, qui laborátis et oneráti estis, et ego refíciam vos. Tóllite jugum meum super vos, et díscite a me, quia mitis sum et húmilis corde: et inveniétis réquiem animábus vestris. Jugum enim meum suáve est et onus meum leve.",
+        "Cesky-Schaller": "In illo témpore: Respóndens Jesus, dixit: Confíteor tibi, Pater, Dómine coeli et terræ, quia abscondísti hæc a sapiéntibus et prudéntibus, et revelásti ea párvulis. Ita, Pater: quóniam sic fuit plácitum ante te. Omnia mihi trádita sunt a Patre meo. Et nemo novit Fílium nisi Pater: neque Patrem quis novit nisi Fílius, et cui volúerit Fílius reveláre. Veníte ad me, omnes, qui laborátis et oneráti estis, et ego refíciam vos. Tóllite jugum meum super vos, et díscite a me, quia mitis sum et húmilis corde: et inveniétis réquiem animábus vestris. Jugum enim meum suáve est et onus meum leve.",
+        "Espanol": "En aquel tiempo: Tomando Jesús la palabra, dijo: Te bendigo, Padre, Señor del cielo y de la tierra, porque has encubierto estas cosas a los sabios y prudentes, y las has revelado a los pequeñuelos. Sí, Padre, porque así te agradó. Todo me lo ha entregado mi Padre. Y nadie conoce al Hijo, sino el Padre; ni conoce nadie al Padre, sino el Hijo, y aquél a quien el Hijo quisiera revelarlo. ¡Venid a mi todos los que andáis fatigados y agobiados, y yo os aliviaré! Tomad mi yugo sobre vosotros, y aprended de mí, pues soy manso y humilde de corazón, y hallaréis reposo para vuestras almas. Porque mi yugo es suave, y ligera mi carga.",
+        "Francais": "In illo témpore: Respóndens Jesus, dixit: Confíteor tibi, Pater, Dómine coeli et terræ, quia abscondísti hæc a sapiéntibus et prudéntibus, et revelásti ea párvulis. Ita, Pater: quóniam sic fuit plácitum ante te. Omnia mihi trádita sunt a Patre meo. Et nemo novit Fílium nisi Pater: neque Patrem quis novit nisi Fílius, et cui volúerit Fílius reveláre. Veníte ad me, omnes, qui laborátis et oneráti estis, et ego refíciam vos. Tóllite jugum meum super vos, et díscite a me, quia mitis sum et húmilis corde: et inveniétis réquiem animábus vestris. Jugum enim meum suáve est et onus meum leve.",
+        "Italiano": "In quel tempo, Gesù prese a dire: «Ti glorifico, Padre, Signore del cielo e della terra, perché hai nascosto queste cose ai saggi e agli scaltri, e le hai rivelate ai piccoli. Sì, Padre, perché questo è stato il beneplacito davanti a te. Ogni cosa mi è stata data dal Padre mio, e nessuno conosce il Figlio se non il Padre, come nessuno conosce il Padre se non il Figlio, e colui al quale il Figlio vorrà rivelarlo. Venite a me, voi tutti che siete affaticati ed oppressi, e io vi darà riposo. Prendete su di voi il mio giogo, e imparate da me che sono mite ed umile di cuore; e troverete riposo per le vostre anime, perché il mio giogo è soave, e il mio peso è leggero».",
+        "Nederlands": "In illo témpore: Respóndens Jesus, dixit: Confíteor tibi, Pater, Dómine coeli et terræ, quia abscondísti hæc a sapiéntibus et prudéntibus, et revelásti ea párvulis. Ita, Pater: quóniam sic fuit plácitum ante te. Omnia mihi trádita sunt a Patre meo. Et nemo novit Fílium nisi Pater: neque Patrem quis novit nisi Fílius, et cui volúerit Fílius reveláre. Veníte ad me, omnes, qui laborátis et oneráti estis, et ego refíciam vos. Tóllite jugum meum super vos, et díscite a me, quia mitis sum et húmilis corde: et inveniétis réquiem animábus vestris. Jugum enim meum suáve est et onus meum leve.",
+        "Polski": "Onego czasu: Odpowiadając Jezus rzekł: «Wysławiam Cię, Ojcze, Panie nieba i ziemi, iżeś te rzeczy zakrył przed mądrymi i przewidującymi, a objawiłeś je maluczkim. Tak, Ojcze, bo tak się spodobało Tobie. Wszystko dane mi jest od Ojca mego. I nikt nie zna Syna, jeno Ojciec, ani Ojca nikt nie zna, jeno Syn i komu by Syn zechciał objawić. Pójdźcie do mnie wszyscy, którzy pracujecie i uginacie się pod ciężarem, a ja was pokrzepię. Weźmijcie jarzmo moje na siebie i uczcie się ode mnie, żem jest cichy i pokornego serca, a znajdziecie odpocznienie dla dusz waszych. Albowiem jarzmo moje słodkie jest, a brzemię moje lekkie».",
+        "Portugues": "Naquele tempo, respondendo Jesus, disse: «Dou-Vos graças, ó Pai, Senhor do céu e da terra, pois que ocultastes estas coisas aos sábios e aos prudentes e as revelastes aos pequenos. Sim, ó Pai, dou-Vos graças, porque assim o quisestes. Todas as cousas me foram dadas pelo meu Pai; e ninguém conhece o Filho senão o Pai, assim como ninguém conhece o Pai senão o Filho, e aquele a quem o Filho o quer revelar. Vinde a mim, vós todos, que trabalhais e estais sobrecarregados, e vos confortarei. Tomai sobre vós o meu jugo e aprendei de mim; pois sou manso e humilde de coração; e achareis o repouso para as vossas almas. Meu jugo é suave e o meu ónus é leve»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) COn(dg)stí(g./hji)tu(jkj)es(jvIH.) *() e(hj!kvJH)os(hjhhg.) (,) prín(ikj)ci(jvIH)pes(h_g//ih/igh.) (;) su(ef)per(g) o(h_g/jki'jvH'G)mnem(g_fh) ter(ghfg)ram :(f.) (:) mé(ffff_d/gih)mo(g)res(g./hjh) e(f_d/fhg)runt(ef'g) (,) nó(gh/jij)mi(gjj'1jj)nis(gj) tu(ixjjjvH'GF'gwh!ivHG'h)i,(hg..) (:) in(hji___) o(jkjijh)mni(h.) pro(dg)gé(gj)ni(jjjvH'G)e(g.) (;) et(f) ge(ef'g)ne(fh/jgh)ra(ef)ti(g)ó(g./h!iw!jvIH)ne.(hjH'GF.) (,) (fff//hvG'FEf_e//g_f/gffe.) (::)",
+      "availableTranslations": {
+        "English": "You shall make them princes through all the land; they shall remember Your name, O Lord, through all generations.",
+        "Bohemice": "Ustanovuješ je za knížata nade všemi národy: pamětlivi budou tvého jména, Hospodine, po všechna pokolení a věky.",
+        "Cesky-Schaller": "Ustanowisz ich książętami po całej ziemi, przez wszystkie pokolenia głosić będą Twe imię, o Panie.",
+        "Espanol": "Los constituirás principes sobre toda la tierra; ellos recordarán, Señor, tu nombre de generación en generación.",
+        "Francais": "Vous les établirez princes sur toute la terre ; ils se souviendront de votre nom, de génération en génération.",
+        "Italiano": "Li porrai come principi su tutta la terra, essi faranno ricordare il tuo Nome, Dio, per ogni generazione di generazione.",
+        "Magyar": "Az egész világ fejedelmeivé teszed őket, emlékezetessé teszik nevedet, Uram, mindenkor, nemzedékről-nemzedékre.",
+        "Nederlands": "Tot vorsten zult Gij hen aanstellen over heel de wereld. Zij zullen uw Naam gedenken, o Heer, van geslacht tot geslacht.",
+        "Polski": "Ustanowisz ich książętami po całej ziemi, przez wszystkie pokolenia głosić będą Twe imię, o Panie.",
+        "Portugues": "Vós os instituístes príncipes em toda a terra. Ó Senhor, eles perpetuarão de geração em geração a glória do vosso nome.",
+        "Ukrainian": "Ти поcтавиш їх начальниками по вcій землі. Пом’януть ім’я твоє, Господи, у вcякім роді й роді."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hóstias tibi, Dómine, quas nómini tuo sacrándas offérimus, sancti Matthíæ Apóstoli tui prosequátur orátio: per quam nos expiári fácias et deféndi.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May the prayer of Your holy Apostle Matthias, O Lord, accompany the sacrificial gifts which we offer to be hallowed in Your name, so that we may obtain pardon and protection.",
+        "Bohemice": "Oběti, které ti, Pane, přinášíme ke posvěcení tvému jménu, ať doprovází modlitba tvého svatého apoštola Matěje: skrze ni dopřej, ať jsme očištěni i chráněni.",
+        "Cesky-Schaller": "Panie, niech ta modlitwa św. Apostoła Twojego Macieja towarzyszy darom, które składamy w ofierze Twojemu imieniu: dzięki niej racz nas oczyszczać i bronić.",
+        "Espanol": "Haz, Señor, que la oración de tu santo apóstol Matías acompañe estas ofrendas, que consagramos a tu nombre y nos consiga tu perdón y tu defensa.",
+        "Francais": "Que la prière de saint Mathias, votre Apôtre, accompagne, ô Seigneur, ces hosties que nous vous offrons pour être consacrées à votre saint nom, et qu’à cause d’elle, vous nous donniez d’être purifiés et défendus.",
+        "Italiano": "La preghiera del tuo santo apostolo Mattia accompagni, o Signore, le offerte che consacriamo al tuo nome: e la sua intercessione ci ottenga di essere purificati e difesi.",
+        "Magyar": "Az áldozati adományokat, Urunk, miket neved megszentelésére hoztunk, kísérje Szent Mátyás apostolodnak az imádsága, hogy kiengesztelődést és védelmet szerezzen nekünk.",
+        "Nederlands": "Moge, Heer, het gebed van uw heilige apostel Matthias de offers, die wij uw Naam wijden, begeleiden. Wil daardoor onze schuld wegnemen en ons verdedigen.",
+        "Polski": "Panie, niech ta modlitwa św. Apostoła Twojego Macieja towarzyszy darom, które składamy w ofierze Twojemu imieniu: dzięki niej racz nas oczyszczać i bronić.",
+        "Portugues": "Senhor, que as hóstias, que Vos oferecemos para serem consagradas em honra do vosso Santo Nome, sejam acompanhadas pela oração do vosso santo Apóstolo Matias, em virtude da qual sejamos purificados e livres do mal."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) VOS,(df!gh) *(,) qui(g) se(g)cú(g)ti(ge) e(fg)stis(efED'e) me,(ed..) (;) se(d)dé(f)bi(fff)tis(dfddc.) (,) su(ixfg!hi)per(hg~) se(f.e!fwgfg)des,(gf..) (:) ju(f)di(ghg)cán(h)tes(g) du(f)ó(g)de(fe)cim(dfddc.) (,) tri(fffd//ef!gh)bus(f_e) Is(d)ra(de!fvED'e)el.(ed..) (::)",
+      "availableTranslations": {
+        "English": "You who have followed Me shall sit on thrones judging the twelve tribes of Israel.",
+        "Bohemice": "Vy, kteří jste mě následovali, budete sedět na trůnech a soudit dvanáct kmenů Israele.",
+        "Cesky-Schaller": "Wy, którzy za mną poszli, zasiądziecie na stolicach, sądząc dwanaście pokoleń Izraela.",
+        "Espanol": "Vosotros, que me habéis seguido, os sentaréis sobre tronos para juzgar a las dote tribus de Israel.",
+        "Francais": "Vous qui m’avez suivi, vous siégerez sur des trônes et vous jugerez les douze tribus d’Israël.",
+        "Italiano": "Voi che mi avete seguito, sederete su troni a giudicare le dodici tribù d'Israele.",
+        "Magyar": "Ti, kik engem követtetek, trónon fogtok ülni, ítélkezvén Izrael tizenkét nemzetsége felett.",
+        "Nederlands": "Gij, die Mij gevolgd zijt, zult op tronen zetelen en de twaalf stammen van Israël oordelen.",
+        "Polski": "Wy, którzy za mną poszli, zasiądziecie na stolicach, sądząc dwanaście pokoleń Izraela.",
+        "Portugues": "Vós, que me seguistes, assentar-vos-eis em tronos e julgareis as doze tribos de Israel."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Præsta, quǽsumus, omnípotens Deus: ut per hæc sancta, quæ súmpsimus, interveniénte beáto Matthía Apóstolo tuo, véniam consequámur et pacem.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, almighty God, we pray You, that through the intercession of blessed Matthias, Your Apostle, we may obtain pardon and peace through the holy things of which we have partaken.",
+        "Bohemice": "Popřej, prosíme, všemohoucí Bože, aby skrze tato svatá tajemství, která jsme přijali, na přímluvu tvého blahoslaveného apoštola Matěje, nám byla udělena odpuštění i pokoj.",
+        "Cesky-Schaller": "Prosimy Cię, wszechmogący Boże, spraw, abyśmy dzięki przyjęciu świętego daru, za wstawiennictwem świętego Apostoła Twego Macieja, otrzymali przebaczenie i pokój.",
+        "Espanol": "¡Oh Dios todopoderoso!, te suplicamos nos concedas que, en virtud de estos santos misterios que hemos recibido, y por la intercesión de tu santo apóstol Matias, alcancemos el perdón y la paz.",
+        "Francais": "Accordez-nous, s’il vous plaît, Dieu tout-puissant, que le bienheureux Mathias, votre Apôtre, intervenant en notre faveur, nous recevions au moyen des saints mystères que nous avons reçus le pardon et la paix.",
+        "Italiano": "Concedi a noi, o Dio onnipotente: questo sacrificio che abbiamo ricevuto, ci ottenga, per l'intercessione del tuo santo apostolo Mattia, il perdono e la pace.",
+        "Magyar": "Add meg nekünk, kérünk, mindenható Isten, hogy ezek a magunkhoz vett szentségek Szent Mátyás apostolodnak közbenjárására bocsánatot, békét szerezzenek.",
+        "Nederlands": "Wij vragen U, almachtige God, doe ons door dit heilige, dat wij genuttigd hebben, op de voorspraak van uw heilige apostel Matthias, vergeving en vrede verwerven.",
+        "Polski": "Prosimy Cię, wszechmogący Boże, spraw, abyśmy dzięki przyjęciu świętego daru, za wstawiennictwem świętego Apostoła Twego Macieja, otrzymali przebaczenie i pokój.",
+        "Portugues": "Concedei-nos, Vos imploramos, ó Deus omnipotente, que os sacrossantos mystérios, de que participámos, nos alcancem por intercessão do B. Matias, vosso Apóstolo, o perdão e a paz."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

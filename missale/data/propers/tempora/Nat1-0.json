@@ -1,0 +1,789 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "Dominica Infra Octavam Nativitatis",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DUM(cd) mé(dgf/gh)di(g)um(g) *() si(g)lén(ixgih)ti(hggfg)um(gf..) (;) te(fg)né(g/hji)rent(ih) ó(jjj)mni(hg)a,(ghgh.) (:) et(fg) nox(gj) in(j) su(j)o(h) cur(jj)su(g.) (,) mé(h)di(hfhg)um(g) i(jj)ter(j_k_j_) ha(h)bé(h!jjvH'G)ret,(gf..) (:) o(f)mní(fg'h)pot(h)ens(h) ser(h)mo(f) tu(fg'h)us,(h) (,) Dó(ixhiHG')mi(hggfg)ne,(fg..) (:) de(cd) cae(fg)lis(ixgiggf.0) (,) a(g) re(hj)gá(iij)li(g)bus(h_g) sé(jj)di(hji)bus(jjvIH'iw!jvIH) ve(gh!ivHG'h)nit.(hg..) (::) <i>Ps.</i> Dó(g)mi(hg)nus(gj) re(j)gná(j)vit,(j) de(j)có(ji)rem(jk) in(k)dú(jk)tus(j) est :(j.) (:) *() in(jh~)dú(hj)tus(j) est(j) Dó(j)mi(j)nus(j) for(j)ti(j)tú(j)di(j)nem,(jji) et(gh) prae(ji)cín(h)xit(h) se.(g.) (::) Gló(g)ri(hg)a(gj) Pa(j)tri.(j) (::) <eu>E(j) u(jji) o(gh) u(ji) a(h) e.</eu>(ghd___/ffg.) (::)",
+      "availableTranslations": {
+        "English": "When a profound stillness compassed everything and the night in its swift course was half spent, Your all-powerful Word, O Lord, bounded from heaven’s royal throne. The Lord is King, in splendor robed; robed is the Lord and girt about with strength.",
+        "Bohemice": "Zatím, co všechno v hlubokém mlčení trvalo a noc ve svém běhu k polovici cesty dospěla, všemohoucí Slovo tvé, Pane, s nebe přišlo od královských sídel. Pán kraluje, krásou jest oděn; oděn jest Pán silou a opásán.",
+        "Cesky-Schaller": "Zatím, co všechno v hlubokém mlčení trvalo a noc ve svém běhu k polovici cesty dospěla, všemohoucí Slovo tvé, Pane, s nebe přišlo od královských sídel. Pán kraluje, krásou jest oděn; oděn jest Pán silou a opásán.",
+        "Espanol": "Cuando un profundo silencio envolvía todos los seres, y la noche alcanzaba en su curso la mitad de su camino, tu omnipotente palabra, Señor, vino del cielo, desde el real trono. Reina el Señor, vestido de majestad; se vistió el Señor de fortaleza, y se ciñó de poder.",
+        "Francais": "Tandis qu'un profond silence enveloppait toutes choses, et que la nuit atteignait le milieu de sa course, du haut des cieux votre Parole toute-puissante, Seigneur, s'élança du trône royal. Le Seigneur règne, vêtu de majesté ; le Seigneur s'est revêtu de puissance, il s'est ceint de force.",
+        "Italiano": "Mentre tutto era immerso in profondo silenzio, e la notte era a metà del suo corso, l’onnipotente tuo Verbo, o Signore, discese dal celeste trono regale. Il Signore regna, rivestito di maestà: Egli si ammanta e si cinge di potenza..",
+        "Magyar": "Míg mély csönd borult mindenre s az éjjel sietős útja közepén tartott, jött a te mindenható Igéd, Uram, az égből, királyi székedből. Királlyá lett az Úr, fölségbe öltözött: erőbe öltözött az Úr és felövezte magát.",
+        "Nederlands": "Terwijl alles in diepe stilte gehuld was en de nacht was gekomen tot de helft van zijn baan, daalde, Heer, uw almachtig Woord uit de hemel van zijn koningstroon. De Heer is Koning, met heerlijkheid is Hij bekleed; bekleed is de Heer met kracht en Hij heeft zich omgord.",
+        "Polski": "Gdy wszystko było w głębokim milczeniu, a noc w swym biegu połowy drogi dosięgła, wszechmocne Słowo Twoje, Panie, zstąpiło z nieba, z królewskiego tronu. Pan króluje, w majestat się oblókł; odział się Pan w potęgę i przepasał się.",
+        "Portugues": "Enquanto o mundo repousava em um profundo silêncio: e a noite estava no meio do seu decurso, o vosso Verbo omnipotente, Senhor, desceu dos céus, do seu régio trono. O Senhor revestiu-se de glória e reina; o Senhor revestiu-se com a túnica da majestade e cingiu-se com o poder.",
+        "Ukrainian": "Тоді, як мирна тиша все повила, і ніч досягла половини свого бігу, Твоє всемогутнє Слово, Господи, з неба, з царських престолів нагрянуло. Гоcподь оцаривcя, у величніcть зодягнувcя, зодягнувcя Гоcподь у cилу і опояcавcя."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Omnípotens sempitérne Deus, dírige actus nostros in beneplácito tuo: ut in nómine dilécti Fílii tui mereámur bonis opéribus abundáre:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O Almighty and eternal God, direct our actions in conformity with Your will, that in the name of Your beloved Son we may be worthy to do good works in abundance.",
+        "Bohemice": "Všemohoucí, věčný Bože, řiď činy naše podle zalíbení svého, abychom si zasloužili ve jménu milovaného Syna tvého dobrými oplývati skutky.",
+        "Cesky-Schaller": "Všemohoucí, věčný Bože, řiď činy naše podle zalíbení svého, abychom si zasloužili ve jménu milovaného Syna tvého dobrými oplývati skutky.",
+        "Espanol": "Omnipotente y sempiterno Dios, dirige nuestras acciones según tu beneplácito, para que, en el nombre de tu amado Hijo, merezcamos abundar en buenas obras.",
+        "Francais": "Dieu éternel et tout-puissant, dirigez nos actes selon votre bon plaisir, afin qu'au nom de votre Fils bient-aimé, notre vie soit féconde en bonnes œuvres.",
+        "Italiano": "Onnipotente e sempiterno Iddio, indirizza i nostri atti secondo il tuo beneplacito, affinché possiamo abbondare in opere buone, in nome del tuo diletto Figlio:",
+        "Magyar": "Mindenható örök Isten, irányítsd cselekedeteinket a te akaratod szerint, hogy szeretett Fiad nevében bővelkedhessünk a jócselekedetekben.",
+        "Nederlands": "Almachtige, eeuwige God, richt onze daden naar uw welbehagen, opdat wij in de naam van uw welbeminde Zoon meer goede daden mogen stellen.",
+        "Polski": "Wszechmocny, wieczny Boże, kieruj naszymi czynami według Twojego upodobania, abyśmy w Imię umiłowanego Syna Twego mogli obfitować w dobre uczynki.",
+        "Portugues": "Ó Deus omnipotente e sempiterno, dirigi as nossas acções segundo a vossa vontade, a fim de que pelo nome do vosso amantíssimo Filho sejamos dignos de praticar abundantes boas obras.",
+        "Ukrainian": "Всемогутній вічний Боже, направ дії наші згідно з благоволінням Твоїм, аби ми сподобилися зарясніти благими ділами в Ім’я Твого возлюбленого Сина."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Fratres: Quanto témpore heres párvulus est, nihil differt a servo, cum sit dóminus ómnium: sed sub tutóribus et actóribus est usque ad præfinítum tempus a patre: ita et nos, cum essémus párvuli, sub eleméntis mundi erámus serviéntes. At ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus. Quóniam autem estis fílii, misit Deus Spíritum Fílii sui in corda vestra, clamántem: Abba, Pater. Itaque jam non est servus, sed fílius: quod si fílius, et heres per Deum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Brethren: As long as the heir is a child, he differs in no way from a slave, though he is the master of all; but he is under guardians and stewards until the time set by his father. So we too, when we were children, were enslaved under the elements of the world. But when the fullness of time came, God sent His Son, born of a woman, born under the Law, that He might redeem those who were under the Law, that we might receive the adoption of sons. And because you are sons, God has sent the Spirit of His Son into our hearts, crying, Abba, Father. So that He is no longer a slave, but a son; and if a son, an heir also through God.",
+        "Bohemice": "Bratři! Pokud dědic jest nedospělý, nic se neliší od služebníka, ač jest pánem všeho, nýbrž jest pod poručníky a správci až do času ustanoveného napřed od otce. Tak i my, když jsme byli nedospěli, byli jsme podrobeni pod živly světa. Když však přišla plnost času, ge vyslal Bůh Syna svého, učiněného z ženy, podřízeného zákonu, aby vykoupil ty, kteří byli pod zákonem, abychom obdrželi přijetí za syny. A poněvadž jste syny, Bůh poslal Ducha Syna svého v srdce vaše, který volá: Abba, Otče! Proto není již služebník, nýbrž syn, tedy i dědic skrze Boha.",
+        "Cesky-Schaller": "Bratři! Pokud dědic jest nedospělý, nic se neliší od služebníka, ač jest pánem všeho, nýbrž jest pod poručníky a správci až do času ustanoveného napřed od otce. Tak i my, když jsme byli nedospěli, byli jsme podrobeni pod živly světa. Když však přišla plnost času, ge vyslal Bůh Syna svého, učiněného z ženy, podřízeného zákonu, aby vykoupil ty, kteří byli pod zákonem, abychom obdrželi přijetí za syny. A poněvadž jste syny, Bůh poslal Ducha Syna svého v srdce vaše, který volá: Abba, Otče! Proto není již služebník, nýbrž syn, tedy i dědic skrze Boha.",
+        "Espanol": "Hermanos: Mientras el heredero es menor de edad, en nada se diferencia de un esclavo siendo como es dueño de todo, sino que está bajo tutores y administradores hasta la fecha fijada por su padre. Lo mismo nosotros, cuando éramos menores de edad, estábamos esclavizados bajo los elementos del mundo. Mas cuando llegó la plenitud del tiempo, envió Dios a su Hijo, nacido de mujer, nacido bajo la ley, para rescatar a los que estaban bajo la ley, para que recibiéramos la adopción filial. Como sois hijos, Dios envió a nuestros corazones el Espíritu de su Hijo, que clama: «¡Abba, Padre!». Así que ya no eres esclavo, sino hijo; y si eres hijo, eres también heredero por voluntad de Dios.",
+        "Francais": "Frères, aussi longtemps que l'héritier est enfant, il ne diffère en rien d'un esclave, quoiqu'il soit le maître de tout ; mais il est soumis à des tuteurs et à des curateurs jusqu'au temps marqué par le père. De même, nous aussi, quand nous étions enfants, nous étions sous l'esclavage des rudiments du monde. Mais lorsque est venue la plénitude des temps, Dieu a envoyé son Fils, formé d'une femme, né sous la Loi, pour affranchir ceux qui sont sous la Loi, afin de nous conférer l'adoption. Et parce que vous êtes fils, Dieu a envoyé dans vos cœurs l'Esprit de son Fils, lequel crie : Abba ! Père ! Ainsi tu n'es plus esclave, tu es fils ; et si tu es fils, tu es aussi héritier grâce à Dieu.",
+        "Italiano": "Fratelli: Fin quando l’erede è minore di età, benché sia padrone di tutto, non differisce in nulla da un servo, ma sta sotto l’autorità dei tutori e degli amministratori, fino al tempo prestabilito dal Padre. Così anche noi, quando eravamo minori d’età, eravamo servi degli elementi del mondo. Ma quando venne la pienezza dei tempi, Dio mandò il suo Figlio, nato da donna, nato sotto la legge, affinché redimesse quelli che erano sotto la legge, e noi ricevessimo l’adozione in figli. Ora, poiché siete figli, Iddio ha mandato lo spirito del suo Figlio nei vostri cuori, il quale grida: Abba, Padre. Perciò, ormai nessuno è più schiavo, ma figlio, e se è figlio, è anche erede, per la grazia di Dio.",
+        "Magyar": "Azzal folytatom, hogy amíg az örökös kiskorú, semmiben sem különbözik a szolgától, jóllehet mindennek ura.  Gyámok és gondviselők felügyelete alatt áll, apjától meghatározott ideig.  Így mi is, amíg kiskorúak voltunk, a világ elemeinek szolgálatában álltunk.  De amikor elérkezett az idők teljessége, az Isten elküldte Fiát, aki asszonytól született, és ő alávetette magát a törvénynek,  hogy kiváltson minket a törvény szolgaságából, hogy a fogadott fiúságot elnyerjük.  Mivel az Isten fiai vagytok, a Fia Lelkét árasztotta szívünkbe az Isten, aki kiáltja: Abba, Atya!  Tehát nem vagy többé szolga, hanem fiú, s ha fiú, akkor Isten kegyelméből örökös is.",
+        "Nederlands": "Broeders, al de tijd, dat een erfgenaam onmondig is, verschilt hij niets van een slaaf, al is hij ook de heer van alles. Maar hij staat onder voogden en beheerders tot aan de tijd, die zijn vader heeft vastgesteld. Zo stonden ook wij - toen wij nog onmondig waren - als slaven onder de beginselen der wereld. Maar toen de volheid der tijden kwam, zond God zijn Zoon, geboren uit een vrouw, geboren onder de Wet, om hen, die stonden onder de Wet, vrij te kopen, opdat wij zouden worden aangenomen tot zonen. Welnu, omdat gij zonen zijt, heeft God de Geest van zijn Zoon neergezonden in uw harten, en Hij roept: Abba - Vader. Zodoende is men geen slaaf meer, maar zoon; doch wie zoon is, is ook erfgenaam - door God.",
+        "Polski": "Bracia! Powiadam tedy: Dopóki dziedzic jest dziecięciem, niczym się nie różni od niewolnika, chociaż jest panem wszystkiego. Ale podlega opiekunom i rządcom aż do czasu wyznaczonego przez ojca. Tak też i my, gdyśmy byli dziećmi, podlegaliśmy żywiołom tego świata. Lecz gdy nastała pełność czasu, zesłał Bóg Syna swego powstałego z niewiasty i podległego Zakonowi, aby tych, którzy byli pod Zakonem, odkupił, żebyśmy i my dostąpili synostwa. A że jesteście synami, zesłał Bóg Ducha Syna swego w serca wasze, wołającego: «Abba, Ojcze». A zatem nie masz już niewolnika, lecz syn, a jeśli syn, to i dziedzic przez Boga.",
+        "Portugues": "Meus irmãos: Enquanto o herdeiro é menor, não se distingue do servo, ainda que seja o senhor de tudo; mas depende dos tutores e administradores, até ao tempo determinado por seu pai. Do mesmo modo, quando nós éramos ainda meninos, estávamos sujeitos aos elementos do mundo; mas, logo que chegou a plenitude dos tempos, Deus enviou o seu Filho, nascido da Mulher e sujeito à lei, para resgatar aqueles que estavam sob a sanção da lei, e se tornarem seus filhos adoptivos. E, porque sois seus filhos, mandou Deus ao vosso coração o espírito de seu Filho, o qual clama: Abba! Pai! E, assim, já nenhum de vós é escravo, mas filho. E, sendo seus filhos, sois também herdeiros, por intervenção de Deus.",
+        "Ukrainian": "Брати! Доки спадкоємець малоліток, він нічим не відрізняється від слуги, хоч він і пан усього, але під опікунами та домоправителями перебуває до призначеного батьком часу. Отак і ми, як були малолітками, були підневолені первням світу. Якже сповнивсячас, Бог послав свого Сина, що народився від жінки, народився під законом, щоб викупити тих, які під законом, щоб ми прийняли усиновлення. А що ви сини, Бог послав у ваші серця Духа Сина свого, який взиває “Авва, Отче!” Тому ти вже не раб, а син; а коли син, то спадкоємець завдяки Богові."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale & Alleluia",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) SPe(e)ci(fhg)ó(h)sus(h.) *(,) for(hh//hhh.f!gwh/i_h//j_ijvIG)ma(ig/hi/jh) (,) (hhh'ih/ihhg.) (;) prae(fhg) fí(hihhf)li(hig)is(hiffe.) (,) hó(fhg/h_fi)mi(hg)num :(gv.eg/ihh/fgf.) (:) dif(f)fú(hf/ghg)sa(ge/f!hhhvFE'ec) est(d_e) (,) grá(eg)ti(g)a(fgF'Ef!hh/f!hhhvGF'heed.0) (;) in(f) lá(hf/gh!ivFE')bi(feec)is(efe/f!hh) tu(gxfe/fgE'DefD'C)(,)(ef!hvvF'Eff//ef/ge)is.(c./eec//ed/ec..) (::) \r\n<sp>V/</sp>. E(e)ru(e)ctá(e.f!gwhgh)vit(h_g) cor(g.h!iwjij) me(jihhf/ig/h_i_h_)(,)(hhhvFEhg/h_i)um(ih/ihhg.) (;) ver(gh/iji/jhhg)bum(g) bo(h.f!gwh_g)num :(gv.eg/ihh/fgf.) (:) di(f)co(fi) e(ivvH'Fijhhgh)go(hg..) (;) ó(hv.fhg)pe(g)ra(g) me(gh/iji/jhhg)a(g.) (,) Re(h.f!gwh_g)gi :(gv.eg/ihh/fgf.) (:) lin(f)gua(f) me(f)a(f) cá(fgfg)la(ge/f!hhhvFE'ec)mus(d_e) (,) scri(eg)bae(fgF'Ef!hh/f!hhhvGF'heed.0) (;) ve(f)ló(hf/gh!ivFE')ci(feec)ter(efef) (,) *() scri(hh)bén(gxfe/fgE'DefD'C)(,)(ef!hvvF'Eff//ef/ge)tis.(c./eec//ed/ec..) (::)",
+      "availableTranslations": {
+        "English": "Fairer in beauty are You than the sons of men; grace is poured out upon Your lips. My heart overflows with a goodly theme; as I sing my ode to the King, my tongue is nimble as the pen of a skillful scribe.",
+        "Bohemice": "Krásnější jsi podobou nad syny lidské; rozlita jest milost na tvých rtech. Srdce moje kypí slovem blahým, věnuji své dílo králi; jazyk můj jako pero písaře rychle píšícího. Aleluja, aleluja. Pán kraluje, krásou jest oděn; oděn jest Pán silou a opásán. Aleluja.",
+        "Cesky-Schaller": "Krásnější jsi podobou nad syny lidské; rozlita jest milost na tvých rtech. Srdce moje kypí slovem blahým, věnuji své dílo králi; jazyk můj jako pero písaře rychle píšícího. Aleluja, aleluja. Pán kraluje, krásou jest oděn; oděn jest Pán silou a opásán. Aleluja.",
+        "Espanol": "Eres el más hermoso de los hijos de los hombres; la gracia está derramada en tus labios. Bullendo está en mi corazón un bello canto, que al rey voy a cantar. Sea mi lengua como el cálamo de veloz escriba. Aleluya, aleluya. Reina el Señor, vestido de majestad; vistió se el Señor de fortaleza y se ciñó de poder. Aleluya.",
+        "Francais": "Vous êtes le plus beau des enfants des hommes ; la grâce est répandue sur vos lèvres. De mon cœur jaillit un beau poème, je dis mes œuvres au Roi ; ma langue est le roseau d'un scribe à l'écriture rapide. Alléluia, alléluia. Le Seigneur règne, vêtu de majesté ; le Seigneur s'est revêtu de puissance, il s'est ceint de force. Alléluia.",
+        "Italiano": "Tu sei bello fra i figli degli uomini: la grazia è diffusa sulle tue labbra. Mi erompe dal cuore una buona parola, al re canto i miei versi: la mia lingua è come la penna di un veloce scrivano.. Allelúia, allelúia Il Signore regna, si ammanta di maestà: il Signore si ammanta di fortezza e di potenza. Allelúia.",
+        "Magyar": "Ékesebb vagy az emberek fiainál, kedvesség ömlik el ajkadon. Szívem ünnepi szózattól árad: zengem dalomat a királynak; gyorsíró vesszeje lett a nyelvem. Alleluja, alleluja! Királlyá lett az Úr, fölségbe öltözött: erőbe öltözött az Úr és felövezte magát. Alleluja!",
+        "Nederlands": "Gij zijt de schoonste onder de kinderen der mensen, bevalligheid ligt op uw lippen.  Een heerlijk lied welt op uit mijn hart; de Koning wijd ik mijn zang, mijn tong is als de stift van een snelschrijver. Alleluia, alleluia.",
+        "Polski": "Postacią Tyś piękniejszy nad synów ludzkich, wdzięk rozlał się na Twoich wargach. Z mego serca płynie słowo dobre; pieśń moją śpiewam dla Króla; mój język jest jak rylec sprawnego pisarza. Alleluja, alleluja. Pan króluje, w majestat się oblókł; odział się Pan w potęgę i przepasał się mocą. Alleluja.",
+        "Portugues": "Vós sois mais belo do que todos os filhos dos homens, pois a graça espalhou-se nos vossos lábios. Meu coração exprimiu uma palavra admirável: Consagro ao Rei as minhas obras: Minha língua é como a pena de um escritor expedito. Aleluia, aleluia. Ps 92:1 O Senhor revestiu-se de glória e reina: O Senhor revestiu-se de autoridade e cingiu-se com o poder. Aleluia.",
+        "Ukrainian": "Вродливий ти краcою більш, ніж cини людcькії, виллялаcь благодать уcтами твоїми. Вилило cерце моє cлово добре, оповідаю я про діла мої цареві; язик мій – троcтинове перо пиcаря-cкоропиcця. Алілуя, aлілуя. Гоcподь оцаривcя, у величніcть зодягнувcя, зодягнувcя Гоcподь у cилу і опояcавcя чеснотою. Алілуя."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) AL(ef)le(f)lú(hhivHGh_i){ia}.(ijIH'h//fihhe/f!gwhf.1) (,) *() <i>{ij.}</i>(hhf/hghvFE//ivHGh.f!gwhf.1) (::) \r\n<sp>V/</sp>. Dó(fi!jvIH fihi)mi(ighf)nus(f.) (,) re(feg)gná(gv.fig/h.f!gwhgh)vit,(hg..) (;) de(gh)có(ijij)rem(h_f/hjI'Gh.) (,) ín(eg/ihi/ghf.1/hiH'Gh)du(f_g_f_)it :(f.) (:) ín(f)du(f!h'i)it(ijI'Hh'h) Dó(gh!ivHF.gh'i)mi(i)nus(i) (,) for(kxji/jki)ti(h)tú(hjihhf)di(f)nem,(fh//fhhegvFE.) (;) et(e) prae(f)cín(hhi)xit(f) se(fhg) <clear>*(,) vir(hi~)tú(ivihi)te.(i./jijIG.hiH'//Ef!gwhf.1) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. The Lord is King, in splendor robed; robed is the Lord and girt about with strength. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. De Heer is Koning, met heerlijkheid is Hij bekleed; bekleed is de Heer met kracht en Hij heeft zich omgord met macht. Alleluia."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Erat Joseph et María Mater Jesu, mirántes super his quæ dicebántur de illo. Et benedíxit illis Símeon, et dixit ad Maríam Matrem ejus: Ecce, pósitus est hic in ruínam et in resurrectiónem multórum in Israël: et in signum, cui contradicétur: et tuam ipsíus ánimam pertransíbit gládius, ut reveléntur ex multis córdibus cogitatiónes. Et erat Anna prophetíssa, fília Phánuel, de tribu Aser: hæc procésserat in diébus multis, et víxerat cum viro suo annis septem a virginitáte sua. Et hæc vídua usque ad annos octogínta quátuor: quæ non discedébat de templo, jejúniis et obsecratiónibus sérviens nocte ac die. Et hæc, ipsa hora supervéniens, confitebátur Dómino, et loquebátur de illo ómnibus, qui exspectábant redemptiónem Israël. Et ut perfecérunt ómnia secúndum legem Dómini, revérsi sunt in Galilǽam in civitátem suam Názareth. Puer autem crescébat, et confortabátur, plenus sapiéntia: et grátia Dei erat in illo.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Joseph and Mary, the mother of Jesus were marvelling at the things spoken concerning Him. And Simeon blessed them, and said to Mary His mother, Behold, this Child is destined for the fall and for the rise of many in Israel, and for a sign that shall be contradicted. And your own soul a sword shall pierce, that the thoughts of many hearts may be revealed. There was also Anna, a prophetess, daughter of Phanuel, of the tribe of Aser. She was of a great age, having lived with her husband seven years from her maidenhood, and by herself as a widow to eighty-four years. She never left the temple, with fastings and prayers worshipping night and day. And coming up at that very hour, she began to give praise to the Lord, and spoke of Him to all who were awaiting the redemption of Jerusalem. And when they had fulfilled all things as prescribed in the Law of the Lord, they returned to Galilee, into their own town of Nazareth. And the Child grew and became strong. He was full of wisdom and the grace of God was upon Him.",
+        "Bohemice": "Za onoho času Josef a Maria, Matka Ježíšova, divili se těm věcem, které byli praveny o něm. A Simeon je blahoslavil a řekl k Marii, Matce jeho: Aj, tento jest ku pádu a ku povstání mnohých v Israeli a na znamení, jemuž budou odpírati; a tvou vlastní duši pronikne meč, aby se zjevila smýšlení mnohých srdcí. A byla prorokyně Anna, dcera Fanuelova z pokolení Aserova; ta byla již pokročila ve vysokém věku, byvši živa s mužem svým sedm roků od svého panenství. A tato byla vdovou až do let osmdesáti čtyř, nevycházejíc z chrámu, oddávajíc se postům a modlitbám dnem i nocí. A ta přišedši v touž hodinu, velebila Pána a mluvila o něm všechněm, kteří očekávali vykoupení Israelovo. A když byli vykonali všecko podle zákona Páně, navrátili se do Galileje do svého města Nazareta. Dítko pak rosto a sílilo, jsouc plno moudrosti; a milost Boží byla v něm.",
+        "Cesky-Schaller": "Za onoho času Josef a Maria, Matka Ježíšova, divili se těm věcem, které byli praveny o něm. A Simeon je blahoslavil a řekl k Marii, Matce jeho: gege Aj, tento jest ku pádu a ku povstání mnohých v Israeli a na znamení, jemuž budou odpírati; a tvou vlastní duši pronikne meč, aby se zjevila smýšlení mnohých srdcí. A byla prorokyně Anna, dcera Fanuelova z pokolení Aserova; ta byla již pokročila ve vysokém věku, byvši živa s mužem svým sedm roků od svého panenství. A tato byla vdovou až do let osmdesáti čtyř, nevycházejíc z chrámu, oddávajíc se postům a modlitbám dnem i nocí. A ta přišedši v touž hodinu, velebila Pána a mluvila o něm všechněm, kteří očekávali vykoupení Israelovo. A když byli vykonali všecko podle zákona Páně, navrátili se do Galileje do svého města Nazareta. Dítko pak rosto a sílilo, jsouc plno moudrosti; a milost Boží byla v něm.",
+        "Espanol": "En aquel tiempo, su padre y su madre estaban admirados por lo que se decía del niño. Simeón los bendijo y dijo a María, su madre: «Este ha sido puesto para que muchos en Israel caigan y se levanten; y será como un signo de contradicción —y a ti misma una espada te traspasará el alma—, para que se pongan de manifiesto los pensamientos de muchos corazones». Había también una profetisa, Ana, hija de Fanuel, de la tribu de Aser, ya muy avanzada en años. De joven había vivido siete años casada, y luego viuda hasta los ochenta y cuatro; no se apartaba del templo, sirviendo a Dios con ayunos y oraciones noche y día. Presentándose en aquel momento, alababa también a Dios y hablaba del niño a todos los que aguardaban la liberación de Jerusalén. Y, cuando cumplieron todo lo que prescribía la ley del Señor, se volvieron a Galilea, a su ciudad de Nazaret. El niño, por su parte, iba creciendo y robusteciéndose, lleno de sabiduría; y la gracia de Dios estaba con él.",
+        "Francais": "En ce temps-là, Joseph et Marie, la Mère de Jésus, étaient dans l'étonnement pour les choses que l'on disait de Lui. Et Siméon les bénit, et il dit à Marie, sa mère : « Voici qu'il est placé pour la chute et le relèvement d'un grand nombre en Israël, et pour être un signe en butte à la contradiction, — et vous-même, un glaive transpercera votre âme, — afin que soient révélées les pensées d'un grand nombre de cœurs. » Il y avait aussi une prophétesse, Anne, fille de Phanouel, de la tribu d'Aser ; elle était fort avancée en âge, ayant vécu, depuis sa virginité, sept ans avec son mari, et veuve jusqu'à quatre-vingt-quatre ans. Elle ne quittait point le temple, servant Dieu nuit et jour par des jeûnes et des prières. Survenant à cette heure, elle se mit à louer Dieu et à parler de l'enfant à tous ceux qui attendaient la délivrance de Jérusalem. Et lorsqu'ils eurent accompli tout ce qui était selon la loi du Seigneur, ils retournèrent en Galilée, à Nazareth, leur ville. L'enfant croissait et se fortifiait, étant rempli de sagesse, et la grâce de Dieu était sur lui.",
+        "Italiano": "In quel tempo: Giuseppe e Maria, madre di Gesù, restavano meravigliati delle cose che si dicevano di lui. E Simeone li benedisse, e disse a Maria, sua madre: Ecco egli è posto per la rovina e per la resurrezione di molti in Israele, e sarà bersaglio di contraddizioni, e una spada trapasserà la tua stessa anima, affinché restino svelati i pensieri di molti cuori. C’era inoltre una profetessa, Anna, figlia di Fanuel, della tribù di Aser, molto avanti negli anni, vissuta per sette anni con suo marito. Rimasta vedova fino a ottantaquattro anni, non usciva dal tempio, servendo Dio notte e giorno con preghiere e digiuni. E nello stesso tempo ella sopraggiunse, e dava gloria al Signore, parlando di lui a quanti aspettavano la redenzione di Israele. E quando ebbero compiuto tutto secondo la legge del Signore, se ne tornarono in Galilea, nella loro città di Nazaret. E il fanciullo cresceva e si irrobustiva, pieno di sapienza: e la grazia di Dio era con lui.",
+        "Magyar": "Apja és anyja csodálkoztak azon, amit fiukról mondott.  Simeon megáldotta őket, és így szólt anyjához, Máriához: „Íme, ő sokak romlására és sokak feltámadására lesz Izraelben, jel lesz, amelynek ellene mondanak -  a te lelkedet is tőr járja át -, hogy kiderüljenek sok szív titkos gondolatai.”  Volt egy Áser törzséből való, Anna nevű prófétaasszony, Fánuel leánya, aki már igen öreg volt. Hét évig élt férjével lánysága után,  aztán özvegyen maradt. Már nyolcvannégy esztendős volt. Nem hagyta el a templomot soha, éjjel-nappal böjtben és imádságban szolgált.  Ebben az órában is odajött, dicsőítette az Istent, és beszélt róla mindenkinek, aki csak várta Jeruzsálem megváltását.  Miután így eleget tettek az Úr törvényének, lementek galileai városukba, Názáretbe.  A gyermek pedig nőtt és erősödött, bölcsesség töltötte be, és az Isten kegyelme volt rajta.",
+        "Nederlands": "In die tijd stonden Jozef en Maria, de moeder van Jezus, verbaasd over hetgeen er van Hem gezegd werd. En Simeon zegende hen en sprak tot Maria, zijn Moeder: Zie, deze is bestemd tot val en opstanding van velen in Israël en tot een teken, dat wordt tegengesproken, - en ook uw eigen ziel zal met een zwaard doorboord worden, - opdat de gezindheid des harten van velen openbaar worde. Daar was ook een profetes, Anna, de dochter van Phanuël, uit de stam van Aser. Zij was hoogbejaard, en na haar maagdelijke staat was zij zeven jaar gehuwd geweest; en nu was zij een weduwe van vierentachtig jaar. Altijd was zij in de tempel, en diende God dag en nacht in vasten en gebed. Juist op dat ogenblik verscheen zij daar ook, en loofde de Heer; en zij sprak over het Kind tot allen, die vol verlangen uitzagen naar de verlossing van Israël. En toen zij alles volbracht hadden volgens de wet des Heren, zijn zij teruggekeerd naar Galilea, naar hun woonplaats Nazareth. En het Kind groeide op, en nam toe in krachten; Het werd vervuld van wijsheid, en de genade van God rustte op Hem.",
+        "Polski": "Onego czasu: Józef i Maryja, Matka Jezusowa, dziwili się temu, co o Nim mówiono. I błogosławił im Symeon i rzekł do Maryi, Matki Jego: «Oto Ten przeznaczony jest na upadek i na powstanie wielu w Izraelu i na znak, któremu sprzeciwiać się będą. A duszę Twoją własną przeniknie miecz, by wyszły na jaw zamysły serc wielu». I była Anna, prorokini, córka Fanuela, z pokolenia Aser. Ta była już podeszła w latach, a z mężem swym żyła lat siedem od panieństwa swego. I będąc wdową do lat osiemdziesięciu czterech, nie opuszczała świątyni, służąc Bogu dniem i nocą w postach i modlitwach. Ona to, nadszedłszy tejże godziny, wielbiła Pana i mówiła o Nim wszystkim, którzy oczekiwali odkupienia Izraela. A gdy wykonali wszystko według Zakonu Pańskiego, wrócili do Galilei, do Nazaretu, miasta swego. A Dziecię rosło i umacniało się pełne mądrości, i łaska Boża była w Nim.",
+        "Portugues": "Naquele tempo, José e Maria, Mãe de Jesus, estavam admirados do que se dizia de Jesus. Simeão abençoou-os e disse a Maria, sua Mãe: «Este Menino veio ao mundo para ruína e salvação de muitos de Israel. Ele será como que um sinal de contradição. Uma espada de dor por sua causa traspassará a vossa alma, a fim de que os pensamentos de muitos homens, que estavam ocultos no íntimo do seu coração, sejam revelados». Ora, estava ali a profetiza Ana, filha de Fanuel, da tribo de Aser, que era de idade avançada (a qual vivera sete anos com seu marido, que havia desposado após a sua virgindade), sendo viúva e contando oitenta e quatro anos de idade. Ela não abandonava o templo, servindo a Deus, noite e dia, com jejuns e orações. Tendo ela chegado naquela ocasião, louvava o Senhor e falava de Jesus a todos quantos esperavam a salvação de Israel. Depois que eles cumpriram tudo o que a lei do Senhor preceituava, regressaram à cidade de Nazaré, na Galileia. Entretanto, o Menino crescia, fortalecia-se e era cheio de sabedoria: e a graça de Deus habitava n’Ele.",
+        "Ukrainian": "Того часу Йосиф і Марія, Мати Ісусова, дивувалися тому, що говорилося про нього. Симеон же благословив їх і сказав до його матері Марії: “Ось цей поставлений для падіння й підняття багатьох в Ізраїлі; він буде знаком протиріччя, та й тобі самій меч прошиє душу, щоб відкрились думки багатьох сердець.” Була також і Анна, пророчиця, дочка Фануїла з покоління Асера; вона була вельми похила віком і жила сім років з чоловіком від дівування свого; зоставшися вдовою аж до вісімдесят четвертого року, вона не відходила від храму, служачи "
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DE(h)us(fhg) e(g)nim(g.) *() fir(hg~)má(hjh___!iwj)vit(g.) (,) or(fgh!jjj_h/jjjh~)bem(hv.f!hfg) ter(g)rae,(g/jjh giHG'gf.0) (;) qui(fg) non(gh!jjjvHGjjjvHG'g/fg~) com(g)mo(ghfg)vé(g)bi(ghg___)tur :(g.) (:) pa(j)rá(ikjj'j)ta(h_g) (,) se(j_i//jjj_g/j)des(j.jjj) tu(h_g)a,(g_f) De(giH'G)us,(g.) (,) ex(f) tunc,(g_h_g_2/h_i_h._) (:) a(g) saé(g!jjj)cu(h.g!hwi_h)lo(hggf.0) (,) tu(fg'h//fg!hih/ig/hhg) es.(g.) (::)",
+      "availableTranslations": {
+        "English": "God has made the world firm, not to be moved. Your throne, O God, stands firm from of old; from everlasting You are.",
+        "Bohemice": "Bůh upevnil okrsek zemský, jenž sebou nepohne. Připraven jest trůn tvůj Bože, odedávna, od věčnosti ty jsi.",
+        "Cesky-Schaller": "Bůh upevnil okrsek zemský, jenž sebou nepohne. Připraven jest trůn tvůj Bože, odedávna, od věčnosti ty jsi.",
+        "Espanol": "Dios asentó el mundo y no vacilará. Tu trono, ¡oh Dios!, está preparada desde la eternidad; desde todos los siglos existes tú.",
+        "Francais": "Dieu a fondé le monde, il ne sera pas ébranlé. Dès lors, ô Dieu, votre trône est stable ; depuis toujours vous êtes.",
+        "Italiano": "Iddio ha consolidato la terra, che non vacillerà: il tuo trono, o Dio, è stabile fin da principio, tu sei da tutta l’eternità.",
+        "Magyar": "Isten erősítette meg a föld kerekségét, hogy ne ingadozzék: trónod Isten kezdet óta szilád: öröktől fogva vagy te.",
+        "Nederlands": "God heeft het aardrijk gegrondvest, dat niet zal wankelen. Gevestigd, o God, is van toen uw troon, van eeuwigheid zijt Gij.",
+        "Polski": "Bóg okrąg ziemi utwierdził, iż się nie poruszy. Od wieków tron Twój niewzruszony, o Boże, Ty od wieków jesteś.",
+        "Portugues": "Deus firmou de tal modo o globo terrestre, que nunca mais será destruído. Ó Deus, o vosso trono estava elevado desde a eternidade, pois Vós existis antes dos séculos.",
+        "Ukrainian": "Deus firmávit orbem terræ, qui non commovébitur: paráta sedes tua, Deus, ex tunc, a sǽculo tu es."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Concéde, quǽsumus, omnípotens Deus: ut óculis tuæ majestátis munus oblátum, et grátiam nobis piæ devotiónis obtineat, et efféctum beátæ perennitátis acquírat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, we beseech You, almighty God, that the gift offered in the sight of Your majesty may obtain for us the grace of reverent devotion and secure us eternal happiness.",
+        "Bohemice": "Popřej, prosíme, všemohoucí Bože, aby dar před očima velebnosti tvé obětovaný nám jak milost vroucí zbožnosti zjednal, tak i uskutečnění blažené věčnosti získal.",
+        "Cesky-Schaller": "Popřej, prosíme, všemohoucí Bože, aby dar před očima velebnosti tvé obětovaný nám jak milost vroucí zbožnosti zjednal, tak i uskutečnění blažené věčnosti získal.",
+        "Espanol": "Te rogamos, ¡oh Dios omnipotente!, nos concedas que el don ofrecido a la vista de tu majestad nos alcance la gracia de una piadosa devoción y nos dé la posesión de una dichosa eternidad.",
+        "Francais": "Faites, Dieu tout-puissant, que cette offrande présentée aux regards de votre majesté nous obtienne la grâce d'un vrai don de nous-mêmes, et nous acquière la bienheureuse éternité.",
+        "Italiano": "Concedi, Te ne preghiamo, o Dio onnipotente, che questa offerta, presentata alla tua maestà, ci ottenga la grazia di una fervida pietà e ci assicuri il possesso della eternità beata.",
+        "Magyar": "Engedd, kérünk, mindenható Isten, hogy ez a fölségednek bemutatott adomány megszerezze számunkra a jámbor áldozatkészség kegyelmét és az örök üdvösséget.",
+        "Nederlands": "Wij vragen U, almachtige God, laat de gave, die wij onder het oog van uw Majesteit hebben opgedragen, ons de genade verwerven van een liefdevolle toewijding en de verwezenlijking van een gelukkige eeuwigheid.",
+        "Polski": "Prosimy Cię, wszechmogący Boże, niech dar złożony przed oczyma Twego Majestatu wyjedna nam łaskę dziecięcego oddania się Tobie i pomoże do osiągnięcia szczęśliwej wieczności. ",
+        "Portugues": "Ó Deus omnipotente, Vos pedimos, permiti que as oblatas, que apresentamos ante os olhos de vossa majestade, nos alcancem a graça de uma piedosa devoção e nos assegurem a posse da eterna felicidade.",
+        "Ukrainian": "Вчини, просимо Тебе, всемогутній Боже, щоб принесений перед очі Твоєї Величності дар і благодать шанобливої побожності нам здобув, і довершеність блаженної вічності для нас отримав. "
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) TOl(ef)le(e) *() pú(fh)e(h_g)rum(hi) (,) et(i) ma(ivvHG')trem(f) e(gh)jus,(g.) (;) et(i) va(hhg)de(e) in(f!gwh) ter(h)ram(fh!ivG'Fg') Is(e)ra(efe___)el :(e.) (:) de(e)fún(fh)cti(g) sunt(h) e(ijij)nim,(hi/ji..) (;) qui(h) quae(h)ré(hj!kvJI)bant(ji__) (,) á(i)ni(h)mam(g_fhvG'Fg') pú(e)e(efe___)ri.(e.) (::)",
+      "availableTranslations": {
+        "English": "Take the Child and His mother, and go into the land of Israel, for those who sought the Child’s life are dead.",
+        "Bohemice": "Vezmi dítě i matku jeho a jdi do země israelské; neboť zemřeli, kdož hledali bezživotí dítěte.",
+        "Cesky-Schaller": "Vezmi dítě i matku jeho a jdi do země israelské; neboť zemřeli, kdož hledali bezživotí dítěte.",
+        "Espanol": "Toma el Niño y su madre y vete a tierra de Israel, porque han muerto los que buscaban la muerte del Niño.",
+        "Francais": "Prends avec toi l'Enfant et sa Mère, et pars pour le pays d'Israël ; car ils sont morts, ceux qui en voulaient à la vie de l'Enfant.",
+        "Italiano": "Prendi il bambino e sua madre, e va nella terra di Israele: quelli che volevano farlo morire sono morti.",
+        "Magyar": "Vedd a gyermeket és anyját és menj Izrael földjére, mert meghaltak, kik a gyermek életére törtek.",
+        "Nederlands": "Neem het Kind en zijn Moeder, en ga naar het land Israël, want gestorven zijn zij, die het Kind naar het leven stonden.",
+        "Polski": "Weźmij Dziecię i Matkę Jego, a idź do ziemi izraelskiej, pomarli bowiem ci, którzy czyhali na życie Dziecięcia.",
+        "Portugues": "Toma o Menino e sua Mãe, e volta para a terra de Israel, pois são mortos os que queriam atentar contra a vida do Menino.",
+        "Ukrainian": "Візьми Дитятко та Його Матір і повернись в Ізраїльську землю, бо вмерли ті, що чигали на життя Дитятка."
+      },
+      "mode": "7",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": " Per hujus, Dómine, operatiónem mystérii, et vitia nostra purgéntur, et justa desidéria compleántur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "By the working of this sacrament, O Lord, may our sins be erased and our just desires fulfilled.",
+        "Bohemice": "Pane, nechť se působením tohoto tajemství hříchy naše shladí a oprávněné tužby splní.",
+        "Cesky-Schaller": "Pane, nechť se působením tohoto tajemství hříchy naše shladí a oprávněné tužby splní.",
+        "Espanol": "¡Oh Señor!, haz que, por la virtud de este misterio, nos purifiquemos de nuestros vicios, y se cumplan nuestros justos deseos.",
+        "Francais": "Par l'action de ce sacrement, Seigneur, que nos mauvais penchants soient extirpés, nos bons désirs comblés.",
+        "Italiano": "Per l’efficacia di questo mistero, o Signore, siano distrutti i nostri vizii e compiuti i nostri giusti desiderii.",
+        "Magyar": "E misztériumnak hatása által töröld el, Urunk, vétkeinket és teljesítsd igaz óhajtásainkat.",
+        "Nederlands": "Mogen onze zonden, o Heer, door de werking van dit geheim worden uitgewist en onze rechtmatige verlangens in vervulling gaan.",
+        "Polski": "Panie, niech działanie tego Sakramentu oczyści nas ze złych skłonności i spełni nasze godziwe pragnienia.",
+        "Portugues": "Senhor, que pela virtude destes divinos mystérios sejamos purificados dos nossos vícios, e que vejamos realizados os nossos justos desejos.",
+        "Ukrainian": "Цієї Тайни звершенням, Господи, нехай і пороки наші очистяться, і праведні бажання справдяться."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

@@ -1,0 +1,813 @@
+{
+  "rule": [
+    "Gloria"
+  ],
+  "feast": "Commune Unius Martyris Pontificis",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) STá(ixdh'!iv)tu(h)it(h') *() e(h)i(h) Dó(hjjh)mi(ixihig)nus(hg..) (;) te(ixhig)sta(f)mén(fg)tum(ghF'Ef) pa(d_e_d_)cis,(d.) (:) et(d) prín(df!gh~)ci(g)pem(g) fe(ixhig)cit(f') e(fg'h)um :(h.) (;) ut(h) sit(jj) il(jk)li(h.) (,) sa(jj)cer(j)dó(j)ti(j')i(kvJ'Ij') dí(h)gni(h_i_h_)tas(h.) (;) in(de!fg//ef'h) ae(hghfgvFE)tér(d!ewfef)num.(ed..) (::) <i>T. P.</i> Al(ixhi)le(h)lú(hgh){ia},(f_d) (,) al(fg)le(efghfgvFE)lú(d!ewfef){ia}.(ed..) (::) <i>Ps.</i> Me(f)mén(gh~)to(h) Dó(hj)mi(h)ne(h) Da(hg)vid :(gh..) *(:) et(gf) o(gh)mnis(h) man(h)su(h)e(h)tú(hjh)di(g')nis(f) e(fff)jus.(d.) (::) Gló(f)ri(gh)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(hjh) o(g') u(f) a(fff) e.</eu>(d.) (::)",
+      "availableTranslations": {
+        "English": "The Lord made a covenant of friendship with him, and made him a prince; that he should possess the dignity of priesthood forever. (Alléluia, alléluia.) Remember, O Lord, David and all his meekness.",
+        "Bohemice": "Uzavřel s ním Pán smlouvu míru a knížetem jej učinil, aby mu zůstala důstojnost kněžství na věky. (Alléluia, alléluia.) Pamětliv buď, Pane, Davida a všeliké jeho zbožnosti.",
+        "Espanol": "El Señor celebró con él un pacto de paz y le constituyó príncipe para que tenga la dignidad sacerdotal por todos los siglos. (Alléluia, alléluia.) Acuérdate, Señor, de David y de su gran mansedumbre.",
+        "Francais": "Le Seigneur a fait avec lui une alliance de paix et l’a établi prince, aﬁn qu’il possède à jamais la dignité du sacerdoce. (Alléluia, alléluia.) Souvenez-vous, ô Seigneur, de David et de toute sa douceur.",
+        "Italiano": "Il Signore ha stabilito con lui un'alleanza di pace e ne ha fatto un principe: e così durerà per sempre la sua dignità sacerdotale. (Alléluia, alléluia.) Ricordati, Signore, di David e di tutta la pietà sua.",
+        "Magyar": "Vele a béke szövetségét kötötte az Úr, hogy ő lesz fejedelme, hogy őt és ivadékát illesse a főpapi méltóság mindörökre. (Allelúja, allelúja.) Emlékezzél meg, Uram, Dávidról, és minden gyötrődéséről.",
+        "Nederlands": "De Heer sloot met hem een verbond van vrede en maakte hem koning, opdat hij de priesterlijke waardigheid in eeuwigheid zou bezitten. (Alleluia, alleluia.) Blijf David gedenken, o Heer, en al zijn moeizame zorgen.",
+        "Polski": "Pan zawarł z nim przymierze pokoju i ustanowił go przełożonym, aby godność kapłańska została przy nim na wieki. (Alléluia, alléluia.) Pomnij, Panie, na Dawida i na całą jego gorliwość.",
+        "Portugues": "Deus estabeleceu com ele aliança de paz e tornou-o príncipe, para que possuísse eternamente a dignidade sacerdotal. (Alléluia, alléluia.) Lembrai-vos de David, ó Senhor, e da sua grande mansidão."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti N. Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Be mindful of our weakness, almighty God, and because the burden of our sins weighs heavily upon us, may the glorious intercession of blessed N., Your Martyr and Bishop, sustain us.",
+        "Bohemice": "Shlédni na naši slabost, všemohoucí Bože, a protože břímě našich skutků nás tíží, nechť nás chrání slavná přímluva svatého N., tvého Mučedníka a Biskupa.",
+        "Deutsch": "Siehe, o allmächtiger Gott, gnädig herab auf unsere Schwäche, und weil uns die durch eigenes Tun geschaffene Last drückt, laß deines heiligen Martyrers und Bischofs N. glorienreiche Fürsprache uns Schutz gewähren.",
+        "Espanol": "Dios todopoderoso, mira nuestra debilidad, y, pues nos agobia el peso de tantos pecados, que la intercesión gloriosa de San N., mártir y obispo, nos ayude y nos proteja.",
+        "Francais": "Dieu tout-puissant, regardez notre fai­blesse ; et parce que le poids de nos propres péchés nous accable, que la glorieuse intercession du bienheu­reux N., votre évêque et martyr, nous protège.",
+        "Italiano": "Dio onnipotente, guarda alla nostra debolezza; e poiché grava su di noi il peso dei peccati, ci protegga l'intercessione gloriosa del beato N. martire tuo e vescovo.",
+        "Magyar": "Tekintsd gyöngeségünket, mindenható Isten, és mivel a mi cselekedeteink súlyosan nehezednek reánk, Szent N. vértanúd és püspököd dicsőséges közbenjárása oltalmazzon minket.",
+        "Nederlands": "Geef acht op onze zwakheid, almachtige God, en laat de glorievolle voorspraak van uw heilige martelaar en bisschop N. ons beschermen, daar de last van eigen daden zwaar op ons drukt.",
+        "Polski": "Wszechmogący Boże, wejrzyj na słabość naszą, a skoro nas obciąża brzemię własnej działalności, niech nas osłania dostojne wstawiennictwo świętego N., Twojego Męczennika i Biskupa.",
+        "Portugues": "Olhai para a nossa fraqueza, ó Deus omnipotente; e, visto que estamos oprimidos sob o peso dos nossos pecados, fazei que nos proteja a gloriosa intercessão do B. N., vosso Pontífice e Mártir."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Caríssimi: Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ, quam repromísit Deus diligéntibus se. Nemo, cum tentátur, dicat, quóniam a Deo tentátur: Deus enim intentátor malórum est: ipse autem néminem tentat. Unusquísque vero tentátur a concupiscéntia sua abstráctus et illéctus. Deinde Concupiscéntia cum concéperit, parit peccátum: peccátum vero cum consummátum fúerit, génerat mortem. Nolíte itaque erráre, fratres mei dilectíssimi. Omne datum óptimum et omne donum perféctum desúrsum est, descéndens a Patre lúminum, apud quem non est transmutátio nec vicissitúdinis obumbrátio. Voluntárie enim génuit nos verbo veritátis, ut simus inítium aliquod creatúræ ejus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Beloved: Blessed is the man who endures temptation; for when he has been tried, he will receive the crown of life which God has promised to those who love Him. Let no man shay when he is tempted that he is tempted by God; for God is no tempter to evil, and He Himself tempts no one. But everyone is tempted by being drawn away and enticed by his own passion. Then when passion has conceived, it brings forth sin; but when sin has matured, it begets death. Therefore, my beloved brethren, do not err. Every good gift and every perfect gift is from above, coming down from the Father of Lights, with Whom there is no change, nor shadow of alteration. Of His own will He has begotten us by the word of truth, that we might be, as it were, the first-fruits of His creatures.",
+        "Bohemice": "Nejmilejší, blahoslavený člověk, jenž vytrvá v pokušení, neboť když bude zkušen, obdrží korunu života, kterou Bůh zaslíbil těm, kteří ho miluji. Nikdo jsa pokoušen neříkej: „Od Boha jsem pokoušen,“ neboť Bůh nemůže býti pokoušen ke zlému, sám pak nepokouší nikoho. Ale každý bývá pokoušen jsa lákán a vnaděn od své vlastní žádosti; potom žádosti počavši, rodí hřích; hřích pak byv dokonán, plodí smrt. Nemylte se tedy, milovaní bratři moji; všecko dání dobré a každý dar dokonalý jest shůry, sestupuje od Otce světel, u něhož není proměny ani z obratu zastínění. Dobrovolně zajisté zplodil nás slovem pravdy, abychom byli jakousi prvotinou tvorstva jeho.",
+        "Francais": "Mes bien-aimés, heureux l’homme qui supporte l’épreuve ; car, après avoir été éprouvé, il recevra la couronne de vie que Dieu a promise à ceux qui l’aiment. Que personne, lorsqu’il est tenté, ne dise : c’est Dieu qui me tente. Car Dieu ne tente point pour le mal, et lui-même ne tente personne. Mais chacun est tenté par sa propre convoitise, qui le sol­licite et l’entraîne. Ensuite la convoitise, lorsqu’elle a conçu, enfante le péché ; et le péché, lorsqu’il est con­sommé, produit la mort. Ne vous y trompez pas, mes frères bien-aimés. Toute grâce excellente et tout don parfait descend d’en haut, du Père des lumières, en qui n’existe aucune vicissitude ni ombre de changement. Volontairement, il nous a engendrés par la parole de vérité, aﬁn que nous soyons comme les prémices de ses créatures.",
+        "Italiano": "Carissimi: Beato l’uomo che soffre tentazioni, perché, quando sarà stato provato, riceverà la corona di vita, che Dio ha promesso a coloro che lo amano. Nessuno, quando è tentato, dica di essere tentato da Dio, perché Dio non può tentare a fare il male, anzi Egli non tenta nessuno; ma ciascuno è tentato, attratto, adescato dalla propria concupiscenza. La concupiscenza poi, quando ha concepito, partorisce il peccato, e il peccato, consumato che sia, genera la morte. Non vogliate dunque illudervi da voi stessi fratelli miei dilettissimi: ogni ottima cosa ricevuta, ogni dono perfetto viene dall'alto e scende dal Padre dei lumi, nel quale non v'è variazione, né ombra di mutamento. Egli ci ha di sua volontà generati colla parola di verità, affinché fossimo come le primizie delle sue creature.",
+        "Magyar": "Boldog az az ember, aki a kísértésben helytáll, mert miután kiállja a próbát, megkapja az élet koszorúját, amelyet az Úr azoknak ígért, akik őt szeretik. Senki se mondja, aki kísértést szenved: „Az Isten kísért”, mert az Istent nem lehet rosszra csábítani, és ő sem csábít rosszra senkit. Minden embert a saját kívánsága vonzza és csábítja, így esik tőrbe. Aztán a kívánság, ha már megfogant, bűnt szül, a bűn meg, ha elkövetik, halált szül. Ne legyetek hát tévedésben, szeretett testvéreim. Minden jó adomány és minden tökéletes ajándék felülről van, a világosság Atyjától száll alá, akiben nincs változás, még árnyéka sem a változásnak. Akarattal hívott minket életre az igazság szavával, hogy mintegy zsengéje legyünk teremtményeinek.",
+        "Nederlands": "Veelgeliefden, zalig de man, die standhoudt in de bekoring; want als hij de proef heeft doorstaan zal hij de kroon des levens ontvangen, die God beloofd heeft aan die Hem liefhebben. Wanneer iemand in bekoring komt, moet hij niet zeggen, dat die bekoring komt van God; want God bekoort niet tot het kwaad; Hij toch bekoort niemand. Maar ieder wordt door zijn eigen begeerlijkheid aangelokt en meegetrokken. Als dan de begeerlijkheid bevrucht is, brengt zij de zonde voort; en als de zonde is voltrokken, brengt zij de dood. Wilt derhalve u zelf niet bedriegen, mijn veelgeliefde broeders. Iedere goede gave en iedere volmaakte gift komt van boven, afdalend van de Vader van het licht, bij wie er geen verandering is of verduistering door onbestendigheid. Want uit vrije wil heeft Hij ons het leven geschonken door de prediking van de waarheid, opdat wij in zeker opzicht eerstelingen zouden zijn onder zijn schepselen.",
+        "Polski": "Najmilsi: Błogosławiony człowiek, który zniesie pokusę, bo utwierdziwszy się otrzyma wieniec żywota, który obiecał Bóg tym, co Go miłują. Niech nikt, doznając pokusy, nie mówi, że przez Boga jest kuszony, albowiem Bóg nie podlega pokusie do złego i sam nikogo nie kusi. Lecz każdego kusi pociąg i przynęta pożądliwości. A dopiero potem, gdy pożądliwość owoc wydaje, rodzi grzech, a grzech dokonany rodzi śmierć. Nie błądźcie przeto, bracia moi najmilsi. Wszelki dar dobry i każda wzniosła łaska z wysoka pochodzi, zstępuje od Ojca światłości, u którego nie masz odmiany ani cienia zmienności. Bo z własnej woli zrodził nas słowem prawdy, abyśmy byli niejako początkiem stworzenia Jego.",
+        "Portugues": "Caríssimos: bem-aventurado o varão que sofre a tentação, porque, quando acabar a provação, receberá a coroa da vida, que o Senhor prometeu aos que O amam. Ninguém, quando for tentado, diga que é Deus quem o tenta, pois Deus não é tentador que arraste para o mal, nem tenta ninguém. Porém, cada um é tentado pela sua própria concupiscência, que o atrai e solicita; e depois, quando a concupiscência já concebeu, gera o pecado, e o pecado, logo que é consumado, gera a morte. Não vos enganeis, pois, irmãos dilectíssimos. Todo o dom excelente e todo o dom perfeito vêm do alto e derivam do Pai das luzes, em quem não há mudanças, nem sombra de alteração; pois foi Ele quem por sua espontânea vontade nos gerou pela palavra da verdade, a fim de que fôssemos como primícias das suas criaturas."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) IN(d_c~)vé(d_eD'Cde)ni(d.) *(,) Da(ff)vid(f_g) ser(ghggf~)vum(fg) me(dfe/f.d!ew!fvE'DC)um,(ddc.) (:) ó(f!gwhgh')le(jhhg)o(g_h) san(hjh/jjj)cto(ih..) (;) un(gh)xi(fg) e(fvED)um :(d.0/ef'!gvF'ED.fgf'gvF'ED.) (:) ma(c_)nus(d) e(dhhgh)nim(jh/jjjvIH'jggf.0) (`) me(hfhGF//h_f/gh!iw!jvIH)a(h_i_h._) (;) au(hk)xi(j)li(ij)á(h!iwj)bi(g)tur(fgF'E) (,) e(ggfg'jvH'GFg_f)i,(f.) (:) et(f) brá(ixfh!ivHG)chi(hg)um(g.) me(ghF'Efg!hvhg)um(g.) (;) con(gh)for(h_g~)tá(h)bit(g_f) e(g_dfv.ff!gwh)um.(h_g//ef'!gvF'ED'ewfd.1) (::) <sp>V/</sp>. Ni(dh)hil(h) pro(g)fí(gh/jhi)ci(gv.fh!jvHG'h)et(h./jjh/jjgjvvh_i_h._) (;) in(h)i(h)mí(jh/jjh/jj)cus(kjjvIH'jggf.0) (;) in(fh) e(j_0kvJH'jvGF'//hghhghv.)(,)(k_lJ'IH)o,(ixhihih'ivHG'gfg.) (:) et(fh) fí(h!jj/k_j/k_jkvJH')li(h)us(h.) (`) in(h)i(f')qui(h)tá(jv.ijh.1fh!jjh.)(,)(ixfg!ivHG.ef!hvGF'Dfv.)(,)(e!gwhgh)tis(ixhf/higff/ded.) (:) non(dfED'fvED.//de!fg/hjIH'hgh.) (,) (ixfh!ivGF'E/!/!fg!hvhgh) no(g)cé(g)bit(gh) <clear>*(,) e(ixjhiGF'h!jjvH'G)i.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
+      "availableTranslations": {
+        "English": "I have found David, My servant, with My holy oil I have anointed him, that My hand may be always with him, and that My arm may make him strong. No enemy shall deceive him, nor shall the wicked afflict him.",
+        "Bohemice": "Vyvolil jsem Davida, služebníka svého; svatým olejem svým pomazal jsem jej. Proto ruka má mu bude pomáhati; rámě mé jej posílí. Nic nepořídí nepřítel proti němu, syn nepravosti neuškodí jemu. Aleluja, aleluja. Ty jsi knězem na věky, podle řádu Melchisedechova. Aleluja.",
+        "Espanol": "He hallado a David, mi siervo, lo he ungido con mi oleo santo, mi mano le protegerá y le fortalecerá mi brazo. No le podrá sorprender el enemigo, ni el hombre perverso le podrá oprimir. Aleluya, aleluya. El Señor lo ha jurado y no le pesará: Tu eres sacerdote para siempre a la manera de Melquisedec. Aleluya, aleluya",
+        "Francais": "J’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force. L’ennemi n’aura jamais l’avantage sur lui, et le ﬁls de l’iniquité ne pourra lui nuire. Tu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+        "Italiano": "Ho trovato Davide, mio servo; l'ho unto col mio sacro olio; sicché sia sempre con lui la mia mano, e il mio braccio gli dia forza. Il nemico non lo soverchierà, né il figlio dell'iniquità gli potrà nuocere.",
+        "Magyar": "Megtaláltam Dávidot, a szolgámat, felkentem őt szent olajommal, és kezem lesz a segítsége, karom az ő erőssége. Semmit sem tehet vele az ellenség, és nem árthat majd neki a gonoszság fia.  Allelúja, allelúja",
+        "Nederlands": "Ik heb David gevonden, mijn dienstknecht, met mijn heilige olie hem gezalfd. Mijn hand zal hem bijstaan, mijn arm hem sterken. De vijand zal niets tegen hem vermogen, de zoon der boosheid zal hem niet schaden. Alleluia, alleluia.",
+        "Polski": "Znalazłem Dawida, mojego sługę, namaściłem go świętym olejem moim, by ręka moja zawsze z nim była i ramię moje go umacniało. Nic nie zyska w nim nieprzyjaciel, a duch nieprawości mu nie zaszkodzi. Alleluja, alleluja. Tyś kapłanem na wieki na wzór Melchizedeka. Alleluja.",
+        "Portugues": "Encontrei o meu servo David e ungi-o com meu óleo sagrado; a minha mão o auxiliará e o meu braço o fortificará. O inimigo nada poderá contra ele e o filho da iniquidade nenhum mal lhe fará. Aleluia, aleluia. Tu és sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(cd~)le(de/ge/feed)lú(eg//fhgefdc!ee){ia}.(d.) <clear>*(;) <i>ij.</i>(ixhh/gihghggvF'ED.) (,) (cd/ede//g_hfefg.) (,) (hvGF'EdfED.c!efd.1) (::) <sp>V/</sp>. Ju(dh)rá(ixh_g/hiHG'h)vit(f_e) Dó(ef!gvFE)mi(de)nus,(e.) (;) et(eg!hv_GF) non(edd) pae(c)ni(ef/gf)té(ed)bit(cd) e(deed)um :(d.) (:) Tu(cd) es(d) sa(ef!gh)cér(egFE'ed~)dos(d.) (,) in(hhghvGF'gvF'ED.) ae(ef!gh)tér(egFE'ed~)num,(d.) (;) se(dede)cún(c)dum(e) ór(ixgh/igh./egF'ED.)(,)(ixce!gh/igh./egF'ED'dc~)di(c!ef)nem(ed..) (;) *() Mel(cd)chí(de/ge/feed)se(eg//fhgefdc!ee)dech.(d.) (;) (ixhh/gihghggvF'ED.) (,) (cd/ede//g_hfefg.) (,) (hvGF'EdfED.c!efd.1) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. You are a priest forever, according to the order of Melchisedec. Alleluia.",
+        "Italiano": "Allelúja, allelúja. Il Signore ha giurato e non si ricrederà: Tu sei sacerdote per sempre, secondo l’ordine di Melchisedech. Alleluia.",
+        "Magyar": "Allelúja, allelúja. Pap vagy te mindörökké, Melkizedek rendje szerint. Allelúja.",
+        "Nederlands": "Allelúja, allelúja. Gij zijt priester voor eeuwig naar de wijze van Melchisedech. Alleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) IN(d_c~)vé(d_eD'Cde)ni(d.) *(,) Da(ff)vid(f_g) ser(ghggf~)vum(fg) me(dfe/f.d!ew!fvE'DC)um,(ddc.) (:) ó(f!gwhgh')le(jhhg)o(g_h) san(hjh/jjj)cto(ih..) (;) un(gh)xi(fg) e(fvED)um :(d.0/ef'!gvF'ED.fgf'gvF'ED.) (:) ma(c_)nus(d) e(dhhgh)nim(jh/jjjvIH'jggf.0) (`) me(hfhGF//h_f/gh!iw!jvIH)a(h_i_h._) (;) au(hk)xi(j)li(ij)á(h!iwj)bi(g)tur(fgF'E) (,) e(ggfg'jvH'GFg_f)i,(f.) (:) et(f) brá(ixfh!ivHG)chi(hg)um(g.) me(ghF'Efg!hvhg)um(g.) (;) con(gh)for(h_g~)tá(h)bit(g_f) e(g_dfv.ff!gwh)um.(h_g//ef'!gvF'ED'ewfd.1) (::) <sp>V/</sp>. Ni(dh)hil(h) pro(g)fí(gh/jhi)ci(gv.fh!jvHG'h)et(h./jjh/jjgjvvh_i_h._) (;) in(h)i(h)mí(jh/jjh/jj)cus(kjjvIH'jggf.0) (;) in(fh) e(j_0kvJH'jvGF'//hghhghv.)(,)(k_lJ'IH)o,(ixhihih'ivHG'gfg.) (:) et(fh) fí(h!jj/k_j/k_jkvJH')li(h)us(h.) (`) in(h)i(f')qui(h)tá(jv.ijh.1fh!jjh.)(,)(ixfg!ivHG.ef!hvGF'Dfv.)(,)(e!gwhgh)tis(ixhf/higff/ded.) (:) non(dfED'fvED.//de!fg/hjIH'hgh.) (,) (ixfh!ivGF'E/!/!fg!hvhgh) no(g)cé(g)bit(gh) <clear>*(,) e(ixjhiGF'h!jjvH'G)i.(hghF'Efg..) (,) (d!ewf!gv.fhGF'ED'ewfd.1) (::)",
+      "availableTranslations": {
+        "English": "I have found David, My servant, with My holy oil I have anointed him, that My hand may be always with him, and that My arm may make him strong. No enemy shall deceive him, nor shall the wicked afflict him.",
+        "Bohemice": "Vyvolil jsem Davida, služebníka svého; svatým olejem svým pomazal jsem jej. Proto ruka má mu bude pomáhati; rámě mé jej posílí. Nic nepořídí nepřítel proti němu, syn nepravosti neuškodí jemu. Aleluja, aleluja. Ty jsi knězem na věky, podle řádu Melchisedechova. Aleluja.",
+        "Espanol": "He hallado a David, mi siervo, lo he ungido con mi oleo santo, mi mano le protegerá y le fortalecerá mi brazo. No le podrá sorprender el enemigo, ni el hombre perverso le podrá oprimir. Aleluya, aleluya. El Señor lo ha jurado y no le pesará: Tu eres sacerdote para siempre a la manera de Melquisedec. Aleluya, aleluya",
+        "Francais": "J’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force. L’ennemi n’aura jamais l’avantage sur lui, et le ﬁls de l’iniquité ne pourra lui nuire. Tu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.",
+        "Italiano": "Ho trovato Davide, mio servo; l'ho unto col mio sacro olio; sicché sia sempre con lui la mia mano, e il mio braccio gli dia forza. Il nemico non lo soverchierà, né il figlio dell'iniquità gli potrà nuocere.",
+        "Magyar": "Megtaláltam Dávidot, a szolgámat, felkentem őt szent olajommal, és kezem lesz a segítsége, karom az ő erőssége. Semmit sem tehet vele az ellenség, és nem árthat majd neki a gonoszság fia.  Allelúja, allelúja",
+        "Nederlands": "Ik heb David gevonden, mijn dienstknecht, met mijn heilige olie hem gezalfd. Mijn hand zal hem bijstaan, mijn arm hem sterken. De vijand zal niets tegen hem vermogen, de zoon der boosheid zal hem niet schaden. Alleluia, alleluia.",
+        "Polski": "Znalazłem Dawida, mojego sługę, namaściłem go świętym olejem moim, by ręka moja zawsze z nim była i ramię moje go umacniało. Nic nie zyska w nim nieprzyjaciel, a duch nieprawości mu nie zaszkodzi. Alleluja, alleluja. Tyś kapłanem na wieki na wzór Melchizedeka. Alleluja.",
+        "Portugues": "Encontrei o meu servo David e ungi-o com meu óleo sagrado; a minha mão o auxiliará e o meu braço o fortificará. O inimigo nada poderá contra ele e o filho da iniquidade nenhum mal lhe fará. Aleluia, aleluia. Tu és sacerdote para sempre, segundo a ordem de Melquisedeque. Aleluia."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) DE(f)si(f)dé(fg!hvhg)ri(hggf)um(fg!hvhghvGFgf..) <clear>*(;) á(gjjk)ni(h)mae(hg/hf/h!jhj) e(jvIH'iw!jvI'HG'h)jus(hg..) (;) tri(ghg)bu(fg)í(jj)sti(hji') e(j)i :(jjjkhhg/hg/jjh/jggf.0) (:) et(f) vo(f)lun(f)tá(hj)te(igh) la(gf/gh)bi(g)ó(g)rum(gh/jij) (`) e(j.h!iwj)jus(jjjvIHivHGhg..) (;) non(h_g/h!iwj) frau(g_f~)dá(g)sti(h) (`) e(j./kjjg//j./kjj'jj/kjjh)(,)(ji/jjvI'G//hjh'jvHF.1)(,)(gh!jvvI'G//hjHF'g)um.(g/hhg.) (::) \r\n<sp>V/</sp>. Quó(g)ni(g)am(g_d) prae(g)ve(hih)ní(jjji)sti(g) e(h_g/h!iw!jvIHijh)um(hg..) (:) in(g) be(ghg)ne(fg)di(jj)cti(hji')ó(j)ne(jkjj'j/kjjh) (,) (ji/jjvI'G//hjh'jvHF.g.h!iwjjv) (;) dul(jk~)cé(jv.ikjjv'1jvIG'h//jjhjvHG)di(fg)nis.(g/hhg.) (::) \r\n<sp>V/</sp>. Po(g)su(g)í(gh'j)sti(jjjvIH') su(jhhg)per(g_h) ca(h/jjh)put(gf) e(ghg~)jus(h_g) (,) (ixi_hivGF.g/hg/hg/hg/jjh/jggf.0) (:) co(gh/jij)ró(j.h!iwj)nam(jjjvIHivHGhg..) (;) de(g) lá(h_g/h!iwj)pi(ghG'F)de(f.) (,) *() pre(f!h'j)ti(j)ó(i_0/jhhg/hggfg.)(,)(jjjkvJ'IH'hg)so.(ghGF.) (,) (h!iwjijjh/ihhg.) (::)",
+      "availableTranslations": {
+        "English": "I have found David, My servant, with My holy oil I have anointed him, that My hand may be always with him, and that My arm may make him strong. No enemy shall deceive him, nor shall the wicked afflict him. Alleluia, alleluia. You have granted him his heart's desire; You refused not the wish of his lips. For You welcomed him with goodly blessings. You placed on his head a crown of pure gold.",
+        "Bohemice": "Vyvolil jsem Davida, služebníka svého; svatým olejem svým pomazal jsem jej. Proto ruka má mu bude pomáhati; rámě mé jej posílí. Nic nepořídí nepřítel proti němu, syn nepravosti neuškodí jemu. Touhu duše jeho jsi vyplnil a přání rtů jeho jsi mu neodepřel. Předešel jsi jej sladkým požehnáním. Vstavil jsi na hlavu jeho korunu z drahého kamení.",
+        "Francais": "J’ai trouvé David, mon serviteur ; j’ai répandu sur lui mon huile sainte. Ma main sera son appui, et mon bras sa force. L’ennemi n’aura jamais l’avantage sur lui, et le ﬁls de l’iniquité ne pourra lui nuire. Vous lui avez ac­cordé ce que son cœur dési­rait ; vous ne lui avez point refusé ce que demandaient ses lèvres. V. Car vous l’avez prévenu de bénédictions de choix. V. Vous avez posé sur sa tête une couronne de pierres précieuses.",
+        "Italiano": "Il desiderio del suo cuore hai colmato e la preghiera delle sue labbra non gli hai negata. Poiché lo hai preceduto con le più liete benedizioni. In capo gli hai posto una corona di pietre preziose.",
+        "Magyar": "Megtaláltam Dávidot, a szolgámat, felkentem őt szent olajommal, és kezem lesz a segítsége, karom az ő erőssége. Semmit sem tehet vele az ellenség, és nem árthat majd neki a gonoszság fia.  Teljesítetted szívének kívánságát, nem tagadtad meg tőle ajkának óhajtását. Sőt eléje siettél boldogító áldással. Fejére drágakőből koronát helyeztél.",
+        "Nederlands": "Ik heb David gevonden, mijn dienstknecht, met mijn heilige olie hem gezalfd. Mijn hand zal hem bijstaan, mijn arm hem sterken. De vijand zal niets tegen hem vermogen, de zoon der boosheid zal hem niet schaden. Zijn hartewens hebt Gij verhoord, de bede van zijn lippen niet afgewezen. Want Gij hebt hem voorkomen met milde zegen. Hem een kroon van edelgesteente op het hoofd geplaatst.",
+        "Polski": "Znalazłem Dawida, mojego sługę, namaściłem go świętym olejem moim, by ręka moja zawsze z nim była i ramię moje go umacniało. Nic nie zyska w nim nieprzyjaciel, a duch nieprawości mu nie zaszkodzi. Spełniłeś pragnienie jego serca, prośbie ust jego nie odmówiłeś. Uprzedziłeś go hojnym błogosławieństwem. Włożyłeś mu na głowę koronę z drogich kamieni.",
+        "Portugues": "Encontrei o meu servo David e ungi-o com meu óleo sagrado; a minha mão o auxiliará e o meu braço o fortificará. O inimigo nada poderá contra ele e o filho da iniquidade nenhum mal lhe fará. Concedestes-lhe o desejo da sua alma: lhe não negastes o que seus lábios Vos pediram. Premuniste-lo com bênçãos de doçura. Impusestes na sua cabeça uma coroa de pedras preciosas."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Dixit Jesus turbis: Si quis venit ad me, et non odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres, adhuc autem et ánimam suam, non potest meus esse discípulus. Et qui non bájulat crucem suam, et venit post me, non potest meus esse discípulus. Quis enim ex vobis volens turrim ædificáre, non prius sedens cómputat sumptus, qui necessárii sunt, si hábeat ad perficiéndum; ne, posteáquam posúerit fundaméntum, et non potúerit perfícere, omnes, qui vident, incípiant illúdere ei, dicéntes: Quia hic homo cœpit ædificáre, et non pótuit consummáre? Aut quis rex itúrus commíttere bellum advérsus álium regem, non sedens prius cógitat, si possit cum decem mílibus occúrrere ei, qui cum vigínti mílibus venit ad se? Alióquin, adhuc illo longe agénte, legatiónem mittens, rogat ea, quæ pacis sunt. Sic ergo omnis ex vobis, qui non renúntiat ómnibus, quæ póssidet, non potest meus esse discípulus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus said to the crowds, If anyone comes to Me and does not hate his father and mother, and wife and children, and brothers and sisters, yes, and even his own life, he cannot be My disciple. And he who does not carry his cross and follow Me, cannot be My disciple. For which of you, wishing to build a tower, does not sit down first and calculate the outlays that are necessary, whether he has the means to complete it? Lest, after he has laid the foundation and is not able to finish, all who behold begin to mock him, saying, ‘This man began to build and was not able to finish!’ Or what king setting out to engage in battle with another king, does not sit down first and consider whether he is able with ten thousand men to meet him who with twenty thousand is coming against him? Or else, whilst the other is yet at a distance, he sends a delegation and asks the terms of peace. So, therefore, every one of you who does not renounce all that he possesses, cannot be My disciple.",
+        "Bohemice": "Za onoho času řekl Ježíš k zástupům: „jde-li kdo ke mně a nemá v nenávisti otce svého a matky své i manželky a dítek a bratrův i sester svých, ano i života svého, nemůže býti mým učedníkem. A kdo nenese kříže svého a nejde za mnou, nemůže býti mým učedníkem. Neboť kdo z vás chtěje vystavěti věž, nesedne dříve a nepočítá potřebného nákladu, má-li dosti, aby dostavěl, by snad, kdyby položil základ a nemohl dokončiti, všickni ti, kteří by to viděli, nepočali se mu posmívati řkouce: ,Tento člověk počal stavěti a nemohl dokončiti.‘ Aneb, který král chtěje počíti válku proti jinému králi, nesedne dříve a nepřemýšlí, je-li sto, aby s desíti tisíci utkal se s tim, jenž s dvaceti tisíci táhne na něho? Sic jinak, pokud tento ještě opodál jest, odešle poselství a žádá za jednání o mír. Tak tedy každý z vás, jenž neodříká se všeho co má, nemůže býti mým učedníkem.“",
+        "Francais": "En ce temps-là, Jésus dit à la foule : « Si quelqu’un vient à moi, et ne hait pas son père, sa mère, sa femme, ses enfants, ses frères et ses sœurs, et même sa propre vie, il ne peut être mon dis­ciple. Et quiconque ne porte pas sa croix et ne me suit pas ne peut être mon disciple. « Car lequel d’entre vous, s’il veut bâtir une tour, ne s’as­sied d’abord pour calculer la dépense nécessaire et voir s’il a de quoi l’achever, de peur qu’a­près avoir posé les fonde­ments il ne puisse la termi­ner, et que tous ceux qui la verront ne se mettent à le railler, disant : “Cet homme a commencé à bâtir, et il n’a pu achever” ? Ou quel roi, s’il va faire la guerre à un autre roi, ne s’assied d’abord pour examiner s’il peut, avec dix mille hommes, faire face à un ennemi qui vient à lui avec vingt mille ? S’il ne le peut, tandis que celui-ci est encore loin, il lui envoie une ambassade pour deman­der la paix.",
+        "Italiano": "In quel tempo disse Gesù alle turbe: «Se uno viene a me senza disamare suo padre e sua madre, moglie e figli, fratelli e sorelle, e perfino la sua vita, non può essere mio discepolo. E chi non porta la sua croce e mi segue non può essere mio discepolo. Infatti chi di voi, volendo fabbricare una torre, non calcola prima attentamente la spesa necessaria, e se ha da finirla; onde non avvenga che, gettate le fondamenta, non potendo terminarla, tutti quelli che stanno a vedere comincino a farsi beffe di lui, dicendo: “Costui ha incominciato a fabbricare e non ha potuto finire?”. Oppure qual re, prima di muovere guerra ad un altro re, non esamina prima con calma se con diecimila possa affrontare l'altro che gli viene contro con ventimila? Altrimenti, mentre l'altro è ancora lontano, gli manda un'ambasciata a chiedere di fare la pace. Cosi pertanto chi di voi non rinuncia a tutto quello che possiede, non può essere mio discepolo».",
+        "Magyar": "Ha valaki követni akar, de nem gyűlöli apját, anyját, feleségét, gyermekeit, fivéreit és nővéreit, sőt még saját magát is, nem lehet a tanítványom. Aki nem veszi fel keresztjét és nem követ, nem lehet a tanítványom. Aki tornyot akar építeni, nem ül-e le előbb, hogy kiszámítsa a költségeket, vajon futja-e pénzéből, hogy fel is építse? Nehogy azután, hogy az alapokat lerakta, de befejezni nem tudta, mindenki, aki csak látja, kicsúfolja: Ez az ember építkezésbe fogott, de nem tudta befejezni. Vagy melyik király nem ül le, mielőtt hadba vonulna egy másik király ellen, számot vetni, vajon a maga tízezernyi katonájával szembe tud-e szállni azzal, aki húszezerrel jön ellene? Mert ha nem, követséget küld hozzá még akkor, amikor messze van, és békét kér. Így hát aki közületek nem mond le mindenéről, amije csak van, nem lehet a tanítványom.",
+        "Nederlands": "In die tijd sprak Jezus tot het volk: Indien iemand tot Mij komt en niet zijn vader haat en zijn moeder, zijn vrouw en zijn kinderen, zijn broeders en zijn zusters, ja zelfs zijn eigen leven, dan kan hij mijn leerling niet zijn. En wie niet zijn kruis draagt en Mij volgt, hij kan mijn leerling niet zijn. Want wie onder u, die een toren wil bouwen, gaat niet eerst de nodige kosten berekenen, of hij wel genoeg heeft om het te voltooien; want als hij het fundament heeft gelegd en niet zou kunnen afbouwen, dan zouden allen, die het zien, hem uitlachen en zeggen: Die man is met bouwen begonnen, maar hij kan het niet voltooien. Of welke koning, die een andere koning wil gaan beoorlogen, gaat niet eerst bij zichzelf overleggen, of hij met tienduizend man slag kan leveren tegen de ander, die met twintigduizend man tegen hem optrekt. Anders zendt hij, terwijl de ander nog ver weg is, een gezantschap om over vrede te onderhandelen. Evenzo kan ook niemand van u mijn leerling zijn, als hij geen afstand doet van alles, wat hij bezit.",
+        "Polski": "Onego czasu: Mówił Jezus do rzesz: «Jeśli kto przychodzi do mnie, a nie ma w nienawiści ojca swego i matki, żony, dzieci, braci i sióstr, a nadto i życia swego, nie może być uczniem moim. A kto nie dźwiga krzyża swego i nie idzie za mną, nie może być uczniem moim. Któż bowiem z was, zamierzając zbudować wieżę, nie zasiada pierwej i nie oblicza koniecznych wydatków, czy ma na to, aby ją wykończyć. Aby wszyscy patrzący nie poczęli się z niego śmiać, gdyby założył fundament, a nie zdołał wykończyć, i aby nie mówili: Oto ten człowiek począł budować, a nie mógł wykończyć. Albo któryż to król, mając stoczyć wojnę przeciw drugiemu królowi, nie zasiada pierwej i nie obmyśla czy mógłby z dziesięciu tysiącami wyjść naprzeciw temu, który idzie przeciwko niemu w dwadzieścia tysięcy? Jeśli zaś nie może, wysyła poselstwo i prosi o pokój wtedy, gdy tamten jeszcze daleko. Tak więc każdy z was, który nie wyrzeka się wszystkiego, co ma, nie może być uczniem moim».",
+        "Portugues": "Naquele tempo, disse Jesus às turbas: «Se alguém vem a mim e não despreza seu pai, sua mãe, sua mulher e filhos, seus irmãos e irmãs e até mesmo a sua própria vida, não pode ser meu discípulo. E todo aquele que não leva a sua cruz não pode ser meu discípulo. Com efeito, qual é de vós que, querendo edificar uma torre, não calcula primeiramente com cuidado os gastos necessários, para ver se possui meios para a acabar? Pois poderá acontecer que, depois de haver lançado os alicerces e não podendo acabar a torre, comecem a zombar dele aqueles que o vêem, dizendo: «Este homem começou a edificar e não pôde acabar!». Ou qual é o rei que, preparando-se para pelejar com outro rei, não considera primeiramente se com um exército de dez mil homens poderá fazer frente ao inimigo, que avança contra ele com vinte mil homens? Se vê que não pode combater, estando ainda o outro longe, manda-lhe uma embaixada a pedir-lhe a paz. Assim, pois, todo aquele de vós que não renunciar a tudo quanto possui não pode ser meu discípulo»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f4) VE(hh)ri(hiH'G)tas(ggh~) me(h!jjh/jjhgih)a,(h.) *(;) et(h!jjj) mi(h)se(g)ri(h)cór(h!iwj/kj)di(j)a(jkjji) me(h!iwj)a(jkjji) (,) cum(hg) i(h!iw!jvIH'i)pso :(hg..) (:) et(h) in(jhj') nó(j)mi(kvJH)ne(j_i) me(jijg)o(e!geg.) (;) ex(d)al(e)tá(gh)bi(hg)tur(h') cor(j)nu(jkjji) e(h!iwjij)jus.(ih..) (::) <i>T. P.</i> Al(hi)le(g!jjjjkJ//G'//h!jjj_h/jkjk)lú(h_i_h_){ia}.(h.) (::)",
+      "availableTranslations": {
+        "English": "My faithfulness and My kindness shall be with him, and through My name shall his horn be exalted. (Alleluia.)",
+        "Bohemice": "Věrnost má a milosrdenství moje bude s ním a ve jménu mém zvelebí se moc jeho. (Alleluia.)",
+        "Espanol": "Mi lealtad y mi gracia son con el justo; y en mi nombre se hará grande su poderío. (Alleluia.)",
+        "Francais": "Ma vérité et ma miséricorde seront avec lui, et par mon nom grandira sa puissance. (Alléluia.)",
+        "Italiano": "Con lui staranno la mia fedeltà e il mio amore, e s'innalzerà nel mio Nome la sua forza. (Alleluia.)",
+        "Magyar": "Vele lesz hűségem és kegyelmem, és felemelkedik a szarva nevemben. (Allelúja.)",
+        "Nederlands": "Mijn trouw en barmhartigheid zullen met hem zijn, en in mijn Naam zal zijn hoorn zich verheffen. (Alleluia.)",
+        "Polski": "Z nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
+        "Portugues": "A minha fidelidade e a minha misericórdia estarão com ele: e o seu poder elevar-se-á pelo meu nome. (Alleluia.)"
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O Lord, graciously accept, through the merits of Your blessed Martyr and Bishop N., the sacrificial gifts dedicated to You, and grant they may prove to be for us a lasting help.",
+        "Bohemice": "Oběti tobě, Pane, posvěcené zásluhami svatého N., mučedníka tvého a biskupa, dobrotivě přijmi a dej, aby se nám ustavičnou staly pomocí.",
+        "Francais": "Dans votre bienveillance, Seigneur, acceptez les hosties qui vous sont dédiées par les mérites du bienheureux N., votre évêque et martyr, et faites qu’elles nous viennent continuellement en aide.",
+        "Italiano": "Accetta, o Signore, per la tua bontà queste offerte, che ti presentiamo in onore dei meriti del beato N. martire tuo e vescovo; e fa' che esse ci meritino una continua protezione.",
+        "Magyar": "A Szent N. vértanúd és püspököd érdemeiért neked hozott adományokat fogadd el, Urunk, jóságosan és add, hogy örök segítségünkre legyenek.",
+        "Nederlands": "Aanvaard goedgunstig, o Heer, de offers, die wij U wijden met de verdiensten van uw heilige martelaar en bisschop N., en laat ze ons blijvend een steun zijn.",
+        "Polski": "Panie, przyjmij łaskawie przez zasługi świętego N., Męczennika i Biskupa ofiarę, którą Ci składamy, i spraw, aby się stała dla nas nieustanną pomocą.",
+        "Portugues": "Recebei benigno, Senhor, as hóstias que Vos oferecemos pelos merecimentos do B. N., vosso Mártir e Pontífice, e fazei que elas nos alcancem o vosso perpétuo socorro."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) SE(g)mel(f') ju(e)rá(g)vi(f') *() in(e) san(ghgh)cto(g) me(egff)o :(fe..) (:) se(h)men(hg) e(ixhi)jus(h.) (,) in(h) ae(gf)tér(gh)num(g) ma(fd)né(egff)bit :(eef.) (:) et(ed~) se(gh)des(gf) e(gh)jus(g.) (,) sic(g)ut(hj~) sol(jij) in(h) con(h)spé(h)ctu(h) me(hgh)o,(h.) (;) et(ixhi~) sic(h)ut(hg~) lu(h)na(ghg) per(fe~)fé(fg)cta(gh) in(f) ae(d)tér(gefvE~D~)num :(ed..) (;) et(f) te(gh)stis(ghg) in(ge~) cae(g)lo(gd) fi(f)dé(egff)lis.(fe..) (::)",
+      "availableTranslations": {
+        "English": "Once, by My holiness, have I sworn; his posterity shall continue forever; and his throne shall be like the sun before Me; like the moon, which remains forever, a faithful witness in the sky.",
+        "Bohemice": "Jednou přisáhl jsem ve Svatyni své: símě jeho zůstane na věky a trůn jeho jako slunce před tváří mou a jako úplněk na věky. A svědek toho na nebi jest věrný.",
+        "Francais": "Je l’ai juré une fois pour toutes par ma sainteté : sa postérité sub­sistera éternellement et son trône sera devant moi comme le soleil, comme la pleine lune il durera toujours ; et le témoin qui est au ciel est ﬁdèle.",
+        "Italiano": "Questo giuro sulla mia santità: la stirpe di lui durerà in eterno e il suo trono quanto il sole dinanzi a me; perdurerà come la luna e come i cieli sarà stabile in perpetuo.",
+        "Magyar": "Megesküdtem egyszer szentségemre, örökké tart ivadéka és mint a nap, színem előtt a trónja; megmarad örökké, miként a hold, s a hűséges égi tanú. (Allelúja.)",
+        "Nederlands": "Eens voor altijd heb ik bij mijn heiligheid gezworen: zijn nakroost zal eeuwig voortbestaan; zijn troon zal voor mijn aanschijn zijn als de zon, als de maan, die immer blijft, een trouwe getuige aan de hemel. (Alleluia.)",
+        "Polski": "Raz przysiągłem na świętość moją: potomstwo jego trwać będzie na wieki i jego tron będzie przede mną jak słońce, jak księżyc, co na wieki zostaje, jako wierny świadek na niebie.",
+        "Portugues": "Jurei uma vez por minha santidade: sua descendência durará eternamente e o seu trono brilhará perante mim, como o sol, e como a lua permanecerá para sempre e será testemunho fiel no céu."
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Refreshed by partaking of the sacred gift, we beseech You, O Lord our God, that we may enjoy the benefits of the rite we perform through the intercession of blessed N., Your Martyr and Bishop.",
+        "Bohemice": "Občerstvení jsouce účastenstvím na daru svatém, prosíme, Pane, Bože náš, abychom na přímluvu svatého N., mučedníka tvého a biskupa, pocítili účinek toho, co slavíme.",
+        "Espanol": "Fortalecidos con la participación de los dones sagrados, te suplicamos, Señor Dios nuestro, nos hagas sentir el efecto de la intercesión de tu santo obispo y martir N., cuyo culto celebramos.",
+        "Francais": "Réconfortés par la réception du don sacré, nous vous de­mandons, ô Seigneur notre Dieu, de ressentir en nous, par l’intercession du bien­heureux N., votre évêque et martyr, l’effet du mystère que nous célébrons.",
+        "Italiano": "Ristorati dalla partecipazione a questo sacramento, ti preghiamo, o Signore nostro Dio, affinché per l'intercessione del beato N. martire tuo e vescovo, sentiamo l'effetto duraturo del sacrificio celebrato.",
+        "Magyar": "A szent adományban való részvétel által megújítva, kérünk Urunk Istenünk, hogy Szent N. vértanúd és püspököd közbenjárására, amit az áldozatban cselekedtünk, annak hatását is érezhessük.",
+        "Nederlands": "Verkwikt door de deelname aan de heilige gave, vragen wij U, Heer, onze God, dat wij door de tussenkomst van uw heilige martelaar en bisschop N. de uitwerking mogen ondervinden van wat wij in deze eredienst verrichten.",
+        "Polski": "Pokrzepieni uczestnictwem w świętej uczcie prosimy Cię, Panie, Boże nasz, abyśmy za przyczyną świętego N., Twego Męczennika i Biskupa, doznali skutków tajemnic, które ze czcią sprawujemy.",
+        "Portugues": "Fortalecidos com a participação do dom sacratíssimo, Vos pedimos, Senhor, nosso Deus, que, por intercessão do B. N., vosso Mártir e Pontífice, sintamos o efeito do mystério que hoje celebrámos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

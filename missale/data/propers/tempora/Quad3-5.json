@@ -1,0 +1,844 @@
+{
+  "rule": [],
+  "feast": "Feria Sexta infra Hebdomadam III in Quadragesima",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) FAC(f!gwh/ih) me(hh)cum,(f.) *(,) Dó(h)mi(ge)ne,(fhg') si(i)gnum(h) in(h) bo(hvGF)num :(f.) (;) ut(f_) ví(e)de(f)ant(f) qui(f) me(e) o(f)dé(hhi)runt,(f.) (,) et(fg) con(e)fun(f)dán(f!gwh!ivHG'hwihi)tur :(hi..) (:) quó(f)ni(ih)am(h) tu(h_g) Dó(gh/ihi)mi(hvGF)ne(f.) (,) ad(f)ju(hg)ví(h)sti(f) me,(f!hh//hh) (;) et(f) con(hg~)so(h)lá(i_f//i_h)tus(h_g) es(giH'GhvGF'gwhgh) me.(gf..) (::) <i>Ps.</i> In(e)clí(fe)na(eh) Dó(h)mi(h)ne(h) au(h)rem(h) tu(h)am,(hg) et(hi) ex(i)áu(hi)di(h) me :(h.) *(:) quó(hf)ni(fh)am(h) in(h)ops(h) et(h) pau(i)per(hf) sum(h) e(ge)go.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h) u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+      "availableTranslations": {
+        "English": "Grant me, O Lord, a proof of Your favor, that my enemies may see, to their confusion, that You, O Lord, have helped me and comforted me. Incline Your ear, O Lord; answer me, for I am afflicted and poor.",
+        "Espanol": "Haz conmigo, Señor, algún prodigio, para que los que me aborrecen vean con confusión suya como tú, oh Señor, me has socorrido y consolado. Inclina, Señor, tu oído y escúchame; porque me hallo afligido y necesitado.",
+        "Francais": "Opérez un signe en ma faveur, afin que ceux qui me haïssent le voient et soient confondus ; car c’est vous, Seigneur, qui m’avez aidé et consolé. Penchez, Seigneur, votre oreille, et exaucez-moi, car je suis indigent et pauvre.",
+        "Italiano": "O Signore, dammi un segno del tuo favore, affinché vedano i miei nemici, con loro scorno, che Tu, o Signore, mi hai aiutato e confortato. Tendi l'orecchio, rispondimi, Signore, poiché misero e povero io son.",
+        "Magyar": "Add jelét, Uram, rajtam jóságodnak, hogy gyűlölőim lássák és szégyent valljanak, minthogy te, Uram, megsegítesz és megvigasztalsz engem. Hajtsd hozzám Uram, füledet és hallgass meg; hisz nyomorult és szegény vagyok.",
+        "Nederlands": "Geef mij een teken van uw gunst, o Heer, opdat die mij haten vol schaamte zien, dat Gij, o Heer, mij hebt geholpen en getroost. Neig uw oor, o Heer, verhoor mij, want ik ben arm en ellendig.",
+        "Polski": "Daj mi znak łaski Twojej, aby ci, którzy mnie nienawidzą, widzieli ku zawstydzeniu swojemu, żeś Ty mi pomógł i pocieszył mię, Panie. Nakłoń Swe ucho, wysłuchaj mię, Panie, bom nędzny jest i ubogi.",
+        "Portugues": "Praticai, Senhor, um dos vossos prodígios em meu favor, para que meus inimigos contemplem o vosso poder e sejam confundidos; Pois Vós, Senhor, sois o meu auxílio e conforto. Inclinai, Senhor, os vossos ouvidos para mim e escutai-me; porque sou pobre e infeliz."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Jejúnia nostra, quǽsumus, Dómine, benígno favóre proséquere: ut, sicut ab aliméntis abstinémus in córpore; ita a vítiis jejunémus in mente.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "O Lord, graciously be with us during this fast, and, we beseech You, help our spirit to abstain from sin as our body fasts from food.",
+        "Espanol": "Dígnate, Señor, aceptar benignamente nuestros ayunos; para que así como nos abstenemos en el cuerpo de alimentos, así también nos abstengamos de vicios en el alma.",
+        "Francais": "Nous vous supplions, Seigneur, d’accorder dans votre bonté, un résultat favorable à nos jeûnes, afin que, comme nos corps pratiquent l’abstinence par rapport aux aliments, ainsi nos âmes s’abstiennent du péché.",
+        "Italiano": "O Signore, continua a seguire col tuo benevolo favore i nostri digiuni; affinché ci asteniamo, come nel corpo dagli alimenti, così nell'anima dal peccato.",
+        "Magyar": "Kísérd böjtünket, kérünk, Urunk, kegyes jóságoddal s engedd, hogy amint a testi tápláléktől tartózkodunk, lelkünkben a bűnöktől is tartózkodjunk.",
+        "Nederlands": "Wij vragen U, Heer, schenk ons vasten uw welwillende gunst, opdat wij onze geest vrij mogen houden van zonden, zoals wij aan ons lichaam de spijs onthouden.",
+        "Polski": "Niech łaska Twoja, Panie, towarzyszy naszym postom, abyśmy odmawiając pokarmu ciału, powstrzymywali naszego ducha od grzechu.",
+        "Portugues": "Acompanhai os nossos jejuns com vossa benigna graça, Senhor, a fim de que, assim como o nosso corpo se abstém das carnes, assim a nossa alma se abstenha dos nossos vícios."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Convenérunt fílii Israël adversum Móysen et Aaron: et versi in seditiónem, dixérunt: Date nobis aquam, ut bibámus. Ingressúsque Móyses et Aaron, dimíssa multitúdine, tabernáculum fœ́deris, corruérunt proni in terram, clamaverúntque ad Dóminum, atque dixérunt: Dómine Deus, audi clamórem hujus pópuli, et áperi eis thesáurum tuum, fontem aquæ vivæ, ut, satiáti, cesset murmurátio eórum. Et appáruit glória Dómini super eos. Locutúsque est Dóminus ad Móysen, dicens: Tolle virgam, et cóngrega pópulum, tu et Aaron frater tuus, et loquímini ad petram coram eis, et illa dabit aquas. Cumque edúxeris aquam de petra, bibet omnis multitúdo et juménta ejus. Tulit ígitur Móyses virgam, quæ erat in conspéctu Dómini, sicut præcéperat ei, congregáta multitúdine ante petram, dixítque eis: Audíte, rebélles et incréduli: Num de petra hac vobis aquam potérimus ejícere? Cumque elevásset Móyses manum, percútiens virga bis sílicem, egréssæ sunt aquæ largíssimæ, ita ut pópulus bíberet, et juménta. Dixítque Dóminus ad Móysen et Aaron: Quia non credidístis mihi, ut sanctificarétis me coram fíliis Israël, non introducétis hos pópulos in terram, quam dabo eis. Hæc est aqua contradictiónis, ubi jurgáti sunt fílii Israël contra Dóminum, et sanctificátus est in eis.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, the Israelites held a council against Moses and Aaron. The people contended, exclaiming, Give us water that we may drink. But Moses and Aaron went away from the assembly to the entrance of the Meeting Tent, where they fell prostrate. They cried to the Lord, and said, O Lord God, hear the cry of this people, and open to them Your treasure, a fountain of living water, that being satisfied, they may cease to murmur. Then the glory of the Lord appeared to them, and the Lord said to Moses, Take the staff and assemble the community, you and your brother Aaron, and in their presence order the rock to yield its waters. From the rock you shall bring forth water for the community and their livestock to drink. So Moses took the staff from its place before the Lord, as he was ordered. He and Aaron assembled the community in front of the rock, where he said to them, Listen to me, you rebels! Are we to bring water for you out of this rock? Then, raising his hand, Moses struck the rock twice with his staff, and water gushed out in abundance for the community and their livestock to drink. But the Lord said to Moses and Aaron, Because you were not faithful to Me in showing forth My sanctity before the Israelites, you shall not lead this community into the land I will give them. These are the waters of Meriba, where the Israelites contended against the Lord, and where He revealed His sanctity among them.",
+        "Espanol": "En aquellos días: Llegaron, pues, contra Moisés y Aarón,  y amotinados dijeron: ¡Ojalá hubiésemos perecido allá entre nuestros hermanos delante del Señor!  Con esto Moisés y Aarón, separándose de la gente, y entrando en el Tabernáculo de la alianza, se postraron contra el suelo y clamaron al Señor, y dijeron: ¡Oh Señor, nuestro Dios! escucha los clamores de este pueblo, y ábreles tu tesoro, una fuente de agua viva, a fin de que, apagada su sed, cesen de murmurar. En esto apareció la gloria del Señor sobre ellos. Y habló el Señor a Moisés, diciendo: Toma la vara, y congregad al pueblo, tú y tu hermano Aarón, y hablaréis a la peña en presencia de toda la gente, y la peña brotará aguas. Y sacado que hubieres agua de la peña, beberá todo el pueblo con sus ganados.  Tomó, pues, Moisés su vara, que se guardaba en la presencia del Señor, según él se lo mandó,  y congregada la multitud delante de la peña les dijo: Oíd, rebeldes y descreídos: ¿Por ventura podremos nosotros sacaros agua de esta peña?  Y habiendo alzado Moisés la mano, y herido dos veces con la vara aquella peña, salieron aguas copiosísimas; de manera que pudo beber el pueblo y los ganados.  Dijo entonces el Señor a Moisés y Aarón: Ya que no me habéis creído en orden a hacer conocer mi gloria a los hijos de Israel, no introduciréis vosotros este pueblo en la tierra que yo le daré.  Esta es el agua de contradicción, donde los hijos de Israel protestaron contra el Señor, el cual manifestó en ellos su gloria.",
+        "Francais": "En ces jours-là, les enfants d’Israël s’assemblèrent contre Moïse et Aaron, et ayant excité une sédition, ils leur dirent : Donnez-nous de l’eau, afin que nous buvions. Moïse et Aaron, ayant quitté le peuple, entrèrent dans le tabernacle de l’alliance, et, s’étant jetés le visage contre terre, ils crièrent au Seigneur, et lui dirent : Seigneur Dieu, écoutez le cri de ce peuple, et ouvrez-leur votre trésor, ouvrez-leur la source d’eau vive, afin qu’étant désaltérés, ils cessent de murmurer. Alors la gloire du Seigneur parut au-dessus d’eux. Et le Seigneur parla à Moïse, et lui dit : Prenez votre verge, et assemblez le peuple, vous et votre frère Aaron ; et parlez à la pierre devant eux, et elle vous donnera des eaux. Et lorsque vous aurez fait sortir l’eau de la pierre, tout le peuple boira et ses bêtes aussi. Moïse prit donc la verge qui était devant le Seigneur, selon qu’il le lui avait ordonné, et ayant assemblé le peuple devant la pierre, il leur dit : Écoutez, rebelles et incrédules. Pourrons-nous vous faire sortir de l’eau de cette pierre ? Moïse leva ensuite la main, et ayant frappé deux fois la pierre avec sa verge, il en sortit une grande abondance d’eau, en sorte que le peuple eut à boire, et les bêtes aussi. En même temps, le Seigneur dit à Moïse et à Aaron : Parce que vous ne m’avez pas cru, et que vous ne m’avez pas sanctifié devant les enfants d’Israël, vous ne ferez point entrer ce peuple dans la terre que je leur donnerai. C’est là l’eau de contradiction, où les enfants d’Israël murmurèrent contre le Seigneur, et où il fit paraître sa puissance et sa sainteté au milieu d’eux.",
+        "Italiano": "In quei giorni: I figli d'Israele si radunarono contro Mosè ed Aronne; e levatisi in sedizione presero a dire: «Dateci acqua da bere». Mosè ed Aronne, lasciata la moltitudine, entrarono nel Tabernacolo dell'alleanza e prostratisi bocconi per terra, alzarono la voce al Signore, dicendo: «Signore Dio, ascolta il grido di questo popolo ed apri loro il tuo tesoro, una fonte d'acqua viva; si dissetino e cessino di mormorare». Apparve allora sopra di essi la gloria del Signore, che così parlò a Mosè: «Prendi la verga, raduna il popolo, e in sua presenza tu e il tuo fratello Aronne parlate alla roccia, ed essa darà acqua; e dall'acqua fatta sgorgare dalla pietra sarà dissetato il popolo con il suo bestiame». Mosè adunque, prese dinanzi al Signore la verga, e radunata la moltitudine dinanzi alla pietra, disse: «Ascoltate, ribelli e increduli: potremo noi farvi uscire dell'acqua da questa pietra?». Allora Mosè alzò la mano, colla verga percosse due volte la pietra, e ne scaturirono tante acque da dissetare il popolo ed il bestiame. Ma il Signore disse a Mosè e ad Aronne: «Perché non mi avete creduto, sì da provare la mia santità dinanzi ai figli d'Israele, voi non introdurrete questo popolo nella terra che darò loro». Questa è l'acqua di Meriba, ove i figli d'Israele contesero contro il Signore, che diede loro una prova della sua santità.",
+        "Magyar": "Mózes és Áron azonban eltűntek a közösség szeme elől, odamentek a megnyilatkozás sátorának bejáratához és arcra borultak. Megjelent nekik az Úr dicsősége,  s az Úr így szólt Mózeshez:  „Fogd a botot, gyűjtsd egybe a közösséget, te és testvéred, Áron, és parancsoljátok meg a szemük láttára a sziklának, hogy adjon vizet. Fakassz vizet a sziklából, s igyon a közösség jószágával egyetemben.”  Mózes elvette a botot az Úr színe elől, ahogy parancsolta neki.  Mózes és Áron a szikla elé hívták egybe a népet, majd Mózes megszólalt: „Halljátok hát, ti lázadók! Tudunk nektek vizet fakasztani ebből a sziklából?”  Ezzel fölemelte Mózes a kezét és kétszer ráütött a sziklára. Bőséges víz fakadt belőle, s ivott a közösség jószágával együtt.  Az Úr azonban így szólt Mózeshez és Áronhoz: „Mivel nem hittetek nekem, s nem dicsőítettetek meg Izrael fiainak szeme láttára, nem vezethetitek el ezt a népet arra a földre, amelyet majd adok nekik.”  Ezek Meriba vizei, ahol Izrael fiai pörlekedtek az Úrral, ő pedig kinyilvánította szentségét.",
+        "Nederlands": "In die dagen schoolden de kinderen van Israël samen tegen Mozes en Aäron en kwamen in opstand en zeiden: Geeft ons water om te drinken. En Mozes en Aäron lieten de menigte staan en gingen de Verbondstent binnen; zij wierpen zich plat ter aarde neder en riepen tot de Heer: Heer God, hoor het geroep van dit volk en open voor hen uw schat, een bron van levend water, opdat zij zich kunnen verzadigen en hun gemor ophoude. En de heerlijkheid des Heren vertoonde zich boven hen. En de Heer sprak tot Mozes: Neem uw staf en roep het volk samen, gij en uw broeder Aäron, en spreek in hun tegenwoordigheid tot de rots; dan zal zij water geven. En als gij water uit de rots doet stromen, kan heel het volk drinken, en ook hun vee. Toen nam Mozes de staf, die voor de Heer lag, zoals Deze hem bevolen had, riep de menigte samen bij de rots en sprak tot hen: Luistert, gij, weerspannigen en ongelovigen; zouden wij voor u nog water uit de rots kunnen doen stromen? En Mozes hief zijn hand omhoog en sloeg met zijn staf tweemaal op de rots; en er stroomde water uit in overvloed, zodat het volk kon drinken, en ook het vee. Maar de Heer sprak tot Mozes en Aäron: Omdat gij Mij niet geloofd hebt, en Mij dus niet verheerlijkt hebt bij de kinderen van Israël, daarom zult gij dit volk niet binnenleiden in het land, dat Ik hun zal geven. Dit is het water van het oproer, waar de kinderen van Israël oproer maakten tegen de Heer en Hij Zich zelf bij hen verheerlijkte.",
+        "Polski": "W one dni zeszli się synowie Izraela przeciw Mojżeszowi i Aaronowi, a uczyniwszy rozruch mówili: «Dajcie nam wody, abyśmy pili». A Mojżesz i Aaron opuściwszy lud, weszli do przybytku przymierza i upadli twarzą na ziemię, i wołali do Pana, i rzekli: «Panie Boże, wysłuchaj wołanie tego ludu, a otwórz im skarb Twój, źródło wody żywej, aby się nasycili i aby ustało ich szemranie». I ukazała się chwała Pańska nad nimi. I rzekł Pan do Mojżesza mówiąc: «Weźmij laskę i zgromadź lud ty i Aaron, brat twój, i mówcie do skały przed nimi, a ona da wodę. A gdy wywiedziesz wodę ze skały, będzie piło zgromadzenie i bydło jego». I wziął Mojżesz laskę, która była przed obliczem Pańskim, jak mu rozkazał, a zgromadziwszy lud przed skałą, rzekł im: «Słuchajcie, przekorni i niewierni: Czy z tej skały będziemy mogli wywieść wam wodę?» I podniósł Mojżesz rękę i uderzył dwakroć laską w skałę, i wyszły wody bardzo obfite, tak iż pił lud i bydło. I rzekł Pan do Mojżesza i Aarona: «Ponieważ nie zawierzyliście mi, aby moc moją okazać wobec synów Izraela, nie wprowadzicie tego ludu do ziemi, którą im dam». To jest Woda Sprzeciwu, gdzie się spierali synowie Izraela z Panem, a On wśród nich okazał swą moc.",
+        "Portugues": "Naqueles dias, os filhos de Israel reuniram-se contra Moisés e Aarão, e, havendo formado uma sedição, disseram: «Dai-nos água para bebermos». Então Moisés e Aarão, deixando a multidão, entraram no tabernáculo da Aliança, e, prostrados com o rosto em terra, clamaram ao Senhor e disseram: «Senhor, Deus, ouvi o clamor deste povo e abri-lhe o vosso tesouro, concedendo-lhe uma fonte de água viva, para que, sendo saciado, cesse a murmuração». Então a glória do Senhor apareceu sobre eles. E falou o Senhor a Moisés, dizendo: «Toma a vara, reúne o povo, tu e teu irmão Aarão, impõe o teu poder à rocha diante deles e dela brotará água. Quando isto acontecer, beberá toda a multidão e os seus animais». Pegou, pois, Moisés na vara, que estava diante do Senhor, como lhe havia sido ordenado, reuniu a multidão diante da rocha e disse-lhes: «Ouvi, rebeldes e incrédulos: poderemos nós fazer sair água deste rochedo, para vos dar a beber?». E Moisés levantou a mão e bateu duas vezes com a vara no rochedo, saindo dele água abundante; de tal sorte que bebeu todo o povo, assim como os seus animais. E disse o Senhor a Moisés e a Aarão: «Porque me não acreditastes, para manifestardes a minha santidade diante dos filhos de Israel, não tereis a dita de fazer entrar este povo na terra que lhes darei. Esta é a água da contradição: quando os filhos de Israel murmuraram contra o Senhor, e quando o Senhor manifestou a sua santidade diante deles»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) IN(d) De(ffg)o(f.) *(,) spe(f)rá(fg)vit(f) cor(ghgh) me(hvGF'fvED)um,(ed..) (;) et(fe) ad(fg~)jú(ggf)tus(g) sum :(fe/fg/hghvGFgf..) (;) et(fg) re(f)fló(gh)ru(gf)it(f.) (,) ca(f)ro(g) me(f)a :(fv.d!ff/ge'/fgd'/eddc.) (:) et(h) ex(f) vo(g)lun(h)tá(hj/kjk)te(j) me(ixi_h)a(iii/ghg.___) (;) con(ixih~)fi(i)té(jv.ikJI'ivH'GF)bor(ggf.0) (,) il(gf/ggf/gff//gf~)li.(gv.fgff'f//f'hg/hggf.0) (z0::c3) <sp>V/</sp>. Ad(d) te,(f) Dó(fh/ih/ijh)mi(h)ne,(h.) (,) cla(h)má(h)vi :(ihhe./h_i_h_/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) De(f!h'i)us(ih/jkihhf.) (`) me(hf/hhh)us,(h.f!gwh!iv.hi/jhh/iih.0) (:) ne(f) sí(h_f//g_0h_i!jwk)le(i_hivHFhhh)as :(h.) (;) ne(d) di(d)scé(dfE'D)das(ef) *() a(fhG'Fhhh) me.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "In God my heart trusts, and I find help; then my heart exults, and with my song I give Him thanks. To You, O Lord, I call; O my God, be not deaf to me, do not abandon me.",
+        "Espanol": "En Dios esperó mi corazón, y fui socorrido: y resucitó mi carne, y así le alabaré con todo mi afecto. A ti clamo, Señor, no te hagas sordo a mis ruegos, Dios mío, ni te apartes de mí. Señor, no nos trates según merecen nuestros pecados, ni según nuestras culpas nos castigues. Señor, no te acuerdes de nuestras antiguas maldades: anticípense a favor nuestro cuanto antes tus misericordias; pues nos hallamos reducidos a extrema miseria. (Aquí se arrodilla). Ayudanos, oh Dios salvador nuestro: y por la gloria de tu nombre, líbranos, Señor, y perdona nuestros pecados, por amor a tu nombre.",
+        "Francais": "Mon cœur a espéré en Dieu, et j’ai été secouru ; et ma chair a refleuri ; aussi le louerai-je de tout mon cœur. J’ai crié vers vous, Seigneur ; mon Dieu, ne gardez pas le silence à mon égard, ne vous séparez pas de moi.",
+        "Italiano": "In Dio confida il mio cuore: sono aiutato, riprendo vigore, dall’intimo gli rendo grazie. A te grido, Signore, Dio mio, non tacere, non lasciarmi.",
+        "Magyar": "Szívem az Úrban remélt és ő megsegített: és újra felvirágzik testem, s örömömben hálát zengek neki. Hozzád kiáltok, Uram; Istenem! ne fordulj el szótalanul tőlem.",
+        "Nederlands": "Op God heeft mijn hart vertrouwd en ik werd geholpen. Mijn lichaam bloeide op en bereidvaardig zal ik Hem prijzen.  Tot U riep ik, o Heer, mijn God, wees niet doof; trek U niet van mij terug.",
+        "Polski": "Bogu zaufało me serce i doznałem pomocy; raduje się przeto serce moje i pieśnią moją Go sławię. Do Ciebie, Panie, wołam, Boże mój, nie milcz i nie odwracaj się ode mnie.",
+        "Portugues": "O meu coração esperou em Deus e foi socorrido. Então a minha carne rejuvenesceu. Por isso hei-de celebrar com alegria os louvores do Senhor. A Vós, Senhor, clamei: meu Deus, não fecheis os ouvidos, nem Vos afasteis de mim. Senhor, nos não castigueis, consoante merecemos, pelos pecados que praticámos: nem nos julgueis, segundo as nossas iniquidades. Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas misericórdias, pois grande é a nossa miséria. (genuflectir) Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) IN(d) De(ffg)o(f.) *(,) spe(f)rá(fg)vit(f) cor(ghgh) me(hvGF'fvED)um,(ed..) (;) et(fe) ad(fg~)jú(ggf)tus(g) sum :(fe/fg/hghvGFgf..) (;) et(fg) re(f)fló(gh)ru(gf)it(f.) (,) ca(f)ro(g) me(f)a :(fv.d!ff/ge'/fgd'/eddc.) (:) et(h) ex(f) vo(g)lun(h)tá(hj/kjk)te(j) me(ixi_h)a(iii/ghg.___) (;) con(ixih~)fi(i)té(jv.ikJI'ivH'GF)bor(ggf.0) (,) il(gf/ggf/gff//gf~)li.(gv.fgff'f//f'hg/hggf.0) (z0::c3) <sp>V/</sp>. Ad(d) te,(f) Dó(fh/ih/ijh)mi(h)ne,(h.) (,) cla(h)má(h)vi :(ihhe./h_i_h_/ihhe.) (,) (hi!kv//lvKI'jvHF.1) (,) (h_g/ijh'___ jvIH'jvIH'//hvGF.) (:) De(f!h'i)us(ih/jkihhf.) (`) me(hf/hhh)us,(h.f!gwh!iv.hi/jhh/iih.0) (:) ne(f) sí(h_f//g_0h_i!jwk)le(i_hivHFhhh)as :(h.) (;) ne(d) di(d)scé(dfE'D)das(ef) *() a(fhG'Fhhh) me.(hhf.) (,) (gxg_fgvED.fgED.fehv.hhhff//dfe/feed.0) (::)",
+      "availableTranslations": {
+        "English": "In God my heart trusts, and I find help; then my heart exults, and with my song I give Him thanks. To You, O Lord, I call; O my God, be not deaf to me, do not abandon me.",
+        "Espanol": "En Dios esperó mi corazón, y fui socorrido: y resucitó mi carne, y así le alabaré con todo mi afecto. A ti clamo, Señor, no te hagas sordo a mis ruegos, Dios mío, ni te apartes de mí. Señor, no nos trates según merecen nuestros pecados, ni según nuestras culpas nos castigues. Señor, no te acuerdes de nuestras antiguas maldades: anticípense a favor nuestro cuanto antes tus misericordias; pues nos hallamos reducidos a extrema miseria. (Aquí se arrodilla). Ayudanos, oh Dios salvador nuestro: y por la gloria de tu nombre, líbranos, Señor, y perdona nuestros pecados, por amor a tu nombre.",
+        "Francais": "Mon cœur a espéré en Dieu, et j’ai été secouru ; et ma chair a refleuri ; aussi le louerai-je de tout mon cœur. J’ai crié vers vous, Seigneur ; mon Dieu, ne gardez pas le silence à mon égard, ne vous séparez pas de moi.",
+        "Italiano": "In Dio confida il mio cuore: sono aiutato, riprendo vigore, dall’intimo gli rendo grazie. A te grido, Signore, Dio mio, non tacere, non lasciarmi.",
+        "Magyar": "Szívem az Úrban remélt és ő megsegített: és újra felvirágzik testem, s örömömben hálát zengek neki. Hozzád kiáltok, Uram; Istenem! ne fordulj el szótalanul tőlem.",
+        "Nederlands": "Op God heeft mijn hart vertrouwd en ik werd geholpen. Mijn lichaam bloeide op en bereidvaardig zal ik Hem prijzen.  Tot U riep ik, o Heer, mijn God, wees niet doof; trek U niet van mij terug.",
+        "Polski": "Bogu zaufało me serce i doznałem pomocy; raduje się przeto serce moje i pieśnią moją Go sławię. Do Ciebie, Panie, wołam, Boże mój, nie milcz i nie odwracaj się ode mnie.",
+        "Portugues": "O meu coração esperou em Deus e foi socorrido. Então a minha carne rejuvenesceu. Por isso hei-de celebrar com alegria os louvores do Senhor. A Vós, Senhor, clamei: meu Deus, não fecheis os ouvidos, nem Vos afasteis de mim. Senhor, nos não castigueis, consoante merecemos, pelos pecados que praticámos: nem nos julgueis, segundo as nossas iniquidades. Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas misericórdias, pois grande é a nossa miséria. (genuflectir) Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) DO(f)mi(efE'C)ne,(efeffe//f!gwhghhg/h_f//ghghf.) (;) *() non(f) se(f)cún(f)dum(efE'C) pec(e.f!gwh)cá(h)ta(gf) no(g)stra,(f/gh/iffe.) (;) quæ(e) fé(gh)ci(f)mus(f_e/f!gwh'!iv) nos :(hg/hiih.0) (:) ne(e)que(gh) se(f)cún(fg~)dum(f) in(f)i(f)qui(f)tá(fg)tes(f) no(f_e/f!gwh'!iv)stras(hg/hiih.0) (;) re(ehg)trí(hihhe)bu(fgf)as(hg~) no(hvGF)bis.(fefEC//fefggf.0) (::) \r\n<sp>V/</sp>. Dó(fhg)mi(hi)ne,(ijIH'ihh'hhvGEf_e/f!gw!hvGFgf..) (;) ne(fe) me(h)mí(hi'j)ne(jvIH'GhvGF'g)ris(gf..) (;) in(f)i(f)qui(hg)tá(h)tum(f) no(f)strá(fg)rum(f.) (,) an(fg~)ti(f)quá(f!hh//hhh)rum :(fe/ggf/gh/iffe.) (:) ci(e)to(e) an(gh)tí(f)ci(f)pent(fg~) nos(f.) (,) mi(f)se(f)ri(f)cór(fg~)di(f)æ(f) tu(f_e/f!gwh'!iv)æ,(hg/hiih.0) (;) qui(h)a(h) páu(hihhg)pe(fe)res(fhg) fa(h)cti(h) su(h)mus(gh/ihi) ni(f)mis.(f/ggf.0) (::) \r\n<nlba><sp>V/</sp>. <alt> Hic genuflectitur.</alt>Ad(kxh!iwj'!kv)ju(j)va(j) nos,(j) De(ji)us</nlba>(ij..) (,) sa(h)lu(hf)tá(h)ris(hi'j) no(jvIH'GhvGF'g)ster :(gf..) (;) et(f) pro(f)pter(hg) gló(h)ri(f)am(f) nó(fg)mi(f)nis(f) tu(f)i,(fe) Dó(fg)mi(f)ne,(f.) (,) lí(f)be(f!hh//hhh)ra(fg) nos :(fe/ggf/gh/iffe.) (:) et(e) pro(e)pí(gh)ti(f)us(f) e(fg)sto(f.) (,) pec(f)cá(fg)tis(f) no(f_e/f!gwh'!iv)stris,(kxhgi.jkiih.0) (;) pro(hihhg)pter(fe~) no(fgf)men(g.) *() tu(i_hivHFg.)(,)(h!jijH'GF)um.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
+      "availableTranslations": {
+        "English": "O Lord, deal with us not according to our sins, nor requite us according to our crimes. O Lord, remember not against us the iniquities of the past; may Your compassion quickly come to us, for we are brought very low. (kneel) Help us, O God, our Saviour, because of the glory of Your Name, O Lord; deliver us and pardon our sins for Your Name’s sake.",
+        "Francais": "Seigneur, ne nous traitez pas selon nos péchés, et ne nous punissez pas selon nos iniquités. Seigneur, ne vous souvenez plus de nos anciennes iniquités ; que vos miséricordes viennent en hâte au-devant de nous, car nous sommes réduits à la dernière misère. (On se met à genoux) Aidez-nous, ô Dieu notre Sauveur, et pour la gloire de votre nom, Seigneur, délivrez-nous et pardonnez-nous nos péchés, à cause de votre nom.",
+        "Italiano": "Non trattarci, Signore, secondo i nostri errori, non punirci secondo le nostre colpe. Non ricordarti con noi delle colpe antiche: presto ci venga incontro il tuo affetto, perché siamo molto deboli. (si genuflette). Aiutaci, o Dio della salvezza: e per la gloria del tuo nome, liberaci, Signore: e perdona i nostri errori per amore del tuo nome.",
+        "Magyar": "Uram! ne elkövetett bűneink szerint, és ne gonoszságaink szerint fizess nekünk. Uram! ne emlékezzél meg régi gonoszságainkról: siessen elénk irgalmasságod; mert felette szegények lettünk. (Hic genuflectitur)  Segíts minket, szabadító Istenünk; és neved dicsőségéért ments meg, Uram! minket: és bocsásd meg nevedért bűneinket.",
+        "Nederlands": "Heer, behandel ons niet naar onze zonden, die wij bedreven. Vergeld ons niet naar onze schuld. Ach, Heer, denk toch niet meer aan onze vroegere zonden. Moge uw barmhartigheid ons spoedig tegemoet treden, want wij zijn ellendig bovenmate. (Hier maakt men een kniebuiging.) Help ons, o God, onze Redder. Verlos ons, Heer, om de eer van uw Naam. Om wille van uw Naam, vergeef ons onze zonden."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Venit Jesus in civitátem Samaríæ, quæ dícitur Sichar: juxta prǽdium, quod dedit Jacob Joseph, fílio suo. Erat autem ibi fons Jacob. Jesus ergo fatigátus ex itínere, sedébat sic supra fontem. Hora erat quasi sexta. Venit múlier de Samaría hauríre aquam. Dicit ei Jesus: Da mihi bíbere. - Discípuli enim ejus abíerant in civitátem, ut cibos émerent. - Dicit ergo ei múlier illa Samaritána: Quómodo tu, Judǽus cum sis, bíbere a me poscis, quæ sum múlier Samaritána? non enim coutúntur Judǽi Samaritánis. Respóndit Jesus et dixit ei: Si scires donum Dei, et quis est, qui dicit tibi: Da mihi bibere: tu fórsitan petísses ab eo, et dedísset tibi aquam vivam. Dicit ei múlier: Dómine, neque in quo háurias habes, et púteus altus est: unde ergo habes aquam vivam? Numquid tu major es patre nostro Jacob, qui dedit nobis púteum, et ipse ex eo bibit et fílii ejus et pécora ejus? Respóndit Jesus et dixit ei: Omnis, qui bibit ex aqua hac, sítiet íterum: qui autem bíberit ex aqua, quam ego dabo ei, non sítiet in ætérnum: sed aqua, quam ego dabo ei, fiet in eo fons aquæ saliéntis in vitam ætérnam. Dicit ad eum mulier: Dómine, da mihi hanc aquam, ut non sítiam neque véniam huc hauríre. Dicit ei Jesus: Vade, voca virum tuum, et veni huc. Respóndit múlier, et dixit: Non hábeo virum. Dicit ei Jesus: Bene dixísti, quia non hábeo virum: quinque enim viros habuísti, et nunc, quem habes, non est tuus vir: hoc vere dixísti. Dicit ei múlier: Dómine, vídeo, quia Prophéta es tu. Patres nostri in monte hoc adoravérunt, et vos dícitis, quia Jerosólymis est locus, ubi adoráre opórtet. Dicit ei Jesus: Múlier, crede mihi, quia venit hora, quando neque in monte hoc, neque in Jerosólymis adorábitis Patrem. Vos adorátis, quod nescítis: nos adorámus, quod scimus, quia salus ex Judǽis est. Sed venit hora, et nunc est, quando veri adoratóres adorábunt Patrem in spíritu et veritáte. Nam et Pater tales quærit, qui adórent eum. Spíritus est Deus: et eos, qui adórant eum, in spíritu et veritáte opórtet adoráre. Dicit ei mulier: Scio, quia Messías venit ",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus came, accordingly, to a town of Samaria called Sichar, near the field that Jacob gave to his son Joseph. Now Jacob’s well was there. Jesus therefore, wearied as He was from the journey, was sitting at the well. It was about the sixth hour. There came a Samaritan woman to draw water. Jesus said to her, Give Me to drink; for His disciples had gone away into the town to buy food. The Samaritan woman therefore said to Him, How is it that You, although You are a Jew, ask drink of me, who am a Samaritan woman? For Jews do not associate with Samaritans. Jesus answered and said to her, If you did know the gift of God, and Who it is Who says to you, ‘Give Me to drink,’ you, perhaps, would have asked of Him, and He would have given you living water. The woman said to Him, Sir, You have nothing to draw with, and the well is deep. Whence then have You living water? Are You greater than our father Jacob who gave us the well, and drank from it, himself, and his sons, and his flocks? In answer Jesus said to her, Everyone who drinks of this water will thirst again. He, however, who drinks of the water that I will give him shall never thirst; but the water that I will give him shall become in him a fountain of water, springing up unto life everlasting. The woman said to Him, Sir, give me this water that I may not thirst, or come here to draw. Jesus said to her, Go, call your husband and come here. The woman answered and said, ‘I have no husband.’ Jesus said, For you have had five husbands, and he whom you now have is not your husband. In this you have spoken truly. The woman said to Him, Sir, I see that You are a prophet. Our fathers worshipped on this mountain, but You say that at Jerusalem is the place where one ought to worship. Jesus said to her, Woman, believe Me, the hour is coming when neither on this mountain nor in Jerusalem will you worship the Father. You worship what you do not know; we worship what we know, for salvation is from the Jews. But the hour is coming, and is now here, when the true worshippers will worship the Father in spirit and in truth. For the Father also seeks such to worship Him. God is spirit, and they who worship Him must worship in spirit and in truth. The woman said to Him, I know that Messias is coming ",
+        "Espanol": "En aquel tiempo En aquel tiempo, Jesús llega, pues, a una ciudad de Samaria llamada Sicar, cerca de la heredad que Jacob dio a su hijo José. Allí estaba el pozo de Jacob. Jesús, como se había fatigado del camino, estaba sentado junto al pozo. Era alrededor de la hora sexta. Llega una mujer de Samaría a sacar agua. Jesús le dice: «Dame de beber». Pues sus discípulos se habían ido a la ciudad a comprar comida. Le dice la mujer samaritana: «¿Cómo tú, siendo judío, me pides de beber a mí, que soy una mujer samaritana?» (Porque los judíos no se tratan con los samaritanos). Jesús le respondió: «Si conocieras el don de Dios, y quién es el que te dice: ‘Dame de beber’, tú le habrías pedido a él, y él te habría dado agua viva». Le dice la mujer: «Señor, no tienes con qué sacarla, y el pozo es hondo; ¿de dónde, pues, tienes esa agua viva? ¿Es que tú eres más que nuestro padre Jacob, que nos dio el pozo, y de él bebieron él y sus hijos y sus ganados?». Jesús le respondió: «Todo el que beba de esta agua, volverá a tener sed; pero el que beba del agua que yo le dé, no tendrá sed jamás, sino que el agua que yo le dé se convertirá en él en fuente de agua que brota para vida eterna». Le dice la mujer: «Señor, dame de esa agua, para que no tenga más sed y no tenga que venir aquí a sacarla». El le dice: «Vete, llama a tu marido y vuelve acá». Respondió la mujer: «No tengo marido». Jesús le dice: «Bien has dicho que no tienes marido, porque has tenido cinco maridos y el que ahora tienes no es marido tuyo; en eso has dicho la verdad». Le dice la mujer: «Señor, veo que eres un profeta. Nuestros padres adoraron en este monte y vosotros decís que en Jerusalén es el lugar donde se debe adorar». Jesús le dice: «Créeme, mujer, que llega la hora en que, ni en este monte, ni en Jerusalén adoraréis al Padre. Vosotros adoráis lo que no conocéis; nosotros adoramos lo que conocemos, porque la salvación viene de los judíos. Pero llega la hora (ya estamos en ella) en que los adoradores verdaderos adorarán al Padre en espíritu y en verdad, porque así quiere el Padre que sean los que le adoren. Dios es espíritu, y los que adoran, deben adorar en espíritu y verdad». Le dice la mujer: «Sé que va a venir el Mesías, el llamado Cristo. Cuando venga, nos lo explicará todo». Jesús le dice: «Yo soy, el que te está hablando». En esto llegaron sus discípulos y se sorprendían de que hablara con una mujer. Pero nadie le dijo: «¿Qué quieres?», o «¿Qué hablas con ella?». La mujer, dejando su cántaro, corrió a la ciudad y dijo a la gente: «Venid a ver a un hombre que me ha dicho todo lo que he hecho. ¿No será el Cristo?». Salieron de la ciudad e iban donde Él. Entretanto, los discípulos le insistían diciendo: «Rabbí, come». Pero Él les dijo: «Yo tengo para comer un alimento que vosotros no sabéis». Los discípulos se decían unos a otros: «¿Le habrá traído alguien de comer?». Les dice Jesús: «Mi alimento es hacer la voluntad del que me ha enviado y llevar a cabo su obra. ¿No decís vosotros: Cuatro meses más y llega la siega? Pues bien, yo os digo: Alzad vuestros ojos y ved los campos, que blanquean ya para la siega. Ya el segador recibe el salario, y recoge fruto para la vida eterna, de modo que el sembrador se alegra igual que el segador. Porque en esto resulta verdadero el refrán de que uno es el sembrador y otro el segador: yo os he enviado a segar donde vosotros no os habéis fatigado. Otros se fatigaron y vosotros os aprovecháis de su fatiga». Muchos samaritanos de aquella ciudad creyeron en Él por las palabras de la mujer que atestiguaba: «Me ha dicho todo lo que he hecho». Cuando llegaron donde Él los samaritanos, le rogaron que se quedara con ellos. Y se quedó allí dos días. Y fueron muchos más los que creyeron por sus palabras, y decían a la mujer: «Ya no creemos por tus palabras; que nosotros mismos hemos oído y sabemos que éste es verdaderamente el Salvador del mundo».",
+        "Francais": "En ce temps-là, Jésus vint dans une ville de Samarie, nommée Sichar, près du champ que Jacob avait donné à son fils Joseph. Or là était le puits de Jacob. Et Jésus, fatigué du chemin, était assis sur le puits. Il était environ la sixième heure. Une femme de la Samarie vint pour puiser de l’eau. Jésus lui dit : Donne-moi à boire. Car ses disciples étaient allés à la ville, pour acheter des vivres. Cette femme samaritaine lui dit : Comment vous, qui êtes Juif, me demandez-vous à boire, à moi qui suis une femme samaritaine ? Les Juifs, en effet, n’ont point de rapports avec les Samaritains. Jésus lui répondit : Si tu connaissais le don de Dieu, et quel est celui qui te dit : Donnez-moi à boire, peut-être lui aurais-tu fait toi-même cette demande, et Il t’aurait donné de l’eau vive. La femme lui dit : Seigneur, vous n’avez rien pour puiser, et le puits est profond ; d’où avez-vous donc de l’eau vive ? Êtes-vous plus grand que notre père Jacob, qui nous a donné ce puits, et qui en a bu lui-même, ainsi que ses fils et ses troupeaux ? Jésus lui répondit : Quiconque boit de cette eau aura encore soif, mais celui qui boira de l’eau que je lui donnerai n’aura jamais soif ; car l’eau que je lui donnerai deviendra en lui une source d’eau qui jaillira jusque dans la vie éternelle. La femme lui dit : Seigneur, donnez-moi de cette eau, afin que je n’aie plus soif, et que je ne vienne plus Ici pour puiser. Jésus lui dit : Va, appelle ton mari, et viens ici. La femme répondit : Je n’ai pas de mari. Jésus lui dit : Tu as eu raison de dire : Je n’ai pas de mari ; car tu as eu cinq maris, et maintenant celui que tu as n’est pas ton mari ; en cela, tu dis vrai. La femme lui dit : Seigneur, je vois bien que vous êtes un prophète. Nos pères ont adoré sur cette montagne, et vous, vous dites que Jérusalem est le lieu où il faut adorer. Jésus lui dit : Femme, crois-moi, l’heure vient où ce ne sera ni sur cette montagne, ni à Jérusalem, que vous adorerez le Père. Vous adorez ce que vous ne connaissez pas ; nous, nous adorons ce que nous connaissons, car le salut vient des Juifs. Mais l’heure vient, et elle est déjà venue, où les vrais adorateurs adoreront le Père en esprit et en vérité ; car ce sont de tels adorateurs que cherche le Père. Dieu est esprit, et II faut que ceux qui l’adorent, l’adorent en esprit et en vérité. La femme lui dit : Je sais que le Messie ",
+        "Italiano": "In quel tempo Gesù giunse ad una città della Samaria, detta Sichar, vicino alla tenuta che da Giacobbe fu data al suo figlio Giuseppe. Là vi era pure il pozzo di Giacobbe. Or dunque Gesù, stanco dal viaggio, se ne stava così sedendo presso il pozzo. Era circa l'ora sesta. Venne ad attinger acqua una Samaritana. Gesù le disse: «Dammi da bere». I suoi discepoli erano andati in città a comprar da mangiare. La Samaritana gli rispose: «Come mai tu che sei giudeo chiedi da bere a me che sono Samaritana?». Infatti, i giudei non hanno relazione con i Samaritani. Gesù le rispose: «Se tu conoscessi il dono di Dio, e chi è che ti dice: “Dammi da bere”; tu stessa forse ne avresti chiesto a lui, che t'avrebbe dato acqua viva». La donna gli rispose: «Signore, non hai con che attingere e il pozzo è profondo, donde hai questa acqua viva? Sei tu forse più di Giacobbe nostro padre, che diede a noi questo pozzo, e vi bevve lui stesso e i suoi figli e il suo bestiame?». E Gesù a lei: «Chi beve di questa acqua tornerà ad aver sete; ma chi beve l'acqua che gli darò io, non avrà più sete in eterno; anzi l'acqua da me data, diventerà in lui fontana d'acqua viva, zampillante in vita eterna». E la donna: «Signore, dammi di quest'acqua, affinché non abbia mai più sete, e non abbia a venir qui, per attingere». Gesù le disse: «Va' a chiamare tuo marito e ritorna qui». Rispose la donna: «Non ho marito» . E Gesù: «Hai detto bene, non ho marito, perché ne hai avuti cinque e quello che hai ora non è tuo marito: in questo hai detto la verità». Gli disse la donna: «Signore, m'accorgo che tu sei profeta. I nostri padri hanno adorato Iddio su questo monte e voi dite che il luogo dove bisogna adorare è in Gerusalemme». Gesù le rispose: «Credimi, donna; è venuto il tempo in cui né su questo monte né in Gerusalemme adorerete il Padre. Voi adorate quello che non conoscete; noi adoriamo quello che conosciamo: perché la salvezza vien dai Giudei. Ma l'ora viene, anzi è questa, in cui i veri adoratori adoreranno il Padre in spirito e verità. Ché il Padre vuol tali adoratori. Dio è spirito e quei che l’adorano, bisogna che l'adorino in spirito e verità». Gli disse la donna: «So che ha da venire il messia, che vuol dire Cristo; quando sarà venuto lui, ci istruirà di tutto». E Gesù a lei: «Son io che ti parlo». In quel momento arrivarono i suoi discepoli e si meravigliarono che parlasse con una donna. Nessuno però gli disse: «Che cerchi? o di che parli con lei?». Intanto la donna, lasciata la sua brocca, andò in città a dire a quella gente: «Venite a vedere un uomo il quale mi ha detto tutto quello che ho fatto. Che sia il Cristo?». Uscirono pertanto dalla città e andarono da lui. In quel frattempo i discepoli lo pregavano dicendo: «Maestro, mangia». Ma egli rispose loro: «Io mi nutro di un cibo che voi non conoscete». I discepoli perciò dicevano tra loro: «Forse qualcuno gli ha portato da mangiare!». Gesù, disse loro: «Il mio cibo è fare la volontà di Colui che mi ha mandato, e, così compiere l'opera sua. Non dite voi: Ancora quattro mesi e poi vien la mietitura? Ecco, io vi dico, alzate gli occhi e mirate le campagne che già biondeggiano per la mietitura. Chi miete, riceve la mercede e raccoglie frutto per la vita eterna; sicché ne goda insieme chi semina e chi miete. In questo, proprio, s'avvera quel proverbio: «Altri semina, ed altri miete». Io vi ho mandati a mietere ciò che voi non avete lavorato; altri hanno lavorato, e voi siete sottentrati nel loro lavoro». Or molti Samaritani della città credettero in lui, per le parole della donna che attestava: «Mi ha detto tutto quello che ho fatto». Andati adunque da lui, quei Samaritani lo pregavano di trattenersi con loro. E ci rimase due giorni. E molti più credettero per le Sue parole, e dicevano alla donna: «Noi non crediamo più solo per la tua parola, ma perché abbiamo noi stessi udito e conosciuto che Colui è veramente il Salvatore del mondo».",
+        "Magyar": "Odaért Szamaria egyik városához, Szikarhoz, ez annak a földnek a közelében volt, amelyet Jákob fiának, Józsefnek adott.  Ott volt Jákob kútja. Jézus elfáradt az úton, azért leült a kútnál. A hatodik óra felé járt az idő.  Egy szamariai asszony odament vizet meríteni. Jézus megszólította: „Adj innom!”  Tanítványai ugyanis bementek a városba, hogy élelmet szerezzenek.  A szamariai asszony így válaszolt: „Hogyan? Zsidó létedre tőlem, szamariai asszonytól kérsz inni?” ",
+        "Nederlands": "In die tijd kwam Jezus bij een stad van Samaria, Sichar genaamd; dicht bij het land, dat Jacob aan zijn zoon Jozef geschonken had. Daar bevond zich de put van Jacob. Vermoeid van de reis zette Jezus zich zo bij de put neer. Het was ongeveer het zesde uur. Een vrouw uit Samaria kwam daar water putten. Jezus zeide haar: Geef Mij te drinken. ",
+        "Polski": "Onego czasu: Przybył Jezus do miasta samarytańskiego, zwanego Sychar, niedaleko posiadłości, którą dał Jakub Józefowi, synowi swemu. A była tam studnia Jakubowa i Jezus znużony podróżą siedział tak przy studni. Godzina była prawie szósta. Nadeszła niewiasta samarytańska czerpać wodę. I rzecze jej Jezus: «Daj mi pić». ((Uczniowie bowiem Jego poszli do miasta, aby kupić żywności.)) Rzecze Mu tedy niewiasta samarytańska: «Jakże ty, będąc żydem, możesz prosić o wodę mnie, niewiastę samarytańską?» Żydzi bowiem nie przestają z Samarytanami. A odpowiadając Jezus rzekł jej: «Gdybyś znała dar Boży i kim jest ten, kto ci mówi: Daj mi pić, zapewne prosiłabyś go, a dałby ci wody żywej». Rzecze Mu niewiasta: «Panie, nie masz nawet czym zaczerpnąć, a studnia jest głęboka, skądże tedy masz wodę żywą? Czyż jesteś większy od ojca naszego Jakuba, który dał nam studnię, sam z niej pił, synowie jego i trzody?» A odpowiadając Jezus rzekł jej: «Każdy, kto pije tę wodę, znowu pragnąć będzie; kto jednak napije się wody, którą ja mu dam, nigdy nie uczuje pragnienia. Ale woda, którą ja mu dam, stanie się w nim źródłem wody wytryskującej ku żywotowi wiecznemu». Rzecze do Niego niewiasta: «Panie, daj mi tej wody, abym nie odczuwała pragnienia ani tu czerpać przychodziła».  Rzecze jej Jezus: «Idź, zawołaj męża twego i przyjdź tutaj». Odpowiedziała niewiasta mówiąc: «Nie mam męża». Rzekł jej Jezus: «Dobrześ powiedziała: Nie mam męża, bo pięciu mężów miałaś, a ten, którego masz teraz, nie jest twoim mężem; toś prawdę powiedziała». Rzecze do Niego niewiasta: «Panie, widzę, że jesteś Prorokiem. Ojcowie nasi na tej górze oddawali cześć Bogu, a wy twierdzicie, że w Jeruzalem jest miejsce, gdzie Go czcić należy». Rzekł jej Jezus: «Niewiasto, wierz mi, że zbliża się godzina, kiedy ani na tej górze, ani w Jerozolimie nie będziecie oddawali czci Ojcu. Wy czcicie, czego nie znacie, a my czcimy, co znamy, bo z żydów jest zbawienie. Ale nadchodzi godzina i już nadeszła, że prawdziwi czciciele będą oddawać cześć Ojcu w duchu i w prawdzie. Bo i Ojciec takich szuka czcicieli. Duchem jest Bóg, a ci, którzy Go czczą, winni Mu cześć oddawać w duchu i w prawdzie». Rzecze Mu niewiasta: «Wiem, że przyjdzie Mesjasz, zwany Chrystusem, gdy Ten przyjdzie, wszystko nam oznajmi». Rzekł jej Jezus: «Jestem nim ja, który i tobą mówię». A niebawem nadeszli uczniowie Jego i dziwili się, że rozmawiał z niewiastą. Żaden z nich wszakże nie rzekł: «O co pytasz — albo: o czym z nią rozmawiasz». Niewiasta zaś zostawiła dzban swój, poszła do miasta i mówiła do jego mieszkańców: «Pójdźcie i zobaczcie człowieka, który mi powiedział wszystko, com tylko uczyniła. Czy nie jest to Chrystus?» Wyszli tedy z miasta i zdążali do Niego. Tymczasem uczniowie prosili Go mówiąc: «Nauczycielu, jedz». A On im powiedział: «Mam ci ja pokarm do jedzenia, o którym wy nie wiecie». Mówili tedy uczniowie między sobą: «Czyżby kto przyniósł Mu jeść?» Rzekł im Jezus: «Moim pokarmem jest pełnić wolę Tego, który mię posłał, abym wykonał dzieło Jego. Czyż nie mówicie, jeszcze cztery miesiące, a będą żniwa? Otóż powiadam nam: Wznieście oczy wasze, a przypatrzcie się okolicom, jak już bieleją na żniwa. Żniwiarz otrzymuje zapłatę i zbierze plon na żywot wieczny, aby i siewca, i żniwiarz razem się weselili. Tu bowiem sprawdza się przysłowie, że jeden sieje, a kto inny zbiera. Jam was posłał żąć to, czegoście nie wypracowali: inni się trudzili, a wyście weszli w ich moje». A wielu Samarytan z miasta owego uwierzyło weń dla słowa niewiasty świadczącej: powiedział mi wszystko, com tylko uczyniła. Gdy tedy przyszli do Niego Samarytanie, prosili Go, aby tam pozostał. I pozostał tam dwa dni. I daleko więcej uwierzyło weń dla nauki Jego. A do niewiasty mówili: «Już nie dla twego opowiadania wierzymy, ale samiśmy słyszeli i przekonali się, że ten jest prawdziwie Zbawicielem świata».",
+        "Portugues": "Naquele tempo, veio Jesus a uma cidade de Samaria, chamada Sichar, próximo do campo que Jacob havia dado a seu filho José. Era ah a fonte de Jacob. Jesus, estando fatigado da viagem, sentou-se à beira do poço. Era cerca da hora sexta do dia. Veio, então, uma mulher de Samaria buscar água. Jesus disse-lhe: «Dá-me de beber», pois os seus discípulos tinham ido à cidade comprar víveres. A mulher samaritana disse-Lhe: «Como é que Vós, que sois judeu, me pedis de beber, sendo eu samaritana?» "
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) IN(f)tén(gxf_e/gffd~)de(e_d) *() vo(dedd'd/e_d)ci(d.) (,) o(d)ra(e)ti(f!gwh)ó(hihh)nis(f_e/hhf!gwh) me(d_e_d_)æ,(d.) (:) Rex(de) me(e.f!gw!hvGF)us,(fg) (,) et(ef) De(fg!hvGF)us(ef) me(f!hhh/ih'/ihhe.)(,)(hhh/ih'/ig'hvF'Ef!gwh_f)us :(f.) (:) quó(df'!hvh'1h!iwj_ijvIH)ni(hi!jvIH'i)am(ih..) (,) ad(hi) te(hi!jvIH'hvGF) o(fh)rá(df'!hvihi)bo,(gh/if..) (;) Dó(d!ewfefhhh//ih'/ihhe. ehG'Fh)mi(d_e_d_)ne.(d.) (::)",
+      "availableTranslations": {
+        "English": "Heed my call for help, my King, and my God! To You I pray, O Lord.",
+        "Espanol": "Atiende a la voz de mis suplicas, oh mi Rey y Dios mío: porque a ti enderezare mi oración, Señor.",
+        "Francais": " Soyez attentif à là voix de ma prière, mon roi et mon Dieu car c’est vous que je prierai, Seigneur.",
+        "Italiano": "Ascolta il mio gemito, mio Re e mio Dio; poiché a te mi raccomando, o Signore.",
+        "Magyar": "Méltasd figyelmedre hangos könyörgésem, Királyom és én Istenem: mert hozzád intézem imádságomat, Uram.",
+        "Nederlands": "Inténde voci orationis meæ, Rex meus et Deus meus: quóniam ad te orábo, Dómine.",
+        "Polski": "Zwróć się na głos modlitwy mojej, mój Królu i Boże, gdyż do Ciebie się modlę, o Panie.",
+        "Portugues": "Sede atento à voz da minha oração, ó meu Rei e meu Deus; pois a Vós, Senhor, orarei."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Réspice, quǽsumus, Dómine, propítius ad múnera, quæ sacrámus: ut tibi grata sint, et nobis salutária semper exsístant.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Look with favor, we beseech You, O Lord, upon the gifts we offer You, that they may be pleasing to you and ever helpful to our salvation.",
+        "Espanol": "Te rogamos, Señor, que mires propicio los dones que te consagramos, a fin de que sean agradables para ti y saludables siempre para nosotros.",
+        "Francais": "Regardez favorablement, nous vous en supplions, Seigneur, tes dons que nous allons consacrer, en sorte qu’ils vous soient agréables et qu’ils servent toujours à notre salut.",
+        "Italiano": "O Signore, guarda benigno a queste oblazioni che ti consacriamo affinché a te siano gradite e a noi sempre salutari.",
+        "Magyar": "Tekints kegyesen, kérünk, Urunk, az adományokra, melyeket neked szentelünk: hogy neked kedvesek legyenek, nekünk pedig üdvösségünkre váljanak.",
+        "Nederlands": "Wij vragen U, Heer, geef goedgunstig acht op de gaven, die wij U wijden, opdat zij U welgevallig mogen zijn en ons voor altijd tot heil strekken.",
+        "Polski": "Prosimy Cię, Panie, wejrzyj łaskawie na dary, które Ci składamy w ofierze, niech będą Tobie miłe, a nam zawsze przynoszą zbawienie. ",
+        "Portugues": "Olhai propício, Senhor, Vos suplicamos, para estes dons que Vos consagramos, a fim de que Vos sejam agradáveis, e a nós sejam sempre salutares."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) QUI(e) bí(g)be(f)rit(e) a(gh)quam,(fgff) *(,) quam(d) e(gh'i)go(h) da(h_g/h!iwji/jkj)bo(h) e(g.f!gwhgh)i,(hg..) (;) di(h)cit(ixgiHG'hffe) Dó(e)mi(egff)nus,(eef.) (:) fi(dg!hi)et(h) in(h) e(h)o(hg) (,) fons(h!iwj) a(ghg)quae(efef.) sa(d)li(e)én(ixgh!jvH'GF'gwh!ivH~G~)tis(hg..) (;) in(g) vi(g_e/f!gwh)tam(h.) ae(ixhiG'Fghg)tér(egff)nam.(fe..) (::)",
+      "availableTranslations": {
+        "English": "He who drinks of the water that I will give him, says the Lord, it shall become in him a fountain of water, springing up unto life everlasting.",
+        "Espanol": "El que bebiere del agua que yo le daré, dice el Señor, tendrá  dentro de sí un manantial de agua que manara hasta la vida eterna.",
+        "Francais": "Celui qui boira de l’eau que je lui donnerai, dit le Seigneur, elle deviendra en lui une source d’eau jaillissant jusqu’à la vie éternelle.",
+        "Italiano": "L'acqua che darò io diventerà in chi la beve fontana zampillante per la vita eterna.",
+        "Magyar": "Aki abból a vízből iszik, melyet én adok neki, mondá az Úr, az örökéletre szökellő vízforrás lesz benne.",
+        "Nederlands": "Wie het water drinkt, dat Ik hem geef, zegt de Heer, in hem zal een bron ontstaan, die tot eeuwig leven ontspringt.",
+        "Polski": "Gdy kto napije się wody, którą ja mu dam, mówi Pan, stanie się ona w nim źródłem wody wytryskującej ku żywotowi wiecznemu.",
+        "Portugues": "Aquele que beber da água que Eu lhe der, diz o Senhor, terá em si uma fonte de água impetuosa para a vida eterna."
+      },
+      "mode": "3",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Hujus nos, Dómine, percéptio sacraménti mundet a crimine: et ad cœléstia regna perdúcat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May the reception of this sacrament, O Lord, cleanse us from sin and bring us into the heavenly kingdom.",
+        "Espanol": "Haz, Señor, que la percepción de este sacramento nos purifique de todos los crímenes y nos conduzca al reino celestial.",
+        "Francais": "Que la réception de ce sacrement nous purifie de toute culpabilité, Seigneur, et qu’elle nous conduise au royaume céleste.",
+        "Italiano": "O Signore, questa santa Comunione ci purifichi dal peccato e ci conduca al regno celeste.",
+        "Magyar": "E szentség vétele, Urunk, tisztítson meg minket a bűntől és vezessen el a mennyei birodalomba.",
+        "Nederlands": "Heer, laat het ontvangen van dit sacrament ons van zonden zuiveren en tot het hemelrijk leiden.",
+        "Polski": "Panie, niechaj przyjęcie tego Sakramentu oczyści nas z grzechu i doprowadzi do Królestwa Niebieskiego.",
+        "Portugues": "Que a recepção deste Sacramento, Senhor, nos limpe dos nossos crimes e nos guie até ao reino celestial."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Oratio super Populum",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus. Humiliáte cápita vestra Deo. Præsta, quǽsumus, omnípotens Deus: ut, qui in tua protectióne confídimus, cuncta nobis adversántia, te adjuvánte, vincámus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray. Bow your heads to God. Grant, we beseech You, almighty God, that we who trust in Your protection may, by Your assistance, triumph over all adversities.",
+        "Espanol": "Oremos. Humillad ante Dios vuestras cabezas. Te suplicamos, oh Dios todopoderoso, nos concedas que quienes confiamos en tu protección venzamos con tu ayuda todas nuestras adversidades.",
+        "Francais": "Prions. Humiliez vos têtes devant Dieu. Nous vous en supplions, Dieu tout-puissant, accordez-nous à nous qui nous confions en votre protection, de vaincre grâce à votre assistance tout ce qui s’oppose à notre bien.",
+        "Italiano": "Preghiamo. Inchinatevi davanti a Dio. Ti preghiamo, o Dio onnipotente: fa' che noi, fiduciosi nella tua grazia, possiamo vincere col tuo aiuto tutte le nostre avversità.",
+        "Magyar": "Könyörögjünk. Alázzátok meg fejeteket Isten előtt. Add meg, kérünk, mindenható Isten, hogy mi, akik oltalmadban bízunk, segítségeddel minden rosszat legyőzhessünk.",
+        "Nederlands": "Laat ons bidden. Buigt nederig uw hoofd voor God. Wij vragen U, almachtige God, laat ons, die op uw bescherming vertrouwen, al wat ons in de weg treedt, met uw hulp mogen overwinnen.",
+        "Polski": "Módlmy się. Pochylcie głowy wasze przed Bogiem. Wszechmogący Boże, zaufaliśmy Twojej opiece, spraw, prosimy, abyśmy za Twoją pomocą pokonali wszelkie przeciwności.",
+        "Portugues": "Oremos.  Inclinai as vossas cabeças diante de Deus. Ó Deus omnipotente, Vos imploramos, dignai-Vos corroborar a confiança que em Vós depositamos, a fim de que com vosso socorro possamos vencer todas as adversidades."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

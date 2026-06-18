@@ -1,0 +1,804 @@
+{
+  "rule": [
+    "Gloria",
+    "Credo"
+  ],
+  "feast": "Sexta die infra Octavam Nativitatis Beatæ Mariæ Virginis",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) SAl(ce!fg)ve(f.) *(,) san(f)cta(fe) Pa(f!gwh_f)rens,(f.) (;) e(ef)ní(hhi)xa(h) pu(h)ér(h)pe(h)ra(hiHG') Re(hggfg)gem,(gf..) (:) qui(eh) cæ(h)lum(hhh) ter(fe~)rám(f!hhf/gf)que(ef) re(fhhfgv_F~E~)git(fe..) (;) in(ef) sǽ(hh)cu(hi)la(f.) (,) sæ(f!h'i)cu(hiHG')ló(hggfg)rum.(gf..) (::) <i>T. P.</i> Al(ef'h~)le(h_g)lú(hih){ia},(hhhffe.) (,) al(fh~)le(hghf)lú(f_g_f_){ia}.(f.) (::) <i>Ps.</i> E(e)ru(fe)ctá(eh)vit(h) cor(h) me(h)um(hg) ver(hi)bum(i) bo(hi)num :(h.) *(:) di(hf)co(fh) e(h)go(h) ó(h)pe(h')ra(i) me(hf)a(h) re(ge)gi.(fgf.) (::) Gló(e)ri(fe)a(eh) Pa(h)tri.(h) (::) <eu>E(h') u(i) o(hf) u(h) a(ge) e.</eu>(fgf.) (::)",
+      "availableTranslations": {
+        "English": "Hail, holy Mother, who in childbirth brought forth the King Who rules heaven and earth world without end. My heart overflows with a goodly theme; as I sing my ode to the King.",
+        "Francais": "Salut, ô Mère sainte ; mère qui avez enfanté le Roi qui régit le ciel et la terre dans les siècles des siècles. De mon cœur a jailli une parole excellente, c’est que je consacre mes œuvres à mon Roi.",
+        "Italiano": "Salve, o Madre Santa, che hai dato alla luce il Re: che governa il cielo e la terra nei secoli dei secoli. Erompe da mio cuore una fausta parola: io canto le mie opere al Re.",
+        "Magyar": "Üdvözlégy szent szülő, mert te szülted a Királyt, ki az eget és a földet kormányozzae mindörökkön örökké. (Allelúja, allelúja.) Szívem ünnepi szózattól árad, zengem dalomat a Királynak.",
+        "Nederlands": "Salve, sancta parens, eníxa puérpera Regem: qui cælum terrámque regit in sǽcula sæculórum. Eructávit cor meum verbum bonum: dico ego ópera mea Regi."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Fámulis tuis, quǽsumus, Dómine, cœléstis grátiæ munus impertíre: ut, quibus beátæ Vírginis partus éxstitit salútis exórdium; Nativitátis ejus votíva sollémnitas pacis tríbuat increméntum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Bestow upon Your servants, we beseech You, O Lord, the gift of heavenly grace, that, as the child-bearing of the Blessed Virgin stood for the beginning of our salvation, so may the solemn feast of her Nativity bring about an increase of peace.",
+        "Francais": "Seigneur, nous vous prions d’accorder à vos serviteurs le don de la grâce céleste ; et, comme l’enfantement de la bienheureuse Vierge a été le principe de leur salut, qu’ainsi la pieuse solennité de sa Nativité leur procure un accroissement de paix.",
+        "Italiano": "O Signore, Te ne preghiamo, concedi ai tuoi servi il dono della grazia celeste, affinché, a quanti il parto della beata Vergine fu principio di salvezza, la votiva festa della sua natività procuri incremento di pace.",
+        "Magyar": "Engedd, kérünk, Úristen, hogy mi, a te szolgáid, folytonos lelki és testi jólétnek örvendhessünk és a boldogságos, mindenkoron Szűz Máriának dicső közbenjárása által a jelen szomorúságtól megszabadulva, örökkétartó örömet élvezzünk.",
+        "Nederlands": "Wij vragen U, Heer, schenk uw dienaren de gave van de hemelse genade, opdat het plechtig feest van de geboorte van de heilige Maagd aan hen, voor wie haar geboorte het begin van het heil betekende, vermeerdering van vrede mag brengen."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Dóminus possedit me in inítio viárum suárum, ántequam quidquam fáceret a princípio. Ab ætérno ordináta sum, et ex antíquis, ántequam terra fíeret. Nondum erant abýssi, et ego jam concépta eram: necdum fontes aquárum erúperant: necdum montes gravi mole constíterant: ante colles ego parturiébar: adhuc terram non fécerat et flúmina et cárdines orbis terræ. Quando præparábat cœlos, áderam: quando certa lege et gyro vallábat abýssos: quando æthera firmábat sursum et librábat fontes aquárum: quando circúmdabat mari términum suum et legem ponébat aquis, ne transírent fines suos: quando appendébat fundaménta terræ. Cum eo eram cuncta compónens: et delectábar per síngulos dies, ludens coram eo omni témpore: ludens in orbe terrárum: et delíciæ meæ esse cum filiis hóminum. Nunc ergo, filii, audíte me: Beáti, qui custódiunt vias meas. Audíte disciplínam, et estóte sapiéntes, et nolíte abjícere eam. Beátus homo, qui audit me et qui vígilat ad fores meas cotídie, et obsérvat ad postes óstii mei. Qui me invénerit, invéniet vitam et háuriet salútem a Dómino.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "The Lord begot me, the firstborn of His ways, the forerunner of His prodigies of long ago; from of old I was poured forth, at the first, before the earth. When there were not depths I was brought forth, when there were not fountains or springs of water; before the mountains were settled into place, before the hills, I was brought forth; while as yet the earth and the fields were not made, nor the first clods of the world. When He established the heavens I was there, when He marked out the vault over the face of the deep; when He made firm the skies above, and poised the fountains of waters; when He set for the sea its limit, so that the waters should not transgress His command; when He fixed fast the foundations of the earth, then was I beside Him as His craftsman, and I was His delight day by day, playing before Him all the while, playing on the surface of His earth and I found delight in the sons of men. So now, O children, listen to me; happy those who keep my ways. Hear instruction, and be wise, and refuse it not. Happy the man who obeys me, watching daily at my gates, waiting at my doorsteps; for he who finds me finds life, and wins favor from the Lord.",
+        "Francais": "Le Seigneur m’a possédée au commencement de ses voies, avant de faire quoi que ce soit, dès le principe. J’ai été établie dès l’éternité, et dès les temps anciens, avant que la terre fût créée. Les abîmes n’étaient pas encore, et déjà j’étais conçue ; les sources des eaux n’avaient pas encore jailli ; les montagnes ne s’étaient pas encore dressées avec leur pesante masse ; j’étais enfantée avant les collines. Il n’avait pas encore fait la terre, ni les fleuves, ni les bases du globe terrestre. Lorsqu’il préparait les cieux, j’étais là ; lorsqu’il environnait les abîmes de leurs bornes, par une loi inviolable ; lorsqu’il affermissait l’air dans les régions supérieures, et qu’il équilibrait les sources des eaux ; lorsqu’il entourait la mer de ses limites, et qu’il imposait une loi aux eaux, pour qu’elles ne franchissent point leurs bornes, lorsqu’il posait les fondements de la terre, j’étais avec lui, réglant toutes choses, et j’étais chaque jour dans les délices, me jouant sans cesse devant lui, me jouant sur le globe de la terre, et mes délices sont d’être avec les enfants des hommes. Maintenant donc, mes fils, écoutez-moi : Heureux ceux qui gardent mes voies. Ecoutez mes instructions et soyez sages, et ne les rejetez pas. Heureux l’homme qui m’écoute, et qui veille tous les jours à ma porte, et qui se tient à la porte de ma maison. Celui qui me trouvera, trouvera la vie, et puisera le salut dans le Seigneur.",
+        "Italiano": "Il Signore mi possedette dal principio delle sue azioni, prima delle sue opere, fin d’allora. Fui stabilita dall’eternità e fin dalle origini, prima che fosse fatta la terra. Non erano ancora gli abissi e io ero già concepita: non scaturivano ancora le fonti delle acque: i monti non posavano ancora nella loro grave mole; io ero generata prima che le colline: non era ancora fatta la terra, né i fiumi, né i càrdini del mondo. Quando preparava i cieli, io ero presente: quando cingeva con la volta gli abissi: quando in alto dava consistenza alle nubi e in basso dava forza alle sorgenti delle acque: quando fissava i confini dei mari e stabiliva che le acque non superassero i loro limiti: quando gettava le fondamenta della terra. Ero con Lui e mi dilettava ogni giorno e mi ricreavo in sua presenza e mi ricreavo nell’universo: e le mie delizie sono lo stare con i figli degli uomini. Dunque, o figli, ascoltatemi: Beati quelli che battono le mie vie. Udite l’insegnamento, siate saggi e non rigettatelo: Beato l’uomo che mi ascolta e veglia ogni giorno all’ingresso della mia casa, e sta attento sul limitare della mia porta. Chi troverà me, troverà la vita e riceverà la salvezza dal Signore.",
+        "Magyar": "„Alkotó munkája elején teremtett az Úr, ősidőktől fogva, mint legelső művét.  Az idők előtt alkotott, a kezdet kezdetén, a föld születése előtt.  Amikor létrehozott, még ősvizek sem voltak, és a forrásokból még nem tört elő víz.  Mielőtt a hegyek keletkeztek volna, korábban hívott létre, mint a halmokat,  amikor a földet és a mezőket még nem alkotta meg, és a föld első rögét sem.  Ott voltam, amikor az eget teremtette, s az ősvíz színére a kört megvonta,  amikor a felhőket fölerősítette, s az ősforrások erejét megszabta;  amikor kijelölte a tenger határát - és a vizek nem csaptak ki -, amikor megrajzolta a föld szilárd részét.  Ott voltam mellette mint a kedvence, napról napra csak bennem gyönyörködött, mindig ott játszottam a színe előtt.  Ott játszottam az egész földkerekségen, s örömmel voltam az emberek fiai között.”  „Nos hát, fiaim, hallgassatok rám! Jól járnak, akik megtartják útjaimat.  Halljátok meg intő szavamat: legyetek bölcsek, s ne tagadjátok meg tőle a figyelmet!  Boldog ember, aki hallgat rám, aki napról napra őrködik ajtómnál, s őrzi kapuim félfáit.  Aki megtalál, az életet talál, és elnyeri az Úrnak tetszését.",
+        "Nederlands": "De Heer bezat mij reeds bij de aanvang van zijn wegen, voordat Hij iets maakte in den beginne. Van eeuwigheid ben ik aangesteld, en van oudsher, vóórdat de aarde bestond. Nog was de wereldzee er niet, en ik was reeds ontvangen, toen er nog geen waterbronnen waren ontsprongen; nog waren er geen bergen in machtig gevaarte gegrondvest; vóórdat er heuvelen waren, ontving ik het bestaan; toen Hij de wereld nog niet had geschapen, noch de stromen of steunpunten der aarde. Toen Hij de hemelen maakte, was ik er bij, toen Hij aan de zeeën vaste wetten stelde en grenzen; toen Hij de wolkenhemel vastzette daarboven, en de watervloeden in evenwicht bracht. Toen Hij aan de zee haar grenslijn trok, en de wateren gebood niet buiten de oevers te treden; toen Hij de grondslagen der aarde vastlegde. Ik was bij Hem, en bracht met Hem alles tot stand; en alle dagen genoot ik, en vond mijn vreugde steeds voor zijn ogen; mijn vreugde vond ik op aarde, want mijn genot is te zijn bij de kinderen der mensen. Nu dan, kinderen, luistert naar mij: gelukkig zijn zij, die mijn wegen bewandelen. Aanhoort mijn onderrichtingen en weest verstandig, en wilt ze niet van u afwerpen. Gelukkig de man, die luistert naar mij, en dagelijks de wacht houdt aan mijn poorten, en op wacht staat aan de post van mijn deur. Hij, die mij vindt, vindt het leven, en hij zal heil verwerven van de Heer!"
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale, Alleluia et Tractus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(fe)ne(fg)dí(g)cta(gv.ff/ded.) (,) *() et(f) ve(dfe)ne(fg)rá(gff)bi(df)lis(egF'E) es,(e.) (;) Vir(ed~)go(g) Ma(hj)rí(i!jw!kvJI'H//fhf/gh)a :(g.) (:) quae(df) si(feg)ne(gefd) ta(cd)ctu(d.) pu(f)dó(gh)ris(ixh.0/ivHG'h/ef'g) (;) in(gh~)vén(hfhhvGE'fd)ta(cd) es(d.) (,) ma(dc/{/ix}fg'h)ter(h.0/ivHG'ef'g) Sal(g)va(df)tó(efED.)(,)(ixf.0/hiHG'ge./ghGF'Ef_gF'E)ris.(e.) (::) <sp>V/</sp>. Vir(h)go(ixjhhgh/ef'g eg!ivHGhvFDe.) (,) (ghF'Eghfff'1dfED'fg'h) (,) De(gf/gh)i(g) Gé(f)ni(ghgh)trix,(hgh'1f) (;) quem(ed) to(f_g//ef!hvGE'fd)tus(d.) (,) non(e) ca(c)pit(d) or(d!ff//fffdfvED'ef'g)bis,(ghhg.) (:) in(f) tu(f)a(ghgh) se(h) clau(hgh'1f)sit(ed) (,) ví(f_g//ef!hvGE'fd)sce(cd)ra(d.) (;) *() fa(cd!ff)ctus(fg) ho(g_f/hgh)mo.(hhf.) (,) (h_ghvFDgff'fvEC//ddc/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
+      "availableTranslations": {
+        "English": "Blessed and venerable are you, O Virgin Mary, who, without spot to your maidenhood, were made the Mother of the Saviour.",
+        "Francais": "Vous êtes bénie et digne de vénération, Vierge Marie, qui avez été mère du Sauveur, sans que votre pureté ait subi d’atteinte. Vierge, Mère de Dieu, Celui que tout l’univers ne peut contenir, s’est enfermé dans votre sein en se faisant homme. Alléluia, alléluia. Vous êtes heureuse, sainte Vierge Marie, et tout à fait digne de louange, car de vous est sorti le soleil de justice, le Christ notre Dieu. Alléluia.",
+        "Italiano": "Benedetta e venerabile sei tu, o Vergine Maria: che senza offesa al pudore diventasti Madre del Salvatore. O Vergine, Madre di Dio, nelle tue viscere, fatto uomo, si chiuse Colui che tutto l’universo non può contenere. Allelúia, allelúia. Beata sei, o santa Vergine Maria, e degnissima di ogni lode: poiché da te nacque il sole di giustizia, Cristo, Dio nostro. Allelúia.",
+        "Nederlands": "Gezegend en alle lof waardig zijt Gij, Maagd Maria. Zonder smet op uw reinheid zijt Gij Moeder van de Verlosser bevonden. Maagd, Moeder van God, die de hele wereld niet kan bevatten, Hij sloot zich in uw schoot op, toen Hij mens werd. "
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) AL(g)le(ghG'Fg)lú(h/jh/jhhg~){ia}.(g'//hvG'Fg.) <clear>*(;) <i>ij.</i>(hjjikvJHG.ihj/hiHG.) (,) (kkg//hiHG.iih!iw!jvIH'hg.) (::) <sp>V/</sp>. Fe(gjji)lix(i/jkJH'hg) es,(g.) (,) sa(hgh)cra(fh!jjlvKJH'G) Vir(fg~)go(g.) (,) Ma(ghG'Fg/hj)rí(ghg___)a,(g.) (:) et(g) o(ghG~'F~)mni(f) lau(hg/jjhivHG.)(,)(kkg//hiHG.iih!iw!jvI~H~)de(hg) di(hih')gnís(g)si(fg)ma :(g.) (:) qui(gd)a(fe) ex(fg) te(g.) or(hg/hf//gh!jvHGef!gvFEfg)tus(dc) est(c.) (;) sol(gf) ju(fh)stí(hg)ti(fg)ae,(g.) (,) Chri(gh)stus(g) De(g)us(ghG'Fg) ()*() no(h/jh/jhhg~)ster.(g'//hvG'Fg.) (,) (hjjikvJHG.ihj/hiHG.) (,) (kkg//hiHG.iih!iw!jvIH'hg.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. Happy are you, O Holy Virgin Mary, and most worthy of all high praise; for out of you has risen the sun of justice, Christ our God. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Gelukkig zijt Gij, heilige Maagd Maria, en alle lof waardig, want uit U is opgegaan de Zon der gerechtigheid, Christus, onze God. Alleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_paschali_tempore",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) AL(c)le(ee)lú(efehvGF'ge//fvED'C){ia}.(e.) *(;) <i>ij.</i>(iijh/iie./giH'GF'ge/ffe.) (::) <sp>V/</sp>. Vir(eefehvGF'f)ga(e.) Jes(ei)se(jh/iigfge.) fló(e)ru(fvED'C)it :(e.) (:) Vir(ef'g)go(fh//giH'GF'ge.) (,) De(ef/hefvED'C)um(e.) (;) et(e) hó(ef/hgfhg)mi(f)nem(g) gé(hgh)nu(fefvED'C)it :(e.) (:) pa(ii)cem(e.) De(ijIH'i)us(ig) réd(i)di(hvGF)dit,(hvGF'ge.) (;) in(e) se(fg) re(g)con(i)cí(hvGF'ge)li(fvED'C)ans(e.) *(;) i(c)ma(ee) sum(efehvGF'ge//fvED'C)mis.(e.) (;) (iijh/iie./giH'GF'ge/ffe.) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. Happy are you, O Holy Virgin Mary, and most worthy of all high praise; for out of you has risen the sun of justice, Christ our God. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Gelukkig zijt Gij, heilige Maagd Maria, en alle lof waardig, want uit U is opgegaan de Zon der gerechtigheid, Christus, onze God. Alleluia."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) AL(ef~)le(f/hfghvGE.f'1//hf/gf)lú(ef~){ia}.(f'hvGF.) <clear>*(;) <i>ij.</i>(f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::) <sp>V/</sp>. A(ef)ve(fg/h_f/g_e) Ma(fg!hvGF)rí(ef)a,(f.) (,) grá(fg)ti(e)a(f) ple(fiivHF'E)na :(f.) (;) <nlba>Dó(i_h)mi(i_hivHF'E)nus</nlba>(f.) te(h_g/h_ghvGF'E)cum :(f'hvGF.) (:) be(f)ne(gh'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(;)(fg!h'i//hihf!gwhgh/fgffe//fg!hvGF'Ef.)(,)(fg!h'i)dí(f_e)cta(e_c) tu(efhvGF.) (;) *() in(ef~) mu(f)li(ef)é(f/hfghvGE.f'1//hf/gf)ri(ef)bus.(f'hvGF.) (;) (f'ivHG'F//g'hvGF'fe.) (,) (f'ivHG'F//e!hhhvGFggf.0) (::)",
+      "availableTranslations": {
+        "English": "Allelúja, allelúja. Happy are you, O Holy Virgin Mary, and most worthy of all high praise; for out of you has risen the sun of justice, Christ our God. Alleluia.",
+        "Nederlands": "Allelúja, allelúja. Gelukkig zijt Gij, heilige Maagd Maria, en alle lof waardig, want uit U is opgegaan de Zon der gerechtigheid, Christus, onze God. Alleluia."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "in_quadragesima",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(fe)ne(fg)dí(g)cta(gv.ff/ded.) (,) *() et(f) ve(dfe)ne(fg)rá(gff)bi(df)lis(egF'E) es,(e.) (;) Vir(ed~)go(g) Ma(hj)rí(i!jw!kvJI'H//fhf/gh)a :(g.) (:) quae(df) si(feg)ne(gefd) ta(cd)ctu(d.) pu(f)dó(gh)ris(ixh.0/ivHG'h/ef'g) (;) in(gh~)vén(hfhhvGE'fd)ta(cd) es(d.) (,) ma(dc/{/ix}fg'h)ter(h.0/ivHG'ef'g) Sal(g)va(df)tó(efED.)(,)(ixf.0/hiHG'ge./ghGF'Ef_gF'E)ris.(e.) (::) <sp>V/</sp>. Vir(h)go(ixjhhgh/ef'g eg!ivHGhvFDe.) (,) (ghF'Eghfff'1dfED'fg'h) (,) De(gf/gh)i(g) Gé(f)ni(ghgh)trix,(hgh'1f) (;) quem(ed) to(f_g//ef!hvGE'fd)tus(d.) (,) non(e) ca(c)pit(d) or(d!ff//fffdfvED'ef'g)bis,(ghhg.) (:) in(f) tu(f)a(ghgh) se(h) clau(hgh'1f)sit(ed) (,) ví(f_g//ef!hvGE'fd)sce(cd)ra(d.) (;) *() fa(cd!ff)ctus(fg) ho(g_f/hgh)mo.(hhf.) (,) (h_ghvFDgff'fvEC//ddc/da..) (,) (cd!fvvDC'd!ff/gff/ded.) (::)",
+      "availableTranslations": {
+        "English": "Blessed and venerable are you, O Virgin Mary, who, without spot to your maidenhood, were made the Mother of the Saviour.",
+        "Francais": "Vous êtes bénie et digne de vénération, Vierge Marie, qui avez été mère du Sauveur, sans que votre pureté ait subi d’atteinte. Vierge, Mère de Dieu, Celui que tout l’univers ne peut contenir, s’est enfermé dans votre sein en se faisant homme. Alléluia, alléluia. Vous êtes heureuse, sainte Vierge Marie, et tout à fait digne de louange, car de vous est sorti le soleil de justice, le Christ notre Dieu. Alléluia.",
+        "Italiano": "Benedetta e venerabile sei tu, o Vergine Maria: che senza offesa al pudore diventasti Madre del Salvatore. O Vergine, Madre di Dio, nelle tue viscere, fatto uomo, si chiuse Colui che tutto l’universo non può contenere. Allelúia, allelúia. Beata sei, o santa Vergine Maria, e degnissima di ogni lode: poiché da te nacque il sole di giustizia, Cristo, Dio nostro. Allelúia.",
+        "Nederlands": "Gezegend en alle lof waardig zijt Gij, Maagd Maria. Zonder smet op uw reinheid zijt Gij Moeder van de Verlosser bevonden. Maagd, Moeder van God, die de hele wereld niet kan bevatten, Hij sloot zich in uw schoot op, toen Hij mens werd. "
+      },
+      "mode": "4",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(f3) GAu(f)de(fv.eee_c/d_b bc/def./ghggf.0) (,) *() Ma(ef'h)rí(ghGE')a(f) Vir(g_fg)go,(fe/ggf/gh/iffe.) (:) cun(e)ctas(e) haé(gh)re(f)ses(f) so(f_e/f!gwh'!iv)la(hg/hiih.0) (;) in(ef)ter(eh)e(gh/ih)mí(hvGF')sti.(f/ggf.0) (::) \r\n<sp>V/</sp>. Quae(f) Ga(e)bri(f)é(h'/ihhf/g'/hggf/h'/ihhg/i'/jiig/h'/ighf)lis(f.) (,) Arch(h)án(kxhj/kiig//ijhhvFE'f!hh/ijij.)(,)(kxhj!kvIH'hf/ihhf)ge(fe)li(e.) (;) di(hhg)ctis(e) cre(gh'i)di(h)dí(hvGF')sti.(f/ggf.0) (::) \r\n<sp>V/</sp>. Dum(hi) Vir(i_jI~H~)go(kxiji___/jkI'H//j_i/jkI'H) (,) (jjijvIH//jjijvIH//j_i/jiif.) (;) De(hhg)um(f) et(h) hó(hi'j)mi(jvIH'GhvGF'g)nem(gf..) (;) ge(f')nu(i)í(jiif/hhfjvIH'hvGF)sti(fe/ggf/gh/iffe.) (:) et(e) post(e) par(gh)tum,(f) Vir(f_e/f!gwh'!iv)go,(kxhgi.jkiih.0) (;) in(hi)vi(hhg)o(fe)lá(fh)ta(h) per(h)man(gh/ih)sí(hvGF')sti.(f/ggf.0) (::) \r\n<sp>V/</sp>. De(ef)i(f/hhhvF'E//f_ef.) Gé(ef!hhi)ni(h)trix,(h.) (;) in(hi~)ter(hihhe)cé(fgf)de(g.) *() pro(g) no(i_hivHFg.)(,)(h!jijH'GF)bis.(fe/f!hh/ijI'Gh.) (,) (gh!jvIH'hvGFggf.0) (::)",
+      "availableTranslations": {
+        "English": "Blessed and venerable are you, O Virgin Mary, who, with unsullied virginity, were found to be the Mother of the Saviour. O Virgin, Mother of God, He Whom the whole world does not contain, becoming man, shut Himself in your womb.  Rejoice, O Virgin Mary; alone you have put an end to all heresies. You who believed the words of the Archangel Gabriel. Still a virgin, you brought forth God and man; and after childbirth you remained an inviolate virgin. O Mother of God, intercede for us.",
+        "Francais": "Vous êtes digne de toute bénédiction et de toute vénération, ô Vierge Marie, vous qui, sans avoir rien perdu de votre intégrité corporelle, êtes devenue la mère du Sauveur. Ô Vierge, Mère de Dieu, celui que l'univers entier ne peut contenir, devenu homme, s'est enfermé dans votre sein. Réjouissez-vous, ô Vierge Marie, à vous seule vous avez anéanti toutes les hérésies. Vous qui avez cru aux paroles de l'Archange Gabriel. Car vous avez enfanté un Dieu et un homme, et arpès l'enfantement, ô Vierge, vous êtes demeurée inviolée. Mère de Dieu, intercédez pour nous.",
+        "Italiano": "Tu sei benedetta e venerabile, o Vergine Maria, che senza offesa del pudore sei diventata la Madre del Salvatore. O Vergine Madre di Dio, nel tuo seno, fattosi uomo, si rinchiuse Colui che l'universo non può contenere. Rallegrati, o Vergine Maria, che da sola vincesti tutte le eresie. Tu hai creduto alle parole dell'arcangelo Gabriele. Tu che, Vergine, generasti l'Uomo-Dio, e dopo il parto, rimanesti Vergine inviolata. Madre di Dio, prega per noi.",
+        "Magyar": "Áldott és tiszteletreméltó vagy, Szűz Mária, mert szüzességed sérelme nélkül a Megváltó anyja lettél. Szűz Szülője Istennek, Az, akit az egész világ nem tud befogadni, emberré lévén, tebenned lakozott. Örülj, Szűz Mária, minden tévedést megsemmisítettél tenmagad. Aki hittél Gábriel arkangyal szavainak. Mikor mint szűz Istent és embert szültél; és szülés után is szeplőtelen szűz maradtál. Isten Anyja, esedezzél érettünk.",
+        "Nederlands": "Gezegend en lofwaardig zijt Gij, Maagd Maria. Zonder smet op uw reinheid zijt Gij Moeder van de Verlosser bevonden.  Maagd, Moeder van God, die de hele wereld niet kan bevatten, Hij sloot zich op in uw schoot, toen Hij mens werd.  Verheug U, Maagd Maria. Gij alleen hebt alle ketterijen overwonnen. Gij hebt de woorden van de aartsengel Gabriël geloofd. Toen Gij als Maagd een God en mens hebt gebaard, en na de geboorte ongeschonden Maagd zijt gebleven. Moeder van God, wees onze voorspraak."
+      },
+      "mode": "2",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Liber generatiónis Jesu Christi, fílii David, fílii Abraham. Abraham génuit Isaac. Isaac autem génuit Jacob. Jacob autem génuit Judam et fratres ejus. Judas autem génuit Phares et Zaram de Thamar. Phares autem génuit Esron. Esron autem génuit Aram. Aram autem génuit Amínadab. Amínadab autem génuit Naásson. Naásson autem génuit Salmon. Salmon autem génuit Booz de Rahab. Booz autem génuit Obed ex Ruth. Obed autem génuit Jesse. Jesse autem génuit David regem. David autem rex génuit Salomónem ex ea, quæ fuit Uriæ. Sálomon autem génuit Róboam. Róboam autem génuit Abíam. Abías autem génuit Asa. Asa autem génuit Jósaphat. Jósaphat autem génuit Joram. Joram autem génuit Ozíam. Ozías autem génuit Jóatham. Jóatham autem génuit Achaz. Achaz autem génuit Ezechíam. Ezechías autem génuit Manássen. Manásses autem génuit Amon. Amon autem génuit Josíam. Josías autem génuit Jechoníam et fratres ejus in transmigratióne Babylónis. Et post transmigratiónem Babylónis: Jechonías génuit Saláthiel. Saláthiel autem génuit Zoróbabel. Zoróbabel autem génuit Abiud. Abiud autem génuit Elíacim. Elíacim autem génuit Azor. Azor autem génuit Sadoc. Sadoc autem génuit Achim. Achim autem génuit Eliud. Eliud autem génuit Eleázar. Eleázar autem génuit Mathan. Mathan autem génuit Jacob. Jacob autem génuit Joseph, virum Maríæ, de qua natus est Jesus, qui vocátur Christus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "The book of the origins of Jesus Christ, the Son of David, the son of Abraham. Abraham begot Isaac, Isaac begot Jacob, Jacob begot Judas and his brethren. Judas begot Phares and Zara of Thamar, Phares begot Esron, Esron begot Aram. And Aram begot Aminadab, Aminadab begot Naasson, Naasson begot Salmon. Salmon begot Booz of Rahab. Booz begot Obed of Ruth, Obed begot Jesse, Jesse begot David the king. And David the king begot Solomon of the former wife of Urias. Solomon begot Roboam, Roboam begot Abia, Abia begot Asa. And Asa begot Josaphat, Josaphat begot Joram, Joram begot Ozias. And Ozias begot Joatham, Joatham begot Achaz, Achaz begot Ezechias. And Ezechias begot Manasses, Manasses begot Amon, Amon begot Josias. And Josias begot Jechonias and his brethren at the time of the carrying away to Babylon. And after the carrying away to Babylon Jechonias begot Salathiel, Salathiel begot Zorobabel. And Zorobabel begot Abiud, Abiud begot Eliachim, Eliachim begot Azor. And Azor begot Sadoc, Sadoc begot Achim, Achim, begot Eliud. And Eliud begot Eleazar, Eleazar begot Matthan, Matthan begot Jacob. And Jacob begot Joseph, the husband of Mary, and of her was born Jesus Who is called Christ.",
+        "Francais": "Généalogie de Jésus-Christ, fils de David, fils d’Abraham. Abraham engendra Isaac ; Isaac engendra Jacob ; Jacob engendra Juda et ses frères ; Juda, de Thamar, engendra Pharès et Zara ; Phares engendra Esrom ; Esrom engendra Aram ; Aram engendra Aminadab ; Aminadab engendra Naasson ; Naasson engendra Salmon ; Salmon, de Rahab, engendra Booz ; Booz, de Ruth, engendra Obed ; Obed engendra Jessé ; Jessé engendra le roi David. David engendra Salomon de la femme d’Urie ; Salomon engendra Roboam ; Roboam engendra Abia ; Abia engendra Asa ; Asa engendra Josaphat ; Josaphat engendra Joram ; Joram engendra Ozias ; Ozias engendra Joatham ; Joatham engendra Achaz ; Achaz engendra Ezéchias ; Ezéchias engendra Manassé ; Manassé engendra Amon ; Amon engendra Josias ; Josias engendra Jéchonias et ses frères, au temps de la déportation à Babylone. Après la déportation à Babylone, Jéchonias engendra Salathiel ; Salatheil engendra Zorobabel ; Zorobabel engendra Abioud ; Abioud engendra Eliacim ; Eliacim engendra Azor ; Azor engendra Sadoc ; Sadoc engendra Achim ; Achim engendra Elioud ; Elioud engendra Eléazar ; Eléazar engendra Matthan ; Matthan engendra Jacob ; Jacob engendra Joseph l’époux de Marie, de laquelle est né Jésus, qu’on appelle Christ.",
+        "Italiano": "Libro della generazione di Gesú Cristo, figlio di Davide, figlio di Abramo. Abramo generò Isacco, Isacco generò Giacobbe, Giacobbe generò Giuda e i suoi fratelli. Giuda generò Fares e Zara da Tamar. Fares generò Esron, Esron generò Aram, Aram generò Amínadab, Amínadab generò Naasson, Naasson generò Salmon, Salmon generò Booz da Raab. Booz generò Obed da Ruth, Obed generò Iesse. Iesse generò il re Davide, Davide generò Salomone da colei che era stata di Uria. Salomone generò Roboamo, Roboamo generò Abia, Abia generò Asa, Asa generò Giosafat, Giosafat generò Ioram, Ioram generò Ozia, Ozia generò Ioatam, Ioatam generò Achaz, Achaz generò Ezechia, Ezechia generò Manasse, Manasse generò Amon, Amon generò Giosia, Giosia generò Geconia e i suoi fratelli al tempo della deportazione in Babilonia. Dopo la deportazione in Babilonia Geconia generò Salatiel, Salatiel generò Zorobabele, Zorobabele generò Abiud, Abiud generò Eliacim, Eliacim generò Azor, Azor generò Sadoc, Sadoc generò Achim, Achim generò Eliud, Eliud generò Eleazar, Eleazar generò Matan, Matan generò Giacobbe, Giacobbe generò Giuseppe, sposo di Maria, da cui nacque Gesù chiamato il Cristo.",
+        "Magyar": "Jézus Krisztus, Dávid fiának, Ábrahám fiának nemzetségtáblája.  Ábrahám nemzette Izsákot, Izsák nemzette Jákobot, Jákob nemzette Júdát és testvéreit.  Júdának született Perec és Szerach, Támártól. Perec nemzette Hecromot, Hecrom nemzette Aramot.  Aram nemzette Aminadabot, Aminadab nemzette Nachsont, Nachson nemzette Salmont.  Salmonnak született Boász, Ráchábtól. Boásznak született Jobed, Ruttól. Jobed nemzette Izájt,  Izáj nemzette Dávid királyt. Dávidnak született Salamon, Urija feleségétől.  Salamon nemzette Rechabeámot, Rechabeám nemzette Abiját, Abija nemzette Azát.  Aza nemzette Jozafátot, Jozafát nemzette Jorámot, Jorám nemzette Uziját.  Uzija nemzette Jotámot, Jotám nemzette Acházt, Acház nemzette Hiszkiját.  Hiszkija nemzette Manasszét, Manassze nemzette Amont, Amon nemzette Joziját.  Jozija nemzette Jechonját és testvéreit - a Babilonba való elhurcoláskor.  A Babilonba hurcolás után: Jechonja nemzette Sealtielt, Sealtiel nemzette Zerubbábelt.  Zerubbábel nemzette Abihudot, Abihud nemzette Eljakimot. Eljakim nemzette Acort.  Acor nemzette Cádokot, Cádok nemzette Achimot, Achim nemzette Eliudot.  Eliud nemzette Eleazárt, Eleazár nemzette Mattant, Mattan nemzette Jákobot.  Jákob nemzette Józsefet, Máriának a férjét, aki a Krisztusnak nevezett Jézust szülte.",
+        "Nederlands": "Liber generatiónis Jesu Christi, fílii David, fílii Abraham. Abraham génuit Isaac. Isaac autem génuit Jacob. Jacob autem génuit Judam et fratres ejus. Judas autem génuit Phares et Zaram de Thamar. Phares autem génuit Esron. Esron autem génuit Aram. Aram autem génuit Amínadab. Amínadab autem génuit Naásson. Naásson autem génuit Salmon. Salmon autem génuit Booz de Rahab. Booz autem génuit Obed ex Ruth. Obed autem génuit Jesse. Jesse autem génuit David regem. David autem rex génuit Salomónem ex ea, quæ fuit Uriæ. Sálomon autem génuit Róboam. Róboam autem génuit Abíam. Abías autem génuit Asa. Asa autem génuit Jósaphat. Jósaphat autem génuit Joram. Joram autem génuit Ozíam. Ozías autem génuit Jóatham. Jóatham autem génuit Achaz. Achaz autem génuit Ezechíam. Ezechías autem génuit Manássen. Manásses autem génuit Amon. Amon autem génuit Josíam. Josías autem génuit Jechoníam et fratres ejus in transmigratióne Babylónis. Et post transmigratiónem Babylónis: Jechonías génuit Saláthiel. Saláthiel autem génuit Zoróbabel. Zoróbabel autem génuit Abiud. Abiud autem génuit Elíacim. Elíacim autem génuit Azor. Azor autem génuit Sadoc. Sadoc autem génuit Achim. Achim autem génuit Eliud. Eliud autem génuit Eleázar. Eleázar autem génuit Mathan. Mathan autem génuit Jacob. Jacob autem génuit Joseph, virum Maríæ, de qua natus est Jesus, qui vocátur Christus."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(fg)á(g./hjHG'gf)ta(ghg___) es,(g.) *(,) Vir(jvIHk_j//ijh/ig./hi/jg.)(,)(jvIHk_j//ijh/ig./hi/jg.)(,)(ggghvGFg_d//g!jhi)go(hg..) (,) Ma(ig/h!jjk)rí(hg)a,(gd..) (;) quae(d) ó(d)mni(d)um(d) por(d)tá(dc/d!ff/gh/jg)sti(g.) (;) Cre(h)a(g)tó(gjI'Ghh//fh!jvGF'fd/ef!ghg)rem :(g.) (:) ge(g_d)nu(f_e)í(fhg)sti(g.) (,) qui(g) te(gh) fe(h_g/hiH'Gj_g//hiH'G//fg/hg/hjjh/i_g)cit,(g.) (:) et(hvGF) in(hji) ae(jhj)tér(hjg)num(gfh.) (,) pér(gj)ma(ji)nes(jkJH'//gi. hjIH'//g!jj/h_i_g_) Vir(ghg___)go,(g.) (:) al(g@k!ik~)le(kv.jkj'kvJ'IG.hj/ijHG.)(,)(h!kik./jkj'kvJ'IG.hi//hjg___)lú(ghg___){ia}.(g.) (::)",
+      "availableTranslations": {
+        "English": "Hail, Mary, full of grace, the Lord is with you. Blessed are you among women and blessed is the fruit of your womb. (Alleluja.)",
+        "Francais": "Vous êtes bienheureuse, Vierge Marie, qui avez porté le Créateur de toutes choses ; vous avez enfanté celui qui vous a créée, et vous demeurez à jamais Vierge.",
+        "Italiano": "Beata sei, o Vergine Maria, che hai portato il Creatore di tutti: hai generato chi ti ha fatta e resti Vergine in eterno.",
+        "Nederlands": "Beáta es, Virgo María, quæ ómnium portásti Creatórem: genuísti qui te fecit, et in ætérnum pérmanes Virgo. (Allelúja.)"
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Unigéniti tui, Dómine, nobis succúrrat humánitas: ut, qui natus de Vírgine, matris integritátem non mínuit, sed sacrávit; in Nativitátis ejus sollémniis, nostris nos piáculis éxuens, oblatiónem nostram tibi fáciat accéptam Jesus Christus, Dóminus noster:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "May the humanity of Your only-begotten Son help us, O Lord, as He, Who, born of a virgin did not lessen but consecrated the purity of His mother, so, on the festival of her Nativity may Jesus Christ, our Lord, free us from our sins and render our sacrifice acceptable to You.",
+        "Francais": "Qu’elle nous porte secours, Seigneur, la bonté de votre Fils unique, qui né d’une Vierge, n’a point altéré l’intégrité de sa mere mais l’a consacrée, afin que nous purifiant de nos fautes en la solennité de sa Nativité, il vous rende notre oblation agréable, lui Jésus-Christ Notre-Seigneur:",
+        "Italiano": "Ci soccorra, o Signore, l’umanità del tuo Unigenito: affinché, Egli, che nato da una Vergine non diminuí l’integrità della madre, ma la consacrò; nella festa solenne della sua Natività, spogliandoci delle nostre colpe, Ti renda accetta la nostra oblazione, Gesú Cristo nostro Signore:",
+        "Magyar": "A te kegyelmedből Urunk, és a Boldogságos, mindenkoron szűz Máriának közbenjárására ez a felajánlás szolgáljon az örök és a jelen élet javára és békéjére.",
+        "Nederlands": "Moge, o Heer, de menselijke natuur van uw enige Zoon ons te hulp komen. Dat Hij, die uit een Maagd geboren is en de ongereptheid van zijn Moeder niet schond, maar heiligde, op het feest van haar geboorte ons aan onze zonden ontrukke, en onze offerande U welgevallig doe zijn."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) BE(d)á(f)ta(fe) ví(fg)sce(efED'e)ra(ed..) (,) *() Ma(f)rí(gh)ae(hvGF) Vír(ixghg/hi)gi(h)nis,(h.) (:) quae(f) por(gh~)ta(hg/hfgvFE)vé(d!ewfef)runt(ed..) (,) ae(h)tér(ixjhhg/hi)ni(h.) Pa(dc/fg'h)tris(f_e) Fí(cd)li(d_c/d!ewf)um.(ed..) (::) <i>T. P.</i> Al(fg~)le(e_d/fh//ghgefghfgvFE)lú(d!ewfef){ia}.(ed..) (::)",
+      "availableTranslations": {
+        "English": "Blessed is the womb of the Virgin Mary, which bore the Son of the eternal Father. (Alleluja.)",
+        "Francais": "Bienheureux le sein de la Vierge Marie, qui a porté le Fils du Père éternel.",
+        "Italiano": "Beate le viscere di Maria Vergine, che portarono il Figlio dell’eterno Padre.",
+        "Magyar": "Boldog vagy, Szűz Mária bensődben, mert az örök Atya Fiát hordoztad. (Allelúja.)",
+        "Nederlands": "Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium. (Allelúja.)"
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Súmpsimus, Dómine, celebritátis ánnuæ votíva sacraménta: præsta, quǽsumus; ut et temporális vitæ nobis remédia prǽbeant et ætérnæ.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Having received the aids conducive to our salvation, O Lord, we beseech You, grant that we may everywhere be protected by the patronage of blessed Mary, ever Virgin, in veneration of whom we have made these offerings to Your Majesty.",
+        "Francais": "Nous avons reçu, Seigneur, les choses saintes qui vous sont offertes en cette solennité annuelle, faites, nous vous en supplions, qu’elles nous donnent les remèdes spirituels utiles à la vie temporelle et conduisant à la vie éternelle.",
+        "Italiano": "Abbiamo ricevuto, o Signore, i sacramenti destinati a celebrare la votiva solennità; fa, Te ne preghiamo, che ci procurino i rimedii temporali e quelli della vita eterna.",
+        "Magyar": "Magunkhoz véve, Urunk, üdvösségünk kegyszerét, kérünk, add, hogy a Boldogságos, mindenkoron Szűz Mária pártfogásában mindenütt oltalmat találjunk, akinek tiszteletére ezekt Fölségednek bemutattuk.",
+        "Nederlands": "Súmpsimus, Dómine, celebritátis ánnuæ votíva sacraménta: præsta, quǽsumus; ut et temporális vitæ nobis remédia prǽbeant et ætérnæ."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}

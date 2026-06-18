@@ -1,0 +1,802 @@
+{
+  "rule": [],
+  "feast": "Sabbato infra Hebdomadam III in Quadragesima",
+  "subtitle": "Missa Cantata",
+  "ordo": [
+    {
+      "type": "title",
+      "text": "Asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "asperges",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "asperges",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Introitus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "when_celebrant_reaches_altar",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) VEr(d)ba(d) me(d)a(f) *(,) áu(h)ri(f)bus(hh) pér(hhh)ci(f)pe(f) Dó(f!gwh)mi(efED'e)ne,(ed..) (:) in(d)tél(efef)li(f)ge(gxfe/fgeed.0) (;) cla(df)mó(f!gw!hvGF)rem(hh) me(hi!jvIH'i)um :(ih..) (:) in(h)tén(h)de(hi) vo(ihh)ci(f.) (,) o(f)ra(d)ti(ef)ó(f!gw!hvGE)nis(gxfhFE'fw!gvFE) me(de!fvED'e)ae.(ed..) (::) <i>Ps.</i> Quó(d)ni(f)am(h) ad(h) te(h) o(h)rá(h)bo,(i) Dó(i)mi(h)ne :(h.) *(:) ma(f)ne(h) ex(h)áu(h)di(h)es(h) vo(i)cem(g) me(h)am.(f.) (::) Gló(d)ri(f)a(h) Pa(h)tri.(h) (::) <eu>E(h) u(h) o(i) u(g) a(h) e.</eu>(fefvEDe.) (::)",
+      "availableTranslations": {
+        "English": "Hearken to my words, O Lord, attend to my sighing. Heed my call for help, my King and my God! To You I pray, O Lord; at dawn You hear my voice.",
+        "Espanol": "Presta oídos, Señor, a mis palabras; escucha mis clamores, atiende a la voz de mis suplicas, oh mi Rey y Dios mío. Porque a ti enderezare mi oración: de mañana, oh Señor, oirás mi voz.",
+        "Francais": "Seigneur, prêtez l’oreille à mes paroles, comprenez mon cri ; soyez attentif à la voix de ma prière, mon roi et mon Dieu ! Car c’est vous que je prierai, Seigneur ; dès le matin vous exaucerez ma voix.",
+        "Italiano": "Signore, ascolta le mie parole, bada alle mie grida; senti il mio gèmito supplichevole, o mio Re e mio Dio. Fin dal mattino, o Signore, mi presento a te e sto in attesa.",
+        "Magyar": "Vedd füledbe, Uram, szómat, halld meg kiáltásomat: méltasd figyelmedre hangos könyörgésem, én Királyom és én Istenem. Mert hozzád intézem imádságomat, Uram: hallgasd meg reggel szavamat.",
+        "Nederlands": "Luister, Heer, naar mijn woorden. Geef acht op mijn geroep, let op mijn smeekbede, mijn Koning en mijn God. Want tot U zal ik bidden, o Heer. In de vroege morgen zult Gij mijn bede aanhoren.",
+        "Polski": "Pochwyć uszami słowa moje, Panie, zważ na moje wołanie; zwróć się na głos modlitwy mojej, mój Królu i Boże. Gdyż do Ciebie się modlę, o Panie; Ty rano słyszysz mój głos.",
+        "Portugues": "Ouvi as minhas palavras, Senhor: atendei ao meu clamor e escutai a voz da minha oração, ó meu Rei e meu Deus! Porquanto a Vós Orarei, Senhor; desde manhã ouvireis a minha voz."
+      },
+      "mode": "5",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_introit",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "kyrie",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Gloria",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_kyrie",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "gloria",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Collecta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Præsta, quǽsumus, omnípotens Deus: ut, qui se, affligéndo carnem, ab aliméntis ábstinent; sectándo justítiam, a culpa jejúnent.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, we beseech You, almighty God, that we who chastise our flesh by abstaining from food, may fast from sin by striving after righteousness.",
+        "Espanol": "Te suplicamos, oh Dios todopoderoso, nos concedas que quienes macerando la carne se abstienen de los alimentos, se abstengan también de pecar, siguiendo los caminos de la justicia.",
+        "Francais": "Nous vous en prions, Dieu tout-puissant, accordez à ceux qui, pour mortifier leur chair s’abstiennent des viandes, la grâce de jeûner aussi du péché, en pratiquant la justice.",
+        "Italiano": "Ti preghiamo, o Dio onnipotente, concedi, che quanti con la mortificazione della carne si astengono dai cibi, col fare il bene si astengano dalla colpa.",
+        "Magyar": "Add meg, kérünk, mindenható Isten, hogy akik testük fenyítésére a tápláléktól tartózkodnak, az igazságra törekedve, a bűntől is tartózkodjanak.",
+        "Nederlands": "Wij vragen U, almachtige God, laat ons, die ons in de tuchtiging van het lichaam van voedsel onthouden, in de beoefening van de gerechtigheid ook zonder zonde blijven.",
+        "Polski": "Prosimy Cię, wszechmogący Boże, spraw, niech rodzina Twoja, która dla umartwienia ciała wstrzymuje się od pokarmów, zabiega o sprawiedliwość i poniecha grzechu.",
+        "Portugues": "Ó Deus omnipotente, àqueles que, para mortificação da sua carne, se abstêm dos alimentos concedei a graça, Vos suplicamos, de se absterem também das culpas, praticando sempre a virtude."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Lectio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_lesson_is_chanted",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In diébus illis: Erat vir hábitans in Babylóne, et nomen ejus Jóakim: et accépit uxorem nómine Susánnam, fíliam Helcíæ, pulchram nimis, et timéntem Deum: paréntes enim illíus, cum essent justi, erudiérunt fíliam suam secúndum legem Móysi. Erat autem Jóakim dives valde, et erat ei pomárium vicínum dómui suæ: et ad ipsum confluébant Judǽi, eo quod esset honorabílior ómnium. Et constítuti sunt de pópulo duo senes júdices in illo anno: de quibus locútus est Dóminus: Quia egréssa est iníquitas de Babylóne a senióribus judícibus, qui videbántur régere pópulum. Isti frequentábant domum Jóakim, et veniébant ad eos omnes, qui habébant judícia. Cum autem pópulus revertísset per merídiem, ingrediebátur Susánna, et deambulábat in pomário viri sui. Et vidébant eam senes cotídie ingrediéntem et deambulántem: et exarsérunt in concupiscéntiam ejus: et evertérunt sensum suum, et declinavérunt óculos suos, ut non vidérent cœlum, neque recordaréntur judiciórum justórum. Factum est autem, cum observárent diem aptum, ingréssa est aliquándo sicut heri et núdius tértius, cum duábus solis puéllis, voluítque lavári in pomário: æstus quippe erat, et non erat ibi quisquam, præter duos senes abscónditos et contemplántes eam. Dixit ergo puéllis: Afférte mihi óleum et smígmata, et óstia pomárii cláudite, ut laver. Cum autem egréssæ essent puéllæ, surrexérunt duo senes, et accurrérunt ad eam, et dixérunt: Ecce, óstia pomárii clausa sunt, et nemo nos videt, et nos in concupiscéntia tui sumus: quam ob rem assentíre nobis, et commiscére nobiscum. Quod si nolúeris, dicémus contra te testimónium, quod fúerit tecum júvenis, et ob hanc causam emíseris puéllas a te. Ingémuit Susánna, et ait: Angústiæ sunt mihi úndique: si enim hoc égero, mors mihi est: si autem non egero, non effúgiam manus vestras. Sed mélius est mihi absque ópere incídere in manus vestras, quam peccáre in conspéctu Dómini. Et exclamávit voce magna Susánna: exclamavérunt autem et senes adversus eam. Et cucúrrit unus ad óstia pomárii, et aperuit. Cum ergo audíssent clamórem fámuli domus in pomário, irruérunt per postícum, ut vidérent, quidnam esset. Postquam autem senes locúti sunt, erubuérunt servi veheménter: quia numquam dictus fúerat sermo hujuscémodi de Susánna. Et facta est dies crástina. Cumque venísset pópulus ad Jóakim virum ejus, venérunt et duo senióres, pleni iníqua cogitatióne advérsus Susánnam, ut interfícerent eam. Et dixérunt coram pópulo: Míttite ad Susánnam fíliam Helcíæ, uxórem Jóakim. Et statim misérunt. Et venit cum paréntibus et fíliis et univérsis cognátis suis. Flébant ígitur sui, et omnes qui nóverant eam. Consurgéntes autem duo senióres in médio pópuli, posuérunt manus suas super caput ejus. Quæ flens suspéxit ad cœlum: erat enim cor ejus fidúciam habens in Dómino. Et dixérunt senióres: Cum deambularémus in pomário soli, ingréssa est hæc cum duábus puéllis: et clausit óstia pomárii, et dimísit a se puéllas. Venítque ad eam adoléscens, qui erat abscónditus, et concúbuit cum ea. Porro nos, cum essémus in ángulo pomárii, vidéntes iniquitátem, cucúrrimus ad eos, et vídimus eos pariter commiscéri. Et illum quidem non quívimus comprehéndere, quia fórtior nobis erat, et apértis óstiis exsilívit: hanc autem cum apprehendissémus, interrogávimus, quisnam esset adoléscens, et nóluit indicáre nobis: hujus rei testes sumus. Crédidit eis multitúdo quasi sénibus et judícibus pópuli, et condemnavérunt eam ad mortem. Exclamávit autem voce magna Susánna, et dixit: Deus ætérne, qui absconditórum es cógnitor, qui nosti ómnia, ántequam fiant, tu scis, quóniam falsum testimónium tulérunt contra me: et ecce, mórior, cum nihil horum fécerim, quæ isti malitióse composuérunt advérsum me. Exaudívit autem Dóminus vocem ejus. Cumque ducerétur ad mortem, suscitávit Dóminus spíritum sanctum pueri junióris, cujus nomen Dániel. Et exclamávit voce magna: Mundus ego sum a sánguine hujus. Et convérsus omnis pópulus ad eum, dixit: Quis est iste sermo, quem tu locútus es? Qui cum staret in médio eórum, ait: Sic fátui, fílii Israël, non judicántes, neque quod verum est cognoscéntes, condemnástis fíliam Israël? Revertímini ad judícium, quia falsum testimónium locúti sunt advérsus eam. Revérsus est ergo pópulus cum festinatióne. Et dixit ad eos Dániel: Separáte illos ab ínvicem procul, et dijudicábo eos. Cum ergo divísi essent alter ab áltero, vocávit unum de eis, et dixit ad eum: Inveteráte diérum malórum, nunc venérunt peccáta tua, quæ operabáris prius: júdicans judícia injústa, innocéntes ópprimens, et dimíttens nóxios, dicénte Dómino: Innocéntem et justum non interfícies. Nunc ergo, si vidisti eam, dic, sub qua arbóre vidéris eos colloquéntes sibi. Qui ait: Sub schino. Dixit autem Dániel: Recte mentítus es in caput tuum. Ecce enim, Angelus Dei, accépta senténtia ab eo, scindet te médium. Et, amóto eo, jussit veníre álium, et dixit ei: Semen Chánaan, et non Juda, spécies decépit te, et concupiscéntia subvértit cor tuum: sic faciebátis filiábus Israël, et illæ timéntes loquebántur vobis: sed fília Juda non sustínuit iniquitátem vestram. Nunc ergo dic mihi, sub qua arbóre comprehénderis eos loquéntes sibi. Qui ait: Sub prino. Dixit autem ei Dániel: Recte mentítus es et tu in caput tuum: manet enim Angelus Dómini, gládium habens, ut secet te médium, et interfíciat vos. Exclamávit itaque omnis cœtus voce magna, et benedixérunt Deum, qui salvat sperántes in se. Et consurrexérunt advérsus duos senióres ",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "In those days, in Babylon there lived a man named Joakim, who married a very beautiful and God-fearing woman, Susanna, the daughter of Helcia; her pious parents had trained their daughter according to the Law of Moses. Joakim was very rich; he had a garden near his house, and the Jews had recourse to him often because he was the most respected of them all. That year, two elders of the people were appointed judges, of whom the Lord said, Wickedness had come out of Babylon: from the elders who were to govern the people as judges. These men, to whom all brought their cases, frequented the house of Joakim. When the people left at noon, Susanna used to enter her husband’s garden for a walk. When the old men saw her enter every day for her walk, they began to lust for her. They suppressed their consciences; they would not allow their eyes to look to heaven, and did not keep in mind just judgments. One day, while they were waiting for the right moment, she entered the garden as usual, with two maids only. She decided to bathe, for the weather was warm. Nobody else was there except the two elders, who had hidden themselves and were watching her. Bring me oil and soap, she said to the maids, and shut the garden doors while I bathe. As soon as the maids had left, the two old men got up and hurried to her. Look, they said, the garden doors are shut, and no one can see us; give in to our desire, and lie with us. If you refuse, we will testify against you that you dismissed your maids because a young man was here with you. I am completely trapped, Susanna groaned. If I yield, it will be my death; if I refuse, I cannot escape your power. Yet it is better for me to fall into your power without guilt than to sin before the Lord. Then Susanna shrieked, and the old men also shouted at her, as one of them ran to open the garden doors. When the people in the house heard the cries from the garden, they rushed in by the side gate to see what had happened to her. At the accusations by the old men, the servants felt very much ashamed, for never had any such thing been said about Susanna. When the people came to her husband Joakim the next day, the two wicked elders also came, fully determined to put Susanna to death. Before all the people they ordered: Send for Susanna, the daughter of Helcia, the wife of Joakim. When she was sent for, she came with her parents, children and all her relatives. All her relatives and the onlookers were weeping. In the midst of the people the two elders rose up and laid their hands on her head. Through her tears she looked up to heaven, for she trusted in the Lord wholeheartedly. The elders made this accusation: As we were walking in the garden alone, this woman entered with two girls and shut the doors of the garden, dismissing the girls. A young man, who was hidden there, came and lay with her. When we, in a corner of the garden, saw this crime, we ran toward them. We saw them lying together, but the man we could not hold, because he was stronger than we; he opened the doors and ran off. Then we seized this one and asked who the young man was, but she refused to tell us. We testify to this.The assembly believed them, since they were elders and judges of the people, and they condemned her to death. But Susanna cried aloud: O eternal God, You know what is hidden and are aware of all things before they come to be: You know that they have testified falsely against me. Here I am about to die, though I have done none of the things with which these wicked men have charged me. The Lord heard her prayer. As she was being led to execution, God stirred up the holy spirit of a young boy named Daniel, and he cried aloud: I will have no part in the death of this woman. All the people turned and asked him, What is this you are saying? He stood in their midst and continued, Are you such fools, O Israelites! to condemn a woman of Israel without examination and without clear evidence? Return to court, for they have testified falsely against her. Then all the people returned in haste. And Daniel said to them: Separate these two from one another that I may examine them. After they were separated one from the other, he called one of them and said: How you have grown evil with age! Now have your past sins come to term: passing unjust sentences, condemning the innocent, and freeing the guilty, although the Lord says, ‘The innocent and the just you shall not put to death.’ Now, then, if you were a witness, tell me under what tree you saw them together. He said: Under a mastic tree. And Daniel said: Well have you lied against your own head. For the Angel of God shall receive the sentence from Him and split you in two. Putting him to one side, he ordered the other one to be brought. Offspring of Chanaan, not of Juda, Daniel said to him, beauty has seduced you, lust has subverted your conscience. This is how you acted with the daughters of Israel, and in their fear they yielded to you; but a daughter of Juda did not tolerate your wickedness. Now, then, tell me under what tree you surprised them together. Under an oak, he said. Your fine lie has cost you also your head, said Daniel; for the Angel of God waits with a sword to cut you in two so as to make an end of you both. The whole assembly cried aloud, blessing God, Who saves those that hope in Him. They rose up against the two elders, for by their own words Daniel had convicted them of perjury. They inflicted on them the penalty they had plotted to impose on their neighbor: they put them to death. Thus was innocent blood spared that day.",
+        "Espanol": "Había un varón, que habitaba en Babilonia, llamado Joaquín; el cual casó con una mujer llamada Susana, hija de Helcías, hermosa en extremo, y temerosa de Dios, porque sus padres, que eran virtuosos, instruyeron a su hija según la ley de Moisés. Era Joaquim un hombre muy rico, y tenía un jardín junto a su casa, al cual concurrían muchos judíos, por ser Joaquín el más respetable de todos ellos. Y en aquel año fueron elegidos jueces del pueblo de los judíos dos ancianos de aquellos de quienes dijo el Señor que la iniquidad había salido en Babilonia de los ancianos que eran jueces, los cuales parecía que gobernaban al pueblo. Frecuentaban éstos la casa de Joaquim, donde acudían a ellos todos cuantos tenían algún pleito. Y cuando al mediodía se iba la gente, entraba Susana a pasearse en el jardín de su marido. La veían los viejos cada día cómo entraba a pasearse; y se inflamaron en malos deseos hacia ella; y perdieron el juicio, y desviaron sus ojos para no mirar al cielo, y para no acordarse de sus justos juicios. Y mientras estaban aguardando una ocasión oportuna, entró ella en el jardín, como solía todos los días, acompañada solamente de dos doncellas, y quiso bañarse en el jardín, pues hacía mucho calor. Y no había en él nadie sino los dos viejos, que se habían escondido, y la estaban acechando. Dijo, pues, ella a sus doncellas: Traedme la confección aromática y los perfumes, y cerrad las puertas del jardín; pues quiero bañarme. Así que se hubieron ido las criadas, salieron los dos viejos, y corriendo hacia ella, le dijeron: Mira, las puertas del jardín están cerradas, nadie nos ve, y nosotros estamos enamorados de ti, condesciende, pues, con nosotros, y cede a nuestros deseos. Porque si te resistieres a ello, testificaremos contra ti, diciendo que estaba contigo un joven, que por eso despachaste tus doncellas. Prorrumpió Susana en gemidos, y dijo: Estrechada me hallo por todos lados, porque si yo hiciere eso que queréis, sería una muerte para mí; y si no lo hago, no me libraré de vuestras manos. Pero mejor es para mí caer en vuestras manos sin haber hecho tal cosa, que pecar en la presencia del Señor. Y dio Susana un fuerte grito; y gritaron entonces los viejos contra ella. Y corrió uno de ellos a las puertas del jardín, y las abrió. Y así que los criados de la casa oyeron ruido en el jardín, corrieron allá por la puerta excusada para ver lo que era. Y después de haber oído los criados lo que decían los jueces, quedaron sumamente avergonzados; porque nunca tal cosa se había dicho de Susana. Llegó, pues, el día siguiente. Y habiendo acudido el pueblo a la casa de Joaquín su marido, vinieron también los dos viejos, armados de falsedades contra Susana, para condenarla a muerte. Dijeron, pues, en presencia del pueblo: Envíese a llamar a Susana, hija de Helcías, mujer de Joaquín. Y enviaron luego por ella. La cual vino acompañada de sus padres e hijos y de todos sus parientes. Entretanto lloraban los suyos y cuantos la conocían. Y levantándose los dos viejos en medio del pueblo, pusieron sus manos sobre la cabeza de Susana. Ella, deshaciéndose en lágrimas, levantó sus ojos al cielo; porque su corazón estaba lleno de confianza en el Señor. Y dijeron los viejos: Estándonos paseando solos en el jardín, entró con dos criadas; y cerró las puertas del jardín enviando fuera las criadas. Entonces se le acercó un joven que estaba escondido, y pecó con ella. Y nosotros que estábamos en un lado del jardín, viendo el atentado fuimos corriendo adonde estaban, y los hallamos en el mismo acto. Mas al joven no pudimos prenderlo, porque era más robusto que nosotros, y abriendo la puerta se escapó corriendo. Pero habiendo cogido a ésta, le preguntamos quién era el joven, y no nos lo quiso declarar, de este suceso somos nosotros testigos. Les dio crédito la asamblea, como ancianos que eran y jueces del pueblo; y la condenaron a muerte. Susana exclamó en alta voz y dijo: ¡Oh Dios eterno, que conoces las cosas ocultas, que sabes todas las cosas aun antes que sucedan! Tú sabes que éstos han levantado contra mí un falso testimonio; y he aquí que yo muero sin haber hecho nada de lo que han inventado maliciosamente contra mí. Y oyó el Señor su oración. Y cuando la conducían al suplicio, el Señor manifestó el santo espíritu de profecía en un tierno jovencito llamado Daniel; el cual, a grandes voces, comenzó a gritar: Inocente seré yo de la sangre de ésta. Y volviéndose hacia él toda la gente, le dijeron: ¿Qué es eso que tú dices? Mas él, puesto en pie en medio de todos, dijo: ¿Tan insensatos sois, ¡oh hijos de Israel!, que, sin forma de juicio y sin conocer la verdad del hecho, habéis condenado a una hija de Israel? Volved al tribunal, porque éstos han dicho falso testimonio contra ella. Retrocedió, pues, a toda prisa el pueblo; y los ancianos le dijeron a Daniel: Ven, y siéntate en medio de nosotros e instrúyenos; ya que te ha concedido Dios la honra y dignidad de anciano. Y dijo Daniel al pueblo: Separad a estos dos lejos el uno del otro, y yo los examinaré. Y así que estuvieron separados el uno del otro, llamando a uno de ellos, le dijo: Envejecido en la mala vida, ahora llevarán su merecido los pecados que has cometido hasta aquí, pronunciando injustas sentencias, oprimiendo a los inocentes y librando a los malvados, a pesar de que el Señor tiene dicho: No harás morir al inocente ni al justo. Ahora bien, si la viste pecar, di: ¿Bajo qué árbol los viste confabular entre sí? Respondió él: Debajo de un lentisco. A lo que replicó Daniel: Ciertamente que a costa de tu cabeza has mentido; pues he aquí que el ángel del Señor, por sentencia que ha recibido de él, te partirá por medio. Y habiendo hecho retirar a éste, hizo venir al otro, y le dijo: Raza de Canaán y no de Judá, la hermosura te fascinó y la pasión pervirtió tu corazón. Así os portabais con las hijas de Israel, las cuales de miedo condescendían con vuestros deseos; pero esta hija de Judá no ha sufrido vuestra maldad. Ahora bien, dime: ¿Bajo qué árbol los sorprendiste tratando entre sí? El respondió: Debajo de una encina. A lo que repuso Daniel: Ciertamente que también tú mientes en daño tuyo; pues el ángel del Señor te está esperando con la espada en la mano, para partirte por medio y matarte. Entonces toda la asamblea exclamó en alta voz, bendiciendo a Dios que salva a los que ponen en él su esperanza. Y se levantaron contra los dos viejos, a los cuales convenció Daniel por la misma boca de ellos de haber proferido un falso testimonio, y les hicieron el mal que ellos habían intentado contra su prójimo; y poniendo en ejecución la ley de Moisés, los mataron; con lo que fue salvada en aquel día la sangre inocente.",
+        "Francais": "En ces jours-là, il y avait un homme qui habitait à Babylone, et dont le nom était Joakim. Il prit une femme nommée Suzanne, fille d’Helcias, parfaitement belle et craignant Dieu ; car ses parents, qui étaient justes, avaient instruit leur fille selon la loi de Moïse, Or Joakim était très riche, et il avait un jardin fruitier près de, sa maison ; les Juifs affluaient chez lui parce qu’il était le plus : honorable de tous. On avait établi pour juges, cette année-là, deux vieillards d’entre le peuple ; c’est d’eux que le Seigneur a dit : L’iniquité est sortie de Babylone par des vieillards qui étaient juges, qui semblaient conduire le peuple. Ceux-là fréquentaient la maison de Joakim, et tous ceux qui avaient des affaires à juger venaient les y trouver. Lorsque la foule était partie, sur le midi, Suzanne entrait et se promenait dans le jardin de son mari. Ces vieillards l’y voyaient tous les jours entrer et se promener, et ils brûlèrent de passion pour elle ; ils pervertirent leur sens, et ils détournèrent leurs yeux, pour ne pas voir le ciel et pour ne pas se souvenir des justes jugements. Comme ils cherchaient un jour convenable, il arriva que Suzanne entra, selon la coutume, accompagnée seulement de deux jeunes filles, et elle voulut se baigner dans le jardin, car il faisait chaud ; et il n’y avait là personne que les deux vieillards, qui étaient cachés et qui la regardaient. Elle dit donc aux jeunes filles : Apportez-moi de l’huile et des parfums, et fermez les portes du jardin, afin que je me baigne. Lorsque les jeunes filles furent sorties, les deux vieillards se levèrent, coururent à Suzanne et lui dirent : Voici, les du jardin sont fermées ; personne ne nous voit, et nous brûlons de passion pour toi ; rends-toi donc à notre désir, et unis-toi à nous. Si tu refuses, nous témoignerons contre toi, et nous dirons qu’un jeune homme était avec toi, et que c’est pour cela que tu as renvoyé tes jeunes filles. Suzanne gémit et dit : L’angoisse m’entoure de tous côtés ; car si je fais cela, c’est la mort pour moi ; si je ne le fais pas, je n’échapperai pas de vos mains. Mais il est meilleur pour moi de tomber sans motif entre vos mains, que de pécher en la présence du Seigneur. Alors Suzanne poussa un grand cri, et les vieillards crièrent aussi contre elle. Et l’un d’eux courut à la porte du jardin et l’ouvrit. Ayant entendu crier dans le jardin, les serviteurs de la maison se précipitèrent par la porte de derrière, pour voir ce que c’était. Après que les vieillards eurent parlé, les serviteurs éprouvèrent une grande honte, parce qu’on n’avait jamais rien dit de semblable de Suzanne. Le lendemain arriva, et te peuple étant venu chez Joakim son mari, les deux vieillards y vinrent aussi, pleins d’une résolution criminelle contre Suzanne, pour lui faire perdre la vie. Et ils dirent devant le peuple : Envoyez chercher Suzanne, fille d’Helcias, femme de Joakim. On y envoya aussitôt et elle vint avec ses parents, ses enfants et tous ses proches. Les, siens et tous ceux qui l’avaient connue pleuraient. Alors les deux vieillards, se levant au, milieu du peuple, mirent leurs mains sur sa tête. Elle, en pleurs, leva les yeux au ciel, car son œur avait confiance dans le Seigneur. Et les vieillards dirent : Comme nous nous promenions seuls dans le jardin, cette femme est entrée avec deux servantes ; elle a fermé les portes du jardin et elle a renvoyé les jeunes filles. Et un jeune homme, qui était caché, est venu et a péché avec elle. Nous étions dans un coin du jardin, et voyant cette iniquité, nous sommes accourus à eux, et nous les avons vus s’unir. Lui, nous n’avons pu le prendre, parce qu’il était plus fort que nous et qu’ayant ouvert la porte, il s’est échappé. Mais elle, après l’avoir prise, nous lui avons demandé quel était ce jeune homme, et elle n’a pas voulu nous le dire. C’est de quoi nous sommes témoins. La multitude les crut, parce qu’ils étaient des anciens et des juges du peuple, et ils la condamnèrent à mort. Alors Suzanne poussa un grand cri et dit Dieu éternel, qui pénétrez ce qui est caché, et qui connaissez toutes choses avant qu’elles arrivent, vous savez qu’ils ont porté un faux témoignage contre moi ; et voici que je meurs, sans avoir rien fait de tout ce qu’ils ont inventé malicieusement contre moi. Et le Seigneur entendit sa voix. Et comme on la conduisait à la mort, le Seigneur suscita l’esprit saint d’un jeune enfant nommé Daniel, qui cria à haute voix : Je suis pur du sang de cette femme. Tout le peuple se tourna vers lui et dit : Quelle est cette parole que tu as proférée ? Se tenant debout au milieu d’eux, il dit : Êtes-vous assez insensés, fils d’Israël, pour condamner, sans la juger et sans connaître la vérité, une fille d’Israël ? Jugez-la de nouveau, car ils ont porté un faux témoignage contre elle. Le peuple revint donc en grande hâte, et Daniel dit au peuple : Séparez-les l’un de l’autre, et je les jugerai. Lorsqu’ils eurent été séparés l’un de l’autre, Daniel appela l’un d’eux et lui dit : Homme vieilli dans le mal, les péchés que tu as commis autrefois viennent maintenant sur toi, qui rendais des jugements injustes, qui opprimais les innocents et qui relâchais les coupables, quoique le Seigneur ait dit : Tu ne feras pas mourir l’innocent et le juste. Maintenant donc, si tu l’as vue, dis sous quel arbre tu les as vus : parler ensemble. Il dit : Sous un lentisque. Daniel lui dit : Vraiment tu as menti contre ta tête, car voici que l’ange de Dieu, ayant reçu son arrêt, te coupera en deux. Après l’avoir renvoyé, il ordonna qu’on fît venir l’autre, et il lui dit Race de Canaan, et non de Juda, la beauté t’a séduit, et la passion a perverti ton cœur. C’est ainsi vous traitiez les filles d’Israël, et, effrayées, elles vous parlaient ; mais une fille de Juda n’a pu souffrir votre iniquité. Maintenant donc, dis-moi sous quel arbre tu les as surpris lorsqu’ils se parlaient. Il dit : Sous un chêne. Daniel lui dit : Vraiment, toi aussi tu as menti contre ta tête ; car l’ange du Seigneur est prêt, et tient l’épée pour te couper par le milieu et pour te faire mourir. Alors toute l’assemblée poussa un grand cri, et ils bénirent Dieu, qui sauve ceux qui espèrent en lui. Et ils s’élevèrent contre les deux vieillards, que Daniel avait convaincus par leur propre bouche d’avoir porté un faux témoignage et ils leur firent le mal qu’ils avaient fait à leur prochain, pour exécuter la loi de Moïse. Ils les firent mourir, et le sang innocent fut sauvé en ce jour-là.",
+        "Italiano": "In quei giorni dimorava in Babilonia un uomo chiamato Ioachim. Egli aveva sposato una donna chiamata Susanna, figlia di Elcia, bellissima e timorata di Dio, avendo i suoi genitori, che erano giusti, educata la figliuola secondo la legge di Mosè. Ioachim era molto ricco; aveva accanto alla sua casa un giardino, e da lui andavano in gran numero i Giudei, perché egli era il più ragguardevole di tutti. Or in quell'anno erano stati eletti giudici del popolo due anziani, di quelli dei quali disse il Signore: «L'iniquità, in Babilonia, è venuta da anziani giudici, che si reputavano rettori del popolo». Questi frequentavano la casa di Ioachim, e tutti quelli che avevano delle liti andavano da loro. Quando la gente, verso mezzogiorno, se ne andava, Susanna soleva andare a passeggiare nel giardino di suo marito. I due vecchi, standola a guardare ogni giorno quando andava a passeggio, concepirono per lei un'ardente passione, persero il lume dell'intelletto, chiusero gli occhi per non vedere il cielo e per non ricordarsi dei suoi severi giudizi. Or avvenne che mentre essi stavano ad aspettare il giorno più adatto, Susanna entrò secondo il solito con due sole ancelle nel giardino per fare un bagno, poiché faceva caldo. Li non restarono che i due anziani, nascosti, a contemplarla. Susanna disse alle ancelle: «Dopo avermi portato l'unguento e i profumi, chiudete le porte del giardino, perché possa fare il bagno». Partite le ancelle, i due anziani uscirono dal nascondiglio e corsero da lei, e dissero: «Ecco, le porte del giardino son chiuse; nessuno ci vede, noi ardiamo del desiderio di te, acconsenti, e abbandonati ai nostri desideri. Se ricusi, noi renderemo testimonianza contro di te che con te c'era un giovane, e che per questo avevi mandate via le ancelle». Susanna sospirò e disse: «Per me non vi è via di scampo: se faccio questo, per me è morte, se non lo faccio non potrò scampare dalle vostre mani. Ma per me è meglio cadere nelle mani vostre senza aver fatto il male, che peccare nel cospetto del Signore». Allora Susanna diede un gran grido, ed anche i due anziani alzarono la voce contro di lei. Uno corse alle porte del giardino e le aprì. I servitori di casa, avendo sentito rumore nel giardino, vi accorsero per la porta interna, per veder che fosse accaduto. Sentito quanto dicevano gli anziani, i servi restarono pieni di vergogna, perché tal cosa non era mai stata detta di Susanna. I! giorno dopo, tutto il popolo si adunò nella casa di Ioachim, marito di Susanna, e vi andarono anche i due anziani, pieni di cattive intenzioni contro Susanna, per farla morire. Essi dissero alla presenza del popolo: «Mandate a chiamare Susanna, figlia d'Elda, moglie di Ioachim». Mandarono subito a chiamarla, ed essa venne coi suoi genitori, coi figliuoli e con tutti i suoi parenti. I suoi, e quanti la conoscevano, piangevano; ma i due anziani, levatisi in mezzo al popolo, posero le mani sul capo di lei. Essa piangendo, alzò gli occhi al cielo, col cuore pieno di fiducia nel Signore. Gli anziani dissero: «Mentre noi passeggiavamo soli nel giardino, costei venne con due ancelle, fece chiudere le porte del giardino e licenziò le ancelle. Allora le si accostò un giovane, che era nascosto, e peccò con lei. Noi, essendo in un angolo del giardino, vedendo quell'iniquità, corremmo verso di loro e li vedemmo peccare. Il giovane non lo potemmo prendere, perché, essendo più forte di noi, aprì le porte e scappò. Prendemmo allora lei, e la interrogammo chi fosse il giovane; ma non ce lo volle dire. Di ciò noi siamo testimoni». La moltitudine prestò loro fede, perché erano anziani e giudici del popolo, e la condannarono a morte. Allora Susanna esclamò ad alta voce, e disse: «O Dio eterno, Tu che conosci le cose occulte, e sai le cose prima che avvengano, Tu sai che essi han detto falsa testimonianza contro di me; ed ecco io muoio non avendo fatto nulla di ciò che essi hanno inventato contro di me». Il Signore ascoltò la sua preghiera. Mentre Susanna era condotta al supplizio, il Signore suscitò lo Spirito santo in un tenero giovinetto chiamato Daniele, il quale gridò ad alta voce: «Io non c'entro col sangue di lei!». Rivoltosi a lui tutto il popolo disse: «Che vorresti dire con le tue parole?». E Daniele, stando in mezzo ad essi, disse: «Siete così stolti, o figli d'Israele, da condannare una figlia d'Israele, senza esaminare, senza appurare la verità? Rifate il processo; perché essi han resa falsa testimonianza contro di lei». Il popolo tornò subito indietro. Daniele disse ad essi: «Separateli l'uno dall'altro ed io li esaminerò». Separati che furono l'uno dall'altro ne chiamò uno e gli disse: «O invecchiato nel male, or cadono su di te i peccati che hai fatti per l'addietro, dando sentenze ingiuste, opprimendo gli innocenti e liberando i malvagi, mentre il Signore ha detto: “Non ucciderai l'innocente e il giusto”. Dunque, se tu l'hai veduta, di', sotto qual pianta li hai veduti parlare insieme?». L'altro rispose: «Sotto un lentisco». E Daniele a lui: «Senza dubbio tu hai mentito a tua rovina: infatti l'Angelo di Dio ha già da lui ricevuta la sentenza di dividerti pel mezzo». Rimandato questo, fece venir l'altro, e gli disse: «Razza di Canaan e non di Giuda, la bellezza ti ha sedotto, la passione ti ha pervertito il cuore. Cosi voi facevate alle figliuole d'Israele, e queste, per paura, parlavano con voi; ma una figliuola di Giuda non ha potuto soffrire la vostra iniquità. Or dunque, dimmi, sotto quale albero li hai sorpresi a discorrere insieme?». L'altro rispose: «Sotto un leccio». E Daniele a lui: «Senza dubbio anche tu hai mentito per tua rovina: già ti aspetta con la spada l'Angelo del Signore per tagliarti per mezzo e così vi farà morire». Allora tutta l'adunanza diede in un gran grido e benedisse Dio, il quale salva coloro che sperano in lui. Poi insorti contro i due anziani, ai quali Daniele aveva fatto confessare con la loro bocca d'aver detto falsa testimonianza, fecero ad essi il male che avevano fatto al prossimo, e, applicando la legge di Mosè, li fecero morire. Cosi in quel giorno fu salvato il sangue innocente.",
+        "Magyar": "Bábelben lakott egy férfi, akinek Jojakim volt a neve.  Chilkija leányát vette feleségül, akit Zsuzsannának hívtak. Ez nemcsak igen szép, de istenfélő asszony is volt,  mert szülei igazak voltak és lányukat is Mózes törvénye szerint nevelték.  Jojakim igen gazdag volt. Gyümölcsöskertje is volt háza szomszédságában. A zsidók nála szoktak összejönni, mert mindnyájuknál tekintélyesebb volt.  Abban az esztendőben a nép két olyan vént tett meg bíróvá, akikre ráillett az Úr szava: A vénektől, a bíráktól indult ki Bábelben az igazságtalanság, noha úgy látszott, hogy ők kormányozzák a népet.  Gyakran megfordultak Jojakim házában, ott keresték fel őket mind, akiknek peres ügyük volt.  Amikor déltájban szétoszlott a nép, Zsuzsanna bement sétálni férje gyümölcsöskertjébe.  A két vén mindennap látta, amint bement és ott sétált. S fölgerjedt bennük iránta a vágy.  Eszüket félretették, szemüket meg lesütötték, hogy ne lássák az eget és ne emlékezzenek az igazságos ítéletekre.  Lesték hát a kedvező alkalmat. Egy nap aztán történt, hogy Zsuzsanna bement a gyümölcsösbe, mint a többi napokon is szokott, de csak két szolgálója kísérte. Meg akart fürdeni a gyümölcsöskertben, mert nagy hőség volt.  Senki se volt ott, csak a két vén, akik elrejtőzve lesték.  A lányoknak meghagyta: „Hozzatok nekem olajat és kenőcsöt! Aztán zárjátok be a kert kapuját, hogy megfürödhessem.”  Amikor a lányok elmentek, a két vén felugrott és odafutott hozzá.  Mindjárt azzal kezdték: „Lángol bennünk utánad a vágy. Érts hát velünk egyet, és légy a miénk!  Különben tanúbizonyságot teszünk ellened, hogy itt volt veled egy ifjú, azért küldted ki a lányokat.”  Zsuzsanna felsóhajtott: „Szorongatás vesz körül mindenfelől. Ha ugyanis megteszem, meg kell halnom; ha meg ellenkezem, nem kerülhetem el a kezeteket.  De mégis jobb nekem ártatlanul a kezetekbe esnem, mint az Úr ellen vétkeznem.”  Ekkor Zsuzsanna elkezdett hangosan sikoltozni, de a vének is kiabáltak ellene.  Sőt az egyik odafutott a kert kapujához és szélesre tárta.  Amikor a háznép meghallotta a nagy kiáltozást a kertben, a hátsó kapun berontottak, hogy lássák, mi történt asszonyukkal.  A vének elmondták vádjaikat. Erre a szolgák nagyon elszégyellték magukat, mert még sose mondtak ilyesmit Zsuzsannáról.  Másnap, amikor a nép odasereglett férjéhez, Jojakimhoz, megjelent a két vén is bosszút lihegve Zsuzsanna ellen, hogy halálra adják.  A nép előtt kiadták a parancsot: „Hívjátok ide Zsuzsannát, Chilkija leányát, Jojakim feleségét!” El is mentek érte.  Szüleinek, gyermekeinek és egész rokonságának kíséretében jelent meg.  Hozzátartozói, és mindnyájan, akik csak látták, zokogásban törtek ki.  A két vén odament a néptömeg közepére, és kezüket a fejére tették,  ő meg sírva nézett az égre, mert szívből bízott az Úrban.  A vének előadták a vádat: „Mialatt mi egyedül sétálgattunk a gyümölcsöskertben, ez bejött két szolgálójával, bezáratta a kert kapuját, majd elküldte a szolgálókat.  Akkor odament hozzá egy ifjú, aki addig rejtőzködött és lefeküdt vele.  Mi a kert szögletében tartózkodtunk, de megláttuk a törvényszegést, s odarohantunk hozzájuk.  Tetten értük őket, de az ifjút nem tudtuk elfogni, mert erősebb volt nálunk. Kinyitotta a kaput, s elmenekült.  Ezt azonban elfogtuk és vallatóra fogtuk: Ki volt az az ifjú?  De nem akarta megmondani. Ennek mi magunk vagyunk a tanúi.” A gyülekezet hitelt adott nekik, hisz a nép vénei és bírái voltak, és Zsuzsannát halálra ítélték.  Ekkor ő hangosan felkiáltott és így imádkozott: „Örök Isten! Te ismered a titkokat és tudsz mindenről, még mielőtt világra jött volna.  Te azt is tudod, hogy hazug módon megrágalmaztak. Nézd, meg kell halnom, noha semmit sem követtem el abból, amit ezek gonoszul rám fogtak.”  Az Úr meghallgatta könyörgését.  Amikor halálra vitték, az Úr felszította egy Dániel nevű, egészen fiatal fiúban a szent lelket,  úgyhogy hangosan felkiáltott: „Én ártatlan vagyok ennek az asszonynak a vére dolgában!”  Erre az egész nép körülfogta és kérdőre vonta: „Miféle szavak azok, amiket mondtál?”  Megállt középen és így válaszolt: „Milyen ostobák vagytok, ti, Izrael fiai! Anélkül, hogy vizsgálatot tartottatok és a tényeket földerítettétek volna, elítélitek Izrael egyik leányát.  Tartsatok újra ítéletet, mert ezek hamisan tanúskodtak ellene!”  Erre a nép sietve visszatért. A vének ekkor így szóltak hozzá: „Ülj csak közénk és okosíts fel bennünket! Mert hiszen neked adta meg az Isten az öregkor élettapasztalatát.”  Dániel ezt válaszolta: „Különítsétek el őket egymástól jó messzire, hogy kihallgathassam őket!”  Amikor elkülönítették őket egymástól, hívatta közülük az egyiket, s így szólt hozzá: „Te megátalkodott, vén gonosztevő! Most napvilágra kerülnek bűneid,  amelyeket eddig elkövettél. Mert igazságtalan ítéletet hoztál, elítélted az ártatlanokat és futni engedted a gonosztevőket, noha megmondta az Úr: Az ártatlant és az igazat ne öld meg.  Most tehát, ha csakugyan láttad, mondd meg: milyen fa alatt láttad őket együtt?” Azt felelte: „Mézgafa alatt.”  Dániel erre így válaszolt: „Helyesen hazudtál a magad fejére. Isten angyala ugyanis középen kettévág, mert ez az Isten parancsa.”  Majd félreállította és előhívatta a másikat. Így szólította meg: „Kánaánnak vagy ivadéka, nem Júdának! A szépség elcsábított és a vágy eszedet vette.  Így viselkedtek Izrael leányaival, s félelemből szóba is álltak veletek, Júda leánya azonban nem engedett gonoszságotoknak.  Mondd csak meg nekem: Milyen fa alatt kaptad rajta őket, hogy együtt voltak?” Azt felelte: „Tölgyfa alatt.”  Dániel erre így válaszolt: „Te is helyesen hazudtál a saját fejedre. Az Isten angyala kardjával készen áll rá, hogy középen kettészeljen és így kiirtson benneteket.”  Ekkor az egész gyülekezet hangos ujjongásban tört ki, és áldották az Istent, aki megmenti a benne bízókat.  Ezután a két vénre rontottak, mert Dániel a saját szájukból igazolta, hogy hamis tanúságot tettek.  Úgy bántak el velük, ahogyan gonoszságukban ők akartak elbánni embertársukkal. Ebben Mózes törvényei szerint jártak el: meg kellett halniuk. Az ártatlan vér pedig megszabadult azon a napon.",
+        "Nederlands": "In die dagen woonde er in Babylon een man, die Joakim heette; en hij nam een vrouw, Suzanna genaamd, de dochter van Helcias, die bijzonder schoon was en godvrezend; want daar haar ouders rechtschapen waren, hadden zij hun dochter opgevoed volgens de wet van Mozes. Joakim nu was zeer rijk, en naast zijn huis had hij een boomgaard; en bij hem kwamen de Joden samen, omdat hij de aanzienlijkste van allen was. In dat jaar nu waren er uit het volk als rechters twee ouderlingen aangesteld, van wie het woord des Heren gold: “Ongerechtigheid ging er uit van Babylon door ouderlingen en rechters, van wie men dacht, dat zij het volk bestuurden.” Deze kwamen heel dikwijls in het huis van Joakim en allen, die rechtzaken hadden, kwamen dan tot hen. Als dan op de middag het volk huiswaarts keerde, ging Suzanna wandelen in de boomgaard van haar man. En iedere dag zagen die ouderlingen haar daar heen gaan om te wandelen, en hun boze begeerlijkheid richtte zich op haar; zij zetten hun zin op het kwaad en wendden hun ogen af, om niet naar de hemel te zien en niet te denken aan het rechtvaardig oordeel. Terwijl zij nu wachtten op een geschikte dag, gebeurde het, dat zij eens als naar gewoonte de boomgaard binnenging, alleen vergezeld van twee dienstmaagden; en omdat het warm was, wilde zij een bad nemen; want er was daar niemand behalve de twee ouderlingen, die zich verborgen hadden en haar in het oog hielden. Daarom zeide zij tot de dienstmaagden: Haalt mij de olie en de zalven, en sluit de poorten van de boomgaard; dan ga ik een bad nemen. Toen echter de dienstmaagden vertrokken waren, sprongen de twee ouderlingen op; en zij liepen naar haar toe en zeiden: Zie, de poort van de boomgaard is gesloten, en er is niemand, die ons ziet; en wij branden van begeerte naar u; doe daarom, wat wij willen en laat ons samen zijn. En als gij weigert, zullen wij tegen u getuigen, dat er een jongeman bij u was, en dat gij daarom de dienstmaagden hebt weggestuurd. Suzanna zuchtte en sprak: Van alle kanten word ik in het nauw gedreven. Doe ik het, dan wacht mij de dood; en doe ik het niet, dan zal ik aan uw handen niet ontkomen. Maar toch is het mij beter, zonder het te doen in uw handen te vallen, dan te zondigen voor het oog van de Heer. En Suzanna begon heel luid te roepen; maar ook de ouderlingen schreeuwden tegen haar in. En één liep er naar de poort van de boomgaard om die open te zetten. Toen nu de huisknechten het roepen in de boomgaard hoorden, liepen zij door de achterdeur er heen, om te zien wat er te doen was. Maar toen de ouderlingen hun verhaal gedaan hadden, kwam er een diepe schaamte over de dienaren; want zo iets was er van Suzanna nog nooit gezegd. De volgende dag brak aan. En toen het volk samenkwam bij Joakim, haar man, verschenen ook de beide ouderlingen, vol boze plannen tegen Suzanna, om haar te doen sterven. En zij spraken ten aan hore van het volk: Laat Suzanna halen, de dochter van Helcias, de vrouw van Joakim. En onmiddellijk deed men dat. Toen kwam zij binnen, vergezeld van haar ouders en kinderen en al haar verwanten. En haar familieleden weenden met allen, die haar kenden. En de twee ouderlingen stonden op te midden van het volk en legden hun handen op haar hoofd. Zij echter hief wenend haar ogen ten hemel; want haar hart was vervuld van vertrouwen op de Heer. En de ouderlingen zeiden: Terwijl wij alleen aan het wandelen waren in de boomgaard, kwam deze daar binnen met twee dienstmaagden; en zij liet de poorten van de boomgaard sluiten en zond de dienstmaagden weg. Maar toen kwam er een jongeman bij haar, die zich daar verborgen had, en deze zondigde met haar. Wij nu waren in een hoek van de boomgaard, en toen wij de ongerechtigheid bemerkten, snelden wij naar hen toe, en zagen, dat zij samen waren. Maar wij konden hem niet vasthouden, omdat hij sterker was dan wij en door de open poort ontkwam hij; haar echter hebben wij gegrepen en gevraagd, wie die jongeman was. Maar zij wilde het ons niet zeggen. Zo getuigen wij. De menigte geloofde hen, omdat zij ouderlingen waren en rechters van het volk; en men veroordeelde haar ter dood. Suzanna echter riep met luide stem en bad: Eeuwige God, die het verborgene kent en alles weet, voordat het geschiedt, Gij weet, dat zij een vals getuigenis tegen mij hebben afgelegd; en zie, ik moet sterven, terwijl ik niets gedaan heb van hetgeen zij boosaardig tegen mij verzonnen hebben. En de Heer verhoorde haar gebed. Want toen zij ter doodstraf werd weggevoerd, wekte God de heilige geest op van een jongeman, die Daniël heette. En deze riep met luider stem: Ik ben onschuldig aan haar bloed! En al het volk keerde zich naar hem toe en zeide: Wat betekent dit woord, dat gij daar spreekt? En terwijl hij daar in hun midden stond, zeide hij: Zijt gij dan zo dwaas, kinderen van Israël, dat gij een dochter van Israël veroordeelt, zonder te onderzoeken en zonder de waarheid te kennen! Keert naar de rechtzaal terug; want zij hebben een vals getuigenis tegen haar afgelegd. En haastig keerde het volk terug. En Daniël zeide hun: Zondert hen terdege van elkander af; dan zal ik hen aan een verhoor onderwerpen. Toen zij dan van elkander gescheiden waren, riep hij een van hen voor zich en sprak tot hem: Gij, oude booswicht, nu zijn uw zonden voor de dag gekomen, die gij vroeger hebt bedreven door onrechtvaardige vonnissen te vellen, door onschuldigen te verdrukken, en schuldigen vrij te spreken, terwijl de Heer zegt: “Onschuldigen en rechtvaardigen zult gij niet doden.” Nu dan, als gij haar hebt zien zondigen, zeg dan eens, onder wat voor boom gij hen met elkander hebt zien spreken. Hij antwoordde: Onder een mastiekboom. Toen sprak Daniël: Gij hebt goed gelogen ten koste van uw eigen hoofd. Want de engel Gods zal u op zijn bevel doormidden klieven. Toen liet hij hem wegbrengen en de ander voorgeleiden; en hij sprak tot hem: Gij, ras van Chanaän en niet van Juda, de schoonheid heeft u verleid en de hartstocht heeft uw hart bedorven. Zo deedt gij met de dochters van Israël, en uit vrees lieten deze zich met u in; maar een dochter van Juda heeft uw boosheid niet verdragen. Nu dan, zeg mij: onder wat voor boom hebt gij hen betrapt, terwijl zij met elkander spraken? En hij antwoordde: Onder een steeneik. Toen sprak Daniël tot hem: Schitterend hebt ook gij gelogen ten koste van uw hoofd; want de engel des Heren staat al gereed met het zwaard in de hand, om u doormidden te houwen en te doden. Nu begon de hele vergadering luide te juichen en zij loofden God, die redding schenkt aan hen, die op Hem vertrouwen. En men richtte zich tegen de beide ouderlingen - want Daniël had hen met eigen mond doen getuigen, dat zij een vals getuigenis hadden afgelegd; - en men vergold hun het kwaad, dat zij hun evennaaste hadden aangedaan, en bracht hen ter dood. Zo werd die dag onschuldig bloed gered.",
+        "Polski": "W one dni był mąż mieszkający w Babilonie, a imię jego Joakim. I pojął żonę imieniem Zuzanna, córkę Helkiasza, bardzo piękną i bojącą się Boga; bo rodzice jej, będąc sprawiedliwymi, wyćwiczyli córkę swą według Zakonu Mojżeszowego. A Joakim był bardzo bogaty i miał sad koło domu swego, i do niego się Żydzi schodzili, gdyż był ze wszystkich najznaczniejszy. A owego roku ustanowiono z ludu sędziami dwóch starców, o których Pan powiedział: «Wyszła nieprawość z Babilonu od starszych sędziów, o których się zdawało, iż lud sądzili». Ci często bywali w domu Joakima i przychodzili do nich wszyscy, którzy mieli sądy. A gdy się lud wracał w południe, wchodziła Zuzanna i przechadzała się po sadzie męża swego. I widywali ją starcy codziennie, jak wchodziła i przechadzała się, zapłonęli ku niej pożądliwością; i znieprawili swą myśl, a odwrócili swe oczy, by nie patrzeć w niebo i nie pamiętać na sprawiedliwe sądy ((Boże)). I zdarzyło się, gdy pilnowali dnia sposobnego, weszła kiedyś stosownie do zwyczaju, z dwoma tylko dziewczętami, i chciała wykąpać się w sadzie, bo był upał. A nie było tam nikogo oprócz dwu ukrytych starców, którzy się jej przyglądali. Rzekła tedy dziewczętom: «Przynieście mi olejku i mydła, a drzwi sadu zamknijcie, abym się wykąpała». A gdy wyszły dziewczęta, powstali dwaj starcy i przybiegli do niej, i rzekli: «Oto drzwi sadu są zamknięte i nikt nas nie widzi, a my cię pożądamy, przeto przystań na nasze żądanie i oddaj się nam. A jeśli nie będziesz chciała, wydamy przeciw tobie świadectwo, że był z tobą młodzieniec i że dlatego wypuściłaś dziewczęta od siebie». Westchnęła Zuzanna i rzekła: «ściśnięta jestem zewsząd: bo jeśli to uczynię, muszę śmierć ponieść, a jeśli nie uczynię, nie ujdę rąk waszych. Ale mi lepiej bez uczynku wpaść w ręce wasze, niźli zgrzeszyć przed obliczem Pańskim». I zawołała głosem wielkim Zuzanna; zawołali też i starcy przeciwko niej. I pobiegł jeden do drzwi sadu, i otworzył. A czeladź domowa, usłyszawszy wołanie w sadzie, wpadła tyłem chcąc zobaczyć, co to jest. A gdy starcy powiedzieli, zawstydzili się słudzy bardzo, bo nigdy nie powiedziano takiego słowa o Zuzannie. I nadszedł drugi dzień. A gdy się lud zebrał u Joakima, męża jej, przyszli też dwaj starcy, pełni myśli złośliwej przeciwko Zuzannie, aby ją zgubić. I rzekli przed ludem: «Poślijcie po Zuzannę, córkę Helkiasza, żonę Joakima». I zaraz posłali. I przyszła z rodzicami i z synami, i ze wszystkimi krewnymi swymi. Płakali tedy przyjaciele jej i wszyscy, którzy ją znali. I powstawszy dwaj starcy wpośród ludu, włożyli ręce swe na głowę jej. A ona płacząc spojrzała w niebo, bo serce jej miało ufność w Panu. I rzekli starcy: «Gdyśmy się sami przechadzali w sadzie, weszła ta z dwiema dziewczętami i zamknęła drzwi sadu, i odesłała dziewczęta od siebie. I przyszedł do niej młodzieniec, który był ukryty, i popełnił z nią grzech. A my, gdyśmy byli w kącie sadu, widząc nieprawość, pobiegliśmy do nich i ujrzeliśmy, jak ze sobą obcowali. Jego wprawdzie nie mogliśmy pojmać, gdyż był mocniejszy niźli my i otworzywszy drzwi wyskoczył. Ale tę pojmawszy spytaliśmy ją, co by to był za młodzieniec, ale nie chciała nam oznajmić. Tej rzeczy jesteśmy świadkami». Uwierzyło im pospólstwo jako starcom i sędziom ludu, i skazali ją na śmierć. A Zuzanna zawołała głosem wielkim i rzekła: «Boże wieczny, który znasz skryte rzeczy, który wiesz wszystko pierwej, niźli się stanie, Ty wiesz, iż fałszywe świadectwo wydali przeciwko mnie; a oto umieram, chociaż nie uczyniłam nic z tych rzeczy, które ci na mnie złośliwie zmyślili». I wysłuchał Pan głosu jej. A gdy ją wiedziono na śmierć, wzbudził Pan ducha świętego w młodym człowieku, któremu było na imię Daniel; i zawołał głosem wielkim: «Czysty ja jestem od krwi tej!» I obróciwszy się wszystek lud do niego, rzekł: «Co to za słowo, któreś ty powiedział!» A on stojąc wpośród nich rzekł: «Tak to szaleni synowie Izraela, nie rozsądziwszy ani się prawdy dowiedziawszy skazaliście na śmierć córkę izraelską? Wróćcie się do sądu, bo fałszywe świadectwo mówili przeciwko niej!» Wrócił się tedy lud z pośpiechem. I rzekł do nich Daniel: «Rozłączcie ich daleko od siebie, a ja ich osądzę». Gdy tedy zostali od siebie rozłączeni, przywołał jednego z nich i rzekł do niego: «Od wielu dni zastarzały w złu, teraz wyszły na jaw grzechy twoje, które przedtem popełniałeś, wydając sądy niesprawiedliwe, uciskając niewinnych, a wypuszczając winnych, gdy Pan mówi: „Niewinnego i sprawiedliwego nie będziesz zabijał”. Teraz tedy, jeśli ją widziałeś, powiedz, pod jakim drzewem widziałeś ich obcujących ze sobą?» A on rzeki: «Pod mastyksowym». I rzekł Daniel: «Wybornie skłamałeś na głowę twoją; bo oto Anioł Boga, wziąwszy od Niego wyrok, rozetnie cię na poły». I oddaliwszy go kazał przyjść drugiemu i rzekł mu: «Plemię chananejskie, a nie judzkie! Piękność cię uwiodła i pożądliwość wywróciła serce twoje. Tak czyniliście córkom izraelskim, a one z bojaźni ulegały wam; ale córka judzka nie ścierpiała niecnoty waszej. Teraz tedy powiedz mi, pod jakim drzewem zastałeś ich obcujących z sobą?» A on rzekł: «Pod dębem». I rzekł mu Daniel: «I ty wybornie skłamałeś na swą głowę; bo czeka Anioł Pański, mający miecz, aby cię rozciąć na poły i zabić was». Tedy wszystko zgromadzenie zawołało głosem wielkim i błogosławili Boga, który wybawia pokładających Nim nadzieję. I powstali przeciw dwom starcom ((bo im był udowodnił Daniel z ust ich, iż fałszywe świadectwo lali)), i uczynili im wedle tego, jak oni sami źle uczynili przeciw bliźniemu, aby uczynić według Zakonu Mojżeszowego; i zabili ich, a krew niewinna owego dnia była wybawiona.",
+        "Portugues": "Naqueles dias, habitava em Babilónia um varão cujo nome era Joaquim, que desposara uma mulher, chamada Susana, filha de Helcias, a qual era formosíssima e temente a Deus, pois seus pais, que eram justos, haviam-na instruído na lei de Moisés. Joaquim era muito rico e possuía um jardim próximo de sua casa. Os judeus procuravam-no sempre, porque ele era o mais honrado de todos. Naquele ano foram constituídos juízes do povo dois velhos, dos quais disse o Senhor: «Que a iniquidade saiu da Babilónia pelos velhos, que eram juízes e pareciam conduzir o povo». Estes frequentavam a casa de Joaquim, onde vinham também todos quantos tinham questões a dirimir. Quando, porém, cerca do meio-dia, se retirava o povo, entrava Susana e passeava no jardim de seu marido. Viam-na os velhos, todos os dias, entrar e passear. Então conceberam uma ardente paixão por ela; e, pervertendo os sentidos, afastaram seus olhos do céu, para não meditarem nele e não se recordarem dos justos juízos de Deus. Aconteceu, pois, que, esperando eles um dia propício, Susana entrou no jardim, segundo o costume, acompanhada só por duas criadas, com intenção de se banhar no jardim, pois estava calor e não havia lá ninguém, além dos dois velhos escondidos, que a espreitavam. Disse, pois, ela às criadas: «Trazei-me óleo e perfumes e fechai as portas do jardim, para que eu me banhe». Logo que as criadas saíram, levantaram-se os dois velhos, correram para Susana e disseram-lhe: «Eis que as portas do jardim estão fechadas; ninguém nos vê. Nós ardemos de paixão por ti; consente, pois, no nosso desejo, entregando-te a nós. Se recusas, daremos contra ti testemunho de que esteve contigo um mancebo e que, por isso, despediste as criadas». Suspirou Susana e disse: «De todos os lados me oprimem angústias! Se eu fizer isso, será a morte para mim; e, se o não fizer, não me livro das vossas mãos. Mas é melhor para mim cair nas vossas mãos, sem praticar o pecado, do que pecar diante de Deus». Então Susana gritou com voz forte, fazendo o mesmo os velhos contra ela. Um deles correu à porta do jardim e abriu-a. Ouvindo os criados da casa este ruído, precipitaram-se pelo postigo para verem o que lá haveria. Depois que os velhos falaram, envergonharam-se muito os servos, porque ninguém dissera igual coisa de Susana. No dia seguinte, vindo o povo a casa de Joaquim, seu marido, vieram também os dois velhos, com o iníquo pensamento de conseguir a morte de Susana. Disseram, então, diante do povo: «Mandai buscar Susana, filha de Helcias e mulher de Joaquim». Imediatamente foram buscá-la. Veio ela com seus pais, filhos e todos que a conheciam, chorando todos. Levantando-se, pois, os dois velhos no meio do povo, puseram as mãos sobre a cabeça de Susana. Ela, chorando, ergueu os olhos ao céu, pois o seu coração estava cheio de confiança no Senhor! Disseram os velhos: «Passeando nós no jardim, a sós, esta mulher entrou com duas criadas, fechou as portas do jardim e despediu as criadas. Então veio ter com ela um mancebo, que estava escondido, e praticou acções más com ela. Porém, nós, que estávamos a um canto do jardim, vendo esta iniquidade, corremos para eles e vimo-los praticar o mal. Ao mancebo, porém, não pudemos agarrar, porque era mais forte do que nós, e, tendo aberto a porta, fugiu. Logo prendemos esta e lhe perguntámos quem era o mancebo; mas não quis dizer-nos. Disto somos testemunhas». Deu-lhes crédito a multidão, porque eram velhos e juízes do povo, e condenaram Susana à morte. Então exclamou ela em voz alta: «Deus eterno, que conheceis o que é oculto, bem como todas as coisas antes que elas aconteçam, sabeis que se apresenta um falso testemunho contra mim e que vou morrer, sem nunca ter feito nenhuma das coisas que malignamente me imputam!». O Senhor ouviu a sua oração. E, sendo ela conduzida para a morte, despertou o Senhor o Espírito Santo num jovem, chamado Daniel, o qual gritou em alta voz: «Eu sou inocente do sangue desta mulher». Então, voltando-se todos para ele, disseram-lhe: «Que disseste?». Daniel, ficando de pé, no meio deles, disse: «Sois vós tão insensatos, ó filhos de Israel, que condeneis à morte uma filha de Israel sem procurar conhecer a verdade? Repeti o julgamento, porque se apresentou um falso testemunho contra ela». Voltou-se imediatamente o povo; e Daniel continuou: «Separai os juízes um do outro e eu os julgarei». Sendo separados um do outro, chamou Daniel um deles e disse-lhe: «Homem envelhecido no mal, os pecados que outrora cometeste caem hoje sobre ti! Tu, que proferias juízos iníquos, oprimindo inocentes e absolvendo culpados (quando o Senhor diz: «Não matarás o inocente e o justo»), diz-me: debaixo de que árvore viste Susana e o mancebo, falando juntos?». Ele respondeu: «Debaixo de uma aroeira». E Daniel disse: «Claramente mentiste contra a tua cabeça! Eis que o Anjo de Deus, que de Deus recebeu tua sentença, vai rachar-te de meio a meio». Foi este homem retirado, sendo mandado vir o outro, a quem disse: «Raça de Canaan (e não de Judá), a formosura cativou-te e a paixão perverteu-te o coração. Assim fazias às filhas de Israel, que, temendo-te, falavam contigo; mas a filha de Judá não quis suportar a tua iniquidade! Agora, pois, dize-me: debaixo de que árvore os surpreendeste, quando falavam os dois?». Respondeu ele: «Debaixo de uma azinheira». Daniel retorquiu: «Claramente mentiste contra a tua cabeça; pois o Anjo do Senhor está preparado, com a espada já erguida para te passar pelo meio e vos matar a ambos!». Então toda a multidão clamou em voz alta e louvou Deus, porque Ele salva aqueles que n’Ele confiam. E voltaram-se contra os dois velhos (pois Daniel os convencera pelas suas próprias palavras) e fizeram-lhes o mal que eles queriam fazer ao seu próximo, isto é, mataram-nos. E naquele dia foi salvo o sangue inocente."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Graduale",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "after_chanting_lesson",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) SI(d) ám(fg)bu(gvF'EfvED'e)lem(ed..) *(,) in(f) mé(ghgh)di(hjH'GF'gwhgh)o(hg..) (,) um(hv.fg'h)brae(g) mor(fv.dfe)tis,(d//ffd/fhhg.) (;) non(dh) ti(hg)mé(h'/jij)bo(hv.fh!jvH'GF'g) ma(fv.dfe)la :(d!ffd) (,) (fge'/fgd'/eddc.) (:) quó(f)ni(d)am(e) tu(f) me(ghgh./gh/jj//jjj)cum(g) es,(hg/hfg) (,) Dó(d)mi(d)ne.(dc/d!ff/ghG'Efgff/ded.) (::) <sp>V/</sp>. Vir(h_f hvhggef)ga(d.) tu(dc/d!ff/gh!jjg)(,)(ixhhghvGF./hiHG'hw!ivHGhi)a,(h.) (;) et(dh) bá(h/jjh)cu(h!jjh)lus(h_g) tu(hg/h!jjjg//ivHG'gf/gh/j.h!iwj_h)us,(h.) (:) i(h_f//hvhggef)psa(de) me(d_c/d!ewf!gv.fg!hvFEfg!hvhg.) <clear>*(,) con(g)so(gh)lá(ixjhiGF'h!jjvH'Gh')ta(d) sunt.(dc/d!ff/ghG'Efgff/ded.) (::)",
+      "availableTranslations": {
+        "English": "Even though I walk in the dark valley, I fear no evil; for You are at my side, O Lord. With Your rod and Your staff that give me courage.",
+        "Espanol": "Aunque caminase yo por medio de la sombre de la muerte, no temeré ningún desastre; porque tú estás conmigo, Señor. Tu vara y tu báculo han sido mi consuelo.",
+        "Francais": "Si je marche au milieu de l'ombre de la mort, je ne crains aucun mal, car vous êtes avec moi, Seigneur. Votre houlette et votre bâton m’ont consolé.",
+        "Italiano": "Quand'anche fossi per funerea valle non temo alcun male, perché Tu, o Signore, sei con me. La tua verga e il tuo vincastro; ecco i miei conforti.",
+        "Magyar": "Járjak bár a halál árnyékában, nem félek semmi bajtól sem, mert te velem vagy, Uram. Vessződ és pásztorbotod megvigasztal engem.",
+        "Nederlands": "Al wandel ik te midden van de schaduwen des doods, geen onheil zal ik vrezen, want Gij zijt bij mij, Heer. Uw roede en uw herderstaf, die zijn mijn troost.",
+        "Polski": "Chociażbym chodził ciemną doliną, zła się nie ulęknę, bo Ty jesteś ze mną, Panie. Kij Twój i Twoja łaska: to one mnie pocieszają.",
+        "Portugues": "Ainda que eu ande no meio das sombras da morte, não recearei mal algum, pois Vós, Senhor, estais comigo. Vossa vara e o vosso báculo confortam-me."
+      },
+      "mode": "1",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Evangelium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "choir_sings_responses_gospel",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\n\nSe(h)quén(h)ti(h)a(h) sánct(h)i(f) Ev(h)an(g)gé(g)li(h)i(h.) (,)\nse(h)cún(h)dum(h) <i>N.</i>(hr) (g.) (g.) <sp>R/</sp>(::) Gló(h)ri(h)a(h)\nti(h)bi(h) Dó(g)mi(g)ne.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "In illo témpore: Perréxit Jesus in montem Olivéti: et dilúculo íterum venit in templum, et omnis pópulus venit ad eum, et sedens docébat eos. Addúcunt autem scribæ et pharisǽi mulíerem in adultério deprehénsam: et statuérunt eam in médio, et dixérunt ei: Magíster, hæc múlier modo deprehénsa est in adultério. In lege autem Móyses mandávit nobis hujúsmodi lapidáre. Tu ergo quid dicis? Hoc autem dicébant tentántes eum, ut possent accusáre eum. Jesus autem inclínans se deórsum, dígito scribébat in terra. Cum ergo perseverárent interrogántes eum, eréxit se, et dixit eis: Qui sine peccáto est vestrum, primus in illam lápidem mittat. Et íterum se inclínans, scribébat in terra. Audiéntes autem unus post unum exíbant, incipiéntes a senióribus: et remánsit solus Jesus, et múlier in médio stans. Erigens autem se Jesus, dixit ei: Múlier, ubi sunt, qui te accusábant? nemo te condemnávit? Quæ dixit: Nemo, Dómine. Dixit autem Jesus: Nec ego te condemnábo: Vade, et jam ámplius noli peccáre.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "At that time, Jesus went to the Mount of Olives. And at daybreak He came again into the temple, and all the people came to Him; and sitting down He began to teach them. Now the Scribes and Pharisees brought a woman caught in adultery, and setting her in the midst, said to Him, Master, this woman has just now been caught in adultery. And in the Law Moses commanded us to stone such persons. What, therefore, do You say? Now they were saying this to test Him, in order that they might be able to accuse Him. But Jesus, stooping down, began to write with His finger on the ground. But when they continued asking Him, He raised Himself and said to them, Let him who is without sin among you be the first to cast a stone at her. And again stooping down, He began to write on the ground. But hearing this, they went away, one by one, beginning with the eldest. And Jesus remained alone, with the woman standing in the midst. And Jesus, raising Himself, said to her, Woman, where are they? Has no one condemned you? She said, No one, Lord. Then Jesus said, Neither will I condemn you. Go your way, and from now on sin no more.",
+        "Espanol": "Jesús se retiró al monte de los Olivos: Y al romper el día volvió según costumbre al templo; y como todo el pueblo concurría a él, sentándose se puso a enseñarlos. Cuando he aquí que los escribas y fariseos traen a una mujer cogida en adulterio y, poniéndola en medio, dijeron a Jesús : Maestro, esta mujer acaba de ser sorprendida en adulterio. Moisés en la ley nos tiene mandado apedrear a las adúlteras. Tú ¿qué dices a esto? Lo cual preguntaban para tentarle y poder acusarle. Pero Jesús se inclinó hacia el suelo, y con el dedo escribía en la tierra. Mas como porfiasen ellos en preguntarle, se enderezó, y les dijo: El que de vosotros se halla sin pecado, que le tire la primera piedra. Y volviendo a inclinarse otra vez, continuaba escribiendo en el suelo. Mas, oída tal respuesta, se iban escabullendo uno tras otro, comenzando por los más viejos, hasta que dejaron solo a Jesús y a la mujer que estaba en medio. Entonces Jesús, enderezándose, le dijo: Mujer, ¿dónde están tus acusadores? ¿Nadie te ha condenado? Ella respondió: Nadie, Señor. Y Jesús compadecido le dijo: Pues tampoco yo te condenaré. Anda, y no peques más.",
+        "Francais": "En ce temps-là, Jésus se rendit sur la montagne des Oliviers. Et, de grand matin, il vint de nouveau dans le temple, et tout le peuple vint à lui ; et s’étant assis, il les enseignait. Alors les scribes et les pharisiens lui amenèrent une femme surprise en adultère ; et ils la placèrent au milieu de la foule. Et ils dirent à Jésus : Maître, cette femme vient d’être surprise en adultère. Or Moïse, dans la loi, nous a ordonné de lapider ces femmes-là. Vous donc, que dites-vous ? Ils disaient cela pour le tenter, afin de pouvoir l’accuser. Mais Jésus, se baissant, écrivait avec son doigt sur la terre. Et comme ils persistaient à l’interroger, il se releva, et leur dit : Que celui d’entre vous qui est sans péché lui jette la pierre le premier. Puis, se baissant de nouveau, il écrivait sur la terre. Mais, ayant entendu cela, ils se retirèrent l’un après l’autre, en commençant par les plus âgés ; et Jésus demeura seul avec cette femme, qui était debout au milieu. Alors Jésus, se relevant, lui dit : Femme, où sont ceux qui t’accusaient ? Personne ne t’a-t-il condamnée ? Elle dit : Personne, Seigneur. Jésus lui dit : Mol non plus, je ne te condamnerai pas ; va, et désormais ne pèche plus.",
+        "Italiano": "In quel tempo Gesù se n'andò al monte degli Ulivi. Ma sul far del giorno tornò di nuovo nel tempio, e tutto il popolo accorse a lui ed egli, sedutosi, l'ammaestrava. Allora gli Scribi ed i Farisei gli condussero una donna colta in adulterio e, postala in mezzo, gli dissero: «Maestro, questa donna è stata sorpresa in flagrante adulterio. Or Mosè nella legge ci ha comandato di uccidere a colpi di pietra tali donne; e tu che ne dici?». E dicevan questo per metterlo alla prova e per poterlo accusare. Ma Gesù, chinatosi, si mise a scrivere col dito in terra. E siccome continuavano ad interrogarlo, si alzò e disse loro: «Chi di voi è senza peccato, scagli contro di lei la prima pietra». E di nuovo chinatosi, seguitò a scrivere in terra. Ma quelli udito ciò, uno dopo l'altro se ne andarono tutti, cominciando dai più vecchi, e Gesù restò solo con la donna là in mezzo. Allora, Gesù, alzatosi, le disse: « Dove sono, o donna, quelli che ti accusavano? Nessuno ti ha condannata?». Ed ella: «Nessuno, Signore». E Gesù le disse: «Nemmeno io ti condannerò: va' e d'ora in poi non peccare più».",
+        "Magyar": "Jézus kiment az Olajfák hegyére,  majd kora reggel újra megjelent a templomban. A nép köré sereglett, s ő leült és tanította őket.  Az írástudók és a farizeusok egy házasságtörésen ért asszonyt vittek eléje. Odaállították középre,  és így szóltak hozzá: „Mester, ezt az asszonyt röviddel ezelőtt házasságtörésen érték.  Mózes azt parancsolta a törvényben, hogy az ilyet meg kell kövezni. Hát te mit mondasz?”  Ezt azért kérdezték, hogy próbára tegyék, s vádolhassák. Jézus lehajolt, és az ujjával írni kezdett a földön.  De tovább faggatták, azért fölegyenesedett, és azt mondta nekik: „Az vesse rá az első követ, aki bűntelen közületek!”  Aztán újra lehajolt, s tovább írt a földön,  ők meg ennek hallatára eloldalogtak, egyikük a másik után, kezdve a véneken, s csak Jézus maradt ott a középütt álló asszonnyal.  Jézus fölegyenesedett és megszólította: „Asszony, hova lettek? Senki sem ítélt el?”  „Senki, Uram” - felelte az asszony. Erre Jézus azt mondta neki: „Én sem ítéllek el. Menj, de többé ne vétkezzél!”",
+        "Nederlands": "In die tijd ging Jezus naar de Olijfberg, en de volgende morgen begaf Hij Zich weer naar de tempel. En al het volk kwam naar Hem toe, en Hij zette Zich neer om hen te onderrichten. De schriftgeleerden nu en farizeën brachten een vrouw bij Hem, die op echtbreuk was betrapt; en zij plaatsten haar in het midden en vroegen Hem: Meester, deze vrouw is zojuist op echtbreuk betrapt. Nu heeft Mozes ons in de Wet voorgeschreven zo iemand te stenigen. Wat zegt Gij er nu van? Zij zeiden dit echter, om Hem op de proef te stellen en een aanklacht tegen Hem te hebben. Maar Jezus boog Zich voorover en schreef met zijn vinger op de grond. Toen zij echter bij Hem aanhielden met vragen, richtte Hij Zich op en zeide tot hen: Wie van u zonder zonde is, werpe de eerste steen op haar. En weer boog Hij Zich voorover en schreef weer op de grond. Maar toen zij dat hoorden, gingen zij de een na de ander weg, de oudsten voorop. En Jezus bleef alleen over met de vrouw daar in het midden. Toen richtte Jezus Zich op en sprak tot haar: Vrouw, waar zijn uw aanklagers gebleven? heeft niemand u veroordeeld? En zij antwoordde: Niemand, Heer. En Jezus hernam: Ook Ik zal u niet veroordelen. Ga heen, en zondig voortaan niet meer.",
+        "Polski": "Onego czasu: Jezus udał się na górę Oliwną. I o świcie wrócili znowu do świątyni, a wszystek lud przybył do Niego, a On zasiadł i nauczał ich. I przyprowadzili doktorzy i faryzeusze niewiastę, którą zastano na cudzołóstwie, postawili ją w pośrodku i rzekli Mu: «Nauczycielu, niewiastę tę zastano dopiero na cudzołóstwie. Mojżesz w Prawie rozkazał nam takie kamienować. Cóż więc ty powiesz?» A mówili to kusząc Go, aby Go mogli oskarżyć. A Jezus schyliwszy się na dół pisał palcem na ziemi. Gdy jednak nie przestawali Go pytać, podniósł się i rzekł im: «Kto z was jest bez grzechu, niech pierwszy rzuci na nią kamieniem». I znowu schyliwszy się pisał na ziemi. A usłyszawszy to jeden za drugim wychodzili, poczynając od starszych, i został tylko sam Jezus i niewiasta w pośrodku stojąca. A podniósłszy się Jezus rzekł jej: «Niewiasto, gdzież są twoi oskarżyciele? Nikt cię nie potępił?» A ona rzekła: «Nikt, Panie». A Jezus powiedział: «I ja cię nie potępię. Idź, a nie grzesz więcej».",
+        "Portugues": "Naquele tempo, Jesus retirou-se para o monte das Oliveiras, voltando novamente ao templo ao romper da manhã. Logo o povo se aproximou d’Ele, sentando-se. E Jesus ensinava a multidão. Os escribas e fariseus trouxeram-Lhe, então, uma mulher, apanhada em adultério, e perguntaram-Lhe: «Mestre, esta mulher acaba de ser surpreendida em adultério. Moisés manda na lei que os adúlteros sejam apedrejados; tu, porém, que dizes?». Isto diziam, tentando-O, para ver se podiam acusá-l’O. Mas Jesus, tendo-se inclinado para o chão, escrevia com o dedo na terra. Como continuassem a interrogá-l’O, endireitou-se Jesus, dizendo-lhes: «Aquele de vós que estiver sem pecado seja o primeiro a atirar-lhe a pedra». E, inclinando-se outra vez, continuou a escrever na terra. Eles, porém, ouvindo estas palavras, retiraram-se uns após outros (a começar pelos mais velhos), tendo ficado só Jesus e a mulher, que estava de pé. Erguendo-se, então, Jesus disse-lhe: «Mulher, onde estão os que te acusavam? Ninguém te condenou?». Ela disse: «Ninguém, Senhor». Jesus continuou: «Nem eu também te condenarei. Vai e não tornes a pecar»."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Credo",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "the_creed_is_sung",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "credo",
+      "availableTranslations": null,
+      "targets": []
+    },
+    {
+      "type": "title",
+      "text": "Ante Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "just_before_offertory",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Offertorium",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_oremus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) GRes(f)sus(fg) me(g)os(g.) *(,) dí(ghg)ri(gef)ge(d!ff) Dó(ixfh!ivHG)mi(ghg___)ne(g.) (;) se(j)cún(jjjvHG'gf/gh!jjjgivHG'gf!gwh!iv_H~G~)dum(hg..) (,) e(f)ló(fg!hvhg)qui(g.h!iwji)um(ih~) tu(jkj)um :(hihhg.) (:) ut(fg'h~) non(g!jj//jjj) do(h)mi(hg)né(h)tur(ge/fg!hvhg.) (;) o(ge~)mnis(fgffgD'Cd.) in(c)ju(d)stí(dg)ti(gf)a,(g.jvvIH'iw!jvIH) (,) Dó(hg)mi(gh/jhi)ne.(hg..) (::)",
+      "availableTranslations": {
+        "English": "Steady my footsteps according to Your promise, and let no iniquity rule over me, O Lord.",
+        "Espanol": "Endereza mis pasos según la norma de tus palabras, y haz que no reine en mi injusticia ninguna, Señor.",
+        "Francais": "Conduisez mes pas selon votre parole, et que nulle injustice ne domine sur moi, Seigneur.",
+        "Italiano": "Dirigi i miei passi secondo la tua parola, o Signore, e non lasciarmi dominare da vizio alcuno.",
+        "Magyar": "Irányítsd lépteimet beszéded szerint, hogy semmiféle hamisság se uralkodjék rajtam, Uram.",
+        "Nederlands": "Richt mijn schreden naar uw uitspraak, opdat geen onrecht mij beheerse, o Heer.",
+        "Polski": "Krokami mymi kieruj według mowy Twojej, niech żadna niegodziwość we mnie nie panuje.",
+        "Portugues": "Dirigi os meus passos segundo os vossos preceitos, Senhor; permiti que não domine em mim iniquidade alguma."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Secreta",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Concéde, quǽsumus, omnípotens Deus: ut hujus sacrifícii munus oblátum, fragilitátem nostram ab omni malo purget semper et múniat.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Grant, we beseech You, almighty God, that the offering of this sacrifice may always cleanse and strengthen the weakness of our nature.",
+        "Espanol": "Te pedimos, oh Dios todopoderoso, nos concedas que el don ofrecido en este sacrificio purifique siempre y defienda nuestra fragilidad de todo mal.",
+        "Francais": "Faites, nous vous en supplions, Dieu tout-puissant, que l’oblation de ce sacrifice purifie sans cesse de tout mal notre fragilité et la munisse de secours.",
+        "Italiano": "Ti supplichiamo, o Dio onnipotente, di concederci che l'offerta di questo sacrificio purifichi ognor più la nostra fragilità da ogni male e la fortifichi.",
+        "Magyar": "Engedd, kérünk, mindenható Isten, hogy e felajánlott adomány gyarlóságunkat minden rossztól mindenkoron megtisztítsa és oltalmazza.",
+        "Nederlands": "Wij vragen U, almachtige God, laat de aangeboden gave van dit offer onze zwakheid steeds mogen zuiveren van alle kwaad en ervoor behoeden. ",
+        "Polski": "Spraw, prosimy Cię, wszechmogący Boże, aby ten dar złożony w ofierze, nieustannie oczyszczał i zachowywał od wszelkiego zła naszą ludzką ułomność.",
+        "Portugues": "Vos suplicamos, ó Deus omnipotente, concedei-nos que a oblação deste sacrifício, que Vos oferecemos, nos livre de todos os males da nossa fraqueza e nos fortaleça."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Praefatio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) PER(c) ó(e)mni(f)a(f) sǽ(g)cu(f)la(f) sæ(e)cu(f)ló(fe)rum.(e.) (::)\n<sp>R/</sp>. A(e)men.(ef..) (::)\n<nlba><sp>V/</sp>. Dó(e)mi(f)nus</nlba>(g) vo(ef)bís(gf)cum.(f.) (::)\n<sp>R/</sp>. Et(e) cum(f) spí(g)ri(e)tu(f) tu(gf)o.(f.) (::)\n<sp>V/</sp>. Sur(f!gwh)sum(g) cor(fg)da.(fe..) (::)\n<sp>R/</sp>. Ha(g)bé(f!gwh)mus(g) ad(g) Dó(fg)mi(f)num.(fe..) (::)\n<sp>V/</sp>. Grá(g)ti(fe)as(ef) a(g)gá(f!gwh)mus(g.) (,)\nDó(g)mi(f)no(fe) De(ef)o(g) no(fg)stro.(f.) (::)\n<sp>R/</sp>. Di(f!gwh)gnum(g) et(g) ju(fg)stum(f) est.(fe..) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Sanctus",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "immediately_after_preface",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "sanctus",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Post Canonem",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Pater Noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "celebrant_pater_noster",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nEt(e) ne(g) nos(h) in(h)dú(i)cas(h) in(h)\nten(h)ta(g)tio(h)ó(hg)nem.(g.)\n<sp>R/</sp>(::)\nSed(g) lí(h)be(h)ra(h) nos(h) a(i) má(hg)lo.(g.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Fractio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) PER(e) óm(g)ni(h)a(h) sǽ(i)cu(h)la(h) sæ(g)cu(h)ló(hg)rum.(g.) (::)\n<sp>R/</sp>. A(g)men.(g.h.) (::)\n<sp>V/</sp>. Pax(h) Dó(gh)mi(h)ni(h.) (,) sit(i) sem(h)per(g) vo(h)bís(hg) cum.(g.)(::) \n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Agnus Dei",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "agnus-dei",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Communio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "once_celebrant_distributes",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c3) NE(e)mo(ehg) *() te(h) con(i)de(h)mná(hg)vit,(fg~) mú(e)li(de)er?(e.) (;) Ne(h)mo,(h) Dó(h)mi(fh!ivHG'h)ne.(hg..) (:) Nec(h) e(ij)go(i) te(g) con(h)de(f)mná(e)bo :(fhg.) (;) jam(gh) ám(i)pli(hg)us(e) no(ef)li(g) pec(fg)cá(e.)re.(e.) (::)",
+      "availableTranslations": {
+        "English": "Has no one condemned you, woman? No one, Lord. Neither will I condemn you; now sin no more.",
+        "Espanol": "¿Ninguno te ha condenado, mujer? Ninguno, Señor. Tampoco yo te condenare; no quieras ya pecar más.",
+        "Francais": "Femme, personne ne t’a-t-il condamnée ? Personne, Seigneur. Moi, non plus je ne te condamnerai pas ; va et désormais ne pèche plus.",
+        "Italiano": "Nessuno ti ha condannato, o donna? “Nessuno, Signore” Neppure io ti condannerò; va' e non peccare più.",
+        "Magyar": "Asszony, senki sem ítélt el téged? Senki, Uram! Én sem ítéllek el téged: Többé ne vétkezzél.",
+        "Nederlands": "Heeft niemand u veroordeeld, vrouw? Niemand, Heer. Ook ik zal u niet veroordelen. Zondig voortaan niet meer.",
+        "Polski": "Nikt cię nie potępił, niewiasto? Nikt, Panie. I ja cię nie potępię. Idź, a nie grzesz więcej.",
+        "Portugues": "Mulher, ninguém te condenou? Ninguém, Senhor. Nem Eu, também, te condenarei. Vai e não tornes a pecar."
+      },
+      "mode": "8",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Postcommunio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray.",
+        "Deutsch": "Lasset uns beten.",
+        "Espanol": "Oremos.",
+        "Francais": "Prions.",
+        "Italiano": "Preghiamo.",
+        "Polski": "Módlmy się.",
+        "Portugues": "Oremos."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Quǽsumus, omnípotens Deus: ut inter ejus membra numerémur, cujus córpori communicámus et sánguini:",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "We beseech You, almighty God, that we may be numbered among the members of Him, Whose Body and Blood we receive in communion.",
+        "Espanol": "Te suplicamos, oh Dios todopoderoso, que seamos contado entre los miembros de aquel, cuyo cuerpo y sangre acabamos de recibir.",
+        "Francais": "Nous vous supplions, Dieu tout-puissant, de faire que nous soyons comptés parmi les membres de celui au corps et au sang de qui nous avons communié.",
+        "Italiano": "Fa', o Signore, che veniamo annoverati fra le membra di Colui, del cui Corpo e Sangue siamo fatti partecipi:",
+        "Magyar": "Kérünk, mindenható Isten, hogy annak tagjai közé számíttassunk, akinek testével és vérével egyesülünk.",
+        "Nederlands": "Wij vragen U, almachtige God, dat wij gerekend mogen worden onder de leden van Hem, aan wiens Lichaam en Bloed wij deel hebben.",
+        "Polski": "Prosimy Cię, wszechmogący Boże, racz nas zaliczyć do członków Tego, którego Ciała i Krwi jesteśmy uczestnikami:",
+        "Portugues": "Ó Deus omnipotente, Vos rogamos, permiti que sejamos contados no número dos membros d’Aquele que nos admitiu à comunhão do seu Corpo e do seu Sangue."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Oratio super Populum",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "Orémus. Humiliáte cápita vestra Deo. Præténde, Dómine, fidélibus tuis déxteram cœléstis auxílii: ut te toto corde perquírant; et, quæ digne póstulant, cónsequi mereántur.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Let us pray. Bow your heads to God. Stretch forth to Your faithful people, O Lord, the hand of divine help, that they may seek You with their whole heart, and may be found worthy to obtain the things they implore in the right way.",
+        "Espanol": "Oremos. Humillad ante Dios vuestras cabezas. Extiende, Señor, sobre tus fieles la diestra del auxilio celestial, para que te busquen de todo corazón y merezcan conseguir lo que dignamente piden.",
+        "Francais": "Prions. Humiliez vos têtes devant Dieu. Étendez votre droite à vos fidèles, ô Seigneur, en leur donnant le céleste secours, afin qu’ils vous recherchent de tout leur cœur et qu’ils méritent d’obtenir ce qu’ils demandent Justement.",
+        "Italiano": "Preghiamo. Inchinatevi davanti a Dio. Stendi, o Signore, la destra sui tuoi fedeli in celeste aiuto; affinché essi ti cerchino con tutto il cuore e ottengano quanto rettamente domandano.",
+        "Magyar": "Könyörögjünk. Alázzátok meg fejeteket Isten előtt. Nyújtsd, Urunk, híveidnek mennyei segítő jobbodat, hogy teljes szívükből keressenek, s amit méltó módon kérnek, elnyerni is méltók legyenek.",
+        "Nederlands": "Laat ons bidden. Buigt nederig uw hoofd voor God. Heer, reik uw gelovigen de helpende hand van uw hemelse hulp, opdat zij U met geheel hun hart zoeken en mogen verkrijgen, wat zij passend vragen.",
+        "Polski": "Módlmy się. Pochylcie głowy wasze przed Bogiem. Podaj, Panie, wiernym Twoim prawicę niebieskiej pomocy, aby Cię całym sercem szukali i mogli otrzymać to, o co nabożnie proszą.",
+        "Portugues": "Oremos.  Inclinai as vossas cabeças diante de Deus. Senhor, estendei sobre os vossos fiéis a vossa dextra, assistindo-lhes com o auxílio celestial, para que Vos procurem com todo o coração e consigam alcançar o que dignamente suplicam."
+      },
+      "translation": null
+    },
+    {
+      "type": "text",
+      "latin": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Bohemice": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Cesky-Schaller": "Skrze Pána našeho Ježíše Krista, Syna tvého, jenž s tebou žije a kraluje v jednotě Ducha Svatého Bůh, po všecky věky věkův.",
+        "Dansk": "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum.",
+        "Deutsch": "Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.",
+        "Espanol": "Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por todos los siglos de los siglos.",
+        "Francais": "Par notre Seigneur Jésus-Christ, votre Fils, qui, étant Dieu, vit et règne avec vous, en l’unité du Saint-Esprit, dans tous les siècles des siècles.",
+        "Italiano": "Per il nostro Signore Gesù Cristo, tuo Figlio, che è Dio, e vive e regna con te, in unità con lo Spirito Santo, per tutti i secoli dei secoli.",
+        "Magyar": "A mi Urunk Jézus Krisztus a te Fiad által, aki veled él és uralkodik a Szentlélekkel együtt, Isten, mindörökkön-örökké.",
+        "Nederlands": "Door onze Heer Jezus Christus, uw Zoon: die met U leeft en heerst in de eenheid van de Heilige Geest, God: door alle eeuwen der eeuwen.",
+        "Polski": "Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.",
+        "Portugues": "Por Nosso Senhor Jesus Cristo, vosso Filho que, sendo Deus, vive e reina convosco na unidade do Espírito Santo, ~",
+        "Ukrainian": "Через Господа нашого Ісуса Христа, Сина Твого, Котрий з Тобою живе і царює в єдності Святого Духа, Бог, на всі віки віків.",
+        "Vietnamice": "Vì công nghiệp Đức Chúa Giêsu Kirixitô là Chúa chúng tôi, Người là Con Chúa hằng sống hằng trị cùng Đức Chúa Cha và Đức Chúa Thánh Thần đời đời chẳng cùng."
+      },
+      "translation": null
+    },
+    {
+      "type": "music",
+      "gabc": "(c4)\nA(g.)men(h.) <i>or</i>(::) A(g)men(g.h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "title",
+      "text": "Dimissio",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "gabc": "(c4) Do(g)mi(h)nus(h) vo(gh)bis(hg)cum.(g) (::)\n<sp>R/</sp>. Et(g) cum(h) spí(h)ri(g)tu(g) tú(h)o(h.) (::)",
+      "availableTranslations": null,
+      "mode": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "dismissal",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "latin": "R. Deo grátias.",
+      "targets": [
+        "missalette",
+        "pewsheet"
+      ],
+      "availableTranslations": {
+        "English": "R. Thanks be to God.",
+        "Bohemice": "R. Bohu díky!",
+        "Cesky-Schaller": "R. Bohu díky!",
+        "Dansk": "R. Deo grátias.",
+        "Deutsch": "R. Thanks be to God.",
+        "Espanol": "R. Demos gracias a Dios.",
+        "Francais": "R. Nous rendons grâces à Dieu.",
+        "Italiano": "R. Grazie a Dio.",
+        "Magyar": "R. Istennek legyen hála.",
+        "Nederlands": "R. God zij dank.",
+        "Polski": "R. Bogu dzięki.",
+        "Portugues": "R. Graças a Deus.",
+        "Ukrainian": "R. Богу подяка.",
+        "Vietnamice": "R. Đội ơn Đức Chúa Lời."
+      },
+      "translation": null
+    },
+    {
+      "type": "title",
+      "text": "Antiphona Mariana",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "rubric",
+      "key": "marian_at_conclusion",
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "music",
+      "ordinary": "antiphona-mariana",
+      "availableTranslations": null,
+      "targets": [
+        "missalette"
+      ]
+    },
+    {
+      "type": "text",
+      "ordinary": "antiphona-mariana",
+      "targets": [
+        "missalette"
+      ]
+    }
+  ],
+  "pipeline_version": "a6aa507"
+}
