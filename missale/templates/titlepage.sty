@@ -1,0 +1,40 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{titlepage}
+
+\RequirePackage{graphicx}
+\RequirePackage[autocompile]{gregoriotex}
+
+\newlength{\TPpreseriesskip}
+\setlength{\TPpreseriesskip}{4\baselineskip}
+\newlength{\TPpretitleskip}
+\setlength{\TPpretitleskip}{9\baselineskip}
+\newlength{\TPpresubtitleskip}
+\setlength{\TPpresubtitleskip}{1.5\baselineskip}
+
+\newcommand{\titlePage}[4]{
+  \thispagestyle{empty}
+  \frontmatter
+  {  ~\vspace{\TPpreseriesskip}
+
+    {\noindent\huge #1}\centering
+
+    \noindent\greseparator{2}{10}
+
+    \vspace{\TPpretitleskip}
+
+    {\noindent\HUGE #2}\centering
+
+    \vspace{\TPpresubtitleskip}
+
+    {\noindent\LARGE #3}\centering
+
+    \vfill
+
+    \IfFileExists{#4}{%
+      \noindent\includegraphics[width=0.4\linewidth]{#4}\centering
+    }{}
+
+    \cleardoublepage
+    \pagenumbering{arabic}
+
+  }}

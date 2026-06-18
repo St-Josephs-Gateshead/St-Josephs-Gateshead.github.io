@@ -1,0 +1,54 @@
+% Liturgy typesetting for the Sacra Missa missalette pipeline.
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{rubrics}
+\RequirePackage{paracol}
+\RequirePackage{ifthen}
+\RequirePackage[hidelinks, final]{hyperref}
+\RequirePackage[autocompile]{gregoriotex}
+
+% Gregorian ornaments used in templates
+\renewcommand{\*}{\GreStar}
+\newcommand{\+}{\GreDagger}
+
+% Paracol column separator rule
+\colseprulecolor{red}
+
+% Red italic rubric text
+\newcommand{\red}[2][\centering]{%
+  {\noindent\textcolor{red}{\itshape#2}#1\par\nopagebreak\medskip\nopagebreak}\nopagebreak}
+
+% Bilingual two-column block
+\newcommand{\black}[2][0.5]{%
+  \columnratio{#1}
+  \begin{paracol}{2}
+    \setlength{\parindent}{0em}
+    \setlength{\parskip}{0.2\baselineskip}
+    #2
+  \end{paracol}
+  \medskip
+}
+% \l = Latin column; switches to \translationlanguage before handing off to \e
+\renewcommand{\l}[2][]{\selectlanguage{latin}%
+  \ifthenelse{\equal{s}{#1}}{\emph{S.}~}{}%
+  \ifthenelse{\equal{m}{#1}}{\emph{M.}~}{}%
+  #2\par\selectlanguage{\translationlanguage}\switchcolumn}
+% \e = translation column
+\newcommand{\e}[2][]{%
+  \ifthenelse{\equal{s}{#1}}{\emph{P.}~}{}%
+  \ifthenelse{\equal{m}{#1}}{\emph{S.}~}{}%
+  #2\par\switchcolumn*}
+
+% Single-column translation below a chant
+\newcommand{\oneColumnTranslation}[1]{%
+  \nopagebreak{\small\foreignlanguage{\translationlanguage}{#1}}}
+
+% Document footer
+\newcommand{\printFoot}{%
+  \vspace*{\fill}
+  \begin{minipage}{1\textwidth}
+  Generated from \url{https://st-josephs-gateshead.github.io/missale/}
+  with data from Divinum Officium and GregoBase.
+
+  {\centering\footnotesize\texttt{Generatum \today}\par}
+  \end{minipage}
+}

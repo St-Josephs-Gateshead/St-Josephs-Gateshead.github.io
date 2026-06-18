@@ -1,0 +1,71 @@
+\documentclass[a5paper,10pt]{memoir}
+\usepackage[nobottomtitles]{titlesec}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\usepackage{microtype}
+[% if lang_babel %][% set _bopt = "[" + lang_babel + ", latin]" %]\usepackage[[_bopt]]{babel}
+\def\translationlanguage{[[lang_babel]]}[% else %]\usepackage[british, latin]{babel}
+\def\translationlanguage{british}[% endif %]
+\usepackage{rubrics}
+\usepackage{titlepage}
+
+\copypagestyle{versionplain}{plain}
+\makeevenfoot{versionplain}{\thepage}{\tiny\textcolor{gray}{[[version]]}}{}
+\makeoddfoot{versionplain}{}{\tiny\textcolor{gray}{[[version]]}}{\thepage}
+\pagestyle{versionplain}
+\setulmarginsandblock{0.5in}{0.7in}{*}
+\setlrmarginsandblock{0.5in}{0.5in}{*}
+\checkandfixthelayout
+\setsecnumdepth{chapter}
+\setsecheadstyle{\Large\scshape\raggedright\centering}
+\setsubsubsecheadstyle{\color{red}\large\scshape\raggedright\centering}
+\setparaheadstyle{\color{red}\large\raggedright\centering}
+\setafterparaskip{1.5ex plus .2ex}
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0em}
+\midsloppy
+
+\begin{document}
+\selectlanguage{latin}
+
+\titlePage{Sacra Missa}{[[ subtitle ]]}{[[ feast ]]}{../img/logo.pdf}
+
+[% for block in blocks %]
+[% if block.title is defined and block.title %]
+\section{[[ block.title ]]}
+[% endif %]
+[% for item in block['items'] %]
+[% if item.type == 'rubric' %]
+\red{[[ item.text ]]}
+[% elif item.type == 'music' %]
+[% if item.mode is defined and item.mode %]\gabcsnippet{mode: [[ item.mode ]];
+%%
+[[ item.gabc ]]}[% else %]\gabcsnippet{[[ item.gabc ]]}[% endif %]
+[% if item.translation is defined and item.translation %]
+\oneColumnTranslation{[[ item.translation ]]}
+[% endif %]
+[% elif item.type == 'text' %]
+[% if item.translation is defined and item.translation %]
+\black{
+  \l{[[ item.latin ]]}
+  \e{[[ item.translation ]]}
+}
+[% else %]
+[[ item.latin ]]
+[% endif %]
+[% endif %]
+[% endfor %]
+[% endfor %]
+
+\begin{center}
+  \+
+\end{center}
+
+\printFoot
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-engine: luatex
+%%% End:

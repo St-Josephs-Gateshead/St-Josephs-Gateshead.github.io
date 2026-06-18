@@ -1,0 +1,66 @@
+\documentclass[a5paper,10pt]{memoir}
+\usepackage[nobottomtitles]{titlesec}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\usepackage{microtype}
+[% if lang_babel %][% set _bopt = "[" + lang_babel + ", latin]" %]\usepackage[[_bopt]]{babel}
+\def\translationlanguage{[[lang_babel]]}[% else %]\usepackage[british, latin]{babel}
+\def\translationlanguage{british}[% endif %]
+\usepackage{rubrics}
+
+\copypagestyle{versionplain}{plain}
+\makeevenfoot{versionplain}{\thepage}{\tiny\textcolor{gray}{[[version]]}}{}
+\makeoddfoot{versionplain}{}{\tiny\textcolor{gray}{[[version]]}}{\thepage}
+\pagestyle{versionplain}
+\thispagestyle{empty}
+
+\setulmarginsandblock{0.5in}{0.7in}{*}
+\setlrmarginsandblock{0.5in}{0.5in}{*}
+\checkandfixthelayout
+\setsecnumdepth{chapter}
+\setsecheadstyle{\Large\scshape\raggedright\centering}
+\setafterparaskip{1.5ex plus .2ex}
+\setlength{\parindent}{0em}
+\midsloppy
+
+\begin{document}
+\selectlanguage{latin}
+
+\begin{center}
+  {\LARGE [[ subtitle ]]}
+
+  ~
+
+  {\Large\scshape [[ feast ]]}
+
+  \greseparator{2}{10}
+\end{center}
+
+[% for block in sheet_blocks %]
+[% if block.title is defined and block.title %]
+\section{[[ block.title ]]}
+[% endif %]
+[% for item in block['items'] %]
+[% if item.translation is defined and item.translation %]
+\black{
+  \l{[[ item.latin ]]}
+  \e{[[ item.translation ]]}
+}
+[% else %]
+[[ item.latin ]]
+[% endif %]
+[% endfor %]
+[% endfor %]
+
+\begin{center}
+  \+
+\end{center}
+
+\printFoot
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-engine: luatex
+%%% End:
