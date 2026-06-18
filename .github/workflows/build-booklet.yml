@@ -1,0 +1,104 @@
+name: Build Mass Booklet PDF
+
+on:
+  workflow_dispatch:
+    inputs:
+      mass_type:
+        description: 'Mass type (tempora / sancti / commune)'
+        required: true
+      path_name:
+        description: 'Path name (e.g. Adv1-0, 12-25)'
+        required: true
+      propers_json:
+        description: 'Base64-encoded propers.json content (ordo blocks format)'
+        required: true
+      document:
+        description: 'Document to build (missalette / pew / both)'
+        required: false
+        default: 'missalette'
+      layout:
+        description: 'PDF layout (booklet / regular / both)'
+        required: false
+        default: 'regular'
+      request_id:
+        description: 'Unique request ID (used by caller to find this run)'
+        required: false
+        default: ''
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/st-josephs-gateshead/texlive-gregorio:latest
+      options: --user root
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install pyyaml jinja2
+
+      - name: Write propers.json
+        run: |
+          OUT="missale/output/${{ inputs.mass_type }}/${{ inputs.path_name }}"
+          mkdir -p "$OUT"
+          echo "${{ inputs.propers_json }}" | base64 -d > "$OUT/propers.json"
+
+      - name: Generate TeX + GABC files
+        working-directory: missale/scripts
+        run: python generate.py ${{ inputs.mass_type }} ${{ inputs.path_name }}
+
+      - name: Compile missalette
+        if: contains(inputs.document, 'missalette') || inputs.document == 'both'
+        working-directory: missale/output/${{ inputs.mass_type }}/${{ inputs.path_name }}
+        run: |
+          for i in $(seq 1 5); do
+            lualatex --shell-escape --interaction=nonstopmode missalette.tex
+            grep -q "Rerun" missalette.log || break
+          done
+
+      - name: Compile pew sheet
+        if: inputs.document == 'pew' || inputs.document == 'both'
+        working-directory: missale/output/${{ inputs.mass_type }}/${{ inputs.path_name }}
+        run: |
+          for i in $(seq 1 5); do
+            lualatex --shell-escape --interaction=nonstopmode pew-sheet.tex
+            grep -q "Rerun" pew-sheet.log || break
+          done
+
+      - name: Impose booklet (missalette, 2-up landscape + duplex hint)
+        if: (inputs.layout == 'booklet' || inputs.layout == 'both') && (inputs.document == 'missalette' || inputs.document == 'both')
+        working-directory: missale/output/${{ inputs.mass_type }}/${{ inputs.path_name }}
+        run: |
+          pdfjam --landscape --suffix booklet --booklet true missalette.pdf
+          gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -dDuplex=true -dTumble=true \
+             -sOutputFile=missalette-booklet-d.pdf missalette-booklet.pdf
+          mv missalette-booklet-d.pdf missalette-booklet.pdf
+
+      - name: Stage output PDFs
+        working-directory: missale/output/${{ inputs.mass_type }}/${{ inputs.path_name }}
+        run: |
+          mkdir -p export
+          doc="${{ inputs.document }}"
+          layout="${{ inputs.layout }}"
+          if [[ "$doc" == "missalette" || "$doc" == "both" ]]; then
+            [[ "$layout" == "regular" || "$layout" == "both" ]] && cp missalette.pdf export/missalette.pdf
+            [[ "$layout" == "booklet" || "$layout" == "both" ]] && cp missalette-booklet.pdf export/missalette-booklet.pdf
+          fi
+          if [[ "$doc" == "pew" || "$doc" == "both" ]]; then cp pew-sheet.pdf export/; fi
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: export-${{ inputs.mass_type }}-${{ inputs.path_name }}
+          path: missale/output/${{ inputs.mass_type }}/${{ inputs.path_name }}/export/
+          retention-days: 1
+          if-no-files-found: error
