@@ -38,14 +38,6 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install Python dependencies
-        run: pip install pyyaml jinja2
-
       - name: Write propers.json
         run: |
           OUT="missale/output/${{ inputs.mass_type }}/${{ inputs.path_name }}"

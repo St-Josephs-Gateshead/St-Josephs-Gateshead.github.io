@@ -13,6 +13,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     python3 \
     python3-pip \
+    python3-yaml \
+    python3-jinja2 \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Verify gregorio binary is present (included in texlive-full since TL 2015)
