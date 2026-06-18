@@ -1,345 +1,3356 @@
-<!DOCTYPE html>
-<html>
+﻿<!doctype html>
+<html lang="la">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Missalette</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"
+    />
     <style>
-      .superheading {
-        font-weight: 1000;
-        font-size: xx-large;
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
       }
-      .heading {
-        font-weight: 900;
-        font-size: x-large;
-        padding-top: 10%;
+      body {
+        font-family: "Crimson Text", Georgia, serif;
+        background: #f8f6f0;
+        color: #2a2218;
+        min-height: 100vh;
+        font-size: 17px;
       }
-      .subheading {
-        font-weight: 800;
-        font-size: large;
-        padding-top: 5%;
-      }
-      th,
-      td {
-        padding: 0.25rem;
-      }
-      .mass {
-        text-align: left;
-      }
-      td {
-        text-align: center;
-      }
-      thead {
+
+      /* ── Header ── */
+      header {
+        background: #2a2218;
+        color: #f8f6f0;
         position: sticky;
         top: 0;
-        background-color: white;
-        box-shadow: 0px 10px 20px lightgray;
+        z-index: 100;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
       }
-      tfoot {
-        text-align: right;
-        position: sticky;
-        bottom: 0;
-        background-color: white;
-        box-shadow: 0px -10px 20px lightgray;
+      .header-top {
+        display: flex;
+        align-items: center;
+        gap: 0.8em;
+        padding: 0.55em 1.4em;
+        flex-wrap: wrap;
       }
-      table {
-        margin-left: auto;
+      header h1 {
+        font-size: 0.9em;
+        font-weight: 400;
+        letter-spacing: 0.07em;
         margin-right: auto;
-        border-collapse: collapse;
+        font-family: Georgia, serif;
+      }
+
+      .tab-strip {
+        display: flex;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        padding: 3px;
+        gap: 2px;
+      }
+      .tab-btn {
+        padding: 0.25em 0.85em;
+        background: transparent;
+        border: none;
+        color: rgba(248, 246, 240, 0.42);
+        font-family: Georgia, serif;
+        font-size: 0.82em;
+        cursor: pointer;
+        border-radius: 3px;
+        transition: color 0.15s;
+        white-space: nowrap;
+      }
+      .tab-btn.active {
+        background: #c9a227;
+        color: #fff;
+      }
+      .releases-link {
+        color: rgba(248, 246, 240, 0.5);
+        font-size: 0.76em;
+        font-family: Georgia, serif;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      .releases-link:hover {
+        color: #c9a227;
+      }
+
+      .controls {
+        background: rgba(0, 0, 0, 0.22);
+        padding: 0.4em 1.4em;
+        display: flex;
+        gap: 0.4em;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .controls select {
+        padding: 0.28em 0.5em;
+        background: #3d3224;
+        border: 1px solid #55493a;
+        border-radius: 3px;
+        color: #f8f6f0;
+        font-family: "Crimson Text", Georgia, serif;
+        font-size: 0.82em;
+        cursor: pointer;
+        min-width: 0;
+      }
+      .controls select:hover,
+      .controls select:focus {
+        border-color: #c9a227;
+        outline: none;
+      }
+      #massSelect {
+        flex: 2;
+        min-width: 0;
+        max-width: 440px;
+      }
+      .export-wrap {
+        display: inline-flex;
+        gap: 0.3em;
+        align-items: center;
+        flex-shrink: 0;
+        margin-left: auto;
+      }
+      .btn-export {
+        padding: 0.28em 0.9em;
+        background: #c9a227;
+        color: #2a2218;
+        border: none;
+        border-radius: 3px;
+        font-family: Georgia, serif;
+        font-size: 0.82em;
+        font-weight: 600;
+        cursor: pointer;
+        letter-spacing: 0.04em;
+      }
+      .btn-export:hover:not(:disabled) {
+        background: #e0b52a;
+      }
+      .btn-export:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+      }
+      .btn-about {
+        padding: 0;
+        background: none;
+        border: none;
+        color: #aaa;
+        cursor: pointer;
+        font-size: 1.1em;
+        line-height: 1;
+      }
+      .btn-about:hover { color: #c9a227; }
+      .about-modal {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.65);
+        z-index: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .about-modal[hidden] { display: none; }
+      .about-box {
+        background: #1e1a12;
+        border: 1px solid #c9a227;
+        border-radius: 6px;
+        padding: 1.5em 2em 1.2em;
+        max-width: 560px;
+        width: 90%;
+        max-height: 85vh;
+        overflow-y: auto;
+        color: #e0d5b7;
+        font-size: 0.88em;
+        position: relative;
+      }
+      .about-box h2 { margin: 0 0 0.8em; font-size: 1.1em; color: #c9a227; }
+      .about-box h3 { margin: 1em 0 0.2em; font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.08em; color: #c9a227; }
+      .about-box p { margin: 0 0 0.6em; color: #c8bfa0; }
+      .about-box a { color: #d4c090; }
+      .about-box dl { margin: 0; }
+      .about-box dt { font-weight: bold; margin-top: 0.7em; color: #d4c090; }
+      .about-box dd { margin: 0.15em 0 0 1em; color: #c8bfa0; }
+      .about-close {
+        position: absolute;
+        top: 0.6em;
+        right: 0.8em;
+        background: none;
+        border: none;
+        color: #aaa;
+        font-size: 1.3em;
+        cursor: pointer;
+        line-height: 1;
+      }
+      .about-close:hover { color: #fff; }
+      .export-popover {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        max-width: calc(100vw - 4px);
+        box-sizing: border-box;
+        background: #2a2218;
+        border: 1px solid #c9a227;
+        border-radius: 4px;
+        padding: 0.75em 0.85em 0.65em;
+        z-index: 200;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+      }
+      .export-wrap.open .export-popover {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        column-gap: 0.5em;
+        row-gap: 0.4em;
+        align-items: center;
+      }
+      .ep-row {
+        display: contents;
+      }
+      .ep-label {
+        color: #aaa;
+        font-size: 0.76em;
+        font-family: Georgia, serif;
+      }
+      .ep-toggles {
+        display: flex;
+        gap: 0.22em;
+      }
+      .ep-btn {
+        padding: 0.2em 0.62em;
+        border-radius: 3px;
+        border: 1px solid #555;
+        background: transparent;
+        color: #ccc;
+        font-family: Georgia, serif;
+        font-size: 0.76em;
+        cursor: pointer;
+        transition:
+          border-color 0.1s,
+          color 0.1s;
+      }
+      .ep-btn.active {
+        background: #c9a227;
+        color: #2a2218;
+        border-color: #c9a227;
+        font-weight: 600;
+      }
+      .ep-btn:hover:not(.active) {
+        border-color: #c9a227;
+        color: #c9a227;
+      }
+      #epLayoutRow.disabled {
+        opacity: 0.38;
+        pointer-events: none;
+      }
+      .ep-download {
+        grid-column: 1 / -1;
+        width: 100%;
+        margin-top: 0.55em;
+        padding: 0.32em;
+        background: #c9a227;
+        color: #2a2218;
+        border: none;
+        border-radius: 3px;
+        font-family: Georgia, serif;
+        font-size: 0.8em;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .ep-download:hover {
+        background: #e0b52a;
+      }
+      .ep-input {
+        width: 100%;
+        box-sizing: border-box;
+        background: #2a2a2a;
+        color: #e0d5b7;
+        border: 1px solid #555;
+        border-radius: 4px;
+        padding: 2px 6px;
+        font-size: 0.85em;
+      }
+      .ep-section {
+        grid-column: 1 / -1;
+        display: flex;
+        align-items: center;
+        gap: 0.4em;
+        margin: 0.55em 0 0.4em;
+        font-size: 0.7em;
+        color: #55493a;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+      #epLocal {
+        grid-column: 1 / -1;
+      }
+      .ep-section::before, .ep-section::after {
+        content: "";
+        flex: 1;
+        border-top: 1px solid #55493a;
+      }
+      /* ── Main ── */
+      #main {
+        max-width: 800px;
+        margin: 1.8em auto;
+        padding: 0 1.2em 6em;
+      }
+      .hint {
+        color: #bbb;
+        padding: 3em 0;
+        text-align: center;
+        font-style: italic;
+      }
+      /* ── Section headings ── */
+      .section-title {
+        font-size: 0.66em;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: #999;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 0.3em;
+        margin: 2em 0 0.8em;
+        font-family: Georgia, serif;
+      }
+      .section-title:first-child {
+        margin-top: 0;
+      }
+
+      /* ── Chant ── */
+      .chant-card {
+        margin-bottom: 0.9em;
+      }
+      .gabc-edit-wrap {
+        position: relative;
+      }
+      .chant-gabc {
+        overflow-x: auto;
+      }
+      .chant-gabc svg {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        overflow: visible;
+      }
+      .gabc-fallback {
+        font-family: monospace;
+        font-size: 0.74em;
+        color: #888;
+        white-space: pre-wrap;
+        padding: 0.5em;
+        border: 1px dashed #ddd;
+        border-radius: 3px;
+      }
+      .chant-trans {
+        font-size: 0.88em;
+        line-height: 1.75;
+        color: #555;
+        font-style: italic;
+        margin-top: 0.4em;
+        white-space: pre-wrap;
+        min-height: 1.2em;
+      }
+      .chant-trans:not(.has-content) {
+        border-bottom: 1px dashed #d4c8a8;
+        opacity: 0.5;
+      }
+      .chant-trans:not(.has-content):focus {
+        opacity: 1;
+        border-bottom-color: #c9a227;
+      }
+
+      .gabc-edit-btn {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        font-size: 0.68em;
+        padding: 0.12em 0.42em;
+        background: rgba(255, 255, 255, 0.85);
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        cursor: pointer;
+        color: #777;
+        opacity: 0;
+        transition: opacity 0.15s;
+      }
+      .gabc-edit-wrap:hover .gabc-edit-btn {
+        opacity: 1;
+      }
+      .gabc-mode-row {
+        display: flex;
+        align-items: center;
+        gap: 0.4em;
+        margin-top: 0.3em;
+      }
+      .gabc-mode-lbl {
+        font-size: 0.78em;
+        color: #aaa;
+        white-space: nowrap;
+      }
+      .gabc-mode-sel {
+        width: 6em;
+        font-size: 0.78em;
+        padding: 0.2em 0.4em;
+        border: 1px solid #666;
+        border-radius: 3px;
+        background: #2a2218;
+        color: #e0d5b7;
+      }
+      .gabc-editor {
+        width: 100%;
+        font-family: monospace;
+        font-size: 0.78em;
+        padding: 0.4em;
+        border: 1px solid #c9a227;
+        border-radius: 3px;
+        resize: vertical;
+        min-height: 4em;
+        margin-top: 0.3em;
+        background: #fffde7;
+      }
+
+      /* ── Spoken text ── */
+      .text-block {
+        margin-bottom: 0.9em;
+      }
+      .text-cols {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0 2em;
+        text-align: justify;
+        text-justify: inter-word;
+      }
+      .has-lang .text-cols {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      }
+      .text-la {
+        line-height: 1.8;
+        white-space: pre-wrap;
+      }
+      #fmt-bar {
+        position: absolute;
+        display: none;
+        background: #333;
+        color: #fff;
+        border-radius: 4px;
+        padding: 2px 4px;
+        z-index: 1000;
+        font-size: 13px;
+        gap: 2px;
+        pointer-events: auto;
+      }
+      #fmt-bar button {
+        background: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        padding: 1px 7px;
+        border-radius: 3px;
+        font-size: 13px;
+      }
+      #fmt-bar button:hover { background: #555; }
+      .text-tr {
+        line-height: 1.8;
+        white-space: pre-wrap;
+        color: #555;
+        font-style: italic;
+        display: none;
+      }
+      .has-lang .text-tr {
+        display: block;
+      }
+      [contenteditable]:focus {
+        background: rgba(201, 162, 39, 0.08);
+        border-radius: 2px;
+        outline: none;
+      }
+
+      /* ── Ordinary placeholder ── */
+      .ordinary-hint {
+        color: #bbb;
+        font-style: italic;
+        font-size: 0.86em;
+        padding: 0.55em 0;
+        border: 1px dashed #ddd;
+        border-radius: 3px;
+        text-align: center;
+        margin-bottom: 0.5em;
+      }
+
+      .ordinary-sel {
+        width: 100%;
+        box-sizing: border-box;
+        background: #2a2218;
+        color: #e0d5b7;
+        border: 1px solid #666;
+        border-radius: 3px;
+        padding: 0.15em 0.4em;
+        font-size: 0.82em;
+        margin-bottom: 0.4em;
+      }
+
+      /* ── Variant switcher ── */
+      .variant-strip {
+        display: flex;
+        gap: 0.3em;
+        flex-wrap: wrap;
+        margin-bottom: 0.55em;
+      }
+      .variant-btn {
+        padding: 0.15em 0.65em;
+        font-size: 0.72em;
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        background: #fff;
+        color: #777;
+        cursor: pointer;
+        font-family: Georgia, serif;
+        transition: background 0.12s;
+      }
+      .variant-btn.active {
+        background: #2a2218;
+        color: #f8f6f0;
+        border-color: #2a2218;
+      }
+
+      /* ── Rule badges ── */
+      .rule-badge {
+        padding: 0.12em 0.5em;
+        border-radius: 10px;
+        font-size: 0.72em;
+        font-family: Georgia, serif;
+        letter-spacing: 0.03em;
+        display: inline-block;
+      }
+      .rule-badge.yes {
+        background: rgba(90, 170, 50, 0.22);
+        color: #8eca60;
+        border: 1px solid #507830;
+      }
+      .rule-badge.no {
+        background: rgba(180, 50, 50, 0.22);
+        color: #cc8080;
+        border: 1px solid #804040;
+      }
+      #ruleBadges {
+        display: flex;
+        gap: 0.3em;
+        align-items: center;
+        margin-left: auto;
+      }
+
+      /* ── Inline Marian selector ── */
+      /* ── Prelude rubric ── */
+      .prelude-rubric {
+        color: #b44;
+        font-style: italic;
+        font-size: 0.88em;
+        margin: 0.2em 0 0.5em;
+        line-height: 1.6;
+      }
+
+      /* ── Object controls overlay ── */
+      .obj-wrap { position: relative; }
+      .obj-wrap.drag-over { outline: 2px dashed #c9a227; outline-offset: -2px; }
+      .obj-wrap.dragging { opacity: 0.4; }
+      .grip-btn {
+        cursor: grab;
+        color: #aaa;
+        font-size: 0.85em;
+        padding: 2px 3px;
+        user-select: none;
+      }
+      .grip-btn:active { cursor: grabbing; }
+      .obj-controls {
+        position: absolute;
+        top: 3px;
+        right: 0;
+        display: flex;
+        gap: 1px;
+        background: rgba(248, 246, 240, 0.93);
+        border-radius: 4px;
+        padding: 1px 2px;
+        opacity: 0;
+        transition: opacity 0.15s;
+      }
+      .obj-wrap:hover .obj-controls { opacity: 1; }
+      .ctrl-btn {
+        background: none;
+        border: 1px solid transparent;
+        color: #888;
+        border-radius: 3px;
+        font-size: 0.7em;
+        padding: 1px 5px;
+        cursor: pointer;
+        line-height: 1.6;
+        font-family: Georgia, serif;
+        transition: color 0.1s, border-color 0.1s;
+      }
+      .ctrl-btn:hover { color: #555; border-color: #bbb; }
+      .ctrl-btn.active { color: #c9a227; border-color: #c9a227; }
+      .ctrl-btn.delete:hover { color: #c44; border-color: #c44; }
+
+      /* ── Add item / block UI ── */
+      .add-item-btn {
+        display: inline-flex;
+        align-items: center;
+        background: none;
+        border: 1px dashed #444;
+        color: #555;
+        border-radius: 3px;
+        font-size: 0.72em;
+        padding: 1px 8px;
+        cursor: pointer;
+        margin-top: 0.4em;
+        transition: border-color 0.15s, color 0.15s;
+      }
+      .add-item-btn:hover { border-color: #c9a227; color: #c9a227; }
+      .add-block-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: none;
+        border: 1px dashed #333;
+        color: #444;
+        border-radius: 3px;
+        font-size: 0.8em;
+        padding: 4px;
+        cursor: pointer;
+        margin: 1.5em 0 0.5em;
+        font-family: Georgia, serif;
+        transition: border-color 0.15s, color 0.15s;
+      }
+      .add-block-btn:hover { border-color: #c9a227; color: #c9a227; }
+      .add-form {
+        background: #1a1810;
+        border: 1px solid #444;
+        border-radius: 4px;
+        padding: 0.5em 0.6em;
+        margin: 0.35em 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.35em;
+      }
+      .add-form .type-row { display: flex; gap: 0.3em; }
+      .add-form input[type="text"],
+      .add-form textarea {
+        background: #2a2218;
+        border: 1px solid #555;
+        color: #e0d5b7;
+        border-radius: 3px;
+        padding: 3px 7px;
+        font-family: inherit;
+        font-size: 0.85em;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .add-form textarea { resize: vertical; min-height: 3em; }
+      .add-form-actions { display: flex; gap: 0.4em; }
+      .add-form-actions button {
+        padding: 2px 10px;
+        border-radius: 3px;
+        border: 1px solid #555;
+        background: transparent;
+        color: #aaa;
+        cursor: pointer;
+        font-size: 0.8em;
+        font-family: inherit;
+      }
+      .add-form-actions .btn-confirm {
+        background: #c9a227;
+        border-color: #c9a227;
+        color: #2a2218;
+        font-weight: 600;
+      }
+      .add-form-actions .btn-confirm:hover { background: #e0b52a; }
+
+      /* ── Insert zones (+) ── */
+      .add-zone {
+        position: relative;
+        height: 0.7em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .add-zone::before {
+        content: "";
+        position: absolute;
+        left: 0; right: 0; top: 50%;
+        height: 1px;
+        background: #c9a227;
+        opacity: 0;
+        transition: opacity 0.15s;
+      }
+      .add-zone:hover::before,
+      .add-zone.add-open::before { opacity: 0.35; }
+      .add-btn {
+        position: relative;
+        z-index: 1;
+        background: #2a2218;
+        border: 1px solid #444;
+        color: #555;
+        border-radius: 50%;
+        width: 1.3em;
+        height: 1.3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 0.82em;
+        line-height: 1;
+        padding: 0;
+        opacity: 0;
+        transition: opacity 0.15s, border-color 0.15s, color 0.15s;
+        flex-shrink: 0;
+      }
+      .add-zone:hover .add-btn,
+      .add-zone.add-open .add-btn { opacity: 1; }
+      .add-btn:hover { border-color: #c9a227; color: #c9a227; }
+      .music-mode-row { display: flex; gap: 0.3em; }
+      .search-input-wrap { display: flex; gap: 0.3em; align-items: center; }
+      .search-input-wrap input { flex: 1; }
+      .search-preview-box { margin-top: 0.4em; min-height: 3em; border: 1px solid #c8b89a; border-radius: 3px; padding: 0.3em 0.4em; background: #fdf6e8; }
+      .search-preview-box .placeholder { color: #999; font-size: 0.85em; font-style: italic; line-height: 3em; text-align: center; }
+      .search-preview-box svg { max-width: 100%; height: auto; }
+      .search-results { margin-top: 0.3em; max-height: 10em; overflow-y: auto; font-size: 0.82em; color: #ccc; }
+      .search-result-item { display: grid; grid-template-columns: 1fr auto auto; gap: 0 0.5em; padding: 0.2em 0.4em; cursor: pointer; border-radius: 2px; border-bottom: 1px solid #222; }
+      .search-result-item:last-child { border-bottom: none; }
+      .search-result-item:hover, .search-result-item.active { background: #2a2218; color: #e0b52a; }
+      .search-result-part, .search-result-version { color: #777; white-space: nowrap; font-size: 0.9em; }
+      .search-result-item.active .search-result-part,
+      .search-result-item.active .search-result-version { color: #b8832a; }
+      .add-form-label {
+        font-size: 0.7em;
+        color: #888;
+        font-family: Georgia, serif;
+        margin-top: 0.1em;
+      }
+
+      /* ── Multi-part chant (Improperia etc.) ── */
+      .part-label {
+        color: #b44;
+        font-style: italic;
+        font-size: 0.85em;
+        margin: 0.6em 0 0.1em;
+        line-height: 1.5;
+      }
+      .part-pair {
+        display: flex;
+        gap: 1.5em;
+        align-items: flex-start;
+      }
+      .part-pair-item {
+        flex: 1;
+        min-width: 0;
+      }
+
+      /* ── Print-only elements ── */
+      .print-only { display: none; }
+
+      /* ── Print ── */
+      @media print {
+        header,
+        .no-print {
+          display: none !important;
+        }
+        body {
+          background: white;
+          font-size: 10pt;
+          color: black;
+          font-family: "Crimson Text", Georgia, serif;
+        }
+        #main {
+          max-width: none;
+          margin: 0;
+          padding: 0 0 2em;
+        }
+        .print-only {
+          display: block !important;
+          text-align: center;
+          margin-bottom: 1.5em;
+          padding-bottom: 0.6em;
+          border-bottom: 0.5pt solid #888;
+        }
+        .print-feast {
+          font-size: 13pt;
+          font-weight: bold;
+          font-variant: small-caps;
+          letter-spacing: 0.04em;
+        }
+        .print-subtitle {
+          display: none !important;
+        }
+        @page {
+          size: A5 portrait;
+          margin: 10mm 10mm 10mm 10mm;
+        }
+
+        .section-title {
+          color: black;
+          border-color: #888;
+          border-bottom-width: 0.5pt;
+          margin-top: 10pt;
+          margin-bottom: 4pt;
+          font-size: 6.5pt;
+          letter-spacing: 0.18em;
+          padding-bottom: 2pt;
+        }
+        .section-title:first-child {
+          margin-top: 0;
+        }
+
+        /* Chant notation */
+        .chant-gabc svg {
+          max-width: 100% !important;
+          height: auto !important;
+        }
+        .chant-stave,
+        .chant-stave svg {
+          page-break-inside: avoid;
+          break-inside: avoid;
+        }
+        .chant-stave svg {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .gabc-fallback {
+          font-size: 8pt;
+          border: 0.5pt solid #bbb;
+        }
+
+        /* Translation below chant — when language selected or manually filled */
+        .chant-trans {
+          display: none;
+        }
+        .chant-trans.has-content {
+          display: block !important;
+          color: black;
+          font-style: italic;
+          font-size: 8.5pt;
+          margin-top: 3pt;
+          line-height: 1.55;
+        }
+
+        /* Spoken text: Latin-only by default; two columns when language selected */
+        .text-cols {
+          grid-template-columns: minmax(0, 1fr);
+          gap: 0 1em;
+        }
+        .has-lang .text-cols {
+          grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        }
+        .text-la {
+          font-size: 9pt;
+          line-height: 15.5pt;
+          color: black;
+        }
+        .text-tr {
+          display: none;
+        }
+        .has-lang .text-tr {
+          display: block !important;
+          font-size: 9pt;
+          line-height: 15.5pt;
+          color: #333;
+          font-style: italic;
+        }
+
+        .obj-wrap { position: static; }
+        .ordinary-hint,
+        .gabc-edit-btn,
+        .gabc-editor,
+        .variant-strip {
+          display: none !important;
+        }
+        a {
+          color: black;
+          text-decoration: none;
+        }
+      }
+      @media (max-width: 360px) {
+        .tab-strip {
+          flex-direction: column;
+          align-items: stretch;
+          width: 100%;
+        }
+        .tab-btn {
+          text-align: center;
+        }
+        .export-wrap.open .export-popover {
+          grid-template-columns: 1fr;
+          max-height: 80vh;
+          overflow-y: auto;
+        }
+        .ep-toggles {
+          flex-direction: column;
+          align-items: stretch;
+        }
+        .ep-btn {
+          text-align: center;
+        }
       }
     </style>
   </head>
   <body>
-    <span id="releases"></span>
+    <header>
+      <div class="header-top">
+        <h1>Missalette</h1>
+        <div class="tab-strip" id="typeStrip">
+          <button class="tab-btn active" data-type="tempora">Tempora</button>
+          <button class="tab-btn" data-type="sancti">Sancti</button>
+          <button class="tab-btn" data-type="commune">Commune</button>
+        </div>
+        <a href="releases.html" class="releases-link no-print">PDF releases</a>
+      </div>
+      <div class="controls">
+        <select id="massSelect">
+          <option value="">&#8212; Proprium &#8212;</option>
+        </select>
+        <select id="langSelect">
+          <option value="">&#8212; Lingua &#8212;</option>
+          <option value="English">English</option>
+          <option value="Francais">Fran&ccedil;ais</option>
+          <option value="Espanol">Espa&ntilde;ol</option>
+          <option value="Italiano">Italiano</option>
+          <option value="Deutsch">Deutsch</option>
+          <option value="Polski">Polski</option>
+          <option value="Portugues">Portugu&ecirc;s</option>
+          <option value="Nederlands">Nederlands</option>
+          <option value="Magyar">Magyar</option>
+          <option value="Ukrainian">Ukrainian</option>
+          <option value="Dansk">Dansk</option>
+          <option value="Cesky-Schaller">&#268;esky</option>
+          <option value="Bohemice">Bohemice</option>
+        </select>
+        <select id="ordinarySelect">
+          <option value="">&#8212; Ordinarium &#8212;</option>
+          <option value="1">I &#8212; Lux et origo</option>
+          <option value="2">II &#8212; Kyrie fons bonitatis</option>
+          <option value="3">III &#8212; Kyrie Deus sempiterne</option>
+          <option value="4">IV &#8212; Cunctipotens Genitor Deus</option>
+          <option value="5">V &#8212; Magnae Deus potentiae</option>
+          <option value="6">VI &#8212; Rex Genitor</option>
+          <option value="7">VII &#8212; Rex splendens</option>
+          <option value="8">VIII &#8212; De Angelis</option>
+          <option value="9">IX &#8212; Cum jubilo</option>
+          <option value="10">X &#8212; Alme Pater</option>
+          <option value="11">XI &#8212; Orbis factor</option>
+          <option value="12">XII &#8212; Pater cuncta</option>
+          <option value="13">XIII &#8212; Stelliferi Conditor orbis</option>
+          <option value="14">XIV &#8212; Jesu Redemptor</option>
+          <option value="15">XV &#8212; Dominator Deus</option>
+          <option value="16">XVI &#8212; Inviolata</option>
+          <option value="17">XVII &#8212; Salve splendens</option>
+          <option value="18">XVIII &#8212; Deus Genitor alme</option>
+        </select>
+        <select id="creedSelect">
+          <option value="">&#8212; Credo &#8212;</option>
+          <option value="1">Credo I</option>
+          <option value="2">Credo II</option>
+          <option value="3">Credo III</option>
+          <option value="4">Credo IV</option>
+        </select>
+        <span id="ruleBadges" class="no-print"></span>
+        <button class="btn-about no-print" onclick="toggleAbout()" title="About">ⓘ</button>
+        <div class="export-wrap no-print" id="exportWrap">
+          <button
+            class="btn-export"
+            id="exportBtn"
+            onclick="toggleExportPopover()"
+          >
+            Export &#9660;
+          </button>
+          <div class="export-popover" id="exportPopover">
+            <div class="ep-row">
+              <span class="ep-label">Feast</span>
+              <input id="epFeast" type="text" placeholder="Feast name" class="ep-input" />
+            </div>
+            <div class="ep-row">
+              <span class="ep-label">Subtitle</span>
+              <input id="epSubtitle" type="text" placeholder="Missa Cantata" class="ep-input" />
+            </div>
+            <button class="ep-download" onclick="doPrint()">Print</button>
+            <div class="ep-section">Build</div>
+            <div class="ep-row">
+              <span class="ep-label">Type</span>
+              <div class="ep-toggles" id="epDoc">
+                <button class="ep-btn active" data-val="missalette" onclick="epToggle(this)">Missalette</button>
+                <button class="ep-btn" data-val="pew" onclick="epToggle(this)">Pew Sheet</button>
+              </div>
+            </div>
+            <div class="ep-row" id="epLayoutRow">
+              <span class="ep-label">Layout</span>
+              <div class="ep-toggles" id="epLayout">
+                <button class="ep-btn" data-val="booklet" onclick="epToggle(this)">Booklet</button>
+                <button class="ep-btn active" data-val="regular" onclick="epToggle(this)">Regular</button>
+              </div>
+            </div>
+            <button class="ep-download" onclick="doExportCustom()">Download PDF</button>
+            <div id="epLocal" hidden>
+              <div class="ep-section">Local</div>
+              <div style="display:flex;gap:0.5em">
+                <button class="ep-download ep-local-btn" onclick="doLocal('tex')">TeX</button>
+                <button class="ep-download ep-local-btn" id="epLocalPdfBtn" disabled onclick="doLocal('pdf')">PDF</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
+    <div
+      id="hashError"
+      hidden
+      style="
+        background: #fdd;
+        padding: 0.6em 1.4em;
+        color: #900;
+        font-family: Georgia, serif;
+        font-size: 0.88em;
+      "
+    ></div>
+    <div id="main"></div>
+
+    <script src="https://ex.surge.sh/exsurge.js"></script>
     <script>
-      const repo = "St-Josephs-Gateshead/Masses";
-      const mini_calendar = {
-        Tempore: {
-          Advent: [
-            "Dominica I Adventus",
-            "Dominica II Adventus",
-            "Dominica III Adventus",
-            "Dominica IV Adventus",
-          ],
-          Christmastide: [
-            "In Vigilia Nativitatis Domini",
-            "In Nativitate Domini in nocte",
-            "In Nativitate Domini in aurora",
-            "In die Nativitatis Domini",
-            "Dominica infra Octavam Nativitatis",
-            "Sanctissimi Nominis Jesu",
-            "In Circumcisione Domini",
-            "In Epiphania Domini",
-          ],
-          Post_Epiphany: [
-            "Sanctae Familiae Jesu Mariae Joseph",
-            "Dominica II Post Epiphaniam",
-            "Dominica III Post Epiphaniam",
-            "Dominica IV Post Epiphaniam",
-            "Dominica V Post Epiphaniam",
-            "Dominica VI Post Epiphaniam",
-          ],
-          Septuagesima: [
-            "Dominica in Septuagesima",
-            "Dominica in Sexagesima",
-            "Dominica in Quinquagesima",
-            "Feria IV Cinerum",
-            "Dominica I in Quadragesima",
-            "Dominica II in Quadragesima",
-            "Dominica III in Quadragesima",
-            "Dominica IV in Quadragesima",
-            "Dominica de Passione",
-            "Dominica in Palmis",
-            "Feria Quinta in Coena Domini",
-            "Feria Sexta in Passione et Morte Domini",
-            "Sabbato Sancto",
-          ],
-          Eastertide: [
-            "Dominica Resurrectionis",
-            "Dominica in Albis",
-            "Dominica II Post Pascha",
-            "Dominica III Post Pascha",
-            "Dominica IV Post Pascha",
-            "Dominica V Post Pascha",
-            "In Ascensione Domini",
-            "Dominica infra Octavam Ascensionis",
-            "Dominica Pentecostes",
-          ],
-          Post_Pentecost: [
-            "Dominica Sanctissimae Trinitatis",
-            "Festum Sanctissimi Corporis Christi",
-            "Sacratissimi Cordis DNJC",
-            "Dominica II Post Pentecosten",
-            "Dominica III Post Pentecosten",
-            "Dominica IV Post Pentecosten",
-            "Dominica V Post Pentecosten",
-            "Dominica VI Post Pentecosten",
-            "Dominica VII Post Pentecosten",
-            "Dominica VIII Post Pentecosten",
-            "Dominica IX Post Pentecosten",
-            "Dominica X Post Pentecosten",
-            "Dominica XI Post Pentecosten",
-            "Dominica XII Post Pentecosten",
-            "Dominica XIII Post Pentecosten",
-            "Dominica XIV Post Pentecosten",
-            "Dominica XV Post Pentecosten",
-            "Dominica XVI Post Pentecosten",
-            "Dominica XVII Post Pentecosten",
-            "Dominica XVIII Post Pentecosten",
-            "Dominica XIX Post Pentecosten",
-            "Dominica XX Post Pentecosten",
-            "Dominica XXI Post Pentecosten",
-            "Dominica XXII Post Pentecosten",
-            "Dominica XXIII Post Pentecosten",
-            "Dominica XXIV et ultima Post Pentecosten",
-            "Dominica III quae superfuit Post Epiphaniam",
-            "Dominica IV quae superfuit Post Epiphaniam",
-            "Dominica V quae superfuit Post Epiphaniam",
-            "Dominica VI quae superfuit Post Epiphaniam",
-          ],
-        },
-        Sancti: {
-          December: ["In Conceptione Immaculata BMV"],
-          January: [],
-          February: ["In Purificatione BMV"],
-          March: ["S Joseph Sponsi BMV Confessoris"],
-          April: [],
-          May: [],
-          June: ["SS Apostolorum Petri et Pauli"],
-          July: [],
-          August: ["In Assumptione BMV"],
-          September: [
-            "Nativitate BMV",
-            "In Exaltatione Sanctae Crucis",
-            "In Dedicatione S Michaelis Archangelis",
-          ],
-          October: ["In Festo Domino Nostro Jesu Christi Regis"],
-          November: [
-            "Omnium Sanctorum",
-            "In Commemoratione Omnium Fidelium Defunctorum",
-          ],
-        },
-        // Commune: {},
-      };
+      "use strict";
 
-      const getObjectValues = (obj) =>
-        obj && typeof obj === "object"
-          ? Object.values(obj).map(getObjectValues).flat()
-          : [obj];
-      const symbols = { found: "✅", missing: "❌", todo: "✏️" };
+      // ── Exsurge ──────────────────────────────────────────────────────────────────
 
-      function fromKebabKase(s) {
-        return s.split("_").join(" ");
+      const exsurgeReady = typeof exsurge !== "undefined";
+
+      function cleanGabc(g) {
+        return (g || "")
+          .replace(/\[[^\]]*\]/g, "")
+          .replace(/<sp>([VRAvra])\/<\/sp>\.?/g, "$1/.")
+          .replace(/<sp>'?(?:ae|ae)<\/sp>/g, "ǽ")
+          .replace(/<sp>'?(?:oe|oe)<\/sp>/g, "œ")
+          .replace(/<i>([^<]*)<\/i>/g, "_$1_")
+          .replace(/<sc>([^<]*)<\/sc>/g, "%$1%")
+          .replace(/<[^>]+>/g, "")
+          .replace(/\*(?!\()/g, "*()");
       }
 
-      function fromSnakeCase(s) {
-        return s.split("-").join(" ");
+      const _ROMAN_MODE = ['','I','II','III','IV','V','VI','VII','VIII'];
+
+      function _keyLabel(key) {
+        return String(key).split(/[_-]/).map(w => w ? w[0].toUpperCase() + w.slice(1) : w).join(" ");
       }
 
-      function to_kebab_case(s) {
-        return s.split(" ").join("-");
+      function _modeAnnotation(mode) {
+        if (!mode) return null;
+        const m = String(mode).match(/^(\d+)(.*)/);
+        if (!m) return null;
+        const num = parseInt(m[1]);
+        if (num < 1 || num > 8) return null;
+        return _ROMAN_MODE[num] + m[2];
       }
 
-      function getLinks(assets) {
-        links = {};
-        for (const asset of assets) {
-          links[asset.name.replace(".pdf", "")] = asset["browser_download_url"];
-        }
-        return links;
+      function _latinFromGabc(gabc) {
+        return gabc
+          .replace(/\([^)]*\)/g, "")       // strip note groups
+          .replace(/\{([^}]*)\}/g, "$1")   // unwrap {word}
+          .replace(/<[^>]+>/g, "")          // strip HTML tags
+          .replace(/[*:;|]/g, " ")          // neume marks → space
+          .replace(/\s+/g, " ").trim();
       }
 
-      function createElement(
-        tagName,
-        parent = null,
-        innerText = null,
-        attrs = {}
-      ) {
-        const elem = document.createElement(tagName);
-        if (parent != null) parent.appendChild(elem);
-        if (innerText != null) elem.innerText = innerText;
-        for (const [k, v] of Object.entries(attrs)) elem.setAttribute(k, v);
-        return elem;
+      function _gabcForExsurge(gabc) {
+        return gabc
+          .replace(/<sp>([VRAvra])\/<\/sp>\.?/g, "$1/.")
+          .replace(/<sp>[^<]*<\/sp>/g, "")
+          .replace(/<i>([^<]*)<\/i>/g, "_$1_")
+          .replace(/<sc>([^<]*)<\/sc>/g, "%$1%")
+          .replace(/<[^>]+>/g, "");
       }
 
-      function setupTable() {
-        const t = createElement("table", document.getElementById("releases"));
-
-        const thead = createElement("thead", t);
-        createElement(
-          "th",
-          createElement("tr", thead),
-          "St. Joseph's, Gateshead - Releases",
-          {
-            colSpan: 5,
-            class: "superheading",
+      async function renderGabc(gabc, container, useDropCap = true, mode = null, width = null) {
+        container.dataset.gabc = gabc || "";
+        container.dataset.dropCap = useDropCap ? "1" : "0";
+        container.dataset.mode = mode != null ? String(mode) : "";
+        let notation = _gabcForExsurge(gabc || "");
+        let modeStr = mode != null ? String(mode) : null;
+        // Strip %% header if present (Exsurge doesn't support it); parse mode from it as fallback
+        const sep = notation.indexOf("%%");
+        if (sep !== -1) {
+          if (!modeStr) {
+            const modeMatch = notation.slice(0, sep).match(/\bmode\s*:\s*(\S+)/i);
+            if (modeMatch) modeStr = modeMatch[1];
           }
-        );
-        const tr = createElement("tr", thead);
-        createElement("th", tr, "Mass");
-        createElement("th", tr, "Missalette");
-        createElement("th", tr, "Missalette\n[Booklet]");
-        createElement("th", tr, "Pew Sheet");
-        createElement("th", tr, "Pew Sheet\n[Booklet]");
-
-        createElement(
-          "th",
-          createElement("tr", createElement("tfoot", t)),
-          `${symbols.found}: Click to download | ${symbols.missing}: Missing | ${symbols.todo}: WIP`,
-          { colSpan: 5 }
-        );
-
-        return createElement("tbody", t);
+          notation = notation.slice(sep + 2);
+        }
+        if (!exsurgeReady || !notation.trim()) {
+          showFallback(notation || gabc, container);
+          return;
+        }
+        return new Promise((resolve) => {
+          let done = false;
+          const timer = setTimeout(() => {
+            if (!done) {
+              done = true;
+              showFallback(notation, container);
+              resolve();
+            }
+          }, 4000);
+          const finish = (fn) => {
+            if (done) return;
+            done = true;
+            clearTimeout(timer);
+            fn();
+            resolve();
+          };
+          try {
+            const ctxt = new exsurge.ChantContext();
+            ctxt.lyricTextFont = "'Crimson Text', serif";
+            ctxt.dropCapTextFont = ctxt.lyricTextFont;
+            ctxt.lyricTextSize *= 1.15;
+            const mappings = exsurge.Gabc.createMappingsFromSource(
+              ctxt,
+              cleanGabc(notation),
+            );
+            const score = new exsurge.ChantScore(ctxt, mappings, useDropCap);
+            const modeAnnotation = _modeAnnotation(modeStr);
+            if (modeAnnotation && exsurge.Annotation)
+              score.annotation = new exsurge.Annotation(ctxt, modeAnnotation);
+            score.performLayoutAsync(ctxt, () => {
+              try {
+                const w = width != null ? width : Math.max((container.clientWidth || 0) - 8, 40);
+                score.layoutChantLines(ctxt, w, () => {
+                  finish(() => {
+                    // Render full SVG into container first (live DOM = reliable getBBox)
+                    const fullSvgStr = score.createSvg(ctxt);
+                    container.innerHTML = fullSvgStr;
+                    const svgEl = container.querySelector("svg");
+                    const lines = score.lines;
+                    if (!svgEl || !lines || lines.length < 2) {
+                      // Single stave or no SVG — add viewBox and leave as-is
+                      if (svgEl && !svgEl.hasAttribute("viewBox")) {
+                        const sw = parseFloat(svgEl.getAttribute("width"));
+                        const sh = parseFloat(svgEl.getAttribute("height"));
+                        if (sw && sh) svgEl.setAttribute("viewBox", `0 0 ${sw} ${sh}`);
+                      }
+                      return;
+                    }
+                    try {
+                      const lineGroups = Array.from(svgEl.querySelectorAll("g.chantLine"));
+                      if (lineGroups.length !== lines.length) return;
+                      const defsEl = svgEl.querySelector("defs");
+                      const defsHtml = defsEl ? defsEl.outerHTML : "";
+                      // Collect per-stave data (getBBox on live elements)
+                      // getBBox returns LOCAL coords (before the <g>'s own translate),
+                      // so add lines[i].bounds.y to get the correct absolute viewBox origin.
+                      const staves = lineGroups.map((g, i) => {
+                        const bb = g.getBBox();
+                        const ty = lines[i].bounds.y;
+                        return { bb, ty, html: g.outerHTML };
+                      });
+                      // Replace container with per-stave SVGs
+                      container.innerHTML = "";
+                      for (const { bb, ty, html } of staves) {
+                        const div = document.createElement("div");
+                        div.className = "chant-stave";
+                        div.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="ChantScore" width="${w}" height="${bb.height}" viewBox="0 ${ty + bb.y} ${w} ${bb.height}">${defsHtml}${html}</svg>`;
+                        container.appendChild(div);
+                      }
+                    } catch (_) {
+                      // Leave full SVG in place
+                    }
+                  });
+                });
+              } catch (e) {
+                finish(() => showFallback(gabc, container));
+              }
+            });
+          } catch (e) {
+            finish(() => showFallback(gabc, container));
+          }
+        });
       }
 
-      function fillWithMasses(masses, tbody) {        
-        const link_names = {
-          "missalette" : "missalette-a4",
-          "missalette-booklet":  "missalette-booklet",
-          "pew-sheet": "pew-sheet",
-          "pew-sheet-booklet": "pew-sheet-booklet",
-        }
-        for (const mass of masses) {
-          const mass_r = createElement("tr", tbody);
-          createElement("td", mass_r, mass, { class: "mass" });
-          if (masses_not_found.indexOf(mass) >= 0) {
-            for (i = 0; i < 4; i++) createElement("td", mass_r, symbols.todo);
-            continue;
-          }
-          for (const p_type in link_names) {
-            fn = to_kebab_case(mass) + "_" + p_type;
-            link = to_kebab_case(mass) + "_" + link_names[p_type];
-            if (link in links) {
-              const f_r = createElement("td", mass_r);
-              createElement("a", f_r, symbols.found, {
-                href: links[link],
-                id: fn,
-              });
+      function showFallback(gabc, container) {
+        const text = cleanGabc(gabc || "")
+          .replace(/\([^)]*\)/g, " ")
+          .replace(/\s+/g, " ")
+          .trim();
+        container.innerHTML =
+          '<div class="gabc-fallback">' + esc(text) + "</div>";
+      }
+
+      // ── Utility ──────────────────────────────────────────────────────────────────
+
+      function _normLyrics(s) {
+        return String(s)
+          .normalize("NFD")
+          .replace(/[̀-ͯ]/g, "")       // strip combining diacritics
+          .replace(/[VvRr]\s*[./]\s*\/?/g, " ")  // V./ R./ markers
+          .replace(/[†‡☩℣℟~]/g, " ")             // liturgical symbols
+          .replace(/\biij?\b/gi, " ")             // ij / iij repeat tokens
+          .replace(/[^a-zA-Z\s]/g, " ")           // remaining non-letter chars
+          .toLowerCase()
+          .replace(/\s+/g, " ")
+          .trim();
+      }
+
+      function esc(s) {
+        return String(s)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
+      }
+
+      async function fetchText(url) {
+        const r = await fetch(url);
+        if (!r.ok) throw new Error(r.status + " " + url);
+        return r.text();
+      }
+      async function fetchJSON(url) {
+        const r = await fetch(url);
+        if (!r.ok) throw new Error(r.status + " " + url);
+        return r.json();
+      }
+
+      function parseCSV(text) {
+        function splitRow(row) {
+          const fields = [];
+          let cur = "", inQ = false;
+          for (let i = 0; i < row.length; i++) {
+            const ch = row[i];
+            if (inQ) {
+              if (ch === '"' && row[i + 1] === '"') { cur += '"'; i++; }
+              else if (ch === '"') inQ = false;
+              else cur += ch;
             } else {
-              createElement("td", mass_r, symbols.missing);
+              if (ch === '"') inQ = true;
+              else if (ch === ',') { fields.push(cur); cur = ""; }
+              else cur += ch;
             }
           }
+          fields.push(cur);
+          return fields;
         }
-      }
-
-      async function getMassesNotFound() {
-        return fetch(`https://api.github.com/repos/${repo}/tags`)
-          .then((response) => {
-            if (!response.ok)
-              throw new Error("HTTP status: " + response.status);
-            return response.json();
-          })
-          .then((data) => {
-            return "?ref=" + data[0]["name"];
-          })
-          .then((tag) => {
-            fetch(`https://api.github.com/repos/${repo}/contents/${tag}`)
-              .then((response) => {
-                if (!response.ok)
-                  throw new Error("HTTP status: " + response.status);
-                return response.json();
-              })
-              .then((data) => {
-                masses_not_found = getObjectValues(mini_calendar);
-                for (const v of data.values()) {
-                  i = masses_not_found.indexOf(fromSnakeCase(v.name));
-                  if (i >= 0) masses_not_found.splice(i, 1);
-                }
-                return masses_not_found;
-              });
+        const lines = text.trim().split("\n");
+        const cols = splitRow(lines[0]);
+        return lines
+          .slice(1)
+          .filter(Boolean)
+          .map((row) => {
+            const vals = splitRow(row);
+            return Object.fromEntries(
+              cols.map((c, i) => [c.trim(), (vals[i] || "").trim()]),
+            );
           });
       }
 
-      async function updatePage(masses_not_found) {
-        return fetch(`https://api.github.com/repos/${repo}/releases/latest`)
-          .then((response) => {
-            if (!response.ok)
-              throw new Error("HTTP status: " + response.status);
-            return response.json();
+      // ── State ─────────────────────────────────────────────────────────────────────
+
+      let _renderReady = Promise.resolve();
+      let allMasses = {};
+      let ordinary = null;
+      let rubricStrings = null;
+      let propers = { feast: "", subtitle: "", ordo: [] };
+      let currentMt = "tempora";
+      let currentPn = null;
+      let _marianChoice = null;
+      let _aspergesChoice = null;
+      const _undo = [];
+      const _redo = [];
+
+      const IS_LOCAL =
+        location.hostname === "localhost" || location.hostname === "127.0.0.1";
+      if (IS_LOCAL) {
+        document.getElementById("epLocal").hidden = false;
+        fetch("/health")
+          .then((r) => r.json())
+          .then((d) => {
+            if (d.lualatex)
+              document.getElementById("epLocalPdfBtn").disabled = false;
           })
-          .then((data) => {
-            const links = getLinks(data.assets);
-            const tbody = setupTable();
-            for (const [heading, subheading] of Object.entries(mini_calendar)) {
-              createElement(
-                "th",
-                createElement("tr", tbody),
-                fromKebabKase(heading),
-                {
-                  colSpan: 5,
-                  class: "heading",
-                }
+          .catch(() => {});
+      }
+
+      const BASE = "missale/";
+
+      // ── Chant index (lazy-loaded from chant_index.json on first search) ──
+      let _chantIndex = null;
+      async function _loadChantIndex() {
+        if (_chantIndex !== null) return _chantIndex;
+        _chantIndex = [];
+        try {
+          const r = await fetch(BASE + "data/chant_index.json");
+          _chantIndex = await r.json();
+        } catch (_) {}
+        return _chantIndex;
+      }
+      async function _fetchGabc(chantId) {
+        try {
+          const r = await fetch(`${BOOKLET_WORKER_URL}/gabc/${chantId}`);
+          if (!r.ok) return null;
+          const data = await r.json();
+          return data.gabc || null;
+        } catch (_) { return null; }
+      }
+      function _parseChantQuery(val) {
+        val = val.trim();
+        const urlId = val.match(/[?&]id=(\d+)/);
+        if (urlId) return { type: "id", id: parseInt(urlId[1]) };
+        if (/^\d+$/.test(val)) return { type: "id", id: parseInt(val) };
+        if (val.length >= 2) return { type: "text", q: val.toLowerCase() };
+        return null;
+      }
+
+      // ── Boot data ─────────────────────────────────────────────────────────────────
+
+      function _findMass(pn) {
+        for (const [mt, list] of Object.entries(allMasses)) {
+          if (list.find((m) => m.path_name === pn)) return mt;
+        }
+        return null;
+      }
+
+      function _slugNormalize(s) {
+        return s
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/æ/gi, "ae")
+          .replace(/œ/gi, "oe")
+          .toLowerCase();
+      }
+
+      function _findMassBySlug(slug) {
+        const target = _slugNormalize(slug.replace(/-/g, " "));
+        for (const [mt, list] of Object.entries(allMasses)) {
+          const m = list.find((e) => _slugNormalize(e.name) === target);
+          if (m) return { mt, pn: m.path_name };
+        }
+        return null;
+      }
+
+      async function _checkGitRelease(slug, doctype) {
+        const suffix =
+          doctype === "missalette-booklet"
+            ? "missalette-booklet"
+            : "missalette-a4";
+        const assetName = slug + "_" + suffix + ".pdf";
+        try {
+          const resp = await fetch(
+            "https://api.github.com/repos/St-Josephs-Gateshead/Masses/releases/latest",
+          );
+          if (!resp.ok) return null;
+          const data = await resp.json();
+          const asset = (data.assets || []).find((a) => a.name === assetName);
+          return asset ? asset.browser_download_url : null;
+        } catch {
+          return null;
+        }
+      }
+
+      function _syncUrl() {
+        const p = new URLSearchParams();
+        if (currentPn) p.set("pn", currentPn);
+        const lang = document.getElementById("langSelect").value;
+        const ord = document.getElementById("ordinarySelect").value;
+        const creed = document.getElementById("creedSelect").value;
+        if (lang) p.set("lang", lang);
+        if (ord) p.set("ord", ord);
+        if (creed) p.set("creed", creed);
+        const qs = p.toString();
+        history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+      }
+
+      async function loadIndex() {
+        const [t, s, c, ord, rs] = await Promise.all([
+          fetchText(BASE + "data/tempora.csv"),
+          fetchText(BASE + "data/sancti.csv"),
+          fetchText(BASE + "data/commune.csv").catch(() => ""),
+          fetchJSON(BASE + "data/ordinary.json"),
+          fetchJSON(BASE + "templates/rubric_strings.json").catch(() => null),
+        ]);
+        allMasses = { tempora: parseCSV(t), sancti: parseCSV(s), commune: parseCSV(c) };
+        ordinary = ord;
+        rubricStrings = rs;
+
+        // QR hash routing — #FeastName-hyphenated or #FeastName-hyphenated_missalette(-booklet)?
+        const rawHash = location.hash.slice(1);
+        if (rawHash) {
+          const slug = rawHash.replace(/_missalette(-booklet)?$/, "");
+          const doctype = rawHash.includes("_missalette-booklet")
+            ? "missalette-booklet"
+            : "missalette";
+          const found = _findMassBySlug(slug);
+
+          if (found) {
+            document
+              .querySelectorAll(".tab-btn")
+              .forEach((b) =>
+                b.classList.toggle("active", b.dataset.type === found.mt),
               );
-              for (const [period, masses] of Object.entries(subheading)) {
-                createElement(
-                  "td",
-                  createElement("tr", tbody),
-                  fromKebabKase(period),
-                  {
-                    colSpan: 5,
-                    class: "subheading",
-                  }
-                );
-                fillWithMasses(masses, tbody);
+            populateDropdown(found.mt);
+            document.getElementById("massSelect").value = found.pn;
+          } else {
+            const banner = document.getElementById("hashError");
+            banner.textContent =
+              "“" + slug.replace(/-/g, " ") + "” — not in current database.";
+            banner.hidden = false;
+            populateDropdown("tempora");
+          }
+
+          const [, downloadUrl] = await Promise.all([
+            found ? loadMass(found.mt, found.pn) : Promise.resolve(),
+            _checkGitRelease(slug, doctype),
+          ]);
+
+          if (downloadUrl) {
+            const label = slug.replace(/-/g, " ");
+            const typeLabel =
+              doctype === "missalette-booklet"
+                ? "missalette (booklet)"
+                : "missalette";
+            if (confirm("Download " + typeLabel + " of " + label + "?"))
+              open(downloadUrl);
+          }
+          return;
+        }
+
+        const params = new URLSearchParams(location.search);
+        const pn = params.get("pn");
+        const lang = params.get("lang");
+        const ord_ = params.get("ord");
+        const creed = params.get("creed");
+
+        // Restore selects (clear invalid values)
+        const _restore = (id, val) => {
+          if (!val) return;
+          const el = document.getElementById(id);
+          el.value = val;
+          if (el.value !== val) el.value = ""; // option didn't exist — leave blank
+        };
+        _restore("langSelect", lang);
+        _restore("ordinarySelect", ord_);
+        _restore("creedSelect", creed);
+
+        // Restore mass — detect tab from the mass list, not a URL param
+        const mt = pn ? _findMass(pn) : null;
+        if (pn && mt) {
+          document
+            .querySelectorAll(".tab-btn")
+            .forEach((b) =>
+              b.classList.toggle("active", b.dataset.type === mt),
+            );
+          populateDropdown(mt);
+          document.getElementById("massSelect").value = pn;
+          await loadMass(mt, pn);
+        } else {
+          if (pn) _syncUrl(); // pn was invalid — clear it from URL
+          populateDropdown("tempora");
+          _updateControlStates();
+          await renderMass();
+        }
+      }
+
+      // ── Calendar helpers ──────────────────────────────────────────────────────────
+
+      function _getEaster(year) {
+        const a = year % 19,
+          b = Math.floor(year / 100),
+          c = year % 100;
+        const d = Math.floor(b / 4),
+          e = b % 4,
+          f = Math.floor((b + 8) / 25);
+        const g = Math.floor((b - f + 1) / 3),
+          h = (19 * a + b - d - g + 15) % 30;
+        const i = Math.floor(c / 4),
+          k = c % 4,
+          l = (32 + 2 * e + 2 * i - h - k) % 7;
+        const m = Math.floor((a + 11 * h + 22 * l) / 451);
+        return new Date(
+          year,
+          Math.floor((h + l - 7 * m + 114) / 31) - 1,
+          ((h + l - 7 * m + 114) % 31) + 1,
+        );
+      }
+
+      const _PFX = {
+        Adv: 1,
+        Nat: 2,
+        Epi: 3,
+        Quadp: 4,
+        Quad: 5,
+        Pasc: 6,
+        Pent: 7,
+        PentEpi: 8,
+      };
+      function temporaSort(pn) {
+        const m = pn.match(/^([A-Za-z]+?)(\d+)-(\d+)([a-z]?)(\d*)$/);
+        if (!m) return 99999;
+        const sub = m[5] ? parseInt(m[5]) * 0.1 : 0;
+        return (
+          (_PFX[m[1]] || 9) * 10000 + parseInt(m[2]) * 10 + parseInt(m[3]) + sub
+        );
+      }
+
+      function _todayTempora() {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const year = today.getFullYear(),
+          dow = today.getDay();
+        function D(d, n) {
+          return new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+        }
+        function sun(d) {
+          return D(d, -d.getDay());
+        }
+        const ts = sun(today);
+        const eq = (a, b) => a.getTime() === b.getTime();
+
+        function periodsFor(yr) {
+          const E = _getEaster(yr),
+            ps = [];
+          ["Quadp1", "Quadp2", "Quadp3"].forEach((n, i) =>
+            ps.push([n, D(E, -63 + i * 7)]),
+          );
+          for (let w = 1; w <= 6; w++)
+            ps.push([`Quad${w}`, D(E, -42 + (w - 1) * 7)]);
+          for (let w = 0; w <= 7; w++) ps.push([`Pasc${w}`, D(E, 7 * w)]);
+          for (let w = 1; w <= 24; w++)
+            ps.push([`Pent${String(w).padStart(2, "0")}`, D(E, 49 + 7 * w)]);
+          const xmas = new Date(yr, 11, 25);
+          const adv4 = xmas.getDay() === 0 ? D(xmas, -7) : sun(xmas);
+          const adv1 = D(adv4, -21);
+          for (let w = 1; w <= 4; w++)
+            ps.push([`Adv${w}`, D(adv1, (w - 1) * 7)]);
+          const epi = new Date(yr, 0, 6);
+          let epi1 = sun(epi);
+          if (epi1.getTime() <= epi.getTime()) epi1 = D(epi1, 7);
+          const deferred = [];
+          for (let w = 1; w <= 6; w++) {
+            if (D(epi1, (w - 1) * 7).getTime() >= D(E, -63).getTime())
+              deferred.push(w);
+          }
+          let s = D(E, 49 + 7 * 25);
+          for (const w of deferred) {
+            if (s.getTime() >= adv1.getTime()) break;
+            ps.push([`PentEpi${w}`, s]);
+            s = D(s, 7);
+          }
+          const xs = sun(xmas);
+          ps.push(["Nat1", xs]);
+          ps.push(["Nat2", D(xs, 7)]);
+          return ps;
+        }
+
+        function epiFor(yr) {
+          const epi = new Date(yr, 0, 6);
+          let e1 = sun(epi);
+          if (e1.getTime() <= epi.getTime()) e1 = D(e1, 7);
+          return Array.from({ length: 6 }, (_, i) => [
+            `Epi${i + 1}`,
+            D(e1, i * 7),
+          ]);
+        }
+
+        for (const [name, s] of [
+          ...periodsFor(year),
+          ...periodsFor(year - 1),
+          ...epiFor(year),
+        ]) {
+          if (eq(ts, s)) return name + "-" + dow;
+        }
+        return null;
+      }
+
+      function _lastSundayOfMonth(year, month0) {
+        const last = new Date(year, month0 + 1, 0);
+        return new Date(year, month0, last.getDate() - last.getDay());
+      }
+
+      function _massDate(mt, pn) {
+        if (!pn) return null;
+        if (mt === "sancti") {
+          const sm = pn.match(/^(\d{2})-(\d{2})/);
+          if (sm) return new Date(new Date().getFullYear(), parseInt(sm[1]) - 1, parseInt(sm[2]));
+          const dm = pn.match(/^(\d{2})-DU$/);
+          if (dm) return _lastSundayOfMonth(new Date().getFullYear(), parseInt(dm[1]) - 1);
+          return null;
+        }
+        if (mt === "tempora") return _temporaDate(pn);
+        return null;
+      }
+
+      function _temporaDate(pn) {
+        // Given a tempora path_name like "Quad6-5", return its calendar date in the nearest year.
+        const m = pn.match(/^([A-Za-z]+?)(\d+)-(\d+)/);
+        if (!m) return null;
+        const key = m[1] + m[2];
+        const day = parseInt(m[3]);
+        const D = (d, n) =>
+          new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+        const sun = (d) => {
+          const s = new Date(d);
+          s.setDate(s.getDate() - s.getDay());
+          return s;
+        };
+        for (const y of [
+          new Date().getFullYear(),
+          new Date().getFullYear() - 1,
+        ]) {
+          const E = _getEaster(y);
+          const xmas = new Date(y, 11, 25);
+          const adv4 = xmas.getDay() === 0 ? D(xmas, -7) : sun(xmas);
+          const adv1 = D(adv4, -21);
+          const epi = new Date(y, 0, 6);
+          let epi1 = sun(epi);
+          if (epi1.getTime() <= epi.getTime()) epi1 = D(epi1, 7);
+          const map = {};
+          ["Quadp1", "Quadp2", "Quadp3"].forEach(
+            (n, i) => (map[n] = D(E, -63 + i * 7)),
+          );
+          for (let w = 1; w <= 6; w++)
+            map[`Quad${w}`] = D(E, -42 + (w - 1) * 7);
+          for (let w = 0; w <= 7; w++) map[`Pasc${w}`] = D(E, 7 * w);
+          for (let w = 1; w <= 24; w++)
+            map[`Pent${String(w).padStart(2, "0")}`] = D(E, 49 + 7 * w);
+          for (let w = 1; w <= 4; w++) map[`Adv${w}`] = D(adv1, (w - 1) * 7);
+          for (let w = 1; w <= 6; w++) map[`Epi${w}`] = D(epi1, (w - 1) * 7);
+          map["Nat1"] = sun(xmas);
+          map["Nat2"] = D(sun(xmas), 7);
+          if (map[key]) return D(map[key], day);
+        }
+        return null;
+      }
+
+      function _suggestMarian(forDate) {
+        // Alma:   Advent 1 → Feb 2 (inclusive)
+        // Ave:    Feb 3 → Holy Saturday (before Easter Vigil)
+        // Regina: Easter Sunday → Pentecost Sunday (inclusive)
+        // Salve:  after Pentecost → day before Advent 1
+        const today = forDate
+          ? new Date(
+              forDate.getFullYear(),
+              forDate.getMonth(),
+              forDate.getDate(),
+            )
+          : (() => {
+              const d = new Date();
+              d.setHours(0, 0, 0, 0);
+              return d;
+            })();
+        const yr = today.getFullYear();
+        const D = (d, n) =>
+          new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+        const sun = (d) => {
+          const s = new Date(d);
+          s.setDate(s.getDate() - s.getDay());
+          return s;
+        };
+        const E = _getEaster(yr);
+        const feb3 = new Date(yr, 1, 3); // Feb 3: first day of Ave
+        const pent = D(E, 49); // Pentecost Sunday: last day of Regina
+        const xmas = new Date(yr, 11, 25);
+        const adv4 = xmas.getDay() === 0 ? D(xmas, -7) : sun(xmas);
+        const adv1 = D(adv4, -21); // Advent 1: first day of Alma
+        const t = today.getTime();
+        if (t >= adv1.getTime()) return "alma-redemptoris-mater";
+        if (t > pent.getTime()) return "salve-regina";
+        if (t >= E.getTime()) return "regina-caeli";
+        if (t >= feb3.getTime()) return "ave-regina-caelorum";
+        return "alma-redemptoris-mater";
+      }
+
+      function _suggestAsperges(forDate, mt) {
+        // Vidi Aquam: Easter Sunday through Pentecost Sunday inclusive
+        // Asperges: other Sundays in tempora; null for sancti (day varies by year) or weekdays
+        if (!forDate || mt === "sancti") return null;
+        if (forDate.getDay() !== 0) return null; // not a Sunday
+        const today = new Date(
+          forDate.getFullYear(),
+          forDate.getMonth(),
+          forDate.getDate(),
+        );
+        const yr = today.getFullYear();
+        const D = (d, n) =>
+          new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+        const E = _getEaster(yr);
+        const pent = D(E, 49);
+        const t = today.getTime();
+        if (t >= E.getTime() && t <= pent.getTime()) return "vidi-aquam";
+        return "asperges";
+      }
+
+      // ── Mass dropdown ─────────────────────────────────────────────────────────────
+
+      function populateDropdown(mt) {
+        currentMt = mt;
+        const sel = document.getElementById("massSelect");
+        sel.innerHTML =
+          mt === "commune"
+            ? '<option value="">&#8212; Commune &#8212;</option>'
+            : '<option value="">&#8212; Proprium &#8212;</option>';
+        let list = (allMasses[mt] || []).slice();
+        if (mt === "tempora")
+          list.sort(
+            (a, b) => temporaSort(a.path_name) - temporaSort(b.path_name),
+          );
+
+        // Circular rotation: today's Mass at top, yesterday's at bottom
+        let todayPn = null;
+        let todayMoveablePn = null;
+        if (mt === "sancti") {
+          const n = new Date();
+          todayPn =
+            String(n.getMonth() + 1).padStart(2, "0") +
+            "-" +
+            String(n.getDate()).padStart(2, "0");
+          // Check moveable sancti feasts (MM-DU = last Sunday of month)
+          const midnight = new Date(n.getFullYear(), n.getMonth(), n.getDate());
+          for (const m of list) {
+            if (/^\d{2}-DU$/.test(m.path_name)) {
+              const d = _massDate("sancti", m.path_name);
+              if (d && d.getTime() === midnight.getTime()) {
+                todayMoveablePn = m.path_name;
+                break;
               }
             }
+          }
+        } else if (mt === "tempora") {
+          todayPn = _todayTempora();
+        }
+        if (todayPn || todayMoveablePn) {
+          // Find index of today's entry for circular rotation.
+          // For sancti: star all entries whose MM-DD prefix matches today.
+          // For tempora: use startsWith so multi-Mass days (Quad6-4m2 etc.) are found.
+          let idx = list.findIndex(
+            (m) =>
+              (todayPn && m.path_name.startsWith(todayPn)) ||
+              (todayMoveablePn && m.path_name === todayMoveablePn),
+          );
+          if (idx < 0 && mt === "tempora") {
+            // Fall back to Sunday of the same week
+            const sun = todayPn.replace(/-\d+$/, "-0");
+            idx = list.findIndex((m) => m.path_name.startsWith(sun));
+          }
+          if (idx < 0 && mt === "sancti") {
+            // No feast today — rotate to the first entry on or after today
+            // so the list still opens near the current date.
+            idx = list.findIndex((m) => m.path_name.slice(0, 5) >= todayPn);
+          }
+          if (idx > 0) list = [...list.slice(idx), ...list.slice(0, idx)];
+        }
+
+        for (const m of list) {
+          const opt = document.createElement("option");
+          opt.value = m.path_name;
+          // Star all entries on the same calendar date (MM-DD prefix), ignoring
+          // variant suffixes (m2, bmv, oct, etc.), plus the moveable 10-DU feast.
+          const isToday =
+            (todayPn && m.path_name.slice(0, 5) === todayPn) ||
+            (todayMoveablePn && m.path_name === todayMoveablePn);
+          const label =
+            mt === "sancti" && /^\d{2}-\d{2}/.test(m.path_name)
+              ? m.path_name.slice(0, 5) + (m.name ? " — " + m.name : "")
+              : mt === "sancti" && /^\d{2}-DU$/.test(m.path_name)
+              ? m.path_name.slice(0, 2) + "-?? — " + (m.name || m.path_name)
+              : m.name || m.path_name;
+          opt.textContent = (isToday ? "★ " : "") + label;
+          sel.appendChild(opt);
+        }
+      }
+
+      // ── Render ────────────────────────────────────────────────────────────────────
+
+      function _updateControlStates() {
+        const hasMass = !!currentPn;
+        document.getElementById("ordinarySelect").disabled = !hasMass;
+        document.getElementById("creedSelect").disabled = !hasMass;
+      }
+
+      function getSettings() {
+        return {
+          lang: document.getElementById("langSelect").value,
+          ordNum:
+            parseInt(document.getElementById("ordinarySelect").value) || 0,
+          credNum: parseInt(document.getElementById("creedSelect").value) || 0,
+        };
+      }
+
+      async function renderMass() {
+        if (!propers || !ordinary) return;
+        const { lang, ordNum, credNum } = getSettings();
+        const rule = propers.rule || [];
+        const hasGloria = rule.includes("Gloria");
+        const hasCredo = rule.includes("Credo");
+        const main = document.getElementById("main");
+        main.classList.toggle("has-lang", !!lang);
+
+        const ruleBadges = document.getElementById("ruleBadges");
+        if (ruleBadges) {
+          ruleBadges.innerHTML = ["Gloria", "Credo"]
+            .map((r) => {
+              const has = rule.includes(r);
+              return `<span class="rule-badge ${has ? "yes" : "no"}">${has ? "&#10003;" : "&#10007;"} ${r}</span>`;
+            })
+            .join("");
+        }
+
+        const frag = document.createDocumentFragment();
+        const queue = [];
+
+        // Print-only title block
+        const feast = document.getElementById("epFeast")?.value.trim() || propers.feast || "";
+        const subtitle = document.getElementById("epSubtitle")?.value.trim() || propers.subtitle || "Missa Cantata";
+        if (feast) {
+          const titleBlock = document.createElement("div");
+          titleBlock.className = "print-only";
+          const feastEl = document.createElement("div");
+          feastEl.className = "print-feast";
+          feastEl.textContent = feast;
+          titleBlock.appendChild(feastEl);
+          const subEl = document.createElement("div");
+          subEl.className = "print-subtitle";
+          subEl.textContent = subtitle;
+          titleBlock.appendChild(subEl);
+          frag.appendChild(titleBlock);
+        }
+
+        // Flat list — all objects shown on screen; targets only affect PDF export
+        const ordo = propers.ordo || [];
+        for (let i = 0; i < ordo.length; i++) {
+          frag.appendChild(mkObjectWrap(ordo[i], ordo, lang, ordNum, credNum, hasGloria, hasCredo, queue));
+        }
+        frag.appendChild(mkObjZone(ordo, null)); // single add-zone at bottom
+
+        main.innerHTML = "";
+        main.appendChild(frag);
+
+
+        _renderReady = (async () => {
+          for (const { gabc, el, useDropCap, mode } of queue) {
+            el.innerHTML = '<span style="color:#ccc;font-size:.8em">…</span>';
+            await renderGabc(gabc, el, useDropCap, mode ?? null);
+          }
+        })();
+        await _renderReady;
+      }
+
+      function mkVariantChant(variants, queue, onSelect, initialIdx = 0) {
+        const wrap = document.createElement("div");
+        wrap.className = "chant-card";
+
+        const strip = document.createElement("div");
+        strip.className = "variant-strip no-print";
+
+        const editWrap = document.createElement("div");
+        editWrap.className = "gabc-edit-wrap";
+        const gabcEl = document.createElement("div");
+        gabcEl.className = "chant-gabc";
+        editWrap.appendChild(gabcEl);
+
+        const safeIdx = (initialIdx >= 0 && initialIdx < variants.length) ? initialIdx : 0;
+        queue.push({ gabc: variants[safeIdx].gabc, el: gabcEl, mode: variants[safeIdx].mode ?? null });
+
+        variants.forEach((v, i) => {
+          const btn = document.createElement("button");
+          btn.className = "variant-btn" + (i === safeIdx ? " active" : "");
+          btn.textContent = v.label || String(i + 1);
+          btn.addEventListener("click", async () => {
+            strip
+              .querySelectorAll(".variant-btn")
+              .forEach((b) => b.classList.remove("active"));
+            btn.classList.add("active");
+            gabcEl.innerHTML =
+              '<span style="color:#ccc;font-size:.8em">…</span>';
+            await renderGabc(v.gabc, gabcEl, true, v.mode ?? null);
+            onSelect?.(i);
           });
+          strip.appendChild(btn);
+        });
+
+        wrap.appendChild(strip);
+        wrap.appendChild(editWrap);
+        return wrap;
       }
 
-      async function loadPage() {
-        return updatePage(await getMassesNotFound());
-      }
+      function mkChant(gabcSrc, trans, queue, useDropCap = true, mode = null, item = null) {
+        const card = document.createElement("div");
+        card.className = "chant-card";
 
-      loadPage().then(() => {
-        if (location.hash) {
-          id = location.hash.substring(1);
-          if (!document.getElementById(id)) {
-            console.log(`${id} not found!`);
+        const editWrap = document.createElement("div");
+        editWrap.className = "gabc-edit-wrap";
+
+        const gabcEl = document.createElement("div");
+        gabcEl.className = "chant-gabc";
+        editWrap.appendChild(gabcEl);
+
+        let liveGabc = gabcSrc;
+        let liveMode = mode;
+        queue.push({ gabc: liveGabc, el: gabcEl, useDropCap, mode: liveMode });
+
+        const editBtn = document.createElement("button");
+        editBtn.className = "gabc-edit-btn no-print";
+        editBtn.textContent = "Edit GABC";
+        let textarea = null;
+        let modeSelEdit = null;
+        editBtn.addEventListener("click", () => {
+          if (textarea) {
+            textarea.remove();
+            modeSelEdit.remove();
+            textarea = null;
+            modeSelEdit = null;
+            editBtn.textContent = "Edit GABC";
             return;
           }
-          link = document.getElementById(id).href;
-          [massTitle, printType, ..._] = id.split("_");
-          if (confirm(`Download ${printType} of ${fromSnakeCase(massTitle)}?`))
-            open(link);
+          modeSelEdit = document.createElement("div");
+          modeSelEdit.className = "gabc-mode-row no-print";
+          const modeLabel = document.createElement("span");
+          modeLabel.className = "gabc-mode-lbl";
+          modeLabel.textContent = "Mode";
+          const modeInput = document.createElement("input");
+          modeInput.type = "text";
+          modeInput.className = "gabc-mode-sel";
+          modeInput.placeholder = "e.g. 7, 1g";
+          modeInput.value = liveMode || "";
+          modeInput.addEventListener("input", async () => {
+            liveMode = modeInput.value.trim() || null;
+            gabcEl.innerHTML = "";
+            await renderGabc(liveGabc, gabcEl, useDropCap, liveMode);
+          });
+          modeSelEdit.appendChild(modeLabel);
+          modeSelEdit.appendChild(modeInput);
+          editWrap.appendChild(modeSelEdit);
+          textarea = document.createElement("textarea");
+          textarea.className = "gabc-editor no-print";
+          textarea.value = liveGabc;
+          let debounce;
+          textarea.addEventListener("input", () => {
+            clearTimeout(debounce);
+            debounce = setTimeout(async () => {
+              liveGabc = textarea.value;
+              gabcEl.innerHTML = "";
+              await renderGabc(liveGabc, gabcEl, useDropCap, liveMode);
+            }, 600);
+          });
+          editWrap.appendChild(textarea);
+          editBtn.textContent = "Close";
+          textarea.focus();
+        });
+        editBtn.style.display = "none"; // exposed via card._triggerEdit; hidden in chant card itself
+        editWrap.appendChild(editBtn);
+        card._triggerEdit = () => editBtn.click();
+        card.appendChild(editWrap);
+
+        const t = document.createElement("div");
+        t.className = "chant-trans";
+        t.contentEditable = "true";
+        t.textContent = trans || "";
+        if (trans) t.classList.add("has-content");
+        t.addEventListener("input", () => {
+          t.classList.toggle("has-content", !!t.textContent.trim());
+          if (item) item.translation = t.textContent;
+        });
+        if (item) item._trEl = t;
+        card.appendChild(t);
+        card._getLiveGabc = () => liveGabc;
+        card._getLiveMode = () => liveMode;
+        return card;
+      }
+
+      // ── Floating format toolbar (bold / italic for .text-la blocks) ──────
+      const _fmtBar = document.createElement("div");
+      _fmtBar.id = "fmt-bar";
+      _fmtBar.innerHTML =
+        '<button onmousedown="event.preventDefault();document.execCommand(\'bold\')" title="Bold [Ctrl+B]"><b>B</b></button>' +
+        '<button onmousedown="event.preventDefault();document.execCommand(\'italic\')" title="Italic [Ctrl+I]"><i>I</i></button>';
+      document.body.appendChild(_fmtBar);
+
+      document.addEventListener("selectionchange", () => {
+        const active = document.activeElement;
+        if (active && active.classList.contains("text-la")) {
+          const sel = window.getSelection();
+          if (sel && !sel.isCollapsed && sel.rangeCount) {
+            const r = sel.getRangeAt(0).getBoundingClientRect();
+            _fmtBar.style.top = (r.top + window.scrollY - 40) + "px";
+            _fmtBar.style.left = (r.left + window.scrollX) + "px";
+            _fmtBar.style.display = "flex";
+            return;
+          }
+        }
+        _fmtBar.style.display = "none";
+      });
+
+      function _renderTex(s) {
+        if (!s) return "";
+        return s
+          .replace(/\\textit\{([^}]*)\}/g, "<em>$1</em>")
+          .replace(/\\textbf\{([^}]*)\}/g, "<strong>$1</strong>")
+          .replace(/\{\\(?:it|textit)\s+([^}]*)\}/g, "<em>$1</em>")
+          .replace(/\{\\(?:bf|textbf)\s+([^}]*)\}/g, "<strong>$1</strong>")
+          .replace(/\n/g, "<br>");
+      }
+
+      function _htmlToTex(html) {
+        if (!html) return "";
+        return html
+          .replace(/<em>([\s\S]*?)<\/em>/gi, "\\textit{$1}")
+          .replace(/<i>([\s\S]*?)<\/i>/gi, "\\textit{$1}")
+          .replace(/<strong>([\s\S]*?)<\/strong>/gi, "\\textbf{$1}")
+          .replace(/<b>([\s\S]*?)<\/b>/gi, "\\textbf{$1}")
+          .replace(/<br\s*\/?>/gi, "\\\\\n")
+          .replace(/<div>/gi, "\\\\\n")
+          .replace(/<[^>]*>/g, "")
+          .replace(/&amp;/g, "&")
+          .replace(/&lt;/g, "<")
+          .replace(/&gt;/g, ">")
+          .replace(/&nbsp;/g, " ")
+          .trim();
+      }
+
+      function mkText(html, trans, item = null) {
+        const block = document.createElement("div");
+        block.className = "text-block";
+        const cols = document.createElement("div");
+        cols.className = "text-cols";
+        const la = document.createElement("div");
+        la.className = "text-la";
+        la.contentEditable = "true";
+        la.innerHTML = html;
+        cols.appendChild(la);
+        const tr = document.createElement("div");
+        tr.className = "text-tr";
+        tr.contentEditable = "true";
+        tr.textContent = trans || "";
+        if (item) {
+          item._trEl = tr;
+          tr.addEventListener("input", () => { item.translation = tr.textContent; });
+        }
+        cols.appendChild(tr);
+        block.appendChild(cols);
+        return block;
+      }
+
+      function mkObjControls(item, wrap, ordo) {
+        const div = document.createElement("div");
+        div.className = "obj-controls no-print";
+
+        // Drag grip
+        const grip = document.createElement("span");
+        grip.className = "grip-btn";
+        grip.title = "Drag to reorder";
+        grip.textContent = "⠿";
+        grip.addEventListener("mousedown", () => { wrap.draggable = true; });
+        grip.addEventListener("mouseup",   () => { wrap.draggable = false; });
+        div.appendChild(grip);
+
+        // Edit GABC — music items with concrete gabc or an ordinary slot (once resolved)
+        if (item.type === "music" && (item.gabc || item.ordinary)) {
+          const btn = document.createElement("button");
+          btn.className = "ctrl-btn";
+          btn.textContent = "✎";
+          btn.title = "Edit GABC";
+          btn.addEventListener("click", () => item._triggerEdit?.());
+          div.appendChild(btn);
+        }
+
+        // + add object before this one
+        const addBtn = document.createElement("button");
+        addBtn.className = "ctrl-btn";
+        addBtn.textContent = "+";
+        addBtn.title = "Add object before this";
+        addBtn.addEventListener("click", () => {
+          if (wrap.previousSibling?.classList?.contains("add-form")) {
+            wrap.previousSibling.remove();
+            return;
+          }
+          const form = _mkItemForm(ordo, item);
+          wrap.before(form);
+        });
+        div.appendChild(addBtn);
+
+        // M / P target toggles
+        ["missalette", "pewsheet"].forEach(t => {
+          const btn = document.createElement("button");
+          btn.className = "ctrl-btn" + ((item.targets || []).includes(t) ? " active" : "");
+          btn.textContent = t === "missalette" ? "M" : "P";
+          btn.title = t === "missalette" ? "Missalette" : "Pew sheet";
+          btn.addEventListener("click", () => {
+            if (!Array.isArray(item.targets)) item.targets = [];
+            const has = item.targets.includes(t);
+            item.targets = has ? item.targets.filter(x => x !== t) : [...item.targets, t];
+            btn.classList.toggle("active", !has);
+          });
+          div.appendChild(btn);
+        });
+
+        div.appendChild(mkDeleteObjBtn(item, wrap, ordo));
+        return div;
+      }
+
+      function mkObjectWrap(item, ordo, lang, ordNum, credNum, hasGloria, hasCredo, queue) {
+        const wrap = document.createElement("div");
+        wrap.className = "obj-wrap";
+        const content = document.createElement("div");
+        content.className = "obj-content";
+
+        if (item.type === "title") {
+          const el = document.createElement("div");
+          el.className = "section-title";
+          el.contentEditable = "true";
+          el.textContent = item.text || "";
+          el.addEventListener("input", () => { item.text = el.textContent.trim(); });
+          content.appendChild(el);
+        } else if (item.type === "rubric") {
+          const el = document.createElement("div");
+          el.className = "prelude-rubric";
+          el.contentEditable = "true";
+          const resolvedRubric = item.key && lang
+            ? (rubricStrings?.[lang]?.[item.key] || "")
+            : "";
+          el.textContent = item._dirty ? (item.text || "") : (resolvedRubric || item.text || "");
+          el.addEventListener("input", () => { item._dirty = true; item.text = el.textContent; });
+          item._el = el;
+          content.appendChild(el);
+        } else if (item.type === "text" && item.ordinary) {
+          const respWrap = document.createElement("div");
+          function _rerenderOrdResp() {
+            respWrap.innerHTML = "";
+            const choiceKey = item.ordinary === "asperges" ? (_aspergesChoice || "")
+              : item.ordinary === "antiphona-mariana" ? (_marianChoice || "")
+              : "";
+            if (!choiceKey || !ordinary) return;
+            const responses = (ordinary[item.ordinary + "-resp"] || {})[choiceKey] || [];
+            const { lang: curLang } = getSettings();
+            for (const resp of responses) {
+              if (resp.type === "rubric") {
+                const el = document.createElement("div");
+                el.className = "prelude-rubric";
+                el.textContent = resp.text || "";
+                respWrap.appendChild(el);
+              } else if (resp.type === "text") {
+                const t = curLang ? (resp.availableTranslations || {})[curLang] || "" : "";
+                respWrap.appendChild(mkText(resp.latin, t));
+              }
+            }
+          }
+          _rerenderOrdResp();
+          item._rerender = _rerenderOrdResp;
+          content.appendChild(respWrap);
+        } else if (item.type === "text") {
+          const trans = lang
+            ? (item.availableTranslations || {})[lang] || item.translation || ""
+            : item.translation || "";
+          const textEl = mkText(_renderTex(item.tex || item.latin), trans, item);
+          item._el = textEl.querySelector(".text-la");
+          content.appendChild(textEl);
+        } else if (item.type === "music") {
+          if (item.gabc) {
+            const trans = lang
+              ? (item.availableTranslations || {})[lang] || item.translation || ""
+              : item.translation || "";
+            const chantCard = mkChant(item.gabc, trans || "", queue, true, item.mode ?? null, item);
+            item._getGabc = () => chantCard._getLiveGabc();
+            item._getMode = () => chantCard._getLiveMode();
+            item._triggerEdit = () => chantCard._triggerEdit();
+            content.appendChild(chantCard);
+          } else if (item.ordinary === "asperges") {
+            if (ordinary) {
+              const massDate = _massDate(currentMt, currentPn);
+              const _aspSuggested = _suggestAsperges(massDate, currentMt);
+              content.appendChild(mkOrdinaryBlock("asperges", item, {
+                initialChoice: _aspSuggested || "",
+                suggest: k => k === _aspSuggested,
+                onChange: v => {
+                  _aspergesChoice = v;
+                  for (const it of (propers.ordo || []))
+                    if (it.type === "text" && it.ordinary === "asperges") it._rerender?.();
+                },
+              }, queue));
+            }
+          } else if (item.ordinary === "antiphona-mariana") {
+            const massDate = _massDate(currentMt, currentPn);
+            const _marSuggested = _suggestMarian(massDate);
+            content.appendChild(mkOrdinaryBlock("antiphona-mariana", item, {
+              initialChoice: _marSuggested || "",
+              suggest: k => k === _marSuggested,
+              onChange: v => {
+                _marianChoice = v;
+                for (const it of (propers.ordo || []))
+                  if (it.type === "text" && it.ordinary === "antiphona-mariana") it._rerender?.();
+              },
+              massDate,
+            }, queue));
+          } else if (item.ordinary === "dismissal") {
+            content.appendChild(mkOrdinaryBlock("dismissal", item, {
+              initialChoice: item._ordChoice || (ordNum ? String(ordNum) : ""),
+              getInitialVariantIdx: variants => {
+                const idx = variants.findIndex(v => v.gloria === hasGloria);
+                return idx >= 0 ? idx : 0;
+              },
+            }, queue));
+          } else if (item.ordinary === "gloria") {
+            content.appendChild(mkOrdinaryBlock("gloria", item, {
+              initialChoice: item._ordChoice ?? (hasGloria && ordNum ? String(ordNum) : ""),
+            }, queue));
+          } else if (item.ordinary === "credo") {
+            content.appendChild(mkOrdinaryBlock("credo", item, {
+              initialChoice: item._ordChoice ?? (hasCredo && credNum ? String(credNum) : ""),
+            }, queue));
+          } else if (item.ordinary) {
+            content.appendChild(mkOrdinaryBlock(item.ordinary, item, {
+              initialChoice: item._ordChoice ?? (ordNum ? String(ordNum) : ""),
+            }, queue));
+          }
+        }
+
+        wrap.appendChild(content);
+        wrap.appendChild(mkObjControls(item, wrap, ordo));
+
+        // Drag-to-reorder
+        wrap._item = item;
+        wrap.addEventListener("dragstart", (e) => {
+          e.dataTransfer.effectAllowed = "move";
+          e.dataTransfer.setData("text/plain", ""); // required by Firefox
+          setTimeout(() => wrap.classList.add("dragging"), 0);
+        });
+        wrap.addEventListener("dragend", () => {
+          wrap.draggable = false;
+          wrap.classList.remove("dragging");
+          document.querySelectorAll(".drag-over").forEach(el => el.classList.remove("drag-over"));
+        });
+        wrap.addEventListener("dragover", (e) => {
+          e.preventDefault();
+          e.dataTransfer.dropEffect = "move";
+          const dragging = document.querySelector(".obj-wrap.dragging");
+          if (dragging && dragging !== wrap) wrap.classList.add("drag-over");
+        });
+        wrap.addEventListener("dragleave", () => wrap.classList.remove("drag-over"));
+        wrap.addEventListener("drop", (e) => {
+          e.preventDefault();
+          wrap.classList.remove("drag-over");
+          if (!ordo) return;
+          const dragging = document.querySelector(".obj-wrap.dragging");
+          if (!dragging || dragging === wrap) return;
+          const dragItem = dragging._item;
+          const dropItem = item;
+          const srcIdx = ordo.indexOf(dragItem);
+          const dstIdx = ordo.indexOf(dropItem);
+          if (srcIdx < 0 || dstIdx < 0 || srcIdx === dstIdx) return;
+          // Insert before or after drop target based on vertical position
+          const rect = wrap.getBoundingClientRect();
+          const before = e.clientY < rect.top + rect.height / 2;
+          ordo.splice(srcIdx, 1);
+          const adj = srcIdx < dstIdx ? dstIdx - 1 : dstIdx;
+          const finalIdx = before ? adj : adj + 1;
+          ordo.splice(finalIdx, 0, dragItem);
+          if (before) wrap.before(dragging); else wrap.after(dragging);
+          dragging.draggable = false;
+          // Place el at targetIdx by finding the preceding item's DOM wrap
+          const placeAt = (el, targetIdx) => {
+            if (targetIdx === 0) {
+              const first = [...document.querySelectorAll("#main > .obj-wrap")].find(w => w !== el);
+              if (first) first.before(el);
+            } else {
+              const prevEl = [...document.querySelectorAll("#main > .obj-wrap")]
+                .find(w => w._item === ordo[targetIdx - 1]);
+              if (prevEl) prevEl.after(el);
+            }
+          };
+          _pushUndo(
+            () => {
+              ordo.splice(ordo.indexOf(dragItem), 1);
+              ordo.splice(srcIdx, 0, dragItem);
+              placeAt(dragging, srcIdx);
+            },
+            () => {
+              ordo.splice(ordo.indexOf(dragItem), 1);
+              ordo.splice(finalIdx, 0, dragItem);
+              placeAt(dragging, finalIdx);
+            },
+          );
+        });
+
+        return wrap;
+      }
+
+      function _pushUndo(undoFn, redoFn) {
+        _undo.push({ undo: undoFn, redo: redoFn });
+        _redo.length = 0;
+      }
+
+      function mkDeleteObjBtn(item, wrap, ordo) {
+        const btn = document.createElement("button");
+        btn.className = "ctrl-btn delete no-print";
+        btn.title = "Delete (Ctrl+Z to undo)";
+        btn.textContent = "×";
+        btn.addEventListener("click", () => {
+          const idx = ordo ? ordo.indexOf(item) : -1;
+          const prevWrap = wrap.previousSibling; // zone before wrap
+          wrap.remove();
+          if (idx >= 0) ordo.splice(idx, 1);
+          _pushUndo(
+            () => { // undo: re-insert item and wrap
+              if (idx >= 0 && ordo) ordo.splice(idx, 0, item);
+              if (prevWrap) prevWrap.after(wrap);
+            },
+            () => { // redo: remove again
+              wrap.remove();
+              if (idx >= 0 && ordo) ordo.splice(idx, 1);
+            },
+          );
+        });
+        return btn;
+      }
+
+      function mkNewObj(item, ordo) {
+        const wrap = document.createElement("div");
+        wrap.className = "obj-wrap";
+        const content = document.createElement("div");
+        content.className = "obj-content";
+
+        if (item.type === "title") {
+          const el = document.createElement("div");
+          el.className = "section-title";
+          el.contentEditable = "true";
+          el.textContent = item.text || "";
+          el.addEventListener("input", () => { item.text = el.textContent.trim(); });
+          content.appendChild(el);
+        } else if (item.type === "rubric") {
+          const el = document.createElement("div");
+          el.className = "prelude-rubric";
+          el.contentEditable = "true";
+          el.textContent = item.text || "";
+          item._el = el;
+          content.appendChild(el);
+        } else if (item.type === "text" && item.ordinary) {
+          const respWrap = document.createElement("div");
+          function _rerenderOrdRespNew() {
+            respWrap.innerHTML = "";
+            const choiceKey = item.ordinary === "asperges" ? (_aspergesChoice || "")
+              : item.ordinary === "antiphona-mariana" ? (_marianChoice || "")
+              : "";
+            if (!choiceKey || !ordinary) return;
+            const responses = (ordinary[item.ordinary + "-resp"] || {})[choiceKey] || [];
+            const { lang: curLang } = getSettings();
+            for (const resp of responses) {
+              if (resp.type === "rubric") {
+                const el = document.createElement("div");
+                el.className = "prelude-rubric";
+                el.textContent = resp.text || "";
+                respWrap.appendChild(el);
+              } else if (resp.type === "text") {
+                const t = curLang ? (resp.availableTranslations || {})[curLang] || "" : "";
+                respWrap.appendChild(mkText(resp.latin, t));
+              }
+            }
+          }
+          _rerenderOrdRespNew();
+          item._rerender = _rerenderOrdRespNew;
+          content.appendChild(respWrap);
+        } else if (item.type === "text") {
+          const textEl = mkText(_renderTex(item.tex || ""), item.translation || "", item);
+          item._el = textEl.querySelector(".text-la");
+          content.appendChild(textEl);
+        } else if (item.type === "music" && item.gabc) {
+          const localQueue = [];
+          const chantCard = mkChant(item.gabc, item.translation || "", localQueue, true, item.mode ?? null, item);
+          item._getGabc = () => chantCard._getLiveGabc();
+          item._getMode = () => chantCard._getLiveMode();
+          item._triggerEdit = () => chantCard._triggerEdit();
+          content.appendChild(chantCard);
+          for (const { gabc, el, useDropCap, mode } of localQueue)
+            renderGabc(gabc, el, useDropCap, mode ?? null);
+        }
+
+        wrap.appendChild(content);
+        wrap.appendChild(mkObjControls(item, wrap, ordo));
+        return wrap;
+      }
+
+      // mkObjZone: bottom-of-page "+" that adds at end of ordo
+      function mkObjZone(ordo, insertBefore) {
+        const zone = document.createElement("div");
+        zone.className = "add-zone no-print";
+        const btn = document.createElement("button");
+        btn.className = "add-btn";
+        btn.textContent = "+";
+        zone.appendChild(btn);
+
+        btn.addEventListener("click", () => {
+          if (zone.previousSibling?.classList?.contains("add-form")) {
+            zone.previousSibling.remove();
+            zone.classList.remove("add-open");
+            return;
+          }
+          zone.classList.add("add-open");
+          const form = _mkItemForm(ordo, insertBefore);
+          // When form removes itself, clear the add-open class
+          new MutationObserver((_, obs) => {
+            if (!form.isConnected) { zone.classList.remove("add-open"); obs.disconnect(); }
+          }).observe(document.getElementById("main"), { childList: true, subtree: true });
+          zone.before(form);
+        });
+
+        return zone;
+      }
+
+      function _mkItemForm(ordo, insertBefore) {
+        const { lang } = getSettings();
+        const form = document.createElement("div");
+        form.className = "add-form";
+
+        // Type selector: Title | Rubric | Text | Music
+        const typeRow = document.createElement("div");
+        typeRow.className = "type-row";
+        let selectedType = "rubric";
+        [["Title","title"],["Rubric","rubric"],["Text","text"],["Music","music"]].forEach(
+          ([label, key], i) => {
+            const b = document.createElement("button");
+            b.textContent = label;
+            b.className = "ep-btn" + (i === 1 ? " active" : "");
+            b.addEventListener("click", () => {
+              typeRow.querySelectorAll(".ep-btn").forEach(x => x.classList.remove("active"));
+              b.classList.add("active");
+              selectedType = key;
+              updateFields();
+              updateAddBtn();
+            });
+            typeRow.appendChild(b);
+          }
+        );
+
+        const mkField = (labelText, tag = "textarea") => {
+          const row = document.createElement("div");
+          row.className = "add-form-field";
+          const lbl = document.createElement("div");
+          lbl.className = "add-form-label";
+          lbl.textContent = labelText;
+          const el = document.createElement(tag);
+          el.placeholder = labelText;
+          if (tag === "textarea") el.rows = 2;
+          row.appendChild(lbl);
+          row.appendChild(el);
+          return { row, el };
+        };
+
+        const { row: rowTitle,  el: inTitle  } = mkField("Section title", "input");
+        inTitle.type = "text";
+        const { row: rowRubric, el: taRubric } = mkField("Rubric");
+        const { row: rowLatin,  el: taLatin  } = mkField("Latin");
+        const { row: rowTrans,  el: taTrans  } = mkField("Translation");
+        const { row: rowGabc,   el: taGabc   } = mkField("GABC");
+
+        // ── Music mode: Raw GABC ↔ Search ─────────────────────────────────────────
+        let musicMode = "raw";
+        let resolvedGabc = "";
+        let selectedEntry = null;
+        const modeRow = document.createElement("div");
+        modeRow.className = "add-form-field music-mode-row";
+        [["Raw GABC", "raw"], ["Search", "search"]].forEach(([label, mode], i) => {
+          const b = document.createElement("button");
+          b.textContent = label;
+          b.className = "ep-btn" + (i === 0 ? " active" : "");
+          b.addEventListener("click", () => {
+            modeRow.querySelectorAll(".ep-btn").forEach(x => x.classList.remove("active"));
+            b.classList.add("active");
+            musicMode = mode;
+            resolvedGabc = "";
+            selectedEntry = null;
+            updateFields();
+            updateAddBtn();
+          });
+          modeRow.appendChild(b);
+        });
+
+        // Search mode UI
+        const searchRow = document.createElement("div");
+        searchRow.className = "add-form-field";
+
+        const searchInputWrap = document.createElement("div");
+        searchInputWrap.className = "search-input-wrap";
+        const inSearch = document.createElement("input");
+        inSearch.type = "text";
+        inSearch.placeholder = "ID, GregoBase URL, or opening words…";
+        const searchBtn = document.createElement("button");
+        searchBtn.textContent = "Search";
+        searchBtn.className = "ep-btn";
+        searchInputWrap.appendChild(inSearch);
+        searchInputWrap.appendChild(searchBtn);
+
+        const previewBox = document.createElement("div");
+        previewBox.className = "search-preview-box";
+        previewBox.style.display = "none";
+        const searchResults = document.createElement("div");
+        searchResults.className = "search-results";
+
+        searchRow.appendChild(searchInputWrap);
+        searchRow.appendChild(previewBox);
+        searchRow.appendChild(searchResults);
+
+        const _OFFICE_PART_LABELS = { in: "Introitus", gr: "Graduale", al: "Alleluia", tr: "Tractus", sq: "Sequentia", of: "Offertorium", co: "Communio", ky: "Kyrie", gl: "Gloria", an: "Antiphon", hy: "Hymn", re: "Responsorium" };
+
+        function _showPreview(entry) {
+          previewBox.style.display = "";
+          previewBox.innerHTML = "";
+          renderGabc(entry.gabc[0], previewBox, false).then(() => {
+            const staves = previewBox.querySelectorAll(".chant-stave");
+            for (let i = 1; i < staves.length; i++) staves[i].style.display = "none";
+          });
+        }
+
+        function _showResults(hits) {
+          searchResults.innerHTML = "";
+          if (!hits.length) { searchResults.textContent = "No results found."; return; }
+          hits.forEach(entry => {
+            const div = document.createElement("div");
+            div.className = "search-result-item";
+            const words = entry.lyrics.split(" ");
+            const lyricPreview = words.slice(0, 10).join(" ");
+            const lyricsEl = document.createElement("span");
+            lyricsEl.textContent = lyricPreview.charAt(0).toUpperCase() + lyricPreview.slice(1) + (words.length > 10 ? "…" : "");
+            const partEl = document.createElement("span");
+            partEl.className = "search-result-part";
+            partEl.textContent = _OFFICE_PART_LABELS[entry.office_part] || entry.office_part || "";
+            const versionEl = document.createElement("span");
+            versionEl.className = "search-result-version";
+            versionEl.textContent = (entry.version || "").replace("Solesmes ", "Sol. ");
+            div.appendChild(lyricsEl);
+            div.appendChild(partEl);
+            div.appendChild(versionEl);
+            div.addEventListener("click", async () => {
+              searchResults.querySelectorAll(".search-result-item").forEach(el => el.classList.remove("active"));
+              div.classList.add("active");
+              selectedEntry = entry;
+              resolvedGabc = "";
+              previewBox.style.display = "";
+              previewBox.innerHTML = '<div class="placeholder">Loading…</div>';
+              updateAddBtn();
+              const gabc = await _fetchGabc(entry.id);
+              if (gabc) { resolvedGabc = gabc[0]; _showPreview({ ...entry, gabc }); }
+              else { previewBox.innerHTML = '<div class="placeholder">GABC not available.</div>'; }
+              updateAddBtn();
+            });
+            searchResults.appendChild(div);
+          });
+        }
+
+        async function _doSearch() {
+          const q = inSearch.value.trim();
+          if (!q) return;
+          searchBtn.textContent = "…";
+          searchBtn.disabled = true;
+          resolvedGabc = "";
+          previewBox.style.display = "none";
+          previewBox.innerHTML = "";
+          searchResults.innerHTML = "";
+          updateAddBtn();
+
+          const index = await _loadChantIndex();
+          const parsed = _parseChantQuery(q);
+
+          if (parsed?.type === "id") {
+            const entry = index.find(e => e.id === parsed.id);
+            if (entry) {
+              selectedEntry = entry;
+              previewBox.style.display = "";
+              previewBox.innerHTML = '<div class="placeholder">Loading…</div>';
+              const gabc = await _fetchGabc(parsed.id);
+              if (gabc) { resolvedGabc = gabc[0]; _showPreview({ ...entry, gabc }); }
+              else { previewBox.innerHTML = '<div class="placeholder">GABC not available for id ' + parsed.id + '.</div>'; }
+            } else { previewBox.style.display = ""; previewBox.innerHTML = '<div class="placeholder">No chant found for id ' + parsed.id + '.</div>'; }
+          } else if (parsed?.type === "text") {
+            _showResults(
+              index.filter(e => e.lyrics.includes(_normLyrics(parsed.q))).slice(0, 20)
+            );
+          }
+
+          searchBtn.textContent = "Search";
+          searchBtn.disabled = false;
+          updateAddBtn();
+        }
+
+        searchBtn.addEventListener("click", _doSearch);
+        inSearch.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); _doSearch(); } });
+        inSearch.addEventListener("input", () => {
+          if (!inSearch.value.trim()) {
+            resolvedGabc = "";
+            selectedEntry = null;
+            searchResults.innerHTML = "";
+            previewBox.style.display = "none";
+            previewBox.innerHTML = "";
+            updateAddBtn();
+          }
+        });
+
+        function updateFields() {
+          rowTitle.style.display     = selectedType === "title"  ? "" : "none";
+          rowRubric.style.display    = selectedType === "rubric" ? "" : "none";
+          rowLatin.style.display     = selectedType === "text"   ? "" : "none";
+          rowTrans.style.display     = (selectedType === "text" && lang) ? "" : "none";
+          modeRow.style.display      = selectedType === "music"  ? "" : "none";
+          rowGabc.style.display      = (selectedType === "music" && musicMode === "raw")    ? "" : "none";
+          searchRow.style.display    = (selectedType === "music" && musicMode === "search") ? "" : "none";
+        }
+        updateFields();
+
+        const actions = document.createElement("div");
+        actions.className = "add-form-actions";
+
+        const addBtn = document.createElement("button");
+        addBtn.textContent = "Add";
+        addBtn.className = "btn-confirm";
+        addBtn.disabled = true;
+
+        function updateAddBtn() {
+          if (selectedType === "title") { addBtn.disabled = false; return; }
+          addBtn.disabled = !(
+            selectedType === "rubric" ? taRubric.value.trim() :
+            selectedType === "text"   ? (taLatin.value.trim() && (!lang || taTrans.value.trim())) :
+            /* music */                 (musicMode === "raw" ? taGabc.value.trim() : resolvedGabc)
+          );
+        }
+
+        [inTitle, taRubric, taLatin, taTrans, taGabc].forEach(el => el.addEventListener("input", updateAddBtn));
+        updateAddBtn();
+
+        addBtn.addEventListener("click", () => {
+          let items = null;
+          let item;
+          if (selectedType === "title") {
+            item = { type: "title", text: inTitle.value.trim(), targets: ["missalette", "pewsheet"] };
+          } else if (selectedType === "rubric") {
+            item = { type: "rubric", text: taRubric.value.trim(), targets: ["missalette", "pewsheet"] };
+          } else if (selectedType === "text") {
+            item = { type: "text", tex: taLatin.value.trim(), targets: ["missalette", "pewsheet"] };
+            const tr = taTrans.value.trim();
+            if (tr) item.translation = tr;
+          } else {
+            const _modeFromGabc = g => { const m = g.slice(0, g.indexOf("%%") + 1 || g.length).match(/\bmode\s*:\s*(\d+)/i); return m ? m[1] : ""; };
+            if (musicMode === "search" && selectedEntry && selectedEntry.gabc.length > 1) {
+              items = selectedEntry.gabc.map((g, i) => {
+                const it = { type: "music", gabc: g, targets: ["missalette", "pewsheet"] };
+                const m = i === 0 ? (selectedEntry.mode || _modeFromGabc(g)) : _modeFromGabc(g);
+                if (m) it.mode = m;
+                return it;
+              });
+            } else {
+              const gabc = musicMode === "raw" ? taGabc.value.trim() : resolvedGabc;
+              item = { type: "music", gabc, targets: ["missalette", "pewsheet"] };
+              const m = musicMode === "search" ? (selectedEntry?.mode || _modeFromGabc(gabc)) : _modeFromGabc(gabc);
+              if (m) item.mode = m;
+            }
+          }
+
+          const idx = insertBefore ? ordo.indexOf(insertBefore) : ordo.length;
+          const insertIdx = idx < 0 ? ordo.length : idx;
+          const prevSib = form.previousSibling;
+
+          if (items) {
+            ordo.splice(insertIdx, 0, ...items);
+            const newWraps = items.map(it => mkNewObj(it, ordo));
+            newWraps.forEach(w => form.before(w));
+            form.remove();
+            _pushUndo(
+              () => { items.forEach(it => { const i = ordo.indexOf(it); if (i >= 0) ordo.splice(i, 1); }); newWraps.forEach(w => w.remove()); },
+              () => {
+                ordo.splice(insertIdx, 0, ...items);
+                if (prevSib?.isConnected) { let ref = prevSib; newWraps.forEach(w => { ref.after(w); ref = w; }); }
+                else { newWraps.forEach(w => document.getElementById("main").appendChild(w)); }
+              },
+            );
+          } else {
+            ordo.splice(insertIdx, 0, item);
+            const newWrap = mkNewObj(item, ordo);
+            form.before(newWrap);
+            form.remove();
+            _pushUndo(
+              () => { const i = ordo.indexOf(item); if (i >= 0) ordo.splice(i, 1); newWrap.remove(); },
+              () => {
+                ordo.splice(insertIdx, 0, item);
+                if (prevSib?.isConnected) prevSib.after(newWrap);
+                else document.getElementById("main").appendChild(newWrap);
+              },
+            );
+          }
+        });
+
+        const cancelBtn = document.createElement("button");
+        cancelBtn.textContent = "Cancel";
+        cancelBtn.addEventListener("click", () => form.remove());
+
+        actions.appendChild(addBtn);
+        actions.appendChild(cancelBtn);
+        form.appendChild(typeRow);
+        form.appendChild(rowTitle);
+        form.appendChild(rowRubric);
+        form.appendChild(rowLatin);
+        form.appendChild(rowTrans);
+        form.appendChild(modeRow);
+        form.appendChild(rowGabc);
+        form.appendChild(searchRow);
+        form.appendChild(actions);
+        return form;
+      }
+
+      // Unified ordinary block: dropdown + optional variant buttons, for all ordinary.json keys.
+      // opts: { initialChoice, suggest(key)->bool, onChange(key), getInitialVariantIdx(variants)->int, massDate }
+      function mkOrdinaryBlock(key, item, opts, queue) {
+        opts = opts || {};
+        const wrap = document.createElement("div");
+        if (!ordinary) return wrap;
+
+        const allSettings = ordinary[key] || {};
+        const keys = Object.keys(allSettings);
+        const isNumeric = keys.length > 0 && keys.every(k => /^\d+$/.test(k));
+        if (isNumeric) keys.sort((a, b) => Number(a) - Number(b));
+
+        const sel = document.createElement("select");
+        sel.className = "ordinary-sel no-print";
+
+        const blank = document.createElement("option");
+        blank.value = "";
+        blank.textContent = opts.placeholder || `— ${_keyLabel(key)} —`;
+        sel.appendChild(blank);
+
+        keys.forEach(k => {
+          const opt = document.createElement("option");
+          opt.value = k;
+          const displayLabel = _keyLabel(k);
+          opt.textContent = (opts.suggest?.(k) ? "★ " : "") + displayLabel;
+          sel.appendChild(opt);
+        });
+
+        const cur = item._ordChoice != null ? item._ordChoice : (opts.initialChoice || "");
+        sel.value = cur;
+        if (cur) { item._ordChoice = cur; opts.onChange?.(cur); }
+
+        item._selEl = sel;
+
+        const chantWrap = document.createElement("div");
+
+        function _attachTranslation(card, chosenKey) {
+          const savedTrans = (item._transMap || {})[chosenKey] || item.translation || "";
+          let trEl = card.querySelector(".chant-trans");
+          if (!trEl) {
+            trEl = document.createElement("div");
+            trEl.className = "chant-trans";
+            trEl.contentEditable = "true";
+            trEl.textContent = savedTrans;
+            if (savedTrans) trEl.classList.add("has-content");
+            card.appendChild(trEl);
+          } else {
+            trEl.textContent = savedTrans;
+            trEl.classList.toggle("has-content", !!savedTrans);
+          }
+          trEl.addEventListener("input", () => {
+            trEl.classList.toggle("has-content", !!trEl.textContent.trim());
+            if (!item._transMap) item._transMap = {};
+            item._transMap[chosenKey] = trEl.textContent;
+            item.translation = trEl.textContent;
+          });
+        }
+
+        function showVariants(chosenKey, resetVariantChoice) {
+          chantWrap.innerHTML = "";
+          item._triggerEdit = null;
+          if (!chosenKey) return;
+          const variants = allSettings[String(chosenKey)] || [];
+          if (!variants.length) return;
+          const initialIdx = resetVariantChoice && opts.getInitialVariantIdx
+            ? opts.getInitialVariantIdx(variants)
+            : (item._varChoice ?? 0);
+          if (resetVariantChoice) item._varChoice = initialIdx;
+          const q = [];
+          const card = variants.length === 1
+            ? mkChant(variants[0].gabc, "", q, true, variants[0].mode ?? null)
+            : mkVariantChant(variants, q, (idx) => { item._varChoice = idx; }, initialIdx);
+          _attachTranslation(card, chosenKey);
+          item._triggerEdit = () => card._triggerEdit?.();
+          chantWrap.appendChild(card);
+          for (const { gabc, el, mode } of q) {
+            el.innerHTML = '<span style="color:#ccc;font-size:.8em">…</span>';
+            renderGabc(gabc, el, true, mode || 0);
+          }
+        }
+
+        sel.addEventListener("change", () => {
+          item._ordChoice = sel.value || null;
+          item._varChoice = null;
+          opts.onChange?.(sel.value);
+          showVariants(sel.value, true);
+        });
+
+        wrap.appendChild(sel);
+        wrap.appendChild(chantWrap);
+
+        // Initial render via outer queue (batched with page render)
+        if (cur) {
+          const variants = allSettings[String(cur)] || [];
+          if (variants.length) {
+            const initialIdx = opts.getInitialVariantIdx
+              ? opts.getInitialVariantIdx(variants)
+              : (item._varChoice ?? 0);
+            if (item._varChoice == null) item._varChoice = initialIdx;
+            const card = variants.length === 1
+              ? mkChant(variants[0].gabc, "", queue, true, variants[0].mode ?? null)
+              : mkVariantChant(variants, queue, (idx) => { item._varChoice = idx; }, item._varChoice);
+            _attachTranslation(card, cur);
+            item._triggerEdit = () => card._triggerEdit?.();
+            chantWrap.appendChild(card);
+          }
+        }
+
+        return wrap;
+      }
+
+      // ── Load a Mass ───────────────────────────────────────────────────────────────
+
+      async function loadMass(mt, pn) {
+        // Save ordinary choices and translations before replacing propers
+        const savedOrdinary = {};
+        if (propers) {
+          for (const item of (propers.ordo || [])) {
+            if (item.ordinary) {
+              savedOrdinary[item.ordinary] = {
+                _ordChoice: item._ordChoice ?? null,
+                _varChoice: item._varChoice ?? null,
+                _transMap: { ...(item._transMap || {}) },
+                translation: item.translation || "",
+              };
+            }
+          }
+        }
+
+        currentPn = pn;
+        _syncUrl();
+        const main = document.getElementById("main");
+        main.innerHTML = '<p class="hint">Oneratur…</p>';
+        try {
+          propers = await fetchJSON(
+            BASE + "data/propers/" + mt + "/" + pn + ".json",
+          );
+        } catch (e) {
+          main.innerHTML =
+            '<p class="hint" style="color:#c44">Not yet generated: ' +
+            esc(mt + "/" + pn) +
+            "</p>";
+          propers = { feast: "", subtitle: "", ordo: [] };
+          return;
+        }
+
+        // Restore ordinary choices to the new mass's items.
+        // Asperges and antiphona-mariana are driven by seasonal suggestion — don't restore.
+        const _noRestore = new Set(["asperges", "antiphona-mariana"]);
+        for (const item of (propers.ordo || [])) {
+          if (item.ordinary && !_noRestore.has(item.ordinary) && savedOrdinary[item.ordinary]) {
+            const s = savedOrdinary[item.ordinary];
+            if (s._ordChoice != null) item._ordChoice = s._ordChoice;
+            if (s._varChoice != null) item._varChoice = s._varChoice;
+            if (Object.keys(s._transMap).length) item._transMap = s._transMap;
+            if (s.translation) item.translation = s.translation;
+          }
+        }
+
+        const feastInput = document.getElementById("epFeast");
+        if (feastInput) feastInput.value = propers.feast || "";
+
+        _aspergesChoice = _suggestAsperges(_massDate(mt, pn), mt);
+        _syncUrl();
+        _updateControlStates();
+
+        await renderMass();
+      }
+
+      // ── Events ────────────────────────────────────────────────────────────────────
+
+      document.querySelectorAll(".tab-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document
+            .querySelectorAll(".tab-btn")
+            .forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          currentPn = null;
+          populateDropdown(btn.dataset.type);
+          _syncUrl();
+          _updateControlStates();
+        });
+      });
+
+      document.getElementById("massSelect").addEventListener("change", (e) => {
+        if (e.target.value) loadMass(currentMt, e.target.value);
+      });
+
+      document.getElementById("langSelect").addEventListener("change", () => {
+        _syncUrl();
+        if (!propers) return;
+        const { lang } = getSettings();
+        document.getElementById("main").classList.toggle("has-lang", !!lang);
+        for (const item of (propers.ordo || [])) {
+          if ((item.type === "text" || (item.type === "music" && item.gabc)) && item._trEl) {
+            const newTr = lang ? (item.availableTranslations || {})[lang] || "" : "";
+            item.translation = newTr;
+            item._trEl.textContent = newTr;
+            // .chant-trans uses has-content for print visibility; .text-tr uses has-lang on parent
+            if (item.type === "music") item._trEl.classList.toggle("has-content", !!newTr);
+          } else if (item.type === "rubric" && item._el && !item._dirty) {
+            const resolved = item.key && lang ? (rubricStrings?.[lang]?.[item.key] || "") : "";
+            item._el.textContent = resolved || item.text || "";
+          }
+          if (item.type === "text" && item.ordinary) item._rerender?.();
         }
       });
+
+      document.getElementById("ordinarySelect").addEventListener("change", () => {
+        _syncUrl();
+        if (!propers) return;
+        const { ordNum } = getSettings();
+        const hasGloria = (propers.rule || []).includes("Gloria");
+        const _ORD_KEYS = new Set(["kyrie", "gloria", "sanctus", "agnus-dei", "dismissal"]);
+        for (const item of (propers.ordo || [])) {
+          if (item.type === "music" && item.ordinary && _ORD_KEYS.has(item.ordinary) && item._selEl) {
+            const newVal = item.ordinary === "gloria"
+              ? (hasGloria && ordNum ? String(ordNum) : "")
+              : (ordNum ? String(ordNum) : "");
+            item._ordChoice = null;
+            item._varChoice = null;
+            item._selEl.value = newVal;
+            item._selEl.dispatchEvent(new Event("change"));
+          }
+        }
+      });
+
+      document.getElementById("creedSelect").addEventListener("change", () => {
+        _syncUrl();
+        if (!propers) return;
+        const { credNum } = getSettings();
+        const hasCredo = (propers.rule || []).includes("Credo");
+        for (const item of (propers.ordo || [])) {
+          if (item.type === "music" && item.ordinary === "credo" && item._selEl) {
+            item._ordChoice = null;
+            item._varChoice = null;
+            item._selEl.value = hasCredo && credNum ? String(credNum) : "";
+            item._selEl.dispatchEvent(new Event("change"));
+          }
+        }
+      });
+
+      // ── Undo / Redo ──────────────────────────────────────────────────────────────
+
+      document.addEventListener("keydown", (e) => {
+        const mod = e.ctrlKey || e.metaKey;
+        if (!mod) return;
+        // Let the browser handle undo/redo natively inside text fields
+        const t = e.target;
+        if (t.isContentEditable || t.tagName === "INPUT" ||
+            t.tagName === "TEXTAREA" || t.tagName === "SELECT") return;
+        if (e.key === "p") {
+          e.preventDefault();
+          _renderReady.then(() => _rerenderChants(_A5_PRINT_W)).then(() => window.print());
+        } else if (!e.shiftKey && e.key.toLowerCase() === "z") {
+          const op = _undo.pop();
+          if (op) { _redo.push(op); op.undo(); e.preventDefault(); }
+        } else if (e.key.toLowerCase() === "y" || (e.shiftKey && e.key.toLowerCase() === "z")) {
+          const op = _redo.pop();
+          if (op) { _undo.push(op); op.redo(); e.preventDefault(); }
+        }
+      });
+
+      // ── Export / Build PDF ────────────────────────────────────────────────────────
+
+      // Set to your deployed Cloudflare Worker URL after deploying booklet-worker.js.
+      const BOOKLET_WORKER_URL = "https://stjosephs-booklet.st-josephs-gateshead-missalette.workers.dev";
+
+      function toggleAbout() {
+        const m = document.getElementById("aboutModal");
+        if (m.hidden) {
+          const verEl = document.getElementById("about-version");
+          if (verEl && verEl.textContent === "—") {
+            verEl.textContent = (typeof propers !== "undefined" && propers.pipeline_version) || "—";
+            const lu = (typeof propers !== "undefined" && propers.data_updated) || {};
+            const fmt = s => s ? s.slice(0, 10) : "—";
+            document.getElementById("about-do-date").textContent = fmt(lu.do);
+            document.getElementById("about-gregobase-date").textContent = fmt(lu.gregobase);
+          }
+        }
+        m.hidden = !m.hidden;
+      }
+
+      function toggleExportPopover() {
+        document.getElementById("exportWrap").classList.toggle("open");
+      }
+
+      // A5 column: 148mm - 10mm*2 margins = 128mm ≈ 484px at 96dpi
+      const _A5_PRINT_W = 484;
+
+      function _rerenderChants(w) {
+        const els = [...document.querySelectorAll("#main .chant-gabc[data-gabc]")];
+        return Promise.all(els.map(el =>
+          renderGabc(el.dataset.gabc, el, el.dataset.dropCap !== "0", el.dataset.mode || null, w)
+        ));
+      }
+
+      function doPrint() {
+        document.getElementById("exportWrap").classList.remove("open");
+        _renderReady
+          .then(() => _rerenderChants(_A5_PRINT_W))
+          .then(() => window.print());
+      }
+
+      window.addEventListener("afterprint", () => _rerenderChants(null));
+
+      document.getElementById("epFeast").addEventListener("input", function () {
+        const el = document.querySelector(".print-feast");
+        if (el) el.textContent = this.value.trim() || propers?.feast || "";
+      });
+      document.getElementById("epSubtitle").addEventListener("input", function () {
+        const el = document.querySelector(".print-subtitle");
+        if (el) el.textContent = this.value.trim() || propers?.subtitle || "Missa Cantata";
+      });
+
+      document.addEventListener("click", (e) => {
+        const wrap = document.getElementById("exportWrap");
+        if (wrap && !wrap.contains(e.target)) wrap.classList.remove("open");
+      });
+
+      function epToggle(btn) {
+        const active = btn
+          .closest(".ep-toggles")
+          .querySelectorAll(".ep-btn.active");
+        if (btn.classList.contains("active") && active.length === 1) return;
+        btn.classList.toggle("active");
+      }
+
+      function _epGet(groupId) {
+        return [
+          ...document.querySelectorAll("#" + groupId + " .ep-btn.active"),
+        ].map((b) => b.dataset.val);
+      }
+
+      function _jsonToB64(data) {
+        return btoa(String.fromCharCode(...new TextEncoder().encode(JSON.stringify(data))));
+      }
+
+      async function _doLocalGenerate(fmt) {
+        if (!propers) return;
+        const btn = document.getElementById("exportBtn");
+        btn.disabled = true;
+        const prev = btn.textContent;
+        btn.textContent = fmt === "pdf" ? "Compiling…" : "Generating…";
+        try {
+          const exportData = _buildExportJson();
+          if (!exportData) throw new Error("No mass loaded.");
+          const b64 = _jsonToB64(exportData);
+          const docs = _epGet("epDoc");
+          const layouts = _epGet("epLayout");
+          const resp = await fetch(`/generate/${fmt}`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              mass_type: currentMt || "tempora",
+              path_name: currentPn || "mass",
+              propers_json: b64,
+              document: docs.length === 2 ? "both" : docs[0],
+              layout: layouts.length === 2 ? "both" : layouts[0] || "regular",
+            }),
+          });
+          if (!resp.ok) {
+            const e = await resp.json().catch(() => ({}));
+            throw new Error(e.error || `Server ${resp.status}`);
+          }
+          const a = Object.assign(document.createElement("a"), {
+            href: URL.createObjectURL(await resp.blob()),
+            download: `${currentPn}.${fmt === "pdf" ? "pdf" : "zip"}`,
+          });
+          a.click();
+          URL.revokeObjectURL(a.href);
+        } catch (e) {
+          alert(e.message);
+        } finally {
+          btn.disabled = false;
+          btn.textContent = prev;
+        }
+      }
+
+      function doLocal(fmt) {
+        document.getElementById("exportWrap").classList.remove("open");
+        _doLocalGenerate(fmt);
+      }
+
+      function doExportCustom() {
+        document.getElementById("exportWrap").classList.remove("open");
+        const docs = _epGet("epDoc");
+        const layouts = _epGet("epLayout");
+        const layout = layouts.length === 2 ? "both" : layouts[0] || "regular";
+        if (!docs.length) return;
+        doExport({ docs, layout });
+      }
+
+      function _buildExportJson() {
+        if (!propers || !ordinary) return null;
+        const { lang, ordNum, credNum } = getSettings();
+        function _resolveItem(item) {
+          if (item.type === "rubric") {
+            const text = (item._el ? item._el.textContent : (item.text || "")).trim();
+            if (!text) return null;
+            return { type: "rubric", targets: item.targets, text };
+          } else if (item.type === "music") {
+            if (item.gabc) {
+              const liveGabc = item._getGabc ? item._getGabc() : item.gabc;
+              const ei = { type: "music", gabc: liveGabc, targets: item.targets };
+              const latin = _latinFromGabc(liveGabc);
+              if (latin) ei.latin = latin;
+              const liveMode = item._getMode ? item._getMode() : (item.mode ?? null);
+              if (liveMode) ei.mode = String(liveMode);
+              const t =
+                (lang && item.availableTranslations && item.availableTranslations[lang]) ||
+                item.translation || null;
+              if (t) ei.translation = t;
+              return ei;
+            } else if (item.ordinary) {
+              const choiceKey = item._ordChoice;
+              if (!choiceKey) return null;
+              const variants = (ordinary[item.ordinary] || {})[String(choiceKey)] || [];
+              if (!variants.length) return null;
+              const varIdx = item._varChoice ?? 0;
+              const v = variants[varIdx] || variants[0];
+              const ei = { type: "music", gabc: v.gabc, targets: item.targets };
+              if (v.mode) ei.mode = v.mode;
+              const t = item.translation || null;
+              if (t) ei.translation = t;
+              return ei;
+            }
+          } else if (item.type === "text") {
+            if (item.ordinary) {
+              // Resp slot: expand to individual text/rubric items from ordinary.json *-resp
+              const choiceKey = item.ordinary === "asperges" ? (_aspergesChoice || "")
+                : item.ordinary === "antiphona-mariana" ? (_marianChoice || "")
+                : "";
+              if (!choiceKey) return null;
+              const responses = (ordinary[item.ordinary + "-resp"] || {})[choiceKey] || [];
+              if (!responses.length) return null;
+              const expanded = [];
+              for (const resp of responses) {
+                if (resp.type === "rubric") {
+                  if (resp.text) expanded.push({ type: "rubric", text: resp.text, targets: item.targets });
+                } else if (resp.type === "text") {
+                  const t = lang ? (resp.availableTranslations || {})[lang] || "" : "";
+                  const ei = { type: "text", latin: resp.latin || "", targets: item.targets };
+                  if (t) ei.translation = t;
+                  expanded.push(ei);
+                }
+              }
+              return expanded.length ? expanded : null;
+            }
+            const srcHtml = item._el
+              ? item._el.innerHTML
+              : _renderTex(item.tex || item.latin || "");
+            const ei = { type: "text", latin: _htmlToTex(srcHtml), targets: item.targets };
+            const t =
+              (lang && item.availableTranslations && item.availableTranslations[lang]) ||
+              item.translation || null;
+            if (t) ei.translation = t;
+            return ei;
+          }
+          return null;
+        }
+
+        // Segment flat ordo by title items, skipping sections with no resolved music
+        const exportOrdo = [];
+        const flatOrdo = propers.ordo || [];
+        let segTitle = null;
+        let segItems = [];
+
+        function flushSeg() {
+          if (!segItems.length) { segTitle = null; return; }
+          const hasOrdinarySlots = segItems.some(
+            (i) => i.type === "music" && !i.gabc && i.ordinary,
+          );
+          const resolvedMusic = segItems.filter((i) => i.type === "music").length;
+          if (!hasOrdinarySlots || resolvedMusic) {
+            if (segTitle) exportOrdo.push(segTitle);
+            exportOrdo.push(...segItems);
+          }
+          segTitle = null;
+          segItems = [];
+        }
+
+        for (const item of flatOrdo) {
+          if (item.type === "title") {
+            flushSeg();
+            segTitle = { type: "title", text: item.text, targets: item.targets };
+          } else {
+            const ei = _resolveItem(item);
+            if (ei) { if (Array.isArray(ei)) segItems.push(...ei); else segItems.push(ei); }
+          }
+        }
+        flushSeg();
+
+        const _babelMap = {
+          English: "british", Francais: "french", Espanol: "spanish",
+          Italiano: "italian", Deutsch: "ngerman", Polski: "polish",
+          Portugues: "portuges", Nederlands: "dutch", Magyar: "magyar",
+          Ukrainian: "ukrainian",
+        };
+        return {
+          feast: document.getElementById("epFeast")?.value.trim() || propers.feast || "",
+          subtitle: document.getElementById("epSubtitle")?.value.trim() || propers.subtitle || "Missa Cantata",
+          lang_babel: lang ? (_babelMap[lang] || "") : "",
+          ordo: exportOrdo,
+        };
+      }
+
+      async function doExport({ docs, layout }) {
+        if (!propers) return;
+        const btn = document.getElementById("exportBtn");
+        btn.disabled = true;
+        const prev = btn.textContent;
+        btn.textContent = "Working…";
+
+        try {
+          if (!BOOKLET_WORKER_URL)
+            throw new Error(
+              "BOOKLET_WORKER_URL not set — deploy the Cloudflare Worker first.",
+            );
+          const exportData = _buildExportJson();
+          if (!exportData) throw new Error("No mass loaded.");
+          const b64 = _jsonToB64(exportData);
+          btn.textContent = "Dispatching…";
+          const dispatch = await fetch(`${BOOKLET_WORKER_URL}/booklet/build`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              mass_type: currentMt || "tempora",
+              path_name: currentPn || "mass",
+              propers_json: b64,
+              document: docs.length === 2 ? "both" : docs[0],
+              layout,
+            }),
+          });
+          if (!dispatch.ok) {
+            const e = await dispatch.json().catch(() => ({}));
+            throw new Error(e.error || `Worker ${dispatch.status}`);
+          }
+          const { run_id } = await dispatch.json();
+          btn.textContent = "Building…";
+          let status = "queued";
+          for (
+            let i = 0;
+            i < 75 && (status === "queued" || status === "in_progress");
+            i++
+          ) {
+            await new Promise((r) => setTimeout(r, 8000));
+            const st = await fetch(
+              `${BOOKLET_WORKER_URL}/booklet/status/${run_id}`,
+            );
+            if (st.ok) ({ status } = await st.json());
+          }
+          if (status !== "completed") throw new Error(`Build ${status}`);
+          btn.textContent = "Downloading…";
+          const dl = await fetch(
+            `${BOOKLET_WORKER_URL}/booklet/download/${run_id}`,
+          );
+          if (!dl.ok) throw new Error("Download failed");
+          const a = Object.assign(document.createElement("a"), {
+            href: URL.createObjectURL(await dl.blob()),
+            download: `${currentMt}-${currentPn}.zip`,
+          });
+          a.click();
+          URL.revokeObjectURL(a.href);
+        } catch (e) {
+          alert(e.message);
+        } finally {
+          btn.disabled = false;
+          btn.textContent = prev;
+        }
+      }
+
+      // ── Init ──────────────────────────────────────────────────────────────────────
+
+      loadIndex().catch((err) => {
+        document.getElementById("main").innerHTML =
+          '<p class="hint" style="color:#c44">Error: ' +
+          esc(String(err)) +
+          "</p>";
+      });
+
+      // Re-render chant SVGs when the viewport width changes
+      let _reRenderTimer = null;
+      let _lastInnerW = window.innerWidth;
+      window.addEventListener("resize", () => {
+        if (window.innerWidth === _lastInnerW) return;
+        _lastInnerW = window.innerWidth;
+        clearTimeout(_reRenderTimer);
+        _reRenderTimer = setTimeout(() => {
+          document.querySelectorAll("#main .chant-gabc[data-gabc]").forEach((el) => {
+            renderGabc(
+              el.dataset.gabc,
+              el,
+              el.dataset.dropCap !== "0",
+              el.dataset.mode || null,
+            );
+          });
+        }, 200);
+      });
     </script>
+
+    <!-- About modal -->
+    <div id="aboutModal" class="about-modal" hidden onclick="if(event.target===this)toggleAbout()">
+      <div class="about-box">
+        <button class="about-close" onclick="toggleAbout()">×</button>
+        <h2>About</h2>
+        <p>A browser-based iteration of <a href="https://github.com/St-Josephs-Gateshead/Masses" target="_blank" rel="noopener">a manual pipeline</a>.</p>
+        <p>Builds a mass booklet for the Extraordinary Form (1962 Missal). Select a mass from the calendar, configure the ordinary settings, and export.</p>
+        <h3>Using the editor</h3>
+        <dl>
+          <dt>Choose a mass</dt>
+          <dd>Pick <em>Tempora</em> or <em>Sancti</em>, then select a mass. The ordo loads automatically with propers, ordinary, and chants pre-filled.</dd>
+          <dt>Ordinary &amp; creed</dt>
+          <dd>Use the dropdowns to select a chant setting for the ordinary and creed. Language can be changed independently.</dd>
+          <dt>Add / reorder items</dt>
+          <dd>Click a <strong>+</strong> zone to insert a rubric, text, chant, section title, or ordinary block. Drag the <strong>⠿</strong> grip to reorder.</dd>
+          <dt>Search for chants</dt>
+          <dd>In the Add form, switch to <em>Search</em> and type a GregoBase ID, URL, or opening words.</dd>
+          <dt>Edit GABC</dt>
+          <dd>Click the pencil button on any chant to edit the GABC notation directly.</dd>
+          <dt>Missalette / Pew Sheet</dt>
+          <dd>Each item has <strong>M</strong> and <strong>P</strong> buttons to control which document it appears in.</dd>
+          <dt>Print</dt>
+          <dd>Opens the browser print dialog. Chants are re-rendered at A5 column width before printing.</dd>
+          <dt>Download PDF</dt>
+          <dd>Sends the mass to a cloud builder (LuaLaTeX) and downloads the result.</dd>
+          <dt>Undo / Redo</dt>
+          <dd>Ctrl+Z / Ctrl+Y undo and redo item deletions.</dd>
+        </dl>
+        <h3>Sources</h3>
+        <dl>
+          <dt>Chant notation</dt>
+          <dd>GABC files from <a href="https://gregobase.selapa.net/" target="_blank" rel="noopener">GregoBase</a>.</dd>
+          <dt>Latin texts &amp; translations</dt>
+          <dd>From the <a href="http://divinumofficium.com" target="_blank" rel="noopener">Divinum Officium</a> project.</dd>
+        </dl>
+        <h3>Limitations</h3>
+        <dl>
+          <dt>No persistent storage</dt>
+          <dd>Edits are lost when you close the tab. Export before leaving.</dd>
+          <dt>Snapshot data</dt>
+          <dd>DO and GregoBase data is periodically regenerated, not live.</dd>
+          <dt>Chant matching</dt>
+          <dd>Chant notation is automatically matched to DO text. Masses in PDF releases have been verified, but other masses may have errors.</dd>
+        </dl>
+        <h3>Build</h3>
+        <dl>
+          <dt>Pipeline</dt>
+          <dd id="about-version">—</dd>
+          <dt>Divinum Officium data</dt>
+          <dd id="about-do-date">—</dd>
+          <dt>GregoBase data</dt>
+          <dd id="about-gregobase-date">—</dd>
+        </dl>
+      </div>
+    </div>
   </body>
 </html>
