@@ -527,15 +527,7 @@ def build_ordo_blocks(mt: str, pn: str, languages: list[str] | None = None) -> d
                 ):
                     grad_items.append(m)
             if grad_items:
-                if has_tr and not has_grad:
-                    gtitle = "Tractus"
-                elif has_al and not has_grad:
-                    gtitle = "Alleluia"
-                elif has_grad and has_al:
-                    gtitle = "Graduale & Alleluia"
-                else:
-                    gtitle = "Graduale"
-                ordo.extend(_mb_items(gtitle, grad_items, "after_chanting_lesson"))
+                ordo.extend(_mb_items("Graduale", grad_items, "after_chanting_lesson"))
 
         if seq_gabc := data.get("SequentiaGabc"):
             ordo.extend(
