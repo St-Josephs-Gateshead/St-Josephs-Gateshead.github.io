@@ -12,6 +12,19 @@
  *   GET  /gabc/:id        → { gabc: [...] }  GABC blocks for a GregoBase chant (CORS proxy)
  */
 
+const CORS_HEADERS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type",
+};
+
+function jsonResp(data, status = 200) {
+  return new Response(JSON.stringify(data), {
+    status,
+    headers: { "Content-Type": "application/json", ...CORS_HEADERS },
+  });
+}
+
 const REPO_OWNER = "St-Josephs-Gateshead";
 const REPO_NAME  = "St-Josephs-Gateshead.github.io";
 const WORKFLOW_FILE = "build-booklet.yml";
@@ -80,14 +93,16 @@ async function getArtifact(pat, runId) {
   return artifacts.find(a => a.name.startsWith("export-")) || null;
 }
 
-async function downloadArtifact(pat, artifactId) {
-  // GitHub redirects artifact download — follow the redirect
+async function getArtifactDownloadUrl(pat, artifactId) {
+  // GitHub returns a 302 redirect to a signed S3 URL — capture it without following
   const resp = await fetch(
     GH(`/actions/artifacts/${artifactId}/zip`),
-    { headers: ghHeaders(pat), redirect: "follow" }
+    { headers: ghHeaders(pat), redirect: "manual" }
   );
-  if (!resp.ok) return null;
-  return resp;
+  // 302 → Location header has the signed S3 URL; 2xx means no redirect (unlikely)
+  if (resp.status === 302 || resp.status === 301) return resp.headers.get("Location");
+  if (resp.ok) return resp.url;
+  return null;
 }
 
 // --- KV store for run_id lookup (Cloudflare KV binding named RUNS) ---
@@ -97,9 +112,7 @@ async function handleBuild(request, env) {
   const { mass_type, path_name, propers_json, document = 'missalette', layout = 'regular' } = body;
 
   if (!mass_type || !path_name || !propers_json) {
-    return new Response(JSON.stringify({ error: "Missing required fields" }), {
-      status: 400, headers: { "Content-Type": "application/json" }
-    });
+    return jsonResp({ error: "Missing required fields" }, 400);
   }
 
   const createdAfter = Date.now() - 3000; // 3 s leeway for clock skew
@@ -109,9 +122,7 @@ async function handleBuild(request, env) {
 
   const runId = await findRunId(env.GITHUB_PAT, null, createdAfter);
   if (!runId) {
-    return new Response(JSON.stringify({ error: "Could not find dispatched run after 30s" }), {
-      status: 503, headers: { "Content-Type": "application/json" }
-    });
+    return jsonResp({ error: "Could not find dispatched run after 30s" }, 503);
   }
 
   // Cache run_id keyed by mass_type + path_name for convenience (24 h TTL)
@@ -120,39 +131,32 @@ async function handleBuild(request, env) {
   }
 
   const artifactName = `export-${mass_type}-${path_name}`;
-  return new Response(JSON.stringify({ run_id: runId, artifact_name: artifactName }), {
-    status: 200, headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" }
-  });
+  return jsonResp({ run_id: runId, artifact_name: artifactName });
 }
 
 async function handleStatus(runId, env) {
   const status = await getRunStatus(env.GITHUB_PAT, runId);
-  return new Response(JSON.stringify({ status }), {
-    headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" }
-  });
+  return jsonResp({ status });
 }
 
 async function handleDownload(runId, env) {
   const artifact = await getArtifact(env.GITHUB_PAT, runId);
   if (!artifact) {
-    return new Response(JSON.stringify({ error: "Artifact not found" }), {
-      status: 404, headers: { "Content-Type": "application/json" }
-    });
+    return jsonResp({ error: "Artifact not found" }, 404);
   }
 
-  // Artifacts are ZIP files; we stream the zip, browser handles it
-  const resp = await downloadArtifact(env.GITHUB_PAT, artifact.id);
-  if (!resp) {
-    return new Response(JSON.stringify({ error: "Download failed" }), {
-      status: 502, headers: { "Content-Type": "application/json" }
-    });
+  // Get the signed S3 URL and redirect the browser directly — avoids streaming
+  // large ZIPs through the Worker
+  const downloadUrl = await getArtifactDownloadUrl(env.GITHUB_PAT, artifact.id);
+  if (!downloadUrl) {
+    return jsonResp({ error: "Download failed" }, 502);
   }
 
-  return new Response(resp.body, {
+  return new Response(null, {
+    status: 302,
     headers: {
-      "Content-Type": "application/zip",
-      "Content-Disposition": `attachment; filename="${artifact.name}.zip"`,
-      "Access-Control-Allow-Origin": "*",
+      "Location": downloadUrl,
+      ...CORS_HEADERS,
     }
   });
 }
@@ -195,50 +199,44 @@ async function handleGabc(chantId) {
     blocks.push(...parsed);
   }
   if (!blocks.length) {
-    return new Response(JSON.stringify({ error: "Not found" }), {
-      status: 404, headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" }
-    });
+    return jsonResp({ error: "Not found" }, 404);
   }
-  return new Response(JSON.stringify({ gabc: blocks }), {
-    headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" }
-  });
+  return jsonResp({ gabc: blocks });
 }
 
 export default {
   async fetch(request, env) {
-    const url = new URL(request.url);
-    const path = url.pathname;
-
     // CORS preflight
     if (request.method === "OPTIONS") {
-      return new Response(null, {
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-          "Access-Control-Allow-Headers": "Content-Type",
-        }
-      });
+      return new Response(null, { status: 204, headers: CORS_HEADERS });
     }
 
-    if (request.method === "POST" && path === "/booklet/build") {
-      return handleBuild(request, env);
-    }
+    try {
+      const url = new URL(request.url);
+      const path = url.pathname;
 
-    const statusMatch = path.match(/^\/booklet\/status\/(\d+)$/);
-    if (statusMatch && request.method === "GET") {
-      return handleStatus(statusMatch[1], env);
-    }
+      if (request.method === "POST" && path === "/booklet/build") {
+        return await handleBuild(request, env);
+      }
 
-    const downloadMatch = path.match(/^\/booklet\/download\/(\d+)$/);
-    if (downloadMatch && request.method === "GET") {
-      return handleDownload(downloadMatch[1], env);
-    }
+      const statusMatch = path.match(/^\/booklet\/status\/(\d+)$/);
+      if (statusMatch && request.method === "GET") {
+        return await handleStatus(statusMatch[1], env);
+      }
 
-    const gabcMatch = path.match(/^\/gabc\/(\d+)$/);
-    if (gabcMatch && request.method === "GET") {
-      return handleGabc(gabcMatch[1]);
-    }
+      const downloadMatch = path.match(/^\/booklet\/download\/(\d+)$/);
+      if (downloadMatch && request.method === "GET") {
+        return await handleDownload(downloadMatch[1], env);
+      }
 
-    return new Response("Not found", { status: 404 });
+      const gabcMatch = path.match(/^\/gabc\/(\d+)$/);
+      if (gabcMatch && request.method === "GET") {
+        return await handleGabc(gabcMatch[1]);
+      }
+
+      return jsonResp({ error: "Not found" }, 404);
+    } catch (err) {
+      return jsonResp({ error: String(err) }, 500);
+    }
   }
 };
