@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Missalette</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="stylesheet"
@@ -756,6 +757,7 @@
       .print-only { display: none; }
 
       /* ── Print ── */
+      @page { size: A5; margin: 12mm; }
       @media print {
         header,
         .no-print {
@@ -2108,8 +2110,8 @@
           const el = document.createElement("div");
           el.className = "prelude-rubric";
           el.contentEditable = "true";
-          const resolvedRubric = item.key && lang
-            ? (rubricStrings?.[lang]?.[item.key] || "")
+          const resolvedRubric = item.key
+            ? (rubricStrings?.[lang || "Latin"]?.[item.key] || "")
             : "";
           el.textContent = item._dirty ? (item.text || "") : (resolvedRubric || item.text || "");
           el.addEventListener("input", () => { item._dirty = true; item.text = el.textContent; });
@@ -2897,7 +2899,7 @@
             // .chant-trans uses has-content for print visibility; .text-tr uses has-lang on parent
             if (item.type === "music") item._trEl.classList.toggle("has-content", !!newTr);
           } else if (item.type === "rubric" && item._el && !item._dirty) {
-            const resolved = item.key && lang ? (rubricStrings?.[lang]?.[item.key] || "") : "";
+            const resolved = item.key ? (rubricStrings?.[lang || "Latin"]?.[item.key] || "") : "";
             item._el.textContent = resolved || item.text || "";
           }
           if (item.type === "text" && item.ordinary) item._rerender?.();
