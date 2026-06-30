@@ -372,10 +372,11 @@ def build_chant_index(
     print(f"Building chant index from {src_path} ...")
     with open(src_path, encoding="utf-8") as f:
         chants = json.load(f)
-    index = [
-        {k: v for k, v in entry.items() if k not in ("gabc", "tex_verses")}
-        for entry in chants
-    ]
+    index = []
+    for entry in chants:
+        item = {k: v for k, v in entry.items() if k not in ("gabc", "tex_verses")}
+        item.setdefault("lyrics", "")
+        index.append(item)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False)
     print(f"Written {len(index):,} entries to {out_path}")

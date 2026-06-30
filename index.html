@@ -2551,6 +2551,7 @@
           searchResults.innerHTML = "";
           updateAddBtn();
 
+          try {
           const index = await _loadChantIndex();
           const parsed = _parseChantQuery(q);
 
@@ -2566,13 +2567,14 @@
             } else { previewBox.style.display = ""; previewBox.innerHTML = '<div class="placeholder">No chant found for id ' + parsed.id + '.</div>'; }
           } else if (parsed?.type === "text") {
             _showResults(
-              index.filter(e => e.lyrics.includes(_normLyrics(parsed.q))).slice(0, 20)
+              index.filter(e => (e.lyrics || "").includes(_normLyrics(parsed.q))).slice(0, 20)
             );
           }
-
-          searchBtn.textContent = "Search";
-          searchBtn.disabled = false;
-          updateAddBtn();
+          } finally {
+            searchBtn.textContent = "Search";
+            searchBtn.disabled = false;
+            updateAddBtn();
+          }
         }
 
         searchBtn.addEventListener("click", _doSearch);
