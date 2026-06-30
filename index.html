@@ -83,6 +83,25 @@
       .releases-link:hover {
         color: #c9a227;
       }
+      .type-select {
+        display: none;
+        padding: 0.28em 0.5em;
+        background: #3d3224;
+        border: 1px solid #55493a;
+        border-radius: 3px;
+        color: #f8f6f0;
+        font-family: "Crimson Text", Georgia, serif;
+        font-size: 0.82em;
+        cursor: pointer;
+      }
+
+      #headerSentinel {
+        position: absolute;
+        top: 0;
+        width: 1px;
+        height: 1px;
+        pointer-events: none;
+      }
 
       .controls {
         background: rgba(0, 0, 0, 0.22);
@@ -149,6 +168,31 @@
         line-height: 1;
       }
       .btn-about:hover { color: #c9a227; }
+      .undo-redo-group {
+        display: inline-flex;
+        gap: 0.2em;
+      }
+      .undo-redo-group[hidden] {
+        display: none;
+      }
+      .btn-icon {
+        padding: 0.22em 0.5em;
+        background: #3d3224;
+        border: 1px solid #55493a;
+        border-radius: 3px;
+        color: #f8f6f0;
+        cursor: pointer;
+        font-size: 0.95em;
+        line-height: 1;
+      }
+      .btn-icon:hover:not(:disabled) {
+        border-color: #c9a227;
+        color: #c9a227;
+      }
+      .btn-icon:disabled {
+        opacity: 0.35;
+        cursor: not-allowed;
+      }
       .about-modal {
         position: fixed;
         inset: 0;
@@ -878,14 +922,6 @@
         }
       }
       @media (max-width: 360px) {
-        .tab-strip {
-          flex-direction: column;
-          align-items: stretch;
-          width: 100%;
-        }
-        .tab-btn {
-          text-align: center;
-        }
         .export-wrap.open .export-popover {
           grid-template-columns: 1fr;
           max-height: 80vh;
@@ -899,9 +935,28 @@
           text-align: center;
         }
       }
+
+      /* ── Mobile: tab-strip becomes a dropdown; header collapses to an
+         undo/redo bar once scrolled past ── */
+      @media (max-width: 640px) {
+        .tab-strip { display: none; }
+        .type-select { display: inline-block; }
+
+        header.collapsed .header-top,
+        header.collapsed .controls select,
+        header.collapsed #ruleBadges,
+        header.collapsed .export-wrap {
+          display: none;
+        }
+        header.collapsed .controls {
+          justify-content: center;
+          padding: 0.4em 1.4em;
+        }
+      }
     </style>
   </head>
   <body>
+    <div id="headerSentinel" aria-hidden="true"></div>
     <header>
       <div class="header-top">
         <h1>Missalette</h1>
@@ -910,7 +965,13 @@
           <button class="tab-btn" data-type="sancti">Sancti</button>
           <button class="tab-btn" data-type="commune">Commune</button>
         </div>
+        <select class="type-select" id="typeSelect">
+          <option value="tempora">Tempora</option>
+          <option value="sancti">Sancti</option>
+          <option value="commune">Commune</option>
+        </select>
         <a href="releases.html" class="releases-link no-print">PDF releases</a>
+        <button class="btn-about no-print" onclick="toggleAbout()" title="About">ⓘ</button>
       </div>
       <div class="controls">
         <select id="massSelect">
@@ -961,7 +1022,10 @@
           <option value="4">Credo IV</option>
         </select>
         <span id="ruleBadges" class="no-print"></span>
-        <button class="btn-about no-print" onclick="toggleAbout()" title="About">ⓘ</button>
+        <div class="undo-redo-group no-print" id="undoRedoGroup" hidden>
+          <button class="btn-icon" id="undoBtn" title="Undo (Ctrl+Z)" disabled>&#8630;</button>
+          <button class="btn-icon" id="redoBtn" title="Redo (Ctrl+Y)" disabled>&#8631;</button>
+        </div>
         <div class="export-wrap no-print" id="exportWrap">
           <button
             class="btn-export"
@@ -1690,6 +1754,7 @@
 
       function populateDropdown(mt) {
         currentMt = mt;
+        document.getElementById("typeSelect").value = mt;
         const sel = document.getElementById("massSelect");
         sel.innerHTML =
           mt === "commune"
@@ -2282,6 +2347,7 @@
       function _pushUndo(undoFn, redoFn) {
         _undo.push({ undo: undoFn, redo: redoFn });
         _redo.length = 0;
+        _updateUndoRedoBtns();
       }
 
       function mkDeleteObjBtn(item, wrap, ordo) {
@@ -2884,6 +2950,16 @@
         });
       });
 
+      document.getElementById("typeSelect").addEventListener("change", (e) => {
+        document
+          .querySelectorAll(".tab-btn")
+          .forEach((b) => b.classList.toggle("active", b.dataset.type === e.target.value));
+        currentPn = null;
+        populateDropdown(e.target.value);
+        _syncUrl();
+        _updateControlStates();
+      });
+
       document.getElementById("massSelect").addEventListener("change", (e) => {
         if (e.target.value) loadMass(currentMt, e.target.value);
       });
@@ -2944,6 +3020,27 @@
 
       // ── Undo / Redo ──────────────────────────────────────────────────────────────
 
+      function _updateUndoRedoBtns() {
+        if (_undo.length > 0 || _redo.length > 0) {
+          document.getElementById("undoRedoGroup").hidden = false;
+        }
+        document.getElementById("undoBtn").disabled = _undo.length === 0;
+        document.getElementById("redoBtn").disabled = _redo.length === 0;
+      }
+
+      function _doUndo() {
+        const op = _undo.pop();
+        if (op) { _redo.push(op); op.undo(); _updateUndoRedoBtns(); }
+      }
+
+      function _doRedo() {
+        const op = _redo.pop();
+        if (op) { _undo.push(op); op.redo(); _updateUndoRedoBtns(); }
+      }
+
+      document.getElementById("undoBtn").addEventListener("click", _doUndo);
+      document.getElementById("redoBtn").addEventListener("click", _doRedo);
+
       document.addEventListener("keydown", (e) => {
         const mod = e.ctrlKey || e.metaKey;
         if (!mod) return;
@@ -2955,13 +3052,22 @@
           e.preventDefault();
           _renderReady.then(() => _rerenderChants(_A5_PRINT_W)).then(() => window.print());
         } else if (!e.shiftKey && e.key.toLowerCase() === "z") {
-          const op = _undo.pop();
-          if (op) { _redo.push(op); op.undo(); e.preventDefault(); }
+          _doUndo();
+          e.preventDefault();
         } else if (e.key.toLowerCase() === "y" || (e.shiftKey && e.key.toLowerCase() === "z")) {
-          const op = _redo.pop();
-          if (op) { _undo.push(op); op.redo(); e.preventDefault(); }
+          _doRedo();
+          e.preventDefault();
         }
       });
+
+      // ── Sticky header collapse (mobile) ──
+      // Below the 640px breakpoint, once the page scrolls past the header's
+      // natural position, the header collapses to a slim undo/redo bar so the
+      // dropdown-heavy header doesn't permanently eat screen space.
+      new IntersectionObserver(
+        ([entry]) => document.querySelector("header").classList.toggle("collapsed", !entry.isIntersecting),
+        { threshold: 0 },
+      ).observe(document.getElementById("headerSentinel"));
 
       // ── Export / Build PDF ────────────────────────────────────────────────────────
 
@@ -3327,7 +3433,7 @@
           <dt>Download PDF</dt>
           <dd>Sends the mass to a cloud builder (LuaLaTeX) and downloads the result.</dd>
           <dt>Undo / Redo</dt>
-          <dd>Ctrl+Z / Ctrl+Y undo and redo item deletions.</dd>
+          <dd>The ↶ / ↷ buttons (or Ctrl+Z / Ctrl+Y) undo and redo item deletions.</dd>
         </dl>
         <h3>Sources</h3>
         <dl>
