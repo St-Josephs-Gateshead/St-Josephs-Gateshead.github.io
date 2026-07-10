@@ -1562,18 +1562,14 @@
         );
       }
 
-      function _todayTempora() {
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
-        const year = today.getFullYear(),
-          dow = today.getDay();
+      function _temporaPeriodForSunday(ts) {
+        const year = ts.getFullYear();
         function D(d, n) {
           return new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
         }
         function sun(d) {
           return D(d, -d.getDay());
         }
-        const ts = sun(today);
         const eq = (a, b) => a.getTime() === b.getTime();
 
         function periodsFor(yr) {
@@ -1627,9 +1623,22 @@
           ...periodsFor(year - 1),
           ...epiFor(year),
         ]) {
-          if (eq(ts, s)) return name + "-" + dow;
+          if (eq(ts, s)) return name;
         }
         return null;
+      }
+
+      function _todayTempora() {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const dow = today.getDay();
+        const ts = new Date(
+          today.getFullYear(),
+          today.getMonth(),
+          today.getDate() - dow,
+        );
+        const name = _temporaPeriodForSunday(ts);
+        return name ? name + "-" + dow : null;
       }
 
       function _lastSundayOfMonth(year, month0) {
@@ -1799,9 +1808,24 @@
               (todayMoveablePn && m.path_name === todayMoveablePn),
           );
           if (idx < 0 && mt === "tempora") {
-            // Fall back to Sunday of the same week
-            const sun = todayPn.replace(/-\d+$/, "-0");
-            idx = list.findIndex((m) => m.path_name.startsWith(sun));
+            // No Mass for today's exact weekday — fall back to the
+            // nearest upcoming entry (a weekday feast/feria if one falls
+            // before the next Sunday, otherwise that Sunday), not one
+            // already past.
+            const today0 = new Date();
+            today0.setHours(0, 0, 0, 0);
+            let bestDate = null;
+            list.forEach((m, i) => {
+              const d = _temporaDate(m.path_name);
+              if (
+                d &&
+                d.getTime() >= today0.getTime() &&
+                (!bestDate || d.getTime() < bestDate.getTime())
+              ) {
+                bestDate = d;
+                idx = i;
+              }
+            });
           }
           if (idx < 0 && mt === "sancti") {
             // No feast today — rotate to the first entry on or after today
@@ -1814,11 +1838,15 @@
         for (const m of list) {
           const opt = document.createElement("option");
           opt.value = m.path_name;
-          // Star all entries on the same calendar date (MM-DD prefix), ignoring
-          // variant suffixes (m2, bmv, oct, etc.), plus the moveable 10-DU feast.
+          // Star all entries on the same calendar date. For sancti, compare
+          // the MM-DD prefix (ignoring variant suffixes), plus the moveable
+          // 10-DU feast. For tempora, use startsWith like the rotation match
+          // above, since path prefixes vary in length (Pent02-5, Quad6-4m1).
           const isToday =
-            (todayPn && m.path_name.slice(0, 5) === todayPn) ||
-            (todayMoveablePn && m.path_name === todayMoveablePn);
+            mt === "sancti"
+              ? (todayPn && m.path_name.slice(0, 5) === todayPn) ||
+                (todayMoveablePn && m.path_name === todayMoveablePn)
+              : todayPn && m.path_name.startsWith(todayPn);
           const label =
             mt === "sancti" && /^\d{2}-\d{2}/.test(m.path_name)
               ? m.path_name.slice(0, 5) + (m.name ? " — " + m.name : "")
