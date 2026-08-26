@@ -20,6 +20,10 @@ on:
         description: 'PDF layout (booklet / regular / both)'
         required: false
         default: 'regular'
+      format:
+        description: 'Output format (pdf / tex)'
+        required: false
+        default: 'pdf'
       request_id:
         description: 'Unique request ID (used by caller to find this run)'
         required: false
@@ -52,7 +56,7 @@ jobs:
         run: python generate.py ${{ inputs.mass_type }} ${{ inputs.path_name }}
 
       - name: Compile missalette
-        if: contains(inputs.document, 'missalette') || inputs.document == 'both'
+        if: (contains(inputs.document, 'missalette') || inputs.document == 'both') && inputs.format != 'tex'
         working-directory: missale/output/${{ inputs.mass_type }}/${{ inputs.path_name }}
         run: |
           for i in $(seq 1 5); do
@@ -61,7 +65,7 @@ jobs:
           done
 
       - name: Compile pew sheet
-        if: inputs.document == 'pew' || inputs.document == 'both'
+        if: (inputs.document == 'pew' || inputs.document == 'both') && inputs.format != 'tex'
         working-directory: missale/output/${{ inputs.mass_type }}/${{ inputs.path_name }}
         run: |
           for i in $(seq 1 5); do
@@ -70,7 +74,7 @@ jobs:
           done
 
       - name: Impose booklet (missalette, 2-up landscape + duplex hint)
-        if: (inputs.layout == 'booklet' || inputs.layout == 'both') && (inputs.document == 'missalette' || inputs.document == 'both')
+        if: (inputs.layout == 'booklet' || inputs.layout == 'both') && (inputs.document == 'missalette' || inputs.document == 'both') && inputs.format != 'tex'
         working-directory: missale/output/${{ inputs.mass_type }}/${{ inputs.path_name }}
         run: |
           pdfjam --landscape --suffix booklet --booklet true missalette.pdf
@@ -78,19 +82,26 @@ jobs:
              -sOutputFile=missalette-booklet-d.pdf missalette-booklet.pdf
           mv missalette-booklet-d.pdf missalette-booklet.pdf
 
-      - name: Stage output PDFs
+      - name: Stage output files
         working-directory: missale/output/${{ inputs.mass_type }}/${{ inputs.path_name }}
         run: |
           mkdir -p export
           doc="${{ inputs.document }}"
           layout="${{ inputs.layout }}"
-          if [[ "$doc" == "missalette" || "$doc" == "both" ]]; then
-            [[ "$layout" == "regular" || "$layout" == "both" ]] && cp missalette.pdf export/missalette.pdf
-            [[ "$layout" == "booklet" || "$layout" == "both" ]] && cp missalette-booklet.pdf export/missalette-booklet.pdf
+          fmt="${{ inputs.format }}"
+          if [[ "$fmt" == "tex" ]]; then
+            if [[ "$doc" == "missalette" || "$doc" == "both" ]]; then cp missalette.tex export/; fi
+            if [[ "$doc" == "pew" || "$doc" == "both" ]]; then cp pew-sheet.tex export/; fi
+            cp *.sty export/ 2>/dev/null || true
+          else
+            if [[ "$doc" == "missalette" || "$doc" == "both" ]]; then
+              [[ "$layout" == "regular" || "$layout" == "both" ]] && cp missalette.pdf export/missalette.pdf
+              [[ "$layout" == "booklet" || "$layout" == "both" ]] && cp missalette-booklet.pdf export/missalette-booklet.pdf
+            fi
+            if [[ "$doc" == "pew" || "$doc" == "both" ]]; then cp pew-sheet.pdf export/; fi
           fi
-          if [[ "$doc" == "pew" || "$doc" == "both" ]]; then cp pew-sheet.pdf export/; fi
 
-      - name: Upload PDF artifact
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: export-${{ inputs.mass_type }}-${{ inputs.path_name }}

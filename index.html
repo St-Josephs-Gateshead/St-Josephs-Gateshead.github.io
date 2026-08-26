@@ -1060,6 +1060,7 @@
               </div>
             </div>
             <button class="ep-download" onclick="doExportCustom()">Download PDF</button>
+            <button class="ep-download" onclick="doExportTex()">Download TeX</button>
             <div id="epLocal" hidden>
               <div class="ep-section">Local</div>
               <div style="display:flex;gap:0.5em">
@@ -3235,6 +3236,13 @@
         doExport({ docs, layout });
       }
 
+      function doExportTex() {
+        document.getElementById("exportWrap").classList.remove("open");
+        const docs = _epGet("epDoc");
+        if (!docs.length) return;
+        doExport({ docs, layout: "regular", format: "tex" });
+      }
+
       function _buildExportJson() {
         if (!propers || !ordinary) return null;
         const { lang, ordNum, credNum } = getSettings();
@@ -3349,7 +3357,7 @@
         };
       }
 
-      async function doExport({ docs, layout }) {
+      async function doExport({ docs, layout, format = "pdf" }) {
         if (!propers) return;
         const btn = document.getElementById("exportBtn");
         btn.disabled = true;
@@ -3374,6 +3382,7 @@
               propers_json: b64,
               document: docs.length === 2 ? "both" : docs[0],
               layout,
+              format,
             }),
           });
           if (!dispatch.ok) {

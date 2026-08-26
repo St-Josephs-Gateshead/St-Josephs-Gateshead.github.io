@@ -5,7 +5,7 @@
  *   GITHUB_PAT  — fine-grained PAT with actions:write + contents:read on this repo
  *
  * Routes:
- *   POST /booklet/build   { mass_type, path_name, propers_json (base64), document?, layout? }
+ *   POST /booklet/build   { mass_type, path_name, propers_json (base64), document?, layout?, format? }
  *                         → { run_id, artifact_name }  (after dispatch + run found)
  *   GET  /booklet/status/:run_id   → { status: "queued"|"in_progress"|"completed"|"failed" }
  *   GET  /booklet/download/:run_id → PDF blob (proxied from GitHub artifact)
@@ -109,14 +109,14 @@ async function getArtifactDownloadUrl(pat, artifactId) {
 
 async function handleBuild(request, env) {
   const body = await request.json();
-  const { mass_type, path_name, propers_json, document = 'missalette', layout = 'regular' } = body;
+  const { mass_type, path_name, propers_json, document = 'missalette', layout = 'regular', format = 'pdf' } = body;
 
   if (!mass_type || !path_name || !propers_json) {
     return jsonResp({ error: "Missing required fields" }, 400);
   }
 
   const createdAfter = Date.now() - 3000; // 3 s leeway for clock skew
-  const inputs = { mass_type, path_name, propers_json, document, layout };
+  const inputs = { mass_type, path_name, propers_json, document, layout, format };
 
   await dispatch(env.GITHUB_PAT, inputs, createdAfter);
 
