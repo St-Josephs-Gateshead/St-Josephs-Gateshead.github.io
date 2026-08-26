@@ -864,7 +864,7 @@
           break-inside: avoid;
         }
         .chant-stave svg {
-          width: 100% !important;
+          max-width: 100% !important;
           height: auto !important;
         }
         .gabc-fallback {
@@ -3078,6 +3078,7 @@
             t.tagName === "TEXTAREA" || t.tagName === "SELECT") return;
         if (e.key === "p") {
           e.preventDefault();
+          _printing = true;
           _renderReady.then(() => _rerenderChants(_A5_PRINT_W)).then(() => window.print());
         } else if (!e.shiftKey && e.key.toLowerCase() === "z") {
           _doUndo();
@@ -3131,14 +3132,21 @@
         ));
       }
 
+      let _printing = false;
+
       function doPrint() {
         document.getElementById("exportWrap").classList.remove("open");
+        _printing = true;
         _renderReady
           .then(() => _rerenderChants(_A5_PRINT_W))
           .then(() => window.print());
       }
 
-      window.addEventListener("afterprint", () => _rerenderChants(null));
+      window.addEventListener("afterprint", () => {
+        _printing = false;
+        _lastInnerW = window.innerWidth;
+        _rerenderChants(null);
+      });
 
       document.getElementById("epFeast").addEventListener("input", function () {
         const el = document.querySelector(".print-feast");
@@ -3419,6 +3427,7 @@
       let _reRenderTimer = null;
       let _lastInnerW = window.innerWidth;
       window.addEventListener("resize", () => {
+        if (_printing) return;
         if (window.innerWidth === _lastInnerW) return;
         _lastInnerW = window.innerWidth;
         clearTimeout(_reRenderTimer);
