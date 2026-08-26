@@ -970,15 +970,15 @@
           <option value="sancti">Sancti</option>
           <option value="commune">Commune</option>
         </select>
-        <a href="releases.html" class="releases-link no-print">PDF releases</a>
+        <a href="releases.html" class="releases-link no-print" data-i18n="pdf_releases_link">Editiones PDF</a>
         <button class="btn-about no-print" onclick="toggleAbout()" title="About">ⓘ</button>
       </div>
       <div class="controls">
         <select id="massSelect">
-          <option value="">&#8212; Proprium &#8212;</option>
+          <option value="" data-i18n="proprium_label">&#8212; Proprium &#8212;</option>
         </select>
         <select id="langSelect">
-          <option value="">&#8212; Lingua &#8212;</option>
+          <option value="" data-i18n="lingua_label">&#8212; Lingua &#8212;</option>
           <option value="English">English</option>
           <option value="Francais">Fran&ccedil;ais</option>
           <option value="Espanol">Espa&ntilde;ol</option>
@@ -994,7 +994,7 @@
           <option value="Bohemice">Bohemice</option>
         </select>
         <select id="ordinarySelect">
-          <option value="">&#8212; Ordinarium &#8212;</option>
+          <option value="" data-i18n="ordinarium_label">&#8212; Ordinarium &#8212;</option>
           <option value="1">I &#8212; Lux et origo</option>
           <option value="2">II &#8212; Kyrie fons bonitatis</option>
           <option value="3">III &#8212; Kyrie Deus sempiterne</option>
@@ -1015,7 +1015,7 @@
           <option value="18">XVIII &#8212; Deus Genitor alme</option>
         </select>
         <select id="creedSelect">
-          <option value="">&#8212; Credo &#8212;</option>
+          <option value="" data-i18n="credo_label">&#8212; Credo &#8212;</option>
           <option value="1">Credo I</option>
           <option value="2">Credo II</option>
           <option value="3">Credo III</option>
@@ -1023,8 +1023,8 @@
         </select>
         <span id="ruleBadges" class="no-print"></span>
         <div class="undo-redo-group no-print" id="undoRedoGroup" hidden>
-          <button class="btn-icon" id="undoBtn" title="Undo (Ctrl+Z)" disabled>&#8630;</button>
-          <button class="btn-icon" id="redoBtn" title="Redo (Ctrl+Y)" disabled>&#8631;</button>
+          <button class="btn-icon" id="undoBtn" data-i18n-title="undo_title" title="Reverte (Ctrl+Z)" disabled>&#8630;</button>
+          <button class="btn-icon" id="redoBtn" data-i18n-title="redo_title" title="Itera (Ctrl+Y)" disabled>&#8631;</button>
         </div>
         <div class="export-wrap no-print" id="exportWrap">
           <button
@@ -1032,40 +1032,40 @@
             id="exportBtn"
             onclick="toggleExportPopover()"
           >
-            Export &#9660;
+            Exporta &#9660;
           </button>
           <div class="export-popover" id="exportPopover">
             <div class="ep-row">
-              <span class="ep-label">Feast</span>
-              <input id="epFeast" type="text" placeholder="Feast name" class="ep-input" />
+              <span class="ep-label" data-i18n="feast_label">Festum</span>
+              <input id="epFeast" type="text" data-i18n-placeholder="feast_placeholder" placeholder="Nomen festi" class="ep-input" />
             </div>
             <div class="ep-row">
-              <span class="ep-label">Subtitle</span>
+              <span class="ep-label" data-i18n="subtitle_label">Subtitulus</span>
               <input id="epSubtitle" type="text" placeholder="Missa Cantata" class="ep-input" />
             </div>
-            <button class="ep-download" onclick="doPrint()">Print</button>
-            <div class="ep-section">Build</div>
+            <button class="ep-download" onclick="doPrint()" data-i18n="print_btn">Imprime</button>
+            <div class="ep-section" data-i18n="build_section">Confectio</div>
             <div class="ep-row">
-              <span class="ep-label">Type</span>
+              <span class="ep-label" data-i18n="type_label">Genus</span>
               <div class="ep-toggles" id="epDoc">
-                <button class="ep-btn active" data-val="missalette" onclick="epToggle(this)">Missalette</button>
-                <button class="ep-btn" data-val="pew" onclick="epToggle(this)">Pew Sheet</button>
+                <button class="ep-btn active" data-val="missalette" onclick="epToggle(this)" data-i18n="missalette_btn">Cantuale</button>
+                <button class="ep-btn" data-val="pew" onclick="epToggle(this)" data-i18n="pew_btn">Textus</button>
               </div>
             </div>
             <div class="ep-row" id="epLayoutRow">
-              <span class="ep-label">Layout</span>
+              <span class="ep-label" data-i18n="layout_label">Dispositio</span>
               <div class="ep-toggles" id="epLayout">
-                <button class="ep-btn" data-val="booklet" onclick="epToggle(this)">Booklet</button>
-                <button class="ep-btn active" data-val="regular" onclick="epToggle(this)">Regular</button>
+                <button class="ep-btn" data-val="booklet" onclick="epToggle(this)" data-i18n="booklet_btn">Libellus</button>
+                <button class="ep-btn active" data-val="regular" onclick="epToggle(this)" data-i18n="regular_btn">Folia</button>
               </div>
             </div>
-            <button class="ep-download" onclick="doExportCustom()">Download PDF</button>
-            <button class="ep-download" onclick="doExportTex()">Download TeX</button>
+            <button class="ep-download" onclick="doExportCustom()" data-i18n="download_pdf_btn">Defer PDF</button>
+            <button class="ep-download" onclick="doExportTex()" data-i18n="download_tex_btn">Defer TeX</button>
             <div id="epLocal" hidden>
-              <div class="ep-section">Local</div>
+              <div class="ep-section" data-i18n="local_section">Localis</div>
               <div style="display:flex;gap:0.5em">
-                <button class="ep-download ep-local-btn" onclick="doLocal('tex')">TeX</button>
-                <button class="ep-download ep-local-btn" id="epLocalPdfBtn" disabled onclick="doLocal('pdf')">PDF</button>
+                <button class="ep-download ep-local-btn" onclick="doLocal('tex')" data-i18n="local_tex_btn">TeX</button>
+                <button class="ep-download ep-local-btn" id="epLocalPdfBtn" disabled onclick="doLocal('pdf')" data-i18n="local_pdf_btn">PDF</button>
               </div>
             </div>
           </div>
@@ -1104,6 +1104,33 @@
           .replace(/<sc>([^<]*)<\/sc>/g, "%$1%")
           .replace(/<[^>]+>/g, "")
           .replace(/\*(?!\()/g, "*()");
+      }
+
+      // ── UI chrome i18n ───────────────────────────────────────────────────────────
+      // Keyed the same way as rubricStrings: by the #langSelect option value, with
+      // "Latin" as both the literal fallback and the default when no language is
+      // chosen. See missale/templates/chrome_strings.json.
+
+      function _t(key) {
+        const lang = document.getElementById("langSelect")?.value || "Latin";
+        return chromeStrings?.[lang]?.[key] ?? chromeStrings?.["Latin"]?.[key] ?? key;
+      }
+
+      function _applyChromeLabels() {
+        if (!chromeStrings) return;
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          el.textContent = _t(el.dataset.i18n);
+        });
+        document.querySelectorAll("[data-i18n-title]").forEach((el) => {
+          el.title = _t(el.dataset.i18nTitle);
+        });
+        document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+          el.placeholder = _t(el.dataset.i18nPlaceholder);
+        });
+        // The export button's label is stateful (idle/working/ready/…), not static
+        // markup, so it re-renders itself for the current state rather than reading
+        // a data-i18n attribute.
+        if (typeof _setExportBtnState === "function") _setExportBtnState(_exportBtnState);
       }
 
       const _ROMAN_MODE = ['','I','II','III','IV','V','VI','VII','VIII'];
@@ -1322,6 +1349,7 @@
       let allMasses = {};
       let ordinary = null;
       let rubricStrings = null;
+      let chromeStrings = null;
       let propers = { feast: "", subtitle: "", ordo: [] };
       let currentMt = "tempora";
       let currentPn = null;
@@ -1433,16 +1461,19 @@
       }
 
       async function loadIndex() {
-        const [t, s, c, ord, rs] = await Promise.all([
+        const [t, s, c, ord, rs, cs] = await Promise.all([
           fetchText(BASE + "data/tempora.csv"),
           fetchText(BASE + "data/sancti.csv"),
           fetchText(BASE + "data/commune.csv").catch(() => ""),
           fetchJSON(BASE + "data/ordinary.json"),
           fetchJSON(BASE + "templates/rubric_strings.json").catch(() => null),
+          fetchJSON(BASE + "templates/chrome_strings.json").catch(() => null),
         ]);
         allMasses = { tempora: parseCSV(t), sancti: parseCSV(s), commune: parseCSV(c) };
         ordinary = ord;
         rubricStrings = rs;
+        chromeStrings = cs;
+        _applyChromeLabels();
 
         // QR hash routing — #FeastName-hyphenated or #FeastName-hyphenated_missalette(-booklet)?
         const rawHash = location.hash.slice(1);
@@ -2061,8 +2092,8 @@
       const _fmtBar = document.createElement("div");
       _fmtBar.id = "fmt-bar";
       _fmtBar.innerHTML =
-        '<button onmousedown="event.preventDefault();document.execCommand(\'bold\')" title="Bold [Ctrl+B]"><b>B</b></button>' +
-        '<button onmousedown="event.preventDefault();document.execCommand(\'italic\')" title="Italic [Ctrl+I]"><i>I</i></button>';
+        '<button onmousedown="event.preventDefault();document.execCommand(\'bold\')" data-i18n-title="bold_title" title="Pinguis [Ctrl+B]"><b>B</b></button>' +
+        '<button onmousedown="event.preventDefault();document.execCommand(\'italic\')" data-i18n-title="italic_title" title="Cursivus [Ctrl+I]"><i>I</i></button>';
       document.body.appendChild(_fmtBar);
 
       document.addEventListener("selectionchange", () => {
@@ -2995,6 +3026,7 @@
 
       document.getElementById("langSelect").addEventListener("change", () => {
         _syncUrl();
+        _applyChromeLabels();
         if (!propers) return;
         const { lang } = getSettings();
         document.getElementById("main").classList.toggle("has-lang", !!lang);
@@ -3186,7 +3218,7 @@
         const btn = document.getElementById("exportBtn");
         btn.disabled = true;
         const prev = btn.textContent;
-        btn.textContent = fmt === "pdf" ? "Compiling…" : "Generating…";
+        btn.textContent = fmt === "pdf" ? _t("local_compiling") : _t("local_generating");
         try {
           const exportData = _buildExportJson();
           if (!exportData) throw new Error("No mass loaded.");
@@ -3362,7 +3394,7 @@
         const btn = document.getElementById("exportBtn");
         btn.disabled = true;
         const prev = btn.textContent;
-        btn.textContent = "Working…";
+        btn.textContent = _t("export_working");
 
         try {
           if (!BOOKLET_WORKER_URL)
@@ -3372,7 +3404,7 @@
           const exportData = _buildExportJson();
           if (!exportData) throw new Error("No mass loaded.");
           const b64 = _jsonToB64(exportData);
-          btn.textContent = "Dispatching…";
+          btn.textContent = _t("export_dispatching");
           const dispatch = await fetch(`${BOOKLET_WORKER_URL}/booklet/build`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
@@ -3390,7 +3422,7 @@
             throw new Error(e.error || `Worker ${dispatch.status}`);
           }
           const { run_id } = await dispatch.json();
-          btn.textContent = "Building…";
+          btn.textContent = _t("export_building");
           let status = "queued";
           for (
             let i = 0;
@@ -3404,7 +3436,7 @@
             if (st.ok) ({ status } = await st.json());
           }
           if (status !== "completed") throw new Error(`Build ${status}`);
-          btn.textContent = "Downloading…";
+          btn.textContent = _t("export_downloading");
           const dl = await fetch(
             `${BOOKLET_WORKER_URL}/booklet/download/${run_id}`,
           );
