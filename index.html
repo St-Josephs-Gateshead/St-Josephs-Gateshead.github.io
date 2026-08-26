@@ -158,6 +158,18 @@
         opacity: 0.45;
         cursor: not-allowed;
       }
+      .btn-export.ready {
+        background: #2563eb;
+        color: #fff;
+        animation: btn-export-pulse 1.4s ease-in-out infinite;
+      }
+      .btn-export.ready:hover {
+        background: #3b76f0;
+      }
+      @keyframes btn-export-pulse {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.55); }
+        50% { box-shadow: 0 0 0 6px rgba(37, 99, 235, 0); }
+      }
       .btn-about {
         padding: 0;
         background: none;
@@ -1030,7 +1042,7 @@
           <button
             class="btn-export"
             id="exportBtn"
-            onclick="toggleExportPopover()"
+            onclick="onExportBtnClick()"
           >
             Exporta &#9660;
           </button>
@@ -3155,6 +3167,39 @@
         document.getElementById("exportWrap").classList.toggle("open");
       }
 
+      // ── Export button state machine ─────────────────────────────────────────────
+      // idle → working → dispatching → building → downloading → ready → (click) → idle
+      // "ready" is a distinct terminal state rather than an auto-download so the
+      // click that actually saves the file is always a direct user gesture (some
+      // browsers, notably Safari, can silently drop a delayed programmatic download).
+      let _exportBtnState = "idle";
+      let _exportReadyAction = null;
+
+      const _EXPORT_STATE_KEYS = {
+        idle: "export_idle",
+        working: "export_working",
+        dispatching: "export_dispatching",
+        building: "export_building",
+        downloading: "export_downloading",
+        ready: "export_ready",
+      };
+
+      function _setExportBtnState(state) {
+        _exportBtnState = state;
+        const btn = document.getElementById("exportBtn");
+        btn.textContent = _t(_EXPORT_STATE_KEYS[state] || _EXPORT_STATE_KEYS.idle);
+        btn.classList.toggle("ready", state === "ready");
+        btn.disabled = state !== "idle" && state !== "ready";
+      }
+
+      function onExportBtnClick() {
+        if (_exportBtnState === "ready" && _exportReadyAction) {
+          _exportReadyAction();
+          return;
+        }
+        toggleExportPopover();
+      }
+
       // A5 column: 148mm - 10mm*2 margins = 128mm ≈ 484px at 96dpi
       const _A5_PRINT_W = 484;
 
@@ -3391,10 +3436,7 @@
 
       async function doExport({ docs, layout, format = "pdf" }) {
         if (!propers) return;
-        const btn = document.getElementById("exportBtn");
-        btn.disabled = true;
-        const prev = btn.textContent;
-        btn.textContent = _t("export_working");
+        _setExportBtnState("working");
 
         try {
           if (!BOOKLET_WORKER_URL)
@@ -3404,7 +3446,7 @@
           const exportData = _buildExportJson();
           if (!exportData) throw new Error("No mass loaded.");
           const b64 = _jsonToB64(exportData);
-          btn.textContent = _t("export_dispatching");
+          _setExportBtnState("dispatching");
           const dispatch = await fetch(`${BOOKLET_WORKER_URL}/booklet/build`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
@@ -3422,7 +3464,7 @@
             throw new Error(e.error || `Worker ${dispatch.status}`);
           }
           const { run_id } = await dispatch.json();
-          btn.textContent = _t("export_building");
+          _setExportBtnState("building");
           let status = "queued";
           for (
             let i = 0;
@@ -3436,22 +3478,27 @@
             if (st.ok) ({ status } = await st.json());
           }
           if (status !== "completed") throw new Error(`Build ${status}`);
-          btn.textContent = _t("export_downloading");
+          _setExportBtnState("downloading");
           const dl = await fetch(
             `${BOOKLET_WORKER_URL}/booklet/download/${run_id}`,
           );
           if (!dl.ok) throw new Error("Download failed");
-          const a = Object.assign(document.createElement("a"), {
-            href: URL.createObjectURL(await dl.blob()),
-            download: `${currentMt}-${currentPn}.zip`,
-          });
-          a.click();
-          URL.revokeObjectURL(a.href);
+          const blobUrl = URL.createObjectURL(await dl.blob());
+          const filename = `${currentMt}-${currentPn}.zip`;
+          _exportReadyAction = () => {
+            const a = Object.assign(document.createElement("a"), {
+              href: blobUrl,
+              download: filename,
+            });
+            a.click();
+            URL.revokeObjectURL(blobUrl);
+            _exportReadyAction = null;
+            _setExportBtnState("idle");
+          };
+          _setExportBtnState("ready");
         } catch (e) {
           alert(e.message);
-        } finally {
-          btn.disabled = false;
-          btn.textContent = prev;
+          _setExportBtnState("idle");
         }
       }
 
