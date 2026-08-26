@@ -34,6 +34,36 @@ _DOC_TEMPLATES: dict[str, tuple[str, str]] = {
     "pew": ("pew-sheet.tex.jinja", "pew-sheet.tex"),
 }
 
+# str.translate() does a single simultaneous pass over the input, so the
+# backslashes introduced by these replacements (e.g. "&" -> "\&") are never
+# themselves re-escaped.
+_LATEX_ESCAPE_TABLE = str.maketrans(
+    {
+        "\\": r"\textbackslash{}",
+        "&": r"\&",
+        "%": r"\%",
+        "$": r"\$",
+        "#": r"\#",
+        "_": r"\_",
+        "{": r"\{",
+        "}": r"\}",
+        "~": r"\textasciitilde{}",
+        "^": r"\textasciicircum{}",
+    }
+)
+
+
+def _latex_escape(s: str | None) -> str:
+    """Escape LaTeX-special characters in free text (titles, rubrics, translations).
+
+    Not applied to fields that intentionally carry TeX markup already, such as
+    the Latin text column (which supports \\textit/\\textbf from the rich-text
+    editor) or GABC snippets.
+    """
+    if not s:
+        return ""
+    return str(s).translate(_LATEX_ESCAPE_TABLE)
+
 
 def _git_version() -> str:
     try:
@@ -190,6 +220,7 @@ def generate_from_data(data: dict, target: Path, lang: str | None = None) -> Pat
         autoescape=False,
         undefined=Undefined,
     )
+    env.filters["tex"] = _latex_escape
 
     for tmpl_name, out_name in _DOC_TEMPLATES.values():
         tmpl = env.get_template(tmpl_name)

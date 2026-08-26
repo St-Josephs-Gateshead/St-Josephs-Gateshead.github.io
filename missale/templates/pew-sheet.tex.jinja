@@ -27,24 +27,24 @@
 \selectlanguage{latin}
 
 \begin{center}
-  {\LARGE [[ subtitle ]]}
+  {\LARGE [[ subtitle | tex ]]}
 
   ~
 
-  {\Large\scshape [[ feast ]]}
+  {\Large\scshape [[ feast | tex ]]}
 
   \greseparator{2}{10}
 \end{center}
 
 [% for block in sheet_blocks %]
 [% if block.title is defined and block.title %]
-\section{[[ block.title ]]}
+\section{[[ block.title | tex ]]}
 [% endif %]
 [% for item in block['items'] %]
 [% if item.translation is defined and item.translation %]
 \black{
   \l{[[ item.latin ]]}
-  \e{[[ item.translation ]]}
+  \e{[[ item.translation | tex ]]}
 }
 [% else %]
 [[ item.latin ]]
