@@ -3389,24 +3389,29 @@
           return null;
         }
 
-        // Segment flat ordo by title items, skipping sections with no resolved music
+        // Segment flat ordo by title items, skipping sections whose only content
+        // was an Ordinary slot (Kyrie/Gloria/Sanctus/Agnus Dei/Credo/Asperges/
+        // Marian antiphon/dismissal) that never got a setting chosen.
         const exportOrdo = [];
         const flatOrdo = propers.ordo || [];
         let segTitle = null;
         let segItems = [];
+        let segHadUnresolvedOrdinary = false;
 
         function flushSeg() {
-          if (!segItems.length) { segTitle = null; return; }
-          const hasOrdinarySlots = segItems.some(
-            (i) => i.type === "music" && !i.gabc && i.ordinary,
-          );
+          if (!segItems.length) {
+            segTitle = null;
+            segHadUnresolvedOrdinary = false;
+            return;
+          }
           const resolvedMusic = segItems.filter((i) => i.type === "music").length;
-          if (!hasOrdinarySlots || resolvedMusic) {
+          if (!segHadUnresolvedOrdinary || resolvedMusic) {
             if (segTitle) exportOrdo.push(segTitle);
             exportOrdo.push(...segItems);
           }
           segTitle = null;
           segItems = [];
+          segHadUnresolvedOrdinary = false;
         }
 
         for (const item of flatOrdo) {
@@ -3415,7 +3420,11 @@
             segTitle = { type: "title", text: item.text, targets: item.targets };
           } else {
             const ei = _resolveItem(item);
-            if (ei) { if (Array.isArray(ei)) segItems.push(...ei); else segItems.push(ei); }
+            if (ei) {
+              if (Array.isArray(ei)) segItems.push(...ei); else segItems.push(ei);
+            } else if (item.ordinary) {
+              segHadUnresolvedOrdinary = true;
+            }
           }
         }
         flushSeg();
