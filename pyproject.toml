@@ -1,0 +1,18 @@
+[tool.pytest.ini_options]
+pythonpath = ["missale/scripts"]
+testpaths = ["missale/scripts/tests"]
+
+[project]
+name = "st-josephs-missale-scripts"
+version = "0.0.0"
+description = "Helper scripts that generate propers data and TeX/PDF booklets for the St Joseph's Gateshead missale webpage. Not a published package — invoked directly by CI, never installed or imported elsewhere."
+requires-python = ">=3.11"
+dependencies = [
+    "jinja2",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
