@@ -3322,7 +3322,7 @@
 
       function _buildExportJson() {
         if (!propers || !ordinary) return null;
-        const { lang, ordNum, credNum } = getSettings();
+        const { lang } = getSettings();
         function _resolveItem(item) {
           if (item.type === "rubric") {
             const text = (item._el ? item._el.textContent : (item.text || "")).trim();
