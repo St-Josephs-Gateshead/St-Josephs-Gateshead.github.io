@@ -2141,7 +2141,7 @@ function _snapshotOrdoItem(item) {
 }
 
 function _buildFullSessionExport() {
-  if (!propers) return null;
+  if (!currentPn) return null;
   const { lang, ordNum, credNum } = getSettings();
   const ordo = (propers.ordo || []).map(_snapshotOrdoItem).filter(Boolean);
   return {
