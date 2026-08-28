@@ -403,6 +403,83 @@ function shouldKeepSegment(segItems, hadUnresolvedOrdinary) {
   return !hadUnresolvedOrdinary || resolvedMusic > 0;
 }
 
+// ── Session JSON export/import ───────────────────────────────────────────────
+// The exported file is a full editable session (raw propers.ordo, including
+// unresolved Ordinary choices) — not the flattened shape _buildExportJson()
+// sends to the booklet builder, which drops anything that isn't fully
+// resolved and can't be reloaded back into the editor.
+//
+// validateImportedSession() only needs to guarantee an import can't crash
+// the page: a marker/version check for a fast, friendly rejection of an
+// unrelated file, plus enough structural checking that the renderer never
+// gets handed something it can't safely walk. It is not an authenticity or
+// security check — nothing running entirely in this page's own client-side
+// JS can meaningfully verify a file wasn't hand-edited or forged, since the
+// whole app (including this check) is visible to whoever's editing it.
+
+const SESSION_EXPORT_FORMAT = "stjosephs-missale-export";
+const SESSION_EXPORT_VERSION = 1;
+const SESSION_ITEM_TYPES = new Set(["title", "rubric", "music", "text"]);
+
+function validateImportedSession(data) {
+  const errors = [];
+  if (!data || typeof data !== "object" || Array.isArray(data)) {
+    return ["Not a valid JSON object."];
+  }
+  if (data._format !== SESSION_EXPORT_FORMAT) {
+    errors.push('This doesn\'t look like a Missalette export (missing or wrong "_format").');
+  }
+  if (typeof data._version !== "number") {
+    errors.push('Missing or invalid "_version".');
+  } else if (data._version > SESSION_EXPORT_VERSION) {
+    errors.push(
+      `This file is from a newer version of the exporter (${data._version}) than this page supports (${SESSION_EXPORT_VERSION}).`,
+    );
+  }
+  if (typeof data.feast !== "string") errors.push('"feast" must be a string.');
+  if (typeof data.subtitle !== "string") errors.push('"subtitle" must be a string.');
+  if (data.rule !== undefined && !Array.isArray(data.rule)) {
+    errors.push('"rule" must be a list.');
+  }
+  if (!Array.isArray(data.ordo)) {
+    errors.push('"ordo" must be a list.');
+    return errors;
+  }
+  data.ordo.forEach((item, i) => {
+    if (!item || typeof item !== "object" || Array.isArray(item)) {
+      errors.push(`ordo[${i}]: not an object.`);
+      return;
+    }
+    if (!SESSION_ITEM_TYPES.has(item.type)) {
+      errors.push(`ordo[${i}]: unknown type "${item.type}".`);
+      return;
+    }
+    if (item.targets !== undefined && !Array.isArray(item.targets)) {
+      errors.push(`ordo[${i}]: "targets" must be a list.`);
+    }
+    if ((item.type === "title" || item.type === "rubric") && typeof item.text !== "string") {
+      errors.push(`ordo[${i}]: ${item.type} item needs a string "text".`);
+    }
+    if (item.type === "music") {
+      if (item.gabc !== undefined && typeof item.gabc !== "string") {
+        errors.push(`ordo[${i}]: music "gabc" must be a string.`);
+      } else if (item.ordinary !== undefined && typeof item.ordinary !== "string") {
+        errors.push(`ordo[${i}]: music "ordinary" must be a string.`);
+      } else if (item.gabc === undefined && item.ordinary === undefined) {
+        errors.push(`ordo[${i}]: music item needs "gabc" or "ordinary".`);
+      }
+    }
+    if (item.type === "text") {
+      if (item.ordinary !== undefined && typeof item.ordinary !== "string") {
+        errors.push(`ordo[${i}]: text "ordinary" must be a string.`);
+      } else if (item.ordinary === undefined && typeof item.latin !== "string") {
+        errors.push(`ordo[${i}]: text item needs "latin" (or "ordinary").`);
+      }
+    }
+  });
+  return errors;
+}
+
 if (typeof module !== "undefined" && module.exports) {
   module.exports = {
     cleanGabc,
@@ -427,5 +504,8 @@ if (typeof module !== "undefined" && module.exports) {
     _suggestMarian,
     _suggestAsperges,
     shouldKeepSegment,
+    SESSION_EXPORT_FORMAT,
+    SESSION_EXPORT_VERSION,
+    validateImportedSession,
   };
 }

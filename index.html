@@ -1073,6 +1073,18 @@
             </div>
             <button class="ep-download" onclick="doExportCustom()" data-i18n="download_pdf_btn">Defer PDF</button>
             <button class="ep-download" onclick="doExportTex()" data-i18n="download_tex_btn">Defer TeX</button>
+            <div class="ep-section" data-i18n="session_section">Sessio</div>
+            <div style="display:flex;gap:0.5em">
+              <button class="ep-download" onclick="doExportSessionJson()" data-i18n="export_json_btn">Serva JSON</button>
+              <button class="ep-download" onclick="doImportSessionJson()" data-i18n="import_json_btn">Restitue JSON</button>
+            </div>
+            <input
+              type="file"
+              id="importSessionInput"
+              accept="application/json,.json"
+              hidden
+              onchange="handleImportSessionFile(this.files[0])"
+            />
             <div id="epLocal" hidden>
               <div class="ep-section" data-i18n="local_section">Localis</div>
               <div style="display:flex;gap:0.5em">
@@ -2957,6 +2969,160 @@
         const docs = _epGet("epDoc");
         if (!docs.length) return;
         doExport({ docs, layout: "regular", format: "tex" });
+      }
+
+      // ── Session JSON export/import ───────────────────────────────────────────────
+      // Unlike _buildExportJson() (which flattens to what the booklet builder
+      // needs, dropping anything unresolved), this round-trips the full
+      // editable session — unresolved Ordinary choices included — so a
+      // reimport restores exactly what was being edited.
+
+      function _snapshotOrdoItem(item) {
+        if (item.type === "title") {
+          return { type: "title", text: item.text, targets: item.targets };
+        }
+        if (item.type === "rubric") {
+          const text = item._el ? item._el.textContent : (item.text || "");
+          const out = { type: "rubric", targets: item.targets, text };
+          if (item.key) out.key = item.key;
+          return out;
+        }
+        if (item.type === "music") {
+          if (item.gabc || item._getGabc) {
+            const gabc = item._getGabc ? item._getGabc() : item.gabc;
+            const out = { type: "music", gabc, targets: item.targets };
+            const mode = item._getMode ? item._getMode() : item.mode;
+            if (mode != null) out.mode = mode;
+            if (item.translation) out.translation = item.translation;
+            if (item.availableTranslations) out.availableTranslations = item.availableTranslations;
+            return out;
+          }
+          if (item.ordinary) {
+            const out = { type: "music", ordinary: item.ordinary, targets: item.targets };
+            if (item._ordChoice != null) out._ordChoice = item._ordChoice;
+            if (item._varChoice != null) out._varChoice = item._varChoice;
+            if (item.translation) out.translation = item.translation;
+            return out;
+          }
+        }
+        if (item.type === "text") {
+          if (item.ordinary) {
+            return { type: "text", ordinary: item.ordinary, targets: item.targets };
+          }
+          const srcHtml = item._el
+            ? item._el.innerHTML
+            : _renderTex(item.tex || item.latin || "");
+          const out = { type: "text", latin: _htmlToTex(srcHtml), targets: item.targets };
+          if (item.translation) out.translation = item.translation;
+          if (item.availableTranslations) out.availableTranslations = item.availableTranslations;
+          return out;
+        }
+        return null;
+      }
+
+      function _buildFullSessionExport() {
+        if (!propers) return null;
+        const { lang, ordNum, credNum } = getSettings();
+        const ordo = (propers.ordo || []).map(_snapshotOrdoItem).filter(Boolean);
+        return {
+          _format: SESSION_EXPORT_FORMAT,
+          _version: SESSION_EXPORT_VERSION,
+          mass_type: currentMt || "tempora",
+          path_name: currentPn || "",
+          feast: document.getElementById("epFeast")?.value.trim() || propers.feast || "",
+          subtitle: document.getElementById("epSubtitle")?.value.trim() || propers.subtitle || "Missa Cantata",
+          rule: propers.rule || [],
+          settings: {
+            lang: lang || "",
+            ordNum: ordNum || 0,
+            credNum: credNum || 0,
+            marianChoice: _marianChoice || "",
+            aspergesChoice: _aspergesChoice || "",
+          },
+          ordo,
+        };
+      }
+
+      function doExportSessionJson() {
+        document.getElementById("exportWrap").classList.remove("open");
+        const data = _buildFullSessionExport();
+        if (!data) { alert("No mass loaded."); return; }
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+        const a = Object.assign(document.createElement("a"), {
+          href: URL.createObjectURL(blob),
+          download: `${data.mass_type}-${data.path_name || "session"}.json`,
+        });
+        a.click();
+        URL.revokeObjectURL(a.href);
+      }
+
+      function doImportSessionJson() {
+        document.getElementById("exportWrap").classList.remove("open");
+        document.getElementById("importSessionInput").click();
+      }
+
+      async function handleImportSessionFile(file) {
+        document.getElementById("importSessionInput").value = "";
+        if (!file) return;
+
+        let data;
+        try {
+          data = JSON.parse(await file.text());
+        } catch (e) {
+          alert("That file isn't valid JSON.");
+          return;
+        }
+
+        const errors = validateImportedSession(data);
+        if (errors.length) {
+          alert("Can't import this file:\n\n" + errors.slice(0, 10).join("\n"));
+          return;
+        }
+
+        const prevPropers = propers;
+        const prevMt = currentMt;
+        const prevPn = currentPn;
+        const prevMarian = _marianChoice;
+        const prevAsperges = _aspergesChoice;
+
+        try {
+          if (data.mass_type !== currentMt) populateDropdown(data.mass_type);
+          currentMt = data.mass_type;
+          currentPn = data.path_name || null;
+          propers = {
+            feast: data.feast || "",
+            subtitle: data.subtitle || "Missa Cantata",
+            rule: Array.isArray(data.rule) ? data.rule : [],
+            ordo: data.ordo,
+          };
+          _marianChoice = (data.settings && data.settings.marianChoice) || null;
+          _aspergesChoice = (data.settings && data.settings.aspergesChoice) || null;
+
+          document.getElementById("massSelect").value = currentPn || "";
+          document.getElementById("epFeast").value = propers.feast;
+          document.getElementById("epSubtitle").value = propers.subtitle;
+          if (data.settings) {
+            document.getElementById("langSelect").value = data.settings.lang || "";
+            document.getElementById("ordinarySelect").value = data.settings.ordNum || "";
+            document.getElementById("creedSelect").value = data.settings.credNum || "";
+          }
+          _syncUrl();
+          _updateControlStates();
+          _applyChromeLabels();
+          await renderMass();
+        } catch (e) {
+          propers = prevPropers;
+          currentMt = prevMt;
+          currentPn = prevPn;
+          _marianChoice = prevMarian;
+          _aspergesChoice = prevAsperges;
+          alert("Import failed, restored your previous mass: " + e.message);
+          try {
+            await renderMass();
+          } catch (_) {
+            // last resort: nothing more we can safely do here
+          }
+        }
       }
 
       function _buildExportJson() {
