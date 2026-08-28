@@ -27,10 +27,13 @@ function cleanGabc(g) {
     .replace(/\*(?!\()/g, "*()");
 }
 
-const _ROMAN_MODE = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
+const _ROMAN_MODE = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII"];
 
 function _keyLabel(key) {
-  return String(key).split(/[_-]/).map(w => w ? w[0].toUpperCase() + w.slice(1) : w).join(" ");
+  return String(key)
+    .split(/[_-]/)
+    .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : w))
+    .join(" ");
 }
 
 function _modeAnnotation(mode) {
@@ -44,11 +47,12 @@ function _modeAnnotation(mode) {
 
 function _latinFromGabc(gabc) {
   return gabc
-    .replace(/\([^)]*\)/g, "")       // strip note groups
-    .replace(/\{([^}]*)\}/g, "$1")   // unwrap {word}
-    .replace(/<[^>]+>/g, "")          // strip HTML tags
-    .replace(/[*:;|]/g, " ")          // neume marks → space
-    .replace(/\s+/g, " ").trim();
+    .replace(/\([^)]*\)/g, "") // strip note groups
+    .replace(/\{([^}]*)\}/g, "$1") // unwrap {word}
+    .replace(/<[^>]+>/g, "") // strip HTML tags
+    .replace(/[*:;|]/g, " ") // neume marks → space
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function _gabcForExsurge(gabc) {
@@ -92,37 +96,39 @@ function _htmlToTex(html) {
 function _normLyrics(s) {
   return String(s)
     .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")       // strip combining diacritics
-    .replace(/[VvRr]\s*[./]\s*\/?/g, " ")  // V./ R./ markers
-    .replace(/[†‡☩℣℟~]/g, " ")             // liturgical symbols
-    .replace(/\biij?\b/gi, " ")             // ij / iij repeat tokens
-    .replace(/[^a-zA-Z\s]/g, " ")           // remaining non-letter chars
+    .replace(/[̀-ͯ]/g, "") // strip combining diacritics
+    .replace(/[VvRr]\s*[./]\s*\/?/g, " ") // V./ R./ markers
+    .replace(/[†‡☩℣℟~]/g, " ") // liturgical symbols
+    .replace(/\biij?\b/gi, " ") // ij / iij repeat tokens
+    .replace(/[^a-zA-Z\s]/g, " ") // remaining non-letter chars
     .toLowerCase()
     .replace(/\s+/g, " ")
     .trim();
 }
 
 function esc(s) {
-  return String(s)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
+  return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
 function parseCSV(text) {
   function splitRow(row) {
     const fields = [];
-    let cur = "", inQ = false;
+    let cur = "",
+      inQ = false;
     for (let i = 0; i < row.length; i++) {
       const ch = row[i];
       if (inQ) {
-        if (ch === '"' && row[i + 1] === '"') { cur += '"'; i++; }
-        else if (ch === '"') inQ = false;
+        if (ch === '"' && row[i + 1] === '"') {
+          cur += '"';
+          i++;
+        } else if (ch === '"') inQ = false;
         else cur += ch;
       } else {
         if (ch === '"') inQ = true;
-        else if (ch === ',') { fields.push(cur); cur = ""; }
-        else cur += ch;
+        else if (ch === ",") {
+          fields.push(cur);
+          cur = "";
+        } else cur += ch;
       }
     }
     fields.push(cur);
@@ -135,9 +141,7 @@ function parseCSV(text) {
     .filter(Boolean)
     .map((row) => {
       const vals = splitRow(row);
-      return Object.fromEntries(
-        cols.map((c, i) => [c.trim(), (vals[i] || "").trim()]),
-      );
+      return Object.fromEntries(cols.map((c, i) => [c.trim(), (vals[i] || "").trim()]));
     });
 }
 
@@ -181,9 +185,7 @@ function temporaSort(pn) {
   const m = pn.match(/^([A-Za-z]+?)(\d+)-(\d+)([a-z]?)(\d*)$/);
   if (!m) return 99999;
   const sub = m[5] ? parseInt(m[5]) * 0.1 : 0;
-  return (
-    (_PFX[m[1]] || 9) * 10000 + parseInt(m[2]) * 10 + parseInt(m[3]) + sub
-  );
+  return (_PFX[m[1]] || 9) * 10000 + parseInt(m[2]) * 10 + parseInt(m[3]) + sub;
 }
 
 function _temporaYearAnchors(yr) {
@@ -226,11 +228,8 @@ function _temporaYearAnchors(yr) {
 function _temporaNamedPeriods(yr) {
   const { D, E, adv1, epi1, nat1, nat2 } = _temporaYearAnchors(yr);
   const entries = [];
-  ["Quadp1", "Quadp2", "Quadp3"].forEach((n, i) =>
-    entries.push([n, D(E, -63 + i * 7)]),
-  );
-  for (let w = 1; w <= 6; w++)
-    entries.push([`Quad${w}`, D(E, -42 + (w - 1) * 7)]);
+  ["Quadp1", "Quadp2", "Quadp3"].forEach((n, i) => entries.push([n, D(E, -63 + i * 7)]));
+  for (let w = 1; w <= 6; w++) entries.push([`Quad${w}`, D(E, -42 + (w - 1) * 7)]);
   for (let w = 0; w <= 7; w++) entries.push([`Pasc${w}`, D(E, 7 * w)]);
 
   // Pentecost 24 is always the last Sunday before Advent, not a fixed
@@ -246,8 +245,7 @@ function _temporaNamedPeriods(yr) {
   const pent24 = D(adv1, -7);
   const deferred = [];
   for (let w = 1; w <= 6; w++) {
-    if (D(epi1, (w - 1) * 7).getTime() >= D(E, -63).getTime())
-      deferred.push(w);
+    if (D(epi1, (w - 1) * 7).getTime() >= D(E, -63).getTime()) deferred.push(w);
   }
   let slot = D(E, 49 + 7);
   let rawWeek = 1;
@@ -266,8 +264,7 @@ function _temporaNamedPeriods(yr) {
   }
   entries.push(["Pent24", pent24]);
 
-  for (let w = 1; w <= 4; w++)
-    entries.push([`Adv${w}`, D(adv1, (w - 1) * 7)]);
+  for (let w = 1; w <= 4; w++) entries.push([`Adv${w}`, D(adv1, (w - 1) * 7)]);
   for (let w = 1; w <= 6; w++) entries.push([`Epi${w}`, D(epi1, (w - 1) * 7)]);
   if (nat1) entries.push(["Nat1", nat1]);
   if (nat2) entries.push(["Nat2", nat2]);
@@ -291,11 +288,7 @@ function _todayTempora(now = new Date()) {
   const today = new Date(now);
   today.setHours(0, 0, 0, 0);
   const dow = today.getDay();
-  const ts = new Date(
-    today.getFullYear(),
-    today.getMonth(),
-    today.getDate() - dow,
-  );
+  const ts = new Date(today.getFullYear(), today.getMonth(), today.getDate() - dow);
   const name = _temporaPeriodForSunday(ts);
   return name ? name + "-" + dow : null;
 }
@@ -338,19 +331,14 @@ function _suggestMarian(forDate) {
   // Regina: Easter Sunday → Pentecost Sunday (inclusive)
   // Salve:  after Pentecost → day before Advent 1
   const today = forDate
-    ? new Date(
-        forDate.getFullYear(),
-        forDate.getMonth(),
-        forDate.getDate(),
-      )
+    ? new Date(forDate.getFullYear(), forDate.getMonth(), forDate.getDate())
     : (() => {
         const d = new Date();
         d.setHours(0, 0, 0, 0);
         return d;
       })();
   const yr = today.getFullYear();
-  const D = (d, n) =>
-    new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+  const D = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
   const sun = (d) => {
     const s = new Date(d);
     s.setDate(s.getDate() - s.getDay());
@@ -375,14 +363,9 @@ function _suggestAsperges(forDate, mt) {
   // Asperges: other Sundays in tempora; null for sancti (day varies by year) or weekdays
   if (!forDate || mt === "sancti") return null;
   if (forDate.getDay() !== 0) return null; // not a Sunday
-  const today = new Date(
-    forDate.getFullYear(),
-    forDate.getMonth(),
-    forDate.getDate(),
-  );
+  const today = new Date(forDate.getFullYear(), forDate.getMonth(), forDate.getDate());
   const yr = today.getFullYear();
-  const D = (d, n) =>
-    new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+  const D = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
   const E = _getEaster(yr);
   const pent = D(E, 49);
   const t = today.getTime();
@@ -427,7 +410,9 @@ function validateImportedSession(data) {
     return ["Not a valid JSON object."];
   }
   if (data._format !== SESSION_EXPORT_FORMAT) {
-    errors.push('This doesn\'t look like a Missalette export (missing or wrong "_format").');
+    errors.push(
+      'This doesn\'t look like a Missalette export (missing or wrong "_format").',
+    );
   }
   if (typeof data._version !== "number") {
     errors.push('Missing or invalid "_version".');
@@ -457,7 +442,10 @@ function validateImportedSession(data) {
     if (item.targets !== undefined && !Array.isArray(item.targets)) {
       errors.push(`ordo[${i}]: "targets" must be a list.`);
     }
-    if ((item.type === "title" || item.type === "rubric") && typeof item.text !== "string") {
+    if (
+      (item.type === "title" || item.type === "rubric") &&
+      typeof item.text !== "string"
+    ) {
       errors.push(`ordo[${i}]: ${item.type} item needs a string "text".`);
     }
     if (item.type === "music") {
