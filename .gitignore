@@ -18,3 +18,6 @@ missale/scripts/__pycache__/
 dev/
 # Cloudflare Wrangler state
 .wrangler/
+
+# npm (jsdom, used only by the missale/static test suite)
+node_modules/

@@ -1,0 +1,8 @@
+{
+  "name": "st-josephs-missale-web",
+  "private": true,
+  "description": "Test tooling for the missale webpage (index.html + missale/static/*.js). The page itself has no build step and ships no client-side dependencies -- this manifest exists only for jsdom, used to unit-test the DOM-coupled parts of missale/static/app.js.",
+  "devDependencies": {
+    "jsdom": "^25.0.0"
+  }
+}
