@@ -25,6 +25,23 @@ function defaultFetch(url) {
   return Promise.reject(new Error(`dom-harness: unexpected fetch(${url}) -- pass fetchImpl`));
 }
 
+// app.js's fetchText/fetchJSON always call fetch() with a plain repo-relative
+// path (e.g. "missale/data/tempora.csv", "missale/data/propers/tempora/Adv1-0.json")
+// -- window.fetch is fully replaced here, not the real browser fetch, so
+// there's no URL resolution to worry about; the string arrives as-is.
+// Serving the real files off disk means tests exercise the actual rendering
+// pipeline against real production data, not a hand-maintained fixture that
+// can drift from it.
+async function realDataFetch(url) {
+  const rel = String(url).replace(/^\/+/, "");
+  const filePath = path.join(ROOT, rel);
+  if (!filePath.startsWith(ROOT) || !fs.existsSync(filePath)) {
+    return { ok: false, status: 404, text: async () => "", json: async () => { throw new Error(`404: ${url}`); } };
+  }
+  const content = fs.readFileSync(filePath, "utf8");
+  return { ok: true, status: 200, text: async () => content, json: async () => JSON.parse(content) };
+}
+
 // index.html's own <script src> tags are repo-relative ("missale/static/...").
 // The document's own url is an http(s) placeholder (so location.hostname
 // behaves like a real deployment), which real fetch/XHR can't resolve
@@ -76,4 +93,4 @@ function loadPage({ fetchImpl = defaultFetch, hostname = "example.com" } = {}) {
   });
 }
 
-module.exports = { loadPage };
+module.exports = { loadPage, realDataFetch };
