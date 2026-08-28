@@ -1099,24 +1099,13 @@
     <div id="main"></div>
 
     <script src="https://ex.surge.sh/exsurge.js"></script>
+    <script src="missale/static/pure.js"></script>
     <script>
       "use strict";
 
       // ── Exsurge ──────────────────────────────────────────────────────────────────
 
       const exsurgeReady = typeof exsurge !== "undefined";
-
-      function cleanGabc(g) {
-        return (g || "")
-          .replace(/\[[^\]]*\]/g, "")
-          .replace(/<sp>([VRAvra])\/<\/sp>\.?/g, "$1/.")
-          .replace(/<sp>'?(?:ae|ae)<\/sp>/g, "ǽ")
-          .replace(/<sp>'?(?:oe|oe)<\/sp>/g, "œ")
-          .replace(/<i>([^<]*)<\/i>/g, "_$1_")
-          .replace(/<sc>([^<]*)<\/sc>/g, "%$1%")
-          .replace(/<[^>]+>/g, "")
-          .replace(/\*(?!\()/g, "*()");
-      }
 
       // ── UI chrome i18n ───────────────────────────────────────────────────────────
       // Keyed the same way as rubricStrings: by the #langSelect option value, with
@@ -1143,39 +1132,6 @@
         // markup, so it re-renders itself for the current state rather than reading
         // a data-i18n attribute.
         if (typeof _setExportBtnState === "function") _setExportBtnState(_exportBtnState);
-      }
-
-      const _ROMAN_MODE = ['','I','II','III','IV','V','VI','VII','VIII'];
-
-      function _keyLabel(key) {
-        return String(key).split(/[_-]/).map(w => w ? w[0].toUpperCase() + w.slice(1) : w).join(" ");
-      }
-
-      function _modeAnnotation(mode) {
-        if (!mode) return null;
-        const m = String(mode).match(/^(\d+)(.*)/);
-        if (!m) return null;
-        const num = parseInt(m[1]);
-        if (num < 1 || num > 8) return null;
-        return _ROMAN_MODE[num] + m[2];
-      }
-
-      function _latinFromGabc(gabc) {
-        return gabc
-          .replace(/\([^)]*\)/g, "")       // strip note groups
-          .replace(/\{([^}]*)\}/g, "$1")   // unwrap {word}
-          .replace(/<[^>]+>/g, "")          // strip HTML tags
-          .replace(/[*:;|]/g, " ")          // neume marks → space
-          .replace(/\s+/g, " ").trim();
-      }
-
-      function _gabcForExsurge(gabc) {
-        return gabc
-          .replace(/<sp>([VRAvra])\/<\/sp>\.?/g, "$1/.")
-          .replace(/<sp>[^<]*<\/sp>/g, "")
-          .replace(/<i>([^<]*)<\/i>/g, "_$1_")
-          .replace(/<sc>([^<]*)<\/sc>/g, "%$1%")
-          .replace(/<[^>]+>/g, "");
       }
 
       async function renderGabc(gabc, container, useDropCap = true, mode = null, width = null) {
@@ -1292,26 +1248,6 @@
 
       // ── Utility ──────────────────────────────────────────────────────────────────
 
-      function _normLyrics(s) {
-        return String(s)
-          .normalize("NFD")
-          .replace(/[̀-ͯ]/g, "")       // strip combining diacritics
-          .replace(/[VvRr]\s*[./]\s*\/?/g, " ")  // V./ R./ markers
-          .replace(/[†‡☩℣℟~]/g, " ")             // liturgical symbols
-          .replace(/\biij?\b/gi, " ")             // ij / iij repeat tokens
-          .replace(/[^a-zA-Z\s]/g, " ")           // remaining non-letter chars
-          .toLowerCase()
-          .replace(/\s+/g, " ")
-          .trim();
-      }
-
-      function esc(s) {
-        return String(s)
-          .replace(/&/g, "&amp;")
-          .replace(/</g, "&lt;")
-          .replace(/>/g, "&gt;");
-      }
-
       async function fetchText(url) {
         const r = await fetch(url);
         if (!r.ok) throw new Error(r.status + " " + url);
@@ -1321,38 +1257,6 @@
         const r = await fetch(url);
         if (!r.ok) throw new Error(r.status + " " + url);
         return r.json();
-      }
-
-      function parseCSV(text) {
-        function splitRow(row) {
-          const fields = [];
-          let cur = "", inQ = false;
-          for (let i = 0; i < row.length; i++) {
-            const ch = row[i];
-            if (inQ) {
-              if (ch === '"' && row[i + 1] === '"') { cur += '"'; i++; }
-              else if (ch === '"') inQ = false;
-              else cur += ch;
-            } else {
-              if (ch === '"') inQ = true;
-              else if (ch === ',') { fields.push(cur); cur = ""; }
-              else cur += ch;
-            }
-          }
-          fields.push(cur);
-          return fields;
-        }
-        const lines = text.trim().split("\n");
-        const cols = splitRow(lines[0]);
-        return lines
-          .slice(1)
-          .filter(Boolean)
-          .map((row) => {
-            const vals = splitRow(row);
-            return Object.fromEntries(
-              cols.map((c, i) => [c.trim(), (vals[i] || "").trim()]),
-            );
-          });
       }
 
       // ── State ─────────────────────────────────────────────────────────────────────
@@ -1563,244 +1467,6 @@
           _updateControlStates();
           await renderMass();
         }
-      }
-
-      // ── Calendar helpers ──────────────────────────────────────────────────────────
-
-      function _getEaster(year) {
-        const a = year % 19,
-          b = Math.floor(year / 100),
-          c = year % 100;
-        const d = Math.floor(b / 4),
-          e = b % 4,
-          f = Math.floor((b + 8) / 25);
-        const g = Math.floor((b - f + 1) / 3),
-          h = (19 * a + b - d - g + 15) % 30;
-        const i = Math.floor(c / 4),
-          k = c % 4,
-          l = (32 + 2 * e + 2 * i - h - k) % 7;
-        const m = Math.floor((a + 11 * h + 22 * l) / 451);
-        return new Date(
-          year,
-          Math.floor((h + l - 7 * m + 114) / 31) - 1,
-          ((h + l - 7 * m + 114) % 31) + 1,
-        );
-      }
-
-      const _PFX = {
-        Adv: 1,
-        Nat: 2,
-        Epi: 3,
-        Quadp: 4,
-        Quad: 5,
-        Pasc: 6,
-        Pent: 7,
-        PentEpi: 8,
-      };
-      function temporaSort(pn) {
-        const m = pn.match(/^([A-Za-z]+?)(\d+)-(\d+)([a-z]?)(\d*)$/);
-        if (!m) return 99999;
-        const sub = m[5] ? parseInt(m[5]) * 0.1 : 0;
-        return (
-          (_PFX[m[1]] || 9) * 10000 + parseInt(m[2]) * 10 + parseInt(m[3]) + sub
-        );
-      }
-
-      function _temporaPeriodForSunday(ts) {
-        const year = ts.getFullYear();
-        function D(d, n) {
-          return new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
-        }
-        function sun(d) {
-          return D(d, -d.getDay());
-        }
-        const eq = (a, b) => a.getTime() === b.getTime();
-
-        function periodsFor(yr) {
-          const E = _getEaster(yr),
-            ps = [];
-          ["Quadp1", "Quadp2", "Quadp3"].forEach((n, i) =>
-            ps.push([n, D(E, -63 + i * 7)]),
-          );
-          for (let w = 1; w <= 6; w++)
-            ps.push([`Quad${w}`, D(E, -42 + (w - 1) * 7)]);
-          for (let w = 0; w <= 7; w++) ps.push([`Pasc${w}`, D(E, 7 * w)]);
-          for (let w = 1; w <= 24; w++)
-            ps.push([`Pent${String(w).padStart(2, "0")}`, D(E, 49 + 7 * w)]);
-          const xmas = new Date(yr, 11, 25);
-          const adv4 = xmas.getDay() === 0 ? D(xmas, -7) : sun(xmas);
-          const adv1 = D(adv4, -21);
-          for (let w = 1; w <= 4; w++)
-            ps.push([`Adv${w}`, D(adv1, (w - 1) * 7)]);
-          const epi = new Date(yr, 0, 6);
-          let epi1 = sun(epi);
-          if (epi1.getTime() <= epi.getTime()) epi1 = D(epi1, 7);
-          const deferred = [];
-          for (let w = 1; w <= 6; w++) {
-            if (D(epi1, (w - 1) * 7).getTime() >= D(E, -63).getTime())
-              deferred.push(w);
-          }
-          let s = D(E, 49 + 7 * 25);
-          for (const w of deferred) {
-            if (s.getTime() >= adv1.getTime()) break;
-            ps.push([`PentEpi${w}`, s]);
-            s = D(s, 7);
-          }
-          const xs = sun(xmas);
-          ps.push(["Nat1", xs]);
-          ps.push(["Nat2", D(xs, 7)]);
-          return ps;
-        }
-
-        function epiFor(yr) {
-          const epi = new Date(yr, 0, 6);
-          let e1 = sun(epi);
-          if (e1.getTime() <= epi.getTime()) e1 = D(e1, 7);
-          return Array.from({ length: 6 }, (_, i) => [
-            `Epi${i + 1}`,
-            D(e1, i * 7),
-          ]);
-        }
-
-        for (const [name, s] of [
-          ...periodsFor(year),
-          ...periodsFor(year - 1),
-          ...epiFor(year),
-        ]) {
-          if (eq(ts, s)) return name;
-        }
-        return null;
-      }
-
-      function _todayTempora() {
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
-        const dow = today.getDay();
-        const ts = new Date(
-          today.getFullYear(),
-          today.getMonth(),
-          today.getDate() - dow,
-        );
-        const name = _temporaPeriodForSunday(ts);
-        return name ? name + "-" + dow : null;
-      }
-
-      function _lastSundayOfMonth(year, month0) {
-        const last = new Date(year, month0 + 1, 0);
-        return new Date(year, month0, last.getDate() - last.getDay());
-      }
-
-      function _massDate(mt, pn) {
-        if (!pn) return null;
-        if (mt === "sancti") {
-          const sm = pn.match(/^(\d{2})-(\d{2})/);
-          if (sm) return new Date(new Date().getFullYear(), parseInt(sm[1]) - 1, parseInt(sm[2]));
-          const dm = pn.match(/^(\d{2})-DU$/);
-          if (dm) return _lastSundayOfMonth(new Date().getFullYear(), parseInt(dm[1]) - 1);
-          return null;
-        }
-        if (mt === "tempora") return _temporaDate(pn);
-        return null;
-      }
-
-      function _temporaDate(pn) {
-        // Given a tempora path_name like "Quad6-5", return its calendar date in the nearest year.
-        const m = pn.match(/^([A-Za-z]+?)(\d+)-(\d+)/);
-        if (!m) return null;
-        const key = m[1] + m[2];
-        const day = parseInt(m[3]);
-        const D = (d, n) =>
-          new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
-        const sun = (d) => {
-          const s = new Date(d);
-          s.setDate(s.getDate() - s.getDay());
-          return s;
-        };
-        for (const y of [
-          new Date().getFullYear(),
-          new Date().getFullYear() - 1,
-        ]) {
-          const E = _getEaster(y);
-          const xmas = new Date(y, 11, 25);
-          const adv4 = xmas.getDay() === 0 ? D(xmas, -7) : sun(xmas);
-          const adv1 = D(adv4, -21);
-          const epi = new Date(y, 0, 6);
-          let epi1 = sun(epi);
-          if (epi1.getTime() <= epi.getTime()) epi1 = D(epi1, 7);
-          const map = {};
-          ["Quadp1", "Quadp2", "Quadp3"].forEach(
-            (n, i) => (map[n] = D(E, -63 + i * 7)),
-          );
-          for (let w = 1; w <= 6; w++)
-            map[`Quad${w}`] = D(E, -42 + (w - 1) * 7);
-          for (let w = 0; w <= 7; w++) map[`Pasc${w}`] = D(E, 7 * w);
-          for (let w = 1; w <= 24; w++)
-            map[`Pent${String(w).padStart(2, "0")}`] = D(E, 49 + 7 * w);
-          for (let w = 1; w <= 4; w++) map[`Adv${w}`] = D(adv1, (w - 1) * 7);
-          for (let w = 1; w <= 6; w++) map[`Epi${w}`] = D(epi1, (w - 1) * 7);
-          map["Nat1"] = sun(xmas);
-          map["Nat2"] = D(sun(xmas), 7);
-          if (map[key]) return D(map[key], day);
-        }
-        return null;
-      }
-
-      function _suggestMarian(forDate) {
-        // Alma:   Advent 1 → Feb 2 (inclusive)
-        // Ave:    Feb 3 → Holy Saturday (before Easter Vigil)
-        // Regina: Easter Sunday → Pentecost Sunday (inclusive)
-        // Salve:  after Pentecost → day before Advent 1
-        const today = forDate
-          ? new Date(
-              forDate.getFullYear(),
-              forDate.getMonth(),
-              forDate.getDate(),
-            )
-          : (() => {
-              const d = new Date();
-              d.setHours(0, 0, 0, 0);
-              return d;
-            })();
-        const yr = today.getFullYear();
-        const D = (d, n) =>
-          new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
-        const sun = (d) => {
-          const s = new Date(d);
-          s.setDate(s.getDate() - s.getDay());
-          return s;
-        };
-        const E = _getEaster(yr);
-        const feb3 = new Date(yr, 1, 3); // Feb 3: first day of Ave
-        const pent = D(E, 49); // Pentecost Sunday: last day of Regina
-        const xmas = new Date(yr, 11, 25);
-        const adv4 = xmas.getDay() === 0 ? D(xmas, -7) : sun(xmas);
-        const adv1 = D(adv4, -21); // Advent 1: first day of Alma
-        const t = today.getTime();
-        if (t >= adv1.getTime()) return "alma-redemptoris-mater";
-        if (t > pent.getTime()) return "salve-regina";
-        if (t >= E.getTime()) return "regina-caeli";
-        if (t >= feb3.getTime()) return "ave-regina-caelorum";
-        return "alma-redemptoris-mater";
-      }
-
-      function _suggestAsperges(forDate, mt) {
-        // Vidi Aquam: Easter Sunday through Pentecost Sunday inclusive
-        // Asperges: other Sundays in tempora; null for sancti (day varies by year) or weekdays
-        if (!forDate || mt === "sancti") return null;
-        if (forDate.getDay() !== 0) return null; // not a Sunday
-        const today = new Date(
-          forDate.getFullYear(),
-          forDate.getMonth(),
-          forDate.getDate(),
-        );
-        const yr = today.getFullYear();
-        const D = (d, n) =>
-          new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
-        const E = _getEaster(yr);
-        const pent = D(E, 49);
-        const t = today.getTime();
-        if (t >= E.getTime() && t <= pent.getTime()) return "vidi-aquam";
-        return "asperges";
       }
 
       // ── Mass dropdown ─────────────────────────────────────────────────────────────
@@ -2122,33 +1788,6 @@
         }
         _fmtBar.style.display = "none";
       });
-
-      function _renderTex(s) {
-        if (!s) return "";
-        return s
-          .replace(/\\textit\{([^}]*)\}/g, "<em>$1</em>")
-          .replace(/\\textbf\{([^}]*)\}/g, "<strong>$1</strong>")
-          .replace(/\{\\(?:it|textit)\s+([^}]*)\}/g, "<em>$1</em>")
-          .replace(/\{\\(?:bf|textbf)\s+([^}]*)\}/g, "<strong>$1</strong>")
-          .replace(/\n/g, "<br>");
-      }
-
-      function _htmlToTex(html) {
-        if (!html) return "";
-        return html
-          .replace(/<em>([\s\S]*?)<\/em>/gi, "\\textit{$1}")
-          .replace(/<i>([\s\S]*?)<\/i>/gi, "\\textit{$1}")
-          .replace(/<strong>([\s\S]*?)<\/strong>/gi, "\\textbf{$1}")
-          .replace(/<b>([\s\S]*?)<\/b>/gi, "\\textbf{$1}")
-          .replace(/<br\s*\/?>/gi, "\\\\\n")
-          .replace(/<div>/gi, "\\\\\n")
-          .replace(/<[^>]*>/g, "")
-          .replace(/&amp;/g, "&")
-          .replace(/&lt;/g, "<")
-          .replace(/&gt;/g, ">")
-          .replace(/&nbsp;/g, " ")
-          .trim();
-      }
 
       function mkText(html, trans, item = null) {
         const block = document.createElement("div");
@@ -3399,13 +3038,7 @@
         let segHadUnresolvedOrdinary = false;
 
         function flushSeg() {
-          if (!segItems.length) {
-            segTitle = null;
-            segHadUnresolvedOrdinary = false;
-            return;
-          }
-          const resolvedMusic = segItems.filter((i) => i.type === "music").length;
-          if (!segHadUnresolvedOrdinary || resolvedMusic) {
+          if (shouldKeepSegment(segItems, segHadUnresolvedOrdinary)) {
             if (segTitle) exportOrdo.push(segTitle);
             exportOrdo.push(...segItems);
           }
