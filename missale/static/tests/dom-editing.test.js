@@ -46,6 +46,39 @@ describe("delete + undo/redo", () => {
   });
 });
 
+describe("variant-strip switching", () => {
+  test("clicking a variant button re-renders the chant and updates the exported _varChoice", async () => {
+    const dom = await loadPage({ fetchImpl: realDataFetch });
+    const { window, document } = dom.window;
+    await window.loadIndex();
+    await window.loadMass("tempora", "Nat1-0"); // has Gloria -> dismissal setting "1" has 2 variants
+    document.getElementById("ordinarySelect").value = "1";
+    document.getElementById("ordinarySelect").dispatchEvent(new window.Event("change"));
+
+    const wraps = [...document.querySelectorAll("#main .obj-wrap")];
+    const titleIdx = wraps.findIndex(
+      (w) => w.querySelector(".section-title")?.textContent === "Dimissio",
+    );
+    const dismissalWrap = wraps[titleIdx + 2];
+    const btns = [...dismissalWrap.querySelectorAll(".variant-btn")];
+    assert.ok(btns.length > 1, "expected dismissal setting 1 to offer more than one variant");
+    assert.equal(btns[0].classList.contains("active"), true);
+    const gabcBefore = dismissalWrap.querySelector(".chant-gabc").dataset.gabc;
+
+    btns[1].click();
+    await new Promise((r) => setTimeout(r, 50));
+
+    assert.equal(btns[0].classList.contains("active"), false);
+    assert.equal(btns[1].classList.contains("active"), true);
+    assert.notEqual(dismissalWrap.querySelector(".chant-gabc").dataset.gabc, gabcBefore);
+
+    const exported = window
+      ._buildFullSessionExport()
+      .ordo.find((i) => i.type === "music" && i.ordinary === "dismissal");
+    assert.equal(exported._varChoice, 1);
+  });
+});
+
 describe("GABC live editing", () => {
   test("editing a chant's GABC via the ✎ control updates what gets exported, after the debounce settles", async () => {
     const dom = await loadPage({ fetchImpl: realDataFetch });

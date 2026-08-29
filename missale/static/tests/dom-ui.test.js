@@ -27,6 +27,35 @@ describe("type tabs", () => {
   });
 });
 
+describe("print-only title block live sync", () => {
+  test("typing in the Feast/Subtitle fields updates the print-only title block, and clearing falls back to the mass's own values", async () => {
+    const dom = await loadPage({ fetchImpl: realDataFetch });
+    const { window, document } = dom.window;
+    await window.loadIndex();
+    await window.loadMass("tempora", "Adv1-0");
+    assert.equal(document.querySelector(".print-feast").textContent, "Dominica I Adventus");
+    assert.equal(document.querySelector(".print-subtitle").textContent, "Missa Cantata");
+
+    const feastInput = document.getElementById("epFeast");
+    feastInput.value = "Custom Feast Name";
+    feastInput.dispatchEvent(new window.Event("input"));
+    assert.equal(document.querySelector(".print-feast").textContent, "Custom Feast Name");
+
+    const subtitleInput = document.getElementById("epSubtitle");
+    subtitleInput.value = "Custom Subtitle";
+    subtitleInput.dispatchEvent(new window.Event("input"));
+    assert.equal(document.querySelector(".print-subtitle").textContent, "Custom Subtitle");
+
+    feastInput.value = "";
+    feastInput.dispatchEvent(new window.Event("input"));
+    assert.equal(document.querySelector(".print-feast").textContent, "Dominica I Adventus");
+
+    subtitleInput.value = "";
+    subtitleInput.dispatchEvent(new window.Event("input"));
+    assert.equal(document.querySelector(".print-subtitle").textContent, "Missa Cantata");
+  });
+});
+
 describe("about modal", () => {
   test("toggleAbout shows the modal and fills in the pipeline version/data dates from the loaded mass, once", async () => {
     const dom = await loadPage({ fetchImpl: realDataFetch });
