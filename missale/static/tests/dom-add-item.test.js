@@ -3,10 +3,9 @@ const assert = require("node:assert/strict");
 const { loadPage, realDataFetch } = require("./dom-harness.js");
 
 // Covers the bottom-of-page "+" add-zone form (_mkItemForm/mkObjZone) for
-// its two simplest item types (Title, Rubric) -- Text and Music are left
-// uncovered here since Music additionally branches into a chant-index
-// search UI backed by network calls (_loadChantIndex/_fetchGabc), which
-// isn't exercised by this harness's fetchImpl.
+// Title, Rubric, and Text -- Music is covered separately in
+// dom-chant-search.test.js, since it additionally branches into a
+// chant-index search UI backed by network calls.
 
 describe("add-zone: creating a new item", () => {
   test("the Add button starts disabled and enables once the (default) Rubric field has text", async () => {
@@ -77,6 +76,30 @@ describe("add-zone: creating a new item", () => {
     const wraps = [...document.querySelectorAll("#main .obj-wrap")];
     assert.equal(wraps.length, countBefore + 1);
     assert.equal(wraps[wraps.length - 1].querySelector(".section-title")?.textContent, "");
+  });
+
+  test("adding a Text item with no language selected requires only Latin, not a translation", async () => {
+    const dom = await loadPage({ fetchImpl: realDataFetch });
+    const { window, document } = dom.window;
+    await window.loadIndex();
+    await window.loadMass("tempora", "Adv1-0");
+    assert.equal(document.getElementById("langSelect").value, "");
+    const countBefore = document.querySelectorAll("#main .obj-wrap").length;
+
+    document.querySelector(".add-zone .add-btn").click();
+    const form = document.querySelector(".add-form");
+    [...form.querySelectorAll(".type-row .ep-btn")].find((b) => b.textContent === "Text").click();
+    const latinField = form.querySelectorAll(".add-form-field")[2].querySelector("textarea");
+    latinField.value = "Dominus vobiscum.";
+    latinField.dispatchEvent(new window.Event("input"));
+    const addBtn = form.querySelector(".btn-confirm");
+    assert.equal(addBtn.disabled, false);
+
+    addBtn.click();
+
+    const wraps = [...document.querySelectorAll("#main .obj-wrap")];
+    assert.equal(wraps.length, countBefore + 1);
+    assert.equal(wraps[wraps.length - 1].querySelector(".text-la")?.textContent, "Dominus vobiscum.");
   });
 
   test("Cancel removes the form without changing the item count", async () => {

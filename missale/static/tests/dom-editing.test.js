@@ -46,6 +46,37 @@ describe("delete + undo/redo", () => {
   });
 });
 
+describe("GABC live editing", () => {
+  test("editing a chant's GABC via the ✎ control updates what gets exported, after the debounce settles", async () => {
+    const dom = await loadPage({ fetchImpl: realDataFetch });
+    const { window, document } = dom.window;
+    await window.loadIndex();
+    await window.loadMass("tempora", "Adv1-0");
+
+    // A concrete-gabc item, not an Ordinary-driven one (Kyrie/Gloria/etc.):
+    // those don't wire up item._getGabc, so a live GABC edit on them isn't
+    // captured by the session export -- only the chosen Ordinary key/index
+    // is (see _snapshotOrdoItem). That's a separate, narrower case; this
+    // test covers the item kind the edit UI is actually meant to persist.
+    const plainMusicIdx = window
+      ._buildFullSessionExport()
+      .ordo.findIndex((i) => i.type === "music" && i.gabc && !i.ordinary);
+    const wrap = document.querySelectorAll("#main .obj-wrap")[plainMusicIdx];
+    const editCtrlBtn = wrap.querySelector(".ctrl-btn[title='Edit GABC']");
+    editCtrlBtn.click();
+    const textarea = wrap.querySelector(".gabc-editor");
+    assert.ok(textarea);
+
+    textarea.value = "(c3) TEST(f)";
+    textarea.dispatchEvent(new window.Event("input"));
+    // The textarea's own input handler debounces re-rendering by 600ms.
+    await new Promise((r) => setTimeout(r, 700));
+
+    const exported = window._buildFullSessionExport();
+    assert.equal(exported.ordo[plainMusicIdx].gabc, "(c3) TEST(f)");
+  });
+});
+
 describe("Missalette/Pew sheet target toggles", () => {
   test("clicking the M/P buttons on an item updates its exported targets", async () => {
     const dom = await loadPage({ fetchImpl: realDataFetch });
