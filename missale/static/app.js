@@ -841,7 +841,7 @@ function mkObjectWrap(item, ordo, lang, ordNum, credNum, hasGloria, hasCredo, qu
     item._el = textEl.querySelector(".text-la");
     content.appendChild(textEl);
   } else if (item.type === "music") {
-    if (item.gabc) {
+    if (item.gabc && !item.ordinary) {
       const trans = lang
         ? (item.availableTranslations || {})[lang] || item.translation || ""
         : item.translation || "";
@@ -1625,6 +1625,9 @@ function mkOrdinaryBlock(key, item, opts, queue) {
   function showVariants(chosenKey, resetVariantChoice) {
     chantWrap.innerHTML = "";
     item._triggerEdit = null;
+    item._getGabc = null;
+    item._getMode = null;
+    item._ordDefaultGabc = null;
     if (!chosenKey) return;
     const variants = allSettings[String(chosenKey)] || [];
     if (!variants.length) return;
@@ -1634,17 +1637,22 @@ function mkOrdinaryBlock(key, item, opts, queue) {
         : (item._varChoice ?? 0);
     if (resetVariantChoice) item._varChoice = initialIdx;
     const q = [];
-    const card =
-      variants.length === 1
-        ? mkChant(variants[0].gabc, "", q, true, variants[0].mode ?? null)
-        : mkVariantChant(
-            variants,
-            q,
-            (idx) => {
-              item._varChoice = idx;
-            },
-            initialIdx,
-          );
+    let card;
+    if (variants.length === 1) {
+      card = mkChant(variants[0].gabc, "", q, true, variants[0].mode ?? null);
+      item._ordDefaultGabc = variants[0].gabc;
+      item._getGabc = () => card._getLiveGabc();
+      item._getMode = () => card._getLiveMode();
+    } else {
+      card = mkVariantChant(
+        variants,
+        q,
+        (idx) => {
+          item._varChoice = idx;
+        },
+        initialIdx,
+      );
+    }
     _attachTranslation(card, chosenKey);
     item._triggerEdit = () => card._triggerEdit?.();
     chantWrap.appendChild(card);
@@ -1672,17 +1680,30 @@ function mkOrdinaryBlock(key, item, opts, queue) {
         ? opts.getInitialVariantIdx(variants)
         : (item._varChoice ?? 0);
       if (item._varChoice == null) item._varChoice = initialIdx;
-      const card =
-        variants.length === 1
-          ? mkChant(variants[0].gabc, "", queue, true, variants[0].mode ?? null)
-          : mkVariantChant(
-              variants,
-              queue,
-              (idx) => {
-                item._varChoice = idx;
-              },
-              item._varChoice,
-            );
+      let card;
+      if (variants.length === 1) {
+        const defaultGabc = variants[0].gabc;
+        const edited = item.gabc && item.gabc !== defaultGabc;
+        card = mkChant(
+          edited ? item.gabc : defaultGabc,
+          "",
+          queue,
+          true,
+          edited ? item.mode || variants[0].mode || null : (variants[0].mode ?? null),
+        );
+        item._ordDefaultGabc = defaultGabc;
+        item._getGabc = () => card._getLiveGabc();
+        item._getMode = () => card._getLiveMode();
+      } else {
+        card = mkVariantChant(
+          variants,
+          queue,
+          (idx) => {
+            item._varChoice = idx;
+          },
+          item._varChoice,
+        );
+      }
       _attachTranslation(card, cur);
       item._triggerEdit = () => card._triggerEdit?.();
       chantWrap.appendChild(card);
@@ -2106,7 +2127,11 @@ function _snapshotOrdoItem(item) {
     return out;
   }
   if (item.type === "music") {
-    if (item.gabc || item._getGabc) {
+    // Ordinary items get _getGabc wired up too (see mkOrdinaryBlock), so
+    // item.ordinary must take priority here -- otherwise a resolved
+    // single-variant Ordinary chant would be exported as a plain chant,
+    // losing its ordinary/_ordChoice/_varChoice.
+    if (!item.ordinary && (item.gabc || item._getGabc)) {
       const gabc = item._getGabc ? item._getGabc() : item.gabc;
       const out = { type: "music", gabc, targets: item.targets };
       const mode = item._getMode ? item._getMode() : item.mode;
@@ -2121,6 +2146,13 @@ function _snapshotOrdoItem(item) {
       if (item._ordChoice != null) out._ordChoice = item._ordChoice;
       if (item._varChoice != null) out._varChoice = item._varChoice;
       if (item.translation) out.translation = item.translation;
+      const liveGabc = item._getGabc ? item._getGabc() : null;
+      const edited = liveGabc != null && liveGabc !== item._ordDefaultGabc;
+      out.gabc = edited ? liveGabc : "";
+      if (edited) {
+        const liveMode = item._getMode ? item._getMode() : null;
+        if (liveMode) out.mode = String(liveMode);
+      }
       return out;
     }
   }
@@ -2280,8 +2312,12 @@ function _buildExportJson() {
         if (!variants.length) return null;
         const varIdx = item._varChoice ?? 0;
         const v = variants[varIdx] || variants[0];
-        const ei = { type: "music", gabc: v.gabc, targets: item.targets };
-        if (v.mode) ei.mode = v.mode;
+        const liveGabc = item._getGabc ? item._getGabc() : null;
+        const edited = liveGabc != null && liveGabc !== item._ordDefaultGabc;
+        const ei = { type: "music", gabc: edited ? liveGabc : v.gabc, targets: item.targets };
+        const liveMode = edited && item._getMode ? item._getMode() : null;
+        if (liveMode) ei.mode = String(liveMode);
+        else if (v.mode) ei.mode = v.mode;
         const t = item.translation || null;
         if (t) ei.translation = t;
         return ei;
