@@ -33,6 +33,18 @@ async function trimmedChantIndexFetch(url) {
   return realDataFetch(url);
 }
 
+// Simulates a reachable Worker, returning `gabcFields` for any /gabc/<id>
+// lookup, so the "Add" click's own handling of the fetched result (not just
+// the fetch failing) can be exercised.
+function withFakeWorker(gabcFields) {
+  return async (url) => {
+    if (/\/gabc\/\d+$/.test(String(url))) {
+      return { ok: true, status: 200, json: async () => ({ gabc: gabcFields }) };
+    }
+    return trimmedChantIndexFetch(url);
+  };
+}
+
 async function openMusicSearch(document, window) {
   document.querySelector(".add-zone .add-btn").click();
   const form = document.querySelector(".add-form");
@@ -93,6 +105,61 @@ describe("add-zone music search", () => {
     await search(window, form, "999999999");
 
     assert.match(form.querySelector(".search-preview-box").textContent, /No chant found/);
+  });
+
+  test("Add, after selecting a single-gabc result, appends one music item with its mode", async () => {
+    const dom = await loadPage({ fetchImpl: withFakeWorker(["(c3) ONE(f)"]) });
+    const { window, document } = dom.window;
+    await window.loadIndex();
+    await window.loadMass("tempora", "Adv1-0");
+    const countBefore = document.querySelectorAll("#main .obj-wrap").length;
+    const form = await openMusicSearch(document, window);
+    await search(window, form, "kyrie");
+
+    form.querySelector(".search-result-item").click();
+    await new Promise((r) => setTimeout(r, 100));
+    assert.equal(form.querySelector(".btn-confirm").disabled, false);
+
+    form.querySelector(".btn-confirm").click();
+
+    assert.equal(document.querySelector(".add-form"), null);
+    const wraps = [...document.querySelectorAll("#main .obj-wrap")];
+    assert.equal(wraps.length, countBefore + 1);
+    const added = window._buildFullSessionExport().ordo.at(-1);
+    assert.equal(added.gabc, "(c3) ONE(f)");
+    assert.equal(added.mode, "1"); // from the kyrie entry's own chant_index.json mode
+  });
+
+  test("Add, after selecting a multi-gabc result (e.g. verse + response), appends one item per gabc field", async () => {
+    // Regression test: selectedEntry was set to the bare chant_index.json
+    // entry (no "gabc" field) and never updated once the real notation
+    // arrived -- only a throwaway clone was built for the preview. Add's
+    // click handler reads selectedEntry.gabc directly and threw
+    // (Cannot read properties of undefined (reading 'length')), so the
+    // form got stuck open with nothing actually added.
+    const dom = await loadPage({ fetchImpl: withFakeWorker(["(c3) ONE(f)", "(c3) TWO(g)"]) });
+    const { window, document } = dom.window;
+    await window.loadIndex();
+    await window.loadMass("tempora", "Adv1-0");
+    const countBefore = document.querySelectorAll("#main .obj-wrap").length;
+    const form = await openMusicSearch(document, window);
+    await search(window, form, "kyrie");
+
+    form.querySelector(".search-result-item").click();
+    await new Promise((r) => setTimeout(r, 100));
+
+    form.querySelector(".btn-confirm").click();
+
+    assert.equal(document.querySelector(".add-form"), null, "form should close, not get stuck");
+    const wraps = [...document.querySelectorAll("#main .obj-wrap")];
+    assert.equal(wraps.length, countBefore + 2);
+    const added = window._buildFullSessionExport().ordo.slice(-2);
+    assert.deepEqual(
+      added.map((i) => i.gabc),
+      ["(c3) ONE(f)", "(c3) TWO(g)"],
+    );
+    assert.equal(added[0].mode, "1"); // only the first field inherits the entry's own mode
+    assert.equal(added[1].mode, undefined);
   });
 
   test("clearing the query clears results and hides the preview", async () => {

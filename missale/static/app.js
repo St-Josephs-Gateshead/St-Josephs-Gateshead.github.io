@@ -1328,7 +1328,11 @@ function _mkItemForm(ordo, insertBefore) {
         const gabc = await _fetchGabc(entry.id);
         if (gabc) {
           resolvedGabc = gabc[0];
-          _showPreview({ ...entry, gabc });
+          // Clicking Add later reads selectedEntry.gabc directly (for a
+          // multi-chant entry, e.g. verse+response) -- it must carry the
+          // fetched array itself, not just a throwaway clone for the preview.
+          selectedEntry = { ...entry, gabc };
+          _showPreview(selectedEntry);
         } else {
           previewBox.innerHTML = '<div class="placeholder">GABC not available.</div>';
         }
@@ -1362,7 +1366,10 @@ function _mkItemForm(ordo, insertBefore) {
           const gabc = await _fetchGabc(parsed.id);
           if (gabc) {
             resolvedGabc = gabc[0];
-            _showPreview({ ...entry, gabc });
+            // See the text-search result handler above: selectedEntry.gabc
+            // must be the real fetched array, not a throwaway preview clone.
+            selectedEntry = { ...entry, gabc };
+            _showPreview(selectedEntry);
           } else {
             previewBox.innerHTML =
               '<div class="placeholder">GABC not available for id ' +
